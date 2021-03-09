@@ -22,7 +22,6 @@ export class DepartmentTabs {
     }
 
     addTabs(departments) {
-        return;
         departments.forEach((department) => {
            let navTab = this.navTabTemplate.clone();
            navTab.attr('data-w-tab', department.abbrev);
