@@ -1,0 +1,26 @@
+{
+  "name": "presidentialemploymentstimulus-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:OpenUpSA/keepthereceipt-fe.git",
+  "author": "Peter van Heusden <pvh@webbedfeet.co.za>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "parcel": "1.12.3",
+    "d3-format": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "parcel -p 1235 index.html",
+    "build": "parcel build index.html"
+  },
+  "importWebflowExport": {
+    "importHtml": [
+      {
+        "glob": "*.html",
+        "destDir": "src",
+        "transforms": "./src/js/webflow/import.js"
+      }
+    ]
+  }
+}
