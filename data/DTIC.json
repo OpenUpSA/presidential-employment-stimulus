@@ -40,7 +40,7 @@
           "metric_type": "currency",
           "value": 43012250,
           "time": {
-            "name": "what_is_this_name_for",
+            "name": "Spent over time",
             "values": [
               {
                 "month": 202011,
