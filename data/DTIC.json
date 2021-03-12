@@ -1,1 +1,146 @@
-<bound method DataClassJsonMixin.to_json of Department(month=202012, name='Trade, Industry and Competition', sheet_name='DTIC', lead='Piloting new models for re-shoring and expanding global business services', paragraph='The Global Business Services Sector has an impressive track record. Established in 2006/7 to provide offshore customer service delivery, the sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20% since 2014.', sections=[Section(name='Programme targets for this department', section_type='targets', metrics=[Metric(name='Budget', metric_type='currency', value=120000000, time=None, gender=None, age=None, province=None, value_target=-1), Metric(name='Job opportunities', metric_type='count', value=8000, time=None, gender=None, age=None, province=None, value_target=-1)]), Section(name='Budget allocated to date', section_type='budget_allocated', metrics=[Metric(name='Global Business Services Sector expansion', metric_type='currency', value=43012250, time=TimeValues(name='what_is_this_name_for', values=[TimeValue(month=202011, name="Nov '20", value=20863750), TimeValue(month=202012, name="Dec '20", value=43012250)]), gender=None, age=None, province=None, value_target=120000000)]), Section(name='Job opportunities created to date', section_type='job_opportunities', metrics=[Metric(name='Global Business Services Sector expansion', metric_type='count', value=7572, time=TimeValues(name='Employed over time', values=[TimeValue(month=202012, name="Dec '20", value=7572)]), gender=GenderValues(name='Jobs by Gender', values=[GenderValue(gender='Male', value=36.0), GenderValue(gender='Female', value=64.0)]), age=AgeValues(name='Opportunities for 18-35 year olds', values=[AgeValue(age_category='18-35', value=6436)]), province=ProvinceValues(name='Opportunities by Province', values=[ProvinceValue(province='FS', value=0), ProvinceValue(province='GP', value=872), ProvinceValue(province='KZN', value=7166), ProvinceValue(province='LP', value=0), ProvinceValue(province='MP', value=0), ProvinceValue(province='NW', value=0), ProvinceValue(province='NC', value=0), ProvinceValue(province='WC', value=7106)]), value_target=-1)])])>
+{
+  "month": 202012,
+  "name": "Trade, Industry and Competition",
+  "sheet_name": "DTIC",
+  "lead": "Piloting new models for re-shoring and expanding global business services",
+  "paragraph": "The Global Business Services Sector has an impressive track record. Established in 2006/7 to provide offshore customer service delivery, the sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20% since 2014.",
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Budget",
+          "metric_type": "currency",
+          "value": 120000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Job opportunities",
+          "metric_type": "count",
+          "value": 8000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Budget allocated to date",
+      "section_type": "budget_allocated",
+      "metrics": [
+        {
+          "name": "Global Business Services Sector expansion",
+          "metric_type": "currency",
+          "value": 43012250,
+          "time": {
+            "name": "what_is_this_name_for",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 20863750
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 43012250
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 120000000
+        }
+      ]
+    },
+    {
+      "name": "Job opportunities created to date",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Global Business Services Sector expansion",
+          "metric_type": "count",
+          "value": 7572,
+          "time": {
+            "name": "Employed over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 7572
+              }
+            ]
+          },
+          "gender": {
+            "name": "Jobs by Gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 36.0
+              },
+              {
+                "gender": "Female",
+                "value": 64.0
+              }
+            ]
+          },
+          "age": {
+            "name": "Opportunities for 18-35 year olds",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 6436
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
+                "province": "GP",
+                "value": 872
+              },
+              {
+                "province": "KZN",
+                "value": 7166
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 0
+              },
+              {
+                "province": "NW",
+                "value": 0
+              },
+              {
+                "province": "NC",
+                "value": 0
+              },
+              {
+                "province": "WC",
+                "value": 7106
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    }
+  ]
+}
