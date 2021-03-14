@@ -1,0 +1,367 @@
+{
+  "month": 202103,
+  "name": "Trade, Industry and Competition",
+  "sheet_name": "DBE",
+  "lead": "Teachers assistants and other support for schools",
+  "paragraph": "A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 7000000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Budget for Education and General Assistant Posts",
+          "metric_type": "currency",
+          "value": 6998800000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Budget for Saving Vulnerable Posts",
+          "metric_type": "currency",
+          "value": 2431815000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Job opportunities",
+          "metric_type": "count",
+          "value": 344933,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Budget allocated to date",
+      "section_type": "budget_allocated",
+      "metrics": [
+        {
+          "name": "Education and general assistants",
+          "metric_type": "currency",
+          "value": 2830425003,
+          "time": {
+            "name": "Spent over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 1512003
+              },
+              {
+                "month": 202103,
+                "name": "Mar '21",
+                "value": 2828913000
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 7000000000
+        },
+        {
+          "name": "Vulnerable  posts saved",
+          "metric_type": "currency",
+          "value": 380149913,
+          "time": {
+            "name": "Spent over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 151913
+              },
+              {
+                "month": 202103,
+                "name": "Mar '21",
+                "value": 379998000
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 7000000000
+        }
+      ]
+    },
+    {
+      "name": "Job opportunities created to date",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Education assistants",
+          "metric_type": "count",
+          "value": 155341,
+          "time": {
+            "name": "Employed over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 158437
+              },
+              {
+                "month": 202103,
+                "name": "Mar '21",
+                "value": 155341
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": [
+                  30628
+                ]
+              },
+              {
+                "province": "FS",
+                "value": [
+                  11021
+                ]
+              },
+              {
+                "province": "GP",
+                "value": [
+                  "28 875"
+                ]
+              },
+              {
+                "province": "KZN",
+                "value": [
+                  42591
+                ]
+              },
+              {
+                "province": "LP",
+                "value": [
+                  30708
+                ]
+              },
+              {
+                "province": "MP",
+                "value": [
+                  16027
+                ]
+              },
+              {
+                "province": "NW",
+                "value": [
+                  12983
+                ]
+              },
+              {
+                "province": "NC",
+                "value": [
+                  3138
+                ]
+              },
+              {
+                "province": "WC",
+                "value": [
+                  8245
+                ]
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "General assistants",
+          "metric_type": "count",
+          "value": 128894,
+          "time": {
+            "name": "Employed over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 120735
+              },
+              {
+                "month": 202103,
+                "name": "Mar '21",
+                "value": 128894
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": [
+                  25175
+                ]
+              },
+              {
+                "province": "FS",
+                "value": [
+                  6989
+                ]
+              },
+              {
+                "province": "GP",
+                "value": [
+                  15724
+                ]
+              },
+              {
+                "province": "KZN",
+                "value": [
+                  30888
+                ]
+              },
+              {
+                "province": "LP",
+                "value": [
+                  21408
+                ]
+              },
+              {
+                "province": "MP",
+                "value": [
+                  10082
+                ]
+              },
+              {
+                "province": "NW",
+                "value": [
+                  8659
+                ]
+              },
+              {
+                "province": "NC",
+                "value": [
+                  4198
+                ]
+              },
+              {
+                "province": "WC",
+                "value": [
+                  5771
+                ]
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Jobs Retained",
+      "section_type": "jobs_retain",
+      "metrics": [
+        {
+          "name": "Vulnerable posts saved",
+          "metric_type": "count",
+          "value": 26779,
+          "time": {
+            "name": "Jobs saved over time",
+            "values": [
+              {
+                "month": [
+                  1
+                ],
+                "name": "Mar '21",
+                "value": [
+                  21988,
+                  26779
+                ]
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": {
+            "name": "Posts saved by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": [
+                  25175
+                ]
+              },
+              {
+                "province": "FS",
+                "value": [
+                  6989
+                ]
+              },
+              {
+                "province": "GP",
+                "value": [
+                  15724
+                ]
+              },
+              {
+                "province": "KZN",
+                "value": [
+                  30888
+                ]
+              },
+              {
+                "province": "LP",
+                "value": [
+                  21408
+                ]
+              },
+              {
+                "province": "MP",
+                "value": [
+                  10082
+                ]
+              },
+              {
+                "province": "NW",
+                "value": [
+                  8659
+                ]
+              },
+              {
+                "province": "NC",
+                "value": [
+                  4198
+                ]
+              },
+              {
+                "province": "WC",
+                "value": [
+                  5771
+                ]
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    }
+  ]
+}
