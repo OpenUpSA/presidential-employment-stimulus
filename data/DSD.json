@@ -1,0 +1,175 @@
+{
+  "month": 202103,
+  "name": "Social Development",
+  "sheet_name": "DSD",
+  "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
+  "paragraph": "Livelihoods from the provision of Early Childhood Development services were severely disrupted by the pandemic, with providers facing challenges with re-opening. There are costs associated with doing so safely, and some parents can no longer afford to pay fees as a result of job losses.",
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 588728000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Budget for social workers",
+          "metric_type": "currency",
+          "value": 75978000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Budget for registration support officers",
+          "metric_type": "currency",
+          "value": 16500000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Programme beneficiaries",
+          "metric_type": "count",
+          "value": 111142,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Budget allocated to date",
+      "section_type": "budget_allocated",
+      "metrics": [
+        {
+          "name": "Budget for social workers",
+          "metric_type": "currency",
+          "value": 11010000,
+          "time": {
+            "name": "Spend this month",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 4494000
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 6516000
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 75978000
+        }
+      ]
+    },
+    {
+      "name": "Jobs retained",
+      "section_type": "jobs_retain",
+      "metrics": [
+        {
+          "name": "Social workers retained",
+          "metric_type": "count",
+          "value": 1086,
+          "time": {
+            "name": "Jobs retained over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 749
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 1086
+              }
+            ]
+          },
+          "gender": {
+            "name": "Jobs retained by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.13
+              },
+              {
+                "gender": "Female",
+                "value": 0.87
+              }
+            ]
+          },
+          "age": {
+            "name": "Jobs retained by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.61
+              }
+            ]
+          },
+          "province": {
+            "name": "Jobs retained by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 282
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
+                "province": "GP",
+                "value": 305
+              },
+              {
+                "province": "KZN",
+                "value": 235
+              },
+              {
+                "province": "LP",
+                "value": 99
+              },
+              {
+                "province": "MP",
+                "value": 116
+              },
+              {
+                "province": "NW",
+                "value": 43
+              },
+              {
+                "province": "NC",
+                "value": 6
+              },
+              {
+                "province": "WC",
+                "value": 0
+              }
+            ]
+          },
+          "value_target": 1809
+        }
+      ]
+    }
+  ]
+}
