@@ -3,7 +3,7 @@
   "name": "Science and Innovation",
   "sheet_name": "DSI",
   "lead": "Supporting new graduates entering a hostile labour market",
-  "paragraph": "18 IMPLEMENTING DEPARTMENT:DEPARTMENT OF SCIENCE AND INNOVATIONGiven a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\n\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
+  "paragraph": "Given a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\n\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
   "sections": [
     {
       "name": "Programme targets for this department",
@@ -12,7 +12,7 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 1000000000,
+          "value": 45000000,
           "time": null,
           "gender": null,
           "age": null,
