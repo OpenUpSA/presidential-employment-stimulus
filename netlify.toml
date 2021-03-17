@@ -1,0 +1,11 @@
+# Deployment from production branch commits
+[context.production]
+  command = "npm run build"
+
+# Preview builds for pull requests
+[context.deploy-preview]
+  command = "npm run build"
+
+# All other commits
+[context.branch-deploy]
+  command = "npm run lint"

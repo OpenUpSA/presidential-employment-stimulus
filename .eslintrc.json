@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "ignorePatterns": [
+      "src/js/webflow.js"
+    ],
+    "rules": {
+      "no-new": "off",
+      "no-underscore-dangle": "off",
+      "import/prefer-default-export": "off"
+    }
+}
