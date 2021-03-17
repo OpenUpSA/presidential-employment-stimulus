@@ -1,0 +1,54 @@
+{
+  "name": "sona-employment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "webflow-import": "npx import-webflow webflow-export.zip",
+    "lint": "eslint src/js/ --ext js"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "data",
+        "staticOutDir": "data"
+      }
+    ]
+  },
+  "importWebflowExport": {
+    "copyTrees": {
+      "css": "src/css",
+      "js": "src/js",
+      "images": "src/images"
+    },
+    "importHtml": [
+      {
+        "glob": "*.html",
+        "destDir": "src",
+        "transforms": "./src/js/webflow-transform.js"
+      }
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "import-webflow-export": "0.0.4",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.5.1"
+  },
+  "dependencies": {
+    "d3": "^6.5.0",
+    "d3-collection": "^1.0.7",
+    "d3-fetch": "^2.0.0",
+    "d3-selection": "^2.0.0",
+    "d3-shape": "^2.1.0",
+    "jquery": "^3.5.1"
+  }
+}
