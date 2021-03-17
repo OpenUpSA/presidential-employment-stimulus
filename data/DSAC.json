@@ -182,7 +182,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "National Museum Bloemfontein - Banking on art, connecting lives",
@@ -206,7 +206,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 500
         },
         {
           "name": "South African Cultural Observatory (Graduates: marketing plans)",
@@ -216,7 +216,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "South African Heritage Resources Agency",
@@ -240,7 +240,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 260
         },
         {
           "name": "National Library of South Africa digitisation",
@@ -259,7 +259,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         },
         {
           "name": "National Archives digitisation",
@@ -278,7 +278,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         }
       ]
     },
@@ -313,7 +313,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "National Museum Bloemfontein - Banking on art, connecting lives",
@@ -337,7 +337,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 500
         },
         {
           "name": "South African Cultural Observatory (Graduates: marketing plans)",
@@ -347,7 +347,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "South African Heritage Resources Agency",
@@ -371,7 +371,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 260
         },
         {
           "name": "National Library of South Africa digitisation",
@@ -390,7 +390,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         },
         {
           "name": "National Archives digitisation",
@@ -409,7 +409,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         }
       ]
     },
@@ -444,7 +444,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "National Museum Bloemfontein - Banking on art, connecting lives",
@@ -468,7 +468,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 500
         },
         {
           "name": "South African Cultural Observatory (Graduates: marketing plans)",
@@ -478,7 +478,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 900
         },
         {
           "name": "South African Heritage Resources Agency",
@@ -502,7 +502,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 260
         },
         {
           "name": "National Library of South Africa digitisation",
@@ -521,7 +521,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         },
         {
           "name": "National Archives digitisation",
@@ -540,7 +540,7 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 163
         }
       ]
     }

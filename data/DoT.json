@@ -1,0 +1,35 @@
+{
+  "month": 202101,
+  "name": "Transport",
+  "sheet_name": "DoT",
+  "lead": "Improving access to services and opportunities for people in rural areas",
+  "paragraph": "Rural roads play a vital role in connecting rural communities to services such as health and education, as well as providing access to markets and economic opportunities. However, rural roads infrastructure remains poor in many areas of South Africa",
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 630000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Overall opportunities created",
+          "metric_type": "count",
+          "value": 37079,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    }
+  ]
+}
