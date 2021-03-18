@@ -60,7 +60,6 @@ d3.json('data/all_data.json').then((data) => {
             subSection.$container,
             'count',
             ageValue,
-            totalValue,
           );
         }
         if (subSectionData.province) {

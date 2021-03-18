@@ -21,6 +21,7 @@ export class Section {
 
   render() {
     const $header = $headerTemplate.clone(true, true);
+    $header.find('.header__label').text(''); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")
     $header.find('h3').text(this._title);
     if (this._lead) {
       $header.find('h4').text(this._lead);
