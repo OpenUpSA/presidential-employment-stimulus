@@ -20,96 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 7000000000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 7000000000
         },
         {
-          "name": "Budget for Education and General Assistant Posts",
-          "metric_type": "currency",
-          "value": 6998800000,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Budget for Saving Vulnerable Posts",
-          "metric_type": "currency",
-          "value": 2431815000,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Job opportunities",
+          "name": "Programme beneficiaries",
           "metric_type": "count",
-          "value": 344933,
+          "value": 311014,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
-        }
-      ]
-    },
-    {
-      "name": "Budget allocated to date",
-      "section_type": "budget_allocated",
-      "metrics": [
-        {
-          "name": "Education and general assistants",
-          "metric_type": "currency",
-          "value": 2830425003,
-          "time": {
-            "name": "Spent over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 1512003
-              },
-              {
-                "month": 202103,
-                "name": "Mar '21",
-                "value": 2828913000
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 7000000000
-        },
-        {
-          "name": "Vulnerable  posts saved",
-          "metric_type": "currency",
-          "value": 380149913,
-          "time": {
-            "name": "Spent over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 151913
-              },
-              {
-                "month": 202103,
-                "name": "Mar '21",
-                "value": 379998000
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 7000000000
+          "value_target": 344933
         }
       ]
     },
@@ -125,13 +51,13 @@
             "name": "Employed over time",
             "values": [
               {
-                "month": 202101,
-                "name": "Jan '21",
+                "month": 202011,
+                "name": "Nov '20",
                 "value": 158437
               },
               {
-                "month": 202103,
-                "name": "Mar '21",
+                "month": 202012,
+                "name": "Dec '20",
                 "value": 155341
               }
             ]
@@ -143,61 +69,43 @@
             "values": [
               {
                 "province": "EC",
-                "value": [
-                  30628
-                ]
+                "value": 30628
               },
               {
                 "province": "FS",
-                "value": [
-                  11021
-                ]
+                "value": 11021
               },
               {
                 "province": "GP",
-                "value": [
-                  "28 875"
-                ]
+                "value": 28875
               },
               {
                 "province": "KZN",
-                "value": [
-                  42591
-                ]
+                "value": 42591
               },
               {
                 "province": "LP",
-                "value": [
-                  30708
-                ]
+                "value": 30708
               },
               {
                 "province": "MP",
-                "value": [
-                  16027
-                ]
+                "value": 16027
               },
               {
                 "province": "NW",
-                "value": [
-                  12983
-                ]
+                "value": 12983
               },
               {
                 "province": "NC",
-                "value": [
-                  3138
-                ]
+                "value": 3138
               },
               {
                 "province": "WC",
-                "value": [
-                  8245
-                ]
+                "value": 8245
               }
             ]
           },
-          "value_target": -1
+          "value_target": 200000
         },
         {
           "name": "General assistants",
@@ -207,13 +115,13 @@
             "name": "Employed over time",
             "values": [
               {
-                "month": 202101,
-                "name": "Jan '21",
+                "month": 202011,
+                "name": "Nov '20",
                 "value": 120735
               },
               {
-                "month": 202103,
-                "name": "Mar '21",
+                "month": 202012,
+                "name": "Dec '20",
                 "value": 128894
               }
             ]
@@ -225,61 +133,43 @@
             "values": [
               {
                 "province": "EC",
-                "value": [
-                  25175
-                ]
+                "value": 25175
               },
               {
                 "province": "FS",
-                "value": [
-                  6989
-                ]
+                "value": 6989
               },
               {
                 "province": "GP",
-                "value": [
-                  15724
-                ]
+                "value": 15724
               },
               {
                 "province": "KZN",
-                "value": [
-                  30888
-                ]
+                "value": 30888
               },
               {
                 "province": "LP",
-                "value": [
-                  21408
-                ]
+                "value": 21408
               },
               {
                 "province": "MP",
-                "value": [
-                  10082
-                ]
+                "value": 10082
               },
               {
                 "province": "NW",
-                "value": [
-                  8659
-                ]
+                "value": 8659
               },
               {
                 "province": "NC",
-                "value": [
-                  4198
-                ]
+                "value": 4198
               },
               {
                 "province": "WC",
-                "value": [
-                  5771
-                ]
+                "value": 5771
               }
             ]
           },
-          "value_target": -1
+          "value_target": 100000
         }
       ]
     },
@@ -295,8 +185,8 @@
             "name": "Jobs saved over time",
             "values": [
               {
-                "month": 202103,
-                "name": "Mar '21",
+                "month": 202012,
+                "name": "Dec '20",
                 "value": [
                   21988,
                   26779
@@ -312,60 +202,60 @@
               {
                 "province": "EC",
                 "value": [
-                  25175
+                  5118
                 ]
               },
               {
                 "province": "FS",
                 "value": [
-                  6989
+                  1313
                 ]
               },
               {
                 "province": "GP",
                 "value": [
-                  15724
+                  3884
                 ]
               },
               {
                 "province": "KZN",
                 "value": [
-                  30888
+                  2725
                 ]
               },
               {
                 "province": "LP",
                 "value": [
-                  21408
+                  1743
                 ]
               },
               {
                 "province": "MP",
                 "value": [
-                  10082
+                  1229
                 ]
               },
               {
                 "province": "NW",
                 "value": [
-                  8659
+                  919
                 ]
               },
               {
                 "province": "NC",
                 "value": [
-                  4198
+                  3821
                 ]
               },
               {
                 "province": "WC",
                 "value": [
-                  5771
+                  6027
                 ]
               }
             ]
           },
-          "value_target": -1
+          "value_target": 44933
         }
       ]
     }

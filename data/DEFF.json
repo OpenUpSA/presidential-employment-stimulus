@@ -20,24 +20,24 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 1983000000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 1983000000
         },
         {
-          "name": "Overall opportunities created",
+          "name": "Programme beneficiaries",
           "metric_type": "count",
-          "value": [
-            50311
-          ],
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": [
+            50311
+          ]
         }
       ]
     },

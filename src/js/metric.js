@@ -13,13 +13,14 @@ const PROGRESS_CLASS = 'feature-value__chart';
 const $containerTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
 
 export class Metric {
-  constructor($parent, title, type, value, target) {
+  constructor($parent, title, type, value, target, section_type) {
     this._$parent = $parent;
     this._title = title;
     this._type = type;
-    this._value = value;
+    this._value = value === -1 ? null : value;
     this._target = target === -1 ? null : target;
     this._formatter = FORMATTERS[type];
+    this._section_type = section_type;
     this.render();
   }
 
@@ -35,18 +36,32 @@ export class Metric {
     const $metric = this._$el.find(METRIC_SELECTOR)
       .attr('id', metricId);
     $metric.find('img').remove();
-    if (!this._value) {
-      $metric.remove();
-    } else {
-      this._$el.find(VALUE_SELECTOR).text(this._formatter(this._value));
-      const $target = $metric.find(TARGET_SELECTOR);
-      if (!this._target) {
-        $target.remove();
+    if (this._section_type == "targets") {
+        this._$el.find(VALUE_SELECTOR).text(this._formatter(this._target));
+        const $target = $metric.find(TARGET_SELECTOR);
+        if (!this._value) {
+          $target.remove();
+        } else {
+          const text = (this._type == "currency") ? "SPENT" : "ACHIEVED";
+          $target.text(`${text} ${this._formatter(this._value)}`);
+          $metric.prepend(`<div class="${PROGRESS_CLASS}"></div>`);
+          const progressQuotient = (this._value / this._target);
+          new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
+        }
       } else {
-        $target.text(`TARGET: ${this._formatter(this._target)}`);
-        $metric.prepend(`<div class="${PROGRESS_CLASS}"></div>`);
-        const progressQuotient = (this._value / this._target);
-        new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
+        if (!this._value) {
+          $metric.remove();
+        } else {
+        this._$el.find(VALUE_SELECTOR).text(this._formatter(this._value));
+        const $target = $metric.find(TARGET_SELECTOR);
+        if (!this._target) {
+          $target.remove();
+        } else {
+          $target.text(`TARGET: ${this._formatter(this._target)}`);
+          $metric.prepend(`<div class="${PROGRESS_CLASS}"></div>`);
+          const progressQuotient = (this._value / this._target);
+          new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
+        }
       }
     }
   }
