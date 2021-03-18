@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-const SELECTOR = '.uppercase-label';
+const SELECTOR = '.uppercase-label:not(.hide-mobile)';
 
 const $template = $(SELECTOR).first().clone(true, true);
 
