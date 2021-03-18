@@ -1,10 +1,13 @@
+# Default settings
+[build]
+publish = "dist/"
+command = "npm run build"
+
 # Deployment from production branch commits
-[context.production]
-  command = "npm run build"
+# [context.production]
 
 # Preview builds for pull requests
-[context.deploy-preview]
-  command = "npm run build"
+# [context.deploy-preview]
 
 # All other commits
 [context.branch-deploy]
