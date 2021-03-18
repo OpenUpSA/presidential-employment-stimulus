@@ -4,6 +4,14 @@
   "sheet_name": "DPWI",
   "lead": "Graduate placements in the professional services",
   "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored",
+  "target_lines": [
+    47,
+    56
+  ],
+  "achievement_lines": [
+    46,
+    54
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

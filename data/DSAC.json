@@ -4,6 +4,14 @@
   "sheet_name": "DSAC",
   "lead": "To get artists, cultural workers and the sporting sector on the road to recovery",
   "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors have been untouched",
+  "target_lines": [
+    25,
+    37
+  ],
+  "achievement_lines": [
+    25,
+    37
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

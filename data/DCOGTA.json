@@ -1,9 +1,17 @@
 {
   "month": 202101,
-  "name": "Environment, Forestry and Fisheries",
+  "name": "Co-operative government",
   "sheet_name": "DCOGTA",
   "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
   "paragraph": "Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
+  "target_lines": [
+    37,
+    38
+  ],
+  "achievement_lines": [
+    37,
+    38
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

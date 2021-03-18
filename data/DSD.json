@@ -4,6 +4,14 @@
   "sheet_name": "DSD",
   "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
   "paragraph": "Livelihoods from the provision of Early Childhood Development services were severely disrupted by the pandemic, with providers facing challenges with re-opening. There are costs associated with doing so safely, and some parents can no longer afford to pay fees as a result of job losses.",
+  "target_lines": [
+    5,
+    8
+  ],
+  "achievement_lines": [
+    6,
+    9
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

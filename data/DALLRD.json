@@ -4,6 +4,14 @@
   "sheet_name": "DALLRD",
   "lead": "Expanding support to farmers and protecting food value chains",
   "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. ",
+  "target_lines": [
+    8,
+    14
+  ],
+  "achievement_lines": [
+    9,
+    14
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

@@ -4,6 +4,14 @@
   "sheet_name": "DEFF",
   "lead": "Investing in the environment we live in",
   "paragraph": "The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet.",
+  "target_lines": [
+    14,
+    24
+  ],
+  "achievement_lines": [
+    14,
+    24
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

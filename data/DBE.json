@@ -4,6 +4,14 @@
   "sheet_name": "DBE",
   "lead": "Teachers assistants and other support for schools",
   "paragraph": "A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
+  "target_lines": [
+    2,
+    5
+  ],
+  "achievement_lines": [
+    3,
+    6
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

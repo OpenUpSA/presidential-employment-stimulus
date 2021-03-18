@@ -4,6 +4,14 @@
   "sheet_name": "DOH",
   "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
   "paragraph": "TBD",
+  "target_lines": [
+    39,
+    43
+  ],
+  "achievement_lines": [
+    39,
+    42
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",

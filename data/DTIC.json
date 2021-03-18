@@ -4,6 +4,14 @@
   "sheet_name": "DTIC",
   "lead": "Piloting new models for re-shoring and expanding global business services",
   "paragraph": "The Global Business Services Sector has an impressive track record. Established in 2006/7 to provide offshore customer service delivery, the sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20% since 2014.",
+  "target_lines": [
+    38,
+    39
+  ],
+  "achievement_lines": [
+    38,
+    39
+  ],
   "sections": [
     {
       "name": "Programme targets for this department",
