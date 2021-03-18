@@ -1,0 +1,556 @@
+{
+  "month": 202101,
+  "name": "Sports, Arts and Culture",
+  "sheet_name": "DSAC",
+  "lead": "To get artists, cultural workers and the sporting sector on the road to recovery",
+  "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors have been untouched",
+  "target_lines": [
+    25,
+    37
+  ],
+  "achievement_lines": [
+    25,
+    37
+  ],
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 525000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Overall opportunities created",
+          "metric_type": "count",
+          "value": 34070,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "NPI - National Sport Federations",
+          "metric_type": "count",
+          "value": 1470,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Public Art - Towards A People's Culture",
+          "metric_type": "count",
+          "value": 900,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
+          "metric_type": "count",
+          "value": 500,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "metric_type": "count",
+          "value": 900,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "South African Heritage Resources Agency",
+          "metric_type": "count",
+          "value": 260,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Library of South Africa digitisation",
+          "metric_type": "count",
+          "value": 163,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Archives digitisation",
+          "metric_type": "count",
+          "value": 163,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Arts Council (retention in cultural and creative institutions)",
+          "metric_type": "count",
+          "value": 5000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Film and Video Foundation (retention in cultural and creative institutions)",
+          "metric_type": "count",
+          "value": 5000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": " Sport Trust (retention in sport sector)",
+          "metric_type": "count",
+          "value": 4000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "National Arts Council (support to art and culture practitioners)",
+          "metric_type": "count",
+          "value": 7857,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": " National Film and Video Foundation (support to art and culture practitioners)",
+          "metric_type": "count",
+          "value": 7857,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Job opportunities created",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Public Art - Towards A People's Culture",
+          "metric_type": "count",
+          "value": 880,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 880
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 880
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 880
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
+          "metric_type": "count",
+          "value": 156,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 138
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 156
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 500
+        },
+        {
+          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "South African Heritage Resources Agency",
+          "metric_type": "count",
+          "value": 251,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 4
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 251
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 260
+        },
+        {
+          "name": "National Library of South Africa digitisation",
+          "metric_type": "count",
+          "value": 139,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 139
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        },
+        {
+          "name": "National Archives digitisation",
+          "metric_type": "count",
+          "value": 146,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 146
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        }
+      ]
+    },
+    {
+      "name": "Jobs retained",
+      "section_type": "jobs_retain",
+      "metrics": [
+        {
+          "name": "Public Art - Towards A People's Culture",
+          "metric_type": "count",
+          "value": 880,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 880
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 880
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 880
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
+          "metric_type": "count",
+          "value": 156,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 138
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 156
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 500
+        },
+        {
+          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "South African Heritage Resources Agency",
+          "metric_type": "count",
+          "value": 251,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 4
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 251
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 260
+        },
+        {
+          "name": "National Library of South Africa digitisation",
+          "metric_type": "count",
+          "value": 139,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 139
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        },
+        {
+          "name": "National Archives digitisation",
+          "metric_type": "count",
+          "value": 146,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 146
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        }
+      ]
+    },
+    {
+      "name": "Livelihoods supported",
+      "section_type": "livelihoods",
+      "metrics": [
+        {
+          "name": "Public Art - Towards A People's Culture",
+          "metric_type": "count",
+          "value": 880,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 880
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 880
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 880
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
+          "metric_type": "count",
+          "value": 156,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 138
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 156
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 500
+        },
+        {
+          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 900
+        },
+        {
+          "name": "South African Heritage Resources Agency",
+          "metric_type": "count",
+          "value": 251,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 4
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 251
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 260
+        },
+        {
+          "name": "National Library of South Africa digitisation",
+          "metric_type": "count",
+          "value": 139,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 139
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        },
+        {
+          "name": "National Archives digitisation",
+          "metric_type": "count",
+          "value": 146,
+          "time": {
+            "name": "Jobs created over time",
+            "values": [
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 146
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 163
+        }
+      ]
+    }
+  ]
+}

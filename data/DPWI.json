@@ -1,0 +1,661 @@
+{
+  "month": 202101,
+  "name": "Public Works and Infrastructure",
+  "sheet_name": "DPWI",
+  "lead": "Graduate placements in the professional services",
+  "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored",
+  "target_lines": [
+    47,
+    56
+  ],
+  "achievement_lines": [
+    46,
+    54
+  ],
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 630000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Overall opportunities created",
+          "metric_type": "count",
+          "value": 37079,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Job opportunities created",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Water and Energy Efficiency (Green Economy) Facilities Management (PMTE)",
+          "metric_type": "count",
+          "value": 167,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 138
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 167
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 167
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.41
+              },
+              {
+                "gender": "Female",
+                "value": 0.59
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 1.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "GP",
+                "value": 167
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Water and Sanitation Facilities Management (PMTE)",
+          "metric_type": "count",
+          "value": 157,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 129
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 182
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 157
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.43
+              },
+              {
+                "gender": "Female",
+                "value": 0.57
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.9999
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 17
+              },
+              {
+                "province": "FS",
+                "value": 11
+              },
+              {
+                "province": "LP",
+                "value": 30
+              },
+              {
+                "province": "MP",
+                "value": 44
+              },
+              {
+                "province": "NC",
+                "value": 7
+              },
+              {
+                "province": "WC",
+                "value": 48
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Welisizwe Rural Bridges Programme (PMTE) ",
+          "metric_type": "count",
+          "value": 496,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 410
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 482
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 496
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.48
+              },
+              {
+                "gender": "Female",
+                "value": 0.52
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.9999
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 159
+              },
+              {
+                "province": "FS",
+                "value": 100
+              },
+              {
+                "province": "GP",
+                "value": 44
+              },
+              {
+                "province": "KZN",
+                "value": 46
+              },
+              {
+                "province": "LP",
+                "value": 95
+              },
+              {
+                "province": "MP",
+                "value": 16
+              },
+              {
+                "province": "NW",
+                "value": 18
+              },
+              {
+                "province": "WC",
+                "value": 18
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Facilities Management (PMTE) Employment: ",
+          "metric_type": "count",
+          "value": 349,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 288
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 336
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 349
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.55
+              },
+              {
+                "gender": "Female",
+                "value": 0.45
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.9999
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 47
+              },
+              {
+                "province": "FS",
+                "value": 52
+              },
+              {
+                "province": "GP",
+                "value": 70
+              },
+              {
+                "province": "KZN",
+                "value": 13
+              },
+              {
+                "province": "LP",
+                "value": 38
+              },
+              {
+                "province": "MP",
+                "value": 44
+              },
+              {
+                "province": "NW",
+                "value": 15
+              },
+              {
+                "province": "NC",
+                "value": 8
+              },
+              {
+                "province": "WC",
+                "value": 62
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Real Estate  (PMTE)",
+          "metric_type": "count",
+          "value": 108,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 89
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 108
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 108
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.4
+              },
+              {
+                "gender": "Female",
+                "value": 0.6
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 1.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 18
+              },
+              {
+                "province": "FS",
+                "value": 7
+              },
+              {
+                "province": "GP",
+                "value": 44
+              },
+              {
+                "province": "KZN",
+                "value": 8
+              },
+              {
+                "province": "LP",
+                "value": 10
+              },
+              {
+                "province": "MP",
+                "value": 7
+              },
+              {
+                "province": "NC",
+                "value": 2
+              },
+              {
+                "province": "WC",
+                "value": 12
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "In-House Construction projects ",
+          "metric_type": "count",
+          "value": 134,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 110
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 134
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 134
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.44
+              },
+              {
+                "gender": "Female",
+                "value": 0.56
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.9
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 71
+              },
+              {
+                "province": "GP",
+                "value": 41
+              },
+              {
+                "province": "WC",
+                "value": 22
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Public Private Collaborations",
+          "metric_type": "count",
+          "value": 430,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 308
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 421
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 430
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.33
+              },
+              {
+                "gender": "Female",
+                "value": 0.67
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.9998
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "GP",
+                "value": 54
+              },
+              {
+                "province": "LP",
+                "value": 367
+              },
+              {
+                "province": "NW",
+                "value": 9
+              }
+            ]
+          },
+          "value_target": -1
+        },
+        {
+          "name": "Project Adminstrators ",
+          "metric_type": "count",
+          "value": 45,
+          "time": {
+            "name": "Job opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 37
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 45
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 45
+              }
+            ]
+          },
+          "gender": {
+            "name": "Job opportunies by gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.0
+              },
+              {
+                "gender": "Female",
+                "value": 0.0
+              }
+            ]
+          },
+          "age": {
+            "name": "Job opportunities by age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 6
+              },
+              {
+                "province": "FS",
+                "value": 3
+              },
+              {
+                "province": "GP",
+                "value": 16
+              },
+              {
+                "province": "KZN",
+                "value": 3
+              },
+              {
+                "province": "LP",
+                "value": 8
+              },
+              {
+                "province": "MP",
+                "value": 2
+              },
+              {
+                "province": "NW",
+                "value": 1
+              },
+              {
+                "province": "NC",
+                "value": 2
+              },
+              {
+                "province": "WC",
+                "value": 4
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    }
+  ]
+}

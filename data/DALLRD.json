@@ -1,0 +1,53 @@
+{
+  "month": 202101,
+  "name": "Agriculture, Land Reform and Rural Development",
+  "sheet_name": "DALLRD",
+  "lead": "Expanding support to farmers and protecting food value chains",
+  "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. ",
+  "target_lines": [
+    8,
+    14
+  ],
+  "achievement_lines": [
+    9,
+    14
+  ],
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 1000000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Graduate Employment budget",
+          "metric_type": "currency",
+          "value": 19463411,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Livelihoods supported",
+          "metric_type": "count",
+          "value": 74626,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    }
+  ]
+}

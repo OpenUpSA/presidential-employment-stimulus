@@ -1,0 +1,286 @@
+{
+  "month": 202101,
+  "name": "Environment, Forestry and Fisheries",
+  "sheet_name": "DEFF",
+  "lead": "Investing in the environment we live in",
+  "paragraph": "The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet.",
+  "target_lines": [
+    14,
+    24
+  ],
+  "achievement_lines": [
+    14,
+    24
+  ],
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Total budget",
+          "metric_type": "currency",
+          "value": 1983000000,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Overall opportunities created",
+          "metric_type": "count",
+          "value": [
+            50311
+          ],
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Job opportunities created",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Cleaning and greening - war on waste with municipalities",
+          "metric_type": "count",
+          "value": 12690,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 12690
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            12690
+          ]
+        },
+        {
+          "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+          "metric_type": "count",
+          "value": 1750,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 1750
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            1750
+          ]
+        },
+        {
+          "name": "Oceans and Coast: Source to Sea ",
+          "metric_type": "count",
+          "value": 1719,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 1719
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            1719
+          ]
+        },
+        {
+          "name": "Groen Sebenzas, weather service - graduate programme",
+          "metric_type": "count",
+          "value": 723,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 524
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 723
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            524
+          ]
+        },
+        {
+          "name": "SANBI Infrastructure maintenance, biosecurity",
+          "metric_type": "count",
+          "value": 1194,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 1038
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 1194
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            1038
+          ]
+        },
+        {
+          "name": "iSimangaliso: conservation management infrastructure",
+          "metric_type": "count",
+          "value": 1164,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 1164
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 608
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            1164
+          ]
+        },
+        {
+          "name": "SANPARKS upgrade and green energy",
+          "metric_type": "count",
+          "value": 4246,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 4246
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 3522
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            4246
+          ]
+        },
+        {
+          "name": "Catchment management and strategic water sources",
+          "metric_type": "count",
+          "value": 15012,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 15012
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 12336
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            15012
+          ]
+        },
+        {
+          "name": "Bio-diversity economy",
+          "metric_type": "count",
+          "value": 7524,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 7524
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            7524
+          ]
+        },
+        {
+          "name": "Climate Adaptation: Forestry support",
+          "metric_type": "count",
+          "value": 4644,
+          "time": {
+            "name": "Opportunities over time",
+            "values": [
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 4644
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": [
+            4644
+          ]
+        }
+      ]
+    }
+  ]
+}
