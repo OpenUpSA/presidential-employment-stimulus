@@ -49,7 +49,7 @@ export class Metric {
           new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
         }
       } else {
-        if (!this._value) {
+        if (this._value === null) {
           $metric.remove();
         } else {
         this._$el.find(VALUE_SELECTOR).text(this._formatter(this._value));

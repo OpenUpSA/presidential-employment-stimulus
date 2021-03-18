@@ -38,6 +38,62 @@
           "value_target": 37079
         }
       ]
+    },
+    {
+      "name": "Job opportunities created",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Rural roads maintenance",
+          "metric_type": "count",
+          "value": 3617,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": {
+            "name": "Opportunities by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 31
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
+                "province": "GP",
+                "value": 0
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 160
+              },
+              {
+                "province": "NW",
+                "value": 2947
+              },
+              {
+                "province": "NC",
+                "value": 403
+              },
+              {
+                "province": "WC",
+                "value": 76
+              }
+            ]
+          },
+          "value_target": 37079
+        }
+      ]
     }
   ]
 }
