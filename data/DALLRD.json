@@ -20,32 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 1000000000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 1000000000
         },
         {
-          "name": "Graduate Employment budget",
-          "metric_type": "currency",
-          "value": 19463411,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Livelihoods supported",
+          "name": "Programme beneficiaries",
           "metric_type": "count",
-          "value": 74626,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 74626
         }
       ]
     }

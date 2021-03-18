@@ -30,7 +30,8 @@ d3.json('data/all_data.json').then((data) => {
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph);
     const sectionDataArr = tabData.sections || [];
     sectionDataArr.forEach((sectionData) => {
-      const section = new Section(tab.$container, sectionData.name);
+      const section = new Section(tab.$container, sectionData.name, '', '', sectionData.section_type);
+      const section_type = sectionData.section_type;
       const subSectionDataArr = sectionData.metrics || [];
       subSectionDataArr.forEach((subSectionData) => {
         const subSection = new SubSection(section.$container);
@@ -41,6 +42,7 @@ d3.json('data/all_data.json').then((data) => {
           subSectionData.metric_type,
           totalValue,
           subSectionData.value_target,
+            section_type
         );
         if (subSectionData.gender) {
           new VizHeading(subSection.$container, subSectionData.gender.name);
@@ -49,8 +51,8 @@ d3.json('data/all_data.json').then((data) => {
           new VizSplit(
             subSection.$container,
             'percentage',
-            genderOne.gender, genderOne.value / 100,
-            genderTwo.gender, genderTwo.value / 100,
+            genderOne.gender, genderOne.value,
+            genderTwo.gender, genderTwo.value,
           );
         }
         if (subSectionData.age) {

@@ -3,7 +3,7 @@
   "name": "Health",
   "sheet_name": "DOH",
   "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
-  "paragraph": "TBD",
+  "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
   "target_lines": [
     39,
     43
@@ -20,96 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 393571000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 393571000
         },
         {
-          "name": "Job Opportunities",
+          "name": "Programme beneficiaries",
           "metric_type": "count",
-          "value": 5531,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
-        }
-      ]
-    },
-    {
-      "name": "Budget allocated to date",
-      "section_type": "currency",
-      "metrics": [
-        {
-          "name": "Staff Nurse Budget",
-          "metric_type": "count",
-          "value": 58792778.07000001,
-          "time": {
-            "name": "Spend over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 15176804.91
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 13789528.41
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 16231135.05
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 13595309.7
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Assistant Nurse Budget",
-          "metric_type": "count",
-          "value": 45400352.94,
-          "time": {
-            "name": "Spend over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 6298435.21
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 11003880.97
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 14765940.440000001
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 13332096.32
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
+          "value_target": 5531
         }
       ]
     },

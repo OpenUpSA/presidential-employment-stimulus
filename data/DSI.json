@@ -20,62 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 45000000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 45000000
         },
         {
           "name": "Overall jobs created",
           "metric_type": "count",
-          "value": 1900,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "HSRC - Health Promotion Agents",
-          "metric_type": "count",
-          "value": 1000,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "CSIR - Enviro-champs",
-          "metric_type": "count",
-          "value": 350,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "CSIR - Experiential Training Programme ",
-          "metric_type": "count",
-          "value": 150,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": " WRC - Water Graduate Employment Programme ",
-          "metric_type": "count",
-          "value": 400,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
+          "value_target": 1900
         }
       ]
     }

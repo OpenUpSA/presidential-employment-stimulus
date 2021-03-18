@@ -7,11 +7,12 @@ const $headerTemplate = $(HEADER_SELECTOR).first().clone(true, true);
 const $contentGridTemplate = $(CONTENT_GRID_SELECTOR).first().clone(true, true);
 
 export class Section {
-  constructor($parent, title, lead, paragraph) {
+  constructor($parent, title, lead, paragraph, section_type) {
     this._$parent = $parent;
     this._title = title;
     this._lead = lead;
     this._paragraph = paragraph;
+    this._type = section_type;
     this.render();
   }
 

@@ -20,22 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 525000000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 525000000
         },
         {
           "name": "Overall opportunities created",
           "metric_type": "count",
-          "value": 34070,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 34070
         },
         {
           "name": "NPI - National Sport Federations",

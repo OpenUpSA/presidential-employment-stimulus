@@ -20,42 +20,22 @@
         {
           "name": "Total budget",
           "metric_type": "currency",
-          "value": 588728000,
+          "value": -1,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Budget for social workers",
-          "metric_type": "currency",
-          "value": 75978000,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
-        },
-        {
-          "name": "Budget for registration support officers",
-          "metric_type": "currency",
-          "value": 16500000,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": -1
+          "value_target": 588728000
         },
         {
           "name": "Programme beneficiaries",
           "metric_type": "count",
-          "value": 111142,
+          "value": 1086,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": -1
+          "value_target": 111142
         }
       ]
     },
@@ -126,7 +106,7 @@
             ]
           },
           "age": {
-            "name": "Jobs retained by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
