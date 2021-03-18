@@ -15,6 +15,7 @@ export class Header {
 
   render() {
     const $el = $template.clone(true, true);
+    $el.find('.header__label').text(''); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")
     $el.find('h2').text(this._title);
     $el.find('h3').text(this._lead);
     $el.find('p').text(this._paragraph);

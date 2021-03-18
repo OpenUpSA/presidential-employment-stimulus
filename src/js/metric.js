@@ -31,7 +31,7 @@ export class Metric {
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
     this._$el.find(NAME_SELECTOR).text(this._title);
-    const metricId = `metricAAA${Math.round(Math.random() * 1000000)}`;
+    const metricId = `metric-${Math.round(Math.random() * 1000000)}`;
     const $metric = this._$el.find(METRIC_SELECTOR)
       .attr('id', metricId);
     $metric.find('img').remove();
