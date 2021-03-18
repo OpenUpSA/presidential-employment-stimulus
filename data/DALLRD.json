@@ -38,6 +38,226 @@
           "value_target": 74626
         }
       ]
+    },
+    {
+      "name": "Job opportunities created to date",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Graduate Employment",
+          "metric_type": "count",
+          "value": 1464,
+          "time": null,
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.36
+              },
+              {
+                "gender": "Female",
+                "value": 0.64
+              }
+            ]
+          },
+          "age": {
+            "name": "Opportunities by Age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.89
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunites by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": [
+                  232
+                ]
+              },
+              {
+                "province": "FS",
+                "value": [
+                  86
+                ]
+              },
+              {
+                "province": "GP",
+                "value": [
+                  160
+                ]
+              },
+              {
+                "province": "KZN",
+                "value": [
+                  297
+                ]
+              },
+              {
+                "province": "LP",
+                "value": [
+                  262
+                ]
+              },
+              {
+                "province": "MP",
+                "value": [
+                  156
+                ]
+              },
+              {
+                "province": "NW",
+                "value": [
+                  151
+                ]
+              },
+              {
+                "province": "NC",
+                "value": [
+                  65
+                ]
+              },
+              {
+                "province": "WC",
+                "value": [
+                  55
+                ]
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    },
+    {
+      "name": "Livelihoods supported",
+      "section_type": "livelihoods",
+      "metrics": [
+        {
+          "name": "Vegetables and Fruits",
+          "metric_type": "count",
+          "value": 38663,
+          "time": {
+            "name": "Livelihoods over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 30699
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 38663
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Maize/soya/sugar/other production",
+          "metric_type": "count",
+          "value": 11128,
+          "time": {
+            "name": "Livelihoods over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 8835
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 11128
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Poultry: Layers and Boilers",
+          "metric_type": "count",
+          "value": 25453,
+          "time": {
+            "name": "Livelihoods over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 20210
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 25453
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Small livestock",
+          "metric_type": "count",
+          "value": 12309,
+          "time": {
+            "name": "Livelihoods over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 9773
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 12309
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        },
+        {
+          "name": "Large livestock",
+          "metric_type": "count",
+          "value": 6431,
+          "time": {
+            "name": "Livelihoods over time",
+            "values": [
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 5106
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 6431
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": -1
+        }
+      ]
     }
   ]
 }

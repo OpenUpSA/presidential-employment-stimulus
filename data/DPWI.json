@@ -81,7 +81,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -93,8 +93,40 @@
             "name": "Opportunities by province",
             "values": [
               {
+                "province": "EC",
+                "value": 0
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
                 "province": "GP",
                 "value": 167
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 0
+              },
+              {
+                "province": "NW",
+                "value": 0
+              },
+              {
+                "province": "NC",
+                "value": 0
+              },
+              {
+                "province": "WC",
+                "value": 0
               }
             ]
           },
@@ -138,7 +170,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -158,12 +190,24 @@
                 "value": 11
               },
               {
+                "province": "GP",
+                "value": 0
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
                 "province": "LP",
                 "value": 30
               },
               {
                 "province": "MP",
                 "value": 44
+              },
+              {
+                "province": "NW",
+                "value": 0
               },
               {
                 "province": "NC",
@@ -215,7 +259,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -253,6 +297,10 @@
               {
                 "province": "NW",
                 "value": 18
+              },
+              {
+                "province": "NC",
+                "value": 0
               },
               {
                 "province": "WC",
@@ -300,7 +348,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -389,7 +437,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -423,6 +471,10 @@
               {
                 "province": "MP",
                 "value": 7
+              },
+              {
+                "province": "NW",
+                "value": 0
               },
               {
                 "province": "NC",
@@ -474,7 +526,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -490,8 +542,32 @@
                 "value": 71
               },
               {
+                "province": "FS",
+                "value": 0
+              },
+              {
                 "province": "GP",
                 "value": 41
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 0
+              },
+              {
+                "province": "NW",
+                "value": 0
+              },
+              {
+                "province": "NC",
+                "value": 0
               },
               {
                 "province": "WC",
@@ -539,7 +615,7 @@
             ]
           },
           "age": {
-            "name": "Job opportunities by age",
+            "name": "Percentage of opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -551,16 +627,40 @@
             "name": "Opportunities by province",
             "values": [
               {
+                "province": "EC",
+                "value": 0
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
                 "province": "GP",
                 "value": 54
+              },
+              {
+                "province": "KZN",
+                "value": 0
               },
               {
                 "province": "LP",
                 "value": 367
               },
               {
+                "province": "MP",
+                "value": 0
+              },
+              {
                 "province": "NW",
                 "value": 9
+              },
+              {
+                "province": "NC",
+                "value": 0
+              },
+              {
+                "province": "WC",
+                "value": 0
               }
             ]
           },
@@ -590,28 +690,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Job opportunies by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.0
-              },
-              {
-                "gender": "Female",
-                "value": 0.0
-              }
-            ]
-          },
-          "age": {
-            "name": "Job opportunities by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.0
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Opportunities by province",
             "values": [
