@@ -22,9 +22,10 @@ export class VizSplit {
     const $el = $template.clone(true, true);
     const leftWidthQuotient = this._leftValue / (this._leftValue + this._rightValue);
     $el.find(LEFT_SELECTOR)
-      .text(FORMATTERS[this._type](this._leftValue))
+      .text(`${FORMATTERS[this._type](this._leftValue)} ${this._leftLabel}`)
       .width(`${leftWidthQuotient * 100}%`);
-    $el.find(RIGHT_SELECTOR).text(FORMATTERS[this._type](this._rightValue));
+    $el.find(RIGHT_SELECTOR)
+      .text(`${FORMATTERS[this._type](this._rightValue)} ${this._rightLabel}`);
     this._$parent.append($el);
   }
 }

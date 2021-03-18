@@ -39,7 +39,7 @@ interface Tab {
         name: string // Opportunities for 18-35 year olds
         values: Array<{
           age: string // 18-35
-          value: number
+          value: number // fraction of 1
         }>
       }
       province?: {
