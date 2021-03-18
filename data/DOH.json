@@ -226,6 +226,26 @@
             ]
           },
           "value_target": 1236
+        },
+        {
+          "name": "Community Health Workers",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 2000
+        },
+        {
+          "name": "Outreach Team Leaders",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 1250
         }
       ]
     }
