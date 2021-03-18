@@ -365,13 +365,13 @@
                 "name": "Employed over time",
                 "values": [
                   {
-                    "month": 202011,
-                    "name": "Nov '20",
+                    "month": 202012,
+                    "name": "Dec '20",
                     "value": 158437
                   },
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
+                    "month": 202101,
+                    "name": "Jan '21",
                     "value": 155341
                   }
                 ]
@@ -429,13 +429,13 @@
                 "name": "Employed over time",
                 "values": [
                   {
-                    "month": 202011,
-                    "name": "Nov '20",
+                    "month": 202012,
+                    "name": "Dec '20",
                     "value": 120735
                   },
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
+                    "month": 202101,
+                    "name": "Jan '21",
                     "value": 128894
                   }
                 ]
@@ -499,8 +499,8 @@
                 "name": "Jobs saved over time",
                 "values": [
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
+                    "month": 202101,
+                    "name": "Jan '21",
                     "value": [
                       21988,
                       26779
@@ -1133,14 +1133,14 @@
             {
               "name": "Vegetables and Fruits",
               "metric_type": "count",
-              "value": 53634,
+              "value": 38663,
               "time": {
                 "name": "Livelihoods over time",
                 "values": [
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 30699.5343675519
+                    "value": 30699
                   },
                   {
                     "month": 202101,
@@ -1151,60 +1151,20 @@
               },
               "gender": null,
               "age": null,
-              "province": {
-                "name": "Livelihoods by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 7348
-                  },
-                  {
-                    "province": "FS",
-                    "value": 2240
-                  },
-                  {
-                    "province": "GP",
-                    "value": 4906
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 18309
-                  },
-                  {
-                    "province": "LP",
-                    "value": 7254
-                  },
-                  {
-                    "province": "MP",
-                    "value": 7971
-                  },
-                  {
-                    "province": "NW",
-                    "value": 3124
-                  },
-                  {
-                    "province": "NC",
-                    "value": 1255
-                  },
-                  {
-                    "province": "WC",
-                    "value": 1227
-                  }
-                ]
-              },
+              "province": null,
               "value_target": -1
             },
             {
               "name": "Maize/soya/sugar/other production",
               "metric_type": "count",
-              "value": 16261,
+              "value": 11128,
               "time": {
                 "name": "Livelihoods over time",
                 "values": [
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 8835.95216207014
+                    "value": 8835
                   },
                   {
                     "month": 202101,
@@ -1215,60 +1175,20 @@
               },
               "gender": null,
               "age": null,
-              "province": {
-                "name": "Livelihoods by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 2345
-                  },
-                  {
-                    "province": "FS",
-                    "value": 367
-                  },
-                  {
-                    "province": "GP",
-                    "value": 827
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 5895
-                  },
-                  {
-                    "province": "LP",
-                    "value": 2482
-                  },
-                  {
-                    "province": "MP",
-                    "value": 3357
-                  },
-                  {
-                    "province": "NW",
-                    "value": 656
-                  },
-                  {
-                    "province": "NC",
-                    "value": 216
-                  },
-                  {
-                    "province": "WC",
-                    "value": 116
-                  }
-                ]
-              },
+              "province": null,
               "value_target": -1
             },
             {
               "name": "Poultry: Layers and Boilers",
               "metric_type": "count",
-              "value": 35076,
+              "value": 25453,
               "time": {
                 "name": "Livelihoods over time",
                 "values": [
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 20210.4143045625
+                    "value": 20210
                   },
                   {
                     "month": 202101,
@@ -1279,60 +1199,20 @@
               },
               "gender": null,
               "age": null,
-              "province": {
-                "name": "Livelihoods by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 6905
-                  },
-                  {
-                    "province": "FS",
-                    "value": 1289
-                  },
-                  {
-                    "province": "GP",
-                    "value": 2410
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 10846
-                  },
-                  {
-                    "province": "LP",
-                    "value": 5543
-                  },
-                  {
-                    "province": "MP",
-                    "value": 4052
-                  },
-                  {
-                    "province": "NW",
-                    "value": 2994
-                  },
-                  {
-                    "province": "NC",
-                    "value": 632
-                  },
-                  {
-                    "province": "WC",
-                    "value": 405
-                  }
-                ]
-              },
+              "province": null,
               "value_target": -1
             },
             {
               "name": "Small livestock",
               "metric_type": "count",
-              "value": 17411,
+              "value": 12309,
               "time": {
                 "name": "Livelihoods over time",
                 "values": [
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 9773.70014044944
+                    "value": 9773
                   },
                   {
                     "month": 202101,
@@ -1343,60 +1223,20 @@
               },
               "gender": null,
               "age": null,
-              "province": {
-                "name": "Livelihoods by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 3217
-                  },
-                  {
-                    "province": "FS",
-                    "value": 955
-                  },
-                  {
-                    "province": "GP",
-                    "value": 724
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 3660
-                  },
-                  {
-                    "province": "LP",
-                    "value": 1988
-                  },
-                  {
-                    "province": "MP",
-                    "value": 1572
-                  },
-                  {
-                    "province": "NW",
-                    "value": 3307
-                  },
-                  {
-                    "province": "NC",
-                    "value": 1329
-                  },
-                  {
-                    "province": "WC",
-                    "value": 659
-                  }
-                ]
-              },
+              "province": null,
               "value_target": -1
             },
             {
               "name": "Large livestock",
               "metric_type": "count",
-              "value": 9212,
+              "value": 6431,
               "time": {
                 "name": "Livelihoods over time",
                 "values": [
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 5106.39902536602
+                    "value": 5106
                   },
                   {
                     "month": 202101,
@@ -1407,47 +1247,7 @@
               },
               "gender": null,
               "age": null,
-              "province": {
-                "name": "Livelihoods by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 1295
-                  },
-                  {
-                    "province": "FS",
-                    "value": 634
-                  },
-                  {
-                    "province": "GP",
-                    "value": 502
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 2214
-                  },
-                  {
-                    "province": "LP",
-                    "value": 967
-                  },
-                  {
-                    "province": "MP",
-                    "value": 1112
-                  },
-                  {
-                    "province": "NW",
-                    "value": 1532
-                  },
-                  {
-                    "province": "NC",
-                    "value": 681
-                  },
-                  {
-                    "province": "WC",
-                    "value": 275
-                  }
-                ]
-              },
+              "province": null,
               "value_target": -1
             }
           ]
