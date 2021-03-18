@@ -29,6 +29,9 @@ export class VizProgress {
       .attr('transform', `translate(${radius}, ${radius})`);
     svg.append('text')
       .attr('text-anchor', 'middle')
+      .attr('dominant-baseline', 'hanging')
+      .attr('font-size', '1rem;')
+      .attr('dy', '-0.5rem')
       .text(formatPercentage(this._quotient));
     svg
       .selectAll('any')
