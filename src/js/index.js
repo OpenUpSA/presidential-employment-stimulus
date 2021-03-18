@@ -11,6 +11,8 @@ import { VizSplit } from './viz-split';
 import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
 
+const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
+
 const TAB_MENU_SELECTOR = '.tab-menu';
 const TAB_CONTENT_SELECTOR = '.tab-content';
 $(TAB_MENU_SELECTOR).empty();
@@ -70,4 +72,5 @@ d3.json('data/all_data.json').then((data) => {
     });
   });
   tabs.select(0);
+  $(TEMPORARY_HIDDEN_SELECTOR).show();
 });
