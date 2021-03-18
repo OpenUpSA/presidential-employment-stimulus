@@ -40,6 +40,100 @@
       ]
     },
     {
+      "name": "Job opportunities created to date",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Graduate Employment",
+          "metric_type": "count",
+          "value": 1464,
+          "time": null,
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Male",
+                "value": 0.36
+              },
+              {
+                "gender": "Female",
+                "value": 0.64
+              }
+            ]
+          },
+          "age": {
+            "name": "Opportunities by Age",
+            "values": [
+              {
+                "age_category": "18-35",
+                "value": 0.89
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunites by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": [
+                  232
+                ]
+              },
+              {
+                "province": "FS",
+                "value": [
+                  86
+                ]
+              },
+              {
+                "province": "GP",
+                "value": [
+                  160
+                ]
+              },
+              {
+                "province": "KZN",
+                "value": [
+                  297
+                ]
+              },
+              {
+                "province": "LP",
+                "value": [
+                  262
+                ]
+              },
+              {
+                "province": "MP",
+                "value": [
+                  156
+                ]
+              },
+              {
+                "province": "NW",
+                "value": [
+                  151
+                ]
+              },
+              {
+                "province": "NC",
+                "value": [
+                  65
+                ]
+              },
+              {
+                "province": "WC",
+                "value": [
+                  55
+                ]
+              }
+            ]
+          },
+          "value_target": -1
+        }
+      ]
+    },
+    {
       "name": "Livelihoods supported",
       "section_type": "livelihoods",
       "metrics": [
@@ -62,28 +156,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Livelihoods by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 9.86
-              },
-              {
-                "gender": "Female",
-                "value": 30.9
-              }
-            ]
-          },
-          "age": {
-            "name": "Livelihood by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 26.98
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Livelihoods by province",
             "values": [
@@ -146,28 +220,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Livelihoods by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 3.31
-              },
-              {
-                "gender": "Female",
-                "value": 9.05
-              }
-            ]
-          },
-          "age": {
-            "name": "Livelihood by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 7.17
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Livelihoods by province",
             "values": [
@@ -230,28 +284,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Livelihoods by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 7.81
-              },
-              {
-                "gender": "Female",
-                "value": 18.85
-              }
-            ]
-          },
-          "age": {
-            "name": "Livelihood by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 17.99
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Livelihoods by province",
             "values": [
@@ -314,28 +348,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Livelihoods by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 5.62
-              },
-              {
-                "gender": "Female",
-                "value": 7.6
-              }
-            ]
-          },
-          "age": {
-            "name": "Livelihood by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 8.46
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Livelihoods by province",
             "values": [
@@ -398,28 +412,8 @@
               }
             ]
           },
-          "gender": {
-            "name": "Livelihoods by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 3.31
-              },
-              {
-                "gender": "Female",
-                "value": 3.69
-              }
-            ]
-          },
-          "age": {
-            "name": "Livelihood by age",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 4.43
-              }
-            ]
-          },
+          "gender": null,
+          "age": null,
           "province": {
             "name": "Livelihoods by province",
             "values": [

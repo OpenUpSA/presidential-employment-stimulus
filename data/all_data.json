@@ -2,9 +2,9 @@
   "overview": {
     "month": 202103,
     "name": "Programme overview",
-    "lead": "About the programme",
-    "paragraph": "nothing yet",
-    "overview_sections": [
+    "lead": "BUILDING A SOCIETY THAT WORKS",
+    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now. ",
+    "sections": [
       {
         "name": "Livelihoods",
         "section_type": "livelihoods",
@@ -14,6 +14,9 @@
             "metric_type": "count",
             "value": 0,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 108833
           },
           {
@@ -21,6 +24,9 @@
             "metric_type": "count",
             "value": 8573,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 15714
           },
           {
@@ -28,6 +34,9 @@
             "metric_type": "count",
             "value": 93984,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 74626
           }
         ]
@@ -41,6 +50,9 @@
             "metric_type": "count",
             "value": 7572,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 8000
           },
           {
@@ -48,6 +60,9 @@
             "metric_type": "count",
             "value": 328894,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 300000
           },
           {
@@ -55,6 +70,9 @@
             "metric_type": "count",
             "value": 0,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 500
           },
           {
@@ -62,6 +80,9 @@
             "metric_type": "count",
             "value": 8,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 1900
           },
           {
@@ -69,6 +90,9 @@
             "metric_type": "count",
             "value": 1572,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 4356
           },
           {
@@ -76,6 +100,9 @@
             "metric_type": "count",
             "value": 3617,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 37079
           },
           {
@@ -83,6 +110,9 @@
             "metric_type": "count",
             "value": 46710,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 50311
           },
           {
@@ -90,6 +120,9 @@
             "metric_type": "count",
             "value": 0,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 25000
           },
           {
@@ -97,6 +130,9 @@
             "metric_type": "count",
             "value": 3967,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 5531
           },
           {
@@ -104,6 +140,9 @@
             "metric_type": "count",
             "value": 1886,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 1560
           }
         ]
@@ -117,6 +156,9 @@
             "metric_type": "count",
             "value": 26779,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 44933
           },
           {
@@ -124,6 +166,9 @@
             "metric_type": "count",
             "value": 1086,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 1809
           },
           {
@@ -131,6 +176,9 @@
             "metric_type": "count",
             "value": 2475,
             "time": null,
+            "gender": null,
+            "age": null,
+            "province": null,
             "value_target": 14000
           }
         ]
@@ -985,6 +1033,100 @@
           ]
         },
         {
+          "name": "Job opportunities created to date",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "Graduate Employment",
+              "metric_type": "count",
+              "value": 1464,
+              "time": null,
+              "gender": {
+                "name": "Opportunities by Gender",
+                "values": [
+                  {
+                    "gender": "Male",
+                    "value": 0.36
+                  },
+                  {
+                    "gender": "Female",
+                    "value": 0.64
+                  }
+                ]
+              },
+              "age": {
+                "name": "Opportunities by Age",
+                "values": [
+                  {
+                    "age_category": "18-35",
+                    "value": 0.89
+                  }
+                ]
+              },
+              "province": {
+                "name": "Opportunites by Province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": [
+                      232
+                    ]
+                  },
+                  {
+                    "province": "FS",
+                    "value": [
+                      86
+                    ]
+                  },
+                  {
+                    "province": "GP",
+                    "value": [
+                      160
+                    ]
+                  },
+                  {
+                    "province": "KZN",
+                    "value": [
+                      297
+                    ]
+                  },
+                  {
+                    "province": "LP",
+                    "value": [
+                      262
+                    ]
+                  },
+                  {
+                    "province": "MP",
+                    "value": [
+                      156
+                    ]
+                  },
+                  {
+                    "province": "NW",
+                    "value": [
+                      151
+                    ]
+                  },
+                  {
+                    "province": "NC",
+                    "value": [
+                      65
+                    ]
+                  },
+                  {
+                    "province": "WC",
+                    "value": [
+                      55
+                    ]
+                  }
+                ]
+              },
+              "value_target": -1
+            }
+          ]
+        },
+        {
           "name": "Livelihoods supported",
           "section_type": "livelihoods",
           "metrics": [
@@ -1007,28 +1149,8 @@
                   }
                 ]
               },
-              "gender": {
-                "name": "Livelihoods by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 9.86
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 30.9
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihood by age",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 26.98
-                  }
-                ]
-              },
+              "gender": null,
+              "age": null,
               "province": {
                 "name": "Livelihoods by province",
                 "values": [
@@ -1091,28 +1213,8 @@
                   }
                 ]
               },
-              "gender": {
-                "name": "Livelihoods by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 3.31
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 9.05
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihood by age",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 7.17
-                  }
-                ]
-              },
+              "gender": null,
+              "age": null,
               "province": {
                 "name": "Livelihoods by province",
                 "values": [
@@ -1175,28 +1277,8 @@
                   }
                 ]
               },
-              "gender": {
-                "name": "Livelihoods by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 7.81
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 18.85
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihood by age",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 17.99
-                  }
-                ]
-              },
+              "gender": null,
+              "age": null,
               "province": {
                 "name": "Livelihoods by province",
                 "values": [
@@ -1259,28 +1341,8 @@
                   }
                 ]
               },
-              "gender": {
-                "name": "Livelihoods by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 5.62
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 7.6
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihood by age",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 8.46
-                  }
-                ]
-              },
+              "gender": null,
+              "age": null,
               "province": {
                 "name": "Livelihoods by province",
                 "values": [
@@ -1343,28 +1405,8 @@
                   }
                 ]
               },
-              "gender": {
-                "name": "Livelihoods by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 3.31
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 3.69
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihood by age",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 4.43
-                  }
-                ]
-              },
+              "gender": null,
+              "age": null,
               "province": {
                 "name": "Livelihoods by province",
                 "values": [
