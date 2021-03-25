@@ -28,11 +28,9 @@
           "value_target": 120000000
         },
         {
-          "name": "Programme beneficiaries",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": [
-            7572
-          ],
+          "value": 4036,
           "time": null,
           "gender": null,
           "age": null,
@@ -42,7 +40,7 @@
       ]
     },
     {
-      "name": "Job opportunities created to date",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
@@ -53,9 +51,24 @@
             "name": "Employed over time",
             "values": [
               {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 1178
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 2726
+              },
+              {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 7572
+                "value": 4036
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 4036
               }
             ]
           },

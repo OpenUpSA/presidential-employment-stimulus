@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,9 +28,9 @@
           "value_target": 630000000
         },
         {
-          "name": "Overall opportunities created",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": -1,
+          "value": 1841,
           "time": null,
           "gender": null,
           "age": null,
@@ -40,16 +40,21 @@
       ]
     },
     {
-      "name": "Job opportunities created",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Water and Energy Efficiency (Green Economy) Facilities Management (PMTE)",
+          "name": "Water and Energy Efficiency",
           "metric_type": "count",
           "value": 167,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -68,7 +73,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -90,7 +95,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -133,12 +138,17 @@
           "value_target": -1
         },
         {
-          "name": "Water and Sanitation Facilities Management (PMTE)",
+          "name": "Water and Sanitation Facilities Management",
           "metric_type": "count",
           "value": 157,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -157,7 +167,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -179,7 +189,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -222,12 +232,17 @@
           "value_target": -1
         },
         {
-          "name": "Welisizwe Rural Bridges Programme (PMTE) ",
+          "name": "Welisizwe Rural Bridges Programme",
           "metric_type": "count",
           "value": 496,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -246,7 +261,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -268,7 +283,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -311,12 +326,17 @@
           "value_target": -1
         },
         {
-          "name": "Facilities Management (PMTE) Employment: ",
+          "name": "Facilities Management",
           "metric_type": "count",
           "value": 349,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -335,7 +355,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -357,7 +377,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -400,12 +420,17 @@
           "value_target": -1
         },
         {
-          "name": "Real Estate  (PMTE)",
+          "name": "Real Estate",
           "metric_type": "count",
           "value": 108,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -424,7 +449,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -446,7 +471,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -489,12 +514,17 @@
           "value_target": -1
         },
         {
-          "name": "In-House Construction projects ",
+          "name": "In-House Construction projects",
           "metric_type": "count",
           "value": 134,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -513,7 +543,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -535,7 +565,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -582,8 +612,13 @@
           "metric_type": "count",
           "value": 430,
           "time": {
-            "name": "Job opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -602,7 +637,7 @@
             ]
           },
           "gender": {
-            "name": "Job opportunies by gender",
+            "name": "Opportunities by Gender",
             "values": [
               {
                 "gender": "Male",
@@ -624,7 +659,7 @@
             ]
           },
           "province": {
-            "name": "Opportunities by province",
+            "name": "Opportunities by Province",
             "values": [
               {
                 "province": "EC",
@@ -661,75 +696,6 @@
               {
                 "province": "WC",
                 "value": 0
-              }
-            ]
-          },
-          "value_target": -1
-        },
-        {
-          "name": "Project Adminstrators ",
-          "metric_type": "count",
-          "value": 45,
-          "time": {
-            "name": "Job opportunities over time",
-            "values": [
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 37
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 45
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 45
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": {
-            "name": "Opportunities by province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 6
-              },
-              {
-                "province": "FS",
-                "value": 3
-              },
-              {
-                "province": "GP",
-                "value": 16
-              },
-              {
-                "province": "KZN",
-                "value": 3
-              },
-              {
-                "province": "LP",
-                "value": 8
-              },
-              {
-                "province": "MP",
-                "value": 2
-              },
-              {
-                "province": "NW",
-                "value": 1
-              },
-              {
-                "province": "NC",
-                "value": 2
-              },
-              {
-                "province": "WC",
-                "value": 4
               }
             ]
           },

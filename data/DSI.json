@@ -9,8 +9,8 @@
     47
   ],
   "achievement_lines": [
-    42,
-    46
+    43,
+    47
   ],
   "sections": [
     {
@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -30,7 +30,7 @@
         {
           "name": "Overall jobs created",
           "metric_type": "count",
-          "value": -1,
+          "value": 8,
           "time": null,
           "gender": null,
           "age": null,

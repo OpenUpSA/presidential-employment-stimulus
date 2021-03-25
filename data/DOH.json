@@ -40,35 +40,35 @@
       ]
     },
     {
-      "name": "Job opportunities created to date",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
           "name": "Enrolled Nurses",
           "metric_type": "count",
-          "value": 2119,
+          "value": NaN,
           "time": {
             "name": "Opportunities over time",
             "values": [
               {
                 "month": 202010,
                 "name": "Oct '20",
-                "value": 547
+                "value": NaN
               },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 1044
+                "value": NaN
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 1629
+                "value": NaN
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 2119
+                "value": NaN
               }
             ]
           },
@@ -138,29 +138,29 @@
         {
           "name": "Auxiliary Nurses",
           "metric_type": "count",
-          "value": 1848,
+          "value": 2119,
           "time": {
             "name": "Opportunities over time",
             "values": [
               {
                 "month": 202010,
                 "name": "Oct '20",
-                "value": 257
+                "value": 547
               },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 706
+                "value": 1044
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 1304
+                "value": 1629
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 1848
+                "value": 2119
               }
             ]
           },

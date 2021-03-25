@@ -1,16 +1,16 @@
 {
-  "month": 202103,
-  "name": "Basic Education",
-  "sheet_name": "DBE",
-  "lead": "Teachers assistants and other support for schools",
-  "paragraph": "A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
+  "month": 202101,
+  "name": "Health",
+  "sheet_name": "DoH",
+  "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
+  "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
   "target_lines": [
-    2,
-    5
+    39,
+    43
   ],
   "achievement_lines": [
-    3,
-    6
+    39,
+    42
   ],
   "sections": [
     {
@@ -25,17 +25,17 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 7000000000
+          "value_target": 393571000
         },
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 355673,
+          "value": 2119,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 344933
+          "value_target": 5531
         }
       ]
     },
@@ -44,31 +44,31 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Education assistants",
+          "name": "Enrolled Nurses",
           "metric_type": "count",
-          "value": 200000,
+          "value": 2119,
           "time": {
             "name": "Employed over time",
             "values": [
               {
                 "month": 202010,
                 "name": "Oct '20",
-                "value": 0
+                "value": 547
               },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 200000
+                "value": 1044
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 200000
+                "value": 1629
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 200000
+                "value": 2119
               }
             ]
           },
@@ -79,70 +79,70 @@
             "values": [
               {
                 "province": "EC",
-                "value": 30628
+                "value": 400
               },
               {
                 "province": "FS",
-                "value": 11021
+                "value": 11
               },
               {
                 "province": "GP",
-                "value": 28875
+                "value": 425
               },
               {
                 "province": "KZN",
-                "value": 42591
+                "value": 690
               },
               {
                 "province": "LP",
-                "value": 30708
+                "value": 0
               },
               {
                 "province": "MP",
-                "value": 16027
+                "value": 245
               },
               {
                 "province": "NW",
-                "value": 12983
+                "value": 141
               },
               {
                 "province": "NC",
-                "value": 3138
+                "value": 3
               },
               {
                 "province": "WC",
-                "value": 8245
+                "value": 204
               }
             ]
           },
-          "value_target": 200000
+          "value_target": 1045
         },
         {
-          "name": "General assistants",
+          "name": "Auxiliary Nurses",
           "metric_type": "count",
-          "value": 128894,
+          "value": 1848,
           "time": {
             "name": "Employed over time",
             "values": [
               {
                 "month": 202010,
                 "name": "Oct '20",
-                "value": 0
+                "value": 257
               },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 100000
+                "value": 706
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 120735
+                "value": 1304
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 128894
+                "value": 1848
               }
             ]
           },
@@ -153,141 +153,81 @@
             "values": [
               {
                 "province": "EC",
-                "value": 25175
+                "value": [
+                  296
+                ]
               },
               {
                 "province": "FS",
-                "value": 6989
+                "value": [
+                  4
+                ]
               },
               {
                 "province": "GP",
-                "value": 15724
+                "value": [
+                  380
+                ]
               },
               {
                 "province": "KZN",
-                "value": 30888
+                "value": [
+                  690
+                ]
               },
               {
                 "province": "LP",
-                "value": 21408
+                "value": [
+                  0
+                ]
               },
               {
                 "province": "MP",
-                "value": 10082
+                "value": [
+                  2
+                ]
               },
               {
                 "province": "NW",
-                "value": 8659
+                "value": [
+                  167
+                ]
               },
               {
                 "province": "NC",
-                "value": 4198
+                "value": [
+                  9
+                ]
               },
               {
                 "province": "WC",
-                "value": 5771
+                "value": [
+                  300
+                ]
               }
             ]
           },
-          "value_target": 100000
-        }
-      ]
-    },
-    {
-      "name": "Jobs retained",
-      "section_type": "jobs_retain",
-      "metrics": [
+          "value_target": 1236
+        },
         {
-          "name": "Vulnerable posts saved",
+          "name": "Community Health Workers",
           "metric_type": "count",
-          "value": 26779,
-          "time": {
-            "name": "Jobs saved over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 44933
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 21988
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 26779
-              }
-            ]
-          },
+          "value": 0,
+          "time": null,
           "gender": null,
           "age": null,
-          "province": {
-            "name": "Jobs saved by province",
-            "values": [
-              {
-                "province": "EC",
-                "value": [
-                  5118
-                ]
-              },
-              {
-                "province": "FS",
-                "value": [
-                  1313
-                ]
-              },
-              {
-                "province": "GP",
-                "value": [
-                  3884
-                ]
-              },
-              {
-                "province": "KZN",
-                "value": [
-                  2725
-                ]
-              },
-              {
-                "province": "LP",
-                "value": [
-                  1743
-                ]
-              },
-              {
-                "province": "MP",
-                "value": [
-                  1229
-                ]
-              },
-              {
-                "province": "NW",
-                "value": [
-                  919
-                ]
-              },
-              {
-                "province": "NC",
-                "value": [
-                  3821
-                ]
-              },
-              {
-                "province": "WC",
-                "value": [
-                  6027
-                ]
-              }
-            ]
-          },
-          "value_target": 44933
+          "province": null,
+          "value_target": 2000
+        },
+        {
+          "name": "Outreach Team Leaders",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 1250
         }
       ]
     }
