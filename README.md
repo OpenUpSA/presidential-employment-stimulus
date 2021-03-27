@@ -6,7 +6,7 @@ This repo provides a webpage that is embedded in [stateofthenation.gov.za](https
 
 - [ ] Make JSON interface more generic (see below) (later)
 - [x] Import webflow export once Matt is done
-- [ ] Format number over 1 million using long (x billion) and short (x b)
+- [x] Format number over 1 million using long (x billion) and short (x b)
 - [ ] Time line chart
 - [ ] Make province etc. more general = 'bar' {'key', 'value'}
 - [ ] Must e.g. "Dec '20 - Jan '21" in tab header?
