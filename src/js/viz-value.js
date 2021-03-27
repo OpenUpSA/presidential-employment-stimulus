@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import { FORMATTERS } from './utils';
 
-const SELECTOR = '.feature-value__youth';
+const SELECTOR = '.feature-value__number-percent_number';
 
 const $template = $(SELECTOR).first().clone(true, true);
 

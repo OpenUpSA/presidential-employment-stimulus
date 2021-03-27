@@ -1,9 +1,9 @@
 import $ from 'jquery';
 import { FORMATTERS } from './utils';
 
-const CONTAINER_SELECTOR = '.feature-value__demographics';
-const LEFT_SELECTOR = '.demo-bar.male';
-const RIGHT_SELECTOR = '.demo-bar.female';
+const CONTAINER_SELECTOR = '.components .feature-value__split-chart';
+const LEFT_SELECTOR = '.demo-bar.left';
+const RIGHT_SELECTOR = '.demo-bar.right';
 
 const $template = $(CONTAINER_SELECTOR).first().clone(true, true);
 

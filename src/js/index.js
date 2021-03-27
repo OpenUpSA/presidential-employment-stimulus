@@ -10,6 +10,7 @@ import { VizHeading } from './viz-heading';
 import { VizSplit } from './viz-split';
 import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
+import { VizLine } from './viz-line';
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -32,19 +33,18 @@ d3.json('data/all_data.json').then((data) => {
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph);
     const sectionDataArr = tabData.sections || [];
     sectionDataArr.forEach((sectionData) => {
-      const section = new Section(tab.$container, sectionData.name, '', '', sectionData.section_type);
-      const section_type = sectionData.section_type;
+      const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
+      const sectionType = sectionData.section_type;
       const subSectionDataArr = sectionData.metrics || [];
       subSectionDataArr.forEach((subSectionData) => {
         const subSection = new SubSection(section.$container);
-        const totalValue = subSectionData.value;
         new Metric(
           subSection.$container,
           subSectionData.name,
+          sectionType,
           subSectionData.metric_type,
-          totalValue,
+          subSectionData.value,
           subSectionData.value_target,
-            section_type
         );
         if (subSectionData.gender) {
           new VizHeading(subSection.$container, subSectionData.gender.name);
@@ -65,6 +65,10 @@ d3.json('data/all_data.json').then((data) => {
             'count',
             ageValue,
           );
+        }
+        if (subSectionData.time) {
+          new VizHeading(subSection.$container, subSectionData.time.name);
+          new VizLine(subSection.$container, subSectionData.time.values);
         }
         if (subSectionData.province) {
           new VizHeading(subSection.$container, subSectionData.province.name);

@@ -2,25 +2,46 @@ import $ from 'jquery';
 import { FORMATTERS } from './utils';
 import { VizProgress } from './viz-progress';
 
-const CONTAINER_SELECTOR = '.tab-inner .feature-value__inner';
-const NAME_SELECTOR = '.feature-value__label';
-const METRIC_SELECTOR = '.div-block-4';
-const VALUE_SELECTOR = '.feature-value__metric .feature-value__amount';
-const TARGET_SELECTOR = '.feature-value__metric .text-block';
+const ICON_SELECTORS = {
+  livelihoods: '.icon.icon--support',
+  job_opportunities: '.icon.icon--jobs-created',
+  jobs_retain: '.icon.icon--jobs-retained',
+  targets: '.icon.icon--budget',
+  budget_allocated: '.icon.icon--budget',
+};
+const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
+  ...obj,
+  [key]: $(ICON_SELECTORS[key]).clone(true, true),
+}), {});
 
-const PROGRESS_CLASS = 'feature-value__chart';
+const CONTAINER_SELECTOR = '.components .feature-value__inner';
+const NAME_SELECTOR = '.feature-value__label';
+const ICON_CONTAINER_SELECTOR = '.feature-value__header_icon-wrapper';
+const VALUE_SELECTOR = '.feature-value__amount';
+const SUB_VALUE_SELECTOR = '.feautre-value__sub-amount';
+
+const PROGRESS_CLASS = 'feature-value__header_chart-wrapper';
 
 const $containerTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
 
 export class Metric {
-  constructor($parent, title, type, value, target, section_type) {
+  constructor($parent, title, sectionType, metricType, value, target) {
     this._$parent = $parent;
     this._title = title;
-    this._type = type;
+    this._sectionType = sectionType;
+    this._metricType = metricType;
+    this._formatter = FORMATTERS[this._metricType];
     this._value = value === -1 ? null : value;
     this._target = target === -1 ? null : target;
-    this._formatter = FORMATTERS[type];
-    this._section_type = section_type;
+    this._quotient = this._target
+      ? this._value / this._target : null;
+    if (sectionType === 'targets') {
+      this._topText = this._formatter(this._target);
+      this._bottomText = `${metricType === 'currency' ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
+    } else {
+      this._topText = this._formatter(this._value);
+      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : null;
+    }
     this.render();
   }
 
@@ -31,38 +52,24 @@ export class Metric {
   render() {
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
+    const $icon = icons[this._sectionType].clone(true, true);
+    this._$el.find(ICON_CONTAINER_SELECTOR).append($icon);
     this._$el.find(NAME_SELECTOR).text(this._title);
-    const metricId = `metric-${Math.round(Math.random() * 1000000)}`;
-    const $metric = this._$el.find(METRIC_SELECTOR)
-      .attr('id', metricId);
-    $metric.find('img').remove();
-    if (this._section_type == "targets") {
-        this._$el.find(VALUE_SELECTOR).text(this._formatter(this._target));
-        const $target = $metric.find(TARGET_SELECTOR);
-        if (!this._value) {
-          $target.remove();
-        } else {
-          const text = (this._type == "currency") ? "SPENT" : "ACHIEVED";
-          $target.text(`${text} ${this._formatter(this._value)}`);
-          $metric.prepend(`<div class="${PROGRESS_CLASS}"></div>`);
-          const progressQuotient = (this._value / this._target);
-          new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
-        }
-      } else {
-        if (this._value === null) {
-          $metric.remove();
-        } else {
-        this._$el.find(VALUE_SELECTOR).text(this._formatter(this._value));
-        const $target = $metric.find(TARGET_SELECTOR);
-        if (!this._target) {
-          $target.remove();
-        } else {
-          $target.text(`TARGET: ${this._formatter(this._target)}`);
-          $metric.prepend(`<div class="${PROGRESS_CLASS}"></div>`);
-          const progressQuotient = (this._value / this._target);
-          new VizProgress(`#${metricId} .${PROGRESS_CLASS}`, progressQuotient);
-        }
-      }
+    this._$el.find(VALUE_SELECTOR).text(this._topText);
+    this._$el.find('img').remove();
+    const $subValue = this._$el.find(SUB_VALUE_SELECTOR);
+    if (this._bottomText) {
+      $subValue.text(this._bottomText);
+    } else {
+      $subValue.remove();
+    }
+    const $chartWrapper = this._$el.find(`.${PROGRESS_CLASS}`);
+    if (this._quotient) {
+      const chartId = `progress-chart-${Math.round(Math.random() * 1000000)}`;
+      $chartWrapper.attr('id', chartId);
+      new VizProgress(`#${chartId}.${PROGRESS_CLASS}`, this._quotient);
+    } else {
+      $chartWrapper.remove();
     }
   }
 }
