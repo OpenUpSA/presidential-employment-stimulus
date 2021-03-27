@@ -65,6 +65,7 @@ export class VizLine {
     svg.append('path')
       .attr('class', 'line')
       .attr('stroke', 'lightgrey')
+      .attr('fill', 'none')
       .attr('stroke-width', 1)
       .attr('d', valueline(data));
     svg.append('g')
