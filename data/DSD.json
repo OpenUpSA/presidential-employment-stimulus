@@ -40,11 +40,27 @@
       ]
     },
     {
+      "name": "Job opportunities",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Registration support officers",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 500
+        }
+      ]
+    },
+    {
       "name": "Jobs retained",
       "section_type": "jobs_retain",
       "metrics": [
         {
-          "name": "Social workers retained",
+          "name": "Retention of social workers",
           "metric_type": "count",
           "value": 1086,
           "time": {
@@ -138,6 +154,23 @@
           "value_target": 74626
         }
       ]
+    },
+    {
+      "name": "Job opportunities",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "ECD income and compliance support",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 108833
+        }
+      ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

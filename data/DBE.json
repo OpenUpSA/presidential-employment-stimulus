@@ -44,7 +44,7 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Education assistants",
+          "name": "Education Assistants",
           "metric_type": "count",
           "value": 200000,
           "time": {
@@ -118,7 +118,7 @@
           "value_target": 200000
         },
         {
-          "name": "General assistants",
+          "name": "General Assistants",
           "metric_type": "count",
           "value": 128894,
           "time": {
@@ -198,7 +198,7 @@
       "section_type": "jobs_retain",
       "metrics": [
         {
-          "name": "Vulnerable posts saved",
+          "name": "Job retention at fee paying schools",
           "metric_type": "count",
           "value": 26779,
           "time": {
@@ -291,5 +291,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

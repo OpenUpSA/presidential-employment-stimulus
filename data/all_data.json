@@ -241,7 +241,7 @@
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Global Business Services Sector expansion",
+              "name": "Global Business Services Sector",
               "metric_type": "count",
               "value": 7572,
               "time": {
@@ -332,6 +332,13 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Global Business Services Sector",
+          "status": "OnTrack",
+          "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
+        }
       ]
     },
     {
@@ -380,7 +387,7 @@
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Education assistants",
+              "name": "Education Assistants",
               "metric_type": "count",
               "value": 200000,
               "time": {
@@ -454,7 +461,7 @@
               "value_target": 200000
             },
             {
-              "name": "General assistants",
+              "name": "General Assistants",
               "metric_type": "count",
               "value": 128894,
               "time": {
@@ -534,7 +541,7 @@
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Vulnerable posts saved",
+              "name": "Job retention at fee paying schools",
               "metric_type": "count",
               "value": 26779,
               "time": {
@@ -627,6 +634,23 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Education Assistants",
+          "status": "OnTrack",
+          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+        },
+        {
+          "programme_name": "General Assistants",
+          "status": "OnTrack",
+          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+        },
+        {
+          "programme_name": "Job retention at fee paying schools",
+          "status": "MinorChallenges",
+          "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
+        }
       ]
     },
     {
@@ -671,11 +695,27 @@
           ]
         },
         {
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "Registration support officers",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 500
+            }
+          ]
+        },
+        {
           "name": "Jobs retained",
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Social workers retained",
+              "name": "Retention of social workers",
               "metric_type": "count",
               "value": 1086,
               "time": {
@@ -769,6 +809,39 @@
               "value_target": 74626
             }
           ]
+        },
+        {
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "ECD income and compliance support",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 108833
+            }
+          ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Registration support officers",
+          "status": "CriticalChallenges",
+          "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented"
+        },
+        {
+          "programme_name": "Retention of social workers",
+          "status": "OnTrack",
+          "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
+        },
+        {
+          "programme_name": "ECD income and compliance support",
+          "status": "MinorChallenges",
+          "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
         }
       ]
     },
@@ -818,7 +891,7 @@
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Enrolled Nurses",
+              "name": "Enrolled nurses",
               "metric_type": "count",
               "value": 2119,
               "time": {
@@ -892,7 +965,7 @@
               "value_target": 1045
             },
             {
-              "name": "Auxiliary Nurses",
+              "name": "Auxiliary nurses",
               "metric_type": "count",
               "value": 1848,
               "time": {
@@ -1004,6 +1077,28 @@
               "value_target": 1250
             }
           ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Enrolled nurses",
+          "status": "OnTrack",
+          "detail": "Appointment commenced immediately and the department has exceeded its target"
+        },
+        {
+          "programme_name": "Auxiliary nurses",
+          "status": "OnTrack",
+          "detail": "Appointments commenced immediately and is progressing well."
+        },
+        {
+          "programme_name": "Community Health Workers",
+          "status": "CriticalChallenges",
+          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+        },
+        {
+          "programme_name": "Outreach Team Leaders",
+          "status": "CriticalChallenges",
+          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
         }
       ]
     },
@@ -1318,7 +1413,8 @@
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -1360,6 +1456,98 @@
               "value_target": 1900
             }
           ]
+        },
+        {
+          "name": "Global Business Services Sector",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "HSRC - Health Promotion Agents",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 1000
+            },
+            {
+              "name": "CSIR - Enviro-champs",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 350
+            },
+            {
+              "name": "CSIR - Experiential Training Programme",
+              "metric_type": "count",
+              "value": 8,
+              "time": {
+                "name": "Employed over time",
+                "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 8
+                  }
+                ]
+              },
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 150
+            },
+            {
+              "name": "WRC - Water Graduate Employment Programme",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 400
+            }
+          ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "HSRC - Health Promotion Agents",
+          "status": "MinorChallenges",
+          "detail": "There were delays in the planning phase however, recruitment is underway and is being conducted in two phases."
+        },
+        {
+          "programme_name": "CSIR - Enviro-champs",
+          "status": "MinorChallenges",
+          "detail": "Appointed enviro-champs have received training and commenced work however transfer of funds was delayed resulting in a slow start."
+        },
+        {
+          "programme_name": "CSIR - Experiential Training Programme",
+          "status": "CriticalChallenges",
+          "detail": "Placement has commenced however was affected by university system closures which meant students could not register and provide proof as part of application process. "
+        },
+        {
+          "programme_name": "WRC - Water Graduate Employment Programme",
+          "status": "MinorChallenges",
+          "detail": "There were delays in the planning phase however, recruitment is underway."
         }
       ]
     },
@@ -2110,6 +2298,68 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
+          "status": "MinorChallenges",
+          "detail": "Appointed participants have commenced work however the demand from organisations has been low."
+        },
+        {
+          "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+          "status": "OnTrack",
+          "detail": "The participants have started working with significant progress against the target to date."
+        },
+        {
+          "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+          "status": "CriticalChallenges",
+          "detail": "Delays in implementation due to the need to obtain approval of the entity from National Treasury."
+        },
+        {
+          "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
+          "status": "CriticalChallenges",
+          "detail": "Delays in implementation due to slow progress in signing the Memorandum of Agreement with implementing agents"
+        },
+        {
+          "programme_name": "Audit of national museums - South African Heritage Resources Agency",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and audits are underway across the country."
+        },
+        {
+          "programme_name": "Digitisation of records - National Library of South Africa",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and digitisation of records is underway."
+        },
+        {
+          "programme_name": "Digitisation of records -National Archives",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and digitisation of records is underway."
+        },
+        {
+          "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
+          "status": "CriticalChallenges",
+          "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practictioners"
+        },
+        {
+          "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
+          "status": "OnTrack",
+          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+        },
+        {
+          "programme_name": "Job retention in sport sector - Sport Trust",
+          "status": "MinorChallenges",
+          "detail": "The programme was oversubscribed and will likely exceed its target."
+        },
+        {
+          "programme_name": "Support to art and culture practitioners - National Arts Council",
+          "status": "CriticalChallenges",
+          "detail": "This stream was oversubscribed and only a portion of the approved beneficiaries received support in December. A new council joined the board in January and they are addressing the challenges."
+        },
+        {
+          "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
+          "status": "OnTrack",
+          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+        }
       ]
     },
     {
@@ -2232,6 +2482,13 @@
               "value_target": 37079
             }
           ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Rural roads maintenance",
+          "status": "MinorChallenges",
+          "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
         }
       ]
     },
@@ -2940,7 +3197,8 @@
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -3349,6 +3607,58 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Cleaning and greening - war on waste with municipalities",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Oceans and Coast: Source to Sea",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Groen Sebenzas, weather service - graduate programme",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "SANBI Infrastructure maintenance, biosecurity",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "iSimangaliso: conservation management infrastructure",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "SANPARKS upgrade and green energy",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Catchment management and strategic water sources",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Bio-diversity economy",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Climate Adaptation: Forestry support",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        }
       ]
     },
     {
@@ -3392,7 +3702,8 @@
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     }
   ]
 }

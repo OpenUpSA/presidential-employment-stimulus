@@ -44,7 +44,7 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Global Business Services Sector expansion",
+          "name": "Global Business Services Sector",
           "metric_type": "count",
           "value": 7572,
           "time": {
@@ -135,5 +135,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

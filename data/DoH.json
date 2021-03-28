@@ -44,7 +44,7 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Enrolled Nurses",
+          "name": "Enrolled nurses",
           "metric_type": "count",
           "value": 2119,
           "time": {
@@ -118,7 +118,7 @@
           "value_target": 1045
         },
         {
-          "name": "Auxiliary Nurses",
+          "name": "Auxiliary nurses",
           "metric_type": "count",
           "value": 1848,
           "time": {
@@ -231,5 +231,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

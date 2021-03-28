@@ -12,6 +12,8 @@ MetricTypeEnum = Enum("MetricType", "currency count")
 
 ProvinceEnum = Enum("Province", "EC FS GP KZN LP MP NC NW WC")
 
+ImplementationStatusEnum = Enum('ImplementationStatus', 'OnTrack MinorChallenges CriticalChallenges')
+
 provinces = [
     "Eastern Cape",
     "Free State",
@@ -109,6 +111,12 @@ class Metric:
     province: Optional[ProvinceValues]
     value_target: int = -1
 
+@dataclass_json
+@dataclass
+class ImplementationDetail:
+    programme_name: str
+    status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
+    detail: str = None    
 
 @dataclass_json
 @dataclass
@@ -129,6 +137,7 @@ class Department:
     target_lines: Optional[List[int]]
     achievement_lines: Optional[List[int]]
     sections: List["Section"]
+    implementation_details: Optional[List["ImplementationDetail"]]
 
 
 @dataclass_json
@@ -182,6 +191,12 @@ class Overview:
 class Everything:
     overview: Overview
     departments: List["Department"]
+
+implementation_status_to_enum = {
+    'On track': ImplementationStatusEnum.OnTrack.name,
+    'Minor challenges': ImplementationStatusEnum.MinorChallenges.name,
+    'Critical challenges': ImplementationStatusEnum.CriticalChallenges.name
+}
 
 section_titles = {
     SectionEnum.targets.name: "Programme targets for this department",
@@ -252,3 +267,27 @@ paragraphs = dict(
 
 months = [202010, 202011, 202012, 202101]
 month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21"]
+
+target_to_imp_programme_mapping = {
+    "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
+    "CSIR - Experiential Training Programme": "CSIR - Experiential Training Programme ",
+    "Community Health Workers": "Community health workers",
+    "Covid-19 Return-To-Play - National Sport Federations": "Covid-19 Return-To-Play - National Sport Federations                                                                                                                                    ",
+    "Digitisation of records - National Library of South Africa": "Digitisation of records - National Library of South Africa ",
+    "Facilities Management": "Facilities Management (PMTE) Employment: ",
+    "In-House Construction projects": "In-House Construction projects ",
+    "Job retention at fee paying schools": "Retain vulnerable teaching posts",
+    "Municipal infrastructure": "Mainstream labour intensive construction methods",
+    "Outreach Team Leaders": "Outreach team leaders",
+    "Oceans and Coast: Source to Sea": "Oceans and Coast: Source to Sea ",
+    "Provincial Roads Maintenance": "Rural roads maintenance",
+    "Real Estate": "Real Estate  (PMTE)",
+    "Services sector development incentives": "Global Business Services Sector",
+    "Subsistence relief fund": "Subsistence producer relief fund",
+    "Retention of social workers": "Social workers",
+    "Vegetables and Fruits": "Vegetables and Fruits ",
+    "WRC - Water Graduate Employment Programme": " WRC - Water Graduate Employment Programme ",
+    "Water and Energy Efficiency": "Water and Energy Efficiency (Green Economy)",
+    "Water and Sanitation Facilities Management": "Water and Sanitation Facilities Management (PMTE)",
+    "Welisizwe Rural Bridges Programme": "Welisizwe Rural Bridges Programme (PMTE) ",
+}
