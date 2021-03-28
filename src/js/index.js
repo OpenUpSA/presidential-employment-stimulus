@@ -3,6 +3,8 @@ import { d3 } from './d3';
 import { Tabs } from './tabs';
 import { Tab } from './tab';
 import { Header } from './header';
+import { OverviewSection } from "./overview-section";
+import { OverviewVizBars} from "./overview-viz-bars";
 import { Section } from './section';
 import { SubSection } from './sub-section';
 import { Metric } from './metric';
@@ -11,6 +13,7 @@ import { VizSplit } from './viz-split';
 import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
 import { VizLine } from './viz-line';
+import {ImplementationDetail} from "./implementation-detail";
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -22,12 +25,27 @@ $(TAB_CONTENT_SELECTOR).empty();
 d3.json('data/all_data.json').then((data) => {
   const merged = [data.overview, ...data.departments];
   const tabs = new Tabs();
-  merged.forEach((tabData, i) => {
+  const overviewTab = new Tab(
+      TAB_MENU_SELECTOR,
+      TAB_CONTENT_SELECTOR,
+      data.overview.name,
+      () => tabs.select(0)
+  );
+  new Header(overviewTab.$container, data.overview.name, data.overview.lead, data.overview.paragraph);
+  const overviewSectionArr = data.overview.sections || [];
+  overviewSectionArr.forEach((overviewSectionData) => {
+    const overviewSection = new OverviewSection(overviewTab.$container, overviewSectionData.name, overviewSectionData.section_type,
+        'count', overviewSectionData.value, overviewSectionData.value_target);
+    new VizHeading(overviewTab.$container, overviewSectionData.name);
+    new OverviewVizBars(overviewTab.$container, overviewSectionData.metrics);
+  });
+  tabs.add(overviewTab);
+  data.departments.forEach((tabData, i) => {
     const tab = new Tab(
       TAB_MENU_SELECTOR,
       TAB_CONTENT_SELECTOR,
       tabData.name,
-      () => tabs.select(i),
+      () => tabs.select(i+1),
     );
     tabs.add(tab);
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph);
@@ -76,6 +94,13 @@ d3.json('data/all_data.json').then((data) => {
         }
       });
     });
+    if (tabData.implementation_details.length > 0) {
+      const implDetails = new Section(tab.$container, 'Implementation details', '', '', '');
+      tabData.implementation_details.forEach((implData) => {
+        const subSection = new SubSection(tab.$container);
+        new ImplementationDetail(subSection.$container, implData.programme_name, implData.status, implData.detail);
+      });
+    }
   });
   tabs.select(0);
   $(TEMPORARY_HIDDEN_SELECTOR).show();
