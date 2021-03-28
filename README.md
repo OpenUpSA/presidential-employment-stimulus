@@ -4,11 +4,62 @@ This repo provides a webpage that is embedded in [stateofthenation.gov.za](https
 
 ## TODO
 
+- [ ] Make JSON interface more generic (see below) (later)
+- [x] Import webflow export once Matt is done
+- [x] Format number over 1 million using long (x billion) and short (x b)
+- [ ] Time line chart
 - [ ] Make province etc. more general = 'bar' {'key', 'value'}
 - [ ] Must e.g. "Dec '20 - Jan '21" in tab header?
 - [ ] More direct selectors
 - [ ] Metric target selector `span` instead of writing 'TARGET {}'
 - [ ] Use webflow event handling for tabs and tooltips?
+
+### Make JSON interface more generic:
+
+Instead of:
+
+```json
+"metrics": [
+  {
+    "name": "Social Development",
+    "metric_type": "count",
+    "value": 0,
+    "time": null,
+    "gender": null,
+    "age": null,
+    "province": null,
+    "value_target": 108833
+  }
+]
+```
+
+Do something like:
+
+```json
+"metrics": [
+  {
+    "name": "Social Development",
+    "metric_type": "count",
+    "value": 0,
+    "value_target": 108833,
+    "dimensions": [
+      {
+        "type": "time"
+      },
+      {
+        "type": "split"
+      },
+      {
+        "type": "percentage"
+      },
+      {
+        "type": "bars"
+      }
+    ]
+  }
+]
+```
+
 
 ## Development
 
