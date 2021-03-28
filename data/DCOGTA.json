@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,9 +28,9 @@
           "value_target": 50000000
         },
         {
-          "name": "Programme beneficiaries",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": -1,
+          "value": 0,
           "time": null,
           "gender": null,
           "age": null,
@@ -39,5 +39,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

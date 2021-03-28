@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,9 +28,9 @@
           "value_target": 7000000000
         },
         {
-          "name": "Programme beneficiaries",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 311014,
+          "value": 355673,
           "time": null,
           "gender": null,
           "age": null,
@@ -40,25 +40,35 @@
       ]
     },
     {
-      "name": "Job opportunities created to date",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Education assistants",
+          "name": "Education Assistants",
           "metric_type": "count",
-          "value": 155341,
+          "value": 200000,
           "time": {
             "name": "Employed over time",
             "values": [
               {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 158437
+                "value": 200000
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 155341
+                "value": 200000
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 200000
               }
             ]
           },
@@ -108,20 +118,30 @@
           "value_target": 200000
         },
         {
-          "name": "General assistants",
+          "name": "General Assistants",
           "metric_type": "count",
           "value": 128894,
           "time": {
             "name": "Employed over time",
             "values": [
               {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 120735
+                "value": 100000
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
+                "value": 120735
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
                 "value": 128894
               }
             ]
@@ -174,30 +194,42 @@
       ]
     },
     {
-      "name": "Jobs Retained",
+      "name": "Jobs retained",
       "section_type": "jobs_retain",
       "metrics": [
         {
-          "name": "Vulnerable posts saved",
+          "name": "Job retention at fee paying schools",
           "metric_type": "count",
           "value": 26779,
           "time": {
             "name": "Jobs saved over time",
             "values": [
               {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 44933
+              },
+              {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": [
-                  21988,
-                  26779
-                ]
+                "value": 21988
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 26779
               }
             ]
           },
           "gender": null,
           "age": null,
           "province": {
-            "name": "Posts saved by Province",
+            "name": "Jobs saved by province",
             "values": [
               {
                 "province": "EC",
@@ -259,5 +291,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

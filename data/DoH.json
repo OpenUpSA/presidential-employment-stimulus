@@ -1,7 +1,7 @@
 {
   "month": 202101,
   "name": "Health",
-  "sheet_name": "DOH",
+  "sheet_name": "DoH",
   "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
   "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
   "target_lines": [
@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,9 +28,9 @@
           "value_target": 393571000
         },
         {
-          "name": "Programme beneficiaries",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": -1,
+          "value": 2119,
           "time": null,
           "gender": null,
           "age": null,
@@ -44,103 +44,11 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Enrolled Nurses",
-          "metric_type": "count",
-          "value": NaN,
-          "time": {
-            "name": "Opportunities over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": NaN
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": NaN
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": NaN
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": NaN
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": [
-                  400.0
-                ]
-              },
-              {
-                "province": "FS",
-                "value": [
-                  11.0
-                ]
-              },
-              {
-                "province": "GP",
-                "value": [
-                  425.0
-                ]
-              },
-              {
-                "province": "KZN",
-                "value": [
-                  690.0
-                ]
-              },
-              {
-                "province": "LP",
-                "value": [
-                  0.0
-                ]
-              },
-              {
-                "province": "MP",
-                "value": [
-                  245.0
-                ]
-              },
-              {
-                "province": "NW",
-                "value": [
-                  141.0
-                ]
-              },
-              {
-                "province": "NC",
-                "value": [
-                  3.0
-                ]
-              },
-              {
-                "province": "WC",
-                "value": [
-                  204.0
-                ]
-              }
-            ]
-          },
-          "value_target": 1045
-        },
-        {
-          "name": "Auxiliary Nurses",
+          "name": "Enrolled nurses",
           "metric_type": "count",
           "value": 2119,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
               {
                 "month": 202010,
@@ -171,56 +79,130 @@
             "values": [
               {
                 "province": "EC",
+                "value": 400
+              },
+              {
+                "province": "FS",
+                "value": 11
+              },
+              {
+                "province": "GP",
+                "value": 425
+              },
+              {
+                "province": "KZN",
+                "value": 690
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 245
+              },
+              {
+                "province": "NW",
+                "value": 141
+              },
+              {
+                "province": "NC",
+                "value": 3
+              },
+              {
+                "province": "WC",
+                "value": 204
+              }
+            ]
+          },
+          "value_target": 1045
+        },
+        {
+          "name": "Auxiliary nurses",
+          "metric_type": "count",
+          "value": 1848,
+          "time": {
+            "name": "Employed over time",
+            "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 257
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 706
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 1304
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 1848
+              }
+            ]
+          },
+          "gender": null,
+          "age": null,
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
                 "value": [
-                  296.0
+                  296
                 ]
               },
               {
                 "province": "FS",
                 "value": [
-                  4.0
+                  4
                 ]
               },
               {
                 "province": "GP",
                 "value": [
-                  380.0
+                  380
                 ]
               },
               {
                 "province": "KZN",
                 "value": [
-                  690.0
+                  690
                 ]
               },
               {
                 "province": "LP",
                 "value": [
-                  0.0
+                  0
                 ]
               },
               {
                 "province": "MP",
                 "value": [
-                  2.0
+                  2
                 ]
               },
               {
                 "province": "NW",
                 "value": [
-                  167.0
+                  167
                 ]
               },
               {
                 "province": "NC",
                 "value": [
-                  9.0
+                  9
                 ]
               },
               {
                 "province": "WC",
                 "value": [
-                  300.0
+                  300
                 ]
               }
             ]
@@ -249,5 +231,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

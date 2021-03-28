@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,9 +28,9 @@
           "value_target": 525000000
         },
         {
-          "name": "Overall opportunities created",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": -1,
+          "value": 12620,
           "time": null,
           "gender": null,
           "age": null,
@@ -40,16 +40,135 @@
       ]
     },
     {
-      "name": "Job opportunities created",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Public Art - Towards A People's Culture",
+          "name": "Covid-19 Return-To-Play - National Sport Federations",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 1470
+        },
+        {
+          "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+          "metric_type": "count",
+          "value": 156,
+          "time": {
+            "name": "Employed over time",
+            "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 0
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 138
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 156
+              }
+            ]
+          },
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Percentage (%) male",
+                "value": 0.7
+              },
+              {
+                "gender": "Percentage (%) female",
+                "value": 0.3
+              }
+            ]
+          },
+          "age": {
+            "name": "Percentage of opportunities going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 0.58
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 16
+              },
+              {
+                "province": "FS",
+                "value": 37
+              },
+              {
+                "province": "GP",
+                "value": 26
+              },
+              {
+                "province": "KZN",
+                "value": 8
+              },
+              {
+                "province": "LP",
+                "value": 20
+              },
+              {
+                "province": "MP",
+                "value": 4
+              },
+              {
+                "province": "NW",
+                "value": 11
+              },
+              {
+                "province": "NC",
+                "value": 12
+              },
+              {
+                "province": "WC",
+                "value": 22
+              }
+            ]
+          },
+          "value_target": 900
+        },
+        {
+          "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+          "metric_type": "count",
+          "value": 0,
+          "time": null,
+          "gender": null,
+          "age": null,
+          "province": null,
+          "value_target": 500
+        },
+        {
+          "name": "Public Art, towards a people's culture - Community Arts Centres",
           "metric_type": "count",
           "value": 880,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
@@ -69,50 +188,66 @@
           },
           "gender": null,
           "age": null,
-          "province": null,
-          "value_target": 900
-        },
-        {
-          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-          "metric_type": "count",
-          "value": 156,
-          "time": {
-            "name": "Jobs created over time",
+          "province": {
+            "name": "Opportunities by Province",
             "values": [
               {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 138
+                "province": "EC",
+                "value": 100
               },
               {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 156
+                "province": "FS",
+                "value": 100
+              },
+              {
+                "province": "GP",
+                "value": 80
+              },
+              {
+                "province": "KZN",
+                "value": 100
+              },
+              {
+                "province": "LP",
+                "value": 100
+              },
+              {
+                "province": "MP",
+                "value": 100
+              },
+              {
+                "province": "NW",
+                "value": 100
+              },
+              {
+                "province": "NC",
+                "value": 100
+              },
+              {
+                "province": "WC",
+                "value": 100
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 500
-        },
-        {
-          "name": "South African Cultural Observatory (Graduates: marketing plans)",
-          "metric_type": "count",
-          "value": 0,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
           "value_target": 900
         },
         {
-          "name": "South African Heritage Resources Agency",
+          "name": "Audit of national museums - South African Heritage Resources Agency",
           "metric_type": "count",
           "value": 251,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 0
+              },
               {
                 "month": 202012,
                 "name": "Dec '20",
@@ -125,18 +260,93 @@
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Percentage (%) male",
+                "value": 0.39
+              },
+              {
+                "gender": "Percentage (%) female",
+                "value": 0.61
+              }
+            ]
+          },
+          "age": {
+            "name": "Percentage of opportunities going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 1.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 27
+              },
+              {
+                "province": "FS",
+                "value": 20
+              },
+              {
+                "province": "GP",
+                "value": 24
+              },
+              {
+                "province": "KZN",
+                "value": 27
+              },
+              {
+                "province": "LP",
+                "value": 22
+              },
+              {
+                "province": "MP",
+                "value": 27
+              },
+              {
+                "province": "NW",
+                "value": 28
+              },
+              {
+                "province": "NC",
+                "value": 24
+              },
+              {
+                "province": "WC",
+                "value": 52
+              }
+            ]
+          },
           "value_target": 260
         },
         {
-          "name": "National Library of South Africa digitisation",
+          "name": "Digitisation of records - National Library of South Africa",
           "metric_type": "count",
           "value": 139,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 0
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
               {
                 "month": 202101,
                 "name": "Jan '21",
@@ -144,18 +354,93 @@
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Percentage (%) male",
+                "value": 0.3472
+              },
+              {
+                "gender": "Percentage (%) female",
+                "value": 0.6527
+              }
+            ]
+          },
+          "age": {
+            "name": "Percentage of opportunities going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 0.972
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 0
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
+                "province": "GP",
+                "value": 67
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 0
+              },
+              {
+                "province": "NW",
+                "value": 0
+              },
+              {
+                "province": "NC",
+                "value": 0
+              },
+              {
+                "province": "WC",
+                "value": 72
+              }
+            ]
+          },
           "value_target": 163
         },
         {
-          "name": "National Archives digitisation",
+          "name": "Digitisation of records -National Archives",
           "metric_type": "count",
           "value": 146,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
+              {
+                "month": 202011,
+                "name": "Nov '20",
+                "value": 0
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
               {
                 "month": 202101,
                 "name": "Jan '21",
@@ -163,9 +448,69 @@
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "gender": {
+            "name": "Opportunities by Gender",
+            "values": [
+              {
+                "gender": "Percentage (%) male",
+                "value": 0.33
+              },
+              {
+                "gender": "Percentage (%) female",
+                "value": 0.67
+              }
+            ]
+          },
+          "age": {
+            "name": "Percentage of opportunities going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 1.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Opportunities by Province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 0
+              },
+              {
+                "province": "FS",
+                "value": 0
+              },
+              {
+                "province": "GP",
+                "value": 146
+              },
+              {
+                "province": "KZN",
+                "value": 0
+              },
+              {
+                "province": "LP",
+                "value": 0
+              },
+              {
+                "province": "MP",
+                "value": 0
+              },
+              {
+                "province": "NW",
+                "value": 0
+              },
+              {
+                "province": "NC",
+                "value": 0
+              },
+              {
+                "province": "WC",
+                "value": 0
+              }
+            ]
+          },
           "value_target": 163
         }
       ]
@@ -175,262 +520,231 @@
       "section_type": "jobs_retain",
       "metrics": [
         {
-          "name": "Public Art - Towards A People's Culture",
+          "name": "Job retention in cultural and creative institutions - National Arts Council",
           "metric_type": "count",
-          "value": 880,
+          "value": 2475,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 880
+                "value": 0
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 880
+                "value": 0
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 880
+                "value": 2475
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 900
-        },
-        {
-          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-          "metric_type": "count",
-          "value": 156,
-          "time": {
-            "name": "Jobs created over time",
+          "gender": {
+            "name": "Jobs saved by gender",
             "values": [
               {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 138
+                "gender": "Percentage (%) male",
+                "value": 56.5
               },
               {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 156
+                "gender": "Percentage (%) female",
+                "value": 43.5
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 500
+          "age": {
+            "name": "Percentage of jobs saved going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 44.0
+              }
+            ]
+          },
+          "province": {
+            "name": "Jobs saved by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 119
+              },
+              {
+                "province": "FS",
+                "value": 202
+              },
+              {
+                "province": "GP",
+                "value": 769
+              },
+              {
+                "province": "KZN",
+                "value": 278
+              },
+              {
+                "province": "LP",
+                "value": 107
+              },
+              {
+                "province": "MP",
+                "value": 74
+              },
+              {
+                "province": "NW",
+                "value": 103
+              },
+              {
+                "province": "NC",
+                "value": 45
+              },
+              {
+                "province": "WC",
+                "value": 778
+              }
+            ]
+          },
+          "value_target": 5000
         },
         {
-          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
           "metric_type": "count",
           "value": 0,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 900
+          "value_target": 5000
         },
         {
-          "name": "South African Heritage Resources Agency",
+          "name": "Job retention in sport sector - Sport Trust",
           "metric_type": "count",
-          "value": 251,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 4
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 251
-              }
-            ]
-          },
+          "value": 0,
+          "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 260
-        },
-        {
-          "name": "National Library of South Africa digitisation",
-          "metric_type": "count",
-          "value": 139,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 139
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 163
-        },
-        {
-          "name": "National Archives digitisation",
-          "metric_type": "count",
-          "value": 146,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 146
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 163
+          "value_target": 4000
         }
       ]
     },
     {
-      "name": "Livelihoods supported",
+      "name": "Livelihoods",
       "section_type": "livelihoods",
       "metrics": [
         {
-          "name": "Public Art - Towards A People's Culture",
+          "name": "Support to art and culture practitioners - National Arts Council",
           "metric_type": "count",
-          "value": 880,
+          "value": 8573,
           "time": {
-            "name": "Jobs created over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
-                "value": 880
+                "value": 0
               },
               {
                 "month": 202012,
                 "name": "Dec '20",
-                "value": 880
+                "value": 0
               },
               {
                 "month": 202101,
                 "name": "Jan '21",
-                "value": 880
+                "value": 8573
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 900
-        },
-        {
-          "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-          "metric_type": "count",
-          "value": 156,
-          "time": {
-            "name": "Jobs created over time",
+          "gender": {
+            "name": "Livelihoods supported by gender",
             "values": [
               {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 138
+                "gender": "Percentage (%) male",
+                "value": 66.0
               },
               {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 156
+                "gender": "Percentage (%) female",
+                "value": 34.0
               }
             ]
           },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 500
+          "age": {
+            "name": "Percentage of livelihoods supported going to 18-35 year olds",
+            "values": [
+              {
+                "age_category": "Percentage (%) aged 18 - 35 years old",
+                "value": 44.5
+              }
+            ]
+          },
+          "province": {
+            "name": "Livelihoods supported by province",
+            "values": [
+              {
+                "province": "EC",
+                "value": 1142
+              },
+              {
+                "province": "FS",
+                "value": 672
+              },
+              {
+                "province": "GP",
+                "value": 2585
+              },
+              {
+                "province": "KZN",
+                "value": 603
+              },
+              {
+                "province": "LP",
+                "value": 1049
+              },
+              {
+                "province": "MP",
+                "value": 308
+              },
+              {
+                "province": "NW",
+                "value": 817
+              },
+              {
+                "province": "NC",
+                "value": 517
+              },
+              {
+                "province": "WC",
+                "value": 880
+              }
+            ]
+          },
+          "value_target": 7857
         },
         {
-          "name": "South African Cultural Observatory (Graduates: marketing plans)",
+          "name": "Support to art and culture practitioners - National Film and Video Foundation",
           "metric_type": "count",
           "value": 0,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 900
-        },
-        {
-          "name": "South African Heritage Resources Agency",
-          "metric_type": "count",
-          "value": 251,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 4
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 251
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 260
-        },
-        {
-          "name": "National Library of South Africa digitisation",
-          "metric_type": "count",
-          "value": 139,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 139
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 163
-        },
-        {
-          "name": "National Archives digitisation",
-          "metric_type": "count",
-          "value": 146,
-          "time": {
-            "name": "Jobs created over time",
-            "values": [
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 146
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
-          "value_target": 163
+          "value_target": 7857
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

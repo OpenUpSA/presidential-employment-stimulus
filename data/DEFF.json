@@ -18,7 +18,7 @@
       "section_type": "targets",
       "metrics": [
         {
-          "name": "Total budget",
+          "name": "Budget",
           "metric_type": "currency",
           "value": -1,
           "time": null,
@@ -28,34 +28,47 @@
           "value_target": 1983000000
         },
         {
-          "name": "Programme beneficiaries",
+          "name": "Beneficiaries",
           "metric_type": "count",
-          "value": -1,
+          "value": 18383,
           "time": null,
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": [
-            50311
-          ]
+          "value_target": 50311
         }
       ]
     },
     {
-      "name": "Job opportunities created",
+      "name": "Job opportunities",
       "section_type": "job_opportunities",
       "metrics": [
         {
           "name": "Cleaning and greening - war on waste with municipalities",
           "metric_type": "count",
-          "value": 12690,
+          "value": 0,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 12690
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 0
               }
             ]
           },
@@ -69,14 +82,29 @@
         {
           "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
           "metric_type": "count",
-          "value": 1750,
+          "value": 0,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 1750
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 0
               }
             ]
           },
@@ -88,16 +116,31 @@
           ]
         },
         {
-          "name": "Oceans and Coast: Source to Sea ",
+          "name": "Oceans and Coast: Source to Sea",
           "metric_type": "count",
-          "value": 1719,
+          "value": 0,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 1719
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 0
               }
             ]
           },
@@ -113,12 +156,22 @@
           "metric_type": "count",
           "value": 723,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 524
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
               },
               {
                 "month": 202101,
@@ -139,12 +192,22 @@
           "metric_type": "count",
           "value": 1194,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 1038
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
               },
               {
                 "month": 202101,
@@ -163,14 +226,24 @@
         {
           "name": "iSimangaliso: conservation management infrastructure",
           "metric_type": "count",
-          "value": 1164,
+          "value": 608,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 1164
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
               },
               {
                 "month": 202101,
@@ -189,14 +262,24 @@
         {
           "name": "SANPARKS upgrade and green energy",
           "metric_type": "count",
-          "value": 4246,
+          "value": 3522,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 4246
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
               },
               {
                 "month": 202101,
@@ -215,14 +298,24 @@
         {
           "name": "Catchment management and strategic water sources",
           "metric_type": "count",
-          "value": 15012,
+          "value": 12336,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 15012
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
               },
               {
                 "month": 202101,
@@ -241,14 +334,29 @@
         {
           "name": "Bio-diversity economy",
           "metric_type": "count",
-          "value": 7524,
+          "value": 0,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 7524
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 0
               }
             ]
           },
@@ -262,14 +370,29 @@
         {
           "name": "Climate Adaptation: Forestry support",
           "metric_type": "count",
-          "value": 4644,
+          "value": 0,
           "time": {
-            "name": "Opportunities over time",
+            "name": "Employed over time",
             "values": [
+              {
+                "month": 202010,
+                "name": "Oct '20",
+                "value": 0
+              },
               {
                 "month": 202011,
                 "name": "Nov '20",
                 "value": 4644
+              },
+              {
+                "month": 202012,
+                "name": "Dec '20",
+                "value": 0
+              },
+              {
+                "month": 202101,
+                "name": "Jan '21",
+                "value": 0
               }
             ]
           },
@@ -282,5 +405,6 @@
         }
       ]
     }
-  ]
+  ],
+  "implementation_details": []
 }

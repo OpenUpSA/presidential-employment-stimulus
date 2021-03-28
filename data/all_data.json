@@ -3,7 +3,7 @@
     "month": 202103,
     "name": "Programme overview",
     "lead": "BUILDING A SOCIETY THAT WORKS",
-    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now. ",
+    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now.",
     "sections": [
       {
         "name": "Livelihoods",
@@ -39,16 +39,19 @@
             "province": null,
             "value_target": 74626
           }
-        ]
+        ],
+        "metric_type": "count",
+        "value": 102557,
+        "value_target": 199173
       },
       {
-        "name": "Jobs created",
+        "name": "Job opportunities",
         "section_type": "job_opportunities",
         "metrics": [
           {
             "name": "Trade, Industry and Competition",
             "metric_type": "count",
-            "value": 7572,
+            "value": 4036,
             "time": null,
             "gender": null,
             "age": null,
@@ -108,7 +111,7 @@
           {
             "name": "Environment, Forestry and Fisheries",
             "metric_type": "count",
-            "value": 46710,
+            "value": 18383,
             "time": null,
             "gender": null,
             "age": null,
@@ -128,7 +131,7 @@
           {
             "name": "Health",
             "metric_type": "count",
-            "value": 3967,
+            "value": 2119,
             "time": null,
             "gender": null,
             "age": null,
@@ -138,17 +141,20 @@
           {
             "name": "Public Works and Infrastructure",
             "metric_type": "count",
-            "value": 1886,
+            "value": 1841,
             "time": null,
             "gender": null,
             "age": null,
             "province": null,
             "value_target": 1560
           }
-        ]
+        ],
+        "metric_type": "count",
+        "value": 360470,
+        "value_target": 434237
       },
       {
-        "name": "Vulnerable jobs retained",
+        "name": "Jobs retained",
         "section_type": "jobs_retain",
         "metrics": [
           {
@@ -181,7 +187,10 @@
             "province": null,
             "value_target": 14000
           }
-        ]
+        ],
+        "metric_type": "count",
+        "value": 30340,
+        "value_target": 60742
       }
     ]
   },
@@ -216,11 +225,9 @@
               "value_target": 120000000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": [
-                7572
-              ],
+              "value": 4036,
               "time": null,
               "gender": null,
               "age": null,
@@ -230,20 +237,35 @@
           ]
         },
         {
-          "name": "Job opportunities created to date",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Global Business Services Sector expansion",
+              "name": "Global Business Services Sector",
               "metric_type": "count",
               "value": 7572,
               "time": {
                 "name": "Employed over time",
                 "values": [
                   {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 1178
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 2726
+                  },
+                  {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 7572
+                    "value": 4036
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 4036
                   }
                 ]
               },
@@ -310,6 +332,13 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Global Business Services Sector",
+          "status": "OnTrack",
+          "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
+        }
       ]
     },
     {
@@ -332,7 +361,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -342,9 +371,9 @@
               "value_target": 7000000000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 311014,
+              "value": 355673,
               "time": null,
               "gender": null,
               "age": null,
@@ -354,25 +383,35 @@
           ]
         },
         {
-          "name": "Job opportunities created to date",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Education assistants",
+              "name": "Education Assistants",
               "metric_type": "count",
-              "value": 155341,
+              "value": 200000,
               "time": {
                 "name": "Employed over time",
                 "values": [
                   {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
                     "month": 202011,
                     "name": "Nov '20",
-                    "value": 158437
+                    "value": 200000
                   },
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 155341
+                    "value": 200000
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 200000
                   }
                 ]
               },
@@ -422,20 +461,30 @@
               "value_target": 200000
             },
             {
-              "name": "General assistants",
+              "name": "General Assistants",
               "metric_type": "count",
               "value": 128894,
               "time": {
                 "name": "Employed over time",
                 "values": [
                   {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
                     "month": 202011,
                     "name": "Nov '20",
-                    "value": 120735
+                    "value": 100000
                   },
                   {
                     "month": 202012,
                     "name": "Dec '20",
+                    "value": 120735
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
                     "value": 128894
                   }
                 ]
@@ -488,27 +537,42 @@
           ]
         },
         {
-          "name": "Jobs Retained",
+          "name": "Jobs retained",
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Vulnerable posts saved",
+              "name": "Job retention at fee paying schools",
               "metric_type": "count",
               "value": 26779,
               "time": {
                 "name": "Jobs saved over time",
                 "values": [
                   {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 44933
+                  },
+                  {
                     "month": 202012,
                     "name": "Dec '20",
                     "value": 21988
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 26779
                   }
                 ]
               },
               "gender": null,
               "age": null,
               "province": {
-                "name": "Posts saved by Province",
+                "name": "Jobs saved by province",
                 "values": [
                   {
                     "province": "EC",
@@ -570,6 +634,23 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Education Assistants",
+          "status": "OnTrack",
+          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+        },
+        {
+          "programme_name": "General Assistants",
+          "status": "OnTrack",
+          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+        },
+        {
+          "programme_name": "Job retention at fee paying schools",
+          "status": "MinorChallenges",
+          "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
+        }
       ]
     },
     {
@@ -592,7 +673,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -602,7 +683,7 @@
               "value_target": 588728000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
               "value": 1086,
               "time": null,
@@ -614,32 +695,18 @@
           ]
         },
         {
-          "name": "Budget allocated to date",
-          "section_type": "budget_allocated",
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Budget for social workers",
-              "metric_type": "currency",
-              "value": 11010000,
-              "time": {
-                "name": "Spend this month",
-                "values": [
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 4494000
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 6516000
-                  }
-                ]
-              },
+              "name": "Registration support officers",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 75978000
+              "value_target": 500
             }
           ]
         },
@@ -648,16 +715,26 @@
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Social workers retained",
+              "name": "Retention of social workers",
               "metric_type": "count",
               "value": 1086,
               "time": {
-                "name": "Jobs retained over time",
+                "name": "Jobs saved over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 749
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 749
+                    "value": 793
                   },
                   {
                     "month": 202101,
@@ -667,7 +744,7 @@
                 ]
               },
               "gender": {
-                "name": "Jobs retained by gender",
+                "name": "Jobs saved by gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -680,7 +757,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Percentage of jobs saved going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -689,7 +766,7 @@
                 ]
               },
               "province": {
-                "name": "Jobs retained by province",
+                "name": "Jobs saved by province",
                 "values": [
                   {
                     "province": "EC",
@@ -729,16 +806,49 @@
                   }
                 ]
               },
-              "value_target": 1809
+              "value_target": 74626
             }
           ]
+        },
+        {
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "ECD income and compliance support",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 108833
+            }
+          ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Registration support officers",
+          "status": "CriticalChallenges",
+          "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented"
+        },
+        {
+          "programme_name": "Retention of social workers",
+          "status": "OnTrack",
+          "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
+        },
+        {
+          "programme_name": "ECD income and compliance support",
+          "status": "MinorChallenges",
+          "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
         }
       ]
     },
     {
       "month": 202101,
       "name": "Health",
-      "sheet_name": "DOH",
+      "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
       "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
       "target_lines": [
@@ -755,7 +865,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -765,9 +875,9 @@
               "value_target": 393571000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 2119,
               "time": null,
               "gender": null,
               "age": null,
@@ -777,15 +887,15 @@
           ]
         },
         {
-          "name": "Job opportunities created to date",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Enrolled Nurses",
+              "name": "Enrolled nurses",
               "metric_type": "count",
               "value": 2119,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
                   {
                     "month": 202010,
@@ -816,68 +926,50 @@
                 "values": [
                   {
                     "province": "EC",
-                    "value": [
-                      400.0
-                    ]
+                    "value": 400
                   },
                   {
                     "province": "FS",
-                    "value": [
-                      11.0
-                    ]
+                    "value": 11
                   },
                   {
                     "province": "GP",
-                    "value": [
-                      425.0
-                    ]
+                    "value": 425
                   },
                   {
                     "province": "KZN",
-                    "value": [
-                      690.0
-                    ]
+                    "value": 690
                   },
                   {
                     "province": "LP",
-                    "value": [
-                      0.0
-                    ]
+                    "value": 0
                   },
                   {
                     "province": "MP",
-                    "value": [
-                      245.0
-                    ]
+                    "value": 245
                   },
                   {
                     "province": "NW",
-                    "value": [
-                      141.0
-                    ]
+                    "value": 141
                   },
                   {
                     "province": "NC",
-                    "value": [
-                      3.0
-                    ]
+                    "value": 3
                   },
                   {
                     "province": "WC",
-                    "value": [
-                      204.0
-                    ]
+                    "value": 204
                   }
                 ]
               },
               "value_target": 1045
             },
             {
-              "name": "Auxiliary Nurses",
+              "name": "Auxiliary nurses",
               "metric_type": "count",
               "value": 1848,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
                   {
                     "month": 202010,
@@ -909,55 +1001,55 @@
                   {
                     "province": "EC",
                     "value": [
-                      296.0
+                      296
                     ]
                   },
                   {
                     "province": "FS",
                     "value": [
-                      4.0
+                      4
                     ]
                   },
                   {
                     "province": "GP",
                     "value": [
-                      380.0
+                      380
                     ]
                   },
                   {
                     "province": "KZN",
                     "value": [
-                      690.0
+                      690
                     ]
                   },
                   {
                     "province": "LP",
                     "value": [
-                      0.0
+                      0
                     ]
                   },
                   {
                     "province": "MP",
                     "value": [
-                      2.0
+                      2
                     ]
                   },
                   {
                     "province": "NW",
                     "value": [
-                      167.0
+                      167
                     ]
                   },
                   {
                     "province": "NC",
                     "value": [
-                      9.0
+                      9
                     ]
                   },
                   {
                     "province": "WC",
                     "value": [
-                      300.0
+                      300
                     ]
                   }
                 ]
@@ -986,6 +1078,28 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Enrolled nurses",
+          "status": "OnTrack",
+          "detail": "Appointment commenced immediately and the department has exceeded its target"
+        },
+        {
+          "programme_name": "Auxiliary nurses",
+          "status": "OnTrack",
+          "detail": "Appointments commenced immediately and is progressing well."
+        },
+        {
+          "programme_name": "Community Health Workers",
+          "status": "CriticalChallenges",
+          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+        },
+        {
+          "programme_name": "Outreach Team Leaders",
+          "status": "CriticalChallenges",
+          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+        }
       ]
     },
     {
@@ -1008,7 +1122,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -1018,9 +1132,9 @@
               "value_target": 1000000000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 93984,
               "time": null,
               "gender": null,
               "age": null,
@@ -1030,7 +1144,7 @@
           ]
         },
         {
-          "name": "Job opportunities created to date",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -1052,7 +1166,7 @@
                 ]
               },
               "age": {
-                "name": "Opportunities by Age",
+                "name": "Percentage of opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -1061,7 +1175,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunites by Province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -1124,7 +1238,7 @@
           ]
         },
         {
-          "name": "Livelihoods supported",
+          "name": "Livelihoods",
           "section_type": "livelihoods",
           "metrics": [
             {
@@ -1132,8 +1246,18 @@
               "metric_type": "count",
               "value": 38663,
               "time": {
-                "name": "Livelihoods over time",
+                "name": "Livelihoods supported over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1156,8 +1280,18 @@
               "metric_type": "count",
               "value": 11128,
               "time": {
-                "name": "Livelihoods over time",
+                "name": "Livelihoods supported over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1180,8 +1314,18 @@
               "metric_type": "count",
               "value": 25453,
               "time": {
-                "name": "Livelihoods over time",
+                "name": "Livelihoods supported over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1204,8 +1348,18 @@
               "metric_type": "count",
               "value": 12309,
               "time": {
-                "name": "Livelihoods over time",
+                "name": "Livelihoods supported over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1228,8 +1382,18 @@
               "metric_type": "count",
               "value": 6431,
               "time": {
-                "name": "Livelihoods over time",
+                "name": "Livelihoods supported over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1249,7 +1413,8 @@
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -1262,8 +1427,8 @@
         47
       ],
       "achievement_lines": [
-        42,
-        46
+        43,
+        47
       ],
       "sections": [
         {
@@ -1271,7 +1436,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -1283,7 +1448,7 @@
             {
               "name": "Overall jobs created",
               "metric_type": "count",
-              "value": -1,
+              "value": 8,
               "time": null,
               "gender": null,
               "age": null,
@@ -1291,6 +1456,98 @@
               "value_target": 1900
             }
           ]
+        },
+        {
+          "name": "Global Business Services Sector",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "HSRC - Health Promotion Agents",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 1000
+            },
+            {
+              "name": "CSIR - Enviro-champs",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 350
+            },
+            {
+              "name": "CSIR - Experiential Training Programme",
+              "metric_type": "count",
+              "value": 8,
+              "time": {
+                "name": "Employed over time",
+                "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 8
+                  }
+                ]
+              },
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 150
+            },
+            {
+              "name": "WRC - Water Graduate Employment Programme",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 400
+            }
+          ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "HSRC - Health Promotion Agents",
+          "status": "MinorChallenges",
+          "detail": "There were delays in the planning phase however, recruitment is underway and is being conducted in two phases."
+        },
+        {
+          "programme_name": "CSIR - Enviro-champs",
+          "status": "MinorChallenges",
+          "detail": "Appointed enviro-champs have received training and commenced work however transfer of funds was delayed resulting in a slow start."
+        },
+        {
+          "programme_name": "CSIR - Experiential Training Programme",
+          "status": "CriticalChallenges",
+          "detail": "Placement has commenced however was affected by university system closures which meant students could not register and provide proof as part of application process. "
+        },
+        {
+          "programme_name": "WRC - Water Graduate Employment Programme",
+          "status": "MinorChallenges",
+          "detail": "There were delays in the planning phase however, recruitment is underway."
         }
       ]
     },
@@ -1314,7 +1571,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -1324,9 +1581,9 @@
               "value_target": 525000000
             },
             {
-              "name": "Overall opportunities created",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 12620,
               "time": null,
               "gender": null,
               "age": null,
@@ -1336,16 +1593,135 @@
           ]
         },
         {
-          "name": "Job opportunities created",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Public Art - Towards A People's Culture",
+              "name": "Covid-19 Return-To-Play - National Sport Federations",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 1470
+            },
+            {
+              "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+              "metric_type": "count",
+              "value": 156,
+              "time": {
+                "name": "Employed over time",
+                "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 138
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 156
+                  }
+                ]
+              },
+              "gender": {
+                "name": "Opportunities by Gender",
+                "values": [
+                  {
+                    "gender": "Percentage (%) male",
+                    "value": 0.7
+                  },
+                  {
+                    "gender": "Percentage (%) female",
+                    "value": 0.3
+                  }
+                ]
+              },
+              "age": {
+                "name": "Percentage of opportunities going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 0.58
+                  }
+                ]
+              },
+              "province": {
+                "name": "Opportunities by Province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 16
+                  },
+                  {
+                    "province": "FS",
+                    "value": 37
+                  },
+                  {
+                    "province": "GP",
+                    "value": 26
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 8
+                  },
+                  {
+                    "province": "LP",
+                    "value": 20
+                  },
+                  {
+                    "province": "MP",
+                    "value": 4
+                  },
+                  {
+                    "province": "NW",
+                    "value": 11
+                  },
+                  {
+                    "province": "NC",
+                    "value": 12
+                  },
+                  {
+                    "province": "WC",
+                    "value": 22
+                  }
+                ]
+              },
+              "value_target": 900
+            },
+            {
+              "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+              "metric_type": "count",
+              "value": 0,
+              "time": null,
+              "gender": null,
+              "age": null,
+              "province": null,
+              "value_target": 500
+            },
+            {
+              "name": "Public Art, towards a people's culture - Community Arts Centres",
               "metric_type": "count",
               "value": 880,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -1365,50 +1741,66 @@
               },
               "gender": null,
               "age": null,
-              "province": null,
-              "value_target": 900
-            },
-            {
-              "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-              "metric_type": "count",
-              "value": 156,
-              "time": {
-                "name": "Jobs created over time",
+              "province": {
+                "name": "Opportunities by Province",
                 "values": [
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 138
+                    "province": "EC",
+                    "value": 100
                   },
                   {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 156
+                    "province": "FS",
+                    "value": 100
+                  },
+                  {
+                    "province": "GP",
+                    "value": 80
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 100
+                  },
+                  {
+                    "province": "LP",
+                    "value": 100
+                  },
+                  {
+                    "province": "MP",
+                    "value": 100
+                  },
+                  {
+                    "province": "NW",
+                    "value": 100
+                  },
+                  {
+                    "province": "NC",
+                    "value": 100
+                  },
+                  {
+                    "province": "WC",
+                    "value": 100
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 500
-            },
-            {
-              "name": "South African Cultural Observatory (Graduates: marketing plans)",
-              "metric_type": "count",
-              "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
               "value_target": 900
             },
             {
-              "name": "South African Heritage Resources Agency",
+              "name": "Audit of national museums - South African Heritage Resources Agency",
               "metric_type": "count",
               "value": 251,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
                   {
                     "month": 202012,
                     "name": "Dec '20",
@@ -1421,18 +1813,93 @@
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "gender": {
+                "name": "Opportunities by Gender",
+                "values": [
+                  {
+                    "gender": "Percentage (%) male",
+                    "value": 0.39
+                  },
+                  {
+                    "gender": "Percentage (%) female",
+                    "value": 0.61
+                  }
+                ]
+              },
+              "age": {
+                "name": "Percentage of opportunities going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 1.0
+                  }
+                ]
+              },
+              "province": {
+                "name": "Opportunities by Province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 27
+                  },
+                  {
+                    "province": "FS",
+                    "value": 20
+                  },
+                  {
+                    "province": "GP",
+                    "value": 24
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 27
+                  },
+                  {
+                    "province": "LP",
+                    "value": 22
+                  },
+                  {
+                    "province": "MP",
+                    "value": 27
+                  },
+                  {
+                    "province": "NW",
+                    "value": 28
+                  },
+                  {
+                    "province": "NC",
+                    "value": 24
+                  },
+                  {
+                    "province": "WC",
+                    "value": 52
+                  }
+                ]
+              },
               "value_target": 260
             },
             {
-              "name": "National Library of South Africa digitisation",
+              "name": "Digitisation of records - National Library of South Africa",
               "metric_type": "count",
               "value": 139,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
                   {
                     "month": 202101,
                     "name": "Jan '21",
@@ -1440,18 +1907,93 @@
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "gender": {
+                "name": "Opportunities by Gender",
+                "values": [
+                  {
+                    "gender": "Percentage (%) male",
+                    "value": 0.3472
+                  },
+                  {
+                    "gender": "Percentage (%) female",
+                    "value": 0.6527
+                  }
+                ]
+              },
+              "age": {
+                "name": "Percentage of opportunities going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 0.972
+                  }
+                ]
+              },
+              "province": {
+                "name": "Opportunities by Province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 0
+                  },
+                  {
+                    "province": "FS",
+                    "value": 0
+                  },
+                  {
+                    "province": "GP",
+                    "value": 67
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 0
+                  },
+                  {
+                    "province": "LP",
+                    "value": 0
+                  },
+                  {
+                    "province": "MP",
+                    "value": 0
+                  },
+                  {
+                    "province": "NW",
+                    "value": 0
+                  },
+                  {
+                    "province": "NC",
+                    "value": 0
+                  },
+                  {
+                    "province": "WC",
+                    "value": 72
+                  }
+                ]
+              },
               "value_target": 163
             },
             {
-              "name": "National Archives digitisation",
+              "name": "Digitisation of records -National Archives",
               "metric_type": "count",
               "value": 146,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
                   {
                     "month": 202101,
                     "name": "Jan '21",
@@ -1459,9 +2001,69 @@
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "gender": {
+                "name": "Opportunities by Gender",
+                "values": [
+                  {
+                    "gender": "Percentage (%) male",
+                    "value": 0.33
+                  },
+                  {
+                    "gender": "Percentage (%) female",
+                    "value": 0.67
+                  }
+                ]
+              },
+              "age": {
+                "name": "Percentage of opportunities going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 1.0
+                  }
+                ]
+              },
+              "province": {
+                "name": "Opportunities by Province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 0
+                  },
+                  {
+                    "province": "FS",
+                    "value": 0
+                  },
+                  {
+                    "province": "GP",
+                    "value": 146
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 0
+                  },
+                  {
+                    "province": "LP",
+                    "value": 0
+                  },
+                  {
+                    "province": "MP",
+                    "value": 0
+                  },
+                  {
+                    "province": "NW",
+                    "value": 0
+                  },
+                  {
+                    "province": "NC",
+                    "value": 0
+                  },
+                  {
+                    "province": "WC",
+                    "value": 0
+                  }
+                ]
+              },
               "value_target": 163
             }
           ]
@@ -1471,262 +2073,292 @@
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Public Art - Towards A People's Culture",
+              "name": "Job retention in cultural and creative institutions - National Arts Council",
               "metric_type": "count",
-              "value": 880,
+              "value": 2475,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
-                    "value": 880
+                    "value": 0
                   },
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 880
+                    "value": 0
                   },
                   {
                     "month": 202101,
                     "name": "Jan '21",
-                    "value": 880
+                    "value": 2475
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 900
-            },
-            {
-              "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-              "metric_type": "count",
-              "value": 156,
-              "time": {
-                "name": "Jobs created over time",
+              "gender": {
+                "name": "Jobs saved by gender",
                 "values": [
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 138
+                    "gender": "Percentage (%) male",
+                    "value": 56.5
                   },
                   {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 156
+                    "gender": "Percentage (%) female",
+                    "value": 43.5
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 500
+              "age": {
+                "name": "Percentage of jobs saved going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 44.0
+                  }
+                ]
+              },
+              "province": {
+                "name": "Jobs saved by province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 119
+                  },
+                  {
+                    "province": "FS",
+                    "value": 202
+                  },
+                  {
+                    "province": "GP",
+                    "value": 769
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 278
+                  },
+                  {
+                    "province": "LP",
+                    "value": 107
+                  },
+                  {
+                    "province": "MP",
+                    "value": 74
+                  },
+                  {
+                    "province": "NW",
+                    "value": 103
+                  },
+                  {
+                    "province": "NC",
+                    "value": 45
+                  },
+                  {
+                    "province": "WC",
+                    "value": 778
+                  }
+                ]
+              },
+              "value_target": 5000
             },
             {
-              "name": "South African Cultural Observatory (Graduates: marketing plans)",
+              "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
               "metric_type": "count",
               "value": 0,
               "time": null,
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 900
+              "value_target": 5000
             },
             {
-              "name": "South African Heritage Resources Agency",
+              "name": "Job retention in sport sector - Sport Trust",
               "metric_type": "count",
-              "value": 251,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 4
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 251
-                  }
-                ]
-              },
+              "value": 0,
+              "time": null,
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 260
-            },
-            {
-              "name": "National Library of South Africa digitisation",
-              "metric_type": "count",
-              "value": 139,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 139
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 163
-            },
-            {
-              "name": "National Archives digitisation",
-              "metric_type": "count",
-              "value": 146,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 146
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 163
+              "value_target": 4000
             }
           ]
         },
         {
-          "name": "Livelihoods supported",
+          "name": "Livelihoods",
           "section_type": "livelihoods",
           "metrics": [
             {
-              "name": "Public Art - Towards A People's Culture",
+              "name": "Support to art and culture practitioners - National Arts Council",
               "metric_type": "count",
-              "value": 880,
+              "value": 8573,
               "time": {
-                "name": "Jobs created over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
-                    "value": 880
+                    "value": 0
                   },
                   {
                     "month": 202012,
                     "name": "Dec '20",
-                    "value": 880
+                    "value": 0
                   },
                   {
                     "month": 202101,
                     "name": "Jan '21",
-                    "value": 880
+                    "value": 8573
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 900
-            },
-            {
-              "name": "National Museum Bloemfontein - Banking on art, connecting lives",
-              "metric_type": "count",
-              "value": 156,
-              "time": {
-                "name": "Jobs created over time",
+              "gender": {
+                "name": "Livelihoods supported by gender",
                 "values": [
                   {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 138
+                    "gender": "Percentage (%) male",
+                    "value": 66.0
                   },
                   {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 156
+                    "gender": "Percentage (%) female",
+                    "value": 34.0
                   }
                 ]
               },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 500
+              "age": {
+                "name": "Percentage of livelihoods supported going to 18-35 year olds",
+                "values": [
+                  {
+                    "age_category": "Percentage (%) aged 18 - 35 years old",
+                    "value": 44.5
+                  }
+                ]
+              },
+              "province": {
+                "name": "Livelihoods supported by province",
+                "values": [
+                  {
+                    "province": "EC",
+                    "value": 1142
+                  },
+                  {
+                    "province": "FS",
+                    "value": 672
+                  },
+                  {
+                    "province": "GP",
+                    "value": 2585
+                  },
+                  {
+                    "province": "KZN",
+                    "value": 603
+                  },
+                  {
+                    "province": "LP",
+                    "value": 1049
+                  },
+                  {
+                    "province": "MP",
+                    "value": 308
+                  },
+                  {
+                    "province": "NW",
+                    "value": 817
+                  },
+                  {
+                    "province": "NC",
+                    "value": 517
+                  },
+                  {
+                    "province": "WC",
+                    "value": 880
+                  }
+                ]
+              },
+              "value_target": 7857
             },
             {
-              "name": "South African Cultural Observatory (Graduates: marketing plans)",
+              "name": "Support to art and culture practitioners - National Film and Video Foundation",
               "metric_type": "count",
               "value": 0,
               "time": null,
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 900
-            },
-            {
-              "name": "South African Heritage Resources Agency",
-              "metric_type": "count",
-              "value": 251,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 4
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 251
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 260
-            },
-            {
-              "name": "National Library of South Africa digitisation",
-              "metric_type": "count",
-              "value": 139,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 139
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 163
-            },
-            {
-              "name": "National Archives digitisation",
-              "metric_type": "count",
-              "value": 146,
-              "time": {
-                "name": "Jobs created over time",
-                "values": [
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 146
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
-              "value_target": 163
+              "value_target": 7857
             }
           ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
+          "status": "MinorChallenges",
+          "detail": "Appointed participants have commenced work however the demand from organisations has been low."
+        },
+        {
+          "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+          "status": "OnTrack",
+          "detail": "The participants have started working with significant progress against the target to date."
+        },
+        {
+          "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+          "status": "CriticalChallenges",
+          "detail": "Delays in implementation due to the need to obtain approval of the entity from National Treasury."
+        },
+        {
+          "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
+          "status": "CriticalChallenges",
+          "detail": "Delays in implementation due to slow progress in signing the Memorandum of Agreement with implementing agents"
+        },
+        {
+          "programme_name": "Audit of national museums - South African Heritage Resources Agency",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and audits are underway across the country."
+        },
+        {
+          "programme_name": "Digitisation of records - National Library of South Africa",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and digitisation of records is underway."
+        },
+        {
+          "programme_name": "Digitisation of records -National Archives",
+          "status": "OnTrack",
+          "detail": "Participants have commenced work and digitisation of records is underway."
+        },
+        {
+          "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
+          "status": "CriticalChallenges",
+          "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practictioners"
+        },
+        {
+          "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
+          "status": "OnTrack",
+          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+        },
+        {
+          "programme_name": "Job retention in sport sector - Sport Trust",
+          "status": "MinorChallenges",
+          "detail": "The programme was oversubscribed and will likely exceed its target."
+        },
+        {
+          "programme_name": "Support to art and culture practitioners - National Arts Council",
+          "status": "CriticalChallenges",
+          "detail": "This stream was oversubscribed and only a portion of the approved beneficiaries received support in December. A new council joined the board in January and they are addressing the challenges."
+        },
+        {
+          "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
+          "status": "OnTrack",
+          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
         }
       ]
     },
@@ -1750,7 +2382,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -1760,9 +2392,9 @@
               "value_target": 630000000
             },
             {
-              "name": "Overall opportunities created",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 3617,
               "time": null,
               "gender": null,
               "age": null,
@@ -1772,18 +2404,42 @@
           ]
         },
         {
-          "name": "Job opportunities created",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
               "name": "Rural roads maintenance",
               "metric_type": "count",
               "value": 3617,
-              "time": null,
+              "time": {
+                "name": "Employed over time",
+                "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202011,
+                    "name": "Nov '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 3617
+                  }
+                ]
+              },
               "gender": null,
               "age": null,
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -1827,6 +2483,13 @@
             }
           ]
         }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Rural roads maintenance",
+          "status": "MinorChallenges",
+          "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
+        }
       ]
     },
     {
@@ -1849,7 +2512,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -1859,9 +2522,9 @@
               "value_target": 630000000
             },
             {
-              "name": "Overall opportunities created",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 1841,
               "time": null,
               "gender": null,
               "age": null,
@@ -1871,16 +2534,21 @@
           ]
         },
         {
-          "name": "Job opportunities created",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Water and Energy Efficiency (Green Economy) Facilities Management (PMTE)",
+              "name": "Water and Energy Efficiency",
               "metric_type": "count",
               "value": 167,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -1899,7 +2567,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -1921,7 +2589,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -1964,12 +2632,17 @@
               "value_target": -1
             },
             {
-              "name": "Water and Sanitation Facilities Management (PMTE)",
+              "name": "Water and Sanitation Facilities Management",
               "metric_type": "count",
               "value": 157,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -1988,7 +2661,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2010,7 +2683,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2053,12 +2726,17 @@
               "value_target": -1
             },
             {
-              "name": "Welisizwe Rural Bridges Programme (PMTE) ",
+              "name": "Welisizwe Rural Bridges Programme",
               "metric_type": "count",
               "value": 496,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -2077,7 +2755,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2099,7 +2777,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2142,12 +2820,17 @@
               "value_target": -1
             },
             {
-              "name": "Facilities Management (PMTE) Employment: ",
+              "name": "Facilities Management",
               "metric_type": "count",
               "value": 349,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -2166,7 +2849,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2188,7 +2871,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2231,12 +2914,17 @@
               "value_target": -1
             },
             {
-              "name": "Real Estate  (PMTE)",
+              "name": "Real Estate",
               "metric_type": "count",
               "value": 108,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -2255,7 +2943,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2277,7 +2965,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2320,12 +3008,17 @@
               "value_target": -1
             },
             {
-              "name": "In-House Construction projects ",
+              "name": "In-House Construction projects",
               "metric_type": "count",
               "value": 134,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -2344,7 +3037,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2366,7 +3059,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2413,8 +3106,13 @@
               "metric_type": "count",
               "value": 430,
               "time": {
-                "name": "Job opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
@@ -2433,7 +3131,7 @@
                 ]
               },
               "gender": {
-                "name": "Job opportunies by gender",
+                "name": "Opportunities by Gender",
                 "values": [
                   {
                     "gender": "Male",
@@ -2455,7 +3153,7 @@
                 ]
               },
               "province": {
-                "name": "Opportunities by province",
+                "name": "Opportunities by Province",
                 "values": [
                   {
                     "province": "EC",
@@ -2496,79 +3194,11 @@
                 ]
               },
               "value_target": -1
-            },
-            {
-              "name": "Project Adminstrators ",
-              "metric_type": "count",
-              "value": 45,
-              "time": {
-                "name": "Job opportunities over time",
-                "values": [
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 37
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 45
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 45
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 6
-                  },
-                  {
-                    "province": "FS",
-                    "value": 3
-                  },
-                  {
-                    "province": "GP",
-                    "value": 16
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 3
-                  },
-                  {
-                    "province": "LP",
-                    "value": 8
-                  },
-                  {
-                    "province": "MP",
-                    "value": 2
-                  },
-                  {
-                    "province": "NW",
-                    "value": 1
-                  },
-                  {
-                    "province": "NC",
-                    "value": 2
-                  },
-                  {
-                    "province": "WC",
-                    "value": 4
-                  }
-                ]
-              },
-              "value_target": -1
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -2590,7 +3220,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -2600,34 +3230,47 @@
               "value_target": 1983000000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 18383,
               "time": null,
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": [
-                50311
-              ]
+              "value_target": 50311
             }
           ]
         },
         {
-          "name": "Job opportunities created",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
               "name": "Cleaning and greening - war on waste with municipalities",
               "metric_type": "count",
-              "value": 12690,
+              "value": 0,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 12690
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 0
                   }
                 ]
               },
@@ -2641,14 +3284,29 @@
             {
               "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
               "metric_type": "count",
-              "value": 1750,
+              "value": 0,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 1750
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 0
                   }
                 ]
               },
@@ -2660,16 +3318,31 @@
               ]
             },
             {
-              "name": "Oceans and Coast: Source to Sea ",
+              "name": "Oceans and Coast: Source to Sea",
               "metric_type": "count",
-              "value": 1719,
+              "value": 0,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 1719
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 0
                   }
                 ]
               },
@@ -2685,12 +3358,22 @@
               "metric_type": "count",
               "value": 723,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 524
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
                   },
                   {
                     "month": 202101,
@@ -2711,12 +3394,22 @@
               "metric_type": "count",
               "value": 1194,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 1038
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
                   },
                   {
                     "month": 202101,
@@ -2735,14 +3428,24 @@
             {
               "name": "iSimangaliso: conservation management infrastructure",
               "metric_type": "count",
-              "value": 1164,
+              "value": 608,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 1164
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
                   },
                   {
                     "month": 202101,
@@ -2761,14 +3464,24 @@
             {
               "name": "SANPARKS upgrade and green energy",
               "metric_type": "count",
-              "value": 4246,
+              "value": 3522,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 4246
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
                   },
                   {
                     "month": 202101,
@@ -2787,14 +3500,24 @@
             {
               "name": "Catchment management and strategic water sources",
               "metric_type": "count",
-              "value": 15012,
+              "value": 12336,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 15012
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
                   },
                   {
                     "month": 202101,
@@ -2813,14 +3536,29 @@
             {
               "name": "Bio-diversity economy",
               "metric_type": "count",
-              "value": 7524,
+              "value": 0,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 7524
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 0
                   }
                 ]
               },
@@ -2834,14 +3572,29 @@
             {
               "name": "Climate Adaptation: Forestry support",
               "metric_type": "count",
-              "value": 4644,
+              "value": 0,
               "time": {
-                "name": "Opportunities over time",
+                "name": "Employed over time",
                 "values": [
+                  {
+                    "month": 202010,
+                    "name": "Oct '20",
+                    "value": 0
+                  },
                   {
                     "month": 202011,
                     "name": "Nov '20",
                     "value": 4644
+                  },
+                  {
+                    "month": 202012,
+                    "name": "Dec '20",
+                    "value": 0
+                  },
+                  {
+                    "month": 202101,
+                    "name": "Jan '21",
+                    "value": 0
                   }
                 ]
               },
@@ -2853,6 +3606,58 @@
               ]
             }
           ]
+        }
+      ],
+      "implementation_details": [
+        {
+          "programme_name": "Cleaning and greening - war on waste with municipalities",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Oceans and Coast: Source to Sea",
+          "status": "MinorChallenges",
+          "detail": "Procurement of service providers is still in process."
+        },
+        {
+          "programme_name": "Groen Sebenzas, weather service - graduate programme",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "SANBI Infrastructure maintenance, biosecurity",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "iSimangaliso: conservation management infrastructure",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "SANPARKS upgrade and green energy",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Catchment management and strategic water sources",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Bio-diversity economy",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+        },
+        {
+          "programme_name": "Climate Adaptation: Forestry support",
+          "status": "OnTrack",
+          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
         }
       ]
     },
@@ -2876,7 +3681,7 @@
           "section_type": "targets",
           "metrics": [
             {
-              "name": "Total budget",
+              "name": "Budget",
               "metric_type": "currency",
               "value": -1,
               "time": null,
@@ -2886,9 +3691,9 @@
               "value_target": 50000000
             },
             {
-              "name": "Programme beneficiaries",
+              "name": "Beneficiaries",
               "metric_type": "count",
-              "value": -1,
+              "value": 0,
               "time": null,
               "gender": null,
               "age": null,
@@ -2897,7 +3702,8 @@
             }
           ]
         }
-      ]
+      ],
+      "implementation_details": []
     }
   ]
 }
