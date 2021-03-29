@@ -27,3 +27,11 @@ export const FORMATTERS = {
   currency: formatAmount,
   percentage: formatPercentage,
 };
+
+export function organizeByZero(array) {
+  // put
+    const [pass, fail] = array.reduce(([pass, fail], elem) => {
+        return (elem.value !== 0) ? [[...pass, elem], fail] : [pass, [...fail, elem]];
+    }, [[], []]);
+    return pass.concat(fail);
+}
