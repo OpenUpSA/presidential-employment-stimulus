@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 120000000
+          "value_target": 120000000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 8000
+          "value_target": 8000,
+          "implementation_detail": null
         }
       ]
     },
@@ -86,7 +88,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of opportunities going to 18-35 year olds",
+            "name": "Opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -131,7 +133,8 @@
               }
             ]
           },
-          "value_target": -1
+          "value_target": -1,
+          "implementation_detail": null
         }
       ]
     }

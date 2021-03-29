@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 7000000000
+          "value_target": 7000000000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 344933
+          "value_target": 344933,
+          "implementation_detail": null
         }
       ]
     },
@@ -115,7 +117,8 @@
               }
             ]
           },
-          "value_target": 200000
+          "value_target": 200000,
+          "implementation_detail": null
         },
         {
           "name": "General Assistants",
@@ -189,7 +192,8 @@
               }
             ]
           },
-          "value_target": 100000
+          "value_target": 100000,
+          "implementation_detail": null
         }
       ]
     },
@@ -287,7 +291,8 @@
               }
             ]
           },
-          "value_target": 44933
+          "value_target": 44933,
+          "implementation_detail": null
         }
       ]
     }

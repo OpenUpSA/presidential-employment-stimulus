@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 45000000
+          "value_target": 45000000,
+          "implementation_detail": null
         },
         {
           "name": "Overall jobs created",
@@ -35,12 +36,13 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 1900
+          "value_target": 1900,
+          "implementation_detail": null
         }
       ]
     },
     {
-      "name": "Global Business Services Sector",
+      "name": "Subsistence producer relief fund",
       "section_type": "job_opportunities",
       "metrics": [
         {
@@ -51,7 +53,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 1000
+          "value_target": 1000,
+          "implementation_detail": null
         },
         {
           "name": "CSIR - Enviro-champs",
@@ -61,7 +64,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 350
+          "value_target": 350,
+          "implementation_detail": null
         },
         {
           "name": "CSIR - Experiential Training Programme",
@@ -95,7 +99,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 150
+          "value_target": 150,
+          "implementation_detail": null
         },
         {
           "name": "WRC - Water Graduate Employment Programme",
@@ -105,7 +110,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 400
+          "value_target": 400,
+          "implementation_detail": null
         }
       ]
     }

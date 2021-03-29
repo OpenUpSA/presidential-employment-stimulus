@@ -2,7 +2,7 @@
   "overview": {
     "month": 202103,
     "name": "Programme overview",
-    "lead": "BUILDING A SOCIETY THAT WORKS",
+    "lead": "Building a society that works",
     "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now.",
     "sections": [
       {
@@ -17,7 +17,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 108833
+            "value_target": 108833,
+            "implementation_detail": null
           },
           {
             "name": "Sports, Arts and Culture",
@@ -27,7 +28,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 15714
+            "value_target": 15714,
+            "implementation_detail": null
           },
           {
             "name": "Agriculture, Land Reform and Rural Development",
@@ -37,7 +39,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 74626
+            "value_target": 74626,
+            "implementation_detail": null
           }
         ],
         "metric_type": "count",
@@ -56,7 +59,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 8000
+            "value_target": 8000,
+            "implementation_detail": null
           },
           {
             "name": "Basic Education",
@@ -66,7 +70,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 300000
+            "value_target": 300000,
+            "implementation_detail": null
           },
           {
             "name": "Social Development",
@@ -76,7 +81,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 500
+            "value_target": 500,
+            "implementation_detail": null
           },
           {
             "name": "Science and Innovation",
@@ -86,7 +92,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 1900
+            "value_target": 1900,
+            "implementation_detail": null
           },
           {
             "name": "Sports, Arts and Culture",
@@ -96,7 +103,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 4356
+            "value_target": 4356,
+            "implementation_detail": null
           },
           {
             "name": "Transport",
@@ -106,7 +114,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 37079
+            "value_target": 37079,
+            "implementation_detail": null
           },
           {
             "name": "Environment, Forestry and Fisheries",
@@ -116,7 +125,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 50311
+            "value_target": 50311,
+            "implementation_detail": null
           },
           {
             "name": "Co-operative government",
@@ -126,7 +136,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 25000
+            "value_target": 25000,
+            "implementation_detail": null
           },
           {
             "name": "Health",
@@ -136,7 +147,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 5531
+            "value_target": 5531,
+            "implementation_detail": null
           },
           {
             "name": "Public Works and Infrastructure",
@@ -146,7 +158,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 1560
+            "value_target": 1560,
+            "implementation_detail": null
           }
         ],
         "metric_type": "count",
@@ -165,7 +178,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 44933
+            "value_target": 44933,
+            "implementation_detail": null
           },
           {
             "name": "Social Development",
@@ -175,7 +189,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 1809
+            "value_target": 1809,
+            "implementation_detail": null
           },
           {
             "name": "Sports, Arts and Culture",
@@ -185,7 +200,8 @@
             "gender": null,
             "age": null,
             "province": null,
-            "value_target": 14000
+            "value_target": 14000,
+            "implementation_detail": null
           }
         ],
         "metric_type": "count",
@@ -222,7 +238,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 120000000
+              "value_target": 120000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -232,7 +249,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 8000
+              "value_target": 8000,
+              "implementation_detail": null
             }
           ]
         },
@@ -283,7 +301,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -328,18 +346,17 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": {
+                "programme_name": "Global Business Services Sector",
+                "status": "OnTrack",
+                "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Global Business Services Sector",
-          "status": "OnTrack",
-          "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202103,
@@ -368,7 +385,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 7000000000
+              "value_target": 7000000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -378,7 +396,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 344933
+              "value_target": 344933,
+              "implementation_detail": null
             }
           ]
         },
@@ -458,7 +477,12 @@
                   }
                 ]
               },
-              "value_target": 200000
+              "value_target": 200000,
+              "implementation_detail": {
+                "programme_name": "Education Assistants",
+                "status": "OnTrack",
+                "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+              }
             },
             {
               "name": "General Assistants",
@@ -532,7 +556,12 @@
                   }
                 ]
               },
-              "value_target": 100000
+              "value_target": 100000,
+              "implementation_detail": {
+                "programme_name": "General Assistants",
+                "status": "OnTrack",
+                "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
+              }
             }
           ]
         },
@@ -630,28 +659,17 @@
                   }
                 ]
               },
-              "value_target": 44933
+              "value_target": 44933,
+              "implementation_detail": {
+                "programme_name": "Job retention at fee paying schools",
+                "status": "MinorChallenges",
+                "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Education Assistants",
-          "status": "OnTrack",
-          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
-        },
-        {
-          "programme_name": "General Assistants",
-          "status": "OnTrack",
-          "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
-        },
-        {
-          "programme_name": "Job retention at fee paying schools",
-          "status": "MinorChallenges",
-          "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202103,
@@ -680,7 +698,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 588728000
+              "value_target": 588728000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -690,7 +709,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 111142
+              "value_target": 111142,
+              "implementation_detail": null
             }
           ]
         },
@@ -706,7 +726,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 500
+              "value_target": 500,
+              "implementation_detail": {
+                "programme_name": "Registration support officers",
+                "status": "CriticalChallenges",
+                "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented"
+              }
             }
           ]
         },
@@ -757,7 +782,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of jobs saved going to 18-35 year olds",
+                "name": "Jobs saved going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -806,7 +831,12 @@
                   }
                 ]
               },
-              "value_target": 74626
+              "value_target": 74626,
+              "implementation_detail": {
+                "programme_name": "Retention of social workers",
+                "status": "OnTrack",
+                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
+              }
             }
           ]
         },
@@ -822,28 +852,17 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 108833
+              "value_target": 108833,
+              "implementation_detail": {
+                "programme_name": "ECD income and compliance support",
+                "status": "MinorChallenges",
+                "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Registration support officers",
-          "status": "CriticalChallenges",
-          "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented"
-        },
-        {
-          "programme_name": "Retention of social workers",
-          "status": "OnTrack",
-          "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
-        },
-        {
-          "programme_name": "ECD income and compliance support",
-          "status": "MinorChallenges",
-          "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -872,7 +891,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 393571000
+              "value_target": 393571000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -882,7 +902,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 5531
+              "value_target": 5531,
+              "implementation_detail": null
             }
           ]
         },
@@ -962,7 +983,12 @@
                   }
                 ]
               },
-              "value_target": 1045
+              "value_target": 1045,
+              "implementation_detail": {
+                "programme_name": "Enrolled nurses",
+                "status": "OnTrack",
+                "detail": "Appointment commenced immediately and the department has exceeded its target"
+              }
             },
             {
               "name": "Auxiliary nurses",
@@ -1054,7 +1080,12 @@
                   }
                 ]
               },
-              "value_target": 1236
+              "value_target": 1236,
+              "implementation_detail": {
+                "programme_name": "Auxiliary nurses",
+                "status": "OnTrack",
+                "detail": "Appointments commenced immediately and is progressing well."
+              }
             },
             {
               "name": "Community Health Workers",
@@ -1064,7 +1095,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 2000
+              "value_target": 2000,
+              "implementation_detail": {
+                "programme_name": "Community Health Workers",
+                "status": "CriticalChallenges",
+                "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+              }
             },
             {
               "name": "Outreach Team Leaders",
@@ -1074,33 +1110,17 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1250
+              "value_target": 1250,
+              "implementation_detail": {
+                "programme_name": "Outreach Team Leaders",
+                "status": "CriticalChallenges",
+                "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Enrolled nurses",
-          "status": "OnTrack",
-          "detail": "Appointment commenced immediately and the department has exceeded its target"
-        },
-        {
-          "programme_name": "Auxiliary nurses",
-          "status": "OnTrack",
-          "detail": "Appointments commenced immediately and is progressing well."
-        },
-        {
-          "programme_name": "Community Health Workers",
-          "status": "CriticalChallenges",
-          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
-        },
-        {
-          "programme_name": "Outreach Team Leaders",
-          "status": "CriticalChallenges",
-          "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -1129,7 +1149,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1000000000
+              "value_target": 1000000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -1139,7 +1160,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 74626
+              "value_target": 74626,
+              "implementation_detail": null
             }
           ]
         },
@@ -1179,7 +1201,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Maize/soya/sugar/other production",
@@ -1213,7 +1236,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Poultry: Layers and Boilers",
@@ -1247,7 +1271,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Small livestock",
@@ -1281,7 +1306,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Large livestock",
@@ -1315,12 +1341,19 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             }
           ]
         }
       ],
-      "implementation_details": []
+      "implementation_details": [
+        {
+          "programme_name": "Subsistence producer relief fund",
+          "status": "OnTrack",
+          "detail": "Over 178 000 applications were received through the USSD platform established by the department, and the process of issuing vouchers to eligible applicants has begun."
+        }
+      ]
     },
     {
       "month": 202101,
@@ -1349,7 +1382,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 45000000
+              "value_target": 45000000,
+              "implementation_detail": null
             },
             {
               "name": "Overall jobs created",
@@ -1359,12 +1393,13 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1900
+              "value_target": 1900,
+              "implementation_detail": null
             }
           ]
         },
         {
-          "name": "Global Business Services Sector",
+          "name": "Subsistence producer relief fund",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -1375,7 +1410,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1000
+              "value_target": 1000,
+              "implementation_detail": {
+                "programme_name": "HSRC - Health Promotion Agents",
+                "status": "MinorChallenges",
+                "detail": "There were delays in the planning phase however, recruitment is underway and is being conducted in two phases."
+              }
             },
             {
               "name": "CSIR - Enviro-champs",
@@ -1385,7 +1425,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 350
+              "value_target": 350,
+              "implementation_detail": {
+                "programme_name": "CSIR - Enviro-champs",
+                "status": "MinorChallenges",
+                "detail": "Appointed enviro-champs have received training and commenced work however transfer of funds was delayed resulting in a slow start."
+              }
             },
             {
               "name": "CSIR - Experiential Training Programme",
@@ -1419,7 +1464,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 150
+              "value_target": 150,
+              "implementation_detail": {
+                "programme_name": "CSIR - Experiential Training Programme",
+                "status": "CriticalChallenges",
+                "detail": "Placement has commenced however was affected by university system closures which meant students could not register and provide proof as part of application process. "
+              }
             },
             {
               "name": "WRC - Water Graduate Employment Programme",
@@ -1429,33 +1479,17 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 400
+              "value_target": 400,
+              "implementation_detail": {
+                "programme_name": "WRC - Water Graduate Employment Programme",
+                "status": "MinorChallenges",
+                "detail": "There were delays in the planning phase however, recruitment is underway."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "HSRC - Health Promotion Agents",
-          "status": "MinorChallenges",
-          "detail": "There were delays in the planning phase however, recruitment is underway and is being conducted in two phases."
-        },
-        {
-          "programme_name": "CSIR - Enviro-champs",
-          "status": "MinorChallenges",
-          "detail": "Appointed enviro-champs have received training and commenced work however transfer of funds was delayed resulting in a slow start."
-        },
-        {
-          "programme_name": "CSIR - Experiential Training Programme",
-          "status": "CriticalChallenges",
-          "detail": "Placement has commenced however was affected by university system closures which meant students could not register and provide proof as part of application process. "
-        },
-        {
-          "programme_name": "WRC - Water Graduate Employment Programme",
-          "status": "MinorChallenges",
-          "detail": "There were delays in the planning phase however, recruitment is underway."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -1484,7 +1518,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 525000000
+              "value_target": 525000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -1494,7 +1529,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 34070
+              "value_target": 34070,
+              "implementation_detail": null
             }
           ]
         },
@@ -1510,7 +1546,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1470
+              "value_target": 1470,
+              "implementation_detail": {
+                "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
+                "status": "MinorChallenges",
+                "detail": "Appointed participants have commenced work however the demand from organisations has been low."
+              }
             },
             {
               "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
@@ -1555,7 +1596,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -1604,7 +1645,12 @@
                   }
                 ]
               },
-              "value_target": 900
+              "value_target": 900,
+              "implementation_detail": {
+                "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+                "status": "OnTrack",
+                "detail": "The participants have started working with significant progress against the target to date."
+              }
             },
             {
               "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
@@ -1614,7 +1660,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 500
+              "value_target": 500,
+              "implementation_detail": {
+                "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+                "status": "CriticalChallenges",
+                "detail": "Delays in implementation due to the need to obtain approval of the entity from National Treasury."
+              }
             },
             {
               "name": "Public Art, towards a people's culture - Community Arts Centres",
@@ -1688,7 +1739,12 @@
                   }
                 ]
               },
-              "value_target": 900
+              "value_target": 900,
+              "implementation_detail": {
+                "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
+                "status": "CriticalChallenges",
+                "detail": "Delays in implementation due to slow progress in signing the Memorandum of Agreement with implementing agents"
+              }
             },
             {
               "name": "Audit of national museums - South African Heritage Resources Agency",
@@ -1733,7 +1789,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -1782,7 +1838,12 @@
                   }
                 ]
               },
-              "value_target": 260
+              "value_target": 260,
+              "implementation_detail": {
+                "programme_name": "Audit of national museums - South African Heritage Resources Agency",
+                "status": "OnTrack",
+                "detail": "Participants have commenced work and audits are underway across the country."
+              }
             },
             {
               "name": "Digitisation of records - National Library of South Africa",
@@ -1827,7 +1888,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -1876,7 +1937,12 @@
                   }
                 ]
               },
-              "value_target": 163
+              "value_target": 163,
+              "implementation_detail": {
+                "programme_name": "Digitisation of records - National Library of South Africa",
+                "status": "OnTrack",
+                "detail": "Participants have commenced work and digitisation of records is underway."
+              }
             },
             {
               "name": "Digitisation of records -National Archives",
@@ -1921,7 +1987,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -1970,7 +2036,12 @@
                   }
                 ]
               },
-              "value_target": 163
+              "value_target": 163,
+              "implementation_detail": {
+                "programme_name": "Digitisation of records -National Archives",
+                "status": "OnTrack",
+                "detail": "Participants have commenced work and digitisation of records is underway."
+              }
             }
           ]
         },
@@ -2012,20 +2083,20 @@
                 "values": [
                   {
                     "gender": "Percentage (%) male",
-                    "value": 56.5
+                    "value": 0.565
                   },
                   {
                     "gender": "Percentage (%) female",
-                    "value": 43.5
+                    "value": 0.435
                   }
                 ]
               },
               "age": {
-                "name": "Percentage of jobs saved going to 18-35 year olds",
+                "name": "Jobs saved going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 44.0
+                    "value": 0.44
                   }
                 ]
               },
@@ -2070,7 +2141,12 @@
                   }
                 ]
               },
-              "value_target": 5000
+              "value_target": 5000,
+              "implementation_detail": {
+                "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
+                "status": "CriticalChallenges",
+                "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practictioners"
+              }
             },
             {
               "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
@@ -2080,7 +2156,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 5000
+              "value_target": 5000,
+              "implementation_detail": {
+                "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
+                "status": "OnTrack",
+                "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+              }
             },
             {
               "name": "Job retention in sport sector - Sport Trust",
@@ -2090,7 +2171,12 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 4000
+              "value_target": 4000,
+              "implementation_detail": {
+                "programme_name": "Job retention in sport sector - Sport Trust",
+                "status": "MinorChallenges",
+                "detail": "The programme was oversubscribed and will likely exceed its target."
+              }
             }
           ]
         },
@@ -2132,20 +2218,20 @@
                 "values": [
                   {
                     "gender": "Percentage (%) male",
-                    "value": 66.0
+                    "value": 0.66
                   },
                   {
                     "gender": "Percentage (%) female",
-                    "value": 34.0
+                    "value": 0.34
                   }
                 ]
               },
               "age": {
-                "name": "Percentage of livelihoods supported going to 18-35 year olds",
+                "name": "Livelihoods supported going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 44.5
+                    "value": 0.445
                   }
                 ]
               },
@@ -2190,7 +2276,12 @@
                   }
                 ]
               },
-              "value_target": 7857
+              "value_target": 7857,
+              "implementation_detail": {
+                "programme_name": "Support to art and culture practitioners - National Arts Council",
+                "status": "CriticalChallenges",
+                "detail": "This stream was oversubscribed and only a portion of the approved beneficiaries received support in December. A new council joined the board in January and they are addressing the challenges."
+              }
             },
             {
               "name": "Support to art and culture practitioners - National Film and Video Foundation",
@@ -2200,73 +2291,17 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 7857
+              "value_target": 7857,
+              "implementation_detail": {
+                "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
+                "status": "OnTrack",
+                "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
-          "status": "MinorChallenges",
-          "detail": "Appointed participants have commenced work however the demand from organisations has been low."
-        },
-        {
-          "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
-          "status": "OnTrack",
-          "detail": "The participants have started working with significant progress against the target to date."
-        },
-        {
-          "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
-          "status": "CriticalChallenges",
-          "detail": "Delays in implementation due to the need to obtain approval of the entity from National Treasury."
-        },
-        {
-          "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
-          "status": "CriticalChallenges",
-          "detail": "Delays in implementation due to slow progress in signing the Memorandum of Agreement with implementing agents"
-        },
-        {
-          "programme_name": "Audit of national museums - South African Heritage Resources Agency",
-          "status": "OnTrack",
-          "detail": "Participants have commenced work and audits are underway across the country."
-        },
-        {
-          "programme_name": "Digitisation of records - National Library of South Africa",
-          "status": "OnTrack",
-          "detail": "Participants have commenced work and digitisation of records is underway."
-        },
-        {
-          "programme_name": "Digitisation of records -National Archives",
-          "status": "OnTrack",
-          "detail": "Participants have commenced work and digitisation of records is underway."
-        },
-        {
-          "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
-          "status": "CriticalChallenges",
-          "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practictioners"
-        },
-        {
-          "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
-          "status": "OnTrack",
-          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
-        },
-        {
-          "programme_name": "Job retention in sport sector - Sport Trust",
-          "status": "MinorChallenges",
-          "detail": "The programme was oversubscribed and will likely exceed its target."
-        },
-        {
-          "programme_name": "Support to art and culture practitioners - National Arts Council",
-          "status": "CriticalChallenges",
-          "detail": "This stream was oversubscribed and only a portion of the approved beneficiaries received support in December. A new council joined the board in January and they are addressing the challenges."
-        },
-        {
-          "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
-          "status": "OnTrack",
-          "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -2295,7 +2330,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 630000000
+              "value_target": 630000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -2305,7 +2341,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 37079
+              "value_target": 37079,
+              "implementation_detail": null
             }
           ]
         },
@@ -2385,18 +2422,17 @@
                   }
                 ]
               },
-              "value_target": 37079
+              "value_target": 37079,
+              "implementation_detail": {
+                "programme_name": "Rural roads maintenance",
+                "status": "MinorChallenges",
+                "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Rural roads maintenance",
-          "status": "MinorChallenges",
-          "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -2425,7 +2461,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 630000000
+              "value_target": 630000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -2435,7 +2472,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 37079
+              "value_target": 37079,
+              "implementation_detail": null
             }
           ]
         },
@@ -2486,7 +2524,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -2535,7 +2573,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Water and Sanitation Facilities Management",
@@ -2580,7 +2619,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -2629,7 +2668,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Welisizwe Rural Bridges Programme",
@@ -2674,7 +2714,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -2723,7 +2763,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Facilities Management",
@@ -2768,7 +2809,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -2817,7 +2858,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Real Estate",
@@ -2862,7 +2904,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -2911,7 +2953,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "In-House Construction projects",
@@ -2956,7 +2999,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -3005,7 +3048,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             },
             {
               "name": "Public Private Collaborations",
@@ -3050,7 +3094,7 @@
                 ]
               },
               "age": {
-                "name": "Percentage of opportunities going to 18-35 year olds",
+                "name": "Opportunities going to 18-35 year olds",
                 "values": [
                   {
                     "age_category": "18-35",
@@ -3099,7 +3143,8 @@
                   }
                 ]
               },
-              "value_target": -1
+              "value_target": -1,
+              "implementation_detail": null
             }
           ]
         }
@@ -3133,7 +3178,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 1983000000
+              "value_target": 1983000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -3143,7 +3189,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 50311
+              "value_target": 50311,
+              "implementation_detail": null
             }
           ]
         },
@@ -3185,7 +3232,12 @@
               "province": null,
               "value_target": [
                 12690
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Cleaning and greening - war on waste with municipalities",
+                "status": "MinorChallenges",
+                "detail": "Procurement of service providers is still in process."
+              }
             },
             {
               "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
@@ -3221,7 +3273,12 @@
               "province": null,
               "value_target": [
                 1750
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+                "status": "MinorChallenges",
+                "detail": "Procurement of service providers is still in process."
+              }
             },
             {
               "name": "Oceans and Coast: Source to Sea",
@@ -3257,7 +3314,12 @@
               "province": null,
               "value_target": [
                 1719
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Oceans and Coast: Source to Sea",
+                "status": "MinorChallenges",
+                "detail": "Procurement of service providers is still in process."
+              }
             },
             {
               "name": "Groen Sebenzas, weather service - graduate programme",
@@ -3293,7 +3355,12 @@
               "province": null,
               "value_target": [
                 524
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Groen Sebenzas, weather service - graduate programme",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "SANBI Infrastructure maintenance, biosecurity",
@@ -3329,7 +3396,12 @@
               "province": null,
               "value_target": [
                 1038
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "SANBI Infrastructure maintenance, biosecurity",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "iSimangaliso: conservation management infrastructure",
@@ -3365,7 +3437,12 @@
               "province": null,
               "value_target": [
                 1164
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "iSimangaliso: conservation management infrastructure",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "SANPARKS upgrade and green energy",
@@ -3401,7 +3478,12 @@
               "province": null,
               "value_target": [
                 4246
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "SANPARKS upgrade and green energy",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "Catchment management and strategic water sources",
@@ -3437,7 +3519,12 @@
               "province": null,
               "value_target": [
                 15012
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Catchment management and strategic water sources",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "Bio-diversity economy",
@@ -3473,7 +3560,12 @@
               "province": null,
               "value_target": [
                 7524
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Bio-diversity economy",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             },
             {
               "name": "Climate Adaptation: Forestry support",
@@ -3509,63 +3601,17 @@
               "province": null,
               "value_target": [
                 4644
-              ]
+              ],
+              "implementation_detail": {
+                "programme_name": "Climate Adaptation: Forestry support",
+                "status": "OnTrack",
+                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+              }
             }
           ]
         }
       ],
-      "implementation_details": [
-        {
-          "programme_name": "Cleaning and greening - war on waste with municipalities",
-          "status": "MinorChallenges",
-          "detail": "Procurement of service providers is still in process."
-        },
-        {
-          "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
-          "status": "MinorChallenges",
-          "detail": "Procurement of service providers is still in process."
-        },
-        {
-          "programme_name": "Oceans and Coast: Source to Sea",
-          "status": "MinorChallenges",
-          "detail": "Procurement of service providers is still in process."
-        },
-        {
-          "programme_name": "Groen Sebenzas, weather service - graduate programme",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "SANBI Infrastructure maintenance, biosecurity",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "iSimangaliso: conservation management infrastructure",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "SANPARKS upgrade and green energy",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "Catchment management and strategic water sources",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "Bio-diversity economy",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        },
-        {
-          "programme_name": "Climate Adaptation: Forestry support",
-          "status": "OnTrack",
-          "detail": "Appointed participants have commenced work and recruitment is still ongoing."
-        }
-      ]
+      "implementation_details": []
     },
     {
       "month": 202101,
@@ -3594,7 +3640,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 50000000
+              "value_target": 50000000,
+              "implementation_detail": null
             },
             {
               "name": "Beneficiaries",
@@ -3604,7 +3651,8 @@
               "gender": null,
               "age": null,
               "province": null,
-              "value_target": 25000
+              "value_target": 25000,
+              "implementation_detail": null
             }
           ]
         }

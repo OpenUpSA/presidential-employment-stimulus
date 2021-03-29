@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 630000000
+          "value_target": 630000000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 37079
+          "value_target": 37079,
+          "implementation_detail": null
         }
       ]
     },
@@ -115,7 +117,8 @@
               }
             ]
           },
-          "value_target": 37079
+          "value_target": 37079,
+          "implementation_detail": null
         }
       ]
     }
