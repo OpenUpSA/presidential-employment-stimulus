@@ -6,7 +6,8 @@ const ICON_SELECTORS = {
   livelihoods: '.icon.icon--support',
   job_opportunities: '.icon.icon--jobs-created',
   jobs_retain: '.icon.icon--jobs-retained',
-  targets: '.icon.icon--budget',
+  targets_currency: '.icon.icon--budget',
+  targets_count: '.icon.icon--beneficiaries',
   budget_allocated: '.icon.icon--budget',
 };
 const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
@@ -35,7 +36,9 @@ export class Metric {
     this._target = target === -1 ? null : target;
     this._quotient = this._target
       ? this._value / this._target : null;
+    this._iconType = this._sectionType;
     if (sectionType === 'targets') {
+      this._iconType = this._sectionType + '_' + this._metricType;
       this._topText = this._formatter(this._target);
       this._bottomText = `${metricType === 'currency' ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
     } else {
@@ -52,7 +55,7 @@ export class Metric {
   render() {
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
-    const $icon = icons[this._sectionType].clone(true, true);
+    const $icon = icons[this._iconType].clone(true, true);
     this._$el.find(ICON_CONTAINER_SELECTOR).append($icon);
     this._$el.find(NAME_SELECTOR).text(this._title);
     this._$el.find(VALUE_SELECTOR).text(this._topText);

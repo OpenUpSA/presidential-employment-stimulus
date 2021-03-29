@@ -29,7 +29,7 @@ export const FORMATTERS = {
 };
 
 export function organizeByZero(array) {
-  // put
+  // put programmes with non-zero achievements before those with zero achievements
     const [pass, fail] = array.reduce(([pass, fail], elem) => {
         return (elem.value !== 0) ? [[...pass, elem], fail] : [pass, [...fail, elem]];
     }, [[], []]);

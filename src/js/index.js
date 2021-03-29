@@ -66,7 +66,6 @@ d3.json('data/all_data.json').then((data) => {
       const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
       const sectionType = sectionData.section_type;
       const subSectionDataArr = organizeByZero(sectionData.metrics || []);
-      console.log(subSectionDataArr);
       subSectionDataArr.forEach((subSectionData) => {
         const subSection = new SubSection(section.$container);
         new Metric(
