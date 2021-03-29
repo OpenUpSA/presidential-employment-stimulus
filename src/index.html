@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  --><!--  Last Published: Wed Mar 24 2021 10:28:57 GMT+0000 (Coordinated Universal Time)  --><html data-wf-page="6033828c979a63466fe10c13" data-wf-site="6033828c979a630902e10c12"><head>
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  --><!--  Last Published: Mon Mar 29 2021 07:15:31 GMT+0000 (Coordinated Universal Time)  --><html data-wf-page="6033828c979a63466fe10c13" data-wf-site="6033828c979a630902e10c12"><head>
   <meta charset="utf-8">
   <title>Presidential Employment Stimulus</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="uppercase-label uppercase-label--border-top">Loading...</div>
-          <div class="feature-value__number-percent"><span class="feature-value__number-percent_number">Loading...</span> (<span class="feature-value__number-percent_percent">Loading...</span>)</div>
+          <div class="feature-value__number-percent">Loading... </div>
           <div class="uppercase-label uppercase-label--border-top">Loading...</div>
           <div class="feature-value__split-chart">
             <div class="demo-bar left">
@@ -162,21 +162,33 @@
               </div>
             </a>
           </div>
+          <div class="feature-value__bar-chart">
+            <a href="#" class="bar-chart__row small w-inline-block">
+              <div class="bar-chart__row_tooltip">Trade, Industry and Competition</div>
+              <div class="bar-chart__row_label">Loading</div>
+              <div class="bar-chart__row_inner">
+                <div class="bar-chart__row_bar"></div>
+                <div class="bar-chart__row_value small">Loading</div>
+              </div>
+            </a>
+          </div>
+          <div class="uppercase-label uppercase-label--border-top">Loading...</div>
+          <div class="feature-value__current-status">Loading...</div>
+          <div class="status-update__description w-richtext">
+            <p>Loading...</p>
+          </div>
         </div>
         <div id="w-node-_98b575c9-cc04-4407-35c5-e0e05fbf117c-6fe10c13" class="block status-update">
-          <div class="feature-value__inner">
-            <div class="feature-value__header">
-              <div class="feature-value__header_icon-wrapper">
-                <div class="icon"></div>
-              </div>
-              <div class="feature-value__header_info-wrapper">
-                <div class="feature-value__label">Loading...</div>
-                <div class="feature-value__amount feature-value__amount--green">Loading...</div>
+          <div class="status-update__inner">
+            <div class="status-udpate__header">
+              <div class="status-update__header_info-wrapper">
+                <div class="status-update__label">Loading...</div>
+                <div class="status-update__current-status">Loading...</div>
               </div>
             </div>
           </div>
-          <div class="uppercase-label uppercase-label--border-top">Latest update</div>
-          <div class="status-update w-richtext">
+          <div class="uppercase-label uppercase-label--border-top">Loading...</div>
+          <div class="status-update__description w-richtext">
             <p>Loading...</p>
           </div>
         </div>
@@ -185,11 +197,17 @@
           <div class="icon icon--jobs-retained"></div>
           <div class="icon icon--jobs-created"></div>
           <div class="icon icon--budget"></div>
+          <div class="icon icon--beneficiaries"></div>
         </div>
         <div>
           <div class="feature-value__amount feature-value__amount--yellow">Loading...</div>
           <div class="feature-value__amount feature-value__amount--green">Loading...</div>
           <div class="feature-value__amount feature-value__amount--red">Loading...</div>
+        </div>
+        <div>
+          <div class="feature-value__current-status feature-value__current-status--yellow">Loading...</div>
+          <div class="feature-value__current-status feature-value__current-status--green">Loading...</div>
+          <div class="feature-value__current-status feature-value__current-status--red">Loading...</div>
         </div>
       </div>
     </div>
@@ -199,7 +217,7 @@
 	width: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	text-overflow: ellipsis;  	
   }
   .bar-chart__row_tooltip {
   	pointer-events: none;
@@ -214,7 +232,6 @@
   <script>
   var pymChild = new pym.Child({ polling: 1000 });
 </script>
-<script src="js/index.js"></script>
   <script>
   	var Webflow = Webflow || [];
 Webflow.push(function () {
@@ -230,4 +247,4 @@ Webflow.push(function () {
 });
 </script>
 
-</body></html>
+<script src="js/index.js"></script></body></html>
