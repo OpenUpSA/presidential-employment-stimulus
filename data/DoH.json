@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 393571000
+          "value_target": 393571000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 5531
+          "value_target": 5531,
+          "implementation_detail": null
         }
       ]
     },
@@ -115,7 +117,8 @@
               }
             ]
           },
-          "value_target": 1045
+          "value_target": 1045,
+          "implementation_detail": null
         },
         {
           "name": "Auxiliary nurses",
@@ -207,7 +210,8 @@
               }
             ]
           },
-          "value_target": 1236
+          "value_target": 1236,
+          "implementation_detail": null
         },
         {
           "name": "Community Health Workers",
@@ -217,7 +221,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 2000
+          "value_target": 2000,
+          "implementation_detail": null
         },
         {
           "name": "Outreach Team Leaders",
@@ -227,7 +232,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 1250
+          "value_target": 1250,
+          "implementation_detail": null
         }
       ]
     }

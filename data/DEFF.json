@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 1983000000
+          "value_target": 1983000000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 50311
+          "value_target": 50311,
+          "implementation_detail": null
         }
       ]
     },
@@ -77,7 +79,8 @@
           "province": null,
           "value_target": [
             12690
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
@@ -113,7 +116,8 @@
           "province": null,
           "value_target": [
             1750
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Oceans and Coast: Source to Sea",
@@ -149,7 +153,8 @@
           "province": null,
           "value_target": [
             1719
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Groen Sebenzas, weather service - graduate programme",
@@ -185,7 +190,8 @@
           "province": null,
           "value_target": [
             524
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "SANBI Infrastructure maintenance, biosecurity",
@@ -221,7 +227,8 @@
           "province": null,
           "value_target": [
             1038
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "iSimangaliso: conservation management infrastructure",
@@ -257,7 +264,8 @@
           "province": null,
           "value_target": [
             1164
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "SANPARKS upgrade and green energy",
@@ -293,7 +301,8 @@
           "province": null,
           "value_target": [
             4246
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Catchment management and strategic water sources",
@@ -329,7 +338,8 @@
           "province": null,
           "value_target": [
             15012
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Bio-diversity economy",
@@ -365,7 +375,8 @@
           "province": null,
           "value_target": [
             7524
-          ]
+          ],
+          "implementation_detail": null
         },
         {
           "name": "Climate Adaptation: Forestry support",
@@ -401,7 +412,8 @@
           "province": null,
           "value_target": [
             4644
-          ]
+          ],
+          "implementation_detail": null
         }
       ]
     }

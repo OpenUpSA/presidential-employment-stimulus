@@ -101,6 +101,14 @@ class GenderValues:
 
 @dataclass_json
 @dataclass
+class ImplementationDetail:
+    programme_name: str
+    status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
+    detail: str = None    
+
+
+@dataclass_json
+@dataclass
 class Metric:
     name: str
     metric_type: str  # enum of 'currency', 'count'
@@ -110,13 +118,8 @@ class Metric:
     age: Optional[AgeValues]
     province: Optional[ProvinceValues]
     value_target: int = -1
+    implementation_detail: Optional[ImplementationDetail] = None
 
-@dataclass_json
-@dataclass
-class ImplementationDetail:
-    programme_name: str
-    status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
-        detail: str = None    
 
 @dataclass_json
 @dataclass

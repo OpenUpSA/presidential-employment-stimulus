@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 588728000
+          "value_target": 588728000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 111142
+          "value_target": 111142,
+          "implementation_detail": null
         }
       ]
     },
@@ -51,7 +53,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 500
+          "value_target": 500,
+          "implementation_detail": null
         }
       ]
     },
@@ -102,7 +105,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of jobs saved going to 18-35 year olds",
+            "name": "Jobs saved going to 18-35 year olds",
             "values": [
               {
                 "age_category": "18-35",
@@ -151,7 +154,8 @@
               }
             ]
           },
-          "value_target": 74626
+          "value_target": 74626,
+          "implementation_detail": null
         }
       ]
     },
@@ -167,7 +171,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 108833
+          "value_target": 108833,
+          "implementation_detail": null
         }
       ]
     }

@@ -25,7 +25,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 525000000
+          "value_target": 525000000,
+          "implementation_detail": null
         },
         {
           "name": "Beneficiaries",
@@ -35,7 +36,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 34070
+          "value_target": 34070,
+          "implementation_detail": null
         }
       ]
     },
@@ -51,7 +53,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 1470
+          "value_target": 1470,
+          "implementation_detail": null
         },
         {
           "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
@@ -96,7 +99,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of opportunities going to 18-35 year olds",
+            "name": "Opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -145,7 +148,8 @@
               }
             ]
           },
-          "value_target": 900
+          "value_target": 900,
+          "implementation_detail": null
         },
         {
           "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
@@ -155,7 +159,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 500
+          "value_target": 500,
+          "implementation_detail": null
         },
         {
           "name": "Public Art, towards a people's culture - Community Arts Centres",
@@ -229,7 +234,8 @@
               }
             ]
           },
-          "value_target": 900
+          "value_target": 900,
+          "implementation_detail": null
         },
         {
           "name": "Audit of national museums - South African Heritage Resources Agency",
@@ -274,7 +280,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of opportunities going to 18-35 year olds",
+            "name": "Opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -323,7 +329,8 @@
               }
             ]
           },
-          "value_target": 260
+          "value_target": 260,
+          "implementation_detail": null
         },
         {
           "name": "Digitisation of records - National Library of South Africa",
@@ -368,7 +375,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of opportunities going to 18-35 year olds",
+            "name": "Opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -417,7 +424,8 @@
               }
             ]
           },
-          "value_target": 163
+          "value_target": 163,
+          "implementation_detail": null
         },
         {
           "name": "Digitisation of records -National Archives",
@@ -462,7 +470,7 @@
             ]
           },
           "age": {
-            "name": "Percentage of opportunities going to 18-35 year olds",
+            "name": "Opportunities going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
@@ -511,7 +519,8 @@
               }
             ]
           },
-          "value_target": 163
+          "value_target": 163,
+          "implementation_detail": null
         }
       ]
     },
@@ -553,20 +562,20 @@
             "values": [
               {
                 "gender": "Percentage (%) male",
-                "value": 56.5
+                "value": 0.565
               },
               {
                 "gender": "Percentage (%) female",
-                "value": 43.5
+                "value": 0.435
               }
             ]
           },
           "age": {
-            "name": "Percentage of jobs saved going to 18-35 year olds",
+            "name": "Jobs saved going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
-                "value": 44.0
+                "value": 0.44
               }
             ]
           },
@@ -611,7 +620,8 @@
               }
             ]
           },
-          "value_target": 5000
+          "value_target": 5000,
+          "implementation_detail": null
         },
         {
           "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
@@ -621,7 +631,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 5000
+          "value_target": 5000,
+          "implementation_detail": null
         },
         {
           "name": "Job retention in sport sector - Sport Trust",
@@ -631,7 +642,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 4000
+          "value_target": 4000,
+          "implementation_detail": null
         }
       ]
     },
@@ -673,20 +685,20 @@
             "values": [
               {
                 "gender": "Percentage (%) male",
-                "value": 66.0
+                "value": 0.66
               },
               {
                 "gender": "Percentage (%) female",
-                "value": 34.0
+                "value": 0.34
               }
             ]
           },
           "age": {
-            "name": "Percentage of livelihoods supported going to 18-35 year olds",
+            "name": "Livelihoods supported going to 18-35 year olds",
             "values": [
               {
                 "age_category": "Percentage (%) aged 18 - 35 years old",
-                "value": 44.5
+                "value": 0.445
               }
             ]
           },
@@ -731,7 +743,8 @@
               }
             ]
           },
-          "value_target": 7857
+          "value_target": 7857,
+          "implementation_detail": null
         },
         {
           "name": "Support to art and culture practitioners - National Film and Video Foundation",
@@ -741,7 +754,8 @@
           "gender": null,
           "age": null,
           "province": null,
-          "value_target": 7857
+          "value_target": 7857,
+          "implementation_detail": null
         }
       ]
     }
