@@ -116,7 +116,7 @@ class Metric:
 class ImplementationDetail:
     programme_name: str
     status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
-    detail: str = None    
+        detail: str = None    
 
 @dataclass_json
 @dataclass
@@ -218,25 +218,25 @@ metric_titles = {
         MetricTypeEnum.count.name + '_time': "Employed over time",
         MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
         MetricTypeEnum.count.name + '_province': "Opportunities by Province",
-        MetricTypeEnum.count.name + '_age': "Percentage of opportunities going to 18-35 year olds",
+        MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
     },
     SectionEnum.jobs_retain.name: {
         MetricTypeEnum.count.name + "_time": "Jobs saved over time",
         MetricTypeEnum.count.name + "_gender": "Jobs saved by gender",
         MetricTypeEnum.count.name + "_province": "Jobs saved by province",
-        MetricTypeEnum.count.name + "_age": "Percentage of jobs saved going to 18-35 year olds",
+        MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
     },
     SectionEnum.livelihoods.name: {
         MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
         MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
         MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
-        MetricTypeEnum.count.name + "_age": "Percentage of livelihoods supported going to 18-35 year olds",
+        MetricTypeEnum.count.name + "_age": "Livelihoods supported going to 18-35 year olds",
     }
 
 }
 
 leads = dict(
-    overview="BUILDING A SOCIETY THAT WORKS",
+    overview="Building a society that works",
     DTIC="Piloting new models for re-shoring and expanding global business services",
     DBE="Teachers assistants and other support for schools",
     DSD="Income support to practitioners and to the implementation of Covid compliance measures",
