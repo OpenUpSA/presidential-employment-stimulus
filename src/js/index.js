@@ -14,6 +14,7 @@ import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
 import { VizLine } from './viz-line';
 import {ImplementationDetail} from "./implementation-detail";
+import {organizeByZero} from "./utils";
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -31,14 +32,25 @@ d3.json('data/all_data.json').then((data) => {
       data.overview.name,
       () => tabs.select(0)
   );
+
+
+
   new Header(overviewTab.$container, data.overview.name, data.overview.lead, data.overview.paragraph);
+  // TODO: Clean up this ugly code using components etc
+  const CONTENT_GRID_SELECTOR = '.thirds-grid';
+  const $overviewGrid = $(CONTENT_GRID_SELECTOR).first().clone(true, true);
+  $overviewGrid.empty();
   const overviewSectionArr = data.overview.sections || [];
   overviewSectionArr.forEach((overviewSectionData) => {
-    const overviewSection = new OverviewSection(overviewTab.$container, overviewSectionData.name, overviewSectionData.section_type,
+    const $el = $('<div></div>');
+    const overviewSection = new OverviewSection($el, overviewSectionData.name, overviewSectionData.section_type,
         'count', overviewSectionData.value, overviewSectionData.value_target);
-    new VizHeading(overviewTab.$container, overviewSectionData.name);
-    new OverviewVizBars(overviewTab.$container, overviewSectionData.metrics);
+    new VizHeading($el, overviewSectionData.name);
+    new OverviewVizBars($el, overviewSectionData.metrics);
+    $overviewGrid.append($el);
   });
+
+  overviewTab.$container.append($overviewGrid);
   tabs.add(overviewTab);
   data.departments.forEach((tabData, i) => {
     const tab = new Tab(
@@ -53,7 +65,8 @@ d3.json('data/all_data.json').then((data) => {
     sectionDataArr.forEach((sectionData) => {
       const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
       const sectionType = sectionData.section_type;
-      const subSectionDataArr = sectionData.metrics || [];
+      const subSectionDataArr = organizeByZero(sectionData.metrics || []);
+      console.log(subSectionDataArr);
       subSectionDataArr.forEach((subSectionData) => {
         const subSection = new SubSection(section.$container);
         new Metric(
@@ -64,6 +77,10 @@ d3.json('data/all_data.json').then((data) => {
           subSectionData.value,
           subSectionData.value_target,
         );
+        if (subSectionData.time) {
+          new VizHeading(subSection.$container, subSectionData.time.name);
+          new VizLine(subSection.$container, subSectionData.time.values);
+        }
         if (subSectionData.gender) {
           new VizHeading(subSection.$container, subSectionData.gender.name);
           const genderOne = subSectionData.gender.values[0];
@@ -83,10 +100,6 @@ d3.json('data/all_data.json').then((data) => {
             'count',
             ageValue,
           );
-        }
-        if (subSectionData.time) {
-          new VizHeading(subSection.$container, subSectionData.time.name);
-          new VizLine(subSection.$container, subSectionData.time.values);
         }
         if (subSectionData.province) {
           new VizHeading(subSection.$container, subSectionData.province.name);
