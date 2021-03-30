@@ -15,12 +15,12 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
 }), {});
 
 const CONTAINER_SELECTOR = '.block.status-update';
-const NAME_SELECTOR = '.feature-value__label';
+const NAME_SELECTOR = '.status-update__label';
 const ICON_CONTAINER_SELECTOR = '.feature-value__header_icon-wrapper';
 // const VALUE_SELECTOR = '.feature-value__amount';
-const STATUS_SELECTOR = '.feature-value__amount';
+const STATUS_SELECTOR = '.status-update__current-status';
 const LATEST_UPDATE_SELECTOR = '.uppercase-label.uppercase-label--border-top';
-const DETAIL_SELECTOR = '.status-update.w-richtext';
+const DETAIL_SELECTOR = '.status-update__description.w-richtext';
 const PROGRESS_CLASS = 'feature-value__header_chart-wrapper';
 const GREEN_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--green';
 const YELLOW_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--yellow';
