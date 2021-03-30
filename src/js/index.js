@@ -41,8 +41,9 @@ d3.json('data/all_data.json').then((data) => {
   // TODO: Clean up this ugly code using components etc
   const $overviewGrid = $thirdsGrid.clone(true, true);
   const overviewSectionArr = data.overview.sections || [];
+  const section = new Section(overviewTab.$container, "Overview", 'An overview of the programmes', '', "livelihoods");
+
   overviewSectionArr.forEach((overviewSectionData) => {
-    const section = new Section($overviewGrid, overviewSectionData.name, '', '', overviewSectionData.section_type);
     const subSection = new SubSection(section.$container);
     const overviewSection = new Metric(subSection.$container, overviewSectionData.name, overviewSectionData.section_type,
         'count', overviewSectionData.value, overviewSectionData.value_target);
