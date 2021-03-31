@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 630000000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 1841,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 37079,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -49,94 +45,100 @@
           "name": "Water and Energy Efficiency",
           "metric_type": "count",
           "value": 167,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 138
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 167
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 167
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.41
-              },
-              {
-                "gender": "Female",
-                "value": 0.59
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 1.0
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 0
-              },
-              {
-                "province": "FS",
-                "value": 0
-              },
-              {
-                "province": "GP",
-                "value": 167
-              },
-              {
-                "province": "KZN",
-                "value": 0
-              },
-              {
-                "province": "LP",
-                "value": 0
-              },
-              {
-                "province": "MP",
-                "value": 0
-              },
-              {
-                "province": "NW",
-                "value": 0
-              },
-              {
-                "province": "NC",
-                "value": 0
-              },
-              {
-                "province": "WC",
-                "value": 0
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 138
+                },
+                {
+                  "key": "202012",
+                  "value": 167
+                },
+                {
+                  "key": "202101",
+                  "value": 167
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.41
+                },
+                {
+                  "key": "Female",
+                  "value": 0.59
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 0
+                },
+                {
+                  "key": "FS",
+                  "value": 0
+                },
+                {
+                  "key": "GP",
+                  "value": 167
+                },
+                {
+                  "key": "KZN",
+                  "value": 0
+                },
+                {
+                  "key": "LP",
+                  "value": 0
+                },
+                {
+                  "key": "MP",
+                  "value": 0
+                },
+                {
+                  "key": "NW",
+                  "value": 0
+                },
+                {
+                  "key": "NC",
+                  "value": 0
+                },
+                {
+                  "key": "WC",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -144,94 +146,100 @@
           "name": "Water and Sanitation Facilities Management",
           "metric_type": "count",
           "value": 157,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 129
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 182
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 157
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.43
-              },
-              {
-                "gender": "Female",
-                "value": 0.57
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.9999
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 17
-              },
-              {
-                "province": "FS",
-                "value": 11
-              },
-              {
-                "province": "GP",
-                "value": 0
-              },
-              {
-                "province": "KZN",
-                "value": 0
-              },
-              {
-                "province": "LP",
-                "value": 30
-              },
-              {
-                "province": "MP",
-                "value": 44
-              },
-              {
-                "province": "NW",
-                "value": 0
-              },
-              {
-                "province": "NC",
-                "value": 7
-              },
-              {
-                "province": "WC",
-                "value": 48
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 129
+                },
+                {
+                  "key": "202012",
+                  "value": 182
+                },
+                {
+                  "key": "202101",
+                  "value": 157
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.43
+                },
+                {
+                  "key": "Female",
+                  "value": 0.57
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.9999
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 17
+                },
+                {
+                  "key": "FS",
+                  "value": 11
+                },
+                {
+                  "key": "GP",
+                  "value": 0
+                },
+                {
+                  "key": "KZN",
+                  "value": 0
+                },
+                {
+                  "key": "LP",
+                  "value": 30
+                },
+                {
+                  "key": "MP",
+                  "value": 44
+                },
+                {
+                  "key": "NW",
+                  "value": 0
+                },
+                {
+                  "key": "NC",
+                  "value": 7
+                },
+                {
+                  "key": "WC",
+                  "value": 48
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -239,94 +247,100 @@
           "name": "Welisizwe Rural Bridges Programme",
           "metric_type": "count",
           "value": 496,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 410
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 482
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 496
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.48
-              },
-              {
-                "gender": "Female",
-                "value": 0.52
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.9999
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 159
-              },
-              {
-                "province": "FS",
-                "value": 100
-              },
-              {
-                "province": "GP",
-                "value": 44
-              },
-              {
-                "province": "KZN",
-                "value": 46
-              },
-              {
-                "province": "LP",
-                "value": 95
-              },
-              {
-                "province": "MP",
-                "value": 16
-              },
-              {
-                "province": "NW",
-                "value": 18
-              },
-              {
-                "province": "NC",
-                "value": 0
-              },
-              {
-                "province": "WC",
-                "value": 18
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 410
+                },
+                {
+                  "key": "202012",
+                  "value": 482
+                },
+                {
+                  "key": "202101",
+                  "value": 496
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.48
+                },
+                {
+                  "key": "Female",
+                  "value": 0.52
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.9999
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 159
+                },
+                {
+                  "key": "FS",
+                  "value": 100
+                },
+                {
+                  "key": "GP",
+                  "value": 44
+                },
+                {
+                  "key": "KZN",
+                  "value": 46
+                },
+                {
+                  "key": "LP",
+                  "value": 95
+                },
+                {
+                  "key": "MP",
+                  "value": 16
+                },
+                {
+                  "key": "NW",
+                  "value": 18
+                },
+                {
+                  "key": "NC",
+                  "value": 0
+                },
+                {
+                  "key": "WC",
+                  "value": 18
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -334,94 +348,100 @@
           "name": "Facilities Management",
           "metric_type": "count",
           "value": 349,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 288
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 336
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 349
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.55
-              },
-              {
-                "gender": "Female",
-                "value": 0.45
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.9999
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 47
-              },
-              {
-                "province": "FS",
-                "value": 52
-              },
-              {
-                "province": "GP",
-                "value": 70
-              },
-              {
-                "province": "KZN",
-                "value": 13
-              },
-              {
-                "province": "LP",
-                "value": 38
-              },
-              {
-                "province": "MP",
-                "value": 44
-              },
-              {
-                "province": "NW",
-                "value": 15
-              },
-              {
-                "province": "NC",
-                "value": 8
-              },
-              {
-                "province": "WC",
-                "value": 62
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 288
+                },
+                {
+                  "key": "202012",
+                  "value": 336
+                },
+                {
+                  "key": "202101",
+                  "value": 349
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.55
+                },
+                {
+                  "key": "Female",
+                  "value": 0.45
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.9999
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 47
+                },
+                {
+                  "key": "FS",
+                  "value": 52
+                },
+                {
+                  "key": "GP",
+                  "value": 70
+                },
+                {
+                  "key": "KZN",
+                  "value": 13
+                },
+                {
+                  "key": "LP",
+                  "value": 38
+                },
+                {
+                  "key": "MP",
+                  "value": 44
+                },
+                {
+                  "key": "NW",
+                  "value": 15
+                },
+                {
+                  "key": "NC",
+                  "value": 8
+                },
+                {
+                  "key": "WC",
+                  "value": 62
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -429,94 +449,100 @@
           "name": "Real Estate",
           "metric_type": "count",
           "value": 108,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 89
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 108
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 108
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.4
-              },
-              {
-                "gender": "Female",
-                "value": 0.6
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 1.0
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 18
-              },
-              {
-                "province": "FS",
-                "value": 7
-              },
-              {
-                "province": "GP",
-                "value": 44
-              },
-              {
-                "province": "KZN",
-                "value": 8
-              },
-              {
-                "province": "LP",
-                "value": 10
-              },
-              {
-                "province": "MP",
-                "value": 7
-              },
-              {
-                "province": "NW",
-                "value": 0
-              },
-              {
-                "province": "NC",
-                "value": 2
-              },
-              {
-                "province": "WC",
-                "value": 12
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 89
+                },
+                {
+                  "key": "202012",
+                  "value": 108
+                },
+                {
+                  "key": "202101",
+                  "value": 108
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.4
+                },
+                {
+                  "key": "Female",
+                  "value": 0.6
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 18
+                },
+                {
+                  "key": "FS",
+                  "value": 7
+                },
+                {
+                  "key": "GP",
+                  "value": 44
+                },
+                {
+                  "key": "KZN",
+                  "value": 8
+                },
+                {
+                  "key": "LP",
+                  "value": 10
+                },
+                {
+                  "key": "MP",
+                  "value": 7
+                },
+                {
+                  "key": "NW",
+                  "value": 0
+                },
+                {
+                  "key": "NC",
+                  "value": 2
+                },
+                {
+                  "key": "WC",
+                  "value": 12
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -524,94 +550,100 @@
           "name": "In-House Construction projects",
           "metric_type": "count",
           "value": 134,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 110
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 134
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 134
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.44
-              },
-              {
-                "gender": "Female",
-                "value": 0.56
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.9
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 71
-              },
-              {
-                "province": "FS",
-                "value": 0
-              },
-              {
-                "province": "GP",
-                "value": 41
-              },
-              {
-                "province": "KZN",
-                "value": 0
-              },
-              {
-                "province": "LP",
-                "value": 0
-              },
-              {
-                "province": "MP",
-                "value": 0
-              },
-              {
-                "province": "NW",
-                "value": 0
-              },
-              {
-                "province": "NC",
-                "value": 0
-              },
-              {
-                "province": "WC",
-                "value": 22
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 110
+                },
+                {
+                  "key": "202012",
+                  "value": 134
+                },
+                {
+                  "key": "202101",
+                  "value": 134
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.44
+                },
+                {
+                  "key": "Female",
+                  "value": 0.56
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.9
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 71
+                },
+                {
+                  "key": "FS",
+                  "value": 0
+                },
+                {
+                  "key": "GP",
+                  "value": 41
+                },
+                {
+                  "key": "KZN",
+                  "value": 0
+                },
+                {
+                  "key": "LP",
+                  "value": 0
+                },
+                {
+                  "key": "MP",
+                  "value": 0
+                },
+                {
+                  "key": "NW",
+                  "value": 0
+                },
+                {
+                  "key": "NC",
+                  "value": 0
+                },
+                {
+                  "key": "WC",
+                  "value": 22
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -619,98 +651,106 @@
           "name": "Public Private Collaborations",
           "metric_type": "count",
           "value": 430,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 308
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 421
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 430
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.33
-              },
-              {
-                "gender": "Female",
-                "value": 0.67
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.9998
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 0
-              },
-              {
-                "province": "FS",
-                "value": 0
-              },
-              {
-                "province": "GP",
-                "value": 54
-              },
-              {
-                "province": "KZN",
-                "value": 0
-              },
-              {
-                "province": "LP",
-                "value": 367
-              },
-              {
-                "province": "MP",
-                "value": 0
-              },
-              {
-                "province": "NW",
-                "value": 9
-              },
-              {
-                "province": "NC",
-                "value": 0
-              },
-              {
-                "province": "WC",
-                "value": 0
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 308
+                },
+                {
+                  "key": "202012",
+                  "value": 421
+                },
+                {
+                  "key": "202101",
+                  "value": 430
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.33
+                },
+                {
+                  "key": "Female",
+                  "value": 0.67
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.9998
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 0
+                },
+                {
+                  "key": "FS",
+                  "value": 0
+                },
+                {
+                  "key": "GP",
+                  "value": 54
+                },
+                {
+                  "key": "KZN",
+                  "value": 0
+                },
+                {
+                  "key": "LP",
+                  "value": 367
+                },
+                {
+                  "key": "MP",
+                  "value": 0
+                },
+                {
+                  "key": "NW",
+                  "value": 9
+                },
+                {
+                  "key": "NC",
+                  "value": 0
+                },
+                {
+                  "key": "WC",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []

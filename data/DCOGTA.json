@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 50000000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 0,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 25000,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []

@@ -1,6 +1,6 @@
 from enum import Enum
 from dataclasses import dataclass
-from typing import Optional, List
+from typing import Optional, List, Union
 
 from dataclasses_json import dataclass_json
 
@@ -13,6 +13,10 @@ MetricTypeEnum = Enum("MetricType", "currency count")
 ProvinceEnum = Enum("Province", "EC FS GP KZN LP MP NC NW WC")
 
 ImplementationStatusEnum = Enum('ImplementationStatus', 'OnTrack MinorChallenges CriticalChallenges')
+
+VizTypeEnum = Enum('VizType', 'bar line two_value percentile')
+
+LookupTypeEnum = Enum('LookupType', 'department province time age gender')
 
 provinces = [
     "Eastern Cape",
@@ -44,63 +48,6 @@ GenderEnum = Enum("Gender", "Male Female")
 
 @dataclass_json
 @dataclass
-class TimeValue:
-    month: int  # encoding month as in 202101
-    name: str  # human readable time period name
-    value: int
-
-
-@dataclass_json
-@dataclass
-class AgeValue:
-    age_category: str  # 18-35 or youth?
-    value: int
-
-
-@dataclass_json
-@dataclass
-class GenderValue:
-    gender: str  # enum: 'female' or 'male'
-    value: int
-
-
-@dataclass_json
-@dataclass
-class ProvinceValue:
-    province: str  # enum: 'EC' | 'FS' | 'GP' | 'KZN' | 'LP' | 'MP' | 'NC' | 'NW' | 'WC'
-    value: int
-
-
-@dataclass_json
-@dataclass
-class TimeValues:
-    name: str
-    values: List["TimeValue"]
-
-
-@dataclass_json
-@dataclass
-class ProvinceValues:
-    name: str
-    values: List["ProvinceValue"]
-
-
-@dataclass_json
-@dataclass
-class AgeValues:
-    name: str
-    values: List["AgeValue"]
-
-
-@dataclass_json
-@dataclass
-class GenderValues:
-    name: str
-    values: List["GenderValue"]
-
-
-@dataclass_json
-@dataclass
 class ImplementationDetail:
     programme_name: str
     status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
@@ -109,14 +56,26 @@ class ImplementationDetail:
 
 @dataclass_json
 @dataclass
+class MetricValue:
+    key: str
+    value: Union[float, int]
+
+
+@dataclass_json
+@dataclass
+class Dimension:
+    name: str
+    viz: str  # enum of VizType "bar"
+    lookup: str  # enum of LookupType "department", "province", "gender", "age", "disability", "military_veteran"
+    values: List[MetricValue]
+
+@dataclass_json
+@dataclass
 class Metric:
     name: str
     metric_type: str  # enum of 'currency', 'count'
     value: int
-    time: Optional[TimeValues]
-    gender: Optional[GenderValues]
-    age: Optional[AgeValues]
-    province: Optional[ProvinceValues]
+    dimensions: Optional[Dimension]
     value_target: int = -1
     implementation_detail: Optional[ImplementationDetail] = None
 
@@ -126,7 +85,10 @@ class Metric:
 class Section:
     name: str
     section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
+    metric_type = str  # enum of MetricTypeEnum
     metrics: List["Metric"]
+    value: int = None
+    value_target: int = None
 
 
 @dataclass_json
@@ -145,35 +107,10 @@ class Department:
 
 @dataclass_json
 @dataclass
-class DepartmentValue:
-    department: str  # TODO: should be enum
-    value: int
-
-
-@dataclass_json
-@dataclass
-class DepartmentValues:
-    name: str
-    values: List["DepartmentValue"]
-
-
-@dataclass_json
-@dataclass
-class OverviewMetric:
-    name: str
-    metric_type: str  # enum of 'currency', 'count'
-    value: int
-    time: Optional[TimeValues]
-    #     department: DepartmentValues
-    value_target: int = -1
-
-
-@dataclass_json
-@dataclass
 class OverviewSection(Section):
     name: str
     section_type: str
-    metric_type: str  # summarise all the Metrics in thise section
+    metric_type: str  # summarise all the Metrics in this section
     value: int
     value_target: int
     metrics: List["Metric"]
@@ -268,7 +205,7 @@ paragraphs = dict(
     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
 )
 
-months = [202010, 202011, 202012, 202101]
+months = ['202010', '202011', '202012', '202101']
 month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21"]
 
 target_to_imp_programme_mapping = {

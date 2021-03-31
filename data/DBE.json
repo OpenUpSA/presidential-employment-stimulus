@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 7000000000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 355673,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 344933,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -49,74 +45,74 @@
           "name": "Education Assistants",
           "metric_type": "count",
           "value": 200000,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 200000
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 200000
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 200000
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 30628
-              },
-              {
-                "province": "FS",
-                "value": 11021
-              },
-              {
-                "province": "GP",
-                "value": 28875
-              },
-              {
-                "province": "KZN",
-                "value": 42591
-              },
-              {
-                "province": "LP",
-                "value": 30708
-              },
-              {
-                "province": "MP",
-                "value": 16027
-              },
-              {
-                "province": "NW",
-                "value": 12983
-              },
-              {
-                "province": "NC",
-                "value": 3138
-              },
-              {
-                "province": "WC",
-                "value": 8245
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 30628
+                },
+                {
+                  "key": "FS",
+                  "value": 11021
+                },
+                {
+                  "key": "GP",
+                  "value": 28875
+                },
+                {
+                  "key": "KZN",
+                  "value": 42591
+                },
+                {
+                  "key": "LP",
+                  "value": 30708
+                },
+                {
+                  "key": "MP",
+                  "value": 16027
+                },
+                {
+                  "key": "NW",
+                  "value": 12983
+                },
+                {
+                  "key": "NC",
+                  "value": 3138
+                },
+                {
+                  "key": "WC",
+                  "value": 8245
+                }
+              ]
+            },
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 200000
+                },
+                {
+                  "key": "202012",
+                  "value": 200000
+                },
+                {
+                  "key": "202101",
+                  "value": 200000
+                }
+              ]
+            }
+          ],
           "value_target": 200000,
           "implementation_detail": null
         },
@@ -124,78 +120,80 @@
           "name": "General Assistants",
           "metric_type": "count",
           "value": 128894,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 100000
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 120735
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 128894
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 25175
-              },
-              {
-                "province": "FS",
-                "value": 6989
-              },
-              {
-                "province": "GP",
-                "value": 15724
-              },
-              {
-                "province": "KZN",
-                "value": 30888
-              },
-              {
-                "province": "LP",
-                "value": 21408
-              },
-              {
-                "province": "MP",
-                "value": 10082
-              },
-              {
-                "province": "NW",
-                "value": 8659
-              },
-              {
-                "province": "NC",
-                "value": 4198
-              },
-              {
-                "province": "WC",
-                "value": 5771
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 25175
+                },
+                {
+                  "key": "FS",
+                  "value": 6989
+                },
+                {
+                  "key": "GP",
+                  "value": 15724
+                },
+                {
+                  "key": "KZN",
+                  "value": 30888
+                },
+                {
+                  "key": "LP",
+                  "value": 21408
+                },
+                {
+                  "key": "MP",
+                  "value": 10082
+                },
+                {
+                  "key": "NW",
+                  "value": 8659
+                },
+                {
+                  "key": "NC",
+                  "value": 4198
+                },
+                {
+                  "key": "WC",
+                  "value": 5771
+                }
+              ]
+            },
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 100000
+                },
+                {
+                  "key": "202012",
+                  "value": 120735
+                },
+                {
+                  "key": "202101",
+                  "value": 128894
+                }
+              ]
+            }
+          ],
           "value_target": 100000,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Jobs retained",
@@ -205,96 +203,80 @@
           "name": "Job retention at fee paying schools",
           "metric_type": "count",
           "value": 26779,
-          "time": {
-            "name": "Jobs saved over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 44933
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 21988
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 26779
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": {
-            "name": "Jobs saved by province",
-            "values": [
-              {
-                "province": "EC",
-                "value": [
-                  5118
-                ]
-              },
-              {
-                "province": "FS",
-                "value": [
-                  1313
-                ]
-              },
-              {
-                "province": "GP",
-                "value": [
-                  3884
-                ]
-              },
-              {
-                "province": "KZN",
-                "value": [
-                  2725
-                ]
-              },
-              {
-                "province": "LP",
-                "value": [
-                  1743
-                ]
-              },
-              {
-                "province": "MP",
-                "value": [
-                  1229
-                ]
-              },
-              {
-                "province": "NW",
-                "value": [
-                  919
-                ]
-              },
-              {
-                "province": "NC",
-                "value": [
-                  3821
-                ]
-              },
-              {
-                "province": "WC",
-                "value": [
-                  6027
-                ]
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Jobs saved over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 44933
+                },
+                {
+                  "key": "202012",
+                  "value": 21988
+                },
+                {
+                  "key": "202101",
+                  "value": 26779
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 5118
+                },
+                {
+                  "key": "FS",
+                  "value": 1313
+                },
+                {
+                  "key": "GP",
+                  "value": 3884
+                },
+                {
+                  "key": "KZN",
+                  "value": 2725
+                },
+                {
+                  "key": "LP",
+                  "value": 1743
+                },
+                {
+                  "key": "MP",
+                  "value": 1229
+                },
+                {
+                  "key": "NW",
+                  "value": 919
+                },
+                {
+                  "key": "NC",
+                  "value": 3821
+                },
+                {
+                  "key": "WC",
+                  "value": 6027
+                }
+              ]
+            }
+          ],
           "value_target": 44933,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []

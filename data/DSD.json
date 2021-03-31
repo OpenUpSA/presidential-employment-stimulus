@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 588728000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 1086,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 111142,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -49,14 +45,13 @@
           "name": "Registration support officers",
           "metric_type": "count",
           "value": 0,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 500,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Jobs retained",
@@ -66,98 +61,106 @@
           "name": "Retention of social workers",
           "metric_type": "count",
           "value": 1086,
-          "time": {
-            "name": "Jobs saved over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 749
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 793
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 1086
-              }
-            ]
-          },
-          "gender": {
-            "name": "Jobs saved by gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.13
-              },
-              {
-                "gender": "Female",
-                "value": 0.87
-              }
-            ]
-          },
-          "age": {
-            "name": "Jobs saved going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.61
-              }
-            ]
-          },
-          "province": {
-            "name": "Jobs saved by province",
-            "values": [
-              {
-                "province": "EC",
-                "value": 282
-              },
-              {
-                "province": "FS",
-                "value": 0
-              },
-              {
-                "province": "GP",
-                "value": 305
-              },
-              {
-                "province": "KZN",
-                "value": 235
-              },
-              {
-                "province": "LP",
-                "value": 99
-              },
-              {
-                "province": "MP",
-                "value": 116
-              },
-              {
-                "province": "NW",
-                "value": 43
-              },
-              {
-                "province": "NC",
-                "value": 6
-              },
-              {
-                "province": "WC",
-                "value": 0
-              }
-            ]
-          },
+          "dimensions": [
+            {
+              "name": "Jobs saved by gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": 1,
+                  "value": 0.13
+                },
+                {
+                  "key": 2,
+                  "value": 0.87
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.61
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 749
+                },
+                {
+                  "key": "202012",
+                  "value": 793
+                },
+                {
+                  "key": "202101",
+                  "value": 1086
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 282
+                },
+                {
+                  "key": "FS",
+                  "value": 0
+                },
+                {
+                  "key": "GP",
+                  "value": 305
+                },
+                {
+                  "key": "KZN",
+                  "value": 235
+                },
+                {
+                  "key": "LP",
+                  "value": 99
+                },
+                {
+                  "key": "MP",
+                  "value": 116
+                },
+                {
+                  "key": "NW",
+                  "value": 43
+                },
+                {
+                  "key": "NC",
+                  "value": 6
+                },
+                {
+                  "key": "WC",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": 74626,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -167,14 +170,13 @@
           "name": "ECD income and compliance support",
           "metric_type": "count",
           "value": 0,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 108833,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []

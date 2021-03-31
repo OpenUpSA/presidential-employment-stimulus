@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 1983000000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 18383,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 50311,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -49,34 +45,31 @@
           "name": "Cleaning and greening - war on waste with municipalities",
           "metric_type": "count",
           "value": 0,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 12690
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 0
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 12690
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": [
             12690
           ],
@@ -86,34 +79,31 @@
           "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
           "metric_type": "count",
           "value": 0,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 1750
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 0
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 1750
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": [
             1750
           ],
@@ -123,34 +113,31 @@
           "name": "Oceans and Coast: Source to Sea",
           "metric_type": "count",
           "value": 0,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 1719
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 0
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 1719
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": [
             1719
           ],
@@ -160,34 +147,31 @@
           "name": "Groen Sebenzas, weather service - graduate programme",
           "metric_type": "count",
           "value": 723,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 524
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 723
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 524
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 723
+                }
+              ]
+            }
+          ],
           "value_target": [
             524
           ],
@@ -197,34 +181,31 @@
           "name": "SANBI Infrastructure maintenance, biosecurity",
           "metric_type": "count",
           "value": 1194,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 1038
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 1194
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 1038
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 1194
+                }
+              ]
+            }
+          ],
           "value_target": [
             1038
           ],
@@ -234,34 +215,31 @@
           "name": "iSimangaliso: conservation management infrastructure",
           "metric_type": "count",
           "value": 608,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 1164
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 608
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 1164
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 608
+                }
+              ]
+            }
+          ],
           "value_target": [
             1164
           ],
@@ -271,34 +249,31 @@
           "name": "SANPARKS upgrade and green energy",
           "metric_type": "count",
           "value": 3522,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 4246
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 3522
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 4246
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 3522
+                }
+              ]
+            }
+          ],
           "value_target": [
             4246
           ],
@@ -308,34 +283,31 @@
           "name": "Catchment management and strategic water sources",
           "metric_type": "count",
           "value": 12336,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 15012
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 12336
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 15012
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 12336
+                }
+              ]
+            }
+          ],
           "value_target": [
             15012
           ],
@@ -345,34 +317,31 @@
           "name": "Bio-diversity economy",
           "metric_type": "count",
           "value": 0,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 7524
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 0
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 7524
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": [
             7524
           ],
@@ -382,40 +351,39 @@
           "name": "Climate Adaptation: Forestry support",
           "metric_type": "count",
           "value": 0,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 4644
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 0
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 0
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 4644
+                },
+                {
+                  "key": "202012",
+                  "value": 0
+                },
+                {
+                  "key": "202101",
+                  "value": 0
+                }
+              ]
+            }
+          ],
           "value_target": [
             4644
           ],
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []
