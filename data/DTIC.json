@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 120000000,
           "implementation_detail": null
         },
@@ -32,14 +29,13 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 4036,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 8000,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Job opportunities",
@@ -48,95 +44,120 @@
         {
           "name": "Global Business Services Sector",
           "metric_type": "count",
-          "value": 7572,
-          "time": {
-            "name": "Employed over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 1178
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 2726
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 4036
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 4036
-              }
-            ]
-          },
-          "gender": {
-            "name": "Opportunities by Gender",
-            "values": [
-              {
-                "gender": "Male",
-                "value": 0.36
-              },
-              {
-                "gender": "Female",
-                "value": 0.64
-              }
-            ]
-          },
-          "age": {
-            "name": "Opportunities going to 18-35 year olds",
-            "values": [
-              {
-                "age_category": "18-35",
-                "value": 0.85
-              }
-            ]
-          },
-          "province": {
-            "name": "Opportunities by Province",
-            "values": [
-              {
-                "province": "FS",
-                "value": 0
-              },
-              {
-                "province": "GP",
-                "value": 436
-              },
-              {
-                "province": "KZN",
-                "value": 3583
-              },
-              {
-                "province": "LP",
-                "value": 0
-              },
-              {
-                "province": "MP",
-                "value": 0
-              },
-              {
-                "province": "NW",
-                "value": 0
-              },
-              {
-                "province": "NC",
-                "value": 0
-              },
-              {
-                "province": "WC",
-                "value": 3553
-              }
-            ]
-          },
+          "value": [
+            "Trade, Industry and Competition",
+            "Global Business Services Sector",
+            1178,
+            2726,
+            4036,
+            4036,
+            0,
+            0,
+            0,
+            0,
+            1178,
+            2726,
+            4036,
+            4036,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 1178
+                },
+                {
+                  "key": "202011",
+                  "value": 2726
+                },
+                {
+                  "key": "202012",
+                  "value": 4036
+                },
+                {
+                  "key": "202101",
+                  "value": 4036
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.34
+                },
+                {
+                  "key": "Female",
+                  "value": 0.66
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.85
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "FS",
+                  "value": 0
+                },
+                {
+                  "key": "GP",
+                  "value": 366
+                },
+                {
+                  "key": "KZN",
+                  "value": 1919
+                },
+                {
+                  "key": "LP",
+                  "value": 0
+                },
+                {
+                  "key": "MP",
+                  "value": 0
+                },
+                {
+                  "key": "NW",
+                  "value": 0
+                },
+                {
+                  "key": "NC",
+                  "value": 0
+                },
+                {
+                  "key": "WC",
+                  "value": 1749
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": []

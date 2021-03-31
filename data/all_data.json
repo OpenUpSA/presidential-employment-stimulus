@@ -13,10 +13,7 @@
             "name": "Social Development",
             "metric_type": "count",
             "value": 0,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 108833,
             "implementation_detail": null
           },
@@ -24,10 +21,7 @@
             "name": "Sports, Arts and Culture",
             "metric_type": "count",
             "value": 8573,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 15714,
             "implementation_detail": null
           },
@@ -35,17 +29,14 @@
             "name": "Agriculture, Land Reform and Rural Development",
             "metric_type": "count",
             "value": 93984,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 74626,
             "implementation_detail": null
           }
         ],
-        "metric_type": "count",
         "value": 102557,
-        "value_target": 199173
+        "value_target": 199173,
+        "metric_type": "count"
       },
       {
         "name": "Job opportunities",
@@ -55,10 +46,7 @@
             "name": "Trade, Industry and Competition",
             "metric_type": "count",
             "value": 4036,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 8000,
             "implementation_detail": null
           },
@@ -66,10 +54,7 @@
             "name": "Basic Education",
             "metric_type": "count",
             "value": 328894,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 300000,
             "implementation_detail": null
           },
@@ -77,10 +62,7 @@
             "name": "Social Development",
             "metric_type": "count",
             "value": 0,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 500,
             "implementation_detail": null
           },
@@ -88,10 +70,7 @@
             "name": "Science and Innovation",
             "metric_type": "count",
             "value": 8,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 1900,
             "implementation_detail": null
           },
@@ -99,10 +78,7 @@
             "name": "Sports, Arts and Culture",
             "metric_type": "count",
             "value": 1572,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 4356,
             "implementation_detail": null
           },
@@ -110,10 +86,7 @@
             "name": "Transport",
             "metric_type": "count",
             "value": 3617,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 37079,
             "implementation_detail": null
           },
@@ -121,10 +94,7 @@
             "name": "Environment, Forestry and Fisheries",
             "metric_type": "count",
             "value": 18383,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 50311,
             "implementation_detail": null
           },
@@ -132,10 +102,7 @@
             "name": "Co-operative government",
             "metric_type": "count",
             "value": 0,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 25000,
             "implementation_detail": null
           },
@@ -143,10 +110,7 @@
             "name": "Health",
             "metric_type": "count",
             "value": 2119,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 5531,
             "implementation_detail": null
           },
@@ -154,17 +118,14 @@
             "name": "Public Works and Infrastructure",
             "metric_type": "count",
             "value": 1841,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 1560,
             "implementation_detail": null
           }
         ],
-        "metric_type": "count",
         "value": 360470,
-        "value_target": 434237
+        "value_target": 434237,
+        "metric_type": "count"
       },
       {
         "name": "Jobs retained",
@@ -174,10 +135,7 @@
             "name": "Basic Education",
             "metric_type": "count",
             "value": 26779,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 44933,
             "implementation_detail": null
           },
@@ -185,10 +143,7 @@
             "name": "Social Development",
             "metric_type": "count",
             "value": 1086,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 1809,
             "implementation_detail": null
           },
@@ -196,17 +151,14 @@
             "name": "Sports, Arts and Culture",
             "metric_type": "count",
             "value": 2475,
-            "time": null,
-            "gender": null,
-            "age": null,
-            "province": null,
+            "dimensions": [],
             "value_target": 14000,
             "implementation_detail": null
           }
         ],
-        "metric_type": "count",
         "value": 30340,
-        "value_target": 60742
+        "value_target": 60742,
+        "metric_type": "count"
       }
     ]
   },
@@ -234,10 +186,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 120000000,
               "implementation_detail": null
             },
@@ -245,14 +194,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 4036,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 8000,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -261,91 +209,114 @@
             {
               "name": "Global Business Services Sector",
               "metric_type": "count",
-              "value": 7572,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 1178
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 2726
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 4036
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 4036
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.36
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.64
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.85
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 436
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 3583
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 3553
-                  }
-                ]
-              },
+              "value": [
+                "Trade, Industry and Competition",
+                "Global Business Services Sector",
+                1178,
+                2726,
+                4036,
+                4036,
+                0,
+                0,
+                0,
+                0,
+                1178,
+                2726,
+                4036,
+                4036,
+                0.0,
+                0.0
+              ],
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 1178
+                    },
+                    {
+                      "key": "202011",
+                      "value": 2726
+                    },
+                    {
+                      "key": "202012",
+                      "value": 4036
+                    },
+                    {
+                      "key": "202101",
+                      "value": 4036
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.34
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.66
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.85
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 366
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 1919
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 1749
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": {
                 "programme_name": "Global Business Services Sector",
@@ -353,7 +324,9 @@
                 "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -381,10 +354,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 7000000000,
               "implementation_detail": null
             },
@@ -392,14 +362,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 355673,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 344933,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -409,74 +378,74 @@
               "name": "Education Assistants",
               "metric_type": "count",
               "value": 200000,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 200000
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 200000
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 200000
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 30628
-                  },
-                  {
-                    "province": "FS",
-                    "value": 11021
-                  },
-                  {
-                    "province": "GP",
-                    "value": 28875
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 42591
-                  },
-                  {
-                    "province": "LP",
-                    "value": 30708
-                  },
-                  {
-                    "province": "MP",
-                    "value": 16027
-                  },
-                  {
-                    "province": "NW",
-                    "value": 12983
-                  },
-                  {
-                    "province": "NC",
-                    "value": 3138
-                  },
-                  {
-                    "province": "WC",
-                    "value": 8245
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 30628
+                    },
+                    {
+                      "key": "FS",
+                      "value": 11021
+                    },
+                    {
+                      "key": "GP",
+                      "value": 28875
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 42591
+                    },
+                    {
+                      "key": "LP",
+                      "value": 30708
+                    },
+                    {
+                      "key": "MP",
+                      "value": 16027
+                    },
+                    {
+                      "key": "NW",
+                      "value": 12983
+                    },
+                    {
+                      "key": "NC",
+                      "value": 3138
+                    },
+                    {
+                      "key": "WC",
+                      "value": 8245
+                    }
+                  ]
+                },
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 200000
+                    },
+                    {
+                      "key": "202012",
+                      "value": 200000
+                    },
+                    {
+                      "key": "202101",
+                      "value": 200000
+                    }
+                  ]
+                }
+              ],
               "value_target": 200000,
               "implementation_detail": {
                 "programme_name": "Education Assistants",
@@ -488,74 +457,74 @@
               "name": "General Assistants",
               "metric_type": "count",
               "value": 128894,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 100000
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 120735
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 128894
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 25175
-                  },
-                  {
-                    "province": "FS",
-                    "value": 6989
-                  },
-                  {
-                    "province": "GP",
-                    "value": 15724
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 30888
-                  },
-                  {
-                    "province": "LP",
-                    "value": 21408
-                  },
-                  {
-                    "province": "MP",
-                    "value": 10082
-                  },
-                  {
-                    "province": "NW",
-                    "value": 8659
-                  },
-                  {
-                    "province": "NC",
-                    "value": 4198
-                  },
-                  {
-                    "province": "WC",
-                    "value": 5771
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 25175
+                    },
+                    {
+                      "key": "FS",
+                      "value": 6989
+                    },
+                    {
+                      "key": "GP",
+                      "value": 15724
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 30888
+                    },
+                    {
+                      "key": "LP",
+                      "value": 21408
+                    },
+                    {
+                      "key": "MP",
+                      "value": 10082
+                    },
+                    {
+                      "key": "NW",
+                      "value": 8659
+                    },
+                    {
+                      "key": "NC",
+                      "value": 4198
+                    },
+                    {
+                      "key": "WC",
+                      "value": 5771
+                    }
+                  ]
+                },
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 100000
+                    },
+                    {
+                      "key": "202012",
+                      "value": 120735
+                    },
+                    {
+                      "key": "202101",
+                      "value": 128894
+                    }
+                  ]
+                }
+              ],
               "value_target": 100000,
               "implementation_detail": {
                 "programme_name": "General Assistants",
@@ -563,7 +532,9 @@
                 "detail": "Appointments have been finalised in most of the provinces and 94% of the assistants have been placed. "
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Jobs retained",
@@ -573,92 +544,74 @@
               "name": "Job retention at fee paying schools",
               "metric_type": "count",
               "value": 26779,
-              "time": {
-                "name": "Jobs saved over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 44933
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 21988
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 26779
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Jobs saved by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": [
-                      5118
-                    ]
-                  },
-                  {
-                    "province": "FS",
-                    "value": [
-                      1313
-                    ]
-                  },
-                  {
-                    "province": "GP",
-                    "value": [
-                      3884
-                    ]
-                  },
-                  {
-                    "province": "KZN",
-                    "value": [
-                      2725
-                    ]
-                  },
-                  {
-                    "province": "LP",
-                    "value": [
-                      1743
-                    ]
-                  },
-                  {
-                    "province": "MP",
-                    "value": [
-                      1229
-                    ]
-                  },
-                  {
-                    "province": "NW",
-                    "value": [
-                      919
-                    ]
-                  },
-                  {
-                    "province": "NC",
-                    "value": [
-                      3821
-                    ]
-                  },
-                  {
-                    "province": "WC",
-                    "value": [
-                      6027
-                    ]
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Jobs saved over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 44933
+                    },
+                    {
+                      "key": "202012",
+                      "value": 21988
+                    },
+                    {
+                      "key": "202101",
+                      "value": 26779
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 5118
+                    },
+                    {
+                      "key": "FS",
+                      "value": 1313
+                    },
+                    {
+                      "key": "GP",
+                      "value": 3884
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 2725
+                    },
+                    {
+                      "key": "LP",
+                      "value": 1743
+                    },
+                    {
+                      "key": "MP",
+                      "value": 1229
+                    },
+                    {
+                      "key": "NW",
+                      "value": 919
+                    },
+                    {
+                      "key": "NC",
+                      "value": 3821
+                    },
+                    {
+                      "key": "WC",
+                      "value": 6027
+                    }
+                  ]
+                }
+              ],
               "value_target": 44933,
               "implementation_detail": {
                 "programme_name": "Job retention at fee paying schools",
@@ -666,7 +619,9 @@
                 "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -694,10 +649,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 588728000,
               "implementation_detail": null
             },
@@ -705,14 +657,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 1086,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 111142,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -722,10 +673,7 @@
               "name": "Registration support officers",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 500,
               "implementation_detail": {
                 "programme_name": "Registration support officers",
@@ -733,7 +681,9 @@
                 "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented"
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Jobs retained",
@@ -743,94 +693,100 @@
               "name": "Retention of social workers",
               "metric_type": "count",
               "value": 1086,
-              "time": {
-                "name": "Jobs saved over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 749
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 793
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 1086
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Jobs saved by gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.13
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.87
-                  }
-                ]
-              },
-              "age": {
-                "name": "Jobs saved going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.61
-                  }
-                ]
-              },
-              "province": {
-                "name": "Jobs saved by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 282
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 305
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 235
-                  },
-                  {
-                    "province": "LP",
-                    "value": 99
-                  },
-                  {
-                    "province": "MP",
-                    "value": 116
-                  },
-                  {
-                    "province": "NW",
-                    "value": 43
-                  },
-                  {
-                    "province": "NC",
-                    "value": 6
-                  },
-                  {
-                    "province": "WC",
-                    "value": 0
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Jobs saved by gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": 1,
+                      "value": 0.13
+                    },
+                    {
+                      "key": 2,
+                      "value": 0.87
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.61
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 749
+                    },
+                    {
+                      "key": "202012",
+                      "value": 793
+                    },
+                    {
+                      "key": "202101",
+                      "value": 1086
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 282
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 305
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 235
+                    },
+                    {
+                      "key": "LP",
+                      "value": 99
+                    },
+                    {
+                      "key": "MP",
+                      "value": 116
+                    },
+                    {
+                      "key": "NW",
+                      "value": 43
+                    },
+                    {
+                      "key": "NC",
+                      "value": 6
+                    },
+                    {
+                      "key": "WC",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": 74626,
               "implementation_detail": {
                 "programme_name": "Retention of social workers",
@@ -838,7 +794,9 @@
                 "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -848,10 +806,7 @@
               "name": "ECD income and compliance support",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 108833,
               "implementation_detail": {
                 "programme_name": "ECD income and compliance support",
@@ -859,7 +814,9 @@
                 "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -887,10 +844,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 393571000,
               "implementation_detail": null
             },
@@ -898,14 +852,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 2119,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 5531,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -915,74 +868,74 @@
               "name": "Enrolled nurses",
               "metric_type": "count",
               "value": 2119,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 547
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 1044
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 1629
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 2119
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 400
-                  },
-                  {
-                    "province": "FS",
-                    "value": 11
-                  },
-                  {
-                    "province": "GP",
-                    "value": 425
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 690
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 245
-                  },
-                  {
-                    "province": "NW",
-                    "value": 141
-                  },
-                  {
-                    "province": "NC",
-                    "value": 3
-                  },
-                  {
-                    "province": "WC",
-                    "value": 204
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 400
+                    },
+                    {
+                      "key": "FS",
+                      "value": 11
+                    },
+                    {
+                      "key": "GP",
+                      "value": 425
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 690
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 245
+                    },
+                    {
+                      "key": "NW",
+                      "value": 141
+                    },
+                    {
+                      "key": "NC",
+                      "value": 3
+                    },
+                    {
+                      "key": "WC",
+                      "value": 204
+                    }
+                  ]
+                },
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 547
+                    },
+                    {
+                      "key": "202011",
+                      "value": 1044
+                    },
+                    {
+                      "key": "202012",
+                      "value": 1629
+                    },
+                    {
+                      "key": "202101",
+                      "value": 2119
+                    }
+                  ]
+                }
+              ],
               "value_target": 1045,
               "implementation_detail": {
                 "programme_name": "Enrolled nurses",
@@ -994,92 +947,74 @@
               "name": "Auxiliary nurses",
               "metric_type": "count",
               "value": 1848,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 257
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 706
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 1304
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 1848
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": [
-                      296
-                    ]
-                  },
-                  {
-                    "province": "FS",
-                    "value": [
-                      4
-                    ]
-                  },
-                  {
-                    "province": "GP",
-                    "value": [
-                      380
-                    ]
-                  },
-                  {
-                    "province": "KZN",
-                    "value": [
-                      690
-                    ]
-                  },
-                  {
-                    "province": "LP",
-                    "value": [
-                      0
-                    ]
-                  },
-                  {
-                    "province": "MP",
-                    "value": [
-                      2
-                    ]
-                  },
-                  {
-                    "province": "NW",
-                    "value": [
-                      167
-                    ]
-                  },
-                  {
-                    "province": "NC",
-                    "value": [
-                      9
-                    ]
-                  },
-                  {
-                    "province": "WC",
-                    "value": [
-                      300
-                    ]
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 296
+                    },
+                    {
+                      "key": "FS",
+                      "value": 4
+                    },
+                    {
+                      "key": "GP",
+                      "value": 380
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 690
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 2
+                    },
+                    {
+                      "key": "NW",
+                      "value": 167
+                    },
+                    {
+                      "key": "NC",
+                      "value": 9
+                    },
+                    {
+                      "key": "WC",
+                      "value": 300
+                    }
+                  ]
+                },
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 257
+                    },
+                    {
+                      "key": "202011",
+                      "value": 706
+                    },
+                    {
+                      "key": "202012",
+                      "value": 1304
+                    },
+                    {
+                      "key": "202101",
+                      "value": 1848
+                    }
+                  ]
+                }
+              ],
               "value_target": 1236,
               "implementation_detail": {
                 "programme_name": "Auxiliary nurses",
@@ -1091,10 +1026,7 @@
               "name": "Community Health Workers",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 2000,
               "implementation_detail": {
                 "programme_name": "Community Health Workers",
@@ -1106,10 +1038,7 @@
               "name": "Outreach Team Leaders",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1250,
               "implementation_detail": {
                 "programme_name": "Outreach Team Leaders",
@@ -1117,7 +1046,9 @@
                 "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -1145,10 +1076,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1000000000,
               "implementation_detail": null
             },
@@ -1156,14 +1084,99 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 93984,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 74626,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
+        },
+        {
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "Graduate Employment",
+              "metric_type": "count",
+              "value": 1464,
+              "dimensions": [
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 232
+                    },
+                    {
+                      "key": "FS",
+                      "value": 86
+                    },
+                    {
+                      "key": "GP",
+                      "value": 160
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 297
+                    },
+                    {
+                      "key": "LP",
+                      "value": 262
+                    },
+                    {
+                      "key": "MP",
+                      "value": 156
+                    },
+                    {
+                      "key": "NW",
+                      "value": 151
+                    },
+                    {
+                      "key": "NC",
+                      "value": 65
+                    },
+                    {
+                      "key": "WC",
+                      "value": 55
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.36
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.64
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.89
+                    }
+                  ]
+                }
+              ],
+              "value_target": -1,
+              "implementation_detail": null
+            }
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Livelihoods",
@@ -1173,34 +1186,74 @@
               "name": "Vegetables and Fruits",
               "metric_type": "count",
               "value": 38663,
-              "time": {
-                "name": "Livelihoods supported over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 30699
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 38663
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 4935
+                    },
+                    {
+                      "key": "FS",
+                      "value": 1583
+                    },
+                    {
+                      "key": "GP",
+                      "value": 3729
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 12995
+                    },
+                    {
+                      "key": "LP",
+                      "value": 5379
+                    },
+                    {
+                      "key": "MP",
+                      "value": 6006
+                    },
+                    {
+                      "key": "NW",
+                      "value": 2228
+                    },
+                    {
+                      "key": "NC",
+                      "value": 891
+                    },
+                    {
+                      "key": "WC",
+                      "value": 917
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 30699
+                    },
+                    {
+                      "key": "202101",
+                      "value": 38663
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -1208,34 +1261,74 @@
               "name": "Maize/soya/sugar/other production",
               "metric_type": "count",
               "value": 11128,
-              "time": {
-                "name": "Livelihoods supported over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 8835
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 11128
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 1472
+                    },
+                    {
+                      "key": "FS",
+                      "value": 268
+                    },
+                    {
+                      "key": "GP",
+                      "value": 637
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 3937
+                    },
+                    {
+                      "key": "LP",
+                      "value": 1735
+                    },
+                    {
+                      "key": "MP",
+                      "value": 2358
+                    },
+                    {
+                      "key": "NW",
+                      "value": 471
+                    },
+                    {
+                      "key": "NC",
+                      "value": 163
+                    },
+                    {
+                      "key": "WC",
+                      "value": 87
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 8835
+                    },
+                    {
+                      "key": "202101",
+                      "value": 11128
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -1243,34 +1336,74 @@
               "name": "Poultry: Layers and Boilers",
               "metric_type": "count",
               "value": 25453,
-              "time": {
-                "name": "Livelihoods supported over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 20210
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 25453
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 4574
+                    },
+                    {
+                      "key": "FS",
+                      "value": 949
+                    },
+                    {
+                      "key": "GP",
+                      "value": 1886
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 7824
+                    },
+                    {
+                      "key": "LP",
+                      "value": 4215
+                    },
+                    {
+                      "key": "MP",
+                      "value": 3177
+                    },
+                    {
+                      "key": "NW",
+                      "value": 2115
+                    },
+                    {
+                      "key": "NC",
+                      "value": 433
+                    },
+                    {
+                      "key": "WC",
+                      "value": 280
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 20210
+                    },
+                    {
+                      "key": "202101",
+                      "value": 25453
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -1278,34 +1411,74 @@
               "name": "Small livestock",
               "metric_type": "count",
               "value": 12309,
-              "time": {
-                "name": "Livelihoods supported over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 9773
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 12309
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 2126
+                    },
+                    {
+                      "key": "FS",
+                      "value": 674
+                    },
+                    {
+                      "key": "GP",
+                      "value": 546
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 2636
+                    },
+                    {
+                      "key": "LP",
+                      "value": 1444
+                    },
+                    {
+                      "key": "MP",
+                      "value": 1200
+                    },
+                    {
+                      "key": "NW",
+                      "value": 2312
+                    },
+                    {
+                      "key": "NC",
+                      "value": 913
+                    },
+                    {
+                      "key": "WC",
+                      "value": 458
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 9773
+                    },
+                    {
+                      "key": "202101",
+                      "value": 12309
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -1313,38 +1486,80 @@
               "name": "Large livestock",
               "metric_type": "count",
               "value": 6431,
-              "time": {
-                "name": "Livelihoods supported over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 5106
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 6431
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 868
+                    },
+                    {
+                      "key": "FS",
+                      "value": 467
+                    },
+                    {
+                      "key": "GP",
+                      "value": 383
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 1522
+                    },
+                    {
+                      "key": "LP",
+                      "value": 706
+                    },
+                    {
+                      "key": "MP",
+                      "value": 820
+                    },
+                    {
+                      "key": "NW",
+                      "value": 1029
+                    },
+                    {
+                      "key": "NC",
+                      "value": 452
+                    },
+                    {
+                      "key": "WC",
+                      "value": 184
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 5106
+                    },
+                    {
+                      "key": "202101",
+                      "value": 6431
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": [
@@ -1378,10 +1593,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 45000000,
               "implementation_detail": null
             },
@@ -1389,14 +1601,13 @@
               "name": "Overall jobs created",
               "metric_type": "count",
               "value": 8,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1900,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Subsistence producer relief fund",
@@ -1406,10 +1617,7 @@
               "name": "HSRC - Health Promotion Agents",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1000,
               "implementation_detail": {
                 "programme_name": "HSRC - Health Promotion Agents",
@@ -1421,10 +1629,7 @@
               "name": "CSIR - Enviro-champs",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 350,
               "implementation_detail": {
                 "programme_name": "CSIR - Enviro-champs",
@@ -1436,34 +1641,31 @@
               "name": "CSIR - Experiential Training Programme",
               "metric_type": "count",
               "value": 8,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 8
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 8
+                    }
+                  ]
+                }
+              ],
               "value_target": 150,
               "implementation_detail": {
                 "programme_name": "CSIR - Experiential Training Programme",
@@ -1475,10 +1677,7 @@
               "name": "WRC - Water Graduate Employment Programme",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 400,
               "implementation_detail": {
                 "programme_name": "WRC - Water Graduate Employment Programme",
@@ -1486,7 +1685,9 @@
                 "detail": "There were delays in the planning phase however, recruitment is underway."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -1514,10 +1715,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 525000000,
               "implementation_detail": null
             },
@@ -1525,14 +1723,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 12620,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 34070,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -1542,10 +1739,7 @@
               "name": "Covid-19 Return-To-Play - National Sport Federations",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1470,
               "implementation_detail": {
                 "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
@@ -1557,94 +1751,100 @@
               "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
               "metric_type": "count",
               "value": 156,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 138
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 156
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.7
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.3
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 0.58
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 16
-                  },
-                  {
-                    "province": "FS",
-                    "value": 37
-                  },
-                  {
-                    "province": "GP",
-                    "value": 26
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 8
-                  },
-                  {
-                    "province": "LP",
-                    "value": 20
-                  },
-                  {
-                    "province": "MP",
-                    "value": 4
-                  },
-                  {
-                    "province": "NW",
-                    "value": 11
-                  },
-                  {
-                    "province": "NC",
-                    "value": 12
-                  },
-                  {
-                    "province": "WC",
-                    "value": 22
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 138
+                    },
+                    {
+                      "key": "202101",
+                      "value": 156
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.7
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.3
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.58
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 16
+                    },
+                    {
+                      "key": "FS",
+                      "value": 37
+                    },
+                    {
+                      "key": "GP",
+                      "value": 26
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 8
+                    },
+                    {
+                      "key": "LP",
+                      "value": 20
+                    },
+                    {
+                      "key": "MP",
+                      "value": 4
+                    },
+                    {
+                      "key": "NW",
+                      "value": 11
+                    },
+                    {
+                      "key": "NC",
+                      "value": 12
+                    },
+                    {
+                      "key": "WC",
+                      "value": 22
+                    }
+                  ]
+                }
+              ],
               "value_target": 900,
               "implementation_detail": {
                 "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
@@ -1656,10 +1856,7 @@
               "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 500,
               "implementation_detail": {
                 "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
@@ -1671,74 +1868,74 @@
               "name": "Public Art, towards a people's culture - Community Arts Centres",
               "metric_type": "count",
               "value": 880,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 880
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 880
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 880
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 100
-                  },
-                  {
-                    "province": "FS",
-                    "value": 100
-                  },
-                  {
-                    "province": "GP",
-                    "value": 80
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 100
-                  },
-                  {
-                    "province": "LP",
-                    "value": 100
-                  },
-                  {
-                    "province": "MP",
-                    "value": 100
-                  },
-                  {
-                    "province": "NW",
-                    "value": 100
-                  },
-                  {
-                    "province": "NC",
-                    "value": 100
-                  },
-                  {
-                    "province": "WC",
-                    "value": 100
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 880
+                    },
+                    {
+                      "key": "202012",
+                      "value": 880
+                    },
+                    {
+                      "key": "202101",
+                      "value": 880
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 100
+                    },
+                    {
+                      "key": "FS",
+                      "value": 100
+                    },
+                    {
+                      "key": "GP",
+                      "value": 80
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 100
+                    },
+                    {
+                      "key": "LP",
+                      "value": 100
+                    },
+                    {
+                      "key": "MP",
+                      "value": 100
+                    },
+                    {
+                      "key": "NW",
+                      "value": 100
+                    },
+                    {
+                      "key": "NC",
+                      "value": 100
+                    },
+                    {
+                      "key": "WC",
+                      "value": 100
+                    }
+                  ]
+                }
+              ],
               "value_target": 900,
               "implementation_detail": {
                 "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
@@ -1750,94 +1947,100 @@
               "name": "Audit of national museums - South African Heritage Resources Agency",
               "metric_type": "count",
               "value": 251,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 4
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 251
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.39
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.61
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 1.0
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 27
-                  },
-                  {
-                    "province": "FS",
-                    "value": 20
-                  },
-                  {
-                    "province": "GP",
-                    "value": 24
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 27
-                  },
-                  {
-                    "province": "LP",
-                    "value": 22
-                  },
-                  {
-                    "province": "MP",
-                    "value": 27
-                  },
-                  {
-                    "province": "NW",
-                    "value": 28
-                  },
-                  {
-                    "province": "NC",
-                    "value": 24
-                  },
-                  {
-                    "province": "WC",
-                    "value": 52
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 4
+                    },
+                    {
+                      "key": "202101",
+                      "value": 251
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.39
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.61
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 27
+                    },
+                    {
+                      "key": "FS",
+                      "value": 20
+                    },
+                    {
+                      "key": "GP",
+                      "value": 24
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 27
+                    },
+                    {
+                      "key": "LP",
+                      "value": 22
+                    },
+                    {
+                      "key": "MP",
+                      "value": 27
+                    },
+                    {
+                      "key": "NW",
+                      "value": 28
+                    },
+                    {
+                      "key": "NC",
+                      "value": 24
+                    },
+                    {
+                      "key": "WC",
+                      "value": 52
+                    }
+                  ]
+                }
+              ],
               "value_target": 260,
               "implementation_detail": {
                 "programme_name": "Audit of national museums - South African Heritage Resources Agency",
@@ -1849,94 +2052,100 @@
               "name": "Digitisation of records - National Library of South Africa",
               "metric_type": "count",
               "value": 139,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 139
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.3472
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.6527
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 0.972
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 0
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 67
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 72
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 139
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.3472
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.6527
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.972
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 0
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 67
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 72
+                    }
+                  ]
+                }
+              ],
               "value_target": 163,
               "implementation_detail": {
                 "programme_name": "Digitisation of records - National Library of South Africa",
@@ -1948,94 +2157,100 @@
               "name": "Digitisation of records -National Archives",
               "metric_type": "count",
               "value": 146,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 146
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.33
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.67
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 1.0
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 0
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 146
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 0
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 146
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.33
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.67
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 0
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 146
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": 163,
               "implementation_detail": {
                 "programme_name": "Digitisation of records -National Archives",
@@ -2043,7 +2258,9 @@
                 "detail": "Participants have commenced work and digitisation of records is underway."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Jobs retained",
@@ -2053,94 +2270,100 @@
               "name": "Job retention in cultural and creative institutions - National Arts Council",
               "metric_type": "count",
               "value": 2475,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 2475
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Jobs saved by gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.565
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.435
-                  }
-                ]
-              },
-              "age": {
-                "name": "Jobs saved going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 0.44
-                  }
-                ]
-              },
-              "province": {
-                "name": "Jobs saved by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 119
-                  },
-                  {
-                    "province": "FS",
-                    "value": 202
-                  },
-                  {
-                    "province": "GP",
-                    "value": 769
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 278
-                  },
-                  {
-                    "province": "LP",
-                    "value": 107
-                  },
-                  {
-                    "province": "MP",
-                    "value": 74
-                  },
-                  {
-                    "province": "NW",
-                    "value": 103
-                  },
-                  {
-                    "province": "NC",
-                    "value": 45
-                  },
-                  {
-                    "province": "WC",
-                    "value": 778
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 2475
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved by gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.565
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.435
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved by province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.44
+                    }
+                  ]
+                },
+                {
+                  "name": "Jobs saved by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 119
+                    },
+                    {
+                      "key": "FS",
+                      "value": 202
+                    },
+                    {
+                      "key": "GP",
+                      "value": 769
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 278
+                    },
+                    {
+                      "key": "LP",
+                      "value": 107
+                    },
+                    {
+                      "key": "MP",
+                      "value": 74
+                    },
+                    {
+                      "key": "NW",
+                      "value": 103
+                    },
+                    {
+                      "key": "NC",
+                      "value": 45
+                    },
+                    {
+                      "key": "WC",
+                      "value": 778
+                    }
+                  ]
+                }
+              ],
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
@@ -2152,10 +2375,7 @@
               "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
@@ -2167,10 +2387,7 @@
               "name": "Job retention in sport sector - Sport Trust",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 4000,
               "implementation_detail": {
                 "programme_name": "Job retention in sport sector - Sport Trust",
@@ -2178,7 +2395,9 @@
                 "detail": "The programme was oversubscribed and will likely exceed its target."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Livelihoods",
@@ -2188,94 +2407,100 @@
               "name": "Support to art and culture practitioners - National Arts Council",
               "metric_type": "count",
               "value": 8573,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 8573
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Livelihoods supported by gender",
-                "values": [
-                  {
-                    "gender": "Percentage (%) male",
-                    "value": 0.66
-                  },
-                  {
-                    "gender": "Percentage (%) female",
-                    "value": 0.34
-                  }
-                ]
-              },
-              "age": {
-                "name": "Livelihoods supported going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "Percentage (%) aged 18 - 35 years old",
-                    "value": 0.445
-                  }
-                ]
-              },
-              "province": {
-                "name": "Livelihoods supported by province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 1142
-                  },
-                  {
-                    "province": "FS",
-                    "value": 672
-                  },
-                  {
-                    "province": "GP",
-                    "value": 2585
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 603
-                  },
-                  {
-                    "province": "LP",
-                    "value": 1049
-                  },
-                  {
-                    "province": "MP",
-                    "value": 308
-                  },
-                  {
-                    "province": "NW",
-                    "value": 817
-                  },
-                  {
-                    "province": "NC",
-                    "value": 517
-                  },
-                  {
-                    "province": "WC",
-                    "value": 880
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 8573
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported by gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Percentage (%) male",
+                      "value": 0.66
+                    },
+                    {
+                      "key": "Percentage (%) female",
+                      "value": 0.34
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.445
+                    }
+                  ]
+                },
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 1142
+                    },
+                    {
+                      "key": "FS",
+                      "value": 672
+                    },
+                    {
+                      "key": "GP",
+                      "value": 2585
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 603
+                    },
+                    {
+                      "key": "LP",
+                      "value": 1049
+                    },
+                    {
+                      "key": "MP",
+                      "value": 308
+                    },
+                    {
+                      "key": "NW",
+                      "value": 817
+                    },
+                    {
+                      "key": "NC",
+                      "value": 517
+                    },
+                    {
+                      "key": "WC",
+                      "value": 880
+                    }
+                  ]
+                }
+              ],
               "value_target": 7857,
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Arts Council",
@@ -2287,10 +2512,7 @@
               "name": "Support to art and culture practitioners - National Film and Video Foundation",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 7857,
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
@@ -2298,7 +2520,9 @@
                 "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -2326,10 +2550,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 630000000,
               "implementation_detail": null
             },
@@ -2337,14 +2558,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 3617,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 37079,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -2354,74 +2574,74 @@
               "name": "Rural roads maintenance",
               "metric_type": "count",
               "value": 3617,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 3617
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 31
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 0
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 160
-                  },
-                  {
-                    "province": "NW",
-                    "value": 2947
-                  },
-                  {
-                    "province": "NC",
-                    "value": 403
-                  },
-                  {
-                    "province": "WC",
-                    "value": 76
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 0
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 3617
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 31
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 0
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 160
+                    },
+                    {
+                      "key": "NW",
+                      "value": 2947
+                    },
+                    {
+                      "key": "NC",
+                      "value": 403
+                    },
+                    {
+                      "key": "WC",
+                      "value": 76
+                    }
+                  ]
+                }
+              ],
               "value_target": 37079,
               "implementation_detail": {
                 "programme_name": "Rural roads maintenance",
@@ -2429,7 +2649,9 @@
                 "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -2457,10 +2679,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 630000000,
               "implementation_detail": null
             },
@@ -2468,14 +2687,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 1841,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 37079,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -2485,94 +2703,100 @@
               "name": "Water and Energy Efficiency",
               "metric_type": "count",
               "value": 167,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 138
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 167
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 167
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.41
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.59
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 1.0
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 0
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 167
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 0
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 138
+                    },
+                    {
+                      "key": "202012",
+                      "value": 167
+                    },
+                    {
+                      "key": "202101",
+                      "value": 167
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.41
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.59
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 0
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 167
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -2580,94 +2804,100 @@
               "name": "Water and Sanitation Facilities Management",
               "metric_type": "count",
               "value": 157,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 129
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 182
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 157
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.43
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.57
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.9999
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 17
-                  },
-                  {
-                    "province": "FS",
-                    "value": 11
-                  },
-                  {
-                    "province": "GP",
-                    "value": 0
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 30
-                  },
-                  {
-                    "province": "MP",
-                    "value": 44
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 7
-                  },
-                  {
-                    "province": "WC",
-                    "value": 48
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 129
+                    },
+                    {
+                      "key": "202012",
+                      "value": 182
+                    },
+                    {
+                      "key": "202101",
+                      "value": 157
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.43
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.57
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.9999
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 17
+                    },
+                    {
+                      "key": "FS",
+                      "value": 11
+                    },
+                    {
+                      "key": "GP",
+                      "value": 0
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 30
+                    },
+                    {
+                      "key": "MP",
+                      "value": 44
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 7
+                    },
+                    {
+                      "key": "WC",
+                      "value": 48
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -2675,94 +2905,100 @@
               "name": "Welisizwe Rural Bridges Programme",
               "metric_type": "count",
               "value": 496,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 410
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 482
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 496
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.48
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.52
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.9999
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 159
-                  },
-                  {
-                    "province": "FS",
-                    "value": 100
-                  },
-                  {
-                    "province": "GP",
-                    "value": 44
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 46
-                  },
-                  {
-                    "province": "LP",
-                    "value": 95
-                  },
-                  {
-                    "province": "MP",
-                    "value": 16
-                  },
-                  {
-                    "province": "NW",
-                    "value": 18
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 18
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 410
+                    },
+                    {
+                      "key": "202012",
+                      "value": 482
+                    },
+                    {
+                      "key": "202101",
+                      "value": 496
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.48
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.52
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.9999
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 159
+                    },
+                    {
+                      "key": "FS",
+                      "value": 100
+                    },
+                    {
+                      "key": "GP",
+                      "value": 44
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 46
+                    },
+                    {
+                      "key": "LP",
+                      "value": 95
+                    },
+                    {
+                      "key": "MP",
+                      "value": 16
+                    },
+                    {
+                      "key": "NW",
+                      "value": 18
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 18
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -2770,94 +3006,100 @@
               "name": "Facilities Management",
               "metric_type": "count",
               "value": 349,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 288
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 336
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 349
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.55
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.45
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.9999
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 47
-                  },
-                  {
-                    "province": "FS",
-                    "value": 52
-                  },
-                  {
-                    "province": "GP",
-                    "value": 70
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 13
-                  },
-                  {
-                    "province": "LP",
-                    "value": 38
-                  },
-                  {
-                    "province": "MP",
-                    "value": 44
-                  },
-                  {
-                    "province": "NW",
-                    "value": 15
-                  },
-                  {
-                    "province": "NC",
-                    "value": 8
-                  },
-                  {
-                    "province": "WC",
-                    "value": 62
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 288
+                    },
+                    {
+                      "key": "202012",
+                      "value": 336
+                    },
+                    {
+                      "key": "202101",
+                      "value": 349
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.55
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.45
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.9999
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 47
+                    },
+                    {
+                      "key": "FS",
+                      "value": 52
+                    },
+                    {
+                      "key": "GP",
+                      "value": 70
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 13
+                    },
+                    {
+                      "key": "LP",
+                      "value": 38
+                    },
+                    {
+                      "key": "MP",
+                      "value": 44
+                    },
+                    {
+                      "key": "NW",
+                      "value": 15
+                    },
+                    {
+                      "key": "NC",
+                      "value": 8
+                    },
+                    {
+                      "key": "WC",
+                      "value": 62
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -2865,94 +3107,100 @@
               "name": "Real Estate",
               "metric_type": "count",
               "value": 108,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 89
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 108
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 108
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.4
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.6
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 1.0
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 18
-                  },
-                  {
-                    "province": "FS",
-                    "value": 7
-                  },
-                  {
-                    "province": "GP",
-                    "value": 44
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 8
-                  },
-                  {
-                    "province": "LP",
-                    "value": 10
-                  },
-                  {
-                    "province": "MP",
-                    "value": 7
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 2
-                  },
-                  {
-                    "province": "WC",
-                    "value": 12
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 89
+                    },
+                    {
+                      "key": "202012",
+                      "value": 108
+                    },
+                    {
+                      "key": "202101",
+                      "value": 108
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.4
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.6
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 18
+                    },
+                    {
+                      "key": "FS",
+                      "value": 7
+                    },
+                    {
+                      "key": "GP",
+                      "value": 44
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 8
+                    },
+                    {
+                      "key": "LP",
+                      "value": 10
+                    },
+                    {
+                      "key": "MP",
+                      "value": 7
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 2
+                    },
+                    {
+                      "key": "WC",
+                      "value": 12
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -2960,94 +3208,100 @@
               "name": "In-House Construction projects",
               "metric_type": "count",
               "value": 134,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 110
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 134
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 134
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.44
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.56
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.9
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 71
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 41
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 0
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 0
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 22
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 110
+                    },
+                    {
+                      "key": "202012",
+                      "value": 134
+                    },
+                    {
+                      "key": "202101",
+                      "value": 134
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.44
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.56
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.9
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 71
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 41
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 22
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             },
@@ -3055,98 +3309,106 @@
               "name": "Public Private Collaborations",
               "metric_type": "count",
               "value": 430,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 308
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 421
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 430
-                  }
-                ]
-              },
-              "gender": {
-                "name": "Opportunities by Gender",
-                "values": [
-                  {
-                    "gender": "Male",
-                    "value": 0.33
-                  },
-                  {
-                    "gender": "Female",
-                    "value": 0.67
-                  }
-                ]
-              },
-              "age": {
-                "name": "Opportunities going to 18-35 year olds",
-                "values": [
-                  {
-                    "age_category": "18-35",
-                    "value": 0.9998
-                  }
-                ]
-              },
-              "province": {
-                "name": "Opportunities by Province",
-                "values": [
-                  {
-                    "province": "EC",
-                    "value": 0
-                  },
-                  {
-                    "province": "FS",
-                    "value": 0
-                  },
-                  {
-                    "province": "GP",
-                    "value": 54
-                  },
-                  {
-                    "province": "KZN",
-                    "value": 0
-                  },
-                  {
-                    "province": "LP",
-                    "value": 367
-                  },
-                  {
-                    "province": "MP",
-                    "value": 0
-                  },
-                  {
-                    "province": "NW",
-                    "value": 9
-                  },
-                  {
-                    "province": "NC",
-                    "value": 0
-                  },
-                  {
-                    "province": "WC",
-                    "value": 0
-                  }
-                ]
-              },
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 308
+                    },
+                    {
+                      "key": "202012",
+                      "value": 421
+                    },
+                    {
+                      "key": "202101",
+                      "value": 430
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.33
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.67
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.9998
+                    }
+                  ]
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 0
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0
+                    },
+                    {
+                      "key": "GP",
+                      "value": 54
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 0
+                    },
+                    {
+                      "key": "LP",
+                      "value": 367
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0
+                    },
+                    {
+                      "key": "NW",
+                      "value": 9
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0
+                    },
+                    {
+                      "key": "WC",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": -1,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -3174,10 +3436,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 1983000000,
               "implementation_detail": null
             },
@@ -3185,14 +3444,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 18383,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 50311,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         },
         {
           "name": "Job opportunities",
@@ -3202,34 +3460,31 @@
               "name": "Cleaning and greening - war on waste with municipalities",
               "metric_type": "count",
               "value": 0,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 12690
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 0
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 12690
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 12690
               ],
@@ -3243,34 +3498,31 @@
               "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
               "metric_type": "count",
               "value": 0,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 1750
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 0
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 1750
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 1750
               ],
@@ -3284,34 +3536,31 @@
               "name": "Oceans and Coast: Source to Sea",
               "metric_type": "count",
               "value": 0,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 1719
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 0
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 1719
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 1719
               ],
@@ -3325,34 +3574,31 @@
               "name": "Groen Sebenzas, weather service - graduate programme",
               "metric_type": "count",
               "value": 723,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 524
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 723
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 524
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 723
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 524
               ],
@@ -3366,34 +3612,31 @@
               "name": "SANBI Infrastructure maintenance, biosecurity",
               "metric_type": "count",
               "value": 1194,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 1038
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 1194
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 1038
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 1194
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 1038
               ],
@@ -3407,34 +3650,31 @@
               "name": "iSimangaliso: conservation management infrastructure",
               "metric_type": "count",
               "value": 608,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 1164
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 608
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 1164
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 608
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 1164
               ],
@@ -3448,34 +3688,31 @@
               "name": "SANPARKS upgrade and green energy",
               "metric_type": "count",
               "value": 3522,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 4246
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 3522
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 4246
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 3522
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 4246
               ],
@@ -3489,34 +3726,31 @@
               "name": "Catchment management and strategic water sources",
               "metric_type": "count",
               "value": 12336,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 15012
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 12336
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 15012
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 12336
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 15012
               ],
@@ -3530,34 +3764,31 @@
               "name": "Bio-diversity economy",
               "metric_type": "count",
               "value": 0,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 7524
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 0
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 7524
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 7524
               ],
@@ -3571,34 +3802,31 @@
               "name": "Climate Adaptation: Forestry support",
               "metric_type": "count",
               "value": 0,
-              "time": {
-                "name": "Employed over time",
-                "values": [
-                  {
-                    "month": 202010,
-                    "name": "Oct '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202011,
-                    "name": "Nov '20",
-                    "value": 4644
-                  },
-                  {
-                    "month": 202012,
-                    "name": "Dec '20",
-                    "value": 0
-                  },
-                  {
-                    "month": 202101,
-                    "name": "Jan '21",
-                    "value": 0
-                  }
-                ]
-              },
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [
+                {
+                  "name": "Employed over time",
+                  "viz": "line",
+                  "lookup": "time",
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0
+                    },
+                    {
+                      "key": "202011",
+                      "value": 4644
+                    },
+                    {
+                      "key": "202012",
+                      "value": 0
+                    },
+                    {
+                      "key": "202101",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
               "value_target": [
                 4644
               ],
@@ -3608,7 +3836,9 @@
                 "detail": "Appointed participants have commenced work and recruitment is still ongoing."
               }
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []
@@ -3636,10 +3866,7 @@
               "name": "Budget",
               "metric_type": "currency",
               "value": -1,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 50000000,
               "implementation_detail": null
             },
@@ -3647,14 +3874,13 @@
               "name": "Beneficiaries",
               "metric_type": "count",
               "value": 0,
-              "time": null,
-              "gender": null,
-              "age": null,
-              "province": null,
+              "dimensions": [],
               "value_target": 25000,
               "implementation_detail": null
             }
-          ]
+          ],
+          "value": null,
+          "value_target": null
         }
       ],
       "implementation_details": []

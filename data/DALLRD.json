@@ -21,10 +21,7 @@
           "name": "Budget",
           "metric_type": "currency",
           "value": -1,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 1000000000,
           "implementation_detail": null
         },
@@ -32,14 +29,99 @@
           "name": "Beneficiaries",
           "metric_type": "count",
           "value": 93984,
-          "time": null,
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [],
           "value_target": 74626,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
+    },
+    {
+      "name": "Job opportunities",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Graduate Employment",
+          "metric_type": "count",
+          "value": 1464,
+          "dimensions": [
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 232
+                },
+                {
+                  "key": "FS",
+                  "value": 86
+                },
+                {
+                  "key": "GP",
+                  "value": 160
+                },
+                {
+                  "key": "KZN",
+                  "value": 297
+                },
+                {
+                  "key": "LP",
+                  "value": 262
+                },
+                {
+                  "key": "MP",
+                  "value": 156
+                },
+                {
+                  "key": "NW",
+                  "value": 151
+                },
+                {
+                  "key": "NC",
+                  "value": 65
+                },
+                {
+                  "key": "WC",
+                  "value": 55
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.36
+                },
+                {
+                  "key": "Female",
+                  "value": 0.64
+                }
+              ]
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.89
+                }
+              ]
+            }
+          ],
+          "value_target": -1,
+          "implementation_detail": null
+        }
+      ],
+      "value": null,
+      "value_target": null
     },
     {
       "name": "Livelihoods",
@@ -49,34 +131,74 @@
           "name": "Vegetables and Fruits",
           "metric_type": "count",
           "value": 38663,
-          "time": {
-            "name": "Livelihoods supported over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 0
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 30699
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 38663
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 4935
+                },
+                {
+                  "key": "FS",
+                  "value": 1583
+                },
+                {
+                  "key": "GP",
+                  "value": 3729
+                },
+                {
+                  "key": "KZN",
+                  "value": 12995
+                },
+                {
+                  "key": "LP",
+                  "value": 5379
+                },
+                {
+                  "key": "MP",
+                  "value": 6006
+                },
+                {
+                  "key": "NW",
+                  "value": 2228
+                },
+                {
+                  "key": "NC",
+                  "value": 891
+                },
+                {
+                  "key": "WC",
+                  "value": 917
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 0
+                },
+                {
+                  "key": "202012",
+                  "value": 30699
+                },
+                {
+                  "key": "202101",
+                  "value": 38663
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -84,34 +206,74 @@
           "name": "Maize/soya/sugar/other production",
           "metric_type": "count",
           "value": 11128,
-          "time": {
-            "name": "Livelihoods supported over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 0
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 8835
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 11128
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 1472
+                },
+                {
+                  "key": "FS",
+                  "value": 268
+                },
+                {
+                  "key": "GP",
+                  "value": 637
+                },
+                {
+                  "key": "KZN",
+                  "value": 3937
+                },
+                {
+                  "key": "LP",
+                  "value": 1735
+                },
+                {
+                  "key": "MP",
+                  "value": 2358
+                },
+                {
+                  "key": "NW",
+                  "value": 471
+                },
+                {
+                  "key": "NC",
+                  "value": 163
+                },
+                {
+                  "key": "WC",
+                  "value": 87
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 0
+                },
+                {
+                  "key": "202012",
+                  "value": 8835
+                },
+                {
+                  "key": "202101",
+                  "value": 11128
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -119,34 +281,74 @@
           "name": "Poultry: Layers and Boilers",
           "metric_type": "count",
           "value": 25453,
-          "time": {
-            "name": "Livelihoods supported over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 0
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 20210
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 25453
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 4574
+                },
+                {
+                  "key": "FS",
+                  "value": 949
+                },
+                {
+                  "key": "GP",
+                  "value": 1886
+                },
+                {
+                  "key": "KZN",
+                  "value": 7824
+                },
+                {
+                  "key": "LP",
+                  "value": 4215
+                },
+                {
+                  "key": "MP",
+                  "value": 3177
+                },
+                {
+                  "key": "NW",
+                  "value": 2115
+                },
+                {
+                  "key": "NC",
+                  "value": 433
+                },
+                {
+                  "key": "WC",
+                  "value": 280
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 0
+                },
+                {
+                  "key": "202012",
+                  "value": 20210
+                },
+                {
+                  "key": "202101",
+                  "value": 25453
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -154,34 +356,74 @@
           "name": "Small livestock",
           "metric_type": "count",
           "value": 12309,
-          "time": {
-            "name": "Livelihoods supported over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 0
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 9773
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 12309
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 2126
+                },
+                {
+                  "key": "FS",
+                  "value": 674
+                },
+                {
+                  "key": "GP",
+                  "value": 546
+                },
+                {
+                  "key": "KZN",
+                  "value": 2636
+                },
+                {
+                  "key": "LP",
+                  "value": 1444
+                },
+                {
+                  "key": "MP",
+                  "value": 1200
+                },
+                {
+                  "key": "NW",
+                  "value": 2312
+                },
+                {
+                  "key": "NC",
+                  "value": 913
+                },
+                {
+                  "key": "WC",
+                  "value": 458
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 0
+                },
+                {
+                  "key": "202012",
+                  "value": 9773
+                },
+                {
+                  "key": "202101",
+                  "value": 12309
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         },
@@ -189,38 +431,80 @@
           "name": "Large livestock",
           "metric_type": "count",
           "value": 6431,
-          "time": {
-            "name": "Livelihoods supported over time",
-            "values": [
-              {
-                "month": 202010,
-                "name": "Oct '20",
-                "value": 0
-              },
-              {
-                "month": 202011,
-                "name": "Nov '20",
-                "value": 0
-              },
-              {
-                "month": 202012,
-                "name": "Dec '20",
-                "value": 5106
-              },
-              {
-                "month": 202101,
-                "name": "Jan '21",
-                "value": 6431
-              }
-            ]
-          },
-          "gender": null,
-          "age": null,
-          "province": null,
+          "dimensions": [
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 868
+                },
+                {
+                  "key": "FS",
+                  "value": 467
+                },
+                {
+                  "key": "GP",
+                  "value": 383
+                },
+                {
+                  "key": "KZN",
+                  "value": 1522
+                },
+                {
+                  "key": "LP",
+                  "value": 706
+                },
+                {
+                  "key": "MP",
+                  "value": 820
+                },
+                {
+                  "key": "NW",
+                  "value": 1029
+                },
+                {
+                  "key": "NC",
+                  "value": 452
+                },
+                {
+                  "key": "WC",
+                  "value": 184
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0
+                },
+                {
+                  "key": "202011",
+                  "value": 0
+                },
+                {
+                  "key": "202012",
+                  "value": 5106
+                },
+                {
+                  "key": "202101",
+                  "value": 6431
+                }
+              ]
+            }
+          ],
           "value_target": -1,
           "implementation_detail": null
         }
-      ]
+      ],
+      "value": null,
+      "value_target": null
     }
   ],
   "implementation_details": [
