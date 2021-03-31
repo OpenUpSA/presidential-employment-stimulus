@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import { FORMATTERS } from './utils';
 
-const SELECTOR = '.feature-value__number-percent_number';
+const SELECTOR = '.feature-value__number-percent';
 
 const $template = $(SELECTOR).first().clone(true, true);
 
@@ -10,6 +10,7 @@ export class VizValue {
     this._$parent = $parent;
     this._type = type;
     this._quotient = quotient;
+    debugger;
     this.render();
   }
 

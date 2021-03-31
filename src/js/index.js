@@ -3,7 +3,7 @@ import { d3 } from './d3';
 import { Tabs } from './tabs';
 import { Tab } from './tab';
 import { Header } from './header';
-import { OverviewVizBars} from "./overview-viz-bars";
+import { OverviewVizBars } from './overview-viz-bars';
 import { Section } from './section';
 import { SubSection } from './sub-section';
 import { Metric } from './metric';
@@ -12,8 +12,8 @@ import { VizSplit } from './viz-split';
 import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
 import { VizLine } from './viz-line';
-import {ImplementationDetail} from "./implementation-detail";
-import {organizeByZero} from "./utils";
+import { ImplementationDetail } from './implementation-detail';
+import { organizeByZero } from './utils';
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -25,7 +25,13 @@ const CONTENT_GRID_SELECTOR = '.thirds-grid';
 $(CONTENT_GRID_SELECTOR).empty();
 const $thirdsGrid = $(CONTENT_GRID_SELECTOR).first().clone(true, true);
 
-d3.json('data/all_data.json').then((data) => {
+Promise.all([
+  d3.json('data/all_data.json'),
+  d3.json('data/lookups.json'),
+]).then(([
+  data,
+  lookups,
+]) => {
   const merged = [data.overview, ...data.departments];
   const tabs = new Tabs();
   const overviewTab = new Tab(
@@ -41,14 +47,20 @@ d3.json('data/all_data.json').then((data) => {
   // TODO: Clean up this ugly code using components etc
   const $overviewGrid = $thirdsGrid.clone(true, true);
   const overviewSectionArr = data.overview.sections || [];
-  const section = new Section(overviewTab.$container, "Overview", 'An overview of the programmes', '', "livelihoods");
+  const overviewSection = new Section(overviewTab.$container, 'Overview', 'An overview of the programmes', '', 'livelihoods');
 
   overviewSectionArr.forEach((overviewSectionData) => {
-    const subSection = new SubSection(section.$container);
-    const overviewSection = new Metric(subSection.$container, overviewSectionData.name, overviewSectionData.section_type,
-        'count', overviewSectionData.value, overviewSectionData.value_target);
+    const subSection = new SubSection(overviewSection.$container);
+    new Metric(
+      subSection.$container,
+      overviewSectionData.name,
+      overviewSectionData.section_type,
+      'count',
+      overviewSectionData.value,
+      overviewSectionData.value_target,
+    );
     new VizHeading(subSection.$container, overviewSectionData.name);
-    new OverviewVizBars(subSection.$container, overviewSectionData.metrics);
+    new OverviewVizBars(subSection.$container, overviewSectionData.metrics, lookups.province);
     // $overviewGrid.append($el);
   });
 
@@ -78,48 +90,64 @@ d3.json('data/all_data.json').then((data) => {
           subSectionData.value,
           subSectionData.value_target,
         );
-        if (subSectionData.time) {
-          new VizHeading(subSection.$container, subSectionData.time.name);
-          new VizLine(subSection.$container, subSectionData.time.values);
-        }
-        if (subSectionData.gender) {
-          new VizHeading(subSection.$container, subSectionData.gender.name);
-          const genderOne = subSectionData.gender.values[0];
-          const genderTwo = subSectionData.gender.values[1];
-          new VizSplit(
-            subSection.$container,
-            'percentage',
-            genderOne.gender, genderOne.value,
-            genderTwo.gender, genderTwo.value,
-          );
-        }
-        if (subSectionData.age) {
-          new VizHeading(subSection.$container, subSectionData.age.name);
-          const ageValue = subSectionData.age.values[0].value;
-          new VizValue(
-            subSection.$container,
-            'count',
-            ageValue,
-          );
-        }
-        if (subSectionData.province) {
-          new VizHeading(subSection.$container, subSectionData.province.name);
-          new VizBars(subSection.$container, subSectionData.province.values);
-        }
+        subSectionData.dimensions.forEach((dimension) => {
+          if (dimension.viz === 'line') {
+            new VizHeading(subSection.$container, dimension.name);
+            new VizLine(subSection.$container, dimension.values);
+          }
+          if (dimension.viz === 'two_value') {
+            new VizHeading(subSection.$container, dimension.name);
+            const valueOne = dimension.values[0];
+            const valueTwo = dimension.values[1];
+            new VizSplit(
+              subSection.$container,
+              'percentage',
+              valueOne.key, valueTwo.value,
+              valueTwo.key, valueTwo.value,
+            );
+          }
+          if (dimension.viz === 'percentile') {
+            new VizHeading(subSection.$container, dimension.name);
+            const { value } = dimension.values[0];
+            new VizValue(
+              subSection.$container,
+              'count',
+              value,
+            );
+          }
+          if (dimension.viz === 'bar') {
+            new VizHeading(subSection.$container, dimension.name);
+            new VizBars(
+              subSection.$container,
+              dimension.values,
+              lookups[dimension.lookup],
+            );
+          }
+        });
         if (subSectionData.implementation_detail) {
           const implData = subSectionData.implementation_detail;
-          new ImplementationDetail(subSection.$container, implData.programme_name, implData.status, implData.detail);
+          new ImplementationDetail(
+            subSection.$container,
+            implData.programme_name,
+            implData.status,
+            implData.detail,
+          );
         }
       });
     });
     if (tabData.implementation_details.length > 0) {
-      const implDetails = new Section(tab.$container, 'Implementation status reports', '', '', '');
+      new Section(tab.$container, 'Implementation status reports', '', '', '');
       tabData.implementation_details.forEach((implData) => {
         const $implGrid = $thirdsGrid.clone(true, true);
         tab.$container.append($implGrid);
         const subSection = new SubSection($implGrid);
 
-        new ImplementationDetail(subSection.$container, implData.programme_name, implData.status, implData.detail);
+        new ImplementationDetail(
+          subSection.$container,
+          implData.programme_name,
+          implData.status,
+          implData.detail,
+        );
       });
     }
   });

@@ -1,0 +1,26 @@
+{
+  "province": {
+    "EC": "Eastern Cape",
+    "FS": "Freestate",
+    "GP": "Gauteng",
+    "KZN": "Kwazulu Natal",
+    "LP": "Limpopo",
+    "MP": "Mpumalanga",
+    "NW": "North West",
+    "NC": "Northern Cape",
+    "WC": "Western Cape"
+  },
+  "sector": {
+    "DTIC": "Trade, Industry and Competition",
+    "DBE": "Basic Education",
+    "DSD": "Social Development",
+    "DoH": "Health",
+    "DALLRD": "Agriculture, Land Reform and Rural Development",
+    "DSI": "Science and Innovation",
+    "DSAC": "Sports, Arts and Culture",
+    "DoT": "Transport",
+    "DPWI": "Public Works and Infrastructure",
+    "DEFF": "Environment, Forestry and Fisheries",
+    "DCOGTA": "Co-operative government"
+  }
+}
