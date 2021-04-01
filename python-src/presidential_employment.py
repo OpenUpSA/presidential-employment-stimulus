@@ -1,6 +1,6 @@
 from enum import Enum
 from dataclasses import dataclass
-from typing import Optional, List, Union
+from typing import List, Union
 
 from dataclasses_json import dataclass_json
 
@@ -75,9 +75,9 @@ class Metric:
     name: str
     metric_type: str  # enum of 'currency', 'count'
     value: int
-    dimensions: Optional[Dimension]
+    dimensions: Dimension
     value_target: int = -1
-    implementation_detail: Optional[ImplementationDetail] = None
+    implementation_detail: ImplementationDetail = None
 
 
 @dataclass_json
@@ -86,7 +86,7 @@ class Section:
     name: str
     section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
     metric_type = str  # enum of MetricTypeEnum
-    metrics: List["Metric"]
+    metrics: List[Metric]
     value: int = None
     value_target: int = None
 
@@ -99,10 +99,10 @@ class Department:
     sheet_name: str
     lead: str
     paragraph: str
-    target_lines: Optional[List[int]]
-    achievement_lines: Optional[List[int]]
-    sections: List["Section"]
-    implementation_details: Optional[List["ImplementationDetail"]]
+    target_lines: List[int]
+    achievement_lines: List[int]
+    sections: List[Section]
+    implementation_details: List[ImplementationDetail]
 
 
 @dataclass_json
@@ -113,7 +113,7 @@ class OverviewSection(Section):
     metric_type: str  # summarise all the Metrics in this section
     value: int
     value_target: int
-    metrics: List["Metric"]
+    metrics: List[Metric]
 
 
 @dataclass_json
@@ -123,14 +123,14 @@ class Overview:
     name: str  # Would normally be "Programme Overview"
     lead: str
     paragraph: str
-    sections: List["OverviewSection"]
+    sections: List[OverviewSection]
 
 
 @dataclass_json
 @dataclass
 class Everything:
     overview: Overview
-    departments: List["Department"]
+    departments: List[Department]
 
 implementation_status_to_enum = {
     'On track': ImplementationStatusEnum.OnTrack.name,

@@ -209,24 +209,7 @@
             {
               "name": "Global Business Services Sector",
               "metric_type": "count",
-              "value": [
-                "Trade, Industry and Competition",
-                "Global Business Services Sector",
-                1178,
-                2726,
-                4036,
-                4036,
-                0,
-                0,
-                0,
-                0,
-                1178,
-                2726,
-                4036,
-                4036,
-                0.0,
-                0.0
-              ],
+              "value": 4036,
               "dimensions": [
                 {
                   "name": "Employed over time",
