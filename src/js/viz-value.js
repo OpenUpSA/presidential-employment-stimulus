@@ -10,7 +10,6 @@ export class VizValue {
     this._$parent = $parent;
     this._type = type;
     this._quotient = quotient;
-    debugger;
     this.render();
   }
 

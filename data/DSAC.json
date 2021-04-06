@@ -61,19 +61,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 138
+                  "value": 138,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 156
+                  "value": 156,
+                  "value_target": null
                 }
               ]
             },
@@ -84,11 +88,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.7
+                  "value": 0.7,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.3
+                  "value": 0.3,
+                  "value_target": null
                 }
               ]
             },
@@ -99,7 +105,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.58
+                  "value": 0.58,
+                  "value_target": null
                 }
               ]
             },
@@ -110,39 +117,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 16
+                  "value": 16,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 37
+                  "value": 37,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 26
+                  "value": 26,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 8
+                  "value": 8,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 20
+                  "value": 20,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 4
+                  "value": 4,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 11
+                  "value": 11,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 12
+                  "value": 12,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 22
+                  "value": 22,
+                  "value_target": null
                 }
               ]
             }
@@ -170,19 +186,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 880
+                  "value": 880,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 880
+                  "value": 880,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 880
+                  "value": 880,
+                  "value_target": null
                 }
               ]
             },
@@ -193,39 +213,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 80
+                  "value": 80,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 100
+                  "value": 100,
+                  "value_target": null
                 }
               ]
             }
@@ -245,19 +274,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 4
+                  "value": 4,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 251
+                  "value": 251,
+                  "value_target": null
                 }
               ]
             },
@@ -268,11 +301,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.39
+                  "value": 0.39,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.61
+                  "value": 0.61,
+                  "value_target": null
                 }
               ]
             },
@@ -283,7 +318,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 1.0
+                  "value": 1.0,
+                  "value_target": null
                 }
               ]
             },
@@ -294,39 +330,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 27
+                  "value": 27,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 20
+                  "value": 20,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 24
+                  "value": 24,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 27
+                  "value": 27,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 22
+                  "value": 22,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 27
+                  "value": 27,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 28
+                  "value": 28,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 24
+                  "value": 24,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 52
+                  "value": 52,
+                  "value_target": null
                 }
               ]
             }
@@ -346,19 +391,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 139
+                  "value": 139,
+                  "value_target": null
                 }
               ]
             },
@@ -369,11 +418,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.3472
+                  "value": 0.3472,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.6527
+                  "value": 0.6527,
+                  "value_target": null
                 }
               ]
             },
@@ -384,7 +435,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.972
+                  "value": 0.972,
+                  "value_target": null
                 }
               ]
             },
@@ -395,39 +447,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 67
+                  "value": 67,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 72
+                  "value": 72,
+                  "value_target": null
                 }
               ]
             }
@@ -447,19 +508,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 146
+                  "value": 146,
+                  "value_target": null
                 }
               ]
             },
@@ -470,11 +535,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.33
+                  "value": 0.33,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.67
+                  "value": 0.67,
+                  "value_target": null
                 }
               ]
             },
@@ -485,7 +552,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 1.0
+                  "value": 1.0,
+                  "value_target": null
                 }
               ]
             },
@@ -496,39 +564,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 146
+                  "value": 146,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
@@ -556,19 +633,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 2475
+                  "value": 2475,
+                  "value_target": null
                 }
               ]
             },
@@ -579,11 +660,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.565
+                  "value": 0.565,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.435
+                  "value": 0.435,
+                  "value_target": null
                 }
               ]
             },
@@ -594,7 +677,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.44
+                  "value": 0.44,
+                  "value_target": null
                 }
               ]
             },
@@ -605,39 +689,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 119
+                  "value": 119,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 202
+                  "value": 202,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 769
+                  "value": 769,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 278
+                  "value": 278,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 107
+                  "value": 107,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 74
+                  "value": 74,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 103
+                  "value": 103,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 45
+                  "value": 45,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 778
+                  "value": 778,
+                  "value_target": null
                 }
               ]
             }
@@ -681,19 +774,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 8573
+                  "value": 8573,
+                  "value_target": null
                 }
               ]
             },
@@ -704,11 +801,13 @@
               "values": [
                 {
                   "key": "Percentage (%) male",
-                  "value": 0.66
+                  "value": 0.66,
+                  "value_target": null
                 },
                 {
                   "key": "Percentage (%) female",
-                  "value": 0.34
+                  "value": 0.34,
+                  "value_target": null
                 }
               ]
             },
@@ -719,7 +818,8 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.445
+                  "value": 0.445,
+                  "value_target": null
                 }
               ]
             },
@@ -730,39 +830,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 1142
+                  "value": 1142,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 672
+                  "value": 672,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 2585
+                  "value": 2585,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 603
+                  "value": 603,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1049
+                  "value": 1049,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 308
+                  "value": 308,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 817
+                  "value": 817,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 517
+                  "value": 517,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 880
+                  "value": 880,
+                  "value_target": null
                 }
               ]
             }

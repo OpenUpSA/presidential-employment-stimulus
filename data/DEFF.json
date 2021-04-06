@@ -53,26 +53,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 12690
+                  "value": 12690,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            12690
-          ],
+          "value_target": 12690,
           "implementation_detail": null
         },
         {
@@ -87,26 +89,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 1750
+                  "value": 1750,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            1750
-          ],
+          "value_target": 1750,
           "implementation_detail": null
         },
         {
@@ -121,26 +125,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 1719
+                  "value": 1719,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            1719
-          ],
+          "value_target": 1719,
           "implementation_detail": null
         },
         {
@@ -155,26 +161,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 524
+                  "value": 524,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 723
+                  "value": 723,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            524
-          ],
+          "value_target": 524,
           "implementation_detail": null
         },
         {
@@ -189,26 +197,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 1038
+                  "value": 1038,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 1194
+                  "value": 1194,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            1038
-          ],
+          "value_target": 1038,
           "implementation_detail": null
         },
         {
@@ -223,26 +233,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 1164
+                  "value": 1164,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 608
+                  "value": 608,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            1164
-          ],
+          "value_target": 1164,
           "implementation_detail": null
         },
         {
@@ -257,26 +269,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 4246
+                  "value": 4246,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 3522
+                  "value": 3522,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            4246
-          ],
+          "value_target": 4246,
           "implementation_detail": null
         },
         {
@@ -291,26 +305,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 15012
+                  "value": 15012,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 12336
+                  "value": 12336,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            15012
-          ],
+          "value_target": 15012,
           "implementation_detail": null
         },
         {
@@ -325,26 +341,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 7524
+                  "value": 7524,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            7524
-          ],
+          "value_target": 7524,
           "implementation_detail": null
         },
         {
@@ -359,26 +377,28 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 4644
+                  "value": 4644,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 }
               ]
             }
           ],
-          "value_target": [
-            4644
-          ],
+          "value_target": 4644,
           "implementation_detail": null
         }
       ],
