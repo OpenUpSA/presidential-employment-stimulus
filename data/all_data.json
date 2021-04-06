@@ -6,159 +6,260 @@
     "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now.",
     "sections": [
       {
-        "name": "Livelihoods",
-        "section_type": "livelihoods",
+        "name": "Programme targets",
+        "section_type": "targets",
         "metrics": [
           {
-            "name": "Social Development",
-            "metric_type": "count",
-            "value": 0,
+            "name": "Budget",
+            "metric_type": "currency",
+            "value": 2470628,
             "dimensions": [],
-            "value_target": 108833,
+            "value_target": 12634178,
             "implementation_detail": null
           },
           {
-            "name": "Sports, Arts and Culture",
+            "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 8573,
+            "value": 495260,
             "dimensions": [],
-            "value_target": 15714,
-            "implementation_detail": null
-          },
-          {
-            "name": "Agriculture, Land Reform and Rural Development",
-            "metric_type": "count",
-            "value": 93984,
-            "dimensions": [],
-            "value_target": 74626,
+            "value_target": 694152,
             "implementation_detail": null
           }
         ],
-        "value": 102557,
-        "value_target": 199173,
-        "metric_type": "count"
+        "value": null,
+        "value_target": null
       },
       {
-        "name": "Job opportunities",
-        "section_type": "job_opportunities",
+        "name": "Summary",
+        "section_type": "overview",
         "metrics": [
           {
-            "name": "Trade, Industry and Competition",
-            "metric_type": "count",
-            "value": 4036,
-            "dimensions": [],
-            "value_target": 8000,
+            "name": "Job opportunities",
+            "metric_type": "job_opportunities",
+            "value": 387196,
+            "dimensions": [
+              {
+                "name": "by department",
+                "viz": "bar",
+                "lookup": "department",
+                "values": [
+                  {
+                    "key": "Trade, Industry and Competition",
+                    "value": 4036,
+                    "value_target": 0
+                  },
+                  {
+                    "key": "Total",
+                    "value": 387196,
+                    "value_target": 510070
+                  },
+                  {
+                    "key": "Basic Education",
+                    "value": 328894,
+                    "value_target": 300000
+                  },
+                  {
+                    "key": "Social Development",
+                    "value": 0,
+                    "value_target": 108833
+                  },
+                  {
+                    "key": "Health",
+                    "value": 3967,
+                    "value_target": 5531
+                  },
+                  {
+                    "key": "Agriculture, Land Reform and Rural Development",
+                    "value": 0,
+                    "value_target": 0
+                  },
+                  {
+                    "key": "Science and Innovation",
+                    "value": 8,
+                    "value_target": 1900
+                  },
+                  {
+                    "key": "Sports, Arts and Culture",
+                    "value": 1572,
+                    "value_target": 4356
+                  },
+                  {
+                    "key": "Transport",
+                    "value": 3617,
+                    "value_target": 37079
+                  },
+                  {
+                    "key": "Public Works and Infrastructure",
+                    "value": 1719,
+                    "value_target": 1560
+                  },
+                  {
+                    "key": "Environment, Forestry and Fisheries",
+                    "value": 18383,
+                    "value_target": 50311
+                  },
+                  {
+                    "key": "Co-operative government",
+                    "value": 25000,
+                    "value_target": 0
+                  }
+                ]
+              },
+              {
+                "name": "over time",
+                "viz": "line",
+                "lookup": "time",
+                "values": [
+                  {
+                    "key": "202010",
+                    "value": 1982,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202011",
+                    "value": 357038,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202012",
+                    "value": 330434,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202101",
+                    "value": 362196,
+                    "value_target": null
+                  }
+                ]
+              }
+            ],
+            "value_target": 510070,
             "implementation_detail": null
           },
           {
-            "name": "Basic Education",
-            "metric_type": "count",
-            "value": 328894,
-            "dimensions": [],
-            "value_target": 300000,
+            "name": "Livelihoods",
+            "metric_type": "livelihoods",
+            "value": 102557,
+            "dimensions": [
+              {
+                "name": "by department",
+                "viz": "bar",
+                "lookup": "department",
+                "values": [
+                  {
+                    "key": "Agriculture, Land Reform and Rural Development",
+                    "value": 93984,
+                    "value_target": 74626
+                  },
+                  {
+                    "key": "Total",
+                    "value": 102557,
+                    "value_target": 90340
+                  },
+                  {
+                    "key": "Sports, Arts and Culture",
+                    "value": 8573,
+                    "value_target": 15714
+                  }
+                ]
+              },
+              {
+                "name": "over time",
+                "viz": "line",
+                "lookup": "time",
+                "values": [
+                  {
+                    "key": "202010",
+                    "value": 0,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202011",
+                    "value": 0,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202012",
+                    "value": 74623,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202101",
+                    "value": 102557,
+                    "value_target": null
+                  }
+                ]
+              }
+            ],
+            "value_target": 90340,
             "implementation_detail": null
           },
           {
-            "name": "Social Development",
-            "metric_type": "count",
-            "value": 0,
-            "dimensions": [],
-            "value_target": 500,
-            "implementation_detail": null
-          },
-          {
-            "name": "Science and Innovation",
-            "metric_type": "count",
-            "value": 8,
-            "dimensions": [],
-            "value_target": 1900,
-            "implementation_detail": null
-          },
-          {
-            "name": "Sports, Arts and Culture",
-            "metric_type": "count",
-            "value": 1572,
-            "dimensions": [],
-            "value_target": 4356,
-            "implementation_detail": null
-          },
-          {
-            "name": "Transport",
-            "metric_type": "count",
-            "value": 3617,
-            "dimensions": [],
-            "value_target": 37079,
-            "implementation_detail": null
-          },
-          {
-            "name": "Environment, Forestry and Fisheries",
-            "metric_type": "count",
-            "value": 18383,
-            "dimensions": [],
-            "value_target": 50311,
-            "implementation_detail": null
-          },
-          {
-            "name": "Co-operative government",
-            "metric_type": "count",
-            "value": 0,
-            "dimensions": [],
-            "value_target": 25000,
-            "implementation_detail": null
-          },
-          {
-            "name": "Health",
-            "metric_type": "count",
-            "value": 2119,
-            "dimensions": [],
-            "value_target": 5531,
-            "implementation_detail": null
-          },
-          {
-            "name": "Public Works and Infrastructure",
-            "metric_type": "count",
-            "value": 1841,
-            "dimensions": [],
-            "value_target": 1560,
+            "name": "Jobs retained",
+            "metric_type": "jobs_retain",
+            "value": 30340,
+            "dimensions": [
+              {
+                "name": "by department",
+                "viz": "bar",
+                "lookup": "department",
+                "values": [
+                  {
+                    "key": "Basic Education",
+                    "value": 26779,
+                    "value_target": 44933
+                  },
+                  {
+                    "key": "Total",
+                    "value": 30340,
+                    "value_target": 133559
+                  },
+                  {
+                    "key": "Social Development",
+                    "value": 1086,
+                    "value_target": 74626
+                  },
+                  {
+                    "key": "Sports, Arts and Culture",
+                    "value": 2475,
+                    "value_target": 14000
+                  }
+                ]
+              },
+              {
+                "name": "over time",
+                "viz": "line",
+                "lookup": "time",
+                "values": [
+                  {
+                    "key": "202010",
+                    "value": 0,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202011",
+                    "value": 45682,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202012",
+                    "value": 22781,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202101",
+                    "value": 30340,
+                    "value_target": null
+                  }
+                ]
+              }
+            ],
+            "value_target": 133559,
             "implementation_detail": null
           }
         ],
-        "value": 360470,
-        "value_target": 434237,
-        "metric_type": "count"
-      },
-      {
-        "name": "Jobs retained",
-        "section_type": "jobs_retain",
-        "metrics": [
-          {
-            "name": "Basic Education",
-            "metric_type": "count",
-            "value": 26779,
-            "dimensions": [],
-            "value_target": 44933,
-            "implementation_detail": null
-          },
-          {
-            "name": "Social Development",
-            "metric_type": "count",
-            "value": 1086,
-            "dimensions": [],
-            "value_target": 1809,
-            "implementation_detail": null
-          },
-          {
-            "name": "Sports, Arts and Culture",
-            "metric_type": "count",
-            "value": 2475,
-            "dimensions": [],
-            "value_target": 14000,
-            "implementation_detail": null
-          }
-        ],
-        "value": 30340,
-        "value_target": 60742,
-        "metric_type": "count"
+        "value": 1719,
+        "value_target": 0
       }
     ]
   },
@@ -207,7 +308,7 @@
           "section_type": "job_opportunities",
           "metrics": [
             {
-              "name": "Global Business Services Sector",
+              "name": "Services sector development incentives",
               "metric_type": "count",
               "value": 4036,
               "dimensions": [
@@ -218,19 +319,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 1178
+                      "value": 1178,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 2726
+                      "value": 2726,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 4036
+                      "value": 4036,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 4036
+                      "value": 4036,
+                      "value_target": null
                     }
                   ]
                 },
@@ -241,11 +346,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.34
+                      "value": 0.34,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.66
+                      "value": 0.66,
+                      "value_target": null
                     }
                   ]
                 },
@@ -256,7 +363,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.85
+                      "value": 0.85,
+                      "value_target": null
                     }
                   ]
                 },
@@ -267,42 +375,50 @@
                   "values": [
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 366
+                      "value": 366,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 1919
+                      "value": 1919,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 1749
+                      "value": 1749,
+                      "value_target": null
                     }
                   ]
                 }
               ],
               "value_target": -1,
               "implementation_detail": {
-                "programme_name": "Global Business Services Sector",
+                "programme_name": "Services sector development incentives",
                 "status": "OnTrack",
                 "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
               }
@@ -369,39 +485,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 30628
+                      "value": 30628,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 11021
+                      "value": 11021,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 28875
+                      "value": 28875,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 42591
+                      "value": 42591,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 30708
+                      "value": 30708,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 16027
+                      "value": 16027,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 12983
+                      "value": 12983,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 3138
+                      "value": 3138,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 8245
+                      "value": 8245,
+                      "value_target": null
                     }
                   ]
                 },
@@ -412,19 +537,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 200000
+                      "value": 200000,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 200000
+                      "value": 200000,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 200000
+                      "value": 200000,
+                      "value_target": null
                     }
                   ]
                 }
@@ -448,39 +577,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 25175
+                      "value": 25175,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 6989
+                      "value": 6989,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 15724
+                      "value": 15724,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 30888
+                      "value": 30888,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 21408
+                      "value": 21408,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 10082
+                      "value": 10082,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 8659
+                      "value": 8659,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 4198
+                      "value": 4198,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 5771
+                      "value": 5771,
+                      "value_target": null
                     }
                   ]
                 },
@@ -491,19 +629,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 100000
+                      "value": 100000,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 120735
+                      "value": 120735,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 128894
+                      "value": 128894,
+                      "value_target": null
                     }
                   ]
                 }
@@ -524,7 +666,7 @@
           "section_type": "jobs_retain",
           "metrics": [
             {
-              "name": "Job retention at fee paying schools",
+              "name": "Retain vulnerable teaching posts",
               "metric_type": "count",
               "value": 26779,
               "dimensions": [
@@ -535,19 +677,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 44933
+                      "value": 44933,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 21988
+                      "value": 21988,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 26779
+                      "value": 26779,
+                      "value_target": null
                     }
                   ]
                 },
@@ -558,46 +704,55 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 5118
+                      "value": 5118,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 1313
+                      "value": 1313,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 3884
+                      "value": 3884,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2725
+                      "value": 2725,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1743
+                      "value": 1743,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 1229
+                      "value": 1229,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 919
+                      "value": 919,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 3821
+                      "value": 3821,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 6027
+                      "value": 6027,
+                      "value_target": null
                     }
                   ]
                 }
               ],
               "value_target": 44933,
               "implementation_detail": {
-                "programme_name": "Job retention at fee paying schools",
+                "programme_name": "Retain vulnerable teaching posts",
                 "status": "MinorChallenges",
                 "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
               }
@@ -684,11 +839,13 @@
                   "values": [
                     {
                       "key": 1,
-                      "value": 0.13
+                      "value": 0.13,
+                      "value_target": null
                     },
                     {
                       "key": 2,
-                      "value": 0.87
+                      "value": 0.87,
+                      "value_target": null
                     }
                   ]
                 },
@@ -699,7 +856,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.61
+                      "value": 0.61,
+                      "value_target": null
                     }
                   ]
                 },
@@ -710,19 +868,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 749
+                      "value": 749,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 793
+                      "value": 793,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 1086
+                      "value": 1086,
+                      "value_target": null
                     }
                   ]
                 },
@@ -733,39 +895,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 282
+                      "value": 282,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 305
+                      "value": 305,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 235
+                      "value": 235,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 99
+                      "value": 99,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 116
+                      "value": 116,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 43
+                      "value": 43,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 6
+                      "value": 6,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
@@ -859,39 +1030,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 400
+                      "value": 400,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 11
+                      "value": 11,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 425
+                      "value": 425,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 690
+                      "value": 690,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 245
+                      "value": 245,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 141
+                      "value": 141,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 3
+                      "value": 3,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 204
+                      "value": 204,
+                      "value_target": null
                     }
                   ]
                 },
@@ -902,19 +1082,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 547
+                      "value": 547,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 1044
+                      "value": 1044,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 1629
+                      "value": 1629,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 2119
+                      "value": 2119,
+                      "value_target": null
                     }
                   ]
                 }
@@ -938,39 +1122,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 296
+                      "value": 296,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 4
+                      "value": 4,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 380
+                      "value": 380,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 690
+                      "value": 690,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 2
+                      "value": 2,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 167
+                      "value": 167,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 9
+                      "value": 9,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 300
+                      "value": 300,
+                      "value_target": null
                     }
                   ]
                 },
@@ -981,19 +1174,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 257
+                      "value": 257,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 706
+                      "value": 706,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 1304
+                      "value": 1304,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 1848
+                      "value": 1848,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1091,39 +1288,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 232
+                      "value": 232,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 86
+                      "value": 86,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 160
+                      "value": 160,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 297
+                      "value": 297,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 262
+                      "value": 262,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 156
+                      "value": 156,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 151
+                      "value": 151,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 65
+                      "value": 65,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 55
+                      "value": 55,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1134,11 +1340,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.36
+                      "value": 0.36,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.64
+                      "value": 0.64,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1149,7 +1357,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.89
+                      "value": 0.89,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1177,39 +1386,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 4935
+                      "value": 4935,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 1583
+                      "value": 1583,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 3729
+                      "value": 3729,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 12995
+                      "value": 12995,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 5379
+                      "value": 5379,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 6006
+                      "value": 6006,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2228
+                      "value": 2228,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 891
+                      "value": 891,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 917
+                      "value": 917,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1220,19 +1438,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 30699
+                      "value": 30699,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 38663
+                      "value": 38663,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1252,39 +1474,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 1472
+                      "value": 1472,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 268
+                      "value": 268,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 637
+                      "value": 637,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 3937
+                      "value": 3937,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1735
+                      "value": 1735,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 2358
+                      "value": 2358,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 471
+                      "value": 471,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 163
+                      "value": 163,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 87
+                      "value": 87,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1295,19 +1526,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 8835
+                      "value": 8835,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 11128
+                      "value": 11128,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1327,39 +1562,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 4574
+                      "value": 4574,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 949
+                      "value": 949,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 1886
+                      "value": 1886,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 7824
+                      "value": 7824,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 4215
+                      "value": 4215,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 3177
+                      "value": 3177,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2115
+                      "value": 2115,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 433
+                      "value": 433,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 280
+                      "value": 280,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1370,19 +1614,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 20210
+                      "value": 20210,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 25453
+                      "value": 25453,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1402,39 +1650,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 2126
+                      "value": 2126,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 674
+                      "value": 674,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 546
+                      "value": 546,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2636
+                      "value": 2636,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1444
+                      "value": 1444,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 1200
+                      "value": 1200,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2312
+                      "value": 2312,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 913
+                      "value": 913,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 458
+                      "value": 458,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1445,19 +1702,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 9773
+                      "value": 9773,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 12309
+                      "value": 12309,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1477,39 +1738,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 868
+                      "value": 868,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 467
+                      "value": 467,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 383
+                      "value": 383,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 1522
+                      "value": 1522,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 706
+                      "value": 706,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 820
+                      "value": 820,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 1029
+                      "value": 1029,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 452
+                      "value": 452,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 184
+                      "value": 184,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1520,19 +1790,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 5106
+                      "value": 5106,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 6431
+                      "value": 6431,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1632,19 +1906,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 8
+                      "value": 8,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1742,19 +2020,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 138
+                      "value": 138,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 156
+                      "value": 156,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1765,11 +2047,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.7
+                      "value": 0.7,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.3
+                      "value": 0.3,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1780,7 +2064,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.58
+                      "value": 0.58,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1791,39 +2076,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 16
+                      "value": 16,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 37
+                      "value": 37,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 26
+                      "value": 26,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 8
+                      "value": 8,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 20
+                      "value": 20,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 4
+                      "value": 4,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 11
+                      "value": 11,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 12
+                      "value": 12,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 22
+                      "value": 22,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1859,19 +2153,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 880
+                      "value": 880,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 880
+                      "value": 880,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 880
+                      "value": 880,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1882,39 +2180,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 80
+                      "value": 80,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     }
                   ]
                 }
@@ -1938,19 +2245,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 4
+                      "value": 4,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 251
+                      "value": 251,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1961,11 +2272,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.39
+                      "value": 0.39,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.61
+                      "value": 0.61,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1976,7 +2289,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 1.0
+                      "value": 1.0,
+                      "value_target": null
                     }
                   ]
                 },
@@ -1987,39 +2301,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 27
+                      "value": 27,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 20
+                      "value": 20,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 24
+                      "value": 24,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 27
+                      "value": 27,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 22
+                      "value": 22,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 27
+                      "value": 27,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 28
+                      "value": 28,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 24
+                      "value": 24,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 52
+                      "value": 52,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2043,19 +2366,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 139
+                      "value": 139,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2066,11 +2393,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.3472
+                      "value": 0.3472,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.6527
+                      "value": 0.6527,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2081,7 +2410,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.972
+                      "value": 0.972,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2092,39 +2422,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 67
+                      "value": 67,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 72
+                      "value": 72,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2148,19 +2487,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 146
+                      "value": 146,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2171,11 +2514,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.33
+                      "value": 0.33,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.67
+                      "value": 0.67,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2186,7 +2531,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 1.0
+                      "value": 1.0,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2197,39 +2543,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 146
+                      "value": 146,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2261,19 +2616,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 2475
+                      "value": 2475,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2284,11 +2643,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.565
+                      "value": 0.565,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.435
+                      "value": 0.435,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2299,7 +2660,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.44
+                      "value": 0.44,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2310,39 +2672,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 119
+                      "value": 119,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 202
+                      "value": 202,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 769
+                      "value": 769,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 278
+                      "value": 278,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 107
+                      "value": 107,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 74
+                      "value": 74,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 103
+                      "value": 103,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 45
+                      "value": 45,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 778
+                      "value": 778,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2398,19 +2769,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 8573
+                      "value": 8573,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2421,11 +2796,13 @@
                   "values": [
                     {
                       "key": "Percentage (%) male",
-                      "value": 0.66
+                      "value": 0.66,
+                      "value_target": null
                     },
                     {
                       "key": "Percentage (%) female",
-                      "value": 0.34
+                      "value": 0.34,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2436,7 +2813,8 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.445
+                      "value": 0.445,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2447,39 +2825,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 1142
+                      "value": 1142,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 672
+                      "value": 672,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 2585
+                      "value": 2585,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 603
+                      "value": 603,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1049
+                      "value": 1049,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 308
+                      "value": 308,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 817
+                      "value": 817,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 517
+                      "value": 517,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 880
+                      "value": 880,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2565,19 +2952,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 3617
+                      "value": 3617,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2588,39 +2979,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 31
+                      "value": 31,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 160
+                      "value": 160,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2947
+                      "value": 2947,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 403
+                      "value": 403,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 76
+                      "value": 76,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2650,8 +3050,8 @@
         56
       ],
       "achievement_lines": [
-        46,
-        54
+        47,
+        55
       ],
       "sections": [
         {
@@ -2669,7 +3069,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 1841,
+              "value": 1886,
               "dimensions": [],
               "value_target": 37079,
               "implementation_detail": null
@@ -2685,7 +3085,7 @@
             {
               "name": "Water and Energy Efficiency",
               "metric_type": "count",
-              "value": 167,
+              "value": 157,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2694,19 +3094,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 138
+                      "value": 129,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 167
+                      "value": 182,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 167
+                      "value": 157,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2717,11 +3121,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.41
+                      "value": 0.41,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.59
+                      "value": 0.59,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2732,7 +3138,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 1.0
+                      "value": 1.0,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2743,39 +3150,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 167
+                      "value": 167,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2786,7 +3202,7 @@
             {
               "name": "Water and Sanitation Facilities Management",
               "metric_type": "count",
-              "value": 157,
+              "value": 496,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2795,19 +3211,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 129
+                      "value": 410,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 182
+                      "value": 482,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 157
+                      "value": 496,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2818,11 +3238,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.43
+                      "value": 0.43,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.57
+                      "value": 0.57,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2833,7 +3255,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.9999
+                      "value": 0.9999,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2844,39 +3267,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 17
+                      "value": 17,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 11
+                      "value": 11,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 30
+                      "value": 30,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 44
+                      "value": 44,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 7
+                      "value": 7,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 48
+                      "value": 48,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2887,7 +3319,7 @@
             {
               "name": "Welisizwe Rural Bridges Programme",
               "metric_type": "count",
-              "value": 496,
+              "value": 349,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2896,19 +3328,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 410
+                      "value": 288,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 482
+                      "value": 336,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 496
+                      "value": 349,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2919,11 +3355,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.48
+                      "value": 0.48,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.52
+                      "value": 0.52,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2934,7 +3372,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.9999
+                      "value": 0.9999,
+                      "value_target": null
                     }
                   ]
                 },
@@ -2945,39 +3384,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 159
+                      "value": 159,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 100
+                      "value": 100,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 44
+                      "value": 44,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 46
+                      "value": 46,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 95
+                      "value": 95,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 16
+                      "value": 16,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 18
+                      "value": 18,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 18
+                      "value": 18,
+                      "value_target": null
                     }
                   ]
                 }
@@ -2988,7 +3436,7 @@
             {
               "name": "Facilities Management",
               "metric_type": "count",
-              "value": 349,
+              "value": 108,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2997,19 +3445,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 288
+                      "value": 89,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 336
+                      "value": 108,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 349
+                      "value": 108,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3020,11 +3472,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.55
+                      "value": 0.55,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.45
+                      "value": 0.45,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3035,7 +3489,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.9999
+                      "value": 0.9999,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3046,39 +3501,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 47
+                      "value": 47,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 52
+                      "value": 52,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 70
+                      "value": 70,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 13
+                      "value": 13,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 38
+                      "value": 38,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 44
+                      "value": 44,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 15
+                      "value": 15,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 8
+                      "value": 8,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 62
+                      "value": 62,
+                      "value_target": null
                     }
                   ]
                 }
@@ -3089,7 +3553,7 @@
             {
               "name": "Real Estate",
               "metric_type": "count",
-              "value": 108,
+              "value": 134,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3098,19 +3562,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 89
+                      "value": 110,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 108
+                      "value": 134,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 108
+                      "value": 134,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3121,11 +3589,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.4
+                      "value": 0.4,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.6
+                      "value": 0.6,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3136,7 +3606,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 1.0
+                      "value": 1.0,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3147,39 +3618,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 18
+                      "value": 18,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 7
+                      "value": 7,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 44
+                      "value": 44,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 8
+                      "value": 8,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 10
+                      "value": 10,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 7
+                      "value": 7,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 2
+                      "value": 2,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 12
+                      "value": 12,
+                      "value_target": null
                     }
                   ]
                 }
@@ -3190,7 +3670,7 @@
             {
               "name": "In-House Construction projects",
               "metric_type": "count",
-              "value": 134,
+              "value": 430,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3199,19 +3679,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 110
+                      "value": 308,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 134
+                      "value": 421,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 134
+                      "value": 430,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3222,11 +3706,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.44
+                      "value": 0.44,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.56
+                      "value": 0.56,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3237,7 +3723,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.9
+                      "value": 0.9,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3248,39 +3735,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 71
+                      "value": 71,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 41
+                      "value": 41,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 22
+                      "value": 22,
+                      "value_target": null
                     }
                   ]
                 }
@@ -3291,7 +3787,7 @@
             {
               "name": "Public Private Collaborations",
               "metric_type": "count",
-              "value": 430,
+              "value": 45,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3300,19 +3796,23 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 308
+                      "value": 37,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 421
+                      "value": 45,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 430
+                      "value": 45,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3323,11 +3823,13 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.33
+                      "value": 0.33,
+                      "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.67
+                      "value": 0.67,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3338,7 +3840,8 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.9998
+                      "value": 0.9998,
+                      "value_target": null
                     }
                   ]
                 },
@@ -3349,39 +3852,48 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 54
+                      "value": 54,
+                      "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 367
+                      "value": 367,
+                      "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 9
+                      "value": 9,
+                      "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
@@ -3451,26 +3963,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 12690
+                      "value": 12690,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                12690
-              ],
+              "value_target": 12690,
               "implementation_detail": {
                 "programme_name": "Cleaning and greening - war on waste with municipalities",
                 "status": "MinorChallenges",
@@ -3489,26 +4003,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 1750
+                      "value": 1750,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                1750
-              ],
+              "value_target": 1750,
               "implementation_detail": {
                 "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
                 "status": "MinorChallenges",
@@ -3527,26 +4043,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 1719
+                      "value": 1719,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                1719
-              ],
+              "value_target": 1719,
               "implementation_detail": {
                 "programme_name": "Oceans and Coast: Source to Sea",
                 "status": "MinorChallenges",
@@ -3565,26 +4083,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 524
+                      "value": 524,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 723
+                      "value": 723,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                524
-              ],
+              "value_target": 524,
               "implementation_detail": {
                 "programme_name": "Groen Sebenzas, weather service - graduate programme",
                 "status": "OnTrack",
@@ -3603,26 +4123,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 1038
+                      "value": 1038,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 1194
+                      "value": 1194,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                1038
-              ],
+              "value_target": 1038,
               "implementation_detail": {
                 "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                 "status": "OnTrack",
@@ -3641,26 +4163,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 1164
+                      "value": 1164,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 608
+                      "value": 608,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                1164
-              ],
+              "value_target": 1164,
               "implementation_detail": {
                 "programme_name": "iSimangaliso: conservation management infrastructure",
                 "status": "OnTrack",
@@ -3679,26 +4203,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 4246
+                      "value": 4246,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 3522
+                      "value": 3522,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                4246
-              ],
+              "value_target": 4246,
               "implementation_detail": {
                 "programme_name": "SANPARKS upgrade and green energy",
                 "status": "OnTrack",
@@ -3717,26 +4243,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 15012
+                      "value": 15012,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 12336
+                      "value": 12336,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                15012
-              ],
+              "value_target": 15012,
               "implementation_detail": {
                 "programme_name": "Catchment management and strategic water sources",
                 "status": "OnTrack",
@@ -3755,26 +4283,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 7524
+                      "value": 7524,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                7524
-              ],
+              "value_target": 7524,
               "implementation_detail": {
                 "programme_name": "Bio-diversity economy",
                 "status": "OnTrack",
@@ -3793,26 +4323,28 @@
                   "values": [
                     {
                       "key": "202010",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202011",
-                      "value": 4644
+                      "value": 4644,
+                      "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0
+                      "value": 0,
+                      "value_target": null
                     }
                   ]
                 }
               ],
-              "value_target": [
-                4644
-              ],
+              "value_target": 4644,
               "implementation_detail": {
                 "programme_name": "Climate Adaptation: Forestry support",
                 "status": "OnTrack",
@@ -3860,6 +4392,26 @@
               "dimensions": [],
               "value_target": 25000,
               "implementation_detail": null
+            }
+          ],
+          "value": null,
+          "value_target": null
+        },
+        {
+          "name": "Job opportunities",
+          "section_type": "job_opportunities",
+          "metrics": [
+            {
+              "name": "Mainstream labour intensive construction methods",
+              "metric_type": "count",
+              "value": 25000,
+              "dimensions": [],
+              "value_target": 0,
+              "implementation_detail": {
+                "programme_name": "Mainstream labour intensive construction methods",
+                "status": "OnTrack",
+                "detail": "MISA is appointing a service provider to deliver the capacity development and roll-out the programme."
+              }
             }
           ],
           "value": null,

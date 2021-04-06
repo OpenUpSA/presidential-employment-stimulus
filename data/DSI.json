@@ -69,19 +69,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 8
+                  "value": 8,
+                  "value_target": null
                 }
               ]
             }

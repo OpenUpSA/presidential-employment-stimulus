@@ -15,7 +15,7 @@ interface Tab {
   paragraph: string
   sections: Array<{
     name: string // Budget allocated to date
-    matrics: Array<{
+    metrics: Array<{
       name: string // Educational and general assistants
       metric_type: 'currency' | 'count'
       value: number

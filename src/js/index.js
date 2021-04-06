@@ -34,44 +34,44 @@ Promise.all([
 ]) => {
   const merged = [data.overview, ...data.departments];
   const tabs = new Tabs();
-  const overviewTab = new Tab(
-      TAB_MENU_SELECTOR,
-      TAB_CONTENT_SELECTOR,
-      data.overview.name,
-      () => tabs.select(0)
-  );
-
-
-
-  new Header(overviewTab.$container, data.overview.name, data.overview.lead, data.overview.paragraph);
-  // TODO: Clean up this ugly code using components etc
-  const $overviewGrid = $thirdsGrid.clone(true, true);
-  const overviewSectionArr = data.overview.sections || [];
-  const overviewSection = new Section(overviewTab.$container, 'Overview', 'An overview of the programmes', '', 'livelihoods');
-
-  overviewSectionArr.forEach((overviewSectionData) => {
-    const subSection = new SubSection(overviewSection.$container);
-    new Metric(
-      subSection.$container,
-      overviewSectionData.name,
-      overviewSectionData.section_type,
-      'count',
-      overviewSectionData.value,
-      overviewSectionData.value_target,
-    );
-    new VizHeading(subSection.$container, overviewSectionData.name);
-    new OverviewVizBars(subSection.$container, overviewSectionData.metrics, lookups.province);
-    // $overviewGrid.append($el);
-  });
-
-  overviewTab.$container.append($overviewGrid);
-  tabs.add(overviewTab);
-  data.departments.forEach((tabData, i) => {
+  // const overviewTab = new Tab(
+  //     TAB_MENU_SELECTOR,
+  //     TAB_CONTENT_SELECTOR,
+  //     data.overview.name,
+  //     () => tabs.select(0)
+  // );
+  //
+  //
+  //
+  // new Header(overviewTab.$container, data.overview.name, data.overview.lead, data.overview.paragraph);
+  // // TODO: Clean up this ugly code using components etc
+  // const $overviewGrid = $thirdsGrid.clone(true, true);
+  // const overviewSectionArr = data.overview.sections || [];
+  // const overviewSection = new Section(overviewTab.$container, 'Overview', 'An overview of the programmes', '', 'livelihoods');
+  //
+  // overviewSectionArr.forEach((overviewSectionData) => {
+  //   const subSection = new SubSection(overviewSection.$container);
+  //   new Metric(
+  //     subSection.$container,
+  //     overviewSectionData.name,
+  //     overviewSectionData.section_type,
+  //     'count',
+  //     overviewSectionData.value,
+  //     overviewSectionData.value_target,
+  //   );
+  //   new VizHeading(subSection.$container, overviewSectionData.name);
+  //   new OverviewVizBars(subSection.$container, overviewSectionData.metrics, lookups.province);
+  //   // $overviewGrid.append($el);
+  // });
+  //
+  // overviewTab.$container.append($overviewGrid);
+  // tabs.add(overviewTab);
+  merged.forEach((tabData, i) => {
     const tab = new Tab(
       TAB_MENU_SELECTOR,
       TAB_CONTENT_SELECTOR,
       tabData.name,
-      () => tabs.select(i+1),
+      () => tabs.select(i),
     );
     tabs.add(tab);
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph);
@@ -135,7 +135,7 @@ Promise.all([
         }
       });
     });
-    if (tabData.implementation_details.length > 0) {
+    if (typeof tabData.implementation_details !== 'undefined' && tabData.implementation_details.length > 0) {
       new Section(tab.$container, 'Implementation status reports', '', '', '');
       tabData.implementation_details.forEach((implData) => {
         const $implGrid = $thirdsGrid.clone(true, true);

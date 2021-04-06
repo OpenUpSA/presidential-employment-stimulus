@@ -5,7 +5,7 @@ from typing import List, Union
 from dataclasses_json import dataclass_json
 
 SectionEnum = Enum(
-    "Section", "targets budget_allocated job_opportunities jobs_retain livelihoods"
+    "Section", "targets overview budget_allocated job_opportunities jobs_retain livelihoods"
 )
 
 MetricTypeEnum = Enum("MetricType", "currency count")
@@ -59,6 +59,7 @@ class ImplementationDetail:
 class MetricValue:
     key: str
     value: Union[float, int]
+    value_target: Union[float, int] = None
 
 
 @dataclass_json
@@ -85,8 +86,8 @@ class Metric:
 class Section:
     name: str
     section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
-    metric_type = str  # enum of MetricTypeEnum
     metrics: List[Metric]
+    metric_type = str = None # enum of MetricTypeEnum
     value: int = None
     value_target: int = None
 
@@ -105,16 +106,6 @@ class Department:
     implementation_details: List[ImplementationDetail]
 
 
-@dataclass_json
-@dataclass
-class OverviewSection(Section):
-    name: str
-    section_type: str
-    metric_type: str  # summarise all the Metrics in this section
-    value: int
-    value_target: int
-    metrics: List[Metric]
-
 
 @dataclass_json
 @dataclass
@@ -123,7 +114,7 @@ class Overview:
     name: str  # Would normally be "Programme Overview"
     lead: str
     paragraph: str
-    sections: List[OverviewSection]
+    sections: List[Section]
 
 
 @dataclass_json
@@ -231,3 +222,5 @@ target_to_imp_programme_mapping = {
     "Water and Sanitation Facilities Management": "Water and Sanitation Facilities Management (PMTE)",
     "Welisizwe Rural Bridges Programme": "Welisizwe Rural Bridges Programme (PMTE) ",
 }
+
+strip_ws = lambda iterable: [pn.strip() for pn in iterable]

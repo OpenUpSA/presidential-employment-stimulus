@@ -42,7 +42,7 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
-          "name": "Global Business Services Sector",
+          "name": "Services sector development incentives",
           "metric_type": "count",
           "value": 4036,
           "dimensions": [
@@ -53,19 +53,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 1178
+                  "value": 1178,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 2726
+                  "value": 2726,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 4036
+                  "value": 4036,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 4036
+                  "value": 4036,
+                  "value_target": null
                 }
               ]
             },
@@ -76,11 +80,13 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.34
+                  "value": 0.34,
+                  "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.66
+                  "value": 0.66,
+                  "value_target": null
                 }
               ]
             },
@@ -91,7 +97,8 @@
               "values": [
                 {
                   "key": "18-35",
-                  "value": 0.85
+                  "value": 0.85,
+                  "value_target": null
                 }
               ]
             },
@@ -102,35 +109,43 @@
               "values": [
                 {
                   "key": "FS",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 366
+                  "value": 366,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 1919
+                  "value": 1919,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 1749
+                  "value": 1749,
+                  "value_target": null
                 }
               ]
             }

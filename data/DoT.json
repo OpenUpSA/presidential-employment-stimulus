@@ -53,19 +53,23 @@
               "values": [
                 {
                   "key": "202010",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202011",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 3617
+                  "value": 3617,
+                  "value_target": null
                 }
               ]
             },
@@ -76,39 +80,48 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 31
+                  "value": 31,
+                  "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 0
+                  "value": 0,
+                  "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 160
+                  "value": 160,
+                  "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 2947
+                  "value": 2947,
+                  "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 403
+                  "value": 403,
+                  "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 76
+                  "value": 76,
+                  "value_target": null
                 }
               ]
             }
