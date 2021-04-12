@@ -44,62 +44,57 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "Trade, Industry and Competition",
+                    "key": "DTIC",
                     "value": 4036,
                     "value_target": 0
                   },
                   {
-                    "key": "Total",
-                    "value": 387196,
-                    "value_target": 510070
-                  },
-                  {
-                    "key": "Basic Education",
+                    "key": "DBE",
                     "value": 328894,
                     "value_target": 300000
                   },
                   {
-                    "key": "Social Development",
+                    "key": "DSD",
                     "value": 0,
                     "value_target": 108833
                   },
                   {
-                    "key": "Health",
+                    "key": "DoH",
                     "value": 3967,
                     "value_target": 5531
                   },
                   {
-                    "key": "Agriculture, Land Reform and Rural Development",
+                    "key": "DALLRD",
                     "value": 0,
                     "value_target": 0
                   },
                   {
-                    "key": "Science and Innovation",
+                    "key": "DSI",
                     "value": 8,
                     "value_target": 1900
                   },
                   {
-                    "key": "Sports, Arts and Culture",
+                    "key": "DSAC",
                     "value": 1572,
                     "value_target": 4356
                   },
                   {
-                    "key": "Transport",
+                    "key": "DoT",
                     "value": 3617,
                     "value_target": 37079
                   },
                   {
-                    "key": "Public Works and Infrastructure",
+                    "key": "DPWI",
                     "value": 1719,
                     "value_target": 1560
                   },
                   {
-                    "key": "Environment, Forestry and Fisheries",
+                    "key": "DEFF",
                     "value": 18383,
                     "value_target": 50311
                   },
                   {
-                    "key": "Co-operative government",
+                    "key": "DCOGTA",
                     "value": 25000,
                     "value_target": 0
                   }
@@ -147,17 +142,12 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "Agriculture, Land Reform and Rural Development",
+                    "key": "DALLRD",
                     "value": 93984,
                     "value_target": 74626
                   },
                   {
-                    "key": "Total",
-                    "value": 102557,
-                    "value_target": 90340
-                  },
-                  {
-                    "key": "Sports, Arts and Culture",
+                    "key": "DSAC",
                     "value": 8573,
                     "value_target": 15714
                   }
@@ -205,22 +195,17 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "Basic Education",
+                    "key": "DBE",
                     "value": 26779,
                     "value_target": 44933
                   },
                   {
-                    "key": "Total",
-                    "value": 30340,
-                    "value_target": 133559
-                  },
-                  {
-                    "key": "Social Development",
+                    "key": "DSD",
                     "value": 1086,
                     "value_target": 74626
                   },
                   {
-                    "key": "Sports, Arts and Culture",
+                    "key": "DSAC",
                     "value": 2475,
                     "value_target": 14000
                   }

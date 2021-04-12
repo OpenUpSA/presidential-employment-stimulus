@@ -22,5 +22,13 @@
     "DPWI": "Public Works and Infrastructure",
     "DEFF": "Environment, Forestry and Fisheries",
     "DCOGTA": "Co-operative government"
+  },
+  "time": {
+    "202010": "Oct '20",
+    "202011": "Nov '20",
+    "202012": "Dec '20",
+    "202101": "Jan '21",
+    "202102": "Feb '21",
+    "202103": "Mar '21"
   }
 }

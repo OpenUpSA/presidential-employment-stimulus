@@ -26,6 +26,9 @@ export const FORMATTERS = {
   count: formatCount,
   currency: formatAmount,
   percentage: formatPercentage,
+  job_opportunities: formatCount,
+  livelihoods: formatCount,
+  jobs_retain: formatCount,
 };
 
 export function organizeByZero(array) {
