@@ -20,6 +20,7 @@ export class VizProgress {
     const data = { done: this._quotient, notdone: 1 - this._quotient };
     const pie = d3.pie()
       .value((d) => d.value);
+    pie.sort((a, b) => a.key < b.key);
     const pieData = pie(d3.entries(data));
     const svg = d3.select(this._parentSelector)
       .append('svg')
