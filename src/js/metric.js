@@ -31,7 +31,6 @@ export class Metric {
     this._title = title;
     this._sectionType = sectionType;
     this._metricType = metricType;
-    console.log(this._metricType);
     this._formatter = FORMATTERS[this._metricType];
     this._value = value === -1 ? null : value;
     this._target = target === -1 ? null : target;
