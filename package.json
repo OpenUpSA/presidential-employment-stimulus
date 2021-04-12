@@ -45,7 +45,8 @@
   },
   "dependencies": {
     "d3": "^6.5.0",
-    "d3-collection": "^1.0.7",
+    "d3-array": "^2.12.1",
+    "d3-axis": "^2.1.0",
     "d3-fetch": "^2.0.0",
     "d3-scale": "^3.2.3",
     "d3-selection": "^2.0.0",

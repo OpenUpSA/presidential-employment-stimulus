@@ -1,6 +1,5 @@
 import { bisector, extent, max } from 'd3-array';
 import { axisBottom, axisLeft } from 'd3-axis';
-import { entries } from 'd3-collection';
 import { json } from 'd3-fetch';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import {
@@ -15,7 +14,6 @@ export const d3 = {
   axisLeft,
   bisector,
   data,
-  entries,
   extent,
   json,
   line,
