@@ -31,7 +31,7 @@ export class VizBars {
       const $tooltip = $row.find(BAR_TOOLTIP_SELECTOR).text(this._lookup[row.key]);
       $row.on('mouseover', () => $tooltip.show());
       $row.on('mouseout', () => $tooltip.hide());
-      $row.find(BAR_CAT_LABEL_SELECTOR).text(row.key);
+      $row.find(BAR_CAT_LABEL_SELECTOR).text(row.key.toUpperCase());
       $row.find(BAR_VAL_LABEL_SELECTOR).text(row.value);
       $el.append($row);
     });

@@ -31,6 +31,7 @@ export class Metric {
     this._title = title;
     this._sectionType = sectionType;
     this._metricType = metricType;
+    console.log(this._metricType);
     this._formatter = FORMATTERS[this._metricType];
     this._value = value === -1 ? null : value;
     this._target = target === -1 ? null : target;
@@ -41,9 +42,10 @@ export class Metric {
       this._iconType = this._sectionType + '_' + this._metricType;
       this._topText = this._formatter(this._target);
       this._bottomText = `${metricType === 'currency' ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
-    } else if (sectionType === 'overview') {
-      this._iconType = this._metricType;
     } else {
+      if (sectionType === 'overview') {
+        this._iconType = this._metricType;
+      }
       this._topText = this._formatter(this._value);
       this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : null;
     }

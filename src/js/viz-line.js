@@ -18,9 +18,10 @@ const marginPercent = (MARGIN / HEIGHT) * 100;
 const maxPercent = 100 - marginPercent;
 
 export class VizLine {
-  constructor($parent, values) {
+  constructor($parent, values, lookup) {
     this._$parent = $parent;
     this._values = values;
+    this._lookup = lookup;
     this.render();
   }
 
@@ -36,7 +37,7 @@ export class VizLine {
     const $graph = $containerTemplate.clone();
     data.forEach((record, i) => {
       const $period = $periodTemplate.clone(true, true);
-      $period.find(DATE_SELECTOR).text(record.name);
+      $period.find(DATE_SELECTOR).text(this._lookup[record.key]);
       const $tooltip = $period.find(TOOLTOP_SELECTOR)
         .text(formatCount(record.value));
       $period

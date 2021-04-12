@@ -93,7 +93,7 @@ Promise.all([
         subSectionData.dimensions.forEach((dimension) => {
           if (dimension.viz === 'line') {
             new VizHeading(subSection.$container, dimension.name);
-            new VizLine(subSection.$container, dimension.values);
+            new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
           }
           if (dimension.viz === 'two_value') {
             new VizHeading(subSection.$container, dimension.name);

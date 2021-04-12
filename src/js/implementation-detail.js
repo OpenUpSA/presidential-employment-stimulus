@@ -14,11 +14,11 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
     [key]: $(ICON_SELECTORS[key]).clone(true, true),
 }), {});
 
-const CONTAINER_SELECTOR = '.block.status-update';
+const CONTAINER_SELECTOR = '.feature-value__current-status';
 const NAME_SELECTOR = '.status-update__label';
 const ICON_CONTAINER_SELECTOR = '.feature-value__header_icon-wrapper';
 // const VALUE_SELECTOR = '.feature-value__amount';
-const STATUS_SELECTOR = '.status-update__current-status';
+const STATUS_SELECTOR = '.feature-value__current-status';
 const LATEST_UPDATE_SELECTOR = '.uppercase-label.uppercase-label--border-top';
 const DETAIL_SELECTOR = '.status-update__description.w-richtext';
 const PROGRESS_CLASS = 'feature-value__header_chart-wrapper';
@@ -26,11 +26,11 @@ const GREEN_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--gre
 const YELLOW_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--yellow';
 const RED_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--red';
 
-const $containerTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
-
+const $topHeaderTemplate = $(LATEST_UPDATE_SELECTOR).first().clone(true, true);
 const $greenStatus = $(GREEN_STATUS_SELECTOR).first().clone(true, true);
 const $redStatus = $(RED_STATUS_SELECTOR).first().clone(true, true);
 const $yellowStatus = $(YELLOW_STATUS_SELECTOR).first().clone(true, true);
+const $detailTemplate = $(DETAIL_SELECTOR).first().clone();
 
 const statusText = {
     OnTrack: 'On Track',
@@ -58,23 +58,18 @@ export class ImplementationDetail {
     }
 
     render() {
-        this._$el = $containerTemplate.clone(true, true);
-        this._$parent.append(this._$el);
-        // const $statusSelector = this._$el.find(STATUS_SELECTOR);
-        // $statusSelector.text(this._detail);
-        this._$el.find('.feature-value__header_icon-wrapper').remove();
         let $statusDisplay = statusToColour[this._status].clone(true, true);
         $statusDisplay.text(statusText[this._status]);
-        this._$el.find(STATUS_SELECTOR).replaceWith($statusDisplay);
 
-        this._$el.find(LATEST_UPDATE_SELECTOR).remove();
+        let topHeader = $topHeaderTemplate.clone(true, true);
+        topHeader.text('Status update');
+        this._$parent.append(topHeader);
+        this._$parent.append($statusDisplay);
 
-        const $detailSelector = this._$el.find(DETAIL_SELECTOR);
+        const $detailSelector = $detailTemplate.clone(true, true);
         const $detailElement = $('<p>' + this._detail + '</p>');
         $detailSelector.empty();
         $detailSelector.append($detailElement);
-        // $subValue.remove();
-        this._$el.find(NAME_SELECTOR).text(this._title);
-        this._$el.find('img').remove();
+        this._$parent.append($detailSelector);
     }
 }
