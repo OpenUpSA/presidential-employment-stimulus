@@ -20,7 +20,7 @@
           {
             "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 495260,
+            "value": 494431,
             "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
@@ -36,7 +36,7 @@
           {
             "name": "Job opportunities",
             "metric_type": "job_opportunities",
-            "value": 387196,
+            "value": 361367,
             "dimensions": [
               {
                 "name": "by department",
@@ -46,7 +46,7 @@
                   {
                     "key": "DTIC",
                     "value": 4036,
-                    "value_target": 0
+                    "value_target": 8000
                   },
                   {
                     "key": "DBE",
@@ -56,7 +56,7 @@
                   {
                     "key": "DSD",
                     "value": 0,
-                    "value_target": 108833
+                    "value_target": 500
                   },
                   {
                     "key": "DoH",
@@ -64,7 +64,7 @@
                     "value_target": 5531
                   },
                   {
-                    "key": "DALLRD",
+                    "key": "DALRRD",
                     "value": 0,
                     "value_target": 0
                   },
@@ -75,7 +75,7 @@
                   },
                   {
                     "key": "DSAC",
-                    "value": 1572,
+                    "value": 743,
                     "value_target": 4356
                   },
                   {
@@ -95,8 +95,8 @@
                   },
                   {
                     "key": "DCOGTA",
-                    "value": 25000,
-                    "value_target": 0
+                    "value": 0,
+                    "value_target": 25000
                   }
                 ]
               },
@@ -112,23 +112,23 @@
                   },
                   {
                     "key": "202011",
-                    "value": 357038,
+                    "value": 356158,
                     "value_target": null
                   },
                   {
                     "key": "202012",
-                    "value": 330434,
+                    "value": 329554,
                     "value_target": null
                   },
                   {
                     "key": "202101",
-                    "value": 362196,
+                    "value": 361367,
                     "value_target": null
                   }
                 ]
               }
             ],
-            "value_target": 510070,
+            "value_target": 434237,
             "implementation_detail": null
           },
           {
@@ -142,7 +142,12 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "DALLRD",
+                    "key": "DSD",
+                    "value": 0,
+                    "value_target": 108833
+                  },
+                  {
+                    "key": "DALRRD",
                     "value": 93984,
                     "value_target": 74626
                   },
@@ -181,13 +186,13 @@
                 ]
               }
             ],
-            "value_target": 90340,
+            "value_target": 199173,
             "implementation_detail": null
           },
           {
             "name": "Jobs retained",
             "metric_type": "jobs_retain",
-            "value": 30340,
+            "value": 29254,
             "dimensions": [
               {
                 "name": "by department",
@@ -201,8 +206,8 @@
                   },
                   {
                     "key": "DSD",
-                    "value": 1086,
-                    "value_target": 74626
+                    "value": 0,
+                    "value_target": 1809
                   },
                   {
                     "key": "DSAC",
@@ -223,23 +228,23 @@
                   },
                   {
                     "key": "202011",
-                    "value": 45682,
+                    "value": 44933,
                     "value_target": null
                   },
                   {
                     "key": "202012",
-                    "value": 22781,
+                    "value": 21988,
                     "value_target": null
                   },
                   {
                     "key": "202101",
-                    "value": 30340,
+                    "value": 29254,
                     "value_target": null
                   }
                 ]
               }
             ],
-            "value_target": 133559,
+            "value_target": 60742,
             "implementation_detail": null
           }
         ],
@@ -401,7 +406,7 @@
                   ]
                 }
               ],
-              "value_target": -1,
+              "value_target": 8000,
               "implementation_detail": {
                 "programme_name": "Services sector development incentives",
                 "status": "OnTrack",
@@ -739,7 +744,7 @@
               "implementation_detail": {
                 "programme_name": "Retain vulnerable teaching posts",
                 "status": "MinorChallenges",
-                "detail": "The programme was undersubscribed and the deaprtment is exploring alternative use for unspent funds"
+                "detail": "The programme was undersubscribed and the department is exploring alternative use for unspent funds"
               }
             }
           ],
@@ -815,7 +820,7 @@
             {
               "name": "Retention of social workers",
               "metric_type": "count",
-              "value": 1086,
+              "value": 0,
               "dimensions": [
                 {
                   "name": "Jobs saved by gender",
@@ -823,12 +828,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": 1,
+                      "key": "Male",
                       "value": 0.13,
                       "value_target": null
                     },
                     {
-                      "key": 2,
+                      "key": "Female",
                       "value": 0.87,
                       "value_target": null
                     }
@@ -858,17 +863,17 @@
                     },
                     {
                       "key": "202011",
-                      "value": 749,
+                      "value": 0,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 793,
+                      "value": 0,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 1086,
+                      "value": 0,
                       "value_target": null
                     }
                   ]
@@ -926,7 +931,7 @@
                   ]
                 }
               ],
-              "value_target": 74626,
+              "value_target": 1809,
               "implementation_detail": {
                 "programme_name": "Retention of social workers",
                 "status": "OnTrack",
@@ -939,7 +944,7 @@
         },
         {
           "name": "Job opportunities",
-          "section_type": "job_opportunities",
+          "section_type": "livelihoods",
           "metrics": [
             {
               "name": "ECD income and compliance support",
@@ -1196,7 +1201,7 @@
               "implementation_detail": {
                 "programme_name": "Community Health Workers",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+                "detail": "The department faced severe constraints related to recruitment and the programme will not be implemented."
               }
             },
             {
@@ -1208,7 +1213,7 @@
               "implementation_detail": {
                 "programme_name": "Outreach Team Leaders",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to recruitmentand the programme will not be implemented."
+                "detail": "The department faced severe constraints related to recruitment and the programme will not be implemented."
               }
             }
           ],
@@ -1221,9 +1226,9 @@
     {
       "month": 202101,
       "name": "Agriculture, Land Reform and Rural Development",
-      "sheet_name": "DALLRD",
+      "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
-      "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. ",
+      "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers.",
       "target_lines": [
         8,
         14
@@ -1817,7 +1822,7 @@
       "name": "Science and Innovation",
       "sheet_name": "DSI",
       "lead": "Supporting new graduates entering a hostile labour market",
-      "paragraph": "Given a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\n\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
+      "paragraph": "Given a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\\n\\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
       "target_lines": [
         43,
         47
@@ -1876,7 +1881,7 @@
               "implementation_detail": {
                 "programme_name": "CSIR - Enviro-champs",
                 "status": "MinorChallenges",
-                "detail": "Appointed enviro-champs have received training and commenced work however transfer of funds was delayed resulting in a slow start."
+                "detail": "The transfer of funds was delayed resulting in a slow start."
               }
             },
             {
@@ -1968,7 +1973,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 12620,
+              "value": 11791,
               "dimensions": [],
               "value_target": 34070,
               "implementation_detail": null
@@ -2031,12 +2036,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.7,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.3,
                       "value_target": null
                     }
@@ -2129,7 +2134,7 @@
             {
               "name": "Public Art, towards a people's culture - Community Arts Centres",
               "metric_type": "count",
-              "value": 880,
+              "value": 51,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2143,69 +2148,17 @@
                     },
                     {
                       "key": "202011",
-                      "value": 880,
+                      "value": 0,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 880,
+                      "value": 0,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 880,
-                      "value_target": null
-                    }
-                  ]
-                },
-                {
-                  "name": "Opportunities by Province",
-                  "viz": "bar",
-                  "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 80,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 100,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 100,
+                      "value": 51,
                       "value_target": null
                     }
                   ]
@@ -2256,12 +2209,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.39,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.61,
                       "value_target": null
                     }
@@ -2377,12 +2330,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.3472,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.6527,
                       "value_target": null
                     }
@@ -2498,12 +2451,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.33,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.67,
                       "value_target": null
                     }
@@ -2627,12 +2580,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.565,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.435,
                       "value_target": null
                     }
@@ -2707,7 +2660,7 @@
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
                 "status": "CriticalChallenges",
-                "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practictioners"
+                "detail": "This stream was undersubscribed and the department is exploring transferring the  unspent funds to increase the support to art and culture practitioners"
               }
             },
             {
@@ -2719,7 +2672,7 @@
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
                 "status": "OnTrack",
-                "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+                "detail": "There were several institutional challenges which have now been resolved. The programme will soon commence with implementation."
               }
             },
             {
@@ -2780,12 +2733,12 @@
                   "lookup": "gender",
                   "values": [
                     {
-                      "key": "Percentage (%) male",
+                      "key": "Male",
                       "value": 0.66,
                       "value_target": null
                     },
                     {
-                      "key": "Percentage (%) female",
+                      "key": "Female",
                       "value": 0.34,
                       "value_target": null
                     }
@@ -2872,7 +2825,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                 "status": "OnTrack",
-                "detail": "There were several insitutional challenges which have now been resolved. The programme will soon commence with implementation."
+                "detail": "There were several institutional challenges which have now been resolved. The programme will soon commence with implementation."
               }
             }
           ],
@@ -4389,9 +4342,9 @@
             {
               "name": "Mainstream labour intensive construction methods",
               "metric_type": "count",
-              "value": 25000,
+              "value": 0,
               "dimensions": [],
-              "value_target": 0,
+              "value_target": 25000,
               "implementation_detail": {
                 "programme_name": "Mainstream labour intensive construction methods",
                 "status": "OnTrack",

@@ -150,7 +150,7 @@
               ]
             }
           ],
-          "value_target": -1,
+          "value_target": 8000,
           "implementation_detail": null
         }
       ],

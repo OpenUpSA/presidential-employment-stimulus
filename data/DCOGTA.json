@@ -44,9 +44,9 @@
         {
           "name": "Mainstream labour intensive construction methods",
           "metric_type": "count",
-          "value": 25000,
+          "value": 0,
           "dimensions": [],
-          "value_target": 0,
+          "value_target": 25000,
           "implementation_detail": null
         }
       ],
