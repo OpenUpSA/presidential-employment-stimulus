@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 12620,
+          "value": 11791,
           "dimensions": [],
           "value_target": 34070,
           "implementation_detail": null
@@ -87,12 +87,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.7,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.3,
                   "value_target": null
                 }
@@ -177,7 +177,7 @@
         {
           "name": "Public Art, towards a people's culture - Community Arts Centres",
           "metric_type": "count",
-          "value": 880,
+          "value": 51,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -191,69 +191,17 @@
                 },
                 {
                   "key": "202011",
-                  "value": 880,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 880,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 880,
-                  "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Province",
-              "viz": "bar",
-              "lookup": "province",
-              "values": [
-                {
-                  "key": "EC",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "FS",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "GP",
-                  "value": 80,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "MP",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "NC",
-                  "value": 100,
-                  "value_target": null
-                },
-                {
-                  "key": "WC",
-                  "value": 100,
+                  "value": 51,
                   "value_target": null
                 }
               ]
@@ -300,12 +248,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.39,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.61,
                   "value_target": null
                 }
@@ -417,12 +365,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.3472,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.6527,
                   "value_target": null
                 }
@@ -534,12 +482,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.33,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.67,
                   "value_target": null
                 }
@@ -659,12 +607,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.565,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.435,
                   "value_target": null
                 }
@@ -800,12 +748,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": "Percentage (%) male",
+                  "key": "Male",
                   "value": 0.66,
                   "value_target": null
                 },
                 {
-                  "key": "Percentage (%) female",
+                  "key": "Female",
                   "value": 0.34,
                   "value_target": null
                 }

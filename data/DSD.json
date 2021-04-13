@@ -60,7 +60,7 @@
         {
           "name": "Retention of social workers",
           "metric_type": "count",
-          "value": 1086,
+          "value": 0,
           "dimensions": [
             {
               "name": "Jobs saved by gender",
@@ -68,12 +68,12 @@
               "lookup": "gender",
               "values": [
                 {
-                  "key": 1,
+                  "key": "Male",
                   "value": 0.13,
                   "value_target": null
                 },
                 {
-                  "key": 2,
+                  "key": "Female",
                   "value": 0.87,
                   "value_target": null
                 }
@@ -103,17 +103,17 @@
                 },
                 {
                   "key": "202011",
-                  "value": 749,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 793,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 1086,
+                  "value": 0,
                   "value_target": null
                 }
               ]
@@ -171,7 +171,7 @@
               ]
             }
           ],
-          "value_target": 74626,
+          "value_target": 1809,
           "implementation_detail": null
         }
       ],
@@ -180,7 +180,7 @@
     },
     {
       "name": "Job opportunities",
-      "section_type": "job_opportunities",
+      "section_type": "livelihoods",
       "metrics": [
         {
           "name": "ECD income and compliance support",

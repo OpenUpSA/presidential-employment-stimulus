@@ -487,6 +487,8 @@ p {
 }
 
 .bar-chart__row_value.small {
+  position: relative;
+  z-index: 1;
   width: 60px;
   margin-right: -60px;
 }
@@ -760,6 +762,7 @@ p {
 }
 
 .feautre-value__sub-amount {
+  min-height: 22px;
   color: #6f6f71;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -1109,7 +1112,7 @@ p {
 
 .bar-chart__row_target {
   position: absolute;
-  left: 0%;
+  left: 20%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1121,6 +1124,7 @@ p {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #000;
+  opacity: 0.25;
 }
 
 .text-block-4 {

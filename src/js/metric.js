@@ -40,7 +40,12 @@ export class Metric {
     if (sectionType === 'targets') {
       this._iconType = this._sectionType + '_' + this._metricType;
       this._topText = this._formatter(this._target);
-      this._bottomText = `${metricType === 'currency' ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
+      if (metricType === "currency" && !this._value) {
+        this._bottomText = undefined;  // remove the target spend amount
+      } else {
+        this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
+      }
+
     } else {
       if (sectionType === 'overview') {
         this._iconType = this._metricType;
@@ -64,11 +69,8 @@ export class Metric {
     this._$el.find(VALUE_SELECTOR).text(this._topText);
     this._$el.find('img').remove();
     const $subValue = this._$el.find(SUB_VALUE_SELECTOR);
-    if (this._bottomText) {
-      $subValue.text(this._bottomText);
-    } else {
-      $subValue.remove();
-    }
+    $subValue.text(this._bottomText ? this._bottomText : "");
+
     const $chartWrapper = this._$el.find(`.${PROGRESS_CLASS}`);
     if (this._quotient) {
       const chartId = `progress-chart-${Math.round(Math.random() * 1000000)}`;
