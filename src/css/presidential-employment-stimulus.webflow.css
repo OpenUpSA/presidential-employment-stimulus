@@ -37,6 +37,7 @@ p {
 
 .embed-container {
   position: relative;
+  height: auto;
   max-width: 1340px;
   margin-right: auto;
   margin-left: auto;
