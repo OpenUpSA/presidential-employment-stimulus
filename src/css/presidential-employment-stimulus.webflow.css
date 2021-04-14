@@ -1,4 +1,5 @@
 body {
+  min-height: auto;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
