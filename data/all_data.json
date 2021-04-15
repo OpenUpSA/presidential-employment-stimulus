@@ -36,7 +36,7 @@
           {
             "name": "Job opportunities",
             "metric_type": "job_opportunities",
-            "value": 361367,
+            "value": 362831,
             "dimensions": [
               {
                 "name": "by department",
@@ -65,7 +65,7 @@
                   },
                   {
                     "key": "DALRRD",
-                    "value": 0,
+                    "value": 1464,
                     "value_target": 0
                   },
                   {
