@@ -43,8 +43,8 @@ export class VizBars {
       $row.find(BAR_TARGET_SELECTOR).css('left', `${target}%`);
       const $targetTooltip = $row.find(BAR_TARGET_TOOLTIP_SELECTOR).text(`TARGET: ${FORMATTERS.count(row.value_target)}`);
       $row.find(ROW_INNER_SELECTOR)
-        .on('mouseover', () => $targetTooltip.show())
-        .on('mouseout', () => $targetTooltip.hide());
+        .on('mouseover', () => {$row.find(BAR_TARGET_SELECTOR).css('opacity', `1.0`); $targetTooltip.show()} )
+        .on('mouseout', () => {$row.find(BAR_TARGET_SELECTOR).css('opacity', `0.25`);$targetTooltip.hide()} );
       const $label = $row.find(BAR_CAT_LABEL_SELECTOR).text(row.key.toUpperCase());
       const $tooltip = $row.find(BAR_TOOLTIP_SELECTOR).text(this._lookup[row.key]);
       $label
