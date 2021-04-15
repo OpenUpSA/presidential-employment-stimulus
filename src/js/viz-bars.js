@@ -40,11 +40,9 @@ export class VizBars {
       const $row = (row.value_target ? $rowTemplateWithTarget : $rowTemplateNoTarget)
         .clone(true, true);
       $row.find(BAR_SELECTOR).width(`${width}%`);
-      if (row.key === "DALRRD") {
-        console.log(width + ':  ' + row.value + ': ' + this._max);
-      }
       if (target > 0) {
         $row.find(BAR_TARGET_SELECTOR).css('left', `${target}%`);
+        $row.find(BAR_TARGET_SELECTOR).css('z-index', 2);
         const $targetTooltip = $row.find(BAR_TARGET_TOOLTIP_SELECTOR).text(`TARGET: ${FORMATTERS.count(row.value_target)}`);
         $row.find(ROW_INNER_SELECTOR)
             .on('mouseover', () => {$row.find(BAR_TARGET_SELECTOR).css('opacity', `1.0`); $targetTooltip.show()} )
