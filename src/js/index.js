@@ -141,13 +141,13 @@ Promise.all([
       tabData.implementation_details.forEach((implData) => {
         const $implGrid = $thirdsGrid.clone(true, true);
         tab.$container.append($implGrid);
-        const subSection = new SubSection($implGrid);
+        // const subSection = new SubSection($implGrid);
 
         new ImplementationDetail(
-          subSection.$container,
-          implData.programme_name,
-          implData.status,
-          implData.detail,
+            $implGrid,
+            implData.programme_name,
+            implData.status,
+            implData.detail,
             true
         );
       });
