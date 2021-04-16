@@ -3001,7 +3001,7 @@
               "metric_type": "currency",
               "value": -1,
               "dimensions": [],
-              "value_target": 630000000,
+              "value_target": 159000000,
               "implementation_detail": null
             },
             {
@@ -3009,7 +3009,7 @@
               "metric_type": "count",
               "value": 1886,
               "dimensions": [],
-              "value_target": 37079,
+              "value_target": 1560,
               "implementation_detail": null
             }
           ],
