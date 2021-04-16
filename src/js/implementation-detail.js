@@ -16,19 +16,18 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
 
 const LATEST_UPDATE_SELECTOR = '.uppercase-label.uppercase-label--border-top';
 const DETAIL_SELECTOR = '.status-update__description.w-richtext';
-const GREEN_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--green';
-const YELLOW_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--yellow';
-const RED_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--red';
+const CURRENT_STATUS_SELECTOR = '.feature-value__current-status';
+const GREEN_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--green';
+const YELLOW_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--yellow';
+const RED_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--red';
 const STATUS_BLOCK_SELECTOR = '.block.status-update';
 const STATUS_BLOCK_HEADER_SELECTOR = '.status-update__label';
 const STATUS_BLOCK_CS_SELECTOR = '.status-update__current-status';
 const STATUS_BLOCK_UPPERCASE_LABEL_SELECTOR = '.uppercase-label';
 const STATUS_BLOCK_DETAIL_SELECTOR = '.status-update__description.w-richtext>p';
 
+const $currentStatusTemplate = $(CURRENT_STATUS_SELECTOR).first().clone(true, true);
 const $topHeaderTemplate = $(LATEST_UPDATE_SELECTOR).first().clone(true, true);
-const $greenStatus = $(GREEN_STATUS_SELECTOR).first().clone(true, true);
-const $redStatus = $(RED_STATUS_SELECTOR).first().clone(true, true);
-const $yellowStatus = $(YELLOW_STATUS_SELECTOR).first().clone(true, true);
 
 const $detailTemplate = $(DETAIL_SELECTOR).first().clone();
 
@@ -41,9 +40,9 @@ const statusText = {
 }
 
 const statusToColour = {
-    OnTrack: $greenStatus,
-    MinorChallenges: $yellowStatus,
-    CriticalChallenges: $redStatus,
+    OnTrack: 'feature-value__current-status--green',
+    MinorChallenges: 'feature-value__current-status--yellow',
+    CriticalChallenges: 'feature-value__current-status--red',
 }
 
 const blockStatusToColour = {
@@ -62,10 +61,6 @@ export class ImplementationDetail {
         this.render();
     }
 
-    get $el() {
-        return this._$el;
-    }
-
     render() {
         if (this._isblock) {
             let block = $statusBlockTemplate.clone(true, true);
@@ -76,7 +71,8 @@ export class ImplementationDetail {
             block.find(STATUS_BLOCK_DETAIL_SELECTOR).text(this._detail);
             this._$parent.append(block);
         } else {
-            let $statusDisplay = statusToColour[this._status].clone(true, true);
+            let $statusDisplay = $currentStatusTemplate.clone(true, true);
+            $statusDisplay.addClass(statusToColour[this._status]);
             $statusDisplay.text(statusText[this._status]);
 
             let topHeader = $topHeaderTemplate.clone(true, true);
@@ -86,9 +82,6 @@ export class ImplementationDetail {
 
             const $detailSelector = $detailTemplate.clone(true, true);
             $detailSelector.find('p').text(this._detail);
-            // const $detailElement = $('<p>' + this._detail + '</p>');
-            // $detailSelector.empty();
-            // $detailSelector.append($detailElement);
             this._$parent.append($detailSelector);
         }
     }
