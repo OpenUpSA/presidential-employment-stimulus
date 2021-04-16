@@ -17,9 +17,6 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
 const LATEST_UPDATE_SELECTOR = '.uppercase-label.uppercase-label--border-top';
 const DETAIL_SELECTOR = '.status-update__description.w-richtext';
 const CURRENT_STATUS_SELECTOR = '.feature-value__current-status';
-const GREEN_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--green';
-const YELLOW_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--yellow';
-const RED_STATUS_SELECTOR = 'feature-value__current-status.feature-value__amount--red';
 const STATUS_BLOCK_SELECTOR = '.block.status-update';
 const STATUS_BLOCK_HEADER_SELECTOR = '.status-update__label';
 const STATUS_BLOCK_CS_SELECTOR = '.status-update__current-status';
