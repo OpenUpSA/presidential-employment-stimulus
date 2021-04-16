@@ -40,8 +40,8 @@ export class Metric {
     if (sectionType === 'targets') {
       this._iconType = this._sectionType + '_' + this._metricType;
       this._topText = this._formatter(this._target);
-      if (metricType === "currency" && !this._value) {
-        this._bottomText = undefined;  // remove the target spend amount
+      if (metricType === "currency" ) {
+        this._bottomText = undefined;  // remove the target spend amount from all "currency" target metrics
       } else {
         this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
       }
