@@ -1071,7 +1071,6 @@ p {
 }
 
 .status-update__label {
-  color: #25784b;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 700;
@@ -1079,6 +1078,7 @@ p {
 
 .status-update__current-status {
   margin-top: 8px;
+  margin-bottom: 5px;
   padding-top: 8px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 18px;

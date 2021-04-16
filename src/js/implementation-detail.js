@@ -14,33 +14,21 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
     [key]: $(ICON_SELECTORS[key]).clone(true, true),
 }), {});
 
-const CONTAINER_SELECTOR = '.feature-value__current-status';
-const NAME_SELECTOR = '.status-update__label';
-const ICON_CONTAINER_SELECTOR = '.feature-value__header_icon-wrapper';
-// const VALUE_SELECTOR = '.feature-value__amount';
-const STATUS_SELECTOR = '.feature-value__current-status';
 const LATEST_UPDATE_SELECTOR = '.uppercase-label.uppercase-label--border-top';
 const DETAIL_SELECTOR = '.status-update__description.w-richtext';
-const PROGRESS_CLASS = 'feature-value__header_chart-wrapper';
 const GREEN_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--green';
 const YELLOW_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--yellow';
 const RED_STATUS_SELECTOR = '.feature-value__amount.feature-value__amount--red';
 const STATUS_BLOCK_SELECTOR = '.block.status-update';
 const STATUS_BLOCK_HEADER_SELECTOR = '.status-update__label';
 const STATUS_BLOCK_CS_SELECTOR = '.status-update__current-status';
-const STATUS_BLOCK_GREEN_STATUS_SELECTOR = '.status-update__current-status.feature-value__amount--green';
-const STATUS_BLOCK_YELLOW_STATUS_SELECTOR = '.status-update__current-status.feature-value__amount--yellow';
-const STATUS_BLOCK_RED_STATUS_SELECTOR = '.status-update__current-status.feature-value__amount--red';
-const STATUS_BLOCK_UPPERCASE_LABEL_SELECTOR = '.uppercase-label.uppercase-label--border-top';
+const STATUS_BLOCK_UPPERCASE_LABEL_SELECTOR = '.uppercase-label';
 const STATUS_BLOCK_DETAIL_SELECTOR = '.status-update__description.w-richtext>p';
 
 const $topHeaderTemplate = $(LATEST_UPDATE_SELECTOR).first().clone(true, true);
 const $greenStatus = $(GREEN_STATUS_SELECTOR).first().clone(true, true);
 const $redStatus = $(RED_STATUS_SELECTOR).first().clone(true, true);
 const $yellowStatus = $(YELLOW_STATUS_SELECTOR).first().clone(true, true);
-const $greenBlockStatus = $(STATUS_BLOCK_GREEN_STATUS_SELECTOR).first().clone(true, true);
-const $yellowBlockStatus = $(STATUS_BLOCK_YELLOW_STATUS_SELECTOR).first().clone(true, true);
-const $redBlockStatus = $(STATUS_BLOCK_RED_STATUS_SELECTOR).first().clone(true, true);
 
 const $detailTemplate = $(DETAIL_SELECTOR).first().clone();
 
