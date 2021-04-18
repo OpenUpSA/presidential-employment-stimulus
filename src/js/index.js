@@ -102,7 +102,7 @@ Promise.all([
             new VizSplit(
               subSection.$container,
               'percentage',
-              valueOne.key, valueTwo.value,
+              valueOne.key, valueOne.value,
               valueTwo.key, valueTwo.value,
             );
           }
