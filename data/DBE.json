@@ -9,8 +9,8 @@
     5
   ],
   "achievement_lines": [
-    3,
-    6
+    6,
+    9
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 355673,
+          "value": 345660,
           "dimensions": [],
           "value_target": 344933,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Education Assistants",
           "metric_type": "count",
-          "value": 200000,
+          "value": 187654,
           "dimensions": [
             {
               "name": "Opportunities by Province",
@@ -63,12 +63,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 28875,
+                  "value": 25003,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 42591,
+                  "value": 44156,
                   "value_target": null
                 },
                 {
@@ -93,7 +93,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 8245,
+                  "value": 13990,
                   "value_target": null
                 }
               ]
@@ -110,17 +110,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 200000,
+                  "value": 126055,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 200000,
+                  "value": 158437,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 200000,
+                  "value": 155341,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 187654,
                   "value_target": null
                 }
               ]
@@ -132,7 +137,7 @@
         {
           "name": "General Assistants",
           "metric_type": "count",
-          "value": 128894,
+          "value": 130344,
           "dimensions": [
             {
               "name": "Opportunities by Province",
@@ -146,17 +151,17 @@
                 },
                 {
                   "key": "FS",
-                  "value": 6989,
+                  "value": 7690,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 15724,
+                  "value": 20564,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 30888,
+                  "value": 26797,
                   "value_target": null
                 },
                 {
@@ -198,7 +203,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 100000,
+                  "value": 82054,
                   "value_target": null
                 },
                 {
@@ -209,6 +214,11 @@
                 {
                   "key": "202101",
                   "value": 128894,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 130344,
                   "value_target": null
                 }
               ]
@@ -228,34 +238,13 @@
         {
           "name": "Retain vulnerable teaching posts",
           "metric_type": "count",
-          "value": 26779,
+          "value": 27662,
           "dimensions": [
             {
               "name": "Jobs saved over time",
               "viz": "line",
               "lookup": "time",
-              "values": [
-                {
-                  "key": "202010",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "202011",
-                  "value": 44933,
-                  "value_target": null
-                },
-                {
-                  "key": "202012",
-                  "value": 21988,
-                  "value_target": null
-                },
-                {
-                  "key": "202101",
-                  "value": 26779,
-                  "value_target": null
-                }
-              ]
+              "values": []
             },
             {
               "name": "Jobs saved by province",
@@ -274,7 +263,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 3884,
+                  "value": 4281,
                   "value_target": null
                 },
                 {
@@ -299,7 +288,7 @@
                 },
                 {
                   "key": "NC",
-                  "value": 3821,
+                  "value": 4307,
                   "value_target": null
                 },
                 {

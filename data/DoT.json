@@ -9,8 +9,8 @@
     25
   ],
   "achievement_lines": [
-    24,
-    25
+    28,
+    29
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 3617,
+          "value": 4635,
           "dimensions": [],
           "value_target": 37079,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Rural roads maintenance",
           "metric_type": "count",
-          "value": 3617,
+          "value": 4635,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -70,6 +70,11 @@
                   "key": "202101",
                   "value": 3617,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 4635,
+                  "value_target": null
                 }
               ]
             },
@@ -80,12 +85,12 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 31,
+                  "value": 129,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 0,
+                  "value": 800,
                   "value_target": null
                 },
                 {
@@ -100,22 +105,22 @@
                 },
                 {
                   "key": "LP",
-                  "value": 0,
+                  "value": 450,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 160,
+                  "value": 211,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 2947,
+                  "value": 2460,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 403,
+                  "value": 509,
                   "value_target": null
                 },
                 {

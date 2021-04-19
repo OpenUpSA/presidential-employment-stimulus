@@ -9,8 +9,8 @@
     24
   ],
   "achievement_lines": [
-    14,
-    24
+    18,
+    28
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 18383,
+          "value": 18388,
           "dimensions": [],
           "value_target": 50311,
           "implementation_detail": null
@@ -58,7 +58,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 12690,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -68,6 +68,11 @@
                 },
                 {
                   "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
                   "value": 0,
                   "value_target": null
                 }
@@ -94,7 +99,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 1750,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -104,6 +109,11 @@
                 },
                 {
                   "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
                   "value": 0,
                   "value_target": null
                 }
@@ -130,7 +140,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 1719,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -140,6 +150,11 @@
                 },
                 {
                   "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
                   "value": 0,
                   "value_target": null
                 }
@@ -152,7 +167,7 @@
         {
           "name": "Groen Sebenzas, weather service - graduate programme",
           "metric_type": "count",
-          "value": 723,
+          "value": 724,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -166,7 +181,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 524,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -178,6 +193,11 @@
                   "key": "202101",
                   "value": 723,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 724,
+                  "value_target": null
                 }
               ]
             }
@@ -188,7 +208,7 @@
         {
           "name": "SANBI Infrastructure maintenance, biosecurity",
           "metric_type": "count",
-          "value": 1194,
+          "value": 1195,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -202,7 +222,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 1038,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -214,6 +234,11 @@
                   "key": "202101",
                   "value": 1194,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 1195,
+                  "value_target": null
                 }
               ]
             }
@@ -224,7 +249,7 @@
         {
           "name": "iSimangaliso: conservation management infrastructure",
           "metric_type": "count",
-          "value": 608,
+          "value": 609,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -238,7 +263,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 1164,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -250,6 +275,11 @@
                   "key": "202101",
                   "value": 608,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 609,
+                  "value_target": null
                 }
               ]
             }
@@ -260,7 +290,7 @@
         {
           "name": "SANPARKS upgrade and green energy",
           "metric_type": "count",
-          "value": 3522,
+          "value": 3523,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -274,7 +304,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 4246,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -286,6 +316,11 @@
                   "key": "202101",
                   "value": 3522,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 3523,
+                  "value_target": null
                 }
               ]
             }
@@ -296,7 +331,7 @@
         {
           "name": "Catchment management and strategic water sources",
           "metric_type": "count",
-          "value": 12336,
+          "value": 12337,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -310,7 +345,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 15012,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -321,6 +356,11 @@
                 {
                   "key": "202101",
                   "value": 12336,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 12337,
                   "value_target": null
                 }
               ]
@@ -346,7 +386,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 7524,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -356,6 +396,11 @@
                 },
                 {
                   "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
                   "value": 0,
                   "value_target": null
                 }
@@ -382,7 +427,7 @@
                 },
                 {
                   "key": "202011",
-                  "value": 4644,
+                  "value": 0,
                   "value_target": null
                 },
                 {
@@ -392,6 +437,11 @@
                 },
                 {
                   "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
                   "value": 0,
                   "value_target": null
                 }

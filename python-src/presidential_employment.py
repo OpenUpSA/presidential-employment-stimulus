@@ -1,11 +1,11 @@
 from enum import Enum
 from dataclasses import dataclass
-from typing import List, Union
+from typing import Counter, List, Union
 
 from dataclasses_json import dataclass_json
 
 SectionEnum = Enum(
-    "Section", "targets overview budget_allocated job_opportunities jobs_retain livelihoods"
+    "Section", "targets overview budget_allocated job_opportunities jobs_retain livelihoods in_process"
 )
 
 MetricTypeEnum = Enum("MetricType", "currency count")
@@ -14,9 +14,9 @@ ProvinceEnum = Enum("Province", "EC FS GP KZN LP MP NC NW WC")
 
 ImplementationStatusEnum = Enum('ImplementationStatus', 'OnTrack MinorChallenges CriticalChallenges')
 
-VizTypeEnum = Enum('VizType', 'bar line two_value percentile')
+VizTypeEnum = Enum('VizType', 'bar line two_value percentile count')
 
-LookupTypeEnum = Enum('LookupType', 'department province time age gender')
+LookupTypeEnum = Enum('LookupType', 'department province time age gender vets disabled')
 
 provinces = [
     "Eastern Cape",
@@ -138,6 +138,7 @@ section_titles = {
     SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
     SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
     SectionEnum.livelihoods.name + "_overview": "Livelihoods",
+    SectionEnum.in_process.name: "Opportunities in process"
 }
 
 metric_titles = {
@@ -162,8 +163,9 @@ metric_titles = {
         MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
         MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
         MetricTypeEnum.count.name + "_age": "Livelihoods supported going to 18-35 year olds",
+        MetricTypeEnum.count.name + '_vets': "Livelhoods supported going to military veterans",
+        MetricTypeEnum.count.name + '_disabled': "Livelhoods supported going to disabled persons",
     }
-
 }
 
 # leads = dict(
@@ -196,8 +198,10 @@ metric_titles = {
 #     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
 # )
 
-months = ['202010', '202011', '202012', '202101']
-month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21"]
+months = ['202010', '202011', '202012', '202101', '202102']
+month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21"]
+total_achievement_column = 6
+achievement_columns = slice(2, 7)
 
 target_to_imp_programme_mapping = {
     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",

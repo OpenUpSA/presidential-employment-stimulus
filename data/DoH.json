@@ -9,8 +9,8 @@
     43
   ],
   "achievement_lines": [
-    39,
-    42
+    43,
+    47
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 2119,
+          "value": 5118,
           "dimensions": [],
           "value_target": 5531,
           "implementation_detail": null
@@ -42,62 +42,26 @@
       "section_type": "job_opportunities",
       "metrics": [
         {
+          "name": "Community Health Workers",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [],
+          "value_target": 2000,
+          "implementation_detail": null
+        },
+        {
+          "name": "Outreach Team Leaders",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [],
+          "value_target": 1250,
+          "implementation_detail": null
+        },
+        {
           "name": "Enrolled nurses",
           "metric_type": "count",
-          "value": 2119,
+          "value": 2741,
           "dimensions": [
-            {
-              "name": "Opportunities by Province",
-              "viz": "bar",
-              "lookup": "province",
-              "values": [
-                {
-                  "key": "EC",
-                  "value": 400,
-                  "value_target": null
-                },
-                {
-                  "key": "FS",
-                  "value": 11,
-                  "value_target": null
-                },
-                {
-                  "key": "GP",
-                  "value": 425,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
-                  "value": 690,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "MP",
-                  "value": 245,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
-                  "value": 141,
-                  "value_target": null
-                },
-                {
-                  "key": "NC",
-                  "value": 3,
-                  "value_target": null
-                },
-                {
-                  "key": "WC",
-                  "value": 204,
-                  "value_target": null
-                }
-              ]
-            },
             {
               "name": "Employed over time",
               "viz": "line",
@@ -122,6 +86,63 @@
                   "key": "202101",
                   "value": 2119,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 2741,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 518,
+                  "value_target": null
+                },
+                {
+                  "key": "FS",
+                  "value": 23,
+                  "value_target": null
+                },
+                {
+                  "key": "GP",
+                  "value": 575,
+                  "value_target": null
+                },
+                {
+                  "key": "KZN",
+                  "value": 934,
+                  "value_target": null
+                },
+                {
+                  "key": "LP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "MP",
+                  "value": 245,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 172,
+                  "value_target": null
+                },
+                {
+                  "key": "NC",
+                  "value": 3,
+                  "value_target": null
+                },
+                {
+                  "key": "WC",
+                  "value": 271,
+                  "value_target": null
                 }
               ]
             }
@@ -132,60 +153,8 @@
         {
           "name": "Auxiliary nurses",
           "metric_type": "count",
-          "value": 1848,
+          "value": 2377,
           "dimensions": [
-            {
-              "name": "Opportunities by Province",
-              "viz": "bar",
-              "lookup": "province",
-              "values": [
-                {
-                  "key": "EC",
-                  "value": 296,
-                  "value_target": null
-                },
-                {
-                  "key": "FS",
-                  "value": 4,
-                  "value_target": null
-                },
-                {
-                  "key": "GP",
-                  "value": 380,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
-                  "value": 690,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "MP",
-                  "value": 2,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
-                  "value": 167,
-                  "value_target": null
-                },
-                {
-                  "key": "NC",
-                  "value": 9,
-                  "value_target": null
-                },
-                {
-                  "key": "WC",
-                  "value": 300,
-                  "value_target": null
-                }
-              ]
-            },
             {
               "name": "Employed over time",
               "viz": "line",
@@ -210,27 +179,68 @@
                   "key": "202101",
                   "value": 1848,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 2377,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 378,
+                  "value_target": null
+                },
+                {
+                  "key": "FS",
+                  "value": 9,
+                  "value_target": null
+                },
+                {
+                  "key": "GP",
+                  "value": 477,
+                  "value_target": null
+                },
+                {
+                  "key": "KZN",
+                  "value": 921,
+                  "value_target": null
+                },
+                {
+                  "key": "LP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "MP",
+                  "value": 3,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 196,
+                  "value_target": null
+                },
+                {
+                  "key": "NC",
+                  "value": 11,
+                  "value_target": null
+                },
+                {
+                  "key": "WC",
+                  "value": 382,
+                  "value_target": null
                 }
               ]
             }
           ],
           "value_target": 1236,
-          "implementation_detail": null
-        },
-        {
-          "name": "Community Health Workers",
-          "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
-          "value_target": 2000,
-          "implementation_detail": null
-        },
-        {
-          "name": "Outreach Team Leaders",
-          "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
-          "value_target": 1250,
           "implementation_detail": null
         }
       ],

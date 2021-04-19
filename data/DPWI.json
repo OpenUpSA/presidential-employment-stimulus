@@ -9,8 +9,8 @@
     56
   ],
   "achievement_lines": [
-    47,
-    55
+    51,
+    59
   ],
   "sections": [
     {
@@ -28,9 +28,9 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 1886,
+          "value": 1869,
           "dimensions": [],
-          "value_target": 1560,
+          "value_target": 0,
           "implementation_detail": null
         }
       ],
@@ -44,7 +44,7 @@
         {
           "name": "Water and Energy Efficiency",
           "metric_type": "count",
-          "value": 157,
+          "value": 171,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -58,17 +58,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 129,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 182,
+                  "value": 171,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 157,
+                  "value": 171,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 171,
                   "value_target": null
                 }
               ]
@@ -119,7 +124,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 167,
+                  "value": 171,
                   "value_target": null
                 },
                 {
@@ -161,7 +166,7 @@
         {
           "name": "Water and Sanitation Facilities Management",
           "metric_type": "count",
-          "value": 496,
+          "value": 158,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -175,17 +180,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 410,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 482,
+                  "value": 158,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 496,
+                  "value": 158,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 158,
                   "value_target": null
                 }
               ]
@@ -261,7 +271,7 @@
                 },
                 {
                   "key": "NC",
-                  "value": 7,
+                  "value": 8,
                   "value_target": null
                 },
                 {
@@ -278,7 +288,7 @@
         {
           "name": "Welisizwe Rural Bridges Programme",
           "metric_type": "count",
-          "value": 349,
+          "value": 511,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -292,17 +302,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 288,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 336,
+                  "value": 482,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 349,
+                  "value": 524,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 511,
                   "value_target": null
                 }
               ]
@@ -343,22 +358,22 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 159,
+                  "value": 161,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 100,
+                  "value": 101,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 44,
+                  "value": 51,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 46,
+                  "value": 48,
                   "value_target": null
                 },
                 {
@@ -368,12 +383,12 @@
                 },
                 {
                   "key": "MP",
-                  "value": 16,
+                  "value": 17,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 18,
+                  "value": 19,
                   "value_target": null
                 },
                 {
@@ -383,7 +398,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 18,
+                  "value": 19,
                   "value_target": null
                 }
               ]
@@ -395,7 +410,7 @@
         {
           "name": "Facilities Management",
           "metric_type": "count",
-          "value": 108,
+          "value": 358,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -409,17 +424,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 89,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 108,
+                  "value": 336,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 108,
+                  "value": 358,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 358,
                   "value_target": null
                 }
               ]
@@ -460,22 +480,22 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 47,
+                  "value": 50,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 52,
+                  "value": 54,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 70,
+                  "value": 74,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 13,
+                  "value": 14,
                   "value_target": null
                 },
                 {
@@ -485,7 +505,7 @@
                 },
                 {
                   "key": "MP",
-                  "value": 44,
+                  "value": 45,
                   "value_target": null
                 },
                 {
@@ -495,12 +515,12 @@
                 },
                 {
                   "key": "NC",
-                  "value": 8,
+                  "value": 9,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 62,
+                  "value": 59,
                   "value_target": null
                 }
               ]
@@ -512,7 +532,7 @@
         {
           "name": "Real Estate",
           "metric_type": "count",
-          "value": 134,
+          "value": 109,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -526,17 +546,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 110,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 134,
+                  "value": 108,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 134,
+                  "value": 109,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 109,
                   "value_target": null
                 }
               ]
@@ -587,7 +612,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 44,
+                  "value": 45,
                   "value_target": null
                 },
                 {
@@ -629,7 +654,7 @@
         {
           "name": "In-House Construction projects",
           "metric_type": "count",
-          "value": 430,
+          "value": 136,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -643,17 +668,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 308,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 421,
+                  "value": 134,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 430,
+                  "value": 136,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 136,
                   "value_target": null
                 }
               ]
@@ -694,7 +724,7 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 71,
+                  "value": 72,
                   "value_target": null
                 },
                 {
@@ -734,7 +764,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 22,
+                  "value": 23,
                   "value_target": null
                 }
               ]
@@ -746,7 +776,7 @@
         {
           "name": "Public Private Collaborations",
           "metric_type": "count",
-          "value": 45,
+          "value": 426,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -760,17 +790,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 37,
+                  "value": 0,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 45,
+                  "value": 421,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 45,
+                  "value": 430,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 426,
                   "value_target": null
                 }
               ]
@@ -831,7 +866,7 @@
                 },
                 {
                   "key": "LP",
-                  "value": 367,
+                  "value": 363,
                   "value_target": null
                 },
                 {
