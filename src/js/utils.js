@@ -6,7 +6,7 @@ export function formatCount(valueIn, short) {
     const display = short ? 'short' : 'long';
     valueOut = new Intl.NumberFormat('en', {
       minimumFractionDigits: minDigits,
-      maximumFractionDigits: 2,
+      maximumFractionDigits: 1,
       notation: 'compact',
       compactDisplay: display,
     }).format(value);
