@@ -30,7 +30,7 @@
             "metric_type": "count",
             "value": 0,
             "dimensions": [],
-            "value_target": 173131.5,
+            "value_target": 173131,
             "implementation_detail": null
           }
         ],
