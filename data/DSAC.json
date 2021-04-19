@@ -9,8 +9,8 @@
     37
   ],
   "achievement_lines": [
-    25,
-    37
+    29,
+    41
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 11791,
+          "value": 35140,
           "dimensions": [],
           "value_target": 34070,
           "implementation_detail": null
@@ -44,8 +44,41 @@
         {
           "name": "Covid-19 Return-To-Play - National Sport Federations",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 633,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 633,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 1470,
           "implementation_detail": null
         },
@@ -78,6 +111,11 @@
                   "key": "202101",
                   "value": 156,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 156,
+                  "value_target": null
                 }
               ]
             },
@@ -88,12 +126,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.7,
+                  "value": 0.56,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.3,
+                  "value": 0.44,
                   "value_target": null
                 }
               ]
@@ -105,7 +143,7 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.58,
+                  "value": 0.9,
                   "value_target": null
                 }
               ]
@@ -117,47 +155,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 16,
+                  "value": 18,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 37,
+                  "value": 31,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 26,
+                  "value": 24,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 8,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
                   "value": 20,
                   "value_target": null
                 },
                 {
-                  "key": "MP",
-                  "value": 4,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
+                  "key": "LP",
                   "value": 11,
                   "value_target": null
                 },
                 {
+                  "key": "MP",
+                  "value": 6,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 14,
+                  "value_target": null
+                },
+                {
                   "key": "NC",
-                  "value": 12,
+                  "value": 11,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 22,
+                  "value": 21,
                   "value_target": null
                 }
               ]
@@ -177,7 +215,7 @@
         {
           "name": "Public Art, towards a people's culture - Community Arts Centres",
           "metric_type": "count",
-          "value": 51,
+          "value": 57,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -203,6 +241,63 @@
                   "key": "202101",
                   "value": 51,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 57,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Opportunities by Province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "FS",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "GP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "KZN",
+                  "value": 30,
+                  "value_target": null
+                },
+                {
+                  "key": "LP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "MP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "NC",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "WC",
+                  "value": 27,
+                  "value_target": null
                 }
               ]
             }
@@ -213,7 +308,7 @@
         {
           "name": "Audit of national museums - South African Heritage Resources Agency",
           "metric_type": "count",
-          "value": 251,
+          "value": 255,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -239,6 +334,11 @@
                   "key": "202101",
                   "value": 251,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 255,
+                  "value_target": null
                 }
               ]
             },
@@ -249,12 +349,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.39,
+                  "value": 0.25,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.61,
+                  "value": 0.75,
                   "value_target": null
                 }
               ]
@@ -283,7 +383,7 @@
                 },
                 {
                   "key": "FS",
-                  "value": 20,
+                  "value": 23,
                   "value_target": null
                 },
                 {
@@ -303,22 +403,22 @@
                 },
                 {
                   "key": "MP",
-                  "value": 27,
+                  "value": 22,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 28,
+                  "value": 26,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 24,
+                  "value": 27,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 52,
+                  "value": 57,
                   "value_target": null
                 }
               ]
@@ -330,7 +430,7 @@
         {
           "name": "Digitisation of records - National Library of South Africa",
           "metric_type": "count",
-          "value": 139,
+          "value": 144,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -356,86 +456,10 @@
                   "key": "202101",
                   "value": 139,
                   "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Gender",
-              "viz": "two_value",
-              "lookup": "gender",
-              "values": [
-                {
-                  "key": "Male",
-                  "value": 0.3472,
-                  "value_target": null
                 },
                 {
-                  "key": "Female",
-                  "value": 0.6527,
-                  "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Province",
-              "viz": "percentile",
-              "lookup": "age",
-              "values": [
-                {
-                  "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.972,
-                  "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Province",
-              "viz": "bar",
-              "lookup": "province",
-              "values": [
-                {
-                  "key": "EC",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "FS",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "GP",
-                  "value": 67,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "MP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "NC",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "WC",
-                  "value": 72,
+                  "key": "202102",
+                  "value": 144,
                   "value_target": null
                 }
               ]
@@ -473,86 +497,10 @@
                   "key": "202101",
                   "value": 146,
                   "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Gender",
-              "viz": "two_value",
-              "lookup": "gender",
-              "values": [
-                {
-                  "key": "Male",
-                  "value": 0.33,
-                  "value_target": null
                 },
                 {
-                  "key": "Female",
-                  "value": 0.67,
-                  "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Province",
-              "viz": "percentile",
-              "lookup": "age",
-              "values": [
-                {
-                  "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 1.0,
-                  "value_target": null
-                }
-              ]
-            },
-            {
-              "name": "Opportunities by Province",
-              "viz": "bar",
-              "lookup": "province",
-              "values": [
-                {
-                  "key": "EC",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "FS",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "GP",
+                  "key": "202102",
                   "value": 146,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "LP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "MP",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "NW",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "NC",
-                  "value": 0,
-                  "value_target": null
-                },
-                {
-                  "key": "WC",
-                  "value": 0,
                   "value_target": null
                 }
               ]
@@ -572,7 +520,7 @@
         {
           "name": "Job retention in cultural and creative institutions - National Arts Council",
           "metric_type": "count",
-          "value": 2475,
+          "value": 2445,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -598,6 +546,11 @@
                   "key": "202101",
                   "value": 2475,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 2445,
+                  "value_target": null
                 }
               ]
             },
@@ -608,12 +561,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.565,
+                  "value": 0.56,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.435,
+                  "value": 0.54,
                   "value_target": null
                 }
               ]
@@ -637,42 +590,42 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 119,
+                  "value": 115,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 202,
+                  "value": 198,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 769,
+                  "value": 787,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 278,
+                  "value": 258,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 107,
+                  "value": 100,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 74,
+                  "value": 71,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 103,
+                  "value": 99,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 45,
+                  "value": 39,
                   "value_target": null
                 },
                 {
@@ -689,16 +642,151 @@
         {
           "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 675,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 675,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved by gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.636,
+                  "value_target": null
+                },
+                {
+                  "key": "Female",
+                  "value": 0.333,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Jobs saved by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "FS",
+                  "value": 11,
+                  "value_target": null
+                },
+                {
+                  "key": "GP",
+                  "value": 306,
+                  "value_target": null
+                },
+                {
+                  "key": "KZN",
+                  "value": 239,
+                  "value_target": null
+                },
+                {
+                  "key": "LP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "MP",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "NC",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "WC",
+                  "value": 119,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 5000,
           "implementation_detail": null
         },
         {
           "name": "Job retention in sport sector - Sport Trust",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 5090,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 5090,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 4000,
           "implementation_detail": null
         }
@@ -713,7 +801,7 @@
         {
           "name": "Support to art and culture practitioners - National Arts Council",
           "metric_type": "count",
-          "value": 8573,
+          "value": 17237,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -739,6 +827,11 @@
                   "key": "202101",
                   "value": 8573,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 17237,
+                  "value_target": null
                 }
               ]
             },
@@ -749,12 +842,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.66,
+                  "value": 0.61,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.34,
+                  "value": 0.39,
                   "value_target": null
                 }
               ]
@@ -766,7 +859,7 @@
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.445,
+                  "value": 0.43,
                   "value_target": null
                 }
               ]
@@ -778,47 +871,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 1142,
+                  "value": 1703,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 672,
+                  "value": 916,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 2585,
+                  "value": 6425,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 603,
+                  "value": 1750,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1049,
+                  "value": 1947,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 308,
+                  "value": 734,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 817,
+                  "value": 1813,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 517,
+                  "value": 763,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 880,
+                  "value": 1186,
                   "value_target": null
                 }
               ]
@@ -830,8 +923,110 @@
         {
           "name": "Support to art and culture practitioners - National Film and Video Foundation",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 8302,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 8302,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported by gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.51,
+                  "value_target": null
+                },
+                {
+                  "key": "Female",
+                  "value": 0.49,
+                  "value_target": null
+                }
+              ]
+            },
+            {
+              "name": "Livelihoods supported by province",
+              "viz": "bar",
+              "lookup": "province",
+              "values": [
+                {
+                  "key": "EC",
+                  "value": 1646,
+                  "value_target": null
+                },
+                {
+                  "key": "FS",
+                  "value": 192,
+                  "value_target": null
+                },
+                {
+                  "key": "GP",
+                  "value": 2911,
+                  "value_target": null
+                },
+                {
+                  "key": "KZN",
+                  "value": 1035,
+                  "value_target": null
+                },
+                {
+                  "key": "LP",
+                  "value": 730,
+                  "value_target": null
+                },
+                {
+                  "key": "MP",
+                  "value": 254,
+                  "value_target": null
+                },
+                {
+                  "key": "NW",
+                  "value": 201,
+                  "value_target": null
+                },
+                {
+                  "key": "NC",
+                  "value": 213,
+                  "value_target": null
+                },
+                {
+                  "key": "WC",
+                  "value": 1120,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 7857,
           "implementation_detail": null
         }

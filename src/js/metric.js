@@ -43,7 +43,11 @@ export class Metric {
       if (metricType === "currency" ) {
         this._bottomText = undefined;  // remove the target spend amount from all "currency" target metrics
       } else {
-        this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
+        if (this._value) {
+          this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
+        } else {
+          this._bottomText = "";
+        }
       }
 
     } else {

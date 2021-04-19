@@ -9,8 +9,8 @@
     8
   ],
   "achievement_lines": [
-    6,
-    9
+    9,
+    12
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 1086,
+          "value": 1070,
           "dimensions": [],
           "value_target": 111142,
           "implementation_detail": null
@@ -60,7 +60,7 @@
         {
           "name": "Retention of social workers",
           "metric_type": "count",
-          "value": 0,
+          "value": 1070,
           "dimensions": [
             {
               "name": "Jobs saved by gender",
@@ -86,7 +86,7 @@
               "values": [
                 {
                   "key": "18-35",
-                  "value": 0.61,
+                  "value": 0.62,
                   "value_target": null
                 }
               ]
@@ -103,17 +103,22 @@
                 },
                 {
                   "key": "202011",
-                  "value": 0,
+                  "value": 749,
                   "value_target": null
                 },
                 {
                   "key": "202012",
-                  "value": 0,
+                  "value": 793,
                   "value_target": null
                 },
                 {
                   "key": "202101",
-                  "value": 0,
+                  "value": 1086,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 1070,
                   "value_target": null
                 }
               ]
@@ -125,7 +130,7 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 282,
+                  "value": 271,
                   "value_target": null
                 },
                 {
@@ -135,32 +140,32 @@
                 },
                 {
                   "key": "GP",
-                  "value": 305,
+                  "value": 312,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 235,
+                  "value": 232,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 99,
+                  "value": 98,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 116,
+                  "value": 112,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 43,
+                  "value": 40,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 6,
+                  "value": 5,
                   "value_target": null
                 },
                 {

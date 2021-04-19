@@ -9,8 +9,8 @@
     47
   ],
   "achievement_lines": [
-    43,
-    47
+    47,
+    51
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Overall jobs created",
           "metric_type": "count",
-          "value": 8,
+          "value": 402,
           "dimensions": [],
           "value_target": 1900,
           "implementation_detail": null
@@ -50,17 +50,50 @@
           "implementation_detail": null
         },
         {
-          "name": "CSIR - Enviro-champs",
+          "name": "DUCT - Enviro-champs",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 288,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 288,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 350,
           "implementation_detail": null
         },
         {
           "name": "CSIR - Experiential Training Programme",
           "metric_type": "count",
-          "value": 8,
+          "value": 44,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -86,6 +119,11 @@
                   "key": "202101",
                   "value": 8,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 44,
+                  "value_target": null
                 }
               ]
             }
@@ -96,8 +134,41 @@
         {
           "name": "WRC - Water Graduate Employment Programme",
           "metric_type": "count",
-          "value": 0,
-          "dimensions": [],
+          "value": 70,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 70,
+                  "value_target": null
+                }
+              ]
+            }
+          ],
           "value_target": 400,
           "implementation_detail": null
         }

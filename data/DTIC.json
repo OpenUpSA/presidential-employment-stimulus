@@ -9,8 +9,8 @@
     39
   ],
   "achievement_lines": [
-    38,
-    39
+    42,
+    43
   ],
   "sections": [
     {
@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 4036,
+          "value": 6459,
           "dimensions": [],
           "value_target": 8000,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Services sector development incentives",
           "metric_type": "count",
-          "value": 4036,
+          "value": 6459,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -70,6 +70,11 @@
                   "key": "202101",
                   "value": 4036,
                   "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 6459,
+                  "value_target": null
                 }
               ]
             },
@@ -80,12 +85,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.34,
+                  "value": 0.37,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.66,
+                  "value": 0.63,
                   "value_target": null
                 }
               ]
@@ -97,7 +102,7 @@
               "values": [
                 {
                   "key": "18-35",
-                  "value": 0.85,
+                  "value": 0.92,
                   "value_target": null
                 }
               ]
@@ -114,12 +119,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 366,
+                  "value": 502,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 1919,
+                  "value": 2330,
                   "value_target": null
                 },
                 {
@@ -144,7 +149,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 1749,
+                  "value": 3627,
                   "value_target": null
                 }
               ]
