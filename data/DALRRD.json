@@ -47,6 +47,39 @@
           "value": 1464,
           "dimensions": [
             {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 1464,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 1464,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
               "name": "Opportunities by Province",
               "viz": "bar",
               "lookup": "province",
@@ -96,7 +129,8 @@
                   "value": 55,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities by Gender",
@@ -113,7 +147,8 @@
                   "value": 0.64,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities going to 18-35 year olds",
@@ -125,7 +160,8 @@
                   "value": 0.89,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,
@@ -194,7 +230,8 @@
                   "value": 128,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported by gender",
@@ -211,7 +248,8 @@
                   "value": 0.7713,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported over time",
@@ -243,7 +281,8 @@
                   "value": 13648,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported going to 18-35 year olds",
@@ -255,7 +294,8 @@
                   "value": 0.5865,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to military veterans",
@@ -267,7 +307,8 @@
                   "value": 191,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to disabled persons",
@@ -279,7 +320,8 @@
                   "value": 33,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,
@@ -340,7 +382,8 @@
                   "value": 1,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported by gender",
@@ -357,7 +400,8 @@
                   "value": 0.7841,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported over time",
@@ -389,7 +433,8 @@
                   "value": 8492,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported going to 18-35 year olds",
@@ -401,7 +446,8 @@
                   "value": 0.5444,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to military veterans",
@@ -413,7 +459,8 @@
                   "value": 109,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to disabled persons",
@@ -425,7 +472,8 @@
                   "value": 23,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,
@@ -486,7 +534,8 @@
                   "value": 26,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported by gender",
@@ -503,7 +552,8 @@
                   "value": 0.7379,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported over time",
@@ -535,7 +585,8 @@
                   "value": 8989,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported going to 18-35 year olds",
@@ -547,7 +598,8 @@
                   "value": 0.6047,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to military veterans",
@@ -559,7 +611,8 @@
                   "value": 94,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to disabled persons",
@@ -571,7 +624,8 @@
                   "value": 37,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,
@@ -632,7 +686,8 @@
                   "value": 120,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported by gender",
@@ -649,7 +704,8 @@
                   "value": 0.6195,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported over time",
@@ -681,7 +737,8 @@
                   "value": 5488,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported going to 18-35 year olds",
@@ -693,7 +750,8 @@
                   "value": 0.6101,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to military veterans",
@@ -705,7 +763,8 @@
                   "value": 76,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to disabled persons",
@@ -717,7 +776,8 @@
                   "value": 31,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,
@@ -778,7 +838,8 @@
                   "value": 16,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported by gender",
@@ -795,7 +856,8 @@
                   "value": 0.5765,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported over time",
@@ -827,7 +889,8 @@
                   "value": 2529,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelihoods supported going to 18-35 year olds",
@@ -839,7 +902,8 @@
                   "value": 0.5967,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to military veterans",
@@ -851,7 +915,8 @@
                   "value": 29,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Livelhoods supported going to disabled persons",
@@ -863,7 +928,8 @@
                   "value": 16,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": -1,

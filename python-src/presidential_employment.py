@@ -69,6 +69,7 @@ class Dimension:
     viz: str  # enum of VizType "bar"
     lookup: str  # enum of LookupType "department", "province", "gender", "age", "disability", "military_veteran"
     values: List[MetricValue]
+    data_missing: bool = False
 
 @dataclass_json
 @dataclass

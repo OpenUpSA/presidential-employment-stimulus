@@ -92,7 +92,8 @@
                   "value": 2741,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities by Province",
@@ -144,7 +145,8 @@
                   "value": 271,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1045,
@@ -185,7 +187,8 @@
                   "value": 2377,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities by Province",
@@ -237,7 +240,8 @@
                   "value": 382,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1236,

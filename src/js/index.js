@@ -12,8 +12,9 @@ import { VizSplit } from './viz-split';
 import { VizValue } from './viz-value';
 import { VizBars } from './viz-bars';
 import { VizLine } from './viz-line';
+import { NoData } from "./nodata";
 import { ImplementationDetail } from './implementation-detail';
-import { organizeByZero } from './utils';
+import { organizeByZero, fillInMissingSections } from './utils';
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -28,9 +29,11 @@ const $thirdsGrid = $(CONTENT_GRID_SELECTOR).first().clone(true, true);
 Promise.all([
   d3.json('data/all_data.json'),
   d3.json('data/lookups.json'),
+  d3.json('data/metric_titles.json'),
 ]).then(([
   data,
   lookups,
+  metric_titles,
 ]) => {
   const merged = [data.overview, ...data.departments];
   const tabs = new Tabs();
@@ -90,38 +93,47 @@ Promise.all([
           subSectionData.value,
           subSectionData.value_target,
         );
-        subSectionData.dimensions.forEach((dimension) => {
-          if (dimension.viz === 'line') {
-            new VizHeading(subSection.$container, dimension.name);
-            new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
-          }
-          if (dimension.viz === 'two_value') {
-            new VizHeading(subSection.$container, dimension.name);
-            const valueOne = dimension.values[0];
-            const valueTwo = dimension.values[1];
-            new VizSplit(
-              subSection.$container,
-              'percentage',
-              valueOne.key, valueOne.value,
-              valueTwo.key, valueTwo.value,
-            );
-          }
-          if (dimension.viz === 'percentile' || dimension.viz === 'count') {
-            new VizHeading(subSection.$container, dimension.name);
-            const { value } = dimension.values[0];
-            new VizValue(
-              subSection.$container,
-              dimension.viz,
-              value,
-            );
-          }
-          if (dimension.viz === 'bar') {
-            new VizHeading(subSection.$container, dimension.name);
-            new VizBars(
-              subSection.$container,
-              dimension.values,
-              lookups[dimension.lookup],
-            );
+        const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
+        const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+        dimensions.forEach((dimension) => {
+          if (dimension.data_missing) {
+            if (tabData.sheet_name === 'DALRRD') {
+              console.log(sectionType, subSectionData.metric_type, dimension.lookup);
+            }
+            new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
+          } else {
+            if (dimension.viz === 'line') {
+              new VizHeading(subSection.$container, dimension.name);
+              new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
+            }
+            if (dimension.viz === 'two_value') {
+              new VizHeading(subSection.$container, dimension.name);
+              const valueOne = dimension.values[0];
+              const valueTwo = dimension.values[1];
+              new VizSplit(
+                  subSection.$container,
+                  'percentage',
+                  valueOne.key, valueOne.value,
+                  valueTwo.key, valueTwo.value,
+              );
+            }
+            if (dimension.viz === 'percentile' || dimension.viz === 'count') {
+              new VizHeading(subSection.$container, dimension.name);
+              const { value } = dimension.values[0];
+              new VizValue(
+                  subSection.$container,
+                  dimension.viz,
+                  value,
+              );
+            }
+            if (dimension.viz === 'bar') {
+              new VizHeading(subSection.$container, dimension.name);
+              new VizBars(
+                  subSection.$container,
+                  dimension.values,
+                  lookups[dimension.lookup],
+              );
+            }
           }
         });
         if (subSectionData.implementation_detail) {

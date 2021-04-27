@@ -84,7 +84,8 @@
                   "value": 288,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 350,
@@ -125,7 +126,8 @@
                   "value": 44,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 150,
@@ -166,7 +168,8 @@
                   "value": 70,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 400,
