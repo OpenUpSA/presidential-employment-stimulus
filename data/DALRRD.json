@@ -47,6 +47,39 @@
           "value": 1464,
           "dimensions": [
             {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 1464,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 1464,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
               "name": "Opportunities by Province",
               "viz": "bar",
               "lookup": "province",

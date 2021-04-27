@@ -43,7 +43,7 @@ export function organizeByZero(array) {
     return pass.concat(fail);
 }
 
-export function fillInMissingSections(dimensions, sheet_name) {
+export function fillInMissingSections(dimensions, has_vets) {
   const order = {
     time: 0,
     gender: 1,
@@ -71,7 +71,7 @@ export function fillInMissingSections(dimensions, sheet_name) {
     } else {
       newDimensions.push({name: "missing", viz: vizList[index], lookup: lookupList[index], values: [], data_missing: true});
     }
-    if (sheet_name !== "DALRRD" && lookupList[index] === "age") {
+    if (!has_vets && lookupList[index] === "age") {
       index += 3;
     } else {
       index += 1;

@@ -93,9 +93,13 @@ Promise.all([
           subSectionData.value,
           subSectionData.value_target,
         );
-        const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, tabData.sheet_name));
+        const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
+        const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
         dimensions.forEach((dimension) => {
           if (dimension.data_missing) {
+            if (tabData.sheet_name === 'DALRRD') {
+              console.log(sectionType, subSectionData.metric_type, dimension.lookup);
+            }
             new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
           } else {
             if (dimension.viz === 'line') {
