@@ -76,7 +76,8 @@
                   "value": 6459,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities by Gender",
@@ -93,7 +94,8 @@
                   "value": 0.63,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities going to 18-35 year olds",
@@ -105,7 +107,8 @@
                   "value": 0.92,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Opportunities by Province",
@@ -152,7 +155,8 @@
                   "value": 3627,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 8000,

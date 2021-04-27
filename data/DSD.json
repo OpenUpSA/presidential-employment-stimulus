@@ -77,7 +77,8 @@
                   "value": 0.87,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Jobs saved going to 18-35 year olds",
@@ -89,7 +90,8 @@
                   "value": 0.62,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Jobs saved over time",
@@ -121,7 +123,8 @@
                   "value": 1070,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Jobs saved by province",
@@ -173,7 +176,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1809,

@@ -76,7 +76,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 12690,
@@ -117,7 +118,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1750,
@@ -158,7 +160,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1719,
@@ -199,7 +202,8 @@
                   "value": 724,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 524,
@@ -240,7 +244,8 @@
                   "value": 1195,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1038,
@@ -281,7 +286,8 @@
                   "value": 609,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 1164,
@@ -322,7 +328,8 @@
                   "value": 3523,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 4246,
@@ -363,7 +370,8 @@
                   "value": 12337,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 15012,
@@ -404,7 +412,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 7524,
@@ -445,7 +454,8 @@
                   "value": 0,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 4644,

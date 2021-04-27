@@ -106,7 +106,8 @@
                     "value": 0,
                     "value_target": 25000
                   }
-                ]
+                ],
+                "data_missing": false
               },
               {
                 "name": "over time",
@@ -138,7 +139,8 @@
                     "value": 356260,
                     "value_target": null
                   }
-                ]
+                ],
+                "data_missing": false
               }
             ],
             "value_target": 434237,
@@ -169,7 +171,8 @@
                     "value": 25539,
                     "value_target": 15714
                   }
-                ]
+                ],
+                "data_missing": false
               },
               {
                 "name": "over time",
@@ -201,7 +204,8 @@
                     "value": 64685,
                     "value_target": null
                   }
-                ]
+                ],
+                "data_missing": false
               }
             ],
             "value_target": 199173,
@@ -232,7 +236,8 @@
                     "value": 8210,
                     "value_target": 14000
                   }
-                ]
+                ],
+                "data_missing": false
               },
               {
                 "name": "over time",
@@ -246,25 +251,26 @@
                   },
                   {
                     "key": "202011",
-                    "value": 749,
+                    "value": 22478,
                     "value_target": null
                   },
                   {
                     "key": "202012",
-                    "value": 793,
+                    "value": 22781,
                     "value_target": null
                   },
                   {
                     "key": "202101",
-                    "value": 3561,
+                    "value": 30340,
                     "value_target": null
                   },
                   {
                     "key": "202102",
-                    "value": 9280,
+                    "value": 36942,
                     "value_target": null
                   }
-                ]
+                ],
+                "data_missing": false
               }
             ],
             "value_target": 60742,
@@ -355,7 +361,8 @@
                       "value": 6459,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -372,7 +379,8 @@
                       "value": 0.63,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -384,7 +392,8 @@
                       "value": 0.92,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -431,7 +440,8 @@
                       "value": 3627,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 8000,
@@ -546,7 +556,8 @@
                       "value": 13990,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Employed over time",
@@ -578,7 +589,8 @@
                       "value": 187654,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 200000,
@@ -643,7 +655,8 @@
                       "value": 5771,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Employed over time",
@@ -675,7 +688,8 @@
                       "value": 130344,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 100000,
@@ -702,7 +716,34 @@
                   "name": "Jobs saved over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": []
+                  "values": [
+                    {
+                      "key": "202010",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202011",
+                      "value": 21729,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202012",
+                      "value": 21988,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202101",
+                      "value": 26779,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202102",
+                      "value": 27662,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by province",
@@ -754,7 +795,8 @@
                       "value": 6027,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 44933,
@@ -854,7 +896,8 @@
                       "value": 0.87,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved going to 18-35 year olds",
@@ -866,7 +909,8 @@
                       "value": 0.62,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved over time",
@@ -898,7 +942,8 @@
                       "value": 1070,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by province",
@@ -950,7 +995,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1809,
@@ -1089,7 +1135,8 @@
                       "value": 2741,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -1141,7 +1188,8 @@
                       "value": 271,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1045,
@@ -1186,7 +1234,8 @@
                       "value": 2377,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -1238,7 +1287,8 @@
                       "value": 382,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1236,
@@ -1353,7 +1403,8 @@
                       "value": 55,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -1370,7 +1421,8 @@
                       "value": 0.64,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -1382,7 +1434,8 @@
                       "value": 0.89,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -1451,7 +1504,8 @@
                       "value": 128,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -1468,7 +1522,8 @@
                       "value": 0.7713,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -1500,7 +1555,8 @@
                       "value": 13648,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
@@ -1512,7 +1568,8 @@
                       "value": 0.5865,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to military veterans",
@@ -1524,7 +1581,8 @@
                       "value": 191,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to disabled persons",
@@ -1536,7 +1594,8 @@
                       "value": 33,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -1597,7 +1656,8 @@
                       "value": 1,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -1614,7 +1674,8 @@
                       "value": 0.7841,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -1646,7 +1707,8 @@
                       "value": 8492,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
@@ -1658,7 +1720,8 @@
                       "value": 0.5444,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to military veterans",
@@ -1670,7 +1733,8 @@
                       "value": 109,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to disabled persons",
@@ -1682,7 +1746,8 @@
                       "value": 23,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -1743,7 +1808,8 @@
                       "value": 26,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -1760,7 +1826,8 @@
                       "value": 0.7379,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -1792,7 +1859,8 @@
                       "value": 8989,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
@@ -1804,7 +1872,8 @@
                       "value": 0.6047,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to military veterans",
@@ -1816,7 +1885,8 @@
                       "value": 94,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to disabled persons",
@@ -1828,7 +1898,8 @@
                       "value": 37,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -1889,7 +1960,8 @@
                       "value": 120,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -1906,7 +1978,8 @@
                       "value": 0.6195,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -1938,7 +2011,8 @@
                       "value": 5488,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
@@ -1950,7 +2024,8 @@
                       "value": 0.6101,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to military veterans",
@@ -1962,7 +2037,8 @@
                       "value": 76,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to disabled persons",
@@ -1974,7 +2050,8 @@
                       "value": 31,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -2035,7 +2112,8 @@
                       "value": 16,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -2052,7 +2130,8 @@
                       "value": 0.5765,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -2084,7 +2163,8 @@
                       "value": 2529,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
@@ -2096,7 +2176,8 @@
                       "value": 0.5967,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to military veterans",
@@ -2108,7 +2189,8 @@
                       "value": 29,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelhoods supported going to disabled persons",
@@ -2120,7 +2202,8 @@
                       "value": 16,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -2229,7 +2312,8 @@
                       "value": 288,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 350,
@@ -2274,7 +2358,8 @@
                       "value": 44,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 150,
@@ -2319,7 +2404,8 @@
                       "value": 70,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 400,
@@ -2414,7 +2500,8 @@
                       "value": 633,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1470,
@@ -2459,7 +2546,8 @@
                       "value": 156,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -2476,7 +2564,8 @@
                       "value": 0.44,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -2488,7 +2577,8 @@
                       "value": 0.9,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -2540,7 +2630,8 @@
                       "value": 21,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 900,
@@ -2597,7 +2688,8 @@
                       "value": 57,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -2649,7 +2741,8 @@
                       "value": 27,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 900,
@@ -2694,7 +2787,8 @@
                       "value": 255,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -2711,7 +2805,8 @@
                       "value": 0.75,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -2723,7 +2818,8 @@
                       "value": 1.0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -2775,7 +2871,8 @@
                       "value": 57,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 260,
@@ -2820,7 +2917,8 @@
                       "value": 144,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 163,
@@ -2865,7 +2963,8 @@
                       "value": 146,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 163,
@@ -2918,7 +3017,8 @@
                       "value": 2445,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by gender",
@@ -2935,7 +3035,8 @@
                       "value": 0.54,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by province",
@@ -2947,7 +3048,8 @@
                       "value": 0.44,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by province",
@@ -2999,7 +3101,8 @@
                       "value": 778,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 5000,
@@ -3044,7 +3147,8 @@
                       "value": 675,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by gender",
@@ -3061,7 +3165,8 @@
                       "value": 0.333,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Jobs saved by province",
@@ -3113,7 +3218,8 @@
                       "value": 119,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 5000,
@@ -3158,7 +3264,8 @@
                       "value": 5090,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 4000,
@@ -3211,7 +3318,8 @@
                       "value": 17237,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -3228,7 +3336,8 @@
                       "value": 0.39,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by province",
@@ -3240,7 +3349,8 @@
                       "value": 0.43,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by province",
@@ -3292,7 +3402,8 @@
                       "value": 1186,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 7857,
@@ -3337,7 +3448,8 @@
                       "value": 8302,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by gender",
@@ -3354,7 +3466,8 @@
                       "value": 0.49,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Livelihoods supported by province",
@@ -3406,7 +3519,8 @@
                       "value": 1120,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 7857,
@@ -3501,7 +3615,8 @@
                       "value": 4635,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -3553,7 +3668,8 @@
                       "value": 76,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 37079,
@@ -3648,7 +3764,8 @@
                       "value": 171,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -3665,7 +3782,8 @@
                       "value": 0.59,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -3677,7 +3795,8 @@
                       "value": 1.0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -3729,7 +3848,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -3770,7 +3890,8 @@
                       "value": 158,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -3787,7 +3908,8 @@
                       "value": 0.57,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -3799,7 +3921,8 @@
                       "value": 0.9999,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -3851,7 +3974,8 @@
                       "value": 48,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -3892,7 +4016,8 @@
                       "value": 511,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -3909,7 +4034,8 @@
                       "value": 0.52,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -3921,7 +4047,8 @@
                       "value": 0.9999,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -3973,7 +4100,8 @@
                       "value": 19,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -4014,7 +4142,8 @@
                       "value": 358,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -4031,7 +4160,8 @@
                       "value": 0.45,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -4043,7 +4173,8 @@
                       "value": 0.9999,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -4095,7 +4226,8 @@
                       "value": 59,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -4136,7 +4268,8 @@
                       "value": 109,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -4153,7 +4286,8 @@
                       "value": 0.6,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -4165,7 +4299,8 @@
                       "value": 1.0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -4217,7 +4352,8 @@
                       "value": 12,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -4258,7 +4394,8 @@
                       "value": 136,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -4275,7 +4412,8 @@
                       "value": 0.56,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -4287,7 +4425,8 @@
                       "value": 0.9,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -4339,7 +4478,8 @@
                       "value": 23,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -4380,7 +4520,8 @@
                       "value": 426,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Gender",
@@ -4397,7 +4538,8 @@
                       "value": 0.67,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
@@ -4409,7 +4551,8 @@
                       "value": 0.9998,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 },
                 {
                   "name": "Opportunities by Province",
@@ -4461,7 +4604,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": -1,
@@ -4552,7 +4696,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 12690,
@@ -4597,7 +4742,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1750,
@@ -4642,7 +4788,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1719,
@@ -4687,7 +4834,8 @@
                       "value": 724,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 524,
@@ -4732,7 +4880,8 @@
                       "value": 1195,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1038,
@@ -4777,7 +4926,8 @@
                       "value": 609,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 1164,
@@ -4822,7 +4972,8 @@
                       "value": 3523,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 4246,
@@ -4867,7 +5018,8 @@
                       "value": 12337,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 15012,
@@ -4912,7 +5064,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 7524,
@@ -4957,7 +5110,8 @@
                       "value": 0,
                       "value_target": null
                     }
-                  ]
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 4644,

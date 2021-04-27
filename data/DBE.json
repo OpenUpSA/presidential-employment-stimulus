@@ -96,7 +96,8 @@
                   "value": 13990,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Employed over time",
@@ -128,7 +129,8 @@
                   "value": 187654,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 200000,
@@ -189,7 +191,8 @@
                   "value": 5771,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             },
             {
               "name": "Employed over time",
@@ -221,7 +224,8 @@
                   "value": 130344,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 100000,
@@ -244,7 +248,34 @@
               "name": "Jobs saved over time",
               "viz": "line",
               "lookup": "time",
-              "values": []
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 21729,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 21988,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 26779,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 27662,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
             },
             {
               "name": "Jobs saved by province",
@@ -296,7 +327,8 @@
                   "value": 6027,
                   "value_target": null
                 }
-              ]
+              ],
+              "data_missing": false
             }
           ],
           "value_target": 44933,

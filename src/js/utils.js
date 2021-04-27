@@ -42,3 +42,40 @@ export function organizeByZero(array) {
     }, [[], []]);
     return pass.concat(fail);
 }
+
+export function fillInMissingSections(dimensions, sheet_name) {
+  const order = {
+    time: 0,
+    gender: 1,
+    age: 2,
+    vets: 3,
+    disabled: 4,
+    province: 5
+  };
+
+  dimensions.sort((a, b) => { return order[a.lookup] - order[b.lookup]});
+  // expect dimensions to include:
+  // time, gender, age, [ vets, disabled ], province
+  const lookupList = Array("time", "gender", "age", "vets", "disabled", "province");
+  const vizList = Array("line", "two_value", "percentile", "count", "count", "bar")
+  let newDimensions = Array();
+  let index = 0;
+  let dimIndex = 0;
+  while (index < lookupList.length) {
+    // console.log(dimIndex);
+    // console.log(dimensions.length);
+    // console.log(dimensions);
+    if (dimIndex < dimensions.length && dimensions[dimIndex].lookup === lookupList[index]) {
+      newDimensions.push(dimensions[dimIndex]);
+      dimIndex += 1;
+    } else {
+      newDimensions.push({name: "missing", viz: vizList[index], lookup: lookupList[index], values: [], data_missing: true});
+    }
+    if (sheet_name !== "DALRRD" && lookupList[index] === "age") {
+      index += 3;
+    } else {
+      index += 1;
+    }
+  }
+  return newDimensions;
+}
