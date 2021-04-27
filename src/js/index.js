@@ -106,12 +106,12 @@ Promise.all([
               valueTwo.key, valueTwo.value,
             );
           }
-          if (dimension.viz === 'percentile') {
+          if (dimension.viz === 'percentile' || dimension.viz === 'count') {
             new VizHeading(subSection.$container, dimension.name);
             const { value } = dimension.values[0];
             new VizValue(
               subSection.$container,
-              'count',
+              dimension.viz,
               value,
             );
           }

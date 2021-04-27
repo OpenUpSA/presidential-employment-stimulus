@@ -29,6 +29,7 @@ export const FORMATTERS = {
   count: formatCount,
   currency: formatAmount,
   percentage: formatPercentage,
+  percentile: formatPercentage,
   job_opportunities: formatCount,
   livelihoods: formatCount,
   jobs_retain: formatCount,
