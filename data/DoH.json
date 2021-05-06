@@ -3,7 +3,7 @@
   "name": "Health",
   "sheet_name": "DoH",
   "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
-  "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
+  "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that  health workers play to enhance the resilience of the national health care system has been foregrounded. Community health workers have been on the frontline of active case-finding through screening and contact tracing. In some instances, these workers have been called upon to deliver these services without adequate support and supervision.  Similarly, nursing staff without public facilities have provided much needed care services in the most vulnerable communities. The stimulus support to the sector seeks to augment this capacity and address gaps through the recruitment of additional community health workers and outreach team leaders for supervision. Moreover, additional enrolled and auxillary nurses are targeted to increase capacity in public health facilities.",
   "target_lines": [
     39,
     43
@@ -22,7 +22,7 @@
           "metric_type": "currency",
           "value": -1,
           "dimensions": [],
-          "value_target": 393571000,
+          "value_target": 180000000,
           "implementation_detail": null
         },
         {

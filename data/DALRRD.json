@@ -3,7 +3,7 @@
   "name": "Agriculture, Land Reform and Rural Development",
   "sheet_name": "DALRRD",
   "lead": "Expanding support to farmers and protecting food value chains",
-  "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers.",
+  "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. The Presidential Employment Stimulus is supporting subsistence farmers, through the provision of production input vouchers. Applications were done on a USSD platform, providing DALRRD with a geo-spatially referenced data-base of subsistence farmers for the first time. Agricultural graduates are being used to do on-site verification of applicants, collecting additional data that provides a basis for future support also.",
   "target_lines": [
     8,
     14
@@ -944,7 +944,7 @@
     {
       "programme_name": "Subsistence producer relief fund",
       "status": "OnTrack",
-      "detail": "Over 178 000 applications were received through the USSD platform established by the department, and the process of issuing vouchers to eligible applicants has begun. Verification of applicants is also continuing."
+      "detail": "The department received over 178 000 applications through the USSD platform developed to administer the call for applications. Of these, 131 000 have been pre-approved and physical verification of applicants is underway, to ensure that farmer activity is as reported. The process of issuing vouchers to eligible verified applicants has also begun."
     }
   ]
 }
