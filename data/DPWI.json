@@ -3,7 +3,7 @@
   "name": "Public Works and Infrastructure",
   "sheet_name": "DPWI",
   "lead": "Graduate placements in the professional services",
-  "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored",
+  "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored. The Presidential Employment Stimulus is supporting graduate placements in a range of programmes linked to facilities management and infrastructure delivery mandate of the department.  An additional benefit is that students on the programme will obtain sufficient work experience to obtain their qualification thus helping to reduce the backlog that the TVET Colleges and University of Technologies are experiencing.",
   "target_lines": [
     47,
     56
@@ -30,7 +30,7 @@
           "metric_type": "count",
           "value": 1869,
           "dimensions": [],
-          "value_target": 0,
+          "value_target": 1560,
           "implementation_detail": null
         }
       ],

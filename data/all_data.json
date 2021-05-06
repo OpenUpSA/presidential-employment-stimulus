@@ -3,7 +3,7 @@
     "month": 202103,
     "name": "Programme overview",
     "lead": "Building a society that works",
-    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government\u2019s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities \u2013 starting right now.",
+    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
     "sections": [
       {
         "name": "Programme targets",
@@ -30,7 +30,7 @@
             "metric_type": "count",
             "value": 0,
             "dimensions": [],
-            "value_target": 173131,
+            "value_target": 173131.5,
             "implementation_detail": null
           }
         ],
@@ -288,7 +288,7 @@
       "name": "Trade, Industry and Competition",
       "sheet_name": "DTIC",
       "lead": "Piloting new models for re-shoring and expanding global business services",
-      "paragraph": "The Global Business Services Sector has an impressive track record. Established in 2006/7 to provide offshore customer service delivery, the sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20% since 2014.",
+      "paragraph": "The Global Business Services sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20%. This is as a result of an effective partnership between the dtic and the private sector.  The sector includes call centres and other digital technology services. It is one of few sectors that has been able to grow in the context of Covid-19. The Presidential Employment Stimulus recognised the opportunity to further boost growth in this sector, supporting additional incentives for a target of 8,000 jobs. ",
       "target_lines": [
         38,
         39
@@ -448,7 +448,7 @@
               "implementation_detail": {
                 "programme_name": "Services sector development incentives",
                 "status": "OnTrack",
-                "detail": "The Global Business Services incentive programme has been re-instated. The programme is progressing well and may exceed its target."
+                "detail": "There has been good uptake of the incentives from the private sector and effective rollout by the dtic."
               }
             }
           ],
@@ -462,8 +462,8 @@
       "month": 202103,
       "name": "Basic Education",
       "sheet_name": "DBE",
-      "lead": "Teachers assistants and other support for schools",
-      "paragraph": "A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
+      "lead": "School assistants strengthen the learning environment at schools ",
+      "paragraph": "The Basic Education Employment Intervention (BEEI) of the DBE creates opportunities for a target of 300,000 young people, placed as school assistants at over 22,000 schools. This enables a high level of spatial equity, reaching communities everywhere. School assistants are selected by schools at the local level. There are two categories of assistants. For Education Assistant posts, matric is a requirement and graduates are prioritised. The Education Assistants support teachers in the classroom and assist with administration. For General Assistants, there is no minimum education qualification required. The General Assistants support maintenance and security at schools, as well as other tasks identified by the school. In addition, the stimulus supports teachers posts normally funded by School Governing Bodies at fee-paying schools, in a context in which parents were struggling to pay fees as a result of the economic impact of the pandemic. This placed these jobs at risk.",
       "target_lines": [
         2,
         5
@@ -506,6 +506,37 @@
               "metric_type": "count",
               "value": 187654,
               "dimensions": [
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.65,
+                      "value_target": null
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.35,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.99,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
                 {
                   "name": "Opportunities by Province",
                   "viz": "bar",
@@ -597,7 +628,7 @@
               "implementation_detail": {
                 "programme_name": "Education Assistants",
                 "status": "OnTrack",
-                "detail": "Appointments have been finalised in most of the provinces and the assistants are currently supporting teachers in schools across the country."
+                "detail": "The department has placed close to 200 000 education assistants in schools across the country. These young people provide crucial support to teachers in the classroom and perform administrative tasks. Feedback from principals and teachers to date has been strongly positive, with the school assistants credited with supporting learning outcomes during a difficult time for all. Despite the challenges, and with the support of civil society organisations, DBE has also rolled out training of diverse kinds to the school assistants, with a focus on topics that enhance their ability to support curriculum outcomes - such as reading for meaning, maths literacy and ICT."
               }
             },
             {
@@ -605,6 +636,37 @@
               "metric_type": "count",
               "value": 130344,
               "dimensions": [
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.65,
+                      "value_target": null
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.35,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 0.99,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
                 {
                   "name": "Opportunities by Province",
                   "viz": "bar",
@@ -696,7 +758,7 @@
               "implementation_detail": {
                 "programme_name": "General Assistants",
                 "status": "OnTrack",
-                "detail": "Appointments have been finalised in most of the provinces and the department has exceeded its target. Assistants are performing a range of different duties unique to each school's needs."
+                "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supporting maintenance and security at schools and other basic needs. The period of school closures was used to good effect, with diverse maintenance and classroom upgrade activities undertaken.  "
               }
             }
           ],
@@ -803,7 +865,7 @@
               "implementation_detail": {
                 "programme_name": "Retain vulnerable teaching posts",
                 "status": "MinorChallenges",
-                "detail": "The programme was undersubscribed and the department is exploring alternative use for unspent funds."
+                "detail": "This programme is protecting vulnerable teacher posts across the schooling system. Although initially targeted at quintile 4 and 5 schools, the support was targeted to all other schools in recognition of support required in poorer schools as well. This funding support has been undersubscribed and so where possible, provinces are using it to extend the school assistants programme. "
               }
             }
           ],
@@ -818,7 +880,7 @@
       "name": "Social Development",
       "sheet_name": "DSD",
       "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
-      "paragraph": "Livelihoods from the provision of Early Childhood Development services were severely disrupted by the pandemic, with providers facing challenges with re-opening. There are costs associated with doing so safely, and some parents can no longer afford to pay fees as a result of job losses.",
+      "paragraph": "Livelihoods from the provision of Early Childhood Development services were severely disrupted by the pandemic, with providers facing challenges with re-opening. There are costs associated with doing so safely, plus many sites have faced a loss of income, with some parents unable to afford to pay fees as a result of losing their jobs. To support the sector back on its feet, the ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) is intended to benefit 108 833 workers. This comprises support to 83 333 ECD workers as well as top up payments to 25 500 existing ECD workers, to support Covid-19 compliance at ECD sites. Over 140 civil society organisations have assisted ECD centres to apply for this support.",
       "target_lines": [
         5,
         8
@@ -1003,7 +1065,7 @@
               "implementation_detail": {
                 "programme_name": "Retention of social workers",
                 "status": "OnTrack",
-                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work."
+                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work. "
               }
             }
           ],
@@ -1023,7 +1085,7 @@
               "implementation_detail": {
                 "programme_name": "ECD income and compliance support",
                 "status": "MinorChallenges",
-                "detail": "The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. Verification is currently underway."
+                "detail": "The department launched applications for the ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) in February. The support was oversubscribed and verification of programmes is currently underway. The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. "
               }
             }
           ],
@@ -1038,7 +1100,7 @@
       "name": "Health",
       "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
-      "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
+      "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that  health workers play to enhance the resilience of the national health care system has been foregrounded. Community health workers have been on the frontline of active case-finding through screening and contact tracing. In some instances, these workers have been called upon to deliver these services without adequate support and supervision.  Similarly, nursing staff without public facilities have provided much needed care services in the most vulnerable communities. The stimulus support to the sector seeks to augment this capacity and address gaps through the recruitment of additional community health workers and outreach team leaders for supervision. Moreover, additional enrolled and auxillary nurses are targeted to increase capacity in public health facilities.",
       "target_lines": [
         39,
         43
@@ -1057,7 +1119,7 @@
               "metric_type": "currency",
               "value": -1,
               "dimensions": [],
-              "value_target": 393571000,
+              "value_target": 180000000,
               "implementation_detail": null
             },
             {
@@ -1085,7 +1147,7 @@
               "implementation_detail": {
                 "programme_name": "Community Health Workers",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to recruitment and the programme will not be implemented."
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
               }
             },
             {
@@ -1097,7 +1159,7 @@
               "implementation_detail": {
                 "programme_name": "Outreach Team Leaders",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to recruitment and the programme will not be implemented."
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
               }
             },
             {
@@ -1196,7 +1258,7 @@
               "implementation_detail": {
                 "programme_name": "Enrolled nurses",
                 "status": "OnTrack",
-                "detail": "Appointment commenced immediately and the department has exceeded its target"
+                "detail": "The programme was able to commence with recruitment immediately by relying on existing databases of unemployed health professionals. The department has exceeded its target to date. Appointed nurses are providing a range of primary health care services in public facilities and are playing a central role in the roll-out of the COVID-19 vaccination programme. "
               }
             },
             {
@@ -1295,7 +1357,7 @@
               "implementation_detail": {
                 "programme_name": "Auxiliary nurses",
                 "status": "OnTrack",
-                "detail": "Appointments commenced immediately after allocations were announced and the department has been able to exceed its targets."
+                "detail": "The programme was able to commence with recruitment immediately by relying on existing databases of unemployed health professionals. The department has exceeded its target to date. Appointed auxiliary nurses are supporting various services in public health facilities as part of the response to COVID-19."
               }
             }
           ],
@@ -1310,7 +1372,7 @@
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
-      "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers.",
+      "paragraph": "The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. The Presidential Employment Stimulus is supporting subsistence farmers, through the provision of production input vouchers. Applications were done on a USSD platform, providing DALRRD with a geo-spatially referenced data-base of subsistence farmers for the first time. Agricultural graduates are being used to do on-site verification of applicants, collecting additional data that provides a basis for future support also.",
       "target_lines": [
         8,
         14
@@ -2251,7 +2313,7 @@
         {
           "programme_name": "Subsistence producer relief fund",
           "status": "OnTrack",
-          "detail": "Over 178 000 applications were received through the USSD platform established by the department, and the process of issuing vouchers to eligible applicants has begun. Verification of applicants is also continuing."
+          "detail": "The department received over 178 000 applications through the USSD platform developed to administer the call for applications. Of these, 131 000 have been pre-approved and physical verification of applicants is underway, to ensure that farmer activity is as reported. The process of issuing vouchers to eligible verified applicants has also begun."
         }
       ]
     },
@@ -2260,7 +2322,7 @@
       "name": "Science and Innovation",
       "sheet_name": "DSI",
       "lead": "Supporting new graduates entering a hostile labour market",
-      "paragraph": "Given a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\\n\\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
+      "paragraph": "Given a constrained labour market, fewer opportunities have been available to graduates leaving institutions of higher learning over this period. The Department of Science and Innovation is delivering four programmes which will together employ 1,900 unemployed graduates. The HSRC is employing graduates as Health Promotion Agents at community level. The Enviro-Champs programme of the Duzi-Umngeni Conservation Trust is supporting water quality testing on the Umngeni River. The Water Research Council is placing graduates with host institutions to conduct water related projects and research while the CSIR has received support to expand its experiential learning programme.",
       "target_lines": [
         43,
         47
@@ -2295,7 +2357,7 @@
           "value_target": null
         },
         {
-          "name": "Subsistence producer relief fund",
+          "name": "Job opportunities",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -2307,7 +2369,7 @@
               "implementation_detail": {
                 "programme_name": "HSRC - Health Promotion Agents",
                 "status": "MinorChallenges",
-                "detail": "There were delays in the planning phase however, recruitment is underway and is being conducted in two phases."
+                "detail": "The programme experienced administrative challenges in the planning phase which has led to delays. The recruitment of participants is currently under way and will be completed in two phases. These participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic"
               }
             },
             {
@@ -2347,13 +2409,97 @@
                     }
                   ],
                   "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "GP",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 288,
+                      "value_target": null
+                    },
+                    {
+                      "key": "LP",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "WC",
+                      "value": 0,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.377,
+                      "value_target": null
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.623,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 1.0,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 350,
               "implementation_detail": {
                 "programme_name": "DUCT - Enviro-champs",
                 "status": "MinorChallenges",
-                "detail": "The transfer of funds from the department was delayed resulting in a slow start. However, additional partners were mobilised to fund the programme and commence implementation."
+                "detail": "A delay in the transfer of funds from the department to the implementing agent led to a slow start. Also, additional partners had to be mobilised to fund the programme. Implementation is now on track, with people appointed as champions of the environment (Enviro-Champs) in their local community. Through a green livelihoods programme, people living adjacent to rivers are given the responsibility to adopt-a-stretch \u2013 cleaning, maintaining, greening, restoring, and undertaking citizen science monitoring on that section of the river."
               }
             },
             {
@@ -2393,13 +2539,97 @@
                     }
                   ],
                   "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 1,
+                      "value_target": null
+                    },
+                    {
+                      "key": "FS",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "GP",
+                      "value": 21,
+                      "value_target": null
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 17,
+                      "value_target": null
+                    },
+                    {
+                      "key": "LP",
+                      "value": 1,
+                      "value_target": null
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NW",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "WC",
+                      "value": 4,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.659,
+                      "value_target": null
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.341,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 1.0,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 150,
               "implementation_detail": {
                 "programme_name": "CSIR - Experiential Training Programme",
                 "status": "CriticalChallenges",
-                "detail": "Placement has commenced however was affected by university system closures which meant students could not register and provide proof as part of application process. "
+                "detail": "Placement has commenced however, it was affected by university system closures which meant students could not register and provide proof as part of the application process. The appointed  Science, Engineering and Technology (SET) students will be supported to fulfil university pre-requisites for structured practical work exposure and training."
               }
             },
             {
@@ -2439,13 +2669,97 @@
                     }
                   ],
                   "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Province",
+                  "viz": "bar",
+                  "lookup": "province",
+                  "values": [
+                    {
+                      "key": "EC",
+                      "value": 3,
+                      "value_target": null
+                    },
+                    {
+                      "key": "FS",
+                      "value": 2,
+                      "value_target": null
+                    },
+                    {
+                      "key": "GP",
+                      "value": 38,
+                      "value_target": null
+                    },
+                    {
+                      "key": "KZN",
+                      "value": 10,
+                      "value_target": null
+                    },
+                    {
+                      "key": "LP",
+                      "value": 5,
+                      "value_target": null
+                    },
+                    {
+                      "key": "MP",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NW",
+                      "value": 2,
+                      "value_target": null
+                    },
+                    {
+                      "key": "NC",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "WC",
+                      "value": 10,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities by Gender",
+                  "viz": "two_value",
+                  "lookup": "gender",
+                  "values": [
+                    {
+                      "key": "Male",
+                      "value": 0.27,
+                      "value_target": null
+                    },
+                    {
+                      "key": "Female",
+                      "value": 0.73,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Opportunities going to 18-35 year olds",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "18-35",
+                      "value": 1.0,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
                 }
               ],
               "value_target": 400,
               "implementation_detail": {
                 "programme_name": "WRC - Water Graduate Employment Programme",
                 "status": "MinorChallenges",
-                "detail": "There were delays in the planning phase however, appointments for phase 1 is complete and the second phase of recruitment is underway."
+                "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruiment and these graduates are placed with various hosts. Phase 2 is currently underway."
               }
             }
           ],
@@ -2459,8 +2773,8 @@
       "month": 202101,
       "name": "Sports, Arts and Culture",
       "sheet_name": "DSAC",
-      "lead": "To get artists, cultural workers and the sporting sector on the road to recovery",
-      "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors have been untouched",
+      "lead": "Getting artists, cultural workers and the sporting sector on the road to recovery",
+      "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors has been untouched. The stimulus is supporting a range of public employment programmes and job retention programmes for the creative and sports sectors. It has also supported a stimulus to support the creative sector to return to work, through grants to the National Arts Council and the National Film and Video Foundation.",
       "target_lines": [
         25,
         37
@@ -2479,7 +2793,7 @@
               "metric_type": "currency",
               "value": -1,
               "dimensions": [],
-              "value_target": 525000000,
+              "value_target": 665000000,
               "implementation_detail": null
             },
             {
@@ -2540,8 +2854,8 @@
               "value_target": 1470,
               "implementation_detail": {
                 "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
-                "status": "MinorChallenges",
-                "detail": "Appointed participants have commenced work however, the demand from organisations has been low."
+                "status": "CriticalChallenges",
+                "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached."
               }
             },
             {
@@ -2671,7 +2985,7 @@
               "implementation_detail": {
                 "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
                 "status": "OnTrack",
-                "detail": "The participants have started working with significant progress against the target to date."
+                "detail": "The programme is progressing well. The approved visual artists are creating artworks for consideration by the Art Bank of South Africa as part of economic recovery. "
               }
             },
             {
@@ -2682,8 +2996,8 @@
               "value_target": 500,
               "implementation_detail": {
                 "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
-                "status": "CriticalChallenges",
-                "detail": "The programme experienced delays in implementation due to the need to obtain approval of the entity from National Treasury."
+                "status": "MinorChallenges",
+                "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Although delayed, implementation is now in process."
               }
             },
             {
@@ -2912,7 +3226,7 @@
               "implementation_detail": {
                 "programme_name": "Audit of national museums - South African Heritage Resources Agency",
                 "status": "OnTrack",
-                "detail": "Participants have commenced work and audits are underway across the country."
+                "detail": "The programme has appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and so far 417 of 676 recorded sites have been approved."
               }
             },
             {
@@ -2957,8 +3271,8 @@
               "value_target": 163,
               "implementation_detail": {
                 "programme_name": "Digitisation of records - National Library of South Africa",
-                "status": "OnTrack",
-                "detail": "Participants have commenced work and digitisation of records is underway."
+                "status": "CriticalChallenges",
+                "detail": "The delays in the finalization of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme has however appointed participants and begun prepatory work for the digitisation process."
               }
             },
             {
@@ -3003,8 +3317,8 @@
               "value_target": 163,
               "implementation_detail": {
                 "programme_name": "Digitisation of records -National Archives",
-                "status": "OnTrack",
-                "detail": "Participants have commenced work and digitisation of records is underway."
+                "status": "CriticalChallenges",
+                "detail": "Delays in the finalisation of the MOA with the department delayed procurement of equipment. The programme has recruited and appointed participants who have commenced work, however this is limited to preparatory work and other tasks as digitisation can only commence once the equipment is available."
               }
             }
           ],
@@ -3141,8 +3455,8 @@
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
-                "status": "CriticalChallenges",
-                "detail": "This stream was undersubscribed and the department is has  transferred the  unspent funds to increase the support to art and culture practitioners"
+                "status": "MinorChallenges",
+                "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
               }
             },
             {
@@ -3258,8 +3572,8 @@
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
-                "status": "OnTrack",
-                "detail": "There were several institutional challenges which have now been resolved. The programme has commenced implementation and has begun issuing awards"
+                "status": "MinorChallenges",
+                "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
               }
             },
             {
@@ -3304,8 +3618,8 @@
               "value_target": 4000,
               "implementation_detail": {
                 "programme_name": "Job retention in sport sector - Sport Trust",
-                "status": "MinorChallenges",
-                "detail": "The programme was oversubscribed and has exceeded its target."
+                "status": "OnTrack",
+                "detail": "The programme was oversubscribed and 65 organisations are receiving support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies."
               }
             }
           ],
@@ -3443,7 +3757,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Arts Council",
                 "status": "CriticalChallenges",
-                "detail": "This stream was oversubscribed and only a portion of the approved beneficiaries received support in December. A new council joined the board in January and they are addressing the challenges and re-allocating awards."
+                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. This caused disruption in the sector, in a context in which commitments had often already been made against the intital awards issued. The process also caused delays in payments. The NAC has instituted an investigation into the defects in the management and oversight of the allocations. "
               }
             },
             {
@@ -3560,7 +3874,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                 "status": "OnTrack",
-                "detail": "There were several institutional challenges which have now been resolved. The programme has commenced implementation and has begun issuing awards"
+                "detail": "The NFVF issued a call for proposals to the sector which was significantly oversubscribed. The NVFV has successfully completed the adjudication of these, issuing over 300 awards supporting projects that create work in the sector.  "
               }
             }
           ],
@@ -3575,7 +3889,7 @@
       "name": "Transport",
       "sheet_name": "DoT",
       "lead": "Improving access to services and opportunities for people in rural areas",
-      "paragraph": "Rural roads play a vital role in connecting rural communities to services such as health and education, as well as providing access to markets and economic opportunities. However, rural roads infrastructure remains poor in many areas of South Africa",
+      "paragraph": "Rural roads play a vital role in connecting rural communities to services such as health and education, as well as providing access to markets and economic opportunities. However, rural roads infrastructure remains poor in many areas of South Africa. Provinces are receiving support to scale up rural roads maintenance.",
       "target_lines": [
         24,
         25
@@ -3709,7 +4023,7 @@
               "implementation_detail": {
                 "programme_name": "Rural roads maintenance",
                 "status": "MinorChallenges",
-                "detail": "Several provinces have commenced with projects and recruited participants. Some provinces are facing challenges with procurement and project implementation was affected by cyclone Eloise."
+                "detail": "The provinicial departments faced procurement delays in the planning phase and implementation was also affected by cyclone Eloise. These challenges are still ongoing in some provinces, however, several projects have commenced and participants have been appointed, with maintenance of rural roads underway in most provinces."
               }
             }
           ],
@@ -3724,7 +4038,7 @@
       "name": "Public Works and Infrastructure",
       "sheet_name": "DPWI",
       "lead": "Graduate placements in the professional services",
-      "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored",
+      "paragraph": "In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored. The Presidential Employment Stimulus is supporting graduate placements in a range of programmes linked to facilities management and infrastructure delivery mandate of the department.  An additional benefit is that students on the programme will obtain sufficient work experience to obtain their qualification thus helping to reduce the backlog that the TVET Colleges and University of Technologies are experiencing.",
       "target_lines": [
         47,
         56
@@ -3751,7 +4065,7 @@
               "metric_type": "count",
               "value": 1869,
               "dimensions": [],
-              "value_target": 0,
+              "value_target": 1560,
               "implementation_detail": null
             }
           ],
@@ -4736,8 +5050,8 @@
               "value_target": 12690,
               "implementation_detail": {
                 "programme_name": "Cleaning and greening - war on waste with municipalities",
-                "status": "MinorChallenges",
-                "detail": "Procurement of service providers is still in process."
+                "status": "CriticalChallenges",
+                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
               }
             },
             {
@@ -4782,8 +5096,8 @@
               "value_target": 1750,
               "implementation_detail": {
                 "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
-                "status": "MinorChallenges",
-                "detail": "Procurement of service providers is still in process."
+                "status": "CriticalChallenges",
+                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
               }
             },
             {
@@ -4828,8 +5142,8 @@
               "value_target": 1719,
               "implementation_detail": {
                 "programme_name": "Oceans and Coast: Source to Sea",
-                "status": "MinorChallenges",
-                "detail": "Procurement of service providers is still in process."
+                "status": "CriticalChallenges",
+                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
               }
             },
             {
@@ -4875,7 +5189,7 @@
               "implementation_detail": {
                 "programme_name": "Groen Sebenzas, weather service - graduate programme",
                 "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "detail": "The target has already been exceeded."
               }
             },
             {
@@ -4921,7 +5235,7 @@
               "implementation_detail": {
                 "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                 "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "detail": "SANBI infrastructure maintenance is performing well."
               }
             },
             {
@@ -4967,7 +5281,7 @@
               "implementation_detail": {
                 "programme_name": "iSimangaliso: conservation management infrastructure",
                 "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "detail": "iSimangaliso experienced procurement delays but implementation is rolling out."
               }
             },
             {
@@ -5013,7 +5327,7 @@
               "implementation_detail": {
                 "programme_name": "SANPARKS upgrade and green energy",
                 "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "detail": "Implementation was planned to start from January and is underway."
               }
             },
             {
@@ -5059,7 +5373,7 @@
               "implementation_detail": {
                 "programme_name": "Catchment management and strategic water sources",
                 "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "detail": "Implementation was planned to start from January and is underway."
               }
             },
             {
@@ -5104,8 +5418,8 @@
               "value_target": 7524,
               "implementation_detail": {
                 "programme_name": "Bio-diversity economy",
-                "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "status": "CriticalChallenges",
+                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
               }
             },
             {
@@ -5150,8 +5464,8 @@
               "value_target": 4644,
               "implementation_detail": {
                 "programme_name": "Climate Adaptation: Forestry support",
-                "status": "OnTrack",
-                "detail": "Appointed participants have commenced work and recruitment is still ongoing."
+                "status": "CriticalChallenges",
+                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
               }
             }
           ],
@@ -5166,7 +5480,7 @@
       "name": "Co-operative government",
       "sheet_name": "DCOGTA",
       "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
-      "paragraph": "Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
+      "paragraph": "In certain areas of infrastructure delivery, labour-intensive methods can enhance the job creation impact, while delivering the same quality of infrastructure outcomes. While there has long been policy support for labour-intensive methods, these are not always used in practice. Through the stimulus, the Municipal Infrastructure Support Agency (MISA) of DCOGTA is building the capacity of municipalities to utilise these methods. Fifteen municipalities have been targeted; others have asked to join the process. This component is only expected to deliver results against the employment target in the 2021/22 financial year, because of the contracting cycle for municipal infrastructure.",
       "target_lines": [
         37,
         38
@@ -5213,7 +5527,7 @@
               "implementation_detail": {
                 "programme_name": "Mainstream labour intensive construction methods",
                 "status": "OnTrack",
-                "detail": "MISA has appointed a service provider to deliver the capacity development and roll-out the programme. Implementation will soon commence."
+                "detail": "The Municipal Infrastructure Support Agency (MISA) has finalised the tender process and appointed a service provider to deliver the capacity development and roll-out the programme. Implementation has commenced."
               }
             }
           ],

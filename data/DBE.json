@@ -2,8 +2,8 @@
   "month": 202103,
   "name": "Basic Education",
   "sheet_name": "DBE",
-  "lead": "Teachers assistants and other support for schools",
-  "paragraph": "A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
+  "lead": "School assistants strengthen the learning environment at schools ",
+  "paragraph": "The Basic Education Employment Intervention (BEEI) of the DBE creates opportunities for a target of 300,000 young people, placed as school assistants at over 22,000 schools. This enables a high level of spatial equity, reaching communities everywhere. School assistants are selected by schools at the local level. There are two categories of assistants. For Education Assistant posts, matric is a requirement and graduates are prioritised. The Education Assistants support teachers in the classroom and assist with administration. For General Assistants, there is no minimum education qualification required. The General Assistants support maintenance and security at schools, as well as other tasks identified by the school. In addition, the stimulus supports teachers posts normally funded by School Governing Bodies at fee-paying schools, in a context in which parents were struggling to pay fees as a result of the economic impact of the pandemic. This placed these jobs at risk.",
   "target_lines": [
     2,
     5
@@ -46,6 +46,37 @@
           "metric_type": "count",
           "value": 187654,
           "dimensions": [
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.65,
+                  "value_target": null
+                },
+                {
+                  "key": "Female",
+                  "value": 0.35,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.99,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
             {
               "name": "Opportunities by Province",
               "viz": "bar",
@@ -141,6 +172,37 @@
           "metric_type": "count",
           "value": 130344,
           "dimensions": [
+            {
+              "name": "Opportunities by Gender",
+              "viz": "two_value",
+              "lookup": "gender",
+              "values": [
+                {
+                  "key": "Male",
+                  "value": 0.65,
+                  "value_target": null
+                },
+                {
+                  "key": "Female",
+                  "value": 0.35,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
+              "name": "Opportunities going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "18-35",
+                  "value": 0.99,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
             {
               "name": "Opportunities by Province",
               "viz": "bar",

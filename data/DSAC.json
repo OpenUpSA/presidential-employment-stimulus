@@ -2,8 +2,8 @@
   "month": 202101,
   "name": "Sports, Arts and Culture",
   "sheet_name": "DSAC",
-  "lead": "To get artists, cultural workers and the sporting sector on the road to recovery",
-  "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors have been untouched",
+  "lead": "Getting artists, cultural workers and the sporting sector on the road to recovery",
+  "paragraph": "Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors has been untouched. The stimulus is supporting a range of public employment programmes and job retention programmes for the creative and sports sectors. It has also supported a stimulus to support the creative sector to return to work, through grants to the National Arts Council and the National Film and Video Foundation.",
   "target_lines": [
     25,
     37
@@ -22,7 +22,7 @@
           "metric_type": "currency",
           "value": -1,
           "dimensions": [],
-          "value_target": 525000000,
+          "value_target": 665000000,
           "implementation_detail": null
         },
         {
