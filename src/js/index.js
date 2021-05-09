@@ -77,7 +77,8 @@ Promise.all([
       () => tabs.select(i),
     );
     tabs.add(tab);
-    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph);
+    const months_text = lookups["time"][tabData.month];
+    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text);
     const sectionDataArr = tabData.sections || [];
     sectionDataArr.forEach((sectionData) => {
       const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
@@ -97,9 +98,6 @@ Promise.all([
         const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
         dimensions.forEach((dimension) => {
           if (dimension.data_missing) {
-            if (tabData.sheet_name === 'DALRRD') {
-              console.log(sectionType, subSectionData.metric_type, dimension.lookup);
-            }
             new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
           } else {
             if (dimension.viz === 'line') {
