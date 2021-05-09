@@ -9,6 +9,7 @@ const ICON_SELECTORS = {
   targets_currency: '.icon.icon--budget',
   targets_count: '.icon.icon--beneficiaries',
   budget_allocated: '.icon.icon--budget',
+  opportunities_in_progress: '.icon.icon--opportunities-progress',
 };
 const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
   ...obj,
@@ -38,7 +39,7 @@ export class Metric {
       ? this._value / this._target : null;
     this._iconType = this._sectionType;
     if (sectionType === 'targets') {
-      this._iconType = this._sectionType + '_' + this._metricType;
+      this._iconType = (this._title === "Opportunities in process") ? "opportunities_in_progress" : this._sectionType + '_' + this._metricType;
       this._topText = this._formatter(this._target);
       if (metricType === "currency" ) {
         this._bottomText = undefined;  // remove the target spend amount from all "currency" target metrics

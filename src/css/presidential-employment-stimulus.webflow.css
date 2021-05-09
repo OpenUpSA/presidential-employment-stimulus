@@ -261,14 +261,14 @@ p {
 }
 
 .icon.icon--jobs-retained {
-  background-image: url('../images/vulnerable-positions.svg');
+  background-image: url('../images/Jobs-retained.svg');
   background-position: 50% 50%;
-  background-size: 56px 56px;
-  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 .icon.icon--support {
-  background-image: url('../images/gen-assistants.svg');
+  background-image: url('../images/General-assistance.svg');
   background-position: 50% 50%;
   background-size: 56px 56px;
   background-repeat: no-repeat;
@@ -282,7 +282,14 @@ p {
 }
 
 .icon.icon--beneficiaries {
-  background-image: url('../images/beneficiaries.svg');
+  background-image: url('../images/Beneficiaries.svg');
+  background-position: 0px 0px;
+  background-size: 56px 56px;
+  background-repeat: no-repeat;
+}
+
+.icon.icon--opportunities-progress {
+  background-image: url('../images/Opportunities-in-progress.svg');
   background-position: 0px 0px;
   background-size: 56px 56px;
   background-repeat: no-repeat;
@@ -372,6 +379,10 @@ p {
   height: 10px;
   border-radius: 4px;
   background-color: #004069;
+}
+
+.bar-chart__row_bar.no-data--bar {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bar-chart__row_icon {
