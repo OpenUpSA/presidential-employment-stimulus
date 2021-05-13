@@ -12,7 +12,7 @@
           {
             "name": "Budget",
             "metric_type": "currency",
-            "value": 2470628000,
+            "value": 0,
             "dimensions": [],
             "value_target": 12634178000,
             "implementation_detail": null
@@ -30,7 +30,7 @@
             "metric_type": "count",
             "value": 0,
             "dimensions": [],
-            "value_target": 173131.5,
+            "value_target": 173131,
             "implementation_detail": null
           }
         ],
@@ -38,11 +38,11 @@
         "value_target": null
       },
       {
-        "name": "Summary",
+        "name": "Current status",
         "section_type": "overview",
         "metrics": [
           {
-            "name": "Job opportunities",
+            "name": "Jobs created",
             "metric_type": "job_opportunities",
             "value": 357724,
             "dimensions": [
@@ -52,39 +52,24 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "DTIC",
-                    "value": 6459,
-                    "value_target": 8000
-                  },
-                  {
                     "key": "DBE",
                     "value": 317998,
                     "value_target": 300000
                   },
                   {
-                    "key": "DSD",
-                    "value": 0,
-                    "value_target": 500
+                    "key": "DEFF",
+                    "value": 18388,
+                    "value_target": 50311
+                  },
+                  {
+                    "key": "DTIC",
+                    "value": 6459,
+                    "value_target": 8000
                   },
                   {
                     "key": "DoH",
                     "value": 5118,
                     "value_target": 5531
-                  },
-                  {
-                    "key": "DALRRD",
-                    "value": 1464,
-                    "value_target": 0
-                  },
-                  {
-                    "key": "DSI",
-                    "value": 402,
-                    "value_target": 1900
-                  },
-                  {
-                    "key": "DSAC",
-                    "value": 1391,
-                    "value_target": 4356
                   },
                   {
                     "key": "DoT",
@@ -97,14 +82,29 @@
                     "value_target": 1560
                   },
                   {
-                    "key": "DEFF",
-                    "value": 18388,
-                    "value_target": 50311
+                    "key": "DALRRD",
+                    "value": 1464,
+                    "value_target": 0
+                  },
+                  {
+                    "key": "DSAC",
+                    "value": 1391,
+                    "value_target": 4356
+                  },
+                  {
+                    "key": "DSI",
+                    "value": 402,
+                    "value_target": 1900
                   },
                   {
                     "key": "DCOGTA",
                     "value": 0,
                     "value_target": 25000
+                  },
+                  {
+                    "key": "DSD",
+                    "value": 0,
+                    "value_target": 500
                   }
                 ],
                 "data_missing": false
@@ -157,11 +157,6 @@
                 "lookup": "department",
                 "values": [
                   {
-                    "key": "DSD",
-                    "value": 0,
-                    "value_target": 108833
-                  },
-                  {
                     "key": "DALRRD",
                     "value": 39146,
                     "value_target": 74626
@@ -170,6 +165,11 @@
                     "key": "DSAC",
                     "value": 25539,
                     "value_target": 15714
+                  },
+                  {
+                    "key": "DSD",
+                    "value": 0,
+                    "value_target": 108833
                   }
                 ],
                 "data_missing": false
@@ -227,14 +227,14 @@
                     "value_target": 44933
                   },
                   {
-                    "key": "DSD",
-                    "value": 1070,
-                    "value_target": 1809
-                  },
-                  {
                     "key": "DSAC",
                     "value": 8210,
                     "value_target": 14000
+                  },
+                  {
+                    "key": "DSD",
+                    "value": 1070,
+                    "value_target": 1809
                   }
                 ],
                 "data_missing": false
@@ -323,7 +323,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -1273,7 +1273,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -1690,7 +1690,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -1752,7 +1752,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -2262,7 +2262,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -3194,7 +3194,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -4309,7 +4309,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -4467,7 +4467,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Livelihoods",
           "section_type": "livelihoods",
           "metrics": [
             {
@@ -4529,7 +4529,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -4981,7 +4981,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -5156,7 +5156,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
@@ -5428,7 +5428,7 @@
           "value_target": null
         },
         {
-          "name": "Job opportunities",
+          "name": "Jobs created",
           "section_type": "job_opportunities",
           "metrics": [
             {
