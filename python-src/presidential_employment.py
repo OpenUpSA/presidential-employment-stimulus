@@ -132,13 +132,13 @@ implementation_status_to_enum = {
 
 section_titles = {
     SectionEnum.targets.name: "Programme targets for this department",
-    SectionEnum.job_opportunities.name: "Job opportunities",
+    SectionEnum.job_opportunities.name: "Jobs created",
     SectionEnum.jobs_retain.name: "Jobs retained",
     SectionEnum.livelihoods.name: "Livelihoods",
     SectionEnum.targets.name + "_overview": "Programme targets",
     SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
     SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
-    SectionEnum.livelihoods.name + "_overview": "Livelihoods",
+    SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
     SectionEnum.in_process.name: "Opportunities in process"
 }
 

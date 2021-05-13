@@ -47,7 +47,7 @@ export class Metric {
         if (this._value) {
           this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
         } else {
-          this._bottomText = "";
+          this._bottomText = "Target not available";
         }
       }
 
@@ -56,7 +56,7 @@ export class Metric {
         this._iconType = this._metricType;
       }
       this._topText = this._formatter(this._value);
-      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : null;
+      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : "Target not available";
     }
     this.render();
   }
