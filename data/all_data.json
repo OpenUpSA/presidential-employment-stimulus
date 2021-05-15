@@ -97,14 +97,14 @@
                     "value_target": 1900
                   },
                   {
-                    "key": "DCOGTA",
-                    "value": 0,
-                    "value_target": 25000
-                  },
-                  {
                     "key": "DSD",
                     "value": 0,
                     "value_target": 500
+                  },
+                  {
+                    "key": "DCOGTA",
+                    "value": 0,
+                    "value_target": 25000
                   }
                 ],
                 "data_missing": false
@@ -147,7 +147,7 @@
             "implementation_detail": null
           },
           {
-            "name": "Livelihoods",
+            "name": "Livelihoods supported",
             "metric_type": "livelihoods",
             "value": 64685,
             "dimensions": [
@@ -457,7 +457,7 @@
           "value_target": null
         },
         {
-          "name": "Livelihoods",
+          "name": "Livelihoods supported",
           "section_type": "livelihoods",
           "metrics": [
             {
@@ -4012,7 +4012,7 @@
           "value_target": null
         },
         {
-          "name": "Livelihoods",
+          "name": "Livelihoods supported",
           "section_type": "livelihoods",
           "metrics": [
             {
@@ -4467,7 +4467,7 @@
           "value_target": null
         },
         {
-          "name": "Livelihoods",
+          "name": "Livelihoods supported",
           "section_type": "livelihoods",
           "metrics": [
             {
