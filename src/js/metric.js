@@ -27,7 +27,7 @@ const PROGRESS_CLASS = 'feature-value__header_chart-wrapper';
 const $containerTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
 
 export class Metric {
-  constructor($parent, title, sectionType, metricType, value, target) {
+  constructor($parent, title, sectionType, metricType, value, target, deptAcronym) {
     this._$parent = $parent;
     this._title = title;
     this._sectionType = sectionType;
@@ -54,13 +54,12 @@ export class Metric {
           }
         }
       }
-
     } else {
       if (sectionType === 'overview') {
         this._iconType = this._metricType;
       }
       this._topText = this._formatter(this._value);
-      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : "Target not available";
+      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : (deptAcronym === 'DALRRD' ? "" : "Target not available");
     }
     this.render();
   }
