@@ -1288,12 +1288,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.65,
+                      "value": 0.35,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.35,
+                      "value": 0.65,
                       "value_target": null
                     }
                   ],
@@ -1418,12 +1418,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.65,
+                      "value": 0.35,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.35,
+                      "value": 0.65,
                       "value_target": null
                     }
                   ],
