@@ -86,17 +86,17 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 129,
+                  "value": 1449,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 800,
+                  "value": 833,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 0,
+                  "value": 430,
                   "value_target": null
                 },
                 {
@@ -106,27 +106,27 @@
                 },
                 {
                   "key": "LP",
-                  "value": 450,
+                  "value": 630,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 211,
+                  "value": 265,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 2460,
+                  "value": 5480,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 509,
+                  "value": 897,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 76,
+                  "value": 261,
                   "value_target": null
                 }
               ],

@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": 202102,
+    "month": "202103",
     "name": "Programme overview",
     "lead": "Building a society that works",
     "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
@@ -14,7 +14,7 @@
             "metric_type": "currency",
             "value": 0,
             "dimensions": [],
-            "value_target": 12634178000,
+            "value_target": 0,
             "implementation_detail": null
           },
           {
@@ -30,7 +30,7 @@
             "metric_type": "count",
             "value": 0,
             "dimensions": [],
-            "value_target": 173131,
+            "value_target": 0,
             "implementation_detail": null
           }
         ],
@@ -284,7 +284,7 @@
   },
   "departments": [
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
@@ -1229,12 +1229,12 @@
         {
           "programme_name": "Subsistence producer relief fund",
           "status": "OnTrack",
-          "detail": "The department received over 178 000 applications through the USSD platform developed to administer the call for applications. Of these, 131 000 have been pre-approved and physical verification of applicants is underway, to ensure that farmer activity is as reported. The process of issuing vouchers to eligible verified applicants has also begun."
+          "detail": "The department continues to verify the 131 000 pre-approved applicants to ensure that farmer activity is as reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with suppliers that are charging more than the pre-agreed prices for inputs or disbursing cash instead of inputs for production."
         }
       ]
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Basic Education",
       "sheet_name": "DBE",
       "lead": "School assistants strengthen the learning environment at schools ",
@@ -1319,17 +1319,17 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 30628,
+                      "value": 40127,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 11021,
+                      "value": 11037,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 25003,
+                      "value": 29472,
                       "value_target": null
                     },
                     {
@@ -1339,7 +1339,7 @@
                     },
                     {
                       "key": "LP",
-                      "value": 30708,
+                      "value": 28819,
                       "value_target": null
                     },
                     {
@@ -1349,17 +1349,17 @@
                     },
                     {
                       "key": "NW",
-                      "value": 12983,
+                      "value": 13082,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 3138,
+                      "value": 3469,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 13990,
+                      "value": 10760,
                       "value_target": null
                     }
                   ],
@@ -1403,7 +1403,7 @@
               "implementation_detail": {
                 "programme_name": "Education Assistants",
                 "status": "OnTrack",
-                "detail": "The department has placed close to 200 000 education assistants in schools across the country. These young people provide crucial support to teachers in the classroom and perform administrative tasks. Feedback from principals and teachers to date has been strongly positive, with the school assistants credited with supporting learning outcomes during a difficult time for all. Despite the challenges, and with the support of civil society organisations, DBE has also rolled out training of diverse kinds to the school assistants, with a focus on topics that enhance their ability to support curriculum outcomes - such as reading for meaning, maths literacy and ICT."
+                "detail": "The department has placed close to 200 000 education assistants in schools across the country. These young people provide crucial support to teachers in the classroom and perform administrative tasks. Although due to conclude at the end of March, the value added by the assistants prompted all nine provincial departments to extend the education assistants contracts for another month to align with the end of the school term in April. The department is using the time to compile a comprehensive review of the programme and draw key lessons for future iterations."
               }
             },
             {
@@ -1449,27 +1449,27 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 25175,
+                      "value": 17197,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 7690,
+                      "value": 8010,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 20564,
+                      "value": 16224,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 26797,
+                      "value": 29797,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 21408,
+                      "value": 20773,
                       "value_target": null
                     },
                     {
@@ -1479,17 +1479,17 @@
                     },
                     {
                       "key": "NW",
-                      "value": 8659,
+                      "value": 8754,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 4198,
+                      "value": 4221,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 5771,
+                      "value": 7475,
                       "value_target": null
                     }
                   ],
@@ -1533,7 +1533,7 @@
               "implementation_detail": {
                 "programme_name": "General Assistants",
                 "status": "OnTrack",
-                "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supporting maintenance and security at schools and other basic needs. The period of school closures was used to good effect, with diverse maintenance and classroom upgrade activities undertaken.  "
+                "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supporting maintenance and security at schools and other basic needs. Similar to the education assistants, provincial departments too a decision to extend contracts until end of April."
               }
             }
           ],
@@ -1594,32 +1594,32 @@
                     },
                     {
                       "key": "FS",
-                      "value": 1313,
+                      "value": 1482,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 4281,
+                      "value": 5059,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2725,
+                      "value": 3567,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1743,
+                      "value": 1919,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 1229,
+                      "value": 926,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 919,
+                      "value": 2322,
                       "value_target": null
                     },
                     {
@@ -1629,7 +1629,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 6027,
+                      "value": 6414,
                       "value_target": null
                     }
                   ],
@@ -1640,7 +1640,7 @@
               "implementation_detail": {
                 "programme_name": "Retain vulnerable teaching posts",
                 "status": "MinorChallenges",
-                "detail": "This programme is protecting vulnerable teacher posts across the schooling system. Although initially targeted at quintile 4 and 5 schools, the support was targeted to all other schools in recognition of support required in poorer schools as well. This funding support has been undersubscribed and so where possible, provinces are using it to extend the school assistants programme. "
+                "detail": "This programme is protecting vulnerable teacher posts across the schooling system. Although initially targeted at quintile 4 and 5 schools, the support was targeted to all other schools in recognition of support required in poorer schools as well. This funding support has been undersubscribed and so where possible, provinces have transferred the funds to support the extension of school assistants by another month."
               }
             }
           ],
@@ -1651,7 +1651,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Co-operative government",
       "sheet_name": "DCOGTA",
       "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
@@ -1702,7 +1702,7 @@
               "implementation_detail": {
                 "programme_name": "Mainstream labour intensive construction methods",
                 "status": "OnTrack",
-                "detail": "The Municipal Infrastructure Support Agency (MISA) has finalised the tender process and appointed a service provider to deliver the capacity development and roll-out the programme. Implementation has commenced."
+                "detail": "The Municipal Infrastructure Support Agency (MISA)'s  appointed a service provider has begun work to deliver the capacity development in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery."
               }
             }
           ],
@@ -1713,7 +1713,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Environment, Forestry and Fisheries",
       "sheet_name": "DEFF",
       "lead": "Investing in the environment we live in",
@@ -1797,8 +1797,8 @@
               "value_target": 12690,
               "implementation_detail": {
                 "programme_name": "Cleaning and greening - war on waste with municipalities",
-                "status": "CriticalChallenges",
-                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
+                "status": "MinorChallenges",
+                "detail": ""
               }
             },
             {
@@ -1843,8 +1843,8 @@
               "value_target": 1750,
               "implementation_detail": {
                 "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
-                "status": "CriticalChallenges",
-                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
+                "status": "MinorChallenges",
+                "detail": ""
               }
             },
             {
@@ -1889,8 +1889,8 @@
               "value_target": 1719,
               "implementation_detail": {
                 "programme_name": "Oceans and Coast: Source to Sea",
-                "status": "CriticalChallenges",
-                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
+                "status": "MinorChallenges",
+                "detail": ""
               }
             },
             {
@@ -1936,7 +1936,7 @@
               "implementation_detail": {
                 "programme_name": "Groen Sebenzas, weather service - graduate programme",
                 "status": "OnTrack",
-                "detail": "The target has already been exceeded."
+                "detail": ""
               }
             },
             {
@@ -1982,7 +1982,7 @@
               "implementation_detail": {
                 "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                 "status": "OnTrack",
-                "detail": "SANBI infrastructure maintenance is performing well."
+                "detail": ""
               }
             },
             {
@@ -2027,8 +2027,8 @@
               "value_target": 1164,
               "implementation_detail": {
                 "programme_name": "iSimangaliso: conservation management infrastructure",
-                "status": "OnTrack",
-                "detail": "iSimangaliso experienced procurement delays but implementation is rolling out."
+                "status": "CriticalChallenges",
+                "detail": ""
               }
             },
             {
@@ -2073,8 +2073,8 @@
               "value_target": 4246,
               "implementation_detail": {
                 "programme_name": "SANPARKS upgrade and green energy",
-                "status": "OnTrack",
-                "detail": "Implementation was planned to start from January and is underway."
+                "status": "CriticalChallenges",
+                "detail": ""
               }
             },
             {
@@ -2119,8 +2119,8 @@
               "value_target": 15012,
               "implementation_detail": {
                 "programme_name": "Catchment management and strategic water sources",
-                "status": "OnTrack",
-                "detail": "Implementation was planned to start from January and is underway."
+                "status": "CriticalChallenges",
+                "detail": ""
               }
             },
             {
@@ -2166,7 +2166,7 @@
               "implementation_detail": {
                 "programme_name": "Bio-diversity economy",
                 "status": "CriticalChallenges",
-                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
+                "detail": ""
               }
             },
             {
@@ -2211,8 +2211,8 @@
               "value_target": 4644,
               "implementation_detail": {
                 "programme_name": "Climate Adaptation: Forestry support",
-                "status": "CriticalChallenges",
-                "detail": "Significant delays were experienced in the procurement processes required and implementation is behind schedule."
+                "status": "OnTrack",
+                "detail": ""
               }
             }
           ],
@@ -2223,7 +2223,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Public Works and Infrastructure",
       "sheet_name": "DPWI",
       "lead": "Graduate placements in the professional services",
@@ -2341,7 +2341,7 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0,
+                      "value": 3,
                       "value_target": null
                     },
                     {
@@ -2351,7 +2351,7 @@
                     },
                     {
                       "key": "GP",
-                      "value": 171,
+                      "value": 173,
                       "value_target": null
                     },
                     {
@@ -2467,12 +2467,12 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 17,
+                      "value": 20,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 11,
+                      "value": 12,
                       "value_target": null
                     },
                     {
@@ -2492,7 +2492,7 @@
                     },
                     {
                       "key": "MP",
-                      "value": 44,
+                      "value": 45,
                       "value_target": null
                     },
                     {
@@ -2507,7 +2507,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 48,
+                      "value": 46,
                       "value_target": null
                     }
                   ],
@@ -2593,37 +2593,37 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 161,
+                      "value": 165,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 101,
+                      "value": 102,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 51,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
                       "value": 48,
                       "value_target": null
                     },
                     {
+                      "key": "KZN",
+                      "value": 47,
+                      "value_target": null
+                    },
+                    {
                       "key": "LP",
-                      "value": 95,
+                      "value": 99,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 17,
+                      "value": 16,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 19,
+                      "value": 18,
                       "value_target": null
                     },
                     {
@@ -2633,7 +2633,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 19,
+                      "value": 20,
                       "value_target": null
                     }
                   ],
@@ -2719,7 +2719,7 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 50,
+                      "value": 47,
                       "value_target": null
                     },
                     {
@@ -2729,7 +2729,7 @@
                     },
                     {
                       "key": "GP",
-                      "value": 74,
+                      "value": 72,
                       "value_target": null
                     },
                     {
@@ -2749,7 +2749,7 @@
                     },
                     {
                       "key": "NW",
-                      "value": 15,
+                      "value": 16,
                       "value_target": null
                     },
                     {
@@ -2855,12 +2855,12 @@
                     },
                     {
                       "key": "GP",
-                      "value": 45,
+                      "value": 44,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 8,
+                      "value": 9,
                       "value_target": null
                     },
                     {
@@ -2971,7 +2971,7 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 72,
+                      "value": 71,
                       "value_target": null
                     },
                     {
@@ -2981,7 +2981,7 @@
                     },
                     {
                       "key": "GP",
-                      "value": 41,
+                      "value": 43,
                       "value_target": null
                     },
                     {
@@ -3011,7 +3011,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 23,
+                      "value": 13,
                       "value_target": null
                     }
                   ],
@@ -3107,7 +3107,7 @@
                     },
                     {
                       "key": "GP",
-                      "value": 54,
+                      "value": 55,
                       "value_target": null
                     },
                     {
@@ -3117,7 +3117,7 @@
                     },
                     {
                       "key": "LP",
-                      "value": 363,
+                      "value": 359,
                       "value_target": null
                     },
                     {
@@ -3155,7 +3155,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Sports, Arts and Culture",
       "sheet_name": "DSAC",
       "lead": "Getting artists, cultural workers and the sporting sector on the road to recovery",
@@ -3239,8 +3239,8 @@
               "value_target": 1470,
               "implementation_detail": {
                 "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
-                "status": "CriticalChallenges",
-                "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached."
+                "status": "MinorChallenges",
+                "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached. The programme concluded at the end of March with 613 jobs created in the sector."
               }
             },
             {
@@ -3329,22 +3329,22 @@
                     },
                     {
                       "key": "GP",
-                      "value": 24,
+                      "value": 23,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 20,
+                      "value": 19,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 11,
+                      "value": 10,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 6,
+                      "value": 5,
                       "value_target": null
                     },
                     {
@@ -3354,7 +3354,7 @@
                     },
                     {
                       "key": "NC",
-                      "value": 11,
+                      "value": 10,
                       "value_target": null
                     },
                     {
@@ -3370,7 +3370,7 @@
               "implementation_detail": {
                 "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
                 "status": "OnTrack",
-                "detail": "The programme is progressing well. The approved visual artists are creating artworks for consideration by the Art Bank of South Africa as part of economic recovery. "
+                "detail": "The programme is concluding at the end of March and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery. "
               }
             },
             {
@@ -3381,7 +3381,7 @@
               "value_target": 500,
               "implementation_detail": {
                 "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
-                "status": "MinorChallenges",
+                "status": "CriticalChallenges",
                 "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Although delayed, implementation is now in process."
               }
             },
@@ -3435,7 +3435,7 @@
                     },
                     {
                       "key": "FS",
-                      "value": 0,
+                      "value": 100,
                       "value_target": null
                     },
                     {
@@ -3470,7 +3470,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 27,
+                      "value": 17,
                       "value_target": null
                     }
                   ],
@@ -3481,7 +3481,7 @@
               "implementation_detail": {
                 "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
                 "status": "CriticalChallenges",
-                "detail": "Delays in implementation due to slow progress in signing the Memorandum of Agreement with implementing agents."
+                "detail": "Several provinces have begun implementation following significant delays in signing the Memorandum of Agreement with implementing agents. The programme is implementing strategies to fast track implementation to meet outstanding milestones  before conclusion in March."
               }
             },
             {
@@ -3560,7 +3560,7 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 27,
+                      "value": 25,
                       "value_target": null
                     },
                     {
@@ -3570,12 +3570,12 @@
                     },
                     {
                       "key": "GP",
-                      "value": 24,
+                      "value": 23,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 27,
+                      "value": 26,
                       "value_target": null
                     },
                     {
@@ -3585,12 +3585,12 @@
                     },
                     {
                       "key": "MP",
-                      "value": 22,
+                      "value": 27,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 26,
+                      "value": 25,
                       "value_target": null
                     },
                     {
@@ -3600,7 +3600,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 57,
+                      "value": 55,
                       "value_target": null
                     }
                   ],
@@ -3611,7 +3611,7 @@
               "implementation_detail": {
                 "programme_name": "Audit of national museums - South African Heritage Resources Agency",
                 "status": "OnTrack",
-                "detail": "The programme has appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and so far 417 of 676 recorded sites have been approved."
+                "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and approximately 1600 memorials, monuments and statues have been recorded across the country. The programme has extended participants for an additional month until end of April to complete fieldwork. "
               }
             },
             {
@@ -3657,7 +3657,7 @@
               "implementation_detail": {
                 "programme_name": "Digitisation of records - National Library of South Africa",
                 "status": "CriticalChallenges",
-                "detail": "The delays in the finalization of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme has however appointed participants and begun prepatory work for the digitisation process."
+                "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme will be extending the contracts of appointed participants until June to allow for completion of the work."
               }
             },
             {
@@ -3703,7 +3703,7 @@
               "implementation_detail": {
                 "programme_name": "Digitisation of records -National Archives",
                 "status": "CriticalChallenges",
-                "detail": "Delays in the finalisation of the MOA with the department delayed procurement of equipment. The programme has recruited and appointed participants who have commenced work, however this is limited to preparatory work and other tasks as digitisation can only commence once the equipment is available."
+                "detail": "The programme will be extended until June to account for significant delays in procurement of equipment and finalisation of the MoA. It has been crucial in enabling the NARSSA to build capacity on digitisation and seeks to digitise one million records."
               }
             }
           ],
@@ -3759,12 +3759,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.56,
+                      "value": 0.575,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.54,
+                      "value": 0.425,
                       "value_target": null
                     }
                   ],
@@ -3777,7 +3777,7 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.44,
+                      "value": 0.456,
                       "value_target": null
                     }
                   ],
@@ -3790,47 +3790,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 115,
+                      "value": 119,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 198,
+                      "value": 184,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 787,
+                      "value": 769,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 258,
+                      "value": 262,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 100,
+                      "value": 106,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 71,
+                      "value": 70,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 99,
+                      "value": 103,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 39,
+                      "value": 45,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 778,
+                      "value": 777,
                       "value_target": null
                     }
                   ],
@@ -3840,7 +3840,7 @@
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
-                "status": "MinorChallenges",
+                "status": "CriticalChallenges",
                 "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
               }
             },
@@ -3895,6 +3895,19 @@
                     {
                       "key": "Female",
                       "value": 0.333,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Jobs saved by province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.135,
                       "value_target": null
                     }
                   ],
@@ -3957,7 +3970,7 @@
               "value_target": 5000,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
-                "status": "MinorChallenges",
+                "status": "OnTrack",
                 "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
               }
             },
@@ -4003,8 +4016,8 @@
               "value_target": 4000,
               "implementation_detail": {
                 "programme_name": "Job retention in sport sector - Sport Trust",
-                "status": "OnTrack",
-                "detail": "The programme was oversubscribed and 65 organisations are receiving support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies."
+                "status": "MinorChallenges",
+                "detail": "The programme was oversubscribed and 65 organisations are received support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies. The Sports Trust has requested an extension in order to ensure that all the beneficiaries receive the funds approved."
               }
             }
           ],
@@ -4060,12 +4073,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.61,
+                      "value": 0.66,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.39,
+                      "value": 0.34,
                       "value_target": null
                     }
                   ],
@@ -4078,7 +4091,7 @@
                   "values": [
                     {
                       "key": "Percentage (%) aged 18 - 35 years old",
-                      "value": 0.43,
+                      "value": 0.42,
                       "value_target": null
                     }
                   ],
@@ -4091,47 +4104,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 1703,
+                      "value": 2239,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 916,
+                      "value": 1271,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 6425,
+                      "value": 8011,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 1750,
+                      "value": 2137,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1947,
+                      "value": 2278,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 734,
+                      "value": 965,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 1813,
+                      "value": 1685,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 763,
+                      "value": 764,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 1186,
+                      "value": 1968,
                       "value_target": null
                     }
                   ],
@@ -4142,7 +4155,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Arts Council",
                 "status": "CriticalChallenges",
-                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. This caused disruption in the sector, in a context in which commitments had often already been made against the intital awards issued. The process also caused delays in payments. The NAC has instituted an investigation into the defects in the management and oversight of the allocations. "
+                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. The re-allocated funds are still being disbursed and will continue to be disbursed until the last beneficiary receives their funding. The NAC has instituted an investigation into the PESP management process, and that process is underway and will cover the entire scope of the project."
               }
             },
             {
@@ -4196,6 +4209,19 @@
                     {
                       "key": "Female",
                       "value": 0.49,
+                      "value_target": null
+                    }
+                  ],
+                  "data_missing": false
+                },
+                {
+                  "name": "Livelihoods supported by province",
+                  "viz": "percentile",
+                  "lookup": "age",
+                  "values": [
+                    {
+                      "key": "Percentage (%) aged 18 - 35 years old",
+                      "value": 0.093,
                       "value_target": null
                     }
                   ],
@@ -4259,7 +4285,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                 "status": "OnTrack",
-                "detail": "The NFVF issued a call for proposals to the sector which was significantly oversubscribed. The NVFV has successfully completed the adjudication of these, issuing over 300 awards supporting projects that create work in the sector.  "
+                "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received with an excess of 48\u00a0000 job proposals. Four streams were adjudicated by Panel of experienced industry specialists, and each stream Chaired by members of the NFVF Council. Panels submitted their recommendations to the NFVF council which made the final approval creating in excess of 8000 jobs. "
               }
             }
           ],
@@ -4270,7 +4296,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Social Development",
       "sheet_name": "DSD",
       "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
@@ -4418,12 +4444,12 @@
                     },
                     {
                       "key": "GP",
-                      "value": 312,
+                      "value": 316,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 232,
+                      "value": 233,
                       "value_target": null
                     },
                     {
@@ -4443,7 +4469,7 @@
                     },
                     {
                       "key": "NC",
-                      "value": 5,
+                      "value": 6,
                       "value_target": null
                     },
                     {
@@ -4459,7 +4485,7 @@
               "implementation_detail": {
                 "programme_name": "Retention of social workers",
                 "status": "OnTrack",
-                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have commenced work. "
+                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have provided essential social services during the pandemic. The programme concludes at the end of March and some provinces have managed to absorb social workers into permanent positions."
               }
             }
           ],
@@ -4479,7 +4505,7 @@
               "implementation_detail": {
                 "programme_name": "ECD income and compliance support",
                 "status": "MinorChallenges",
-                "detail": "The department launched applications for the ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) in February. The support was oversubscribed and verification of programmes is currently underway. The department is working closely with its partners in the ECD sector to distribute income support for 108,833 workers in registered and unregistered ECD programmes. "
+                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) was oversubscribed and the department is currently approving applicants and conducting verifications. Over 20000 workers have begun to received payments through provincial departments and many programmes continue to receive support from partners to complete requirements for verification and approval."
               }
             }
           ],
@@ -4490,7 +4516,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Science and Innovation",
       "sheet_name": "DSI",
       "lead": "Supporting new graduates entering a hostile labour market",
@@ -4541,7 +4567,7 @@
               "implementation_detail": {
                 "programme_name": "HSRC - Health Promotion Agents",
                 "status": "MinorChallenges",
-                "detail": "The programme experienced administrative challenges in the planning phase which has led to delays. The recruitment of participants is currently under way and will be completed in two phases. These participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic"
+                "detail": "Following delays, the programme has appointed 42 candidates to begin 1 April. The programme participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic. A dedicated project website has also been developed."
               }
             },
             {
@@ -4604,7 +4630,7 @@
                     },
                     {
                       "key": "KZN",
-                      "value": 288,
+                      "value": 310,
                       "value_target": null
                     },
                     {
@@ -4670,8 +4696,8 @@
               "value_target": 350,
               "implementation_detail": {
                 "programme_name": "DUCT - Enviro-champs",
-                "status": "MinorChallenges",
-                "detail": "A delay in the transfer of funds from the department to the implementing agent led to a slow start. Also, additional partners had to be mobilised to fund the programme. Implementation is now on track, with people appointed as champions of the environment (Enviro-Champs) in their local community. Through a green livelihoods programme, people living adjacent to rivers are given the responsibility to adopt-a-stretch \u2013 cleaning, maintaining, greening, restoring, and undertaking citizen science monitoring on that section of the river."
+                "status": "OnTrack",
+                "detail": "The programme has exceeded the planned numbers due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates is focussing on making sense of the river health data, and gathering stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water. "
               }
             },
             {
@@ -4724,22 +4750,22 @@
                     },
                     {
                       "key": "FS",
-                      "value": 0,
+                      "value": 6,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 21,
+                      "value": 32,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 17,
+                      "value": 20,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1,
+                      "value": 2,
                       "value_target": null
                     },
                     {
@@ -4759,7 +4785,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 4,
+                      "value": 5,
                       "value_target": null
                     }
                   ],
@@ -4772,12 +4798,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.659,
+                      "value": 0.68,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.341,
+                      "value": 0.32,
                       "value_target": null
                     }
                   ],
@@ -4800,8 +4826,8 @@
               "value_target": 150,
               "implementation_detail": {
                 "programme_name": "CSIR - Experiential Training Programme",
-                "status": "CriticalChallenges",
-                "detail": "Placement has commenced however, it was affected by university system closures which meant students could not register and provide proof as part of the application process. The appointed  Science, Engineering and Technology (SET) students will be supported to fulfil university pre-requisites for structured practical work exposure and training."
+                "status": "MinorChallenges",
+                "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process however,  the remaining students is currently being placed and the programme is optimistic that the placement target of 189 students will be met. "
               }
             },
             {
@@ -4849,7 +4875,7 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 3,
+                      "value": 5,
                       "value_target": null
                     },
                     {
@@ -4859,27 +4885,27 @@
                     },
                     {
                       "key": "GP",
-                      "value": 38,
+                      "value": 57,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 10,
+                      "value": 36,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 5,
+                      "value": 25,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0,
+                      "value": 2,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2,
+                      "value": 5,
                       "value_target": null
                     },
                     {
@@ -4889,7 +4915,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 10,
+                      "value": 9,
                       "value_target": null
                     }
                   ],
@@ -4902,12 +4928,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.27,
+                      "value": 0.4,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.73,
+                      "value": 0.6,
                       "value_target": null
                     }
                   ],
@@ -4931,7 +4957,7 @@
               "implementation_detail": {
                 "programme_name": "WRC - Water Graduate Employment Programme",
                 "status": "MinorChallenges",
-                "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruiment and these graduates are placed with various hosts. Phase 2 is currently underway."
+                "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruiment and these graduates are placed with various hosts. Phase 2 graduates have been inducted and will also commence their workplace experience soon."
               }
             }
           ],
@@ -4942,7 +4968,7 @@
       "implementation_details": []
     },
     {
-      "month": 202012,
+      "month": "202103",
       "name": "Trade, Industry and Competition",
       "sheet_name": "DTIC",
       "lead": "Piloting new models for re-shoring and expanding global business services",
@@ -5029,12 +5055,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.37,
+                      "value": 0.39,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.63,
+                      "value": 0.61,
                       "value_target": null
                     }
                   ],
@@ -5047,7 +5073,7 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.92,
+                      "value": 0.89,
                       "value_target": null
                     }
                   ],
@@ -5065,12 +5091,12 @@
                     },
                     {
                       "key": "GP",
-                      "value": 502,
+                      "value": 2737,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2330,
+                      "value": 4640,
                       "value_target": null
                     },
                     {
@@ -5095,7 +5121,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 3627,
+                      "value": 3122,
                       "value_target": null
                     }
                   ],
@@ -5106,7 +5132,7 @@
               "implementation_detail": {
                 "programme_name": "Services sector development incentives",
                 "status": "OnTrack",
-                "detail": "There has been good uptake of the incentives from the private sector and effective rollout by the dtic."
+                "detail": "The department has exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. Most the employed participants are youth and they are engaged in non-complex jobs and complex jobs with the global business services sector."
               }
             }
           ],
@@ -5117,7 +5143,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Health",
       "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
@@ -5228,27 +5254,27 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 518,
+                      "value": 407,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 23,
+                      "value": 97,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 575,
+                      "value": 561,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 934,
+                      "value": 840,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0,
+                      "value": 53,
                       "value_target": null
                     },
                     {
@@ -5258,7 +5284,7 @@
                     },
                     {
                       "key": "NW",
-                      "value": 172,
+                      "value": 185,
                       "value_target": null
                     },
                     {
@@ -5268,7 +5294,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 271,
+                      "value": 235,
                       "value_target": null
                     }
                   ],
@@ -5279,7 +5305,7 @@
               "implementation_detail": {
                 "programme_name": "Enrolled nurses",
                 "status": "OnTrack",
-                "detail": "The programme was able to commence with recruitment immediately by relying on existing databases of unemployed health professionals. The department has exceeded its target to date. Appointed nurses are providing a range of primary health care services in public facilities and are playing a central role in the roll-out of the COVID-19 vaccination programme. "
+                "detail": "The programme concludes at the end of March and has exceeded its target for job creation for nurses. The appointed nurses have provided a range of primary health care services in public facilities. Several provinces intend to continue fund further recruitments to support the roll-out of the COVID-19 vaccination programme. "
               }
             },
             {
@@ -5327,47 +5353,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 378,
+                      "value": 300,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 9,
+                      "value": 17,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 477,
+                      "value": 470,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 921,
+                      "value": 702,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0,
+                      "value": 76,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 3,
+                      "value": 2,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 196,
+                      "value": 217,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 11,
+                      "value": 12,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 382,
+                      "value": 336,
                       "value_target": null
                     }
                   ],
@@ -5378,7 +5404,7 @@
               "implementation_detail": {
                 "programme_name": "Auxiliary nurses",
                 "status": "OnTrack",
-                "detail": "The programme was able to commence with recruitment immediately by relying on existing databases of unemployed health professionals. The department has exceeded its target to date. Appointed auxiliary nurses are supporting various services in public health facilities as part of the response to COVID-19."
+                "detail": "The department concludes this programme at the end of March with an excedded target for appointed auxiliary nurses. These nurses have supporting various services in public health facilities as part of the response to COVID-19."
               }
             }
           ],
@@ -5389,7 +5415,7 @@
       "implementation_details": []
     },
     {
-      "month": 202102,
+      "month": "202103",
       "name": "Transport",
       "sheet_name": "DoT",
       "lead": "Improving access to services and opportunities for people in rural areas",
@@ -5476,17 +5502,17 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 129,
+                      "value": 1449,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 800,
+                      "value": 833,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 0,
+                      "value": 430,
                       "value_target": null
                     },
                     {
@@ -5496,27 +5522,27 @@
                     },
                     {
                       "key": "LP",
-                      "value": 450,
+                      "value": 630,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 211,
+                      "value": 265,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 2460,
+                      "value": 5480,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 509,
+                      "value": 897,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 76,
+                      "value": 261,
                       "value_target": null
                     }
                   ],
@@ -5526,8 +5552,8 @@
               "value_target": 37079,
               "implementation_detail": {
                 "programme_name": "Rural roads maintenance",
-                "status": "MinorChallenges",
-                "detail": "The provinicial departments faced procurement delays in the planning phase and implementation was also affected by cyclone Eloise. These challenges are still ongoing in some provinces, however, several projects have commenced and participants have been appointed, with maintenance of rural roads underway in most provinces."
+                "status": "OnTrack",
+                "detail": "Despite numerous challenges faced by provinicial departments in the planning phase and implementation, projects are in implementation and appointed participants are contributing to the maintanence of rural roads. To date, 4334 km of roads have maintained. "
               }
             }
           ],
