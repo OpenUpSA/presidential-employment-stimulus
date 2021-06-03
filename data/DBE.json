@@ -84,17 +84,17 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 30628,
+                  "value": 40127,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 11021,
+                  "value": 11037,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 25003,
+                  "value": 29472,
                   "value_target": null
                 },
                 {
@@ -104,7 +104,7 @@
                 },
                 {
                   "key": "LP",
-                  "value": 30708,
+                  "value": 28819,
                   "value_target": null
                 },
                 {
@@ -114,17 +114,17 @@
                 },
                 {
                   "key": "NW",
-                  "value": 12983,
+                  "value": 13082,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 3138,
+                  "value": 3469,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 13990,
+                  "value": 10760,
                   "value_target": null
                 }
               ],
@@ -210,27 +210,27 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 25175,
+                  "value": 17197,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 7690,
+                  "value": 8010,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 20564,
+                  "value": 16224,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 26797,
+                  "value": 29797,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 21408,
+                  "value": 20773,
                   "value_target": null
                 },
                 {
@@ -240,17 +240,17 @@
                 },
                 {
                   "key": "NW",
-                  "value": 8659,
+                  "value": 8754,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 4198,
+                  "value": 4221,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 5771,
+                  "value": 7475,
                   "value_target": null
                 }
               ],
@@ -351,32 +351,32 @@
                 },
                 {
                   "key": "FS",
-                  "value": 1313,
+                  "value": 1482,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 4281,
+                  "value": 5059,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 2725,
+                  "value": 3567,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1743,
+                  "value": 1919,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 1229,
+                  "value": 926,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 919,
+                  "value": 2322,
                   "value_target": null
                 },
                 {
@@ -386,7 +386,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 6027,
+                  "value": 6414,
                   "value_target": null
                 }
               ],

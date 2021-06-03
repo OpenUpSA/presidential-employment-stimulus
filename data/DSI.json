@@ -109,7 +109,7 @@
                 },
                 {
                   "key": "KZN",
-                  "value": 288,
+                  "value": 310,
                   "value_target": null
                 },
                 {
@@ -225,22 +225,22 @@
                 },
                 {
                   "key": "FS",
-                  "value": 0,
+                  "value": 6,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 21,
+                  "value": 32,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 17,
+                  "value": 20,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1,
+                  "value": 2,
                   "value_target": null
                 },
                 {
@@ -260,7 +260,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 4,
+                  "value": 5,
                   "value_target": null
                 }
               ],
@@ -273,12 +273,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.659,
+                  "value": 0.68,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.341,
+                  "value": 0.32,
                   "value_target": null
                 }
               ],
@@ -346,7 +346,7 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 3,
+                  "value": 5,
                   "value_target": null
                 },
                 {
@@ -356,27 +356,27 @@
                 },
                 {
                   "key": "GP",
-                  "value": 38,
+                  "value": 57,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 10,
+                  "value": 36,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 5,
+                  "value": 25,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 0,
+                  "value": 2,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 2,
+                  "value": 5,
                   "value_target": null
                 },
                 {
@@ -386,7 +386,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 10,
+                  "value": 9,
                   "value_target": null
                 }
               ],
@@ -399,12 +399,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.27,
+                  "value": 0.4,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.73,
+                  "value": 0.6,
                   "value_target": null
                 }
               ],

@@ -86,12 +86,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.37,
+                  "value": 0.39,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.63,
+                  "value": 0.61,
                   "value_target": null
                 }
               ],
@@ -104,7 +104,7 @@
               "values": [
                 {
                   "key": "18-35",
-                  "value": 0.92,
+                  "value": 0.89,
                   "value_target": null
                 }
               ],
@@ -122,12 +122,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 502,
+                  "value": 2737,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 2330,
+                  "value": 4640,
                   "value_target": null
                 },
                 {
@@ -152,7 +152,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 3627,
+                  "value": 3122,
                   "value_target": null
                 }
               ],
