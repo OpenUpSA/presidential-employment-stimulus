@@ -10,5 +10,4 @@ command = "npm run build"
 # [context.deploy-preview]
 
 # All other commits
-[context.branch-deploy]
-  command = "npm run lint"
+# [context.branch-deploy]
