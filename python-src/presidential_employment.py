@@ -199,10 +199,10 @@ metric_titles = {
 #     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
 # )
 
-months = ['202010', '202011', '202012', '202101', '202102']
-month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21"]
-total_achievement_column = 6
-achievement_columns = slice(2, 7)
+months = ['202010', '202011', '202012', '202101', '202102', '202103']
+month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21"]
+total_achievement_column = 7
+achievement_columns = slice(2, 8)
 
 target_to_imp_programme_mapping = {
     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",

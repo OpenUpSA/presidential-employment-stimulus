@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 4635,
+          "value": 10245,
           "dimensions": [],
           "value_target": 37079,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Rural roads maintenance",
           "metric_type": "count",
-          "value": 4635,
+          "value": 10245,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -74,6 +74,11 @@
                 {
                   "key": "202102",
                   "value": 4635,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 10245,
                   "value_target": null
                 }
               ],

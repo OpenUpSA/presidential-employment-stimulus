@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 5118,
+          "value": 4758,
           "dimensions": [],
           "value_target": 5531,
           "implementation_detail": null
@@ -60,7 +60,7 @@
         {
           "name": "Enrolled nurses",
           "metric_type": "count",
-          "value": 2741,
+          "value": 2626,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -90,6 +90,11 @@
                 {
                   "key": "202102",
                   "value": 2741,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 2626,
                   "value_target": null
                 }
               ],
@@ -155,7 +160,7 @@
         {
           "name": "Auxiliary nurses",
           "metric_type": "count",
-          "value": 2377,
+          "value": 2132,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -185,6 +190,11 @@
                 {
                   "key": "202102",
                   "value": 2377,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 2132,
                   "value_target": null
                 }
               ],

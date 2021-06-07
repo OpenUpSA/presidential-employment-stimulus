@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 345660,
+          "value": 350596,
           "dimensions": [],
           "value_target": 344933,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Education Assistants",
           "metric_type": "count",
-          "value": 187654,
+          "value": 196949,
           "dimensions": [
             {
               "name": "Opportunities by Gender",
@@ -159,6 +159,11 @@
                   "key": "202102",
                   "value": 187654,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 196949,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -170,7 +175,7 @@
         {
           "name": "General Assistants",
           "metric_type": "count",
-          "value": 130344,
+          "value": 122533,
           "dimensions": [
             {
               "name": "Opportunities by Gender",
@@ -285,6 +290,11 @@
                   "key": "202102",
                   "value": 130344,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 122533,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -304,7 +314,7 @@
         {
           "name": "Retain vulnerable teaching posts",
           "metric_type": "count",
-          "value": 27662,
+          "value": 31114,
           "dimensions": [
             {
               "name": "Jobs saved over time",
@@ -334,6 +344,11 @@
                 {
                   "key": "202102",
                   "value": 27662,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 31114,
                   "value_target": null
                 }
               ],
