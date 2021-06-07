@@ -20,7 +20,7 @@
           {
             "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 459351,
+            "value": 504200,
             "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
@@ -44,7 +44,7 @@
           {
             "name": "Jobs created",
             "metric_type": "job_opportunities",
-            "value": 357724,
+            "value": 371965,
             "dimensions": [
               {
                 "name": "by department",
@@ -53,32 +53,32 @@
                 "values": [
                   {
                     "key": "DBE",
-                    "value": 317998,
+                    "value": 319482,
                     "value_target": 300000
                   },
                   {
                     "key": "DEFF",
-                    "value": 18388,
+                    "value": 21681,
                     "value_target": 50311
                   },
                   {
                     "key": "DTIC",
-                    "value": 6459,
+                    "value": 10499,
                     "value_target": 8000
                   },
                   {
-                    "key": "DoH",
-                    "value": 5118,
-                    "value_target": 5531
-                  },
-                  {
                     "key": "DoT",
-                    "value": 4635,
+                    "value": 10245,
                     "value_target": 37079
                   },
                   {
+                    "key": "DoH",
+                    "value": 4758,
+                    "value_target": 5531
+                  },
+                  {
                     "key": "DPWI",
-                    "value": 1869,
+                    "value": 1865,
                     "value_target": 1560
                   },
                   {
@@ -88,12 +88,12 @@
                   },
                   {
                     "key": "DSAC",
-                    "value": 1391,
+                    "value": 1454,
                     "value_target": 4356
                   },
                   {
                     "key": "DSI",
-                    "value": 402,
+                    "value": 517,
                     "value_target": 1900
                   },
                   {
@@ -138,6 +138,11 @@
                     "key": "202102",
                     "value": 357724,
                     "value_target": null
+                  },
+                  {
+                    "key": "202103",
+                    "value": 371965,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -149,7 +154,7 @@
           {
             "name": "Livelihoods supported",
             "metric_type": "livelihoods",
-            "value": 64685,
+            "value": 91845,
             "dimensions": [
               {
                 "name": "by department",
@@ -163,12 +168,12 @@
                   },
                   {
                     "key": "DSAC",
-                    "value": 25539,
+                    "value": 29620,
                     "value_target": 15714
                   },
                   {
                     "key": "DSD",
-                    "value": 0,
+                    "value": 23079,
                     "value_target": 108833
                   }
                 ],
@@ -203,6 +208,11 @@
                     "key": "202102",
                     "value": 64685,
                     "value_target": null
+                  },
+                  {
+                    "key": "202103",
+                    "value": 68766,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -214,7 +224,7 @@
           {
             "name": "Jobs retained",
             "metric_type": "jobs_retain",
-            "value": 36942,
+            "value": 40390,
             "dimensions": [
               {
                 "name": "by department",
@@ -223,17 +233,17 @@
                 "values": [
                   {
                     "key": "DBE",
-                    "value": 27662,
+                    "value": 31114,
                     "value_target": 44933
                   },
                   {
                     "key": "DSAC",
-                    "value": 8210,
+                    "value": 8200,
                     "value_target": 14000
                   },
                   {
                     "key": "DSD",
-                    "value": 1070,
+                    "value": 1076,
                     "value_target": 1809
                   }
                 ],
@@ -268,6 +278,11 @@
                     "key": "202102",
                     "value": 36942,
                     "value_target": null
+                  },
+                  {
+                    "key": "202103",
+                    "value": 40390,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -277,7 +292,7 @@
             "implementation_detail": null
           }
         ],
-        "value": 1869,
+        "value": 1865,
         "value_target": 0
       }
     ]
@@ -358,6 +373,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 1464,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 1464,
                       "value_target": null
                     }
@@ -565,6 +585,11 @@
                       "key": "202102",
                       "value": 13648,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 13648,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -715,6 +740,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 8492,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 8492,
                       "value_target": null
                     }
@@ -869,6 +899,11 @@
                       "key": "202102",
                       "value": 8989,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 8989,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1019,6 +1054,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 5488,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 5488,
                       "value_target": null
                     }
@@ -1173,6 +1213,11 @@
                       "key": "202102",
                       "value": 2529,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 2529,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1263,7 +1308,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 345660,
+              "value": 350596,
               "dimensions": [],
               "value_target": 344933,
               "implementation_detail": null
@@ -1279,7 +1324,7 @@
             {
               "name": "Education Assistants",
               "metric_type": "count",
-              "value": 187654,
+              "value": 196949,
               "dimensions": [
                 {
                   "name": "Opportunities by Gender",
@@ -1394,6 +1439,11 @@
                       "key": "202102",
                       "value": 187654,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 196949,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1409,7 +1459,7 @@
             {
               "name": "General Assistants",
               "metric_type": "count",
-              "value": 130344,
+              "value": 122533,
               "dimensions": [
                 {
                   "name": "Opportunities by Gender",
@@ -1524,6 +1574,11 @@
                       "key": "202102",
                       "value": 130344,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 122533,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1547,7 +1602,7 @@
             {
               "name": "Retain vulnerable teaching posts",
               "metric_type": "count",
-              "value": 27662,
+              "value": 31114,
               "dimensions": [
                 {
                   "name": "Jobs saved over time",
@@ -1577,6 +1632,11 @@
                     {
                       "key": "202102",
                       "value": 27662,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 31114,
                       "value_target": null
                     }
                   ],
@@ -1742,7 +1802,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 18388,
+              "value": 21681,
               "dimensions": [],
               "value_target": 50311,
               "implementation_detail": null
@@ -1787,6 +1847,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 0,
                       "value_target": null
                     }
@@ -1835,6 +1900,11 @@
                       "key": "202102",
                       "value": 0,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 0,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1881,6 +1951,11 @@
                       "key": "202102",
                       "value": 0,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 0,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1896,7 +1971,7 @@
             {
               "name": "Groen Sebenzas, weather service - graduate programme",
               "metric_type": "count",
-              "value": 724,
+              "value": 293,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -1927,6 +2002,11 @@
                       "key": "202102",
                       "value": 724,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 293,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1942,7 +2022,7 @@
             {
               "name": "SANBI Infrastructure maintenance, biosecurity",
               "metric_type": "count",
-              "value": 1195,
+              "value": 568,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -1973,6 +2053,11 @@
                       "key": "202102",
                       "value": 1195,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 568,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1988,7 +2073,7 @@
             {
               "name": "iSimangaliso: conservation management infrastructure",
               "metric_type": "count",
-              "value": 609,
+              "value": 1113,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2019,6 +2104,11 @@
                       "key": "202102",
                       "value": 609,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 1113,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2034,7 +2124,7 @@
             {
               "name": "SANPARKS upgrade and green energy",
               "metric_type": "count",
-              "value": 3523,
+              "value": 5645,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2065,6 +2155,11 @@
                       "key": "202102",
                       "value": 3523,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 5645,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2080,7 +2175,7 @@
             {
               "name": "Catchment management and strategic water sources",
               "metric_type": "count",
-              "value": 12337,
+              "value": 7449,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2110,6 +2205,11 @@
                     {
                       "key": "202102",
                       "value": 12337,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 7449,
                       "value_target": null
                     }
                   ],
@@ -2157,6 +2257,11 @@
                       "key": "202102",
                       "value": 0,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 0,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2172,7 +2277,7 @@
             {
               "name": "Climate Adaptation: Forestry support",
               "metric_type": "count",
-              "value": 0,
+              "value": 6613,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2202,6 +2307,11 @@
                     {
                       "key": "202102",
                       "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 6613,
                       "value_target": null
                     }
                   ],
@@ -2252,7 +2362,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 1869,
+              "value": 1865,
               "dimensions": [],
               "value_target": 1560,
               "implementation_detail": null
@@ -2268,7 +2378,7 @@
             {
               "name": "Water and Energy Efficiency",
               "metric_type": "count",
-              "value": 171,
+              "value": 176,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2298,6 +2408,11 @@
                     {
                       "key": "202102",
                       "value": 171,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 176,
                       "value_target": null
                     }
                   ],
@@ -2394,7 +2509,7 @@
             {
               "name": "Water and Sanitation Facilities Management",
               "metric_type": "count",
-              "value": 158,
+              "value": 161,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2424,6 +2539,11 @@
                     {
                       "key": "202102",
                       "value": 158,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 161,
                       "value_target": null
                     }
                   ],
@@ -2520,7 +2640,7 @@
             {
               "name": "Welisizwe Rural Bridges Programme",
               "metric_type": "count",
-              "value": 511,
+              "value": 515,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2550,6 +2670,11 @@
                     {
                       "key": "202102",
                       "value": 511,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 515,
                       "value_target": null
                     }
                   ],
@@ -2646,7 +2771,7 @@
             {
               "name": "Facilities Management",
               "metric_type": "count",
-              "value": 358,
+              "value": 354,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2676,6 +2801,11 @@
                     {
                       "key": "202102",
                       "value": 358,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 354,
                       "value_target": null
                     }
                   ],
@@ -2803,6 +2933,11 @@
                       "key": "202102",
                       "value": 109,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 109,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2898,7 +3033,7 @@
             {
               "name": "In-House Construction projects",
               "metric_type": "count",
-              "value": 136,
+              "value": 127,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2928,6 +3063,11 @@
                     {
                       "key": "202102",
                       "value": 136,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 127,
                       "value_target": null
                     }
                   ],
@@ -3024,7 +3164,7 @@
             {
               "name": "Public Private Collaborations",
               "metric_type": "count",
-              "value": 426,
+              "value": 423,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3054,6 +3194,11 @@
                     {
                       "key": "202102",
                       "value": 426,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 423,
                       "value_target": null
                     }
                   ],
@@ -3184,7 +3329,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 35140,
+              "value": 39274,
               "dimensions": [],
               "value_target": 34070,
               "implementation_detail": null
@@ -3200,7 +3345,7 @@
             {
               "name": "Covid-19 Return-To-Play - National Sport Federations",
               "metric_type": "count",
-              "value": 633,
+              "value": 613,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3231,6 +3376,11 @@
                       "key": "202102",
                       "value": 633,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 613,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3246,7 +3396,7 @@
             {
               "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
               "metric_type": "count",
-              "value": 156,
+              "value": 151,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3276,6 +3426,11 @@
                     {
                       "key": "202102",
                       "value": 156,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 151,
                       "value_target": null
                     }
                   ],
@@ -3388,7 +3543,7 @@
             {
               "name": "Public Art, towards a people's culture - Community Arts Centres",
               "metric_type": "count",
-              "value": 57,
+              "value": 147,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3418,6 +3573,11 @@
                     {
                       "key": "202102",
                       "value": 57,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 147,
                       "value_target": null
                     }
                   ],
@@ -3487,7 +3647,7 @@
             {
               "name": "Audit of national museums - South African Heritage Resources Agency",
               "metric_type": "count",
-              "value": 255,
+              "value": 253,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3517,6 +3677,11 @@
                     {
                       "key": "202102",
                       "value": 255,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 253,
                       "value_target": null
                     }
                   ],
@@ -3648,6 +3813,11 @@
                       "key": "202102",
                       "value": 144,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 144,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3694,6 +3864,11 @@
                       "key": "202102",
                       "value": 146,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 146,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3717,7 +3892,7 @@
             {
               "name": "Job retention in cultural and creative institutions - National Arts Council",
               "metric_type": "count",
-              "value": 2445,
+              "value": 2435,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3747,6 +3922,11 @@
                     {
                       "key": "202102",
                       "value": 2445,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 2435,
                       "value_target": null
                     }
                   ],
@@ -3876,6 +4056,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 675,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 675,
                       "value_target": null
                     }
@@ -4008,6 +4193,11 @@
                       "key": "202102",
                       "value": 5090,
                       "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 5090,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -4031,7 +4221,7 @@
             {
               "name": "Support to art and culture practitioners - National Arts Council",
               "metric_type": "count",
-              "value": 17237,
+              "value": 21318,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -4061,6 +4251,11 @@
                     {
                       "key": "202102",
                       "value": 17237,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 21318,
                       "value_target": null
                     }
                   ],
@@ -4190,6 +4385,11 @@
                     },
                     {
                       "key": "202102",
+                      "value": 8302,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
                       "value": 8302,
                       "value_target": null
                     }
@@ -4325,7 +4525,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 1070,
+              "value": 24155,
               "dimensions": [],
               "value_target": 111142,
               "implementation_detail": null
@@ -4361,7 +4561,7 @@
             {
               "name": "Retention of social workers",
               "metric_type": "count",
-              "value": 1070,
+              "value": 1076,
               "dimensions": [
                 {
                   "name": "Jobs saved by gender",
@@ -4422,6 +4622,11 @@
                     {
                       "key": "202102",
                       "value": 1070,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 1076,
                       "value_target": null
                     }
                   ],
@@ -4499,7 +4704,7 @@
             {
               "name": "ECD income and compliance support",
               "metric_type": "count",
-              "value": 0,
+              "value": 23079,
               "dimensions": [],
               "value_target": 108833,
               "implementation_detail": {
@@ -4545,7 +4750,7 @@
             {
               "name": "Overall jobs created",
               "metric_type": "count",
-              "value": 402,
+              "value": 517,
               "dimensions": [],
               "value_target": 1900,
               "implementation_detail": null
@@ -4573,7 +4778,7 @@
             {
               "name": "DUCT - Enviro-champs",
               "metric_type": "count",
-              "value": 288,
+              "value": 310,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -4603,6 +4808,11 @@
                     {
                       "key": "202102",
                       "value": 288,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 310,
                       "value_target": null
                     }
                   ],
@@ -4703,7 +4913,7 @@
             {
               "name": "CSIR - Experiential Training Programme",
               "metric_type": "count",
-              "value": 44,
+              "value": 66,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -4733,6 +4943,11 @@
                     {
                       "key": "202102",
                       "value": 44,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 66,
                       "value_target": null
                     }
                   ],
@@ -4833,7 +5048,7 @@
             {
               "name": "WRC - Water Graduate Employment Programme",
               "metric_type": "count",
-              "value": 70,
+              "value": 141,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -4863,6 +5078,11 @@
                     {
                       "key": "202102",
                       "value": 70,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 141,
                       "value_target": null
                     }
                   ],
@@ -4997,7 +5217,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 6459,
+              "value": 10499,
               "dimensions": [],
               "value_target": 8000,
               "implementation_detail": null
@@ -5013,7 +5233,7 @@
             {
               "name": "Services sector development incentives",
               "metric_type": "count",
-              "value": 6459,
+              "value": 10499,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -5043,6 +5263,11 @@
                     {
                       "key": "202102",
                       "value": 6459,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 10499,
                       "value_target": null
                     }
                   ],
@@ -5172,7 +5397,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 5118,
+              "value": 4758,
               "dimensions": [],
               "value_target": 5531,
               "implementation_detail": null
@@ -5212,7 +5437,7 @@
             {
               "name": "Enrolled nurses",
               "metric_type": "count",
-              "value": 2741,
+              "value": 2626,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -5242,6 +5467,11 @@
                     {
                       "key": "202102",
                       "value": 2741,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 2626,
                       "value_target": null
                     }
                   ],
@@ -5311,7 +5541,7 @@
             {
               "name": "Auxiliary nurses",
               "metric_type": "count",
-              "value": 2377,
+              "value": 2132,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -5341,6 +5571,11 @@
                     {
                       "key": "202102",
                       "value": 2377,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 2132,
                       "value_target": null
                     }
                   ],
@@ -5444,7 +5679,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 4635,
+              "value": 10245,
               "dimensions": [],
               "value_target": 37079,
               "implementation_detail": null
@@ -5460,7 +5695,7 @@
             {
               "name": "Rural roads maintenance",
               "metric_type": "count",
-              "value": 4635,
+              "value": 10245,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -5490,6 +5725,11 @@
                     {
                       "key": "202102",
                       "value": 4635,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202103",
+                      "value": 10245,
                       "value_target": null
                     }
                   ],

@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 35140,
+          "value": 39274,
           "dimensions": [],
           "value_target": 34070,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Covid-19 Return-To-Play - National Sport Federations",
           "metric_type": "count",
-          "value": 633,
+          "value": 613,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -75,6 +75,11 @@
                   "key": "202102",
                   "value": 633,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 613,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -86,7 +91,7 @@
         {
           "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
           "metric_type": "count",
-          "value": 156,
+          "value": 151,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -116,6 +121,11 @@
                 {
                   "key": "202102",
                   "value": 156,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 151,
                   "value_target": null
                 }
               ],
@@ -220,7 +230,7 @@
         {
           "name": "Public Art, towards a people's culture - Community Arts Centres",
           "metric_type": "count",
-          "value": 57,
+          "value": 147,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -250,6 +260,11 @@
                 {
                   "key": "202102",
                   "value": 57,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 147,
                   "value_target": null
                 }
               ],
@@ -315,7 +330,7 @@
         {
           "name": "Audit of national museums - South African Heritage Resources Agency",
           "metric_type": "count",
-          "value": 255,
+          "value": 253,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -345,6 +360,11 @@
                 {
                   "key": "202102",
                   "value": 255,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 253,
                   "value_target": null
                 }
               ],
@@ -472,6 +492,11 @@
                   "key": "202102",
                   "value": 144,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 144,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -514,6 +539,11 @@
                   "key": "202102",
                   "value": 146,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 146,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -533,7 +563,7 @@
         {
           "name": "Job retention in cultural and creative institutions - National Arts Council",
           "metric_type": "count",
-          "value": 2445,
+          "value": 2435,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -563,6 +593,11 @@
                 {
                   "key": "202102",
                   "value": 2445,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 2435,
                   "value_target": null
                 }
               ],
@@ -688,6 +723,11 @@
                 },
                 {
                   "key": "202102",
+                  "value": 675,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
                   "value": 675,
                   "value_target": null
                 }
@@ -816,6 +856,11 @@
                   "key": "202102",
                   "value": 5090,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 5090,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -835,7 +880,7 @@
         {
           "name": "Support to art and culture practitioners - National Arts Council",
           "metric_type": "count",
-          "value": 17237,
+          "value": 21318,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -865,6 +910,11 @@
                 {
                   "key": "202102",
                   "value": 17237,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 21318,
                   "value_target": null
                 }
               ],
@@ -990,6 +1040,11 @@
                 },
                 {
                   "key": "202102",
+                  "value": 8302,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
                   "value": 8302,
                   "value_target": null
                 }

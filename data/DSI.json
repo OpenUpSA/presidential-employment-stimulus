@@ -28,7 +28,7 @@
         {
           "name": "Overall jobs created",
           "metric_type": "count",
-          "value": 402,
+          "value": 517,
           "dimensions": [],
           "value_target": 1900,
           "implementation_detail": null
@@ -52,7 +52,7 @@
         {
           "name": "DUCT - Enviro-champs",
           "metric_type": "count",
-          "value": 288,
+          "value": 310,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -82,6 +82,11 @@
                 {
                   "key": "202102",
                   "value": 288,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 310,
                   "value_target": null
                 }
               ],
@@ -178,7 +183,7 @@
         {
           "name": "CSIR - Experiential Training Programme",
           "metric_type": "count",
-          "value": 44,
+          "value": 66,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -208,6 +213,11 @@
                 {
                   "key": "202102",
                   "value": 44,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 66,
                   "value_target": null
                 }
               ],
@@ -304,7 +314,7 @@
         {
           "name": "WRC - Water Graduate Employment Programme",
           "metric_type": "count",
-          "value": 70,
+          "value": 141,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -334,6 +344,11 @@
                 {
                   "key": "202102",
                   "value": 70,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 141,
                   "value_target": null
                 }
               ],

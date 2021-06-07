@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 6459,
+          "value": 10499,
           "dimensions": [],
           "value_target": 8000,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Services sector development incentives",
           "metric_type": "count",
-          "value": 6459,
+          "value": 10499,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -74,6 +74,11 @@
                 {
                   "key": "202102",
                   "value": 6459,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 10499,
                   "value_target": null
                 }
               ],

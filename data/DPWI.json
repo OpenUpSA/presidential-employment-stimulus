@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 1869,
+          "value": 1865,
           "dimensions": [],
           "value_target": 1560,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Water and Energy Efficiency",
           "metric_type": "count",
-          "value": 171,
+          "value": 176,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -74,6 +74,11 @@
                 {
                   "key": "202102",
                   "value": 171,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 176,
                   "value_target": null
                 }
               ],
@@ -170,7 +175,7 @@
         {
           "name": "Water and Sanitation Facilities Management",
           "metric_type": "count",
-          "value": 158,
+          "value": 161,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -200,6 +205,11 @@
                 {
                   "key": "202102",
                   "value": 158,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 161,
                   "value_target": null
                 }
               ],
@@ -296,7 +306,7 @@
         {
           "name": "Welisizwe Rural Bridges Programme",
           "metric_type": "count",
-          "value": 511,
+          "value": 515,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -326,6 +336,11 @@
                 {
                   "key": "202102",
                   "value": 511,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 515,
                   "value_target": null
                 }
               ],
@@ -422,7 +437,7 @@
         {
           "name": "Facilities Management",
           "metric_type": "count",
-          "value": 358,
+          "value": 354,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -452,6 +467,11 @@
                 {
                   "key": "202102",
                   "value": 358,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 354,
                   "value_target": null
                 }
               ],
@@ -579,6 +599,11 @@
                   "key": "202102",
                   "value": 109,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 109,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -674,7 +699,7 @@
         {
           "name": "In-House Construction projects",
           "metric_type": "count",
-          "value": 136,
+          "value": 127,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -704,6 +729,11 @@
                 {
                   "key": "202102",
                   "value": 136,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 127,
                   "value_target": null
                 }
               ],
@@ -800,7 +830,7 @@
         {
           "name": "Public Private Collaborations",
           "metric_type": "count",
-          "value": 426,
+          "value": 423,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -830,6 +860,11 @@
                 {
                   "key": "202102",
                   "value": 426,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 423,
                   "value_target": null
                 }
               ],
