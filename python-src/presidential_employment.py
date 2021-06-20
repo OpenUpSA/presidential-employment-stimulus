@@ -107,7 +107,6 @@ class Department:
     implementation_details: List[ImplementationDetail]
 
 
-
 @dataclass_json
 @dataclass
 class Overview:
@@ -115,6 +114,8 @@ class Overview:
     name: str  # Would normally be "Programme Overview"
     lead: str
     paragraph: str
+    footer_header: str
+    footer_paragraph: str
     sections: List[Section]
 
 

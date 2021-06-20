@@ -150,7 +150,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities in post by Province",
+              "name": "Opportunities going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -389,7 +389,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities in post by Province",
+              "name": "Opportunities going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -622,7 +622,7 @@
               "data_missing": false
             },
             {
-              "name": "Jobs saved by province",
+              "name": "Jobs saved going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -753,7 +753,7 @@
               "data_missing": false
             },
             {
-              "name": "Jobs saved by province",
+              "name": "Jobs saved going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -939,7 +939,7 @@
               "data_missing": false
             },
             {
-              "name": "Livelihoods supported by province",
+              "name": "Livelihoods supported going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -1070,7 +1070,7 @@
               "data_missing": false
             },
             {
-              "name": "Livelihoods supported by province",
+              "name": "Livelihoods supported going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [

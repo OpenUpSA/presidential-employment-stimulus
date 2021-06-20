@@ -164,8 +164,8 @@ Promise.all([
       });
     }
 
-    if (tabData.name === "Programme overview") {
-      new Footer(tab.$container, '', 'Disclaimer', tabData.paragraph);
+    if (typeof tabData.footer_header !== 'undefined' && tabData.footer_header) {
+      new Footer(tab.$container, '', tabData.footer_header, tabData.footer_paragraph);
     }
   });
 
