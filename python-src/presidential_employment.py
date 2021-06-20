@@ -150,7 +150,7 @@ metric_titles = {
     SectionEnum.job_opportunities.name: {
         MetricTypeEnum.count.name + '_time': "Employed over time",
         MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
-        MetricTypeEnum.count.name + '_province': "Opportunities by Province",
+        MetricTypeEnum.count.name + '_province': "Opportunities in post by Province",
         MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
     },
     SectionEnum.jobs_retain.name: {

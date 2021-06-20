@@ -89,7 +89,7 @@
                 },
                 {
                   "key": "202102",
-                  "value": 2741,
+                  "value": 2626,
                   "value_target": null
                 },
                 {
@@ -101,7 +101,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -189,7 +189,7 @@
                 },
                 {
                   "key": "202102",
-                  "value": 2377,
+                  "value": 2132,
                   "value_target": null
                 },
                 {
@@ -201,7 +201,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [

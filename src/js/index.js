@@ -162,7 +162,13 @@ Promise.all([
         );
       });
     }
+
+    if (tabData.name === "Programme overview") {
+      new Header(tab.$container, '', 'Disclaimer', tabData.paragraph, '');
+    }
   });
+
+
   tabs.select(0);
   $(TEMPORARY_HIDDEN_SELECTOR).show();
 });

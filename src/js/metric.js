@@ -44,7 +44,7 @@ export class Metric {
       if (metricType === "currency" ) {
         this._bottomText = undefined;  // remove the target spend amount from all "currency" target metrics
       } else {
-        if (this._value) {
+        if (this._value || deptAcronym === "DCOGTA") {
           this._bottomText = `${metricType === "currency" ? 'SPEND' : 'ACHIEVED'}: ${this._formatter(this._value)}`;
         } else {
           if (this._title === "Opportunities in process") {
@@ -59,7 +59,7 @@ export class Metric {
         this._iconType = this._metricType;
       }
       this._topText = this._formatter(this._value);
-      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : (deptAcronym === 'DALRRD' ? "" : "Target not available");
+      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : ((deptAcronym === 'DALRRD' || deptAcronym === 'DPWI') ? "" : "Target not available");
     }
     this.render();
   }

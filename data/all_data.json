@@ -1,9 +1,9 @@
 {
   "overview": {
-    "month": "202103",
+    "month": "202102",
     "name": "Programme overview",
-    "lead": "Building a society that works",
-    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
+    "lead": "Disclaimer",
+    "paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "sections": [
       {
         "name": "Programme targets",
@@ -14,13 +14,13 @@
             "metric_type": "currency",
             "value": 0,
             "dimensions": [],
-            "value_target": 0,
+            "value_target": 12634178000,
             "implementation_detail": null
           },
           {
             "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 504200,
+            "value": 526749,
             "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
@@ -30,7 +30,7 @@
             "metric_type": "count",
             "value": 0,
             "dimensions": [],
-            "value_target": 0,
+            "value_target": 167403,
             "implementation_detail": null
           }
         ],
@@ -44,7 +44,7 @@
           {
             "name": "Jobs created",
             "metric_type": "job_opportunities",
-            "value": 371965,
+            "value": 390190,
             "dimensions": [
               {
                 "name": "by department",
@@ -58,7 +58,7 @@
                   },
                   {
                     "key": "DEFF",
-                    "value": 21681,
+                    "value": 39883,
                     "value_target": 50311
                   },
                   {
@@ -78,7 +78,7 @@
                   },
                   {
                     "key": "DPWI",
-                    "value": 1865,
+                    "value": 1881,
                     "value_target": 1560
                   },
                   {
@@ -88,7 +88,7 @@
                   },
                   {
                     "key": "DSAC",
-                    "value": 1454,
+                    "value": 1461,
                     "value_target": 4356
                   },
                   {
@@ -121,27 +121,27 @@
                   },
                   {
                     "key": "202011",
-                    "value": 212585,
+                    "value": 219399,
                     "value_target": null
                   },
                   {
                     "key": "202012",
-                    "value": 288093,
+                    "value": 295159,
                     "value_target": null
                   },
                   {
                     "key": "202101",
-                    "value": 318339,
+                    "value": 322414,
                     "value_target": null
                   },
                   {
                     "key": "202102",
-                    "value": 357724,
+                    "value": 362213,
                     "value_target": null
                   },
                   {
                     "key": "202103",
-                    "value": 371965,
+                    "value": 390190,
                     "value_target": null
                   }
                 ],
@@ -154,7 +154,7 @@
           {
             "name": "Livelihoods supported",
             "metric_type": "livelihoods",
-            "value": 91845,
+            "value": 96169,
             "dimensions": [
               {
                 "name": "by department",
@@ -163,7 +163,7 @@
                 "values": [
                   {
                     "key": "DALRRD",
-                    "value": 39146,
+                    "value": 56149,
                     "value_target": 74626
                   },
                   {
@@ -173,7 +173,7 @@
                   },
                   {
                     "key": "DSD",
-                    "value": 23079,
+                    "value": 10400,
                     "value_target": 108833
                   }
                 ],
@@ -211,7 +211,7 @@
                   },
                   {
                     "key": "202103",
-                    "value": 68766,
+                    "value": 85769,
                     "value_target": null
                   }
                 ],
@@ -276,7 +276,7 @@
                   },
                   {
                     "key": "202102",
-                    "value": 36942,
+                    "value": 36932,
                     "value_target": null
                   },
                   {
@@ -292,14 +292,14 @@
             "implementation_detail": null
           }
         ],
-        "value": 1865,
+        "value": 1881,
         "value_target": 0
       }
     ]
   },
   "departments": [
     {
-      "month": "202103",
+      "month": "202102",
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
@@ -328,7 +328,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 39146,
+              "value": 56149,
               "dimensions": [],
               "value_target": 74626,
               "implementation_detail": null
@@ -385,7 +385,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -483,7 +483,7 @@
             {
               "name": "Vegetables and Fruits",
               "metric_type": "count",
-              "value": 13648,
+              "value": 19877,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -492,47 +492,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 2297,
+                      "value": 2970,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 895,
+                      "value": 1247,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 991,
+                      "value": 1739,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 4088,
+                      "value": 6169,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1770,
+                      "value": 2413,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 2674,
+                      "value": 3179,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 611,
+                      "value": 1359,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 194,
+                      "value": 426,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 128,
+                      "value": 375,
                       "value_target": null
                     }
                   ],
@@ -588,7 +588,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 13648,
+                      "value": 19877,
                       "value_target": null
                     }
                   ],
@@ -614,7 +614,7 @@
                   "values": [
                     {
                       "key": "vets",
-                      "value": 191,
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -626,8 +626,8 @@
                   "lookup": "disabled",
                   "values": [
                     {
-                      "key": "vets",
-                      "value": 33,
+                      "key": "disabled",
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -640,7 +640,7 @@
             {
               "name": "Maize/soya/sugar/other production",
               "metric_type": "count",
-              "value": 8492,
+              "value": 11071,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -649,47 +649,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 1510,
+                      "value": 1902,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 98,
+                      "value": 141,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 145,
+                      "value": 219,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2416,
+                      "value": 3509,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1343,
+                      "value": 1888,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 2823,
+                      "value": 3095,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 132,
+                      "value": 255,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 24,
+                      "value": 54,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 1,
+                      "value": 8,
                       "value_target": null
                     }
                   ],
@@ -745,7 +745,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 8492,
+                      "value": 11071,
                       "value_target": null
                     }
                   ],
@@ -771,7 +771,7 @@
                   "values": [
                     {
                       "key": "vets",
-                      "value": 109,
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -783,8 +783,8 @@
                   "lookup": "disabled",
                   "values": [
                     {
-                      "key": "vets",
-                      "value": 23,
+                      "key": "disabled",
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -797,7 +797,7 @@
             {
               "name": "Poultry: Layers and Boilers",
               "metric_type": "count",
-              "value": 8989,
+              "value": 12835,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -806,47 +806,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 2335,
+                      "value": 3011,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 383,
+                      "value": 535,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 256,
+                      "value": 436,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 2521,
+                      "value": 3731,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 1518,
+                      "value": 2089,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 1248,
+                      "value": 1439,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 625,
+                      "value": 1320,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 77,
+                      "value": 197,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 26,
+                      "value": 77,
                       "value_target": null
                     }
                   ],
@@ -902,7 +902,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 8989,
+                      "value": 12835,
                       "value_target": null
                     }
                   ],
@@ -928,7 +928,7 @@
                   "values": [
                     {
                       "key": "vets",
-                      "value": 94,
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -940,8 +940,8 @@
                   "lookup": "disabled",
                   "values": [
                     {
-                      "key": "vets",
-                      "value": 37,
+                      "key": "disabled",
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -954,7 +954,7 @@
             {
               "name": "Small livestock",
               "metric_type": "count",
-              "value": 5488,
+              "value": 8493,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -963,47 +963,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 1660,
+                      "value": 2043,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 285,
+                      "value": 427,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 70,
+                      "value": 130,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 897,
+                      "value": 1390,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 736,
+                      "value": 937,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 634,
+                      "value": 709,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 839,
+                      "value": 1723,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 247,
+                      "value": 719,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 120,
+                      "value": 415,
                       "value_target": null
                     }
                   ],
@@ -1059,7 +1059,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 5488,
+                      "value": 8493,
                       "value_target": null
                     }
                   ],
@@ -1085,7 +1085,7 @@
                   "values": [
                     {
                       "key": "vets",
-                      "value": 76,
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -1097,8 +1097,8 @@
                   "lookup": "disabled",
                   "values": [
                     {
-                      "key": "vets",
-                      "value": 31,
+                      "key": "disabled",
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -1111,7 +1111,7 @@
             {
               "name": "Large livestock",
               "metric_type": "count",
-              "value": 2529,
+              "value": 3873,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -1120,47 +1120,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 360,
+                      "value": 464,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 405,
+                      "value": 564,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 41,
+                      "value": 73,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 474,
+                      "value": 715,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 284,
+                      "value": 380,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 450,
+                      "value": 524,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 407,
+                      "value": 849,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 92,
+                      "value": 253,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 16,
+                      "value": 51,
                       "value_target": null
                     }
                   ],
@@ -1216,7 +1216,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 2529,
+                      "value": 3873,
                       "value_target": null
                     }
                   ],
@@ -1242,7 +1242,7 @@
                   "values": [
                     {
                       "key": "vets",
-                      "value": 29,
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -1254,8 +1254,8 @@
                   "lookup": "disabled",
                   "values": [
                     {
-                      "key": "vets",
-                      "value": 16,
+                      "key": "disabled",
+                      "value": 0,
                       "value_target": null
                     }
                   ],
@@ -1274,7 +1274,7 @@
         {
           "programme_name": "Subsistence producer relief fund",
           "status": "OnTrack",
-          "detail": "The department continues to verify the 131 000 pre-approved applicants to ensure that farmer activity is as reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with suppliers that are charging more than the pre-agreed prices for inputs or disbursing cash instead of inputs for production."
+          "detail": "The department continues to verify the 131 000 pre-approved applicants to ensure that farmer activity is as reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with certain suppliers that are charging more than the pre-agreed prices for inputs, taking a cut of the vouchers or disbursing cash instead of inputs for production. Although this is a small percentage of the total, DALRRD is following up on complaints and a number of suppliers have been blacklisted."
         }
       ]
     },
@@ -1333,12 +1333,12 @@
                   "values": [
                     {
                       "key": "Male",
-                      "value": 0.35,
+                      "value": 0.28,
                       "value_target": null
                     },
                     {
                       "key": "Female",
-                      "value": 0.65,
+                      "value": 0.72,
                       "value_target": null
                     }
                   ],
@@ -1351,14 +1351,14 @@
                   "values": [
                     {
                       "key": "18-35",
-                      "value": 0.99,
+                      "value": 1.0,
                       "value_target": null
                     }
                   ],
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -1432,12 +1432,12 @@
                     },
                     {
                       "key": "202101",
-                      "value": 155341,
+                      "value": 175221,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 187654,
+                      "value": 196034,
                       "value_target": null
                     },
                     {
@@ -1493,7 +1493,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -1567,12 +1567,12 @@
                     },
                     {
                       "key": "202101",
-                      "value": 128894,
+                      "value": 109014,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 130344,
+                      "value": 121964,
                       "value_target": null
                     },
                     {
@@ -1712,7 +1712,7 @@
     },
     {
       "month": "202103",
-      "name": "Co-operative government",
+      "name": "Co-operative governance",
       "sheet_name": "DCOGTA",
       "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
       "paragraph": "In certain areas of infrastructure delivery, labour-intensive methods can enhance the job creation impact, while delivering the same quality of infrastructure outcomes. While there has long been policy support for labour-intensive methods, these are not always used in practice. Through the stimulus, the Municipal Infrastructure Support Agency (MISA) of DCOGTA is building the capacity of municipalities to utilise these methods. Fifteen municipalities have been targeted; others have asked to join the process. This component is only expected to deliver results against the employment target in the 2021/22 financial year, because of the contracting cycle for municipal infrastructure.",
@@ -1802,7 +1802,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 21681,
+              "value": 39883,
               "dimensions": [],
               "value_target": 50311,
               "implementation_detail": null
@@ -1818,7 +1818,7 @@
             {
               "name": "Cleaning and greening - war on waste with municipalities",
               "metric_type": "count",
-              "value": 0,
+              "value": 13260,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -1852,7 +1852,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 0,
+                      "value": 13260,
                       "value_target": null
                     }
                   ],
@@ -1863,7 +1863,7 @@
               "implementation_detail": {
                 "programme_name": "Cleaning and greening - war on waste with municipalities",
                 "status": "MinorChallenges",
-                "detail": ""
+                "detail": "The programme plans cleaning activities and indigenous tree planting. After procurement delays, appointment of service providers is underway, with recruitment processes in place in all municipalities."
               }
             },
             {
@@ -1914,7 +1914,7 @@
               "implementation_detail": {
                 "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
                 "status": "MinorChallenges",
-                "detail": ""
+                "detail": "Project not started."
               }
             },
             {
@@ -1965,13 +1965,13 @@
               "implementation_detail": {
                 "programme_name": "Oceans and Coast: Source to Sea",
                 "status": "MinorChallenges",
-                "detail": ""
+                "detail": "In 16 districts in the country, river embankments and waterways will be cleaned to prevent litter entering the ocean."
               }
             },
             {
               "name": "Groen Sebenzas, weather service - graduate programme",
               "metric_type": "count",
-              "value": 293,
+              "value": 272,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -1985,27 +1985,27 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 39,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 39,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 723,
+                      "value": 264,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 724,
+                      "value": 272,
                       "value_target": null
                     },
                     {
                       "key": "202103",
-                      "value": 293,
+                      "value": 272,
                       "value_target": null
                     }
                   ],
@@ -2016,13 +2016,13 @@
               "implementation_detail": {
                 "programme_name": "Groen Sebenzas, weather service - graduate programme",
                 "status": "OnTrack",
-                "detail": ""
+                "detail": "Graduate interns are being mentored in natural resource project management and some are doing fieldwork towards further qualifications in restoration ecology."
               }
             },
             {
               "name": "SANBI Infrastructure maintenance, biosecurity",
               "metric_type": "count",
-              "value": 568,
+              "value": 1360,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2036,27 +2036,27 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 385,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 385,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 1194,
+                      "value": 941,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 1195,
+                      "value": 1276,
                       "value_target": null
                     },
                     {
                       "key": "202103",
-                      "value": 568,
+                      "value": 1360,
                       "value_target": null
                     }
                   ],
@@ -2067,7 +2067,7 @@
               "implementation_detail": {
                 "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                 "status": "OnTrack",
-                "detail": ""
+                "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens is being maintained."
               }
             },
             {
@@ -2087,22 +2087,22 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 345,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 345,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 608,
+                      "value": 510,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 609,
+                      "value": 618,
                       "value_target": null
                     },
                     {
@@ -2118,13 +2118,13 @@
               "implementation_detail": {
                 "programme_name": "iSimangaliso: conservation management infrastructure",
                 "status": "CriticalChallenges",
-                "detail": ""
+                "detail": "7 facilities in iSimangaliso have been maintained and upgraded, 36 kms of fencing has been maintained, with roads maintenance undertaken also."
               }
             },
             {
               "name": "SANPARKS upgrade and green energy",
               "metric_type": "count",
-              "value": 5645,
+              "value": 5460,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2138,27 +2138,27 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 211,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 211,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 3522,
+                      "value": 4697,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 3523,
+                      "value": 4766,
                       "value_target": null
                     },
                     {
                       "key": "202103",
-                      "value": 5645,
+                      "value": 5460,
                       "value_target": null
                     }
                   ],
@@ -2169,13 +2169,13 @@
               "implementation_detail": {
                 "programme_name": "SANPARKS upgrade and green energy",
                 "status": "CriticalChallenges",
-                "detail": ""
+                "detail": "Solar water heaters have been installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs have been supported to undertake the work, which includes 100 small renovations."
               }
             },
             {
               "name": "Catchment management and strategic water sources",
               "metric_type": "count",
-              "value": 7449,
+              "value": 11625,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2189,27 +2189,27 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 4614,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 4866,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 12336,
+                      "value": 9253,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 12337,
+                      "value": 9532,
                       "value_target": null
                     },
                     {
                       "key": "202103",
-                      "value": 7449,
+                      "value": 11625,
                       "value_target": null
                     }
                   ],
@@ -2220,7 +2220,7 @@
               "implementation_detail": {
                 "programme_name": "Catchment management and strategic water sources",
                 "status": "CriticalChallenges",
-                "detail": ""
+                "detail": "The programme is focused on the rehabilitation of catchment areas and strategic water resources in protected areas. This involves clearing alien invasive species (which reduce water availability and biodiversity) and limiting bush encroachment (which can reduce grazing capacity by up to 80%). The PES enabled clearing of alien invasive species from 29,414 hectares with follow up cleaning on 141 123 hectares."
               }
             },
             {
@@ -2271,13 +2271,13 @@
               "implementation_detail": {
                 "programme_name": "Bio-diversity economy",
                 "status": "CriticalChallenges",
-                "detail": ""
+                "detail": "Support to 19 traditional authorities on biodiversity, conservation and land rehabilitation is envisaged but has faced implementation challenges."
               }
             },
             {
               "name": "Climate Adaptation: Forestry support",
               "metric_type": "count",
-              "value": 6613,
+              "value": 6793,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2291,27 +2291,27 @@
                     },
                     {
                       "key": "202011",
-                      "value": 0,
+                      "value": 1220,
                       "value_target": null
                     },
                     {
                       "key": "202012",
-                      "value": 0,
+                      "value": 1220,
                       "value_target": null
                     },
                     {
                       "key": "202101",
-                      "value": 0,
+                      "value": 6793,
                       "value_target": null
                     },
                     {
                       "key": "202102",
-                      "value": 0,
+                      "value": 6793,
                       "value_target": null
                     },
                     {
                       "key": "202103",
-                      "value": 6613,
+                      "value": 6793,
                       "value_target": null
                     }
                   ],
@@ -2322,7 +2322,7 @@
               "implementation_detail": {
                 "programme_name": "Climate Adaptation: Forestry support",
                 "status": "OnTrack",
-                "detail": ""
+                "detail": "This programme is focussed on improving the sustainability of of plantations and indigenous forests and the development of forestry enterprises and also on support to disaster risk reduction in relation to veld and forest fires."
               }
             }
           ],
@@ -2362,7 +2362,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 1865,
+              "value": 1881,
               "dimensions": [],
               "value_target": 1560,
               "implementation_detail": null
@@ -2450,7 +2450,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -2581,7 +2581,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -2712,7 +2712,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -2771,7 +2771,7 @@
             {
               "name": "Facilities Management",
               "metric_type": "count",
-              "value": 354,
+              "value": 358,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -2805,7 +2805,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 354,
+                      "value": 358,
                       "value_target": null
                     }
                   ],
@@ -2843,7 +2843,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -2974,7 +2974,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3033,7 +3033,7 @@
             {
               "name": "In-House Construction projects",
               "metric_type": "count",
-              "value": 127,
+              "value": 136,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3067,7 +3067,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 127,
+                      "value": 136,
                       "value_target": null
                     }
                   ],
@@ -3105,7 +3105,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3164,7 +3164,7 @@
             {
               "name": "Public Private Collaborations",
               "metric_type": "count",
-              "value": 423,
+              "value": 426,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3198,7 +3198,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 423,
+                      "value": 426,
                       "value_target": null
                     }
                   ],
@@ -3236,7 +3236,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3329,7 +3329,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 39274,
+              "value": 39281,
               "dimensions": [],
               "value_target": 34070,
               "implementation_detail": null
@@ -3374,7 +3374,7 @@
                     },
                     {
                       "key": "202102",
-                      "value": 633,
+                      "value": 613,
                       "value_target": null
                     },
                     {
@@ -3396,7 +3396,7 @@
             {
               "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
               "metric_type": "count",
-              "value": 151,
+              "value": 156,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3430,7 +3430,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 151,
+                      "value": 156,
                       "value_target": null
                     }
                   ],
@@ -3455,7 +3455,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "percentile",
                   "lookup": "age",
                   "values": [
@@ -3468,7 +3468,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3584,7 +3584,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3647,7 +3647,7 @@
             {
               "name": "Audit of national museums - South African Heritage Resources Agency",
               "metric_type": "count",
-              "value": 253,
+              "value": 255,
               "dimensions": [
                 {
                   "name": "Employed over time",
@@ -3681,7 +3681,7 @@
                     },
                     {
                       "key": "202103",
-                      "value": 253,
+                      "value": 255,
                       "value_target": null
                     }
                   ],
@@ -3706,7 +3706,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "percentile",
                   "lookup": "age",
                   "values": [
@@ -3719,7 +3719,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -3921,7 +3921,7 @@
                     },
                     {
                       "key": "202102",
-                      "value": 2445,
+                      "value": 2435,
                       "value_target": null
                     },
                     {
@@ -4525,7 +4525,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 24155,
+              "value": 11476,
               "dimensions": [],
               "value_target": 111142,
               "implementation_detail": null
@@ -4704,13 +4704,13 @@
             {
               "name": "ECD income and compliance support",
               "metric_type": "count",
-              "value": 23079,
+              "value": 10400,
               "dimensions": [],
               "value_target": 108833,
               "implementation_detail": {
                 "programme_name": "ECD income and compliance support",
                 "status": "MinorChallenges",
-                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) was oversubscribed and the department is currently approving applicants and conducting verifications. Over 20000 workers have begun to received payments through provincial departments and many programmes continue to receive support from partners to complete requirements for verification and approval."
+                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) was oversubscribed and the department is currently approving applicants and conducting verifications. Over 10000 workers have begun to received payments through provincial departments and many programmes continue to receive support from partners to complete requirements for verification and approval."
               }
             }
           ],
@@ -4819,7 +4819,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -4954,7 +4954,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -5089,7 +5089,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -5305,7 +5305,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -5466,7 +5466,7 @@
                     },
                     {
                       "key": "202102",
-                      "value": 2741,
+                      "value": 2626,
                       "value_target": null
                     },
                     {
@@ -5478,7 +5478,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -5570,7 +5570,7 @@
                     },
                     {
                       "key": "202102",
-                      "value": 2377,
+                      "value": 2132,
                       "value_target": null
                     },
                     {
@@ -5582,7 +5582,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [
@@ -5736,7 +5736,7 @@
                   "data_missing": false
                 },
                 {
-                  "name": "Opportunities by Province",
+                  "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
                   "values": [

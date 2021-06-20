@@ -116,7 +116,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [

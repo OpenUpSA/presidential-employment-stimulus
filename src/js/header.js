@@ -17,7 +17,8 @@ export class Header {
 
   render() {
     const $el = $template.clone(true, true);
-    $el.find('.header__label').text("Data captured up until " + this._months_text); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")
+    const month_text = (this._months_text) ? "Data captured up until " + this._months_text : '';
+    $el.find('.header__label').text(month_text);
     $el.find(TITLE_SELECTOR).text(this._title);
     $el.find('h3').text(this._lead);
     $el.find('p').text(this._paragraph);

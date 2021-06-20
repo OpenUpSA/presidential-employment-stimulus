@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 39146,
+          "value": 56149,
           "dimensions": [],
           "value_target": 74626,
           "implementation_detail": null
@@ -85,7 +85,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -183,7 +183,7 @@
         {
           "name": "Vegetables and Fruits",
           "metric_type": "count",
-          "value": 13648,
+          "value": 19877,
           "dimensions": [
             {
               "name": "Livelihoods supported by province",
@@ -192,47 +192,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 2297,
+                  "value": 2970,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 895,
+                  "value": 1247,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 991,
+                  "value": 1739,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 4088,
+                  "value": 6169,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1770,
+                  "value": 2413,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 2674,
+                  "value": 3179,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 611,
+                  "value": 1359,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 194,
+                  "value": 426,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 128,
+                  "value": 375,
                   "value_target": null
                 }
               ],
@@ -288,7 +288,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 13648,
+                  "value": 19877,
                   "value_target": null
                 }
               ],
@@ -314,7 +314,7 @@
               "values": [
                 {
                   "key": "vets",
-                  "value": 191,
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -326,8 +326,8 @@
               "lookup": "disabled",
               "values": [
                 {
-                  "key": "vets",
-                  "value": 33,
+                  "key": "disabled",
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -340,7 +340,7 @@
         {
           "name": "Maize/soya/sugar/other production",
           "metric_type": "count",
-          "value": 8492,
+          "value": 11071,
           "dimensions": [
             {
               "name": "Livelihoods supported by province",
@@ -349,47 +349,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 1510,
+                  "value": 1902,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 98,
+                  "value": 141,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 145,
+                  "value": 219,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 2416,
+                  "value": 3509,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1343,
+                  "value": 1888,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 2823,
+                  "value": 3095,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 132,
+                  "value": 255,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 24,
+                  "value": 54,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 1,
+                  "value": 8,
                   "value_target": null
                 }
               ],
@@ -445,7 +445,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 8492,
+                  "value": 11071,
                   "value_target": null
                 }
               ],
@@ -471,7 +471,7 @@
               "values": [
                 {
                   "key": "vets",
-                  "value": 109,
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -483,8 +483,8 @@
               "lookup": "disabled",
               "values": [
                 {
-                  "key": "vets",
-                  "value": 23,
+                  "key": "disabled",
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -497,7 +497,7 @@
         {
           "name": "Poultry: Layers and Boilers",
           "metric_type": "count",
-          "value": 8989,
+          "value": 12835,
           "dimensions": [
             {
               "name": "Livelihoods supported by province",
@@ -506,47 +506,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 2335,
+                  "value": 3011,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 383,
+                  "value": 535,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 256,
+                  "value": 436,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 2521,
+                  "value": 3731,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1518,
+                  "value": 2089,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 1248,
+                  "value": 1439,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 625,
+                  "value": 1320,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 77,
+                  "value": 197,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 26,
+                  "value": 77,
                   "value_target": null
                 }
               ],
@@ -602,7 +602,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 8989,
+                  "value": 12835,
                   "value_target": null
                 }
               ],
@@ -628,7 +628,7 @@
               "values": [
                 {
                   "key": "vets",
-                  "value": 94,
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -640,8 +640,8 @@
               "lookup": "disabled",
               "values": [
                 {
-                  "key": "vets",
-                  "value": 37,
+                  "key": "disabled",
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -654,7 +654,7 @@
         {
           "name": "Small livestock",
           "metric_type": "count",
-          "value": 5488,
+          "value": 8493,
           "dimensions": [
             {
               "name": "Livelihoods supported by province",
@@ -663,47 +663,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 1660,
+                  "value": 2043,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 285,
+                  "value": 427,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 70,
+                  "value": 130,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 897,
+                  "value": 1390,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 736,
+                  "value": 937,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 634,
+                  "value": 709,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 839,
+                  "value": 1723,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 247,
+                  "value": 719,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 120,
+                  "value": 415,
                   "value_target": null
                 }
               ],
@@ -759,7 +759,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 5488,
+                  "value": 8493,
                   "value_target": null
                 }
               ],
@@ -785,7 +785,7 @@
               "values": [
                 {
                   "key": "vets",
-                  "value": 76,
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -797,8 +797,8 @@
               "lookup": "disabled",
               "values": [
                 {
-                  "key": "vets",
-                  "value": 31,
+                  "key": "disabled",
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -811,7 +811,7 @@
         {
           "name": "Large livestock",
           "metric_type": "count",
-          "value": 2529,
+          "value": 3873,
           "dimensions": [
             {
               "name": "Livelihoods supported by province",
@@ -820,47 +820,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 360,
+                  "value": 464,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 405,
+                  "value": 564,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 41,
+                  "value": 73,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 474,
+                  "value": 715,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 284,
+                  "value": 380,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 450,
+                  "value": 524,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 407,
+                  "value": 849,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 92,
+                  "value": 253,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 16,
+                  "value": 51,
                   "value_target": null
                 }
               ],
@@ -916,7 +916,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 2529,
+                  "value": 3873,
                   "value_target": null
                 }
               ],
@@ -942,7 +942,7 @@
               "values": [
                 {
                   "key": "vets",
-                  "value": 29,
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -954,8 +954,8 @@
               "lookup": "disabled",
               "values": [
                 {
-                  "key": "vets",
-                  "value": 16,
+                  "key": "disabled",
+                  "value": 0,
                   "value_target": null
                 }
               ],
@@ -974,7 +974,7 @@
     {
       "programme_name": "Subsistence producer relief fund",
       "status": "OnTrack",
-      "detail": "The department continues to verify the 131 000 pre-approved applicants to ensure that farmer activity is as reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with suppliers that are charging more than the pre-agreed prices for inputs or disbursing cash instead of inputs for production."
+      "detail": "The department continues to verify the 131 000 pre-approved applicants to ensure that farmer activity is as reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with certain suppliers that are charging more than the pre-agreed prices for inputs, taking a cut of the vouchers or disbursing cash instead of inputs for production. Although this is a small percentage of the total, DALRRD is following up on complaints and a number of suppliers have been blacklisted."
     }
   ]
 }
