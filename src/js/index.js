@@ -3,6 +3,7 @@ import { d3 } from './d3';
 import { Tabs } from './tabs';
 import { Tab } from './tab';
 import { Header } from './header';
+import { Footer } from "./footer";
 import { OverviewVizBars } from './overview-viz-bars';
 import { Section } from './section';
 import { SubSection } from './sub-section';
@@ -164,7 +165,7 @@ Promise.all([
     }
 
     if (tabData.name === "Programme overview") {
-      new Header(tab.$container, '', 'Disclaimer', tabData.paragraph, '');
+      new Footer(tab.$container, '', 'Disclaimer', tabData.paragraph);
     }
   });
 
