@@ -20,7 +20,6 @@ export class Footer {
         $el.find(TITLE_SELECTOR).text(this._title);
         $el.find('h3').text(this._lead);
         $el.find('p').text(this._paragraph);
-        console.log($el.find('.button-wrap'));
         $el.find('.button-wrap').empty();
         this._$parent.append($el);
     }
