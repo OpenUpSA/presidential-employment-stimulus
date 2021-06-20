@@ -53,12 +53,12 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.35,
+                  "value": 0.28,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.65,
+                  "value": 0.72,
                   "value_target": null
                 }
               ],
@@ -71,14 +71,14 @@
               "values": [
                 {
                   "key": "18-35",
-                  "value": 0.99,
+                  "value": 1.0,
                   "value_target": null
                 }
               ],
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -152,12 +152,12 @@
                 },
                 {
                   "key": "202101",
-                  "value": 155341,
+                  "value": 175221,
                   "value_target": null
                 },
                 {
                   "key": "202102",
-                  "value": 187654,
+                  "value": 196034,
                   "value_target": null
                 },
                 {
@@ -209,7 +209,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -283,12 +283,12 @@
                 },
                 {
                   "key": "202101",
-                  "value": 128894,
+                  "value": 109014,
                   "value_target": null
                 },
                 {
                   "key": "202102",
-                  "value": 130344,
+                  "value": 121964,
                   "value_target": null
                 },
                 {

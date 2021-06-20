@@ -6,7 +6,7 @@
   "job_opportunities": {
     "count_time": "Employed over time",
     "count_gender": "Opportunities by Gender",
-    "count_province": "Opportunities by Province",
+    "count_province": "Opportunities in post by Province",
     "count_age": "Opportunities going to 18-35 year olds"
   },
   "jobs_retain": {

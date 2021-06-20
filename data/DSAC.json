@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 39274,
+          "value": 39281,
           "dimensions": [],
           "value_target": 34070,
           "implementation_detail": null
@@ -73,7 +73,7 @@
                 },
                 {
                   "key": "202102",
-                  "value": 633,
+                  "value": 613,
                   "value_target": null
                 },
                 {
@@ -91,7 +91,7 @@
         {
           "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
           "metric_type": "count",
-          "value": 151,
+          "value": 156,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -125,7 +125,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 151,
+                  "value": 156,
                   "value_target": null
                 }
               ],
@@ -150,7 +150,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -163,7 +163,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -271,7 +271,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -330,7 +330,7 @@
         {
           "name": "Audit of national museums - South African Heritage Resources Agency",
           "metric_type": "count",
-          "value": 253,
+          "value": 255,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -364,7 +364,7 @@
                 },
                 {
                   "key": "202103",
-                  "value": 253,
+                  "value": 255,
                   "value_target": null
                 }
               ],
@@ -389,7 +389,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -402,7 +402,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -592,7 +592,7 @@
                 },
                 {
                   "key": "202102",
-                  "value": 2445,
+                  "value": 2435,
                   "value_target": null
                 },
                 {
