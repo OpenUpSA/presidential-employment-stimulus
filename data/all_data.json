@@ -1,9 +1,9 @@
 {
   "overview": {
-    "month": "202102",
+    "month": "202103",
     "name": "Programme overview",
     "lead": "Building a society that works",
-    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.This platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
+    "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
     "footer_header": "Disclaimer",
     "footer_paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "sections": [
@@ -301,7 +301,7 @@
   },
   "departments": [
     {
-      "month": "202102",
+      "month": "202103",
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
@@ -1452,7 +1452,11 @@
                 }
               ],
               "value_target": 200000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Education Assistants",
+                "status": "OnTrack",
+                "detail": "The department has placed close to 200 000 education assistants in schools across the country. These young people provide crucial support to teachers in the classroom and perform administrative tasks. Although due to conclude at the end of March, the value added by the assistants prompted all nine provincial departments to extend the education assistants contracts for another month to align with the end of the school term in April. The department is using the time to compile a comprehensive review of the programme and draw key lessons for future iterations."
+              }
             },
             {
               "name": "General Assistants",
@@ -1583,7 +1587,11 @@
                 }
               ],
               "value_target": 100000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "General Assistants",
+                "status": "OnTrack",
+                "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supporting maintenance and security at schools and other basic needs. Similar to the education assistants, provincial departments too a decision to extend contracts until end of April."
+              }
             }
           ],
           "value": null,
@@ -1691,7 +1699,11 @@
                 }
               ],
               "value_target": 44933,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Retain vulnerable teaching posts",
+                "status": "MinorChallenges",
+                "detail": "This programme is protecting vulnerable teacher posts across the schooling system. Although initially targeted at quintile 4 and 5 schools, the support was targeted to all other schools in recognition of support required in poorer schools as well. This funding support has been undersubscribed and so where possible, provinces have transferred the funds to support the extension of school assistants by another month."
+              }
             }
           ],
           "value": null,
@@ -1749,7 +1761,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 25000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Mainstream labour intensive construction methods",
+                "status": "OnTrack",
+                "detail": "The Municipal Infrastructure Support Agency (MISA)'s  appointed a service provider has begun work to deliver the capacity development in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery."
+              }
             }
           ],
           "value": null,
@@ -1846,7 +1862,11 @@
                 }
               ],
               "value_target": 12690,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Cleaning and greening - war on waste with municipalities",
+                "status": "MinorChallenges",
+                "detail": "The programme plans cleaning activities and indigenous tree planting. After procurement delays, appointment of service providers is underway, with recruitment processes in place in all municipalities."
+              }
             },
             {
               "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
@@ -1893,7 +1913,11 @@
                 }
               ],
               "value_target": 1750,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+                "status": "MinorChallenges",
+                "detail": "Project not started."
+              }
             },
             {
               "name": "Oceans and Coast: Source to Sea",
@@ -1940,7 +1964,11 @@
                 }
               ],
               "value_target": 1719,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Oceans and Coast: Source to Sea",
+                "status": "MinorChallenges",
+                "detail": "In 16 districts in the country, river embankments and waterways will be cleaned to prevent litter entering the ocean."
+              }
             },
             {
               "name": "Groen Sebenzas, weather service - graduate programme",
@@ -1987,7 +2015,11 @@
                 }
               ],
               "value_target": 524,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Groen Sebenzas, weather service - graduate programme",
+                "status": "OnTrack",
+                "detail": "Graduate interns are being mentored in natural resource project management and some are doing fieldwork towards further qualifications in restoration ecology."
+              }
             },
             {
               "name": "SANBI Infrastructure maintenance, biosecurity",
@@ -2034,7 +2066,11 @@
                 }
               ],
               "value_target": 1038,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "SANBI Infrastructure maintenance, biosecurity",
+                "status": "OnTrack",
+                "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens is being maintained."
+              }
             },
             {
               "name": "iSimangaliso: conservation management infrastructure",
@@ -2081,7 +2117,11 @@
                 }
               ],
               "value_target": 1164,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "iSimangaliso: conservation management infrastructure",
+                "status": "CriticalChallenges",
+                "detail": "7 facilities in iSimangaliso have been maintained and upgraded, 36 kms of fencing has been maintained, with roads maintenance undertaken also."
+              }
             },
             {
               "name": "SANPARKS upgrade and green energy",
@@ -2128,7 +2168,11 @@
                 }
               ],
               "value_target": 4246,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "SANPARKS upgrade and green energy",
+                "status": "CriticalChallenges",
+                "detail": "Solar water heaters have been installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs have been supported to undertake the work, which includes 100 small renovations."
+              }
             },
             {
               "name": "Catchment management and strategic water sources",
@@ -2175,7 +2219,11 @@
                 }
               ],
               "value_target": 15012,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Catchment management and strategic water sources",
+                "status": "CriticalChallenges",
+                "detail": "The programme is focused on the rehabilitation of catchment areas and strategic water resources in protected areas. This involves clearing alien invasive species (which reduce water availability and biodiversity) and limiting bush encroachment (which can reduce grazing capacity by up to 80%). The PES enabled clearing of alien invasive species from 29,414 hectares with follow up cleaning on 141 123 hectares."
+              }
             },
             {
               "name": "Bio-diversity economy",
@@ -2222,7 +2270,11 @@
                 }
               ],
               "value_target": 7524,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Bio-diversity economy",
+                "status": "CriticalChallenges",
+                "detail": "Support to 19 traditional authorities on biodiversity, conservation and land rehabilitation is envisaged but has faced implementation challenges."
+              }
             },
             {
               "name": "Climate Adaptation: Forestry support",
@@ -2269,7 +2321,11 @@
                 }
               ],
               "value_target": 4644,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Climate Adaptation: Forestry support",
+                "status": "OnTrack",
+                "detail": "This programme is focussed on improving the sustainability of  plantations and indigenous forests and the development of forestry enterprises and also on support to disaster risk reduction in relation to veld and forest fires."
+              }
             }
           ],
           "value": null,
@@ -3333,7 +3389,11 @@
                 }
               ],
               "value_target": 1470,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
+                "status": "MinorChallenges",
+                "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached. The programme concluded at the end of March with 613 jobs created in the sector."
+              }
             },
             {
               "name": "Banking with art, connecting Lives - National Museum Bloemfontein",
@@ -3464,7 +3524,11 @@
                 }
               ],
               "value_target": 900,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
+                "status": "OnTrack",
+                "detail": "The programme is concluding at the end of March and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery. "
+              }
             },
             {
               "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
@@ -3472,7 +3536,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 500,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
+                "status": "CriticalChallenges",
+                "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Although delayed, implementation is now in process."
+              }
             },
             {
               "name": "Public Art, towards a people's culture - Community Arts Centres",
@@ -3572,7 +3640,11 @@
                 }
               ],
               "value_target": 900,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
+                "status": "CriticalChallenges",
+                "detail": "Several provinces have begun implementation following significant delays in signing the Memorandum of Agreement with implementing agents. The programme is implementing strategies to fast track implementation to meet outstanding milestones  before conclusion in March."
+              }
             },
             {
               "name": "Audit of national museums - South African Heritage Resources Agency",
@@ -3703,7 +3775,11 @@
                 }
               ],
               "value_target": 260,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Audit of national museums - South African Heritage Resources Agency",
+                "status": "OnTrack",
+                "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and approximately 1600 memorials, monuments and statues have been recorded across the country. The programme has extended participants for an additional month until end of April to complete fieldwork. "
+              }
             },
             {
               "name": "Digitisation of records - National Library of South Africa",
@@ -3750,7 +3826,11 @@
                 }
               ],
               "value_target": 163,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Digitisation of records - National Library of South Africa",
+                "status": "CriticalChallenges",
+                "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme will be extending the contracts of appointed participants until June to allow for completion of the work."
+              }
             },
             {
               "name": "Digitisation of records -National Archives",
@@ -3797,7 +3877,11 @@
                 }
               ],
               "value_target": 163,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Digitisation of records -National Archives",
+                "status": "CriticalChallenges",
+                "detail": "The programme will be extended until June to account for significant delays in procurement of equipment and finalisation of the MoA. It has been crucial in enabling the NARSSA to build capacity on digitisation and seeks to digitise one million records."
+              }
             }
           ],
           "value": null,
@@ -3936,7 +4020,11 @@
                 }
               ],
               "value_target": 5000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
+                "status": "CriticalChallenges",
+                "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
+              }
             },
             {
               "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
@@ -4067,7 +4155,11 @@
                 }
               ],
               "value_target": 5000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
+                "status": "OnTrack",
+                "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners. "
+              }
             },
             {
               "name": "Job retention in sport sector - Sport Trust",
@@ -4114,7 +4206,11 @@
                 }
               ],
               "value_target": 4000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Job retention in sport sector - Sport Trust",
+                "status": "MinorChallenges",
+                "detail": "The programme was oversubscribed and 65 organisations are received support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies. The Sports Trust has requested an extension in order to ensure that all the beneficiaries receive the funds approved."
+              }
             }
           ],
           "value": null,
@@ -4253,7 +4349,11 @@
                 }
               ],
               "value_target": 7857,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Support to art and culture practitioners - National Arts Council",
+                "status": "CriticalChallenges",
+                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. The re-allocated funds are still being disbursed and will continue to be disbursed until the last beneficiary receives their funding. The NAC has instituted an investigation into the PESP management process, and that process is underway and will cover the entire scope of the project."
+              }
             },
             {
               "name": "Support to art and culture practitioners - National Film and Video Foundation",
@@ -4384,7 +4484,11 @@
                 }
               ],
               "value_target": 7857,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
+                "status": "OnTrack",
+                "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received with an excess of 48\u00a0000 job proposals. Four streams were adjudicated by Panel of experienced industry specialists, and each stream Chaired by members of the NFVF Council. Panels submitted their recommendations to the NFVF council which made the final approval creating in excess of 8000 jobs. "
+              }
             }
           ],
           "value": null,
@@ -4442,7 +4546,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 500,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Registration support officers",
+                "status": "CriticalChallenges",
+                "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented."
+              }
             }
           ],
           "value": null,
@@ -4581,7 +4689,11 @@
                 }
               ],
               "value_target": 1809,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Retention of social workers",
+                "status": "OnTrack",
+                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have provided essential social services during the pandemic. The programme concludes at the end of March and some provinces have managed to absorb social workers into permanent positions."
+              }
             }
           ],
           "value": null,
@@ -4597,7 +4709,11 @@
               "value": 10400,
               "dimensions": [],
               "value_target": 108833,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "ECD income and compliance support",
+                "status": "CriticalChallenges",
+                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) has been verifying and approving applicants since the end of February. Provincial departments were required to pause payments to beneficiaries at the end March as relief funds were only available for the 2020/21 financial year. Due to delays in the approval of applications and transfer of funds to beneficiaries, only 10% had received payments by the end of March. All provinces have submitted applications to National Treasury to rollover the funds and payments to beneficiaries will resume once applications are approved and provinces have received provisional allocation letters."
+              }
             }
           ],
           "value": null,
@@ -4655,7 +4771,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 1000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "HSRC - Health Promotion Agents",
+                "status": "MinorChallenges",
+                "detail": "Following delays, the programme has appointed 42 candidates to begin 1 April. The programme participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic. A dedicated project website has also been developed."
+              }
             },
             {
               "name": "DUCT - Enviro-champs",
@@ -4786,7 +4906,11 @@
                 }
               ],
               "value_target": 350,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "DUCT - Enviro-champs",
+                "status": "OnTrack",
+                "detail": "The programme has exceeded the planned numbers due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates is focussing on making sense of the river health data, and gathering stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water. "
+              }
             },
             {
               "name": "CSIR - Experiential Training Programme",
@@ -4917,7 +5041,11 @@
                 }
               ],
               "value_target": 150,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "CSIR - Experiential Training Programme",
+                "status": "MinorChallenges",
+                "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process however,  the remaining students is currently being placed and the programme is optimistic that the placement target of 189 students will be met. "
+              }
             },
             {
               "name": "WRC - Water Graduate Employment Programme",
@@ -5048,7 +5176,11 @@
                 }
               ],
               "value_target": 400,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "WRC - Water Graduate Employment Programme",
+                "status": "MinorChallenges",
+                "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruitment and these graduates are placed with various hosts. Phase 2 graduates have been inducted and will also commence their workplace experience soon."
+              }
             }
           ],
           "value": null,
@@ -5224,7 +5356,11 @@
                 }
               ],
               "value_target": 8000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Services sector development incentives",
+                "status": "OnTrack",
+                "detail": "The department has exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. Most the employed participants are youth and they are engaged in non-complex jobs and complex jobs with the global business services sector."
+              }
             }
           ],
           "value": null,
@@ -5238,7 +5374,7 @@
       "name": "Health",
       "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
-      "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that  health workers play to enhance the resilience of the national health care system has been foregrounded. Community health workers have been on the frontline of active case-finding through screening and contact tracing. In some instances, these workers have been called upon to deliver these services without adequate support and supervision.  Similarly, nursing staff without public facilities have provided much needed care services in the most vulnerable communities. The stimulus support to the sector seeks to augment this capacity and address gaps through the recruitment of additional community health workers and outreach team leaders for supervision. Moreover, additional enrolled and auxillary nurses are targeted to increase capacity in public health facilities.",
+      "paragraph": "As the world responds to the COVID-19 pandemic, the critical role that  health workers play to enhance the resilience of the national health care system has been foregrounded. Community health workers have been on the frontline of active case-finding through screening and contact tracing. In some instances, these workers have been called upon to deliver these services without adequate support and supervision.  Similarly, nursing staff without public facilities have provided much needed care services in the most vulnerable communities. The stimulus support to the sector seeks to augment this capacity and address gaps through the recruitment of additional community health workers and outreach team leaders for supervision. Moreover, additional enrolled and auxiliary nurses are targeted to increase capacity in public health facilities.",
       "target_lines": [
         39,
         43
@@ -5282,7 +5418,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 2000,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Community Health Workers",
+                "status": "CriticalChallenges",
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+              }
             },
             {
               "name": "Outreach Team Leaders",
@@ -5290,7 +5430,11 @@
               "value": 0,
               "dimensions": [],
               "value_target": 1250,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Outreach Team Leaders",
+                "status": "CriticalChallenges",
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+              }
             },
             {
               "name": "Enrolled nurses",
@@ -5390,7 +5534,11 @@
                 }
               ],
               "value_target": 1045,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Enrolled nurses",
+                "status": "OnTrack",
+                "detail": "The programme concludes at the end of March and has exceeded its target for job creation for nurses. The appointed nurses have provided a range of primary health care services in public facilities. Several provinces intend to continue fund further recruitments to support the roll-out of the COVID-19 vaccination programme. "
+              }
             },
             {
               "name": "Auxiliary nurses",
@@ -5490,7 +5638,11 @@
                 }
               ],
               "value_target": 1236,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Auxiliary nurses",
+                "status": "OnTrack",
+                "detail": "The department concludes this programme at the end of March with an exceeded target for appointed auxiliary nurses. These nurses have supporting various services in public health facilities as part of the response to COVID-19."
+              }
             }
           ],
           "value": null,
@@ -5640,7 +5792,11 @@
                 }
               ],
               "value_target": 37079,
-              "implementation_detail": null
+              "implementation_detail": {
+                "programme_name": "Rural roads maintenance",
+                "status": "OnTrack",
+                "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects are in implementation and appointed participants are contributing to the maintenance of rural roads. To date, 4334 km of roads have maintained. "
+              }
             }
           ],
           "value": null,
