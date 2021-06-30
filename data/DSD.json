@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 1070,
+          "value": 16022,
           "dimensions": [],
           "value_target": 111142,
           "implementation_detail": null
@@ -60,7 +60,7 @@
         {
           "name": "Retention of social workers",
           "metric_type": "count",
-          "value": 1070,
+          "value": 1076,
           "dimensions": [
             {
               "name": "Jobs saved by gender",
@@ -122,6 +122,11 @@
                   "key": "202102",
                   "value": 1070,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 1076,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -143,12 +148,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 312,
+                  "value": 316,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 232,
+                  "value": 233,
                   "value_target": null
                 },
                 {
@@ -168,7 +173,7 @@
                 },
                 {
                   "key": "NC",
-                  "value": 5,
+                  "value": 6,
                   "value_target": null
                 },
                 {
@@ -194,7 +199,7 @@
         {
           "name": "ECD income and compliance support",
           "metric_type": "count",
-          "value": 0,
+          "value": 14946,
           "dimensions": [],
           "value_target": 108833,
           "implementation_detail": null

@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 4635,
+          "value": 10245,
           "dimensions": [],
           "value_target": 37079,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Rural roads maintenance",
           "metric_type": "count",
-          "value": 4635,
+          "value": 10245,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -75,28 +75,33 @@
                   "key": "202102",
                   "value": 4635,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 10245,
+                  "value_target": null
                 }
               ],
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 129,
+                  "value": 1449,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 800,
+                  "value": 833,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 0,
+                  "value": 430,
                   "value_target": null
                 },
                 {
@@ -106,27 +111,27 @@
                 },
                 {
                   "key": "LP",
-                  "value": 450,
+                  "value": 630,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 211,
+                  "value": 265,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 2460,
+                  "value": 5480,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 509,
+                  "value": 897,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 76,
+                  "value": 261,
                   "value_target": null
                 }
               ],

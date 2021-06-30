@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 1869,
+          "value": 1881,
           "dimensions": [],
           "value_target": 1560,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Water and Energy Efficiency",
           "metric_type": "count",
-          "value": 171,
+          "value": 176,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -74,6 +74,11 @@
                 {
                   "key": "202102",
                   "value": 171,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 176,
                   "value_target": null
                 }
               ],
@@ -111,13 +116,13 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 0,
+                  "value": 3,
                   "value_target": null
                 },
                 {
@@ -127,7 +132,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 171,
+                  "value": 173,
                   "value_target": null
                 },
                 {
@@ -170,7 +175,7 @@
         {
           "name": "Water and Sanitation Facilities Management",
           "metric_type": "count",
-          "value": 158,
+          "value": 161,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -200,6 +205,11 @@
                 {
                   "key": "202102",
                   "value": 158,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 161,
                   "value_target": null
                 }
               ],
@@ -237,18 +247,18 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 17,
+                  "value": 20,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 11,
+                  "value": 12,
                   "value_target": null
                 },
                 {
@@ -268,7 +278,7 @@
                 },
                 {
                   "key": "MP",
-                  "value": 44,
+                  "value": 45,
                   "value_target": null
                 },
                 {
@@ -283,7 +293,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 48,
+                  "value": 46,
                   "value_target": null
                 }
               ],
@@ -296,7 +306,7 @@
         {
           "name": "Welisizwe Rural Bridges Programme",
           "metric_type": "count",
-          "value": 511,
+          "value": 515,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -326,6 +336,11 @@
                 {
                   "key": "202102",
                   "value": 511,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 515,
                   "value_target": null
                 }
               ],
@@ -363,43 +378,43 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 161,
+                  "value": 165,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 101,
+                  "value": 102,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 51,
-                  "value_target": null
-                },
-                {
-                  "key": "KZN",
                   "value": 48,
                   "value_target": null
                 },
                 {
+                  "key": "KZN",
+                  "value": 47,
+                  "value_target": null
+                },
+                {
                   "key": "LP",
-                  "value": 95,
+                  "value": 99,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 17,
+                  "value": 16,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 19,
+                  "value": 18,
                   "value_target": null
                 },
                 {
@@ -409,7 +424,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 19,
+                  "value": 20,
                   "value_target": null
                 }
               ],
@@ -453,6 +468,11 @@
                   "key": "202102",
                   "value": 358,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 358,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -489,13 +509,13 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 50,
+                  "value": 47,
                   "value_target": null
                 },
                 {
@@ -505,7 +525,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 74,
+                  "value": 72,
                   "value_target": null
                 },
                 {
@@ -525,7 +545,7 @@
                 },
                 {
                   "key": "NW",
-                  "value": 15,
+                  "value": 16,
                   "value_target": null
                 },
                 {
@@ -579,6 +599,11 @@
                   "key": "202102",
                   "value": 109,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 109,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -615,7 +640,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -631,12 +656,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 45,
+                  "value": 44,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 8,
+                  "value": 9,
                   "value_target": null
                 },
                 {
@@ -705,6 +730,11 @@
                   "key": "202102",
                   "value": 136,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 136,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -741,13 +771,13 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 72,
+                  "value": 71,
                   "value_target": null
                 },
                 {
@@ -757,7 +787,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 41,
+                  "value": 43,
                   "value_target": null
                 },
                 {
@@ -787,7 +817,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 23,
+                  "value": 13,
                   "value_target": null
                 }
               ],
@@ -831,6 +861,11 @@
                   "key": "202102",
                   "value": 426,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 426,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -867,7 +902,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -883,7 +918,7 @@
                 },
                 {
                   "key": "GP",
-                  "value": 54,
+                  "value": 55,
                   "value_target": null
                 },
                 {
@@ -893,7 +928,7 @@
                 },
                 {
                   "key": "LP",
-                  "value": 363,
+                  "value": 359,
                   "value_target": null
                 },
                 {

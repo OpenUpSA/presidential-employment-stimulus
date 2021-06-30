@@ -21,7 +21,7 @@
     "DoT": "Transport",
     "DPWI": "Public Works and Infrastructure",
     "DEFF": "Environment, Forestry and Fisheries",
-    "DCOGTA": "Co-operative government"
+    "DCOGTA": "Co-operative governance"
   },
   "time": {
     "202010": "Oct '20",
@@ -29,6 +29,7 @@
     "202012": "Dec '20",
     "202101": "Jan '21",
     "202102": "Feb '21",
-    "202103": "Mar '21"
+    "202103": "Mar '21",
+    "202104": "Apr '21"
   }
 }

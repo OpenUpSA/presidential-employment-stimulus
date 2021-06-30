@@ -2,64 +2,6 @@
 
 This repo provides a webpage that is embedded in [stateofthenation.gov.za](https://www.stateofthenation.gov.za/). This webpage is published at [pres-employment.openup.org.za](https://pres-employment.openup.org.za). An embedded preview is available at [sona-shell.netlify.app](https://sona-shell.netlify.app).
 
-## TODO
-
-- [ ] Make JSON interface more generic (see below) (later)
-- [x] Import webflow export once Matt is done
-- [x] Format number over 1 million using long (x billion) and short (x b)
-- [ ] Time line chart
-- [ ] Make province etc. more general = 'bar' {'key', 'value'}
-- [ ] Must e.g. "Dec '20 - Jan '21" in tab header?
-- [ ] More direct selectors
-- [ ] Metric target selector `span` instead of writing 'TARGET {}'
-- [ ] Use webflow event handling for tabs and tooltips?
-
-### Make JSON interface more generic:
-
-Instead of:
-
-```json
-"metrics": [
-  {
-    "name": "Social Development",
-    "metric_type": "count",
-    "value": 0,
-    "time": null,
-    "gender": null,
-    "age": null,
-    "province": null,
-    "value_target": 108833
-  }
-]
-```
-
-Do something like:
-
-```json
-"metrics": [
-  {
-    "name": "Social Development",
-    "metric_type": "count",
-    "value": 0,
-    "value_target": 108833,
-    "dimensions": [
-      {
-        "type": "time"
-      },
-      {
-        "type": "split"
-      },
-      {
-        "type": "percentage"
-      },
-      {
-        "type": "bars"
-      }
-    ]
-  }
-]
-```
-
 
 ## Development
 
@@ -79,6 +21,14 @@ npm run webflow-import
 
 ## Deployment
 
-Commits to `main` are deployed to [presidency-employment-stimulus.netlify.app](https://presidency-employment-stimulus.netlify.app) by [Netlify](https://app.netlify.com/sites/presidency-employment-stimulus).
+Commits to `main` are deployed to [presidency-employment-stimulus.netlify.app](https://presidency-employment-stimulus.netlify.app) by [Netlify](https://app.netlify.com/sites/presidency-employment-stimulus). The site [pres-employment.openup.org.za](http://pres-employment.openup.org.za) points at this site.
 
-Once DNS records have been updated, [pres-employment.openup.org.za](http://pres-employment.openup.org.za) will point to this deployment.
+## Updating data
+
+Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. The notebook uses `pandas` (and `numpy`). A cell near the top of the notebook refers to the files that are processed. As new files are released they are downloaded from Google Drive and put in the `notebooks` folder, the cell with input data names is updated and the whole notebook is re-run. This updates the `data/all_data.json` file. When the update is done, and everything is commited to git and pushed it updates the website.
+
+## Adding months
+
+The list of valid months and corresponding columns in the Trends sheet is in `python-src/presidential_employment.py` lines 202-206.
+The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
+the `data/lookups.json` should be updated.

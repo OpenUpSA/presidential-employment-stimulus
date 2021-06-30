@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 35140,
+          "value": 39281,
           "dimensions": [],
           "value_target": 34070,
           "implementation_detail": null
@@ -44,7 +44,7 @@
         {
           "name": "Covid-19 Return-To-Play - National Sport Federations",
           "metric_type": "count",
-          "value": 633,
+          "value": 613,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -73,7 +73,12 @@
                 },
                 {
                   "key": "202102",
-                  "value": 633,
+                  "value": 613,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 613,
                   "value_target": null
                 }
               ],
@@ -117,6 +122,11 @@
                   "key": "202102",
                   "value": 156,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 156,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -140,7 +150,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -153,7 +163,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -169,22 +179,22 @@
                 },
                 {
                   "key": "GP",
-                  "value": 24,
+                  "value": 23,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 20,
+                  "value": 19,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 11,
+                  "value": 10,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 6,
+                  "value": 5,
                   "value_target": null
                 },
                 {
@@ -194,7 +204,7 @@
                 },
                 {
                   "key": "NC",
-                  "value": 11,
+                  "value": 10,
                   "value_target": null
                 },
                 {
@@ -220,7 +230,7 @@
         {
           "name": "Public Art, towards a people's culture - Community Arts Centres",
           "metric_type": "count",
-          "value": 57,
+          "value": 147,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -251,12 +261,17 @@
                   "key": "202102",
                   "value": 57,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 147,
+                  "value_target": null
                 }
               ],
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
@@ -267,7 +282,7 @@
                 },
                 {
                   "key": "FS",
-                  "value": 0,
+                  "value": 100,
                   "value_target": null
                 },
                 {
@@ -302,7 +317,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 27,
+                  "value": 17,
                   "value_target": null
                 }
               ],
@@ -346,6 +361,11 @@
                   "key": "202102",
                   "value": 255,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 255,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -369,7 +389,7 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
@@ -382,13 +402,13 @@
               "data_missing": false
             },
             {
-              "name": "Opportunities by Province",
+              "name": "Opportunities in post by Province",
               "viz": "bar",
               "lookup": "province",
               "values": [
                 {
                   "key": "EC",
-                  "value": 27,
+                  "value": 25,
                   "value_target": null
                 },
                 {
@@ -398,12 +418,12 @@
                 },
                 {
                   "key": "GP",
-                  "value": 24,
+                  "value": 23,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 27,
+                  "value": 26,
                   "value_target": null
                 },
                 {
@@ -413,12 +433,12 @@
                 },
                 {
                   "key": "MP",
-                  "value": 22,
+                  "value": 27,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 26,
+                  "value": 25,
                   "value_target": null
                 },
                 {
@@ -428,7 +448,7 @@
                 },
                 {
                   "key": "WC",
-                  "value": 57,
+                  "value": 55,
                   "value_target": null
                 }
               ],
@@ -470,6 +490,11 @@
                 },
                 {
                   "key": "202102",
+                  "value": 144,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
                   "value": 144,
                   "value_target": null
                 }
@@ -514,6 +539,11 @@
                   "key": "202102",
                   "value": 146,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 146,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -533,7 +563,7 @@
         {
           "name": "Job retention in cultural and creative institutions - National Arts Council",
           "metric_type": "count",
-          "value": 2445,
+          "value": 2435,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -562,7 +592,12 @@
                 },
                 {
                   "key": "202102",
-                  "value": 2445,
+                  "value": 2435,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 2435,
                   "value_target": null
                 }
               ],
@@ -575,25 +610,25 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.56,
+                  "value": 0.575,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.54,
+                  "value": 0.425,
                   "value_target": null
                 }
               ],
               "data_missing": false
             },
             {
-              "name": "Jobs saved by province",
+              "name": "Jobs saved going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.44,
+                  "value": 0.456,
                   "value_target": null
                 }
               ],
@@ -606,47 +641,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 115,
+                  "value": 119,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 198,
+                  "value": 184,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 787,
+                  "value": 769,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 258,
+                  "value": 262,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 100,
+                  "value": 106,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 71,
+                  "value": 70,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 99,
+                  "value": 103,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 39,
+                  "value": 45,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 778,
+                  "value": 777,
                   "value_target": null
                 }
               ],
@@ -690,6 +725,11 @@
                   "key": "202102",
                   "value": 675,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 675,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -707,6 +747,19 @@
                 {
                   "key": "Female",
                   "value": 0.333,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
+              "name": "Jobs saved going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "Percentage (%) aged 18 - 35 years old",
+                  "value": 0.135,
                   "value_target": null
                 }
               ],
@@ -803,6 +856,11 @@
                   "key": "202102",
                   "value": 5090,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 5090,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -822,7 +880,7 @@
         {
           "name": "Support to art and culture practitioners - National Arts Council",
           "metric_type": "count",
-          "value": 17237,
+          "value": 21318,
           "dimensions": [
             {
               "name": "Employed over time",
@@ -853,6 +911,11 @@
                   "key": "202102",
                   "value": 17237,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 21318,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -864,25 +927,25 @@
               "values": [
                 {
                   "key": "Male",
-                  "value": 0.61,
+                  "value": 0.66,
                   "value_target": null
                 },
                 {
                   "key": "Female",
-                  "value": 0.39,
+                  "value": 0.34,
                   "value_target": null
                 }
               ],
               "data_missing": false
             },
             {
-              "name": "Livelihoods supported by province",
+              "name": "Livelihoods supported going to 18-35 year olds",
               "viz": "percentile",
               "lookup": "age",
               "values": [
                 {
                   "key": "Percentage (%) aged 18 - 35 years old",
-                  "value": 0.43,
+                  "value": 0.42,
                   "value_target": null
                 }
               ],
@@ -895,47 +958,47 @@
               "values": [
                 {
                   "key": "EC",
-                  "value": 1703,
+                  "value": 2239,
                   "value_target": null
                 },
                 {
                   "key": "FS",
-                  "value": 916,
+                  "value": 1271,
                   "value_target": null
                 },
                 {
                   "key": "GP",
-                  "value": 6425,
+                  "value": 8011,
                   "value_target": null
                 },
                 {
                   "key": "KZN",
-                  "value": 1750,
+                  "value": 2137,
                   "value_target": null
                 },
                 {
                   "key": "LP",
-                  "value": 1947,
+                  "value": 2278,
                   "value_target": null
                 },
                 {
                   "key": "MP",
-                  "value": 734,
+                  "value": 965,
                   "value_target": null
                 },
                 {
                   "key": "NW",
-                  "value": 1813,
+                  "value": 1685,
                   "value_target": null
                 },
                 {
                   "key": "NC",
-                  "value": 763,
+                  "value": 764,
                   "value_target": null
                 },
                 {
                   "key": "WC",
-                  "value": 1186,
+                  "value": 1968,
                   "value_target": null
                 }
               ],
@@ -979,6 +1042,11 @@
                   "key": "202102",
                   "value": 8302,
                   "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 8302,
+                  "value_target": null
                 }
               ],
               "data_missing": false
@@ -996,6 +1064,19 @@
                 {
                   "key": "Female",
                   "value": 0.49,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            },
+            {
+              "name": "Livelihoods supported going to 18-35 year olds",
+              "viz": "percentile",
+              "lookup": "age",
+              "values": [
+                {
+                  "key": "Percentage (%) aged 18 - 35 years old",
+                  "value": 0.093,
                   "value_target": null
                 }
               ],

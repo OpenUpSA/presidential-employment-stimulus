@@ -3,6 +3,7 @@ import { d3 } from './d3';
 import { Tabs } from './tabs';
 import { Tab } from './tab';
 import { Header } from './header';
+import { Footer } from "./footer";
 import { OverviewVizBars } from './overview-viz-bars';
 import { Section } from './section';
 import { SubSection } from './sub-section';
@@ -162,7 +163,13 @@ Promise.all([
         );
       });
     }
+
+    if (typeof tabData.footer_header !== 'undefined' && tabData.footer_header) {
+      new Footer(tab.$container, '', tabData.footer_header, tabData.footer_paragraph);
+    }
   });
+
+
   tabs.select(0);
   $(TEMPORARY_HIDDEN_SELECTOR).show();
 });
