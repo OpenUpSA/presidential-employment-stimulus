@@ -1,0 +1,520 @@
+{
+  "month": 202102,
+  "name": "Department of Forestry, Fisheries and Environment",
+  "sheet_name": "DFFE",
+  "lead": "Investing in the environment we live in",
+  "paragraph": "The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet.",
+  "target_lines": [
+    14,
+    24
+  ],
+  "achievement_lines": [
+    18,
+    28
+  ],
+  "sections": [
+    {
+      "name": "Programme targets for this department",
+      "section_type": "targets",
+      "metrics": [
+        {
+          "name": "Budget",
+          "metric_type": "currency",
+          "value": -1,
+          "dimensions": [],
+          "value_target": 1983000000,
+          "implementation_detail": null
+        },
+        {
+          "name": "Beneficiaries",
+          "metric_type": "count",
+          "value": 23943,
+          "dimensions": [],
+          "value_target": 50311,
+          "implementation_detail": null
+        }
+      ],
+      "value": null,
+      "value_target": null
+    },
+    {
+      "name": "Jobs created",
+      "section_type": "job_opportunities",
+      "metrics": [
+        {
+          "name": "Cleaning and greening - war on waste with municipalities",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 0,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 12690,
+          "implementation_detail": null
+        },
+        {
+          "name": "Department of Fisheries: War on Waste at Harbours and landing sites",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 0,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 1750,
+          "implementation_detail": null
+        },
+        {
+          "name": "Oceans and Coast: Source to Sea",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 0,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 1719,
+          "implementation_detail": null
+        },
+        {
+          "name": "Groen Sebenzas, weather service - graduate programme",
+          "metric_type": "count",
+          "value": 252,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 39,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 39,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 236,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 245,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 252,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 524,
+          "implementation_detail": null
+        },
+        {
+          "name": "SANBI Infrastructure maintenance, biosecurity",
+          "metric_type": "count",
+          "value": 868,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 385,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 385,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 814,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 843,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 868,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 1038,
+          "implementation_detail": null
+        },
+        {
+          "name": "iSimangaliso: conservation management infrastructure",
+          "metric_type": "count",
+          "value": 102,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 345,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 345,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 96,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 99,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 102,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 1164,
+          "implementation_detail": null
+        },
+        {
+          "name": "SANPARKS upgrade and green energy",
+          "metric_type": "count",
+          "value": 4555,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 211,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 211,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 4272,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 4424,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 4555,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 4246,
+          "implementation_detail": null
+        },
+        {
+          "name": "Catchment management and strategic water sources",
+          "metric_type": "count",
+          "value": 11373,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 4614,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 4866,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 10668,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 11047,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 11373,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 15012,
+          "implementation_detail": null
+        },
+        {
+          "name": "Bio-diversity economy",
+          "metric_type": "count",
+          "value": 0,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 0,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 7524,
+          "implementation_detail": null
+        },
+        {
+          "name": "Climate Adaptation: Forestry support",
+          "metric_type": "count",
+          "value": 6793,
+          "dimensions": [
+            {
+              "name": "Employed over time",
+              "viz": "line",
+              "lookup": "time",
+              "values": [
+                {
+                  "key": "202010",
+                  "value": 0,
+                  "value_target": null
+                },
+                {
+                  "key": "202011",
+                  "value": 1220,
+                  "value_target": null
+                },
+                {
+                  "key": "202012",
+                  "value": 1220,
+                  "value_target": null
+                },
+                {
+                  "key": "202101",
+                  "value": 6372,
+                  "value_target": null
+                },
+                {
+                  "key": "202102",
+                  "value": 6598,
+                  "value_target": null
+                },
+                {
+                  "key": "202103",
+                  "value": 6793,
+                  "value_target": null
+                }
+              ],
+              "data_missing": false
+            }
+          ],
+          "value_target": 4644,
+          "implementation_detail": null
+        }
+      ],
+      "value": null,
+      "value_target": null
+    }
+  ],
+  "implementation_details": []
+}

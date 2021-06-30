@@ -28,7 +28,7 @@
         {
           "name": "Beneficiaries",
           "metric_type": "count",
-          "value": 11476,
+          "value": 16022,
           "dimensions": [],
           "value_target": 111142,
           "implementation_detail": null
@@ -199,7 +199,7 @@
         {
           "name": "ECD income and compliance support",
           "metric_type": "count",
-          "value": 10400,
+          "value": 14946,
           "dimensions": [],
           "value_target": 108833,
           "implementation_detail": null
