@@ -82,70 +82,72 @@ Promise.all([
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text);
     const sectionDataArr = tabData.sections || [];
     sectionDataArr.forEach((sectionData) => {
-      const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
-      const sectionType = sectionData.section_type;
-      const subSectionDataArr = organizeByZero(sectionData.metrics || []);
-      subSectionDataArr.forEach((subSectionData) => {
-        const subSection = new SubSection(section.$container);
-        new Metric(
-          subSection.$container,
-          subSectionData.name,
-          sectionType,
-          subSectionData.metric_type,
-          subSectionData.value,
-          subSectionData.value_target, tabData.sheet_name
-        );
-        const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
-        const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
-        dimensions.forEach((dimension) => {
-          if (dimension.data_missing) {
-            new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
-          } else {
-            if (dimension.viz === 'line') {
-              new VizHeading(subSection.$container, dimension.name);
-              new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
+      if (sectionData.metrics.length !== 0) {
+        const section = new Section(tab.$container, sectionData.name, '', '', sectionData.sectionType);
+        const sectionType = sectionData.section_type;
+        const subSectionDataArr = organizeByZero(sectionData.metrics || []);
+        subSectionDataArr.forEach((subSectionData) => {
+          const subSection = new SubSection(section.$container);
+          new Metric(
+              subSection.$container,
+              subSectionData.name,
+              sectionType,
+              subSectionData.metric_type,
+              subSectionData.value,
+              subSectionData.value_target, tabData.sheet_name
+          );
+          const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
+          const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+          dimensions.forEach((dimension) => {
+            if (dimension.data_missing) {
+              new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
+            } else {
+              if (dimension.viz === 'line') {
+                new VizHeading(subSection.$container, dimension.name);
+                new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
+              }
+              if (dimension.viz === 'two_value') {
+                new VizHeading(subSection.$container, dimension.name);
+                const valueOne = dimension.values[0];
+                const valueTwo = dimension.values[1];
+                new VizSplit(
+                    subSection.$container,
+                    'percentage',
+                    valueOne.key, valueOne.value,
+                    valueTwo.key, valueTwo.value,
+                );
+              }
+              if (dimension.viz === 'percentile' || dimension.viz === 'count') {
+                new VizHeading(subSection.$container, dimension.name);
+                const {value} = dimension.values[0];
+                new VizValue(
+                    subSection.$container,
+                    dimension.viz,
+                    value,
+                );
+              }
+              if (dimension.viz === 'bar') {
+                new VizHeading(subSection.$container, dimension.name);
+                new VizBars(
+                    subSection.$container,
+                    dimension.values,
+                    lookups[dimension.lookup],
+                );
+              }
             }
-            if (dimension.viz === 'two_value') {
-              new VizHeading(subSection.$container, dimension.name);
-              const valueOne = dimension.values[0];
-              const valueTwo = dimension.values[1];
-              new VizSplit(
-                  subSection.$container,
-                  'percentage',
-                  valueOne.key, valueOne.value,
-                  valueTwo.key, valueTwo.value,
-              );
-            }
-            if (dimension.viz === 'percentile' || dimension.viz === 'count') {
-              new VizHeading(subSection.$container, dimension.name);
-              const { value } = dimension.values[0];
-              new VizValue(
-                  subSection.$container,
-                  dimension.viz,
-                  value,
-              );
-            }
-            if (dimension.viz === 'bar') {
-              new VizHeading(subSection.$container, dimension.name);
-              new VizBars(
-                  subSection.$container,
-                  dimension.values,
-                  lookups[dimension.lookup],
-              );
-            }
+          });
+          if (subSectionData.implementation_detail) {
+            const implData = subSectionData.implementation_detail;
+            new ImplementationDetail(
+                subSection.$container,
+                implData.programme_name,
+                implData.status,
+                implData.detail,
+                false,
+            );
           }
         });
-        if (subSectionData.implementation_detail) {
-          const implData = subSectionData.implementation_detail;
-          new ImplementationDetail(
-            subSection.$container,
-            implData.programme_name,
-            implData.status,
-            implData.detail,
-              false,
-          );
-        }
-      });
+      }
     });
     if (typeof tabData.implementation_details !== 'undefined' && tabData.implementation_details.length > 0) {
       new Section(tab.$container, 'Implementation status reports', '', '', '');

@@ -18,6 +18,8 @@ VizTypeEnum = Enum('VizType', 'bar line two_value percentile count')
 
 LookupTypeEnum = Enum('LookupType', 'department province time age gender vets disabled')
 
+GenderEnum = Enum("Gender", "Male Female")
+
 provinces = [
     "Eastern Cape",
     "Free State",
@@ -43,8 +45,101 @@ province_to_abbrev = {
     "Eastern Cape": "EC",
 }
 
-GenderEnum = Enum("Gender", "Male Female")
+province_header_to_abbrev = {
+    "free_state": "FS",
+    "gauteng": "GP",
+    "kwazulu_natal": "KZN",
+    "limpopo": "LP",
+    "mpumalanga": "MP",
+    "north_west": "NW",
+    "northern_cape": "NC",
+    "western_cape": "WC",
+    "eastern_cape": "EC",
+}
 
+department_name_to_abbreviation = {
+ 'Basic Education': 'DBE',
+ 'Social Development': 'DSD',
+ 'Agriculture, Land Reform and Rural Development': 'DALRRD',
+ 'Forestry, Fisheries and Environment': 'DFFE',
+ 'Transport': 'DoT',
+ 'Sports, Arts and Culture': 'DSAC',
+ 'Cooperative Governance': 'DCOGTA',
+ 'Trade, Industry and Competition': 'DTIC',
+ 'Health': 'DoH',
+ 'Science and Innovation': 'DSI',
+ 'Public Works and Infrastructure': 'DPWI'
+}
+
+department_budget_targets = {
+ 'Basic Education': 7_000_000 * 1000,
+ 'Social Development': 7_000_000 * 1000,
+ 'Agriculture, Land Reform and Rural Development': 1_000_000_000,
+ 'Forestry, Fisheries and Environment': 1_983_000 * 1000,
+ 'Transport': 630_000_000,
+ 'Sports, Arts and Culture': 665_000_000,
+ 'Cooperative Governance': 50_000_000,
+ 'Trade, Industry and Competition': 120_000 * 1000,
+ 'Health': 180_000_000,
+ 'Science and Innovation': 45_000_000,
+ 'Public Works and Infrastructure': 159_000_000
+}
+
+month_lookup = {
+    'oct': '202010',
+    'nov': '202011',
+    'dec': '202012',
+    'jan': '202101',
+    'feb': '202102',
+    'mar': '202103',
+    'apr': '202104',
+    'may': '202105'
+}
+
+section_titles = {
+    SectionEnum.targets.name: "Programme targets for this department",
+    SectionEnum.job_opportunities.name: "Jobs created",
+    SectionEnum.jobs_retain.name: "Jobs retained",
+    SectionEnum.livelihoods.name: "Livelihoods supported",
+    SectionEnum.targets.name + "_overview": "Programme targets",
+    SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
+    SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
+    SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
+    SectionEnum.in_process.name: "Opportunities in process"
+}
+
+metric_titles = {
+    SectionEnum.targets.name: {
+        MetricTypeEnum.currency.name: "Budget",
+        MetricTypeEnum.count.name: "Beneficiaries",
+    },
+    SectionEnum.job_opportunities.name: {
+        MetricTypeEnum.count.name + '_time': "Employed over time",
+        MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
+        MetricTypeEnum.count.name + '_province': "Opportunities in post by Province",
+        MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
+    },
+    SectionEnum.jobs_retain.name: {
+        MetricTypeEnum.count.name + "_time": "Jobs saved over time",
+        MetricTypeEnum.count.name + "_gender": "Jobs saved by gender",
+        MetricTypeEnum.count.name + "_province": "Jobs saved by province",
+        MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
+    },
+    SectionEnum.livelihoods.name: {
+        MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
+        MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
+        MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
+        MetricTypeEnum.count.name + "_age": "Livelihoods supported going to 18-35 year olds",
+        MetricTypeEnum.count.name + '_vets': "Livelhoods supported going to military veterans",
+        MetricTypeEnum.count.name + '_disabled': "Livelhoods supported going to disabled persons",
+    }
+}
+
+section_abbrev_to_name = {
+    'CRE': SectionEnum.job_opportunities.name,
+    'LIV': SectionEnum.livelihoods.name,
+    'RET': SectionEnum.jobs_retain.name
+}
 
 @dataclass_json
 @dataclass
@@ -66,7 +161,7 @@ class MetricValue:
 @dataclass
 class Dimension:
     name: str
-    viz: str  # enum of VizType "bar"
+    viz: str  # enum of VizType "bar" "line" "two_value" "percentile" "count"
     lookup: str  # enum of LookupType "department", "province", "gender", "age", "disability", "military_veteran"
     values: List[MetricValue]
     data_missing: bool = False
@@ -131,45 +226,6 @@ implementation_status_to_enum = {
     'Critical challenges': ImplementationStatusEnum.CriticalChallenges.name
 }
 
-section_titles = {
-    SectionEnum.targets.name: "Programme targets for this department",
-    SectionEnum.job_opportunities.name: "Jobs created",
-    SectionEnum.jobs_retain.name: "Jobs retained",
-    SectionEnum.livelihoods.name: "Livelihoods supported",
-    SectionEnum.targets.name + "_overview": "Programme targets",
-    SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
-    SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
-    SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
-    SectionEnum.in_process.name: "Opportunities in process"
-}
-
-metric_titles = {
-    SectionEnum.targets.name: {
-        MetricTypeEnum.currency.name: "Budget",
-        MetricTypeEnum.count.name: "Beneficiaries",
-    },
-    SectionEnum.job_opportunities.name: {
-        MetricTypeEnum.count.name + '_time': "Employed over time",
-        MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
-        MetricTypeEnum.count.name + '_province': "Opportunities in post by Province",
-        MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
-    },
-    SectionEnum.jobs_retain.name: {
-        MetricTypeEnum.count.name + "_time": "Jobs saved over time",
-        MetricTypeEnum.count.name + "_gender": "Jobs saved by gender",
-        MetricTypeEnum.count.name + "_province": "Jobs saved by province",
-        MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
-    },
-    SectionEnum.livelihoods.name: {
-        MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
-        MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
-        MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
-        MetricTypeEnum.count.name + "_age": "Livelihoods supported going to 18-35 year olds",
-        MetricTypeEnum.count.name + '_vets': "Livelhoods supported going to military veterans",
-        MetricTypeEnum.count.name + '_disabled': "Livelhoods supported going to disabled persons",
-    }
-}
-
 # leads = dict(
 #     overview="Building a society that works",
 #     DTIC="Piloting new models for re-shoring and expanding global business services",
@@ -200,10 +256,11 @@ metric_titles = {
 #     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
 # )
 
-months = ['202010', '202011', '202012', '202101', '202102', '202103']
-month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21"]
-total_achievement_column = 7
-achievement_columns = slice(2, 8)
+# NOTE: UPDATE THESE 4 ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
+months = ['202010', '202011', '202012', '202101', '202102', '202103', '202104', '202105', '202106']
+month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21"]
+total_achievement_column = 9
+achievement_columns = slice(2, 10)
 
 target_to_imp_programme_mapping = {
     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
