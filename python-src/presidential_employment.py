@@ -257,8 +257,8 @@ implementation_status_to_enum = {
 # )
 
 # NOTE: UPDATE THESE 4 ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
-months = ['202010', '202011', '202012', '202101', '202102', '202103', '202104', '202105']
-month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21"]
+months = ['202010', '202011', '202012', '202101', '202102', '202103', '202104', '202105', '202106']
+month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21"]
 total_achievement_column = 9
 achievement_columns = slice(2, 10)
 
