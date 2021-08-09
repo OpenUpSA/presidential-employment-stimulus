@@ -25,7 +25,7 @@ Commits to `main` are deployed to [presidency-employment-stimulus.netlify.app](h
 
 ## Updating data
 
-Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. The notebook uses `pandas` (and `numpy`). A cell near the top of the notebook refers to the files that are processed. As new files are released they are downloaded from Google Drive and put in the `notebooks` folder, the cell with input data names is updated and the whole notebook is re-run. This updates the `data/all_data.json` file. When the update is done, and everything is commited to git and pushed it updates the website.
+Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. The notebook uses `pandas` (and `numpy`). A cell near the top of the notebook refers to the files that are processed. As new files are released they are downloaded from Google Drive and put in the `notebooks` folder, the cell with input data names is updated and the whole notebook is re-run. This updates the `data/all_data.json` file. When the update is done, and everything is commited to git and pushed it updates the website. For new months, edit the 4 rows starting with `months` in [python-src/presidential\_employment.py].
 
 ## Adding months
 

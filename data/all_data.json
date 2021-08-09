@@ -22,7 +22,7 @@
           {
             "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 515355,
+            "value": 518123,
             "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
@@ -565,7 +565,7 @@
                     },
                     {
                       "key": "Female",
-                      "value": 0.06,
+                      "value": 0.64,
                       "value_target": null
                     }
                   ],
