@@ -85,17 +85,6 @@ department_budget_targets = {
  'Public Works and Infrastructure': 159_000_000
 }
 
-month_lookup = {
-    'oct': '202010',
-    'nov': '202011',
-    'dec': '202012',
-    'jan': '202101',
-    'feb': '202102',
-    'mar': '202103',
-    'apr': '202104',
-    'may': '202105'
-}
-
 section_titles = {
     SectionEnum.targets.name: "Programme targets for this department",
     SectionEnum.job_opportunities.name: "Jobs created",
@@ -256,11 +245,22 @@ implementation_status_to_enum = {
 #     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
 # )
 
-# NOTE: UPDATE THESE 4 ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
+# NOTE: UPDATE THESE ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
 months = ['202010', '202011', '202012', '202101', '202102', '202103', '202104', '202105', '202106']
 month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21"]
-total_achievement_column = 9
-achievement_columns = slice(2, 10)
+total_achievement_column = 10
+achievement_columns = slice(2, 11)
+month_lookup = {  # these match column names of the Dashboard spreadsheet's Trends sheet
+    'oct': '202010',
+    'nov': '202011',
+    'dec': '202012',
+    'jan': '202101',
+    'feb': '202102',
+    'mar': '202103',
+    'apr': '202104',
+    'may': '202105',
+    'june': '202106'
+}
 
 target_to_imp_programme_mapping = {
     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
