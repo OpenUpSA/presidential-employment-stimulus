@@ -23,7 +23,92 @@
             "name": "Beneficiaries",
             "metric_type": "count",
             "value": 518123,
-            "dimensions": [],
+            "dimensions": [
+              {
+                "name": "Beneficiaries by Gender",
+                "viz": "two_value",
+                "lookup": "gender",
+                "values": [
+                  {
+                    "key": "Male",
+                    "value": 0.33319134273114875,
+                    "value_target": null
+                  },
+                  {
+                    "key": "Female",
+                    "value": 0.6625095108870674,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              },
+              {
+                "name": "Beneficiaries that are Youth",
+                "viz": "percentile",
+                "lookup": "age",
+                "values": [
+                  {
+                    "key": "18-35",
+                    "value": 0.8357625004830583,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              },
+              {
+                "name": "Beneficiaries by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": 83136,
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": 28598,
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": 73926,
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": 108439,
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": 66888,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": 38707,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": 16911,
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": 38964,
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": 40266,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
             "value_target": 694152,
             "implementation_detail": null
           },
@@ -1963,32 +2048,15 @@
                   "name": "Jobs saved by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 44933.0,
@@ -2051,138 +2119,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 25000.0,
@@ -2259,138 +2218,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 12690.0,
@@ -2409,138 +2259,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1750.0,
@@ -2559,138 +2300,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1719.0,
@@ -3459,138 +3091,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 7524.0,
@@ -4903,54 +4426,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5009,32 +4486,15 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1470.0,
@@ -5203,138 +4663,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 500.0,
@@ -5459,32 +4810,15 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 900.0,
@@ -5653,54 +4987,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5759,32 +5047,15 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 163.0,
@@ -5803,54 +5074,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5909,32 +5134,15 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 163.0,
@@ -6569,54 +5777,8 @@
                   "name": "Jobs saved by province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved over time",
@@ -6675,32 +5837,15 @@
                   "name": "Jobs saved by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 4000.0,
@@ -6763,138 +5908,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 500.0,
@@ -6921,54 +5957,8 @@
                   "name": "Livelihoods supported by province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Livelihoods supported over time",
@@ -7027,32 +6017,15 @@
                   "name": "Livelihoods supported by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 108833.0,
@@ -7723,54 +6696,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -7829,32 +6756,15 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 400.0,
@@ -8139,138 +7049,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 2000.0,
@@ -8289,138 +7090,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1250.0,

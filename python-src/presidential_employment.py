@@ -31,7 +31,7 @@ provinces = [
     "Northern Cape",
     "Western Cape",
 ]
-province_abbreviations = ["EC", "FS", "GP", "KZN", "LP", "NW", "NC", "WC"]
+province_abbreviations = ["EC", "FS", "GP", "KZN", "LP", "NW", "NC", "WC", "MP"]
 
 province_to_abbrev = {
     "Free State": "FS",
