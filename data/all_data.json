@@ -23,92 +23,7 @@
             "name": "Beneficiaries",
             "metric_type": "count",
             "value": 518123,
-            "dimensions": [
-              {
-                "name": "Beneficiaries by Gender",
-                "viz": "two_value",
-                "lookup": "gender",
-                "values": [
-                  {
-                    "key": "Male",
-                    "value": 0.33319134273114875,
-                    "value_target": null
-                  },
-                  {
-                    "key": "Female",
-                    "value": 0.6625095108870674,
-                    "value_target": null
-                  }
-                ],
-                "data_missing": false
-              },
-              {
-                "name": "Beneficiaries that are Youth",
-                "viz": "percentile",
-                "lookup": "age",
-                "values": [
-                  {
-                    "key": "18-35",
-                    "value": 0.8357625004830583,
-                    "value_target": null
-                  }
-                ],
-                "data_missing": false
-              },
-              {
-                "name": "Beneficiaries by province",
-                "viz": "bar",
-                "lookup": "province",
-                "values": [
-                  {
-                    "key": "EC",
-                    "value": 83136,
-                    "value_target": null
-                  },
-                  {
-                    "key": "FS",
-                    "value": 28598,
-                    "value_target": null
-                  },
-                  {
-                    "key": "GP",
-                    "value": 73926,
-                    "value_target": null
-                  },
-                  {
-                    "key": "KZN",
-                    "value": 108439,
-                    "value_target": null
-                  },
-                  {
-                    "key": "LP",
-                    "value": 66888,
-                    "value_target": null
-                  },
-                  {
-                    "key": "NW",
-                    "value": 38707,
-                    "value_target": null
-                  },
-                  {
-                    "key": "NC",
-                    "value": 16911,
-                    "value_target": null
-                  },
-                  {
-                    "key": "WC",
-                    "value": 38964,
-                    "value_target": null
-                  },
-                  {
-                    "key": "MP",
-                    "value": 40266,
-                    "value_target": null
-                  }
-                ],
-                "data_missing": false
-              }
-            ],
+            "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
           },
@@ -502,10 +417,121 @@
             ],
             "value_target": 60742.0,
             "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries by Gender",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries by Gender",
+                "viz": "two_value",
+                "lookup": "gender",
+                "values": [
+                  {
+                    "key": "Male",
+                    "value": 0.33319134273114875,
+                    "value_target": null
+                  },
+                  {
+                    "key": "Female",
+                    "value": 0.6625095108870674,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries that are Youth",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries that are Youth",
+                "viz": "percentile",
+                "lookup": "age",
+                "values": [
+                  {
+                    "key": "18-35",
+                    "value": 0.8357625004830583,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries by province",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": 83136,
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": 28598,
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": 73926,
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": 108439,
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": 66888,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": 38707,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": 16911,
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": 38964,
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": 40266,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
           }
         ],
-        "value": 0,
-        "value_target": 0
+        "value": 518123,
+        "value_target": 694152.0
       }
     ]
   },

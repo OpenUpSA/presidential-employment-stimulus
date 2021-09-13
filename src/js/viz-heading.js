@@ -5,9 +5,13 @@ const SELECTOR = '.uppercase-label:not(.hide-mobile)';
 const $template = $(SELECTOR).first().clone(true, true);
 
 export class VizHeading {
-  constructor($parent, name) {
+  constructor($parent, name, hideHeading) {
     this._$parent = $parent;
-    this._name = name;
+    if (!hideHeading) {
+      this._name = name;
+    } else {
+      this._name = '';
+    }
     this.render();
   }
 
