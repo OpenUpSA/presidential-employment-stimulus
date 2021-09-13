@@ -102,12 +102,12 @@ Promise.all([
             if (dimension.data_missing) {
               new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
             } else {
+              const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
+              new VizHeading(subSection.$container, dimension.name, hideHeading);
               if (dimension.viz === 'line') {
-                new VizHeading(subSection.$container, dimension.name);
                 new VizLine(subSection.$container, dimension.values, lookups[dimension.lookup]);
               }
               if (dimension.viz === 'two_value') {
-                new VizHeading(subSection.$container, dimension.name);
                 const valueOne = dimension.values[0];
                 const valueTwo = dimension.values[1];
                 new VizSplit(
@@ -118,7 +118,6 @@ Promise.all([
                 );
               }
               if (dimension.viz === 'percentile' || dimension.viz === 'count') {
-                new VizHeading(subSection.$container, dimension.name);
                 const {value} = dimension.values[0];
                 new VizValue(
                     subSection.$container,
@@ -127,7 +126,6 @@ Promise.all([
                 );
               }
               if (dimension.viz === 'bar') {
-                new VizHeading(subSection.$container, dimension.name);
                 new VizBars(
                     subSection.$container,
                     dimension.values,
