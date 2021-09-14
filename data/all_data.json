@@ -452,12 +452,17 @@
             "dimensions": [
               {
                 "name": "Beneficiaries that are Youth",
-                "viz": "percentile",
+                "viz": "two_value",
                 "lookup": "age",
                 "values": [
                   {
                     "key": "18-35",
                     "value": 0.8357625004830583,
+                    "value_target": null
+                  },
+                  {
+                    "key": "36+",
+                    "value": 0.16423749951694167,
                     "value_target": null
                   }
                 ],
