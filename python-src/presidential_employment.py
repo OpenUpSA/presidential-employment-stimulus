@@ -246,9 +246,11 @@ implementation_status_to_enum = {
 # )
 
 # NOTE: UPDATE THESE ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
-months = ['202010', '202011', '202012', '202101', '202102', '202103', '202104', '202105', '202106']
-month_names = ["Oct '20", "Nov '20", "Dec '20", "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21"]
-total_achievement_column = 10
+months = ['202010', '202011', '202012', 
+          '202101', '202102', '202103', '202104', '202105', '202106', '202107', '202108', '202109']
+month_names = ["Oct '20", "Nov '20", "Dec '20", 
+               "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21", "Jul '21", "Aug '21", "Sep '21"]
+total_achievement_column = 13
 achievement_columns = slice(2, 11)
 month_lookup = {  # these match column names of the Dashboard spreadsheet's Trends sheet
     'oct': '202010',
@@ -259,7 +261,10 @@ month_lookup = {  # these match column names of the Dashboard spreadsheet's Tren
     'mar': '202103',
     'apr': '202104',
     'may': '202105',
-    'june': '202106'
+    'june': '202106',
+    'july': '202107',
+    'august': '202108',
+    'september': '202109'
 }
 
 target_to_imp_programme_mapping = {
