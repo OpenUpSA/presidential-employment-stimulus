@@ -126,10 +126,12 @@ Promise.all([
                 );
               }
               if (dimension.viz === 'bar') {
+                const hideZeros = sectionType === 'overview';
                 new VizBars(
                     subSection.$container,
                     dimension.values,
                     lookups[dimension.lookup],
+                    hideZeros
                 );
               }
             }
