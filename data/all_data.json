@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202105",
+    "month": "202109",
     "name": "Programme overview",
     "lead": "Building a society that works",
     "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
@@ -544,7 +544,7 @@
                   },
                   {
                     "key": "KZN",
-                    "value": 116496,
+                    "value": 116042,
                     "value_target": null
                   },
                   {
@@ -554,7 +554,7 @@
                   },
                   {
                     "key": "NW",
-                    "value": 39381,
+                    "value": 39635,
                     "value_target": null
                   },
                   {
@@ -569,7 +569,7 @@
                   },
                   {
                     "key": "MP",
-                    "value": 43301,
+                    "value": 43812,
                     "value_target": null
                   }
                 ],
@@ -587,7 +587,7 @@
   },
   "departments": [
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
@@ -1748,7 +1748,7 @@
       ]
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Basic Education",
       "sheet_name": "DBE",
       "lead": "School assistants strengthen the learning environment at schools ",
@@ -2285,7 +2285,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Cooperative Governance",
       "sheet_name": "DCOGTA",
       "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
@@ -2384,7 +2384,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Forestry, Fisheries and Environment",
       "sheet_name": "DFFE",
       "lead": "Investing in the environment we live in",
@@ -3657,7 +3657,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Public Works and Infrastructure",
       "sheet_name": "DPWI",
       "lead": "Graduate placements in the professional services",
@@ -4848,7 +4848,7 @@
       ]
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Sports, Arts and Culture",
       "sheet_name": "DSAC",
       "lead": "Getting artists, cultural workers and the sporting sector on the road to recovery",
@@ -6602,7 +6602,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Social Development",
       "sheet_name": "DSD",
       "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
@@ -6714,7 +6714,7 @@
                     },
                     {
                       "key": "KZN",
-                      "value": 8066,
+                      "value": 7612,
                       "value_target": null
                     },
                     {
@@ -6724,12 +6724,12 @@
                     },
                     {
                       "key": "MP",
-                      "value": 2947,
+                      "value": 3458,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 533,
+                      "value": 787,
                       "value_target": null
                     },
                     {
@@ -7016,7 +7016,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Science and Innovation",
       "sheet_name": "DSI",
       "lead": "Supporting new graduates entering a hostile labour market",
@@ -7717,7 +7717,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Trade, Industry and Competition",
       "sheet_name": "DTIC",
       "lead": "Piloting new models for re-shoring and expanding global business services",
@@ -7940,7 +7940,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Health",
       "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
@@ -8410,7 +8410,7 @@
       "implementation_details": []
     },
     {
-      "month": "202105",
+      "month": "202109",
       "name": "Transport",
       "sheet_name": "DoT",
       "lead": "Improving access to services and opportunities for people in rural areas",
