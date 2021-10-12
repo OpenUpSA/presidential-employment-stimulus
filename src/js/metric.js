@@ -35,6 +35,7 @@ export class Metric {
     this._formatter = FORMATTERS[this._metricType];
     this._value = value === -1 ? null : value;
     this._target = target === -1 ? null : target;
+    this._showValues = true;
     this._quotient = this._target
       ? this._value / this._target : null;
     this._iconType = this._sectionType;
@@ -58,8 +59,15 @@ export class Metric {
       if (sectionType === 'overview') {
         this._iconType = this._metricType;
       }
-      this._topText = this._formatter(this._value);
-      this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : ((deptAcronym === 'DALRRD' || deptAcronym === 'DPWI') ? "" : "Target not available");
+      if (sectionType === 'overview' && this._iconType !== "targets_count") {
+        this._topText = this._formatter(this._value);
+        this._bottomText = this._target ? `TARGET: ${this._formatter(this._target)}` : ((deptAcronym === 'DALRRD' || deptAcronym === 'DPWI') ? "" : "Target not available");
+      } else {
+        // hacky way to display overview metrics of gender, age, provinces
+        this._topText = "";
+        this._bottomText = "";
+        this._showValues = false;
+      }
     }
     this.render();
   }
@@ -71,13 +79,19 @@ export class Metric {
   render() {
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
+    console.log(this._iconType);
     const $icon = icons[this._iconType].clone(true, true);
     this._$el.find(ICON_CONTAINER_SELECTOR).append($icon);
     this._$el.find(NAME_SELECTOR).text(this._title);
-    this._$el.find(VALUE_SELECTOR).text(this._topText);
     this._$el.find('img').remove();
-    const $subValue = this._$el.find(SUB_VALUE_SELECTOR);
-    $subValue.text(this._bottomText ? this._bottomText : "");
+    if (this._showValues) {
+      this._$el.find(VALUE_SELECTOR).text(this._topText);
+      const $subValue = this._$el.find(SUB_VALUE_SELECTOR);
+      $subValue.text(this._bottomText ? this._bottomText : "");
+    } else {
+      this._$el.find(VALUE_SELECTOR).remove();
+      this._$el.find(SUB_VALUE_SELECTOR).remove();
+    }
 
     const $chartWrapper = this._$el.find(`.${PROGRESS_CLASS}`);
     if (this._quotient) {

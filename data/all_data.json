@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202106",
+    "month": "202109",
     "name": "Programme overview",
     "lead": "Building a society that works",
     "paragraph": "The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans \u2013 especially the most vulnerable. The pandemic has exacerbated South Africa\u2019s pre-existing crises of poverty and unemployment. The Presidential Employment Stimulus recognises the urgency of this situation, using direct public investment to support public employment, job retention and livelihood support programmes, as part of the wider economic recovery process.  This provides direct support to participants and their families, but also acts as a stimulus in local economies, with spending mainly in township and rural economies. This provides a vital stimulus to small enterprise and the informal sector - trickling up into the wider economy from there.\nThis platform tracks the performance of the programmes that form part of the Presidential Employment Stimulus. It reflects work in progress, with the data updated monthly.",
@@ -22,7 +22,7 @@
           {
             "name": "Beneficiaries",
             "metric_type": "count",
-            "value": 518123,
+            "value": 552838,
             "dimensions": [],
             "value_target": 694152,
             "implementation_detail": null
@@ -46,7 +46,7 @@
           {
             "name": "Jobs created",
             "metric_type": "job_opportunities",
-            "value": 374484,
+            "value": 391713,
             "dimensions": [
               {
                 "name": "by department",
@@ -60,7 +60,7 @@
                   },
                   {
                     "key": "DFFE",
-                    "value": 23943,
+                    "value": 39631,
                     "value_target": 50311.0
                   },
                   {
@@ -79,24 +79,24 @@
                     "value_target": 5531.0
                   },
                   {
+                    "key": "DSAC",
+                    "value": 2177,
+                    "value_target": 4356.0
+                  },
+                  {
                     "key": "DPWI",
                     "value": 1881,
                     "value_target": 1560
                   },
                   {
+                    "key": "DSI",
+                    "value": 1576,
+                    "value_target": 1900.0
+                  },
+                  {
                     "key": "DALRRD",
                     "value": 1464,
                     "value_target": 0
-                  },
-                  {
-                    "key": "DSAC",
-                    "value": 1461,
-                    "value_target": 4356.0
-                  },
-                  {
-                    "key": "DSI",
-                    "value": 751,
-                    "value_target": 1900.0
                   },
                   {
                     "key": "DCOGTA",
@@ -160,6 +160,21 @@
                     "key": "202106",
                     "value": 374484,
                     "value_target": null
+                  },
+                  {
+                    "key": "202107",
+                    "value": 374484,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202108",
+                    "value": 374484,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202109",
+                    "value": 391713,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -171,7 +186,7 @@
           {
             "name": "Livelihoods supported",
             "metric_type": "livelihoods",
-            "value": 103240,
+            "value": 120634,
             "dimensions": [
               {
                 "name": "by department",
@@ -184,14 +199,14 @@
                     "value_target": 74626
                   },
                   {
+                    "key": "DSD",
+                    "value": 32340,
+                    "value_target": 108833.0
+                  },
+                  {
                     "key": "DSAC",
                     "value": 32145,
                     "value_target": 15714.0
-                  },
-                  {
-                    "key": "DSD",
-                    "value": 14946,
-                    "value_target": 108833.0
                   },
                   {
                     "key": "DBE",
@@ -285,6 +300,21 @@
                     "key": "202106",
                     "value": 103240,
                     "value_target": null
+                  },
+                  {
+                    "key": "202107",
+                    "value": 103240,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202108",
+                    "value": 103240,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202109",
+                    "value": 120634,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -296,7 +326,7 @@
           {
             "name": "Jobs retained",
             "metric_type": "jobs_retain",
-            "value": 40399,
+            "value": 40491,
             "dimensions": [
               {
                 "name": "by department",
@@ -310,7 +340,7 @@
                   },
                   {
                     "key": "DSAC",
-                    "value": 8209,
+                    "value": 8301,
                     "value_target": 14000.0
                   },
                   {
@@ -410,6 +440,21 @@
                     "key": "202106",
                     "value": 40399,
                     "value_target": null
+                  },
+                  {
+                    "key": "202107",
+                    "value": 40399,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202108",
+                    "value": 40399,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202109",
+                    "value": 40491,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -417,16 +462,132 @@
             ],
             "value_target": 60742.0,
             "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries by Gender",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries by Gender",
+                "viz": "two_value",
+                "lookup": "gender",
+                "values": [
+                  {
+                    "key": "Male",
+                    "value": 0.33397255327448644,
+                    "value_target": null
+                  },
+                  {
+                    "key": "Female",
+                    "value": 0.66175287502105,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries that are Youth",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries that are Youth",
+                "viz": "two_value",
+                "lookup": "age",
+                "values": [
+                  {
+                    "key": "18-35",
+                    "value": 0.834817563261121,
+                    "value_target": null
+                  },
+                  {
+                    "key": "36+",
+                    "value": 0.165182436738879,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
+          },
+          {
+            "name": "Beneficiaries by province",
+            "metric_type": "targets_count",
+            "value": -1,
+            "dimensions": [
+              {
+                "name": "Beneficiaries by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": 85200,
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": 32276,
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": 79279,
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": 116042,
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": 72495,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": 39635,
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": 17984,
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": 43593,
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": 43812,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              }
+            ],
+            "value_target": -1,
+            "implementation_detail": null
           }
         ],
-        "value": 0,
-        "value_target": 0
+        "value": 552838,
+        "value_target": 694152.0
       }
     ]
   },
   "departments": [
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Agriculture, Land Reform and Rural Development",
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
@@ -567,6 +728,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 1464,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 1464,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 1464,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 1464,
                       "value_target": null
                     }
@@ -721,6 +897,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 19877,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 19877,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 19877,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 19877,
                       "value_target": null
                     }
@@ -895,6 +1086,21 @@
                       "key": "202106",
                       "value": 11071,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 11071,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 11071,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 11071,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1065,6 +1271,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 12835,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 12835,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 12835,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 12835,
                       "value_target": null
                     }
@@ -1239,6 +1460,21 @@
                       "key": "202106",
                       "value": 8493,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 8493,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 8493,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 8493,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1411,6 +1647,21 @@
                       "key": "202106",
                       "value": 3873,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 3873,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 3873,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 3873,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1492,12 +1743,12 @@
         {
           "programme_name": "Subsistence producer relief fund",
           "status": "OnTrack",
-          "detail": "The department continues to verify the 131 000 pre-approved applicants on site to validate the farmer activity reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with certain suppliers that are charging more than the pre-agreed prices for inputs, taking a cut of the vouchers or disbursing cash instead of inputs for production. Although this is a small percentage of the total, DALRRD is following up on complaints and a number of suppliers have been blacklisted."
+          "detail": "The process of verifying the 131 000 pre-approved applicants to validate the farmer activity reported continues. The process of issuing vouchers to approved and verified applicants had to pause pending rollover requests. With these now approved, vouchers are being issued again. The department has blacklisted certain suppliers that charged more than the pre-agreed prices for inputs, took a cut of the vouchers or disbursed cash instead of inputs for production. The payment turn-around time for suppliers is now just a few days, representing significant efficiency gains."
         }
       ]
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Basic Education",
       "sheet_name": "DBE",
       "lead": "School assistants strengthen the learning environment at schools ",
@@ -1638,6 +1889,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 196949,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 196949,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 196949,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 196949,
                       "value_target": null
                     }
@@ -1790,6 +2056,21 @@
                       "key": "202106",
                       "value": 122533,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 122533,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 122533,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 122533,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1830,7 +2111,7 @@
               "implementation_detail": {
                 "programme_name": "General Assistants",
                 "status": "OnTrack",
-                "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supported maintenance and security at schools and other basic needs. Similar to the education assistants, provincial departments took a decision to extend contracts until end of April. The programme has concluded and the department is compiling a comprehensive review, commissioning an evaluation to draw key lessons for future iterations."
+                "detail": "The department placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants supported maintenance and security at schools and other basic needs. Similar to the education assistants, provincial departments took a decision to extend contracts until end of April. The programme has concluded and the department is compiling a comprehensive review, commissioning an evaluation to draw key lessons for future iterations."
               }
             }
           ],
@@ -1955,6 +2236,21 @@
                       "key": "202106",
                       "value": 31114,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 31114,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 31114,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 31114,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -1963,32 +2259,15 @@
                   "name": "Jobs saved by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 44933.0,
@@ -2006,7 +2285,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Cooperative Governance",
       "sheet_name": "DCOGTA",
       "lead": "Mainstreaming and improving labour-intensity in infrastructure delivery",
@@ -2051,145 +2330,36 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 25000.0,
               "implementation_detail": {
                 "programme_name": "Mainstream labour intensive construction methods",
                 "status": "OnTrack",
-                "detail": "The Municipal Infrastructure Support Agency (MISA)'s  appointed a service provider has begun work to deliver the capacity development in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery."
+                "detail": "The Municipal Infrastructure Support Agency (MISA)'s  appointed a service provider to deliver capacity development on the use of labour-intensive methods in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery. Its target in this regard is therefore for the next financial year."
               }
             }
           ],
@@ -2214,7 +2384,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Forestry, Fisheries and Environment",
       "sheet_name": "DFFE",
       "lead": "Investing in the environment we live in",
@@ -2237,7 +2407,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 23943.0,
+              "value": 39631.0,
               "dimensions": [],
               "value_target": 50311.0,
               "implementation_detail": null
@@ -2253,60 +2423,14 @@
             {
               "name": "Cleaning and greening - war on waste with municipalities",
               "metric_type": "count",
-              "value": 0,
+              "value": 13260,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -2357,6 +2481,21 @@
                       "key": "202106",
                       "value": 0,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 13260,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2365,39 +2504,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 12690.0,
               "implementation_detail": {
                 "programme_name": "Cleaning and greening - war on waste with municipalities",
-                "status": "CriticalChallenges",
-                "detail": "The programme plans cleaning activities and indigenous tree planting. After procurement delays, appointment of service providers is underway, with recruitment processes in place in all municipalities."
+                "status": "MinorChallenges",
+                "detail": "This programme for cleaning activities and indigenous tree planting has begun. After procurement delays, appointment of service providers took place along with recruitment processes."
               }
             },
             {
@@ -2409,138 +2531,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1750.0,
@@ -2559,138 +2572,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1719.0,
@@ -2703,7 +2607,7 @@
             {
               "name": "Groen Sebenzas, weather service - graduate programme",
               "metric_type": "count",
-              "value": 252,
+              "value": 272,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -2807,6 +2711,21 @@
                       "key": "202106",
                       "value": 252,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 252,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 252,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 272,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2853,7 +2772,7 @@
             {
               "name": "SANBI Infrastructure maintenance, biosecurity",
               "metric_type": "count",
-              "value": 868,
+              "value": 1360,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -2957,6 +2876,21 @@
                       "key": "202106",
                       "value": 868,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 868,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 868,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 1360,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -2997,13 +2931,13 @@
               "implementation_detail": {
                 "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                 "status": "OnTrack",
-                "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens is being maintained."
+                "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens was maintained."
               }
             },
             {
               "name": "iSimangaliso: conservation management infrastructure",
               "metric_type": "count",
-              "value": 102,
+              "value": 1113,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -3107,6 +3041,21 @@
                       "key": "202106",
                       "value": 102,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 102,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 102,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 1113,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3153,7 +3102,7 @@
             {
               "name": "SANPARKS upgrade and green energy",
               "metric_type": "count",
-              "value": 4555,
+              "value": 5460,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -3256,6 +3205,21 @@
                     {
                       "key": "202106",
                       "value": 4555,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 4555,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 4555,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 5460,
                       "value_target": null
                     }
                   ],
@@ -3407,6 +3371,21 @@
                       "key": "202106",
                       "value": 11373,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 11373,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 11373,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 11373,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3459,138 +3438,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 7524.0,
@@ -3707,6 +3577,21 @@
                       "key": "202106",
                       "value": 6793,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 6793,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 6793,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 6793,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -3772,7 +3657,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Public Works and Infrastructure",
       "sheet_name": "DPWI",
       "lead": "Graduate placements in the professional services",
@@ -3913,6 +3798,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 176,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 176,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 176,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 176,
                       "value_target": null
                     }
@@ -4061,6 +3961,21 @@
                       "key": "202106",
                       "value": 161,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 161,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 161,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 161,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -4205,6 +4120,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 515,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 515,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 515,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 515,
                       "value_target": null
                     }
@@ -4353,6 +4283,21 @@
                       "key": "202106",
                       "value": 358,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 358,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 358,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 358,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -4497,6 +4442,21 @@
                     },
                     {
                       "key": "202106",
+                      "value": 109,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 109,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 109,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
                       "value": 109,
                       "value_target": null
                     }
@@ -4645,6 +4605,21 @@
                       "key": "202106",
                       "value": 136,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 136,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 136,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 136,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -4791,6 +4766,21 @@
                       "key": "202106",
                       "value": 426,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 426,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 426,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 426,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -4853,12 +4843,12 @@
         {
           "programme_name": "Graduate programmes (Property Management Trading Entity)",
           "status": "OnTrack",
-          "detail": "The programmes commenced with recruitment immediately after the funding was approved which has resulted in early placement of graduates into different facilities management and infrastructure management programmes. The department has confirmed extension of contracts for all graduates for an additional five months."
+          "detail": "The programmes commenced with recruitment immediately after the funding was approved which resulted in early placement of graduates into different facilities management and infrastructure management programmes. The department has confirmed the extension of contracts for all graduates for an additional five months."
         }
       ]
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Sports, Arts and Culture",
       "sheet_name": "DSAC",
       "lead": "Getting artists, cultural workers and the sporting sector on the road to recovery",
@@ -4881,7 +4871,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 41815.0,
+              "value": 42623.0,
               "dimensions": [],
               "value_target": 34070.0,
               "implementation_detail": null
@@ -4903,54 +4893,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5001,6 +4945,21 @@
                       "key": "202106",
                       "value": 613,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 613,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 613,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 613,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5009,39 +4968,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1470.0,
               "implementation_detail": {
                 "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
-                "status": "MinorChallenges",
-                "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached. The programme concluded at the end of March with 613 jobs created in the sector."
+                "status": "CriticalChallenges",
+                "detail": "The lockdown restrictions and the fact that most facilities were closed led to low demand from National Federations."
               }
             },
             {
@@ -5151,6 +5093,21 @@
                       "key": "202106",
                       "value": 151,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 151,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 151,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 151,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5191,13 +5148,13 @@
               "implementation_detail": {
                 "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
                 "status": "OnTrack",
-                "detail": "The programme is concluded at the end of March and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
+                "detail": "The programme concluded at the end of March and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
               }
             },
             {
               "name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
               "metric_type": "count",
-              "value": 0,
+              "value": 716,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -5206,12 +5163,12 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0,
+                      "value": 100,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0,
+                      "value": 123,
                       "value_target": null
                     },
                     {
@@ -5226,22 +5183,22 @@
                     },
                     {
                       "key": "LP",
-                      "value": 0,
+                      "value": 115,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0,
+                      "value": 124,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0,
+                      "value": 136,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0,
+                      "value": 118,
                       "value_target": null
                     },
                     {
@@ -5301,6 +5258,21 @@
                       "key": "202106",
                       "value": 0,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 0,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 716,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5309,39 +5281,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 500.0,
               "implementation_detail": {
                 "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
-                "status": "CriticalChallenges",
-                "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Although delayed, implementation is now in process."
+                "status": "OnTrack",
+                "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Implementation is currently in process."
               }
             },
             {
@@ -5451,6 +5406,21 @@
                       "key": "202106",
                       "value": 147,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 147,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 147,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 147,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5459,39 +5429,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 900.0,
               "implementation_detail": {
                 "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
                 "status": "CriticalChallenges",
-                "detail": "Several provinces have begun implementation following significant delays in signing the Memorandum of Agreement with implementing agents. The programme is implementing strategies to fast track implementation to meet outstanding milestones  before conclusion in March."
+                "detail": "Delays in signing the Memorandum of Agreement with implementing agents limited implementation."
               }
             },
             {
@@ -5601,6 +5554,21 @@
                       "key": "202106",
                       "value": 260,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 260,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 260,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 260,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5641,7 +5609,7 @@
               "implementation_detail": {
                 "programme_name": "Audit of national museums - South African Heritage Resources Agency",
                 "status": "OnTrack",
-                "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and approximately 1600 memorials, monuments and statues have been recorded across the country. The programme extended participants for an additional month until end of April to complete fieldwork."
+                "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country. Approximately 1600 memorials, monuments and statues were recorded across the country. The programme extended participants for an additional month until end of April to complete fieldwork."
               }
             },
             {
@@ -5653,54 +5621,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5751,6 +5673,21 @@
                       "key": "202106",
                       "value": 144,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 144,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 144,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 144,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5759,39 +5696,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 163.0,
               "implementation_detail": {
                 "programme_name": "Digitisation of records - National Library of South Africa",
-                "status": "CriticalChallenges",
-                "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme has extended the contracts of appointed participants until June to allow for completion of the work."
+                "status": "OnTrack",
+                "detail": "After a delayed start, the programme extended contracts to June to allow for completion of the work."
               }
             },
             {
@@ -5803,54 +5723,8 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
@@ -5901,6 +5775,21 @@
                       "key": "202106",
                       "value": 146,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 146,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 146,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 146,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -5909,39 +5798,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 163.0,
               "implementation_detail": {
                 "programme_name": "Digitisation of records -National Archives",
-                "status": "CriticalChallenges",
-                "detail": "The programme will be extended until June to account for significant delays in procurement of equipment and finalisation of the MoA. It has been crucial in enabling the NARSSA to build capacity on digitisation and seeks to digitise one million records."
+                "status": "OnTrack",
+                "detail": "The programme has been crucial in enabling the NARSSA to build capacity on digitisation and to initiate digitisation of one million records. It was extended to June."
               }
             }
           ],
@@ -6059,6 +5931,21 @@
                       "key": "202106",
                       "value": 23989,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 23989,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 23989,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 23989,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -6099,7 +5986,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Arts Council",
                 "status": "CriticalChallenges",
-                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. The re-allocated funds are still being disbursed and will continue to be disbursed until the last beneficiary receives their funding. The NAC has instituted an investigation into the PESP management process, and that process is underway and will cover the entire scope of the project."
+                "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. The re-allocated funds will continue to be disbursed until the last beneficiary receives their funding. The NAC instituted an investigation into the PESP management process, and a forensic audit has been completed."
               }
             },
             {
@@ -6209,6 +6096,21 @@
                       "key": "202106",
                       "value": 8156,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 8156,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 8156,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 8156,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -6249,7 +6151,7 @@
               "implementation_detail": {
                 "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                 "status": "OnTrack",
-                "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received with an excess of 48\u00a0000 job proposals. Four streams were adjudicated by Panel of experienced industry specialists, and each stream Chaired by members of the NFVF Council. Panels submitted their recommendations to the NFVF council which made the final approval creating in excess of 8000 jobs."
+                "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received with an excess of 48\u00a0000 job proposals. Four streams were adjudicated by Panel of experienced industry specialists, with each stream chaired by members of the NFVF Council. This has supported the generation of new local content in the sector."
               }
             }
           ],
@@ -6367,6 +6269,21 @@
                       "key": "202106",
                       "value": 2444,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 2444,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 2444,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 2444,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -6406,14 +6323,14 @@
               "value_target": 5000.0,
               "implementation_detail": {
                 "programme_name": "Job retention in cultural and creative institutions - National Arts Council",
-                "status": "CriticalChallenges",
+                "status": "OnTrack",
                 "detail": "The call for proposals for the job retention component of the stimulus was undersubscribed. Unallocated funds from job retention were reallocated to augment the funds available to support art and culture practitioners."
               }
             },
             {
               "name": "Job retention in cultural and creative institutions - National Film and Video Foundation",
               "metric_type": "count",
-              "value": 675,
+              "value": 767,
               "dimensions": [
                 {
                   "name": "Jobs saved by province",
@@ -6427,17 +6344,17 @@
                     },
                     {
                       "key": "FS",
-                      "value": 11,
+                      "value": 20,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 306,
+                      "value": 440,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 239,
+                      "value": 194,
                       "value_target": null
                     },
                     {
@@ -6462,7 +6379,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 119,
+                      "value": 113,
                       "value_target": null
                     }
                   ],
@@ -6516,6 +6433,21 @@
                     {
                       "key": "202106",
                       "value": 675,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 675,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 675,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 767,
                       "value_target": null
                     }
                   ],
@@ -6569,54 +6501,8 @@
                   "name": "Jobs saved by province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved over time",
@@ -6667,6 +6553,21 @@
                       "key": "202106",
                       "value": 5090,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 5090,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 5090,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 5090,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -6675,39 +6576,22 @@
                   "name": "Jobs saved by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Jobs saved going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 4000.0,
               "implementation_detail": {
                 "programme_name": "Job retention in sport sector - Sport Trust",
-                "status": "MinorChallenges",
-                "detail": "The programme was oversubscribed and 65 organisations are received support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies. The Sports Trust has requested an extension in order to ensure that all the beneficiaries receive the funds approved."
+                "status": "OnTrack",
+                "detail": "The programme was oversubscribed and 65 organisations received support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies. The Sports Trust requested an extension in order to ensure that all the beneficiaries receive the funds approved."
               }
             }
           ],
@@ -6718,7 +6602,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Social Development",
       "sheet_name": "DSD",
       "lead": "Income support to practitioners and to the implementation of Covid compliance measures",
@@ -6741,7 +6625,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 16022.0,
+              "value": 33416.0,
               "dimensions": [],
               "value_target": 111142.0,
               "implementation_detail": null
@@ -6763,138 +6647,29 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 500.0,
@@ -6915,7 +6690,7 @@
             {
               "name": "ECD income and compliance support",
               "metric_type": "count",
-              "value": 14946,
+              "value": 32340,
               "dimensions": [
                 {
                   "name": "Livelihoods supported by province",
@@ -6924,47 +6699,47 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0,
+                      "value": 679,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0,
+                      "value": 3594,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 0,
+                      "value": 5162,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0,
+                      "value": 7612,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0,
+                      "value": 5467,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0,
+                      "value": 3458,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0,
+                      "value": 787,
                       "value_target": null
                     },
                     {
                       "key": "NC",
-                      "value": 0,
+                      "value": 955,
                       "value_target": null
                     },
                     {
                       "key": "WC",
-                      "value": 0,
+                      "value": 4626,
                       "value_target": null
                     }
                   ],
@@ -7019,6 +6794,21 @@
                       "key": "202106",
                       "value": 14946,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 14946,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 14946,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 32340,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7027,39 +6817,22 @@
                   "name": "Livelihoods supported by gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Livelihoods supported going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 108833.0,
               "implementation_detail": {
                 "programme_name": "ECD income and compliance support",
                 "status": "CriticalChallenges",
-                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) has been verifying and approving applicants since the end of February. Provincial departments were required to pause payments to beneficiaries at the end March as relief funds were only available for the 2020/21 financial year. Due to delays in the approval of applications and transfer of funds to beneficiaries, only 10% had received payments by the end of March. All provinces have submitted applications to National Treasury to rollover the funds which have been provisionally approved. Provincial treasuries have received allocation letters and payments to ECD programmes should soon resume."
+                "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) has been verifying and approving applicants since the end of February 2020. Provincial departments were required to pause payments to beneficiaries at the end March as relief funds were only available for the 2020/21 financial year. Due to delays in the approval of applications and transfer of funds to beneficiaries, only 10% had received payments by the end of March. With rollovers approved, payments have resumed again. Compliance requirements remain a challenge for many."
               }
             }
           ],
@@ -7177,6 +6950,21 @@
                       "key": "202106",
                       "value": 1076,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 1076,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 1076,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 1076,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7217,7 +7005,7 @@
               "implementation_detail": {
                 "programme_name": "Retention of social workers",
                 "status": "OnTrack",
-                "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have provided essential social services during the pandemic. The programme concludes at the end of March and some provinces have managed to absorb social workers into permanent positions."
+                "detail": "Appointments and re-appointments were finalised in several participating programmes and social workers have provided essential social services during the pandemic. The programme concluded at the end of March but some provinces have managed to absorb social workers into permanent positions."
               }
             }
           ],
@@ -7228,7 +7016,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Science and Innovation",
       "sheet_name": "DSI",
       "lead": "Supporting new graduates entering a hostile labour market",
@@ -7251,7 +7039,7 @@
             {
               "name": "Beneficiaries",
               "metric_type": "count",
-              "value": 751.0,
+              "value": 1576.0,
               "dimensions": [],
               "value_target": 1900.0,
               "implementation_detail": null
@@ -7267,7 +7055,7 @@
             {
               "name": "HSRC - Health Promotion Agents",
               "metric_type": "count",
-              "value": 109,
+              "value": 934,
               "dimensions": [
                 {
                   "name": "Opportunities in post by Province",
@@ -7371,6 +7159,21 @@
                       "key": "202106",
                       "value": 109,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 109,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 109,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 934,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7410,8 +7213,8 @@
               "value_target": 1000.0,
               "implementation_detail": {
                 "programme_name": "HSRC - Health Promotion Agents",
-                "status": "MinorChallenges",
-                "detail": "Following delays, the programme has appointed 42 candidates to begin 1 April. The programme participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic. A dedicated project website has also been developed."
+                "status": "OnTrack",
+                "detail": "Following delays, the programme has rolled out, with participants responsible for building social compacts to initiate behaviour change interventions at community level in the context of the Covid-19 pandemic."
               }
             },
             {
@@ -7521,6 +7324,21 @@
                       "key": "202106",
                       "value": 310,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 310,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 310,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 310,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7561,7 +7379,7 @@
               "implementation_detail": {
                 "programme_name": "DUCT - Enviro-champs",
                 "status": "OnTrack",
-                "detail": "The programme has exceeded the planned numbers due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates is focussing on making sense of the river health data, and gathering stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water."
+                "detail": "The programme exceeded the planned numbers due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates has focussed on making sense of the river health data, and on gathering stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water."
               }
             },
             {
@@ -7671,6 +7489,21 @@
                       "key": "202106",
                       "value": 191,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 191,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 191,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 191,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7710,8 +7543,8 @@
               "value_target": 150.0,
               "implementation_detail": {
                 "programme_name": "CSIR - Experiential Training Programme",
-                "status": "MinorChallenges",
-                "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process however,  the remaining students is currently being placed and the programme is optimistic that the placement target of 189 students will be met."
+                "status": "OnTrack",
+                "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process however,  after dleays, all students were placed."
               }
             },
             {
@@ -7726,37 +7559,37 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 0,
+                      "value": 5,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 0,
+                      "value": 2,
                       "value_target": null
                     },
                     {
                       "key": "GP",
-                      "value": 0,
+                      "value": 57,
                       "value_target": null
                     },
                     {
                       "key": "KZN",
-                      "value": 0,
+                      "value": 36,
                       "value_target": null
                     },
                     {
                       "key": "LP",
-                      "value": 0,
+                      "value": 25,
                       "value_target": null
                     },
                     {
                       "key": "MP",
-                      "value": 0,
+                      "value": 2,
                       "value_target": null
                     },
                     {
                       "key": "NW",
-                      "value": 0,
+                      "value": 5,
                       "value_target": null
                     },
                     {
@@ -7766,7 +7599,7 @@
                     },
                     {
                       "key": "WC",
-                      "value": 0,
+                      "value": 9,
                       "value_target": null
                     }
                   ],
@@ -7821,6 +7654,21 @@
                       "key": "202106",
                       "value": 141,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 141,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 141,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 141,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -7829,39 +7677,22 @@
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 400.0,
               "implementation_detail": {
                 "programme_name": "WRC - Water Graduate Employment Programme",
-                "status": "MinorChallenges",
-                "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruitment and these graduates are placed with various hosts. Phase 2 graduates have been inducted and will also commence their workplace experience soon."
+                "status": "CriticalChallenges",
+                "detail": "The programme experienced several challenges with securing hosts for workplace experience for the graduates which led to delays in the two-phased recruitment process."
               }
             }
           ],
@@ -7886,7 +7717,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Trade, Industry and Competition",
       "sheet_name": "DTIC",
       "lead": "Piloting new models for re-shoring and expanding global business services",
@@ -8029,6 +7860,21 @@
                       "key": "202106",
                       "value": 10499,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 10499,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 10499,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 10499,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -8069,7 +7915,7 @@
               "implementation_detail": {
                 "programme_name": "Services sector development incentives",
                 "status": "OnTrack",
-                "detail": "The department has exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March. Most the employed participants are youth and they are engaged in non-complex jobs and complex jobs with the global business services sector."
+                "detail": "The department exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March. Most the employed participants are youth and they are engaged in non-complex jobs and complex jobs with the global business services sector."
               }
             }
           ],
@@ -8094,7 +7940,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Health",
       "sheet_name": "DoH",
       "lead": "Primary Health Care is at the frontline of the battle against Covid-19",
@@ -8139,145 +7985,36 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 2000.0,
               "implementation_detail": {
                 "programme_name": "Community Health Workers",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme was not implemented."
               }
             },
             {
@@ -8289,145 +8026,36 @@
                   "name": "Opportunities in post by Province",
                   "viz": "bar",
                   "lookup": "province",
-                  "values": [
-                    {
-                      "key": "EC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "FS",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "GP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "KZN",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "LP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "MP",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NW",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "NC",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "WC",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Employed over time",
                   "viz": "line",
                   "lookup": "time",
-                  "values": [
-                    {
-                      "key": "202010",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202011",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202012",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202101",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202102",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202103",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202104",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202105",
-                      "value": 0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "202106",
-                      "value": 0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities by Gender",
                   "viz": "two_value",
                   "lookup": "gender",
-                  "values": [
-                    {
-                      "key": "Male",
-                      "value": 0.0,
-                      "value_target": null
-                    },
-                    {
-                      "key": "Female",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 },
                 {
                   "name": "Opportunities going to 18-35 year olds",
                   "viz": "percentile",
                   "lookup": "age",
-                  "values": [
-                    {
-                      "key": "18-35",
-                      "value": 0.0,
-                      "value_target": null
-                    }
-                  ],
-                  "data_missing": false
+                  "values": [],
+                  "data_missing": true
                 }
               ],
               "value_target": 1250.0,
               "implementation_detail": {
                 "programme_name": "Outreach Team Leaders",
                 "status": "CriticalChallenges",
-                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+                "detail": "The department faced severe constraints related to rollout in the timeframes and the programme was not implemented."
               }
             },
             {
@@ -8537,6 +8165,21 @@
                       "key": "202106",
                       "value": 2626,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 2626,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 2626,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 2626,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -8577,7 +8220,7 @@
               "implementation_detail": {
                 "programme_name": "Enrolled nurses",
                 "status": "OnTrack",
-                "detail": "The programme concludes at the end of March and has exceeded its target for job creation for nurses. The appointed nurses have provided a range of primary health care services in public facilities. Several provinces intend to continue fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
+                "detail": "The programme concluded at the end of March and exceeded its target for job creation for nurses. The appointed nurses have provided a range of primary health care services in public facilities. Several provinces intend to continue fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
               }
             },
             {
@@ -8687,6 +8330,21 @@
                       "key": "202106",
                       "value": 2132,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 2132,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 2132,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 2132,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -8727,7 +8385,7 @@
               "implementation_detail": {
                 "programme_name": "Auxiliary nurses",
                 "status": "OnTrack",
-                "detail": "The department concludes this programme at the end of March with an exceeded target for appointed auxiliary nurses. These nurses have supporting various services in public health facilities as part of the response to COVID-19."
+                "detail": "The department concluded this programme at the end of March with an exceeded target for appointed auxiliary nurses. These nurses have supported various services in public health facilities as part of the response to COVID-19."
               }
             }
           ],
@@ -8752,7 +8410,7 @@
       "implementation_details": []
     },
     {
-      "month": "202106",
+      "month": "202109",
       "name": "Transport",
       "sheet_name": "DoT",
       "lead": "Improving access to services and opportunities for people in rural areas",
@@ -8800,12 +8458,12 @@
                   "values": [
                     {
                       "key": "EC",
-                      "value": 169,
+                      "value": 1449,
                       "value_target": null
                     },
                     {
                       "key": "FS",
-                      "value": 883,
+                      "value": 833,
                       "value_target": null
                     },
                     {
@@ -8825,7 +8483,7 @@
                     },
                     {
                       "key": "MP",
-                      "value": 303,
+                      "value": 265,
                       "value_target": null
                     },
                     {
@@ -8895,6 +8553,21 @@
                       "key": "202106",
                       "value": 10245,
                       "value_target": null
+                    },
+                    {
+                      "key": "202107",
+                      "value": 10245,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202108",
+                      "value": 10245,
+                      "value_target": null
+                    },
+                    {
+                      "key": "202109",
+                      "value": 10245,
+                      "value_target": null
                     }
                   ],
                   "data_missing": false
@@ -8935,7 +8608,7 @@
               "implementation_detail": {
                 "programme_name": "Rural roads maintenance",
                 "status": "OnTrack",
-                "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects are in implementation and appointed participants are contributing to the maintenance of rural roads. To date, 4334 km of roads have maintained."
+                "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, 4,334 kms of rural roads have been maintained in the provinces."
               }
             }
           ],
