@@ -36,7 +36,7 @@ export class VizBars {
   render() {
     const $el = $containerTemplate.clone(true, true);
     this._rows.forEach((row) => {
-      if (!this._hideZeros || (this._hideZeros && row.value !== 0)) {
+      if (!this._hideZeros || (this._hideZeros && row.value_target !== 0 )) {
         const width = Math.round((row.value / this._max) * 100);
         const target = Math.round((row.value_target / this._max) * 100);
         // NOTE: removed display of target
