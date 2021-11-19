@@ -171,7 +171,7 @@ Promise.all([
     }
   });
 
-
+  Webflow.require('ix2').init();
   tabs.select(0);
   $(TEMPORARY_HIDDEN_SELECTOR).show();
 });

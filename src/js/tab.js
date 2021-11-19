@@ -29,7 +29,6 @@ export class Tab {
       display: on ? 'block' : 'none',
       opacity: on ? 1 : 0,
     }, on ? 500 : 0);
-    Webflow.require('ix2').init();
   }
 
   get $menuItem() {
