@@ -2,20 +2,25 @@ import $ from 'jquery';
 
 const MENU_ITEM_SELECTOR = '.tabs-wrapper a';
 const CONTENT_PANE_SELECTOR = '.tab-pane';
+const OVERVIEW_MENU_ITEM = ".is--overview"
+const DEPARTMENT_MENU_ITEM = ".tab.is--department"
 
 const SELECTED_MENU_ITEM_CLASS = 'w--current';
 const SELECTED_CONTENT_PANE_CLASS = 'w--tab-active';
 
-const $menuItemTemplate = $(MENU_ITEM_SELECTOR).first().clone(true, true);
+const $overviewMenuItemTemplate = $(MENU_ITEM_SELECTOR + OVERVIEW_MENU_ITEM).first().clone(true, true);
+const $departmentMenuItemTemplate = $(MENU_ITEM_SELECTOR + DEPARTMENT_MENU_ITEM).first().clone(true, true);
+
 const $contentPaneTemplate = $(CONTENT_PANE_SELECTOR).first().clone(true, true);
 $contentPaneTemplate.removeAttr('data-w-tab');
 
 export class Tab {
-  constructor(menuSelector, contentSelector, title, selectCallback) {
+  constructor(menuSelector, contentSelector, title, selectCallback, tabType) {
     this._menuSelector = menuSelector;
     this._contentSelector = contentSelector;
     this._title = title;
     this.selectCallback = selectCallback;
+    this.tabType = tabType;
     this.render();
   }
 
@@ -32,7 +37,7 @@ export class Tab {
   }
 
   get $menuItem() {
-    return this._$menuIteml;
+    return this._$menuItem;
   }
 
   get $contentPane() {
@@ -44,8 +49,13 @@ export class Tab {
   }
 
   render() {
-    this._$menuItem = $menuItemTemplate.clone(true, true);
-    this._$menuItem.find('div').text(this._title);
+    if (this.tabType === "overview") {
+      this._$menuItem = $overviewMenuItemTemplate.clone(true, true);
+    } else {
+      this._$menuItem = $departmentMenuItemTemplate.clone(true, true);
+    }
+    this._$menuItem.find('.tab__text').text(this._title + "FOOO");
+    console.log(this._$menuItem);
     $(this._menuSelector).append(
       this._$menuItem,
     );

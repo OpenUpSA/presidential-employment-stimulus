@@ -16,7 +16,7 @@ const icons = Object.keys(ICON_SELECTORS).reduce((obj, key) => ({
   [key]: $(ICON_SELECTORS[key]).clone(true, true),
 }), {});
 
-const CONTAINER_SELECTOR = '.components .feature-value__inner';
+const CONTAINER_SELECTOR = '.block .feature-value';
 const NAME_SELECTOR = '.feature-value__label';
 const ICON_CONTAINER_SELECTOR = '.feature-value__header_icon-wrapper';
 const VALUE_SELECTOR = '.feature-value__amount';
@@ -79,7 +79,6 @@ export class Metric {
   render() {
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
-    console.log(this._iconType);
     const $icon = icons[this._iconType].clone(true, true);
     this._$el.find(ICON_CONTAINER_SELECTOR).append($icon);
     this._$el.find(NAME_SELECTOR).text(this._title);
