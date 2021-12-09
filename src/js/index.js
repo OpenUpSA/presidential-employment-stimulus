@@ -16,6 +16,7 @@ import { VizLine } from './viz-line';
 import { NoData } from "./nodata";
 import { ImplementationDetail } from './implementation-detail';
 import { organizeByZero, fillInMissingSections } from './utils';
+import { BeneficiaryStories} from "./beneficiary-stories";
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -80,6 +81,15 @@ Promise.all([
     tabs.add(tab);
     const months_text = lookups["time"][tabData.month];
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text);
+    const beneficiaries = [
+      {
+        name: "Nomthandazo Shezi",
+        blurb: "Tough times, but this lady’s not a quitter",
+        paragraph: "Getting into farming has been a bit of a baptism by fire for Nomthandazo  Shezi, but she is determined to make it in the poultry business. After all people always wants eggs, writes Thobani Ngomane. ",
+        picture_url: "data/images/NomthandazoShezi.jpg"
+      },
+    ]
+    new BeneficiaryStories(tab.$container, beneficiaries);
     const sectionDataArr = tabData.sections || [];
     sectionDataArr.forEach((sectionData) => {
       if (sectionData.metrics.length !== 0) {
