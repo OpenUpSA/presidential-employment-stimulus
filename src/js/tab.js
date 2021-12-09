@@ -55,7 +55,7 @@ export class Tab {
       this._$menuItem = $departmentMenuItemTemplate.clone(true, true);
     }
     this._$menuItem.find('.tab__text').text(this._title + "FOOO");
-    console.log(this._$menuItem);
+    // console.log(this._$menuItem);
     $(this._menuSelector).append(
       this._$menuItem,
     );
