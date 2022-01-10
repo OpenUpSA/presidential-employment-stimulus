@@ -17,8 +17,6 @@ export class StoryCard {
     }
 
     select(on) {
-        console.log("got here", on);
-        $(".story-modal").css('display', on ? "block" : "none");
         this.$modal.animate({
            display: on ? "block" : "none",
            opacity: on ? 1 : 0
@@ -28,7 +26,6 @@ export class StoryCard {
     render() {
         const $el = cardTemplate.clone(true, true);
         $el.find('.story-title').text(this.blurb);
-        console.log(this.picture_url);
         $el.find('.story-image').attr('src', "url(" + this.picture_url + ")");
         $el.find('.story-description').text(this.paragraph);
         $el.on("click", () => {
@@ -40,7 +37,7 @@ export class StoryCard {
         $modal.find(".story-title").text("AAAAAA");
         $modal.find(".story-image").attr('src', this.picture_url);
         $modal.find(".story-description").text(this.paragraph);
-        this.$parent.append($modal);
+        $('body').append($modal);
         this.$modal = $modal;
         this.select(false);
         $modal.on("click", () => {
