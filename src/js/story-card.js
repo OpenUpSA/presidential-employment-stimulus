@@ -41,8 +41,6 @@ export class StoryCard {
 
         this.$parent.append($el);
 
-        this.select(false, $modal);
-
-        
+        this.select(false, $modal);        
     }
 }
