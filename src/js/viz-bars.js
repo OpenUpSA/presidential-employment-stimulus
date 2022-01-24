@@ -36,6 +36,7 @@ export class VizBars {
   }
 
   render() {
+
     const $el = $containerTemplate.clone(true, true);
     this._rows.forEach((row) => {
       if (!this._hideZeros || (this._hideZeros && row.value_target !== 0 )) {

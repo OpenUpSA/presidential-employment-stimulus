@@ -50,6 +50,8 @@
     "job_opportunities": "jobs-created",
     "Jobs created": "jobs-created",
     "livelihoods": "support",
-    "Livelihoods supported": "jobs-retained"
+    "Livelihoods supported": "jobs-retained",
+    "Jobs retained": "jobs-retained",
+    "jobs_retain": "jobs-retained"
   }
 }

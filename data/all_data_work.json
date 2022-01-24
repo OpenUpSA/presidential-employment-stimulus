@@ -240,6 +240,17 @@
                 "data_missing": false
               }
             ],
+            "viz_type": "full",
+            "phases": [
+              {
+                "value": 2123,
+                "value_target": 3123
+              },
+              {
+                "value": 1234,
+                "value_target": 4234
+              }
+            ],
             "value_target": 434237.0,
             "implementation_detail": null
           },
@@ -380,13 +391,24 @@
                 "data_missing": false
               }
             ],
+            "viz_type": "full",
+            "phases": [
+              {
+                "value": 2123,
+                "value_target": 3123
+              },
+              {
+                "value": 1234,
+                "value_target": 4234
+              }
+            ],
             "value_target": 199173.0,
             "implementation_detail": null
           },
           {
             "name": "Beneficiaries by province",
             "metric_type": "targets_count",
-            "value": -1,
+            "value": 12,
             "dimensions": [
               {
                 "name": "Beneficiaries by province",
@@ -440,6 +462,17 @@
                   }
                 ],
                 "data_missing": false
+              }
+            ],
+            "viz_type": "full",
+            "phases": [
+              {
+                "value": 1,
+                "value_target": 3123
+              },
+              {
+                "value": 1234,
+                "value_target": 4234
               }
             ],
             "value_target": -1,
