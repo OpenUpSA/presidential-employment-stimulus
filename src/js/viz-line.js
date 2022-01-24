@@ -18,10 +18,11 @@ const marginPercent = (MARGIN / HEIGHT) * 100;
 const maxPercent = 100 - marginPercent;
 
 export class VizLine {
-  constructor($parent, values, lookup) {
+  constructor($parent, values, lookup, phase) {
     this._$parent = $parent;
     this._values = values;
     this._lookup = lookup;
+    this._phase = phase;
     this.render();
   }
 
@@ -44,6 +45,9 @@ export class VizLine {
         .on('mouseover', () => $tooltip.show())
         .on('mouseout', () => $tooltip.hide());
       $period.find(MARKER_SELECTOR).css('margin-bottom', `${record.height}px`);
+
+      
+
       if (i !== 0) {
         const x1 = 2;
         const x2 = 98;
@@ -56,6 +60,14 @@ export class VizLine {
           'background-size': '100% 100%',
         });
       }
+      
+      // PHASE 2 ?
+      // TODO: This will need to change for the overview
+
+      if(this._phase == 2) {
+        $period.find(MARKER_SELECTOR).css('background-color','#f5821f');
+      }
+
       $graph.append($period);
     });
     this._$parent.append($graph);

@@ -36,5 +36,20 @@
     "202107": "Jul '21",
     "202108": "Aug '21",
     "202109": "Sep '21"
+  },
+  "icon": {
+    "Budget": "budget",
+    "Total budget allocated": "budget",
+    "Beneficiaries": "beneficiaries",
+    "Total beneficiaries assisted": "beneficiaries",
+    "Beneficiaries by province": "beneficiaries",
+    "Female beneficiaries": "female",
+    "Total female beneficiaries": "female",
+    "Total youth beneficiaries": "youth",
+    "Youth beneficiaries": "youth",
+    "job_opportunities": "jobs-created",
+    "Jobs created": "jobs-created",
+    "livelihoods": "support",
+    "Livelihoods supported": "jobs-retained"
   }
 }

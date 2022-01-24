@@ -1,16 +1,24 @@
 import { d3 } from './d3';
 import { formatPercentage } from './utils';
 
-const COLORS = {
-  done: 'rgb(5,65,104)',
-  notdone: 'rgb(220,220,220)',
-  exceeded: 'rgb(37, 120, 75)',
-};
+const COLORS = [
+  {
+    done: 'rgb(5,65,104)',
+    notdone: 'rgb(220,220,220)',
+    exceeded: 'rgb(37, 120, 75)',
+  },
+  {
+    done: '#f5821f',
+    notdone: 'rgb(220,220,220)',
+    exceeded: 'rgb(37, 120, 75)',
+  }
+];
 
 export class VizProgress {
-  constructor(parentSelector, quotient) {
+  constructor(parentSelector, quotient, phase) {
     this._parentSelector = parentSelector;
     this._quotient = quotient;
+    this._phase = phase;
     this.render();
   }
 
@@ -85,7 +93,7 @@ export class VizProgress {
       .attr('d', d3.arc()
         .innerRadius((d) => radius - (margin * (d.data.key === 'exceeded' ? 1.5 : 1)))
         .outerRadius((d) => radius - (d.data.key === 'exceeded' ? margin + 1 : 0)))
-      .attr('fill', (d) => COLORS[d.data.key])
+      .attr('fill', (d) => (this._phase == undefined || this._phase == 1) ? COLORS[0][d.data.key] : COLORS[this._phase - 1][d.data.key])
       .style('stroke-width', 0);
   }
 }

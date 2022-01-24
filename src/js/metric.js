@@ -77,6 +77,7 @@ export class Metric {
   }
 
   render() {
+
     this._$el = $containerTemplate.clone(true, true);
     this._$parent.append(this._$el);
     const $icon = icons[this._iconType].clone(true, true);

@@ -6,9 +6,10 @@ const MODAL_SELECTOR=".block.is--story .is--story-modal";
 const cardTemplate = $(CARD_SELECTOR).first().clone(true, true);
 // const modalTemplate = $(MODAL_SELECTOR).first().clone(true, true);
 export class StoryCard {
-    constructor($parent, name, blurb, paragraph, picture_url) {
+    constructor($parent, name, department, blurb, paragraph, picture_url) {
         this.$parent = $parent;
         this.name = name;
+        this.department = department;
         this.blurb = blurb;
         this.paragraph = paragraph;
         this.picture_url = picture_url;
@@ -30,6 +31,7 @@ export class StoryCard {
     render() {
         const $el = cardTemplate.clone(true, true);
         $el.find('.story-title').text(this.blurb);
+        $el.find('.story-department').text(this.department);
         $el.find('.story-image').attr('srcset', this.picture_url);
         $el.find('.story-description').text(this.paragraph);
 

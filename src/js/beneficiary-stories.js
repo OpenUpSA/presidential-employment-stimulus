@@ -20,6 +20,7 @@ export class BeneficiaryStories {
         this.beneficiaries.forEach(beneficiary => {
            const $card = new StoryCard($thirds_grid,
                beneficiary.name,
+               beneficiary.department,
                beneficiary.blurb,
                beneficiary.paragraph,
                beneficiary.picture_url)

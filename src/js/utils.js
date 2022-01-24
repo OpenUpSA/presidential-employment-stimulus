@@ -33,6 +33,7 @@ export const FORMATTERS = {
   job_opportunities: formatCount,
   livelihoods: formatCount,
   jobs_retain: formatCount,
+  targets_count: formatPercentage
 };
 
 export function organizeByZero(array) {
