@@ -6,7 +6,7 @@ import { VizProgress } from './viz-progress';
 const ICONS_SELECTOR = '.icons';
 const $iconsTemplate = $(ICONS_SELECTOR).first().clone(true, true);
 
-export class VizShout {
+export class VizHeader {
   constructor(lookups, $parent, section_type, metric_type, title, value, target_value, show_progress, hide_values) {
     this._lookups = lookups;
     this._$parent = $parent;
