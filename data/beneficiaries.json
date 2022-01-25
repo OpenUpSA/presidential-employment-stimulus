@@ -4,7 +4,7 @@
         "department": "Basic Education",
         "blurb": "Basic Education Story",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "picture_url": "beneficiary-story.jpeg",
+        "picture_url": "data/beneficiary-story.jpeg",
         "featured": true
     },
     {
@@ -12,7 +12,7 @@
         "department": "Agriculture, Land Reform and Rural Development",
         "blurb": "Agriculture, Land Reform and Rural Development Story",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "picture_url": "beneficiary-story.jpeg",
+        "picture_url": "data/beneficiary-story.jpeg",
         "featured": true
     },
     {
@@ -20,7 +20,7 @@
         "department": "Social Development",
         "blurb": "Social Development Story",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "picture_url": "beneficiary-story.jpeg",
+        "picture_url": "data/beneficiary-story.jpeg",
         "featured": false
     }
 ]
