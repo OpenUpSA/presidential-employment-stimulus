@@ -34,6 +34,7 @@ export class Section {
       $header = $overviewHeaderTemplate.clone(true,true);
       $header.find('.phase-legend__date').text(this._tab_data.phase_dates[1].date);
       $header.find('.phase-legend__date').first().text(this._tab_data.phase_dates[0].date);
+      $header.css('margin-top', 0);
     }
 
     $header.find('.header__label').text(''); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")

@@ -102,7 +102,7 @@ export class VizPhased {
                 if(this._phases[phase - 1].value_target != undefined) {
                     $phase.find('.feature-value__value-description').text(formatter(this._phases[phase - 1].value_target));
                 } else {
-                    $phase.find('.feature-value__value-description').hide();
+                    $phase.find('.feature-value__value-description').text('');
                 }
 
                 let $progressContainer = $phase.find('.feature-value__header_chart-wrapper');

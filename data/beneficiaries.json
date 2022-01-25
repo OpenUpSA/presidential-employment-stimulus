@@ -1,9 +1,26 @@
 [
     {
         "name": "Nomthandazo Shezi",
-        "department": "DBE",
-        "blurb": "Tough times, but this lady’s not a quitter",
-        "paragraph": "Getting into farming has been a bit of a baptism by fire for Nomthandazo  Shezi, but she is determined to make it in the poultry business. After all people always wants eggs, writes Thobani Ngomane. ",
-        "picture_url": "./3E1A9187-p-500.82cc7bc1.jpeg"
+        "department": "Basic Education",
+        "blurb": "Basic Education Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "3E1A9187-p-500.82cc7bc1.jpeg",
+        "featured": true
+    },
+    {
+        "name": "Samuel Ndlovu",
+        "department": "Agriculture, Land Reform and Rural Development",
+        "blurb": "Agriculture, Land Reform and Rural Development Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "3E1A9187-p-500.82cc7bc1.jpeg",
+        "featured": true
+    },
+    {
+        "name": "Lerato September",
+        "department": "Social Development",
+        "blurb": "Social Development Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "3E1A9187-p-500.82cc7bc1.jpeg",
+        "featured": false
     }
 ]

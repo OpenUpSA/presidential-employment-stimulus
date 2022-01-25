@@ -23,13 +23,17 @@ export class VizBars {
     this._$parent = $parent;
     this._rows = rows;
     this._lookup = lookup;
+
     const maxValue = this._rows
       .map((row) => row.value)
       .reduce((max, curr) => Math.max(max, curr), 0);
+    
     const maxTarget = this._rows
-      .map((row) => (row.value_target ? row.value_target : 0))
-      .reduce((max, curr) => Math.max(max, curr), 0);
+    .map((row) => (row.value_target ? row.value_target : 0))
+    .reduce((max, curr) => Math.max(max, curr), 0);
+  
     this._max = Math.max(maxValue, maxTarget);
+
     this._hideZeros = hideZeros;
     this._phase = phase;
     this.render();
@@ -38,44 +42,101 @@ export class VizBars {
   render() {
 
     const $el = $containerTemplate.clone(true, true);
-    this._rows.forEach((row) => {
-      if (!this._hideZeros || (this._hideZeros && row.value_target !== 0 )) {
-        const width = Math.round((row.value / this._max) * 100);
-        const target = Math.round((row.value_target / this._max) * 100);
 
-        // NOTE: removed display of target
-        // const $row = (row.value_target ? $rowTemplateWithTarget : $rowTemplateNoTarget)
-        //   .clone(true, true);
+    let allValues = [];
+
+    this._rows.forEach((row) => {
+
+      if(row.values) {
+
+        let valueSum = 0;
+
+        row.values.forEach((point) => {
+          valueSum = valueSum + point.value;
+        })
+
+        allValues.push(valueSum);
+
+      }
+
+    })
+
+
+    this._rows.forEach((row) => {
+
+      if (!this._hideZeros || (this._hideZeros && row.value_target !== 0 )) {
+
+        let width = [];
+        let valueText = 0;
+        
+        if(row.values) {
+
+          let maxValue = allValues
+            .map((row) => row)
+            .reduce((max, curr) => Math.max(max, curr), 0);
+
+          row.values.forEach((point) => {
+            width.push(Math.round((point.value / maxValue) * 100));
+            valueText = valueText + point.value;
+          })
+
+        } else {
+
+          width.push(Math.round((row.value / this._max) * 100));
+          valueText = row.value;
+          
+        }
         
         const $row = $rowTemplateNoTarget.clone(true, true);
-
-        if(this._phase == 2) {
-          $row.find(BAR_SELECTOR).not(BAR_SELECTOR_PHASED).css('background-color','transparent');
-          $row.find(BAR_SELECTOR).width(`${width}%`);
-          $row.find(BAR_SELECTOR_PHASED).width('100%');
-        } else if (this._phase == 1) {
-          $row.find(BAR_SELECTOR_PHASED).remove();
-          $row.find(BAR_SELECTOR).width(`${width}%`);
-        } else {
-          $row.find(BAR_SELECTOR).width(`${width}%`);
-        }
-       
         
-        // $row.find(BAR_TARGET_SELECTOR).css('left', `${target}%`);
-        // const $targetTooltip = $row.find(BAR_TARGET_TOOLTIP_SELECTOR).text(`TARGET: ${FORMATTERS.count(row.value_target)}`);
-        // $row.find(ROW_INNER_SELECTOR)
-        //     .on('mouseover', () => $targetTooltip.show() )
-        //     .on('mouseout', () => $targetTooltip.hide() );
+        if(row.values) {
+
+          $row.find(BAR_SELECTOR).width(`${width[0]}%`);
+          
+          let $phase2Bar = $row.find(BAR_SELECTOR_PHASED).clone(true,true);
+          
+          $phase2Bar.width(`${width[1]}%`).css('left','-10px');
+          
+          $row.find(BAR_SELECTOR_PHASED).remove();
+
+          $phase2Bar.insertBefore($row.find(BAR_VAL_LABEL_SELECTOR));
+
+
+        } else {
+
+            if(this._phase == 1) {
+
+              $row.find(BAR_SELECTOR).not(BAR_SELECTOR_PHASED).css('background-color','transparent');
+              $row.find(BAR_SELECTOR).width(`${width[0]}%`);
+              $row.find(BAR_SELECTOR_PHASED).width('100%');
+
+            } else if (this._phase == 0) {
+
+              $row.find(BAR_SELECTOR_PHASED).remove();
+              $row.find(BAR_SELECTOR).width(`${width[0]}%`);
+            
+            } else {
+                
+              $row.find(BAR_SELECTOR).width(`${width[0]}%`);
+              
+            }
+
+        }
         
         const $label = $row.find(BAR_CAT_LABEL_SELECTOR).text(row.key.toUpperCase());
         const $tooltip = $row.find(BAR_TOOLTIP_SELECTOR).text(this._lookup[row.key]);
+
         $label
-            .on('mouseover', () => $tooltip.show())
-            .on('mouseout', () => $tooltip.hide());
-        $row.find(BAR_VAL_LABEL_SELECTOR).text(FORMATTERS.count(row.value));
+          .on('mouseover', () => $tooltip.show())
+          .on('mouseout', () => $tooltip.hide());
+
+        $row.find(BAR_VAL_LABEL_SELECTOR).text(FORMATTERS.count(valueText));
+
         $el.append($row);
+
       }
     });
+
     this._$parent.append($el);
   }
 }

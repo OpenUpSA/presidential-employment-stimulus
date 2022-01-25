@@ -30,11 +30,11 @@
             "phases": [
               {
                 "value": 123,
-                "value_target": 123
+                "value_target": null
               },
               {
                 "value": 234,
-                "value_target": 234
+                "value_target": null
               }
             ]
           },
@@ -115,58 +115,29 @@
                 "values": [
                   {
                     "key": "DBE",
-                    "value": 319482,
-                    "value_target": 300000.0
+                    "values": [
+                      {
+                        "value": 400,
+                        "value_target": null
+                      },
+                      {
+                        "value": 400,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "DFFE",
-                    "value": 39631,
-                    "value_target": 50311.0
-                  },
-                  {
-                    "key": "DTIC",
-                    "value": 10499,
-                    "value_target": 8000.0
-                  },
-                  {
-                    "key": "DoT",
-                    "value": 10245,
-                    "value_target": 37079.0
-                  },
-                  {
-                    "key": "DoH",
-                    "value": 4758,
-                    "value_target": 5531.0
-                  },
-                  {
-                    "key": "DSAC",
-                    "value": 2177,
-                    "value_target": 4356.0
-                  },
-                  {
-                    "key": "DPWI",
-                    "value": 1881,
-                    "value_target": 1560
-                  },
-                  {
-                    "key": "DSI",
-                    "value": 1576,
-                    "value_target": 1900.0
-                  },
-                  {
-                    "key": "DALRRD",
-                    "value": 1464,
-                    "value_target": 0
-                  },
-                  {
-                    "key": "DCOGTA",
-                    "value": 0,
-                    "value_target": 25000.0
-                  },
-                  {
-                    "key": "DSD",
-                    "value": 0,
-                    "value_target": 500.0
+                    "values": [
+                      {
+                        "value": 200,
+                        "value_target": null
+                      },
+                      {
+                        "value": 100,
+                        "value_target": null
+                      }
+                    ]
                   }
                 ],
                 "data_missing": false
@@ -234,7 +205,26 @@
                   {
                     "key": "202109",
                     "value": 391713,
-                    "value_target": null
+                    "value_target": null,
+                    "phase": 2
+                  },
+                  {
+                    "key": "202201",
+                    "value": 391713,
+                    "value_target": null,
+                    "phase": 2
+                  },
+                  {
+                    "key": "202202",
+                    "value": 491713,
+                    "value_target": null,
+                    "phase": 2
+                  },
+                  {
+                    "key": "202203",
+                    "value": 510713,
+                    "value_target": null,
+                    "phase": 2
                   }
                 ],
                 "data_missing": false

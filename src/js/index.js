@@ -21,6 +21,7 @@ import { organizeByZero, fillInMissingSections } from './utils';
 import { BeneficiaryStories} from "./beneficiary-stories";
 import { FORMATTERS } from './utils';
 import { Phases } from './phases';
+import { filter } from 'd3-array';
 
 const TEMPORARY_HIDDEN_SELECTOR = '.tabs-wrapper';
 
@@ -74,7 +75,30 @@ Promise.all([
     
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, tabData.phases == undefined ? 0 : tabData.phases.length);
     
-    new BeneficiaryStories(tab.$container, beneficiaries);
+    let filteredBeneficiaries = [];
+
+    if(tabData.name != 'Programme overview') {
+
+      filteredBeneficiaries = beneficiaries.filter(function (story) {
+        return story.department === tabData.name
+      });
+
+    } else {
+
+      filteredBeneficiaries = beneficiaries.filter(function (story) {
+        return story.featured === true
+      });
+
+
+    }
+
+    console.log(filteredBeneficiaries);
+
+    if(filteredBeneficiaries.length > 0) {
+
+      new BeneficiaryStories(tab.$container, filteredBeneficiaries);
+
+    }
     
     let phases;
 
@@ -164,6 +188,7 @@ Promise.all([
               if (dimension.data_missing) {
                 
                 new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
+                
               } else {
 
                 const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
@@ -171,12 +196,14 @@ Promise.all([
                 new VizHeading(subSection.$container, dimension.name, hideHeading);
                 
                 if (dimension.viz === 'line') {
+                  
                   new VizLine(
                     subSection.$container,
                     dimension.values,
                     lookups[dimension.lookup],
-                    (phase + 1)
+                    phase
                   );
+
                 }
                 
                 if (dimension.viz === 'two_value') {
@@ -193,7 +220,9 @@ Promise.all([
                 }
                 
                 if (dimension.viz === 'percentile' || dimension.viz === 'count') {
+                  
                   const {value} = dimension.values[0];
+                  
                   new VizValue(
                       subSection.$container,
                       dimension.viz,
@@ -202,12 +231,15 @@ Promise.all([
                 }
                 
                 if (dimension.viz === 'bar') {
+                  
                   const hideZeros = sectionType === 'overview';
+                  
                   new VizBars(
                       subSection.$container,
                       dimension.values,
                       lookups[dimension.lookup],
-                      hideZeros
+                      hideZeros,
+                      phase
                   );
                 }
               
@@ -253,8 +285,8 @@ Promise.all([
             $performanceCta.find('.performance-cta__button-text').text('Explore Phase 2');
           }
 
-
           $phaseContent.append($performanceCta);
+
         }
       
       });

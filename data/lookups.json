@@ -20,7 +20,7 @@
     "DSAC": "Sports, Arts and Culture",
     "DoT": "Transport",
     "DPWI": "Public Works and Infrastructure",
-    "DEFF": "Environment, Forestry and Fisheries",
+    "DFFE": "Forestry, Fisheries and Environment",
     "DCOGTA": "Co-operative governance"
   },
   "time": {
@@ -35,7 +35,10 @@
     "202106": "Jun '21",
     "202107": "Jul '21",
     "202108": "Aug '21",
-    "202109": "Sep '21"
+    "202109": "Sep '21",
+    "202201": "Jan '22",
+    "202202": "Feb '22",
+    "202203": "Mar '22"
   },
   "icon": {
     "Budget": "budget",
