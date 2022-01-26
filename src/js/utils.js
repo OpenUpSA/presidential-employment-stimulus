@@ -33,6 +33,7 @@ export const FORMATTERS = {
   job_opportunities: formatCount,
   livelihoods: formatCount,
   jobs_retain: formatCount,
+  targets_count: formatPercentage
 };
 
 export function organizeByZero(array) {
@@ -79,3 +80,12 @@ export function fillInMissingSections(dimensions, has_vets) {
   }
   return newDimensions;
 }
+
+export function truncate(text, limit, after) {
+
+	var content = text.trim();
+	content = content.split(' ').slice(0, limit);
+	content = content.join(' ') + (after ? after : '');
+  return content;
+
+};

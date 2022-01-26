@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Nomthandazo Shezi",
+        "department": "Basic Education",
+        "blurb": "Basic Education Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "img/beneficiary-story.jpeg",
+        "featured": true
+    },
+    {
+        "name": "Samuel Ndlovu",
+        "department": "Basic Education",
+        "blurb": null,
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": null,
+        "featured": true
+    },
+    {
+        "name": "Samuel Ndlovu",
+        "department": "Agriculture, Land Reform and Rural Development",
+        "blurb": "Agriculture, Land Reform and Rural Development Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "img/Nonkuleko-Ngcobo.jpg",
+        "featured": true
+    },
+    {
+        "name": "Lerato September",
+        "department": "Social Development",
+        "blurb": "Social Development Story",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "picture_url": "img/Berg-Breede.jpg",
+        "featured": false
+    }
+]

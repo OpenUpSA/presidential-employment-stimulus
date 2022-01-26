@@ -90,7 +90,7 @@ section_titles = {
     SectionEnum.job_opportunities.name: "Jobs created",
     SectionEnum.jobs_retain.name: "Jobs retained",
     SectionEnum.livelihoods.name: "Livelihoods supported",
-    SectionEnum.targets.name + "_overview": "Programme targets",
+    SectionEnum.targets.name + "_overview": "Programme achievements",
     SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
     SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
     SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
