@@ -24,8 +24,6 @@ export class VizProgress {
 
   render() {
 
-    console.log('phase: ' + this._phase);
-
     const size = 56;
     const margin = 7;
     const radius = size / 2;
