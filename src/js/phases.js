@@ -89,16 +89,7 @@ export class Phases {
 
         })
 
-        $(CTA_BUTTON_SELECTOR).on('click', function() {
-
-            let tabs_menu = $(this).parent().parent().parent().parent().find('.phase-menu');
-            let tabs_content = $(this).parent().parent().parent();
-
-            console.log(tabs_menu);
-            console.log(tabs_content);
-
-
-        })
+        
 
 
 

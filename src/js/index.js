@@ -277,11 +277,13 @@ Promise.all([
             $performanceCta.find('.performance-cta__heading').text('This department is participating in phase 1 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
             $performanceCta.find('.performance-cta__text').text('Explore phase 1 performance');
             $performanceCta.find('.performance-cta__button-text').text('Explore Phase 1');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 1');
           } else {
             $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
             $performanceCta.find('.performance-cta__heading').text('This department is participating in phase 2 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
             $performanceCta.find('.performance-cta__text').text('Explore phase 2 performance');
             $performanceCta.find('.performance-cta__button-text').text('Explore Phase 2');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2');
           }
 
           $phaseContent.append($performanceCta);
@@ -330,4 +332,12 @@ Promise.all([
   tabs.select(0);
 
   $(TEMPORARY_HIDDEN_SELECTOR).show();
+
+  $('.button.is--performance-cta').on('click', function() {
+
+    let phase = $(this).attr('data-w-tab');
+    $(this).parents().eq(4).find('a.phase-tab[data-w-tab="' + phase + '"]').trigger('click');
+
+  })
+
 });
