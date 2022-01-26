@@ -1907,15 +1907,959 @@
               ],
               "value": null,
               "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [
+                {
+                  "name": "Vegetables and Fruits",
+                  "metric_type": "count",
+                  "value": 19877,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2970,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1247,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 1739,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 6169,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2413,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 3179,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1359,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 426,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 375,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202010",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202011",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202012",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202101",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202102",
+                          "value": 13648,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202103",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202104",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202105",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202106",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202107",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202108",
+                          "value": 19877,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202109",
+                          "value": 19877,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.23,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.77,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.59,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to disabled persons",
+                      "viz": "count",
+                      "lookup": "disabled",
+                      "values": [
+                        {
+                          "key": "disabled",
+                          "value": 284.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to military veterans",
+                      "viz": "count",
+                      "lookup": "vets",
+                      "values": [
+                        {
+                          "key": "vets",
+                          "value": 54.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Maize/soya/sugar/other production",
+                  "metric_type": "count",
+                  "value": 11071,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 1902,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 141,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 219,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 3509,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1888,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 3095,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 255,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 54,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 8,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202010",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202011",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202012",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202101",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202102",
+                          "value": 8492,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202103",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202104",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202105",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202106",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202107",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202108",
+                          "value": 11071,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202109",
+                          "value": 11071,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.22,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.78,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.05,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to disabled persons",
+                      "viz": "count",
+                      "lookup": "disabled",
+                      "values": [
+                        {
+                          "key": "disabled",
+                          "value": 142.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to military veterans",
+                      "viz": "count",
+                      "lookup": "vets",
+                      "values": [
+                        {
+                          "key": "vets",
+                          "value": 27.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Poultry: Layers and Boilers",
+                  "metric_type": "count",
+                  "value": 12835,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 3011,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 535,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 436,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 3731,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2089,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1439,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1320,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 197,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 77,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202010",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202011",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202012",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202101",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202102",
+                          "value": 8989,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202103",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202104",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202105",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202106",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202107",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202108",
+                          "value": 12835,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202109",
+                          "value": 12835,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.26,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.74,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.6,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to disabled persons",
+                      "viz": "count",
+                      "lookup": "disabled",
+                      "values": [
+                        {
+                          "key": "disabled",
+                          "value": 145.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to military veterans",
+                      "viz": "count",
+                      "lookup": "vets",
+                      "values": [
+                        {
+                          "key": "vets",
+                          "value": 51.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Small livestock",
+                  "metric_type": "count",
+                  "value": 8493,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2043,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 427,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 130,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1390,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 937,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 709,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1723,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 719,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 415,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202010",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202011",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202012",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202101",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202102",
+                          "value": 5488,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202103",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202104",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202105",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202106",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202107",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202108",
+                          "value": 8493,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202109",
+                          "value": 8493,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.38,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.62,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.61,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to disabled persons",
+                      "viz": "count",
+                      "lookup": "disabled",
+                      "values": [
+                        {
+                          "key": "disabled",
+                          "value": 130.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to military veterans",
+                      "viz": "count",
+                      "lookup": "vets",
+                      "values": [
+                        {
+                          "key": "vets",
+                          "value": 46.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Large livestock",
+                  "metric_type": "count",
+                  "value": 3873,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 464,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 564,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 73,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 715,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 380,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 524,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 849,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 253,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 51,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202010",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202011",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202012",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202101",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202102",
+                          "value": 2529,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202103",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202104",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202105",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202106",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202107",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202108",
+                          "value": 3873,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202109",
+                          "value": 3873,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.42,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.58,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.6,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to disabled persons",
+                      "viz": "count",
+                      "lookup": "disabled",
+                      "values": [
+                        {
+                          "key": "disabled",
+                          "value": 47.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to military veterans",
+                      "viz": "count",
+                      "lookup": "vets",
+                      "values": [
+                        {
+                          "key": "vets",
+                          "value": 25.0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
             }
           ],
-          "implementation_details": [
-            {
-              "programme_name": "Subsistence producer relief fund",
-              "status": "OnTrack",
-              "detail": "The process of verifying the 131 000 pre-approved applicants to validate the farmer activity reported continues. The process of issuing vouchers to approved and verified applicants had to pause pending rollover requests. With these now approved, vouchers are being issued again. The department has blacklisted certain suppliers that charged more than the pre-agreed prices for inputs, took a cut of the vouchers or disbursed cash instead of inputs for production. The payment turn-around time for suppliers is now just a few days, representing significant efficiency gains."
-            }
-          ]
+          "implementation_details": []
         }
       ]
     },
