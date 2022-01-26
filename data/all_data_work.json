@@ -24,18 +24,18 @@
           {
             "name": "Total budget allocated",
             "metric_type": "currency",
-            "value": -1,
+            "value": 3000000000,
             "dimensions": [],
             "value_target": 12634178000,
             "implementation_detail": null,
             "viz_type": "full",
             "phases": [
               {
-                "value": 123,
+                "value": 1000000000,
                 "value_target": null
               },
               {
-                "value": 234,
+                "value": 2000000000,
                 "value_target": null
               }
             ]
@@ -50,12 +50,12 @@
             "viz_type": "full",
             "phases": [
               {
-                "value": 2123,
-                "value_target": 3123
+                "value": 276419,
+                "value_target": 300000
               },
               {
-                "value": 1234,
-                "value_target": 4234
+                "value": 276419,
+                "value_target": 400000
               }
             ]
           },
@@ -235,12 +235,12 @@
             "viz_type": "full",
             "phases": [
               {
-                "value": 2123,
-                "value_target": 3123
+                "value": 78342,
+                "value_target": 80000
               },
               {
-                "value": 1234,
-                "value_target": 4234
+                "value": 313371,
+                "value_target": 200000
               }
             ],
             "value_target": 434237.0,
@@ -386,21 +386,21 @@
             "viz_type": "full",
             "phases": [
               {
-                "value": 2123,
-                "value_target": 3123
+                "value": 100634,
+                "value_target": 100000
               },
               {
-                "value": 1234,
-                "value_target": 4234
+                "value": 20000,
+                "value_target": 100000
               }
             ],
-            "value_target": 199173.0,
+            "value_target": 200000,
             "implementation_detail": null
           },
           {
             "name": "Beneficiaries by province",
             "metric_type": "targets_count",
-            "value": 12,
+            "value": 0.8,
             "dimensions": [
               {
                 "name": "Beneficiaries by province",
@@ -409,48 +409,120 @@
                 "values": [
                   {
                     "key": "EC",
-                    "value": 85200,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 85200,
+                        "value_target": null
+                      },
+                      {
+                        "value": 85200,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "FS",
-                    "value": 32276,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 32276,
+                        "value_target": null
+                      },
+                      {
+                        "value": 32276,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "GP",
-                    "value": 79279,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 79279,
+                        "value_target": null
+                      },
+                      {
+                        "value": 79279,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "KZN",
-                    "value": 116042,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 116042,
+                        "value_target": null
+                      },
+                      {
+                        "value": 116042,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "LP",
-                    "value": 72495,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 72495,
+                        "value_target": null
+                      },
+                      {
+                        "value": 72495,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "NW",
-                    "value": 39635,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 39635,
+                        "value_target": null
+                      },
+                      {
+                        "value": 39635,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "NC",
-                    "value": 17984,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 17984,
+                        "value_target": null
+                      },
+                      {
+                        "value": 17984,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "WC",
-                    "value": 43593,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 43593,
+                        "value_target": null
+                      },
+                      {
+                        "value": 43593,
+                        "value_target": null
+                      }
+                    ]
                   },
                   {
                     "key": "MP",
-                    "value": 43812,
-                    "value_target": null
+                    "values": [
+                      {
+                        "value": 43812,
+                        "value_target": null
+                      },
+                      {
+                        "value": 43812,
+                        "value_target": null
+                      }
+                    ]
                   }
                 ],
                 "data_missing": false
@@ -459,12 +531,12 @@
             "viz_type": "full",
             "phases": [
               {
-                "value": 1,
-                "value_target": 3123
+                "value": 0.5,
+                "value_target": 1
               },
               {
-                "value": 1234,
-                "value_target": 4234
+                "value": 0.8,
+                "value_target": 1
               }
             ],
             "value_target": -1,
@@ -1652,15 +1724,15 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 1000000000,
+                  "value_target": 2000000000,
                   "implementation_detail": null
                 },
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 57613.0,
+                  "value": 64232,
                   "dimensions": [],
-                  "value_target": 74626.0,
+                  "value_target": 75000,
                   "implementation_detail": null
                 }
               ],
