@@ -64,11 +64,11 @@ export class VizPhased {
             let $splitContainer = $phasedSplitTemplate.clone(true, true);
             $splitContainer.empty();
 
-            for (let phase = 1; phase <= this._phases.length; phase++) {
+            for (let phase = 0; phase < this._phases.length; phase++) {
 
                 let $phase = $phase1SplitTemplate.clone(true, true);
     
-                if(phase == 2) {
+                if(phase == 1) {
                     $phase = $phase2SplitTemplate.clone(true, true);
                 }
 
@@ -77,7 +77,7 @@ export class VizPhased {
                 
                 new VizProgress(
                     $progressContainer[0], 
-                    this._phases[phase - 1].value / this._phases[phase - 1].value_target,
+                    this._phases[phase].value / this._phases[phase].value_target,
                     phase
                 );
     
@@ -89,18 +89,18 @@ export class VizPhased {
 
         } else {
 
-            for (let phase = 1; phase <= this._phases.length; phase++) {
+            for (let phase = 0; phase < this._phases.length; phase++) {
 
                 let $phase = $phase1Template.clone(true, true);
     
-                if(phase == 2) {
+                if(phase == 1) {
                     $phase = $phase2Template.clone(true, true);
                 }
 
-                $phase.find('.feature-value__amount').text(formatter(this._phases[phase - 1].value));
+                $phase.find('.feature-value__amount').text(formatter(this._phases[phase].value));
 
-                if(this._phases[phase - 1].value_target != undefined) {
-                    $phase.find('.feature-value__value-description').text(formatter(this._phases[phase - 1].value_target));
+                if(this._phases[phase].value_target != undefined) {
+                    $phase.find('.feature-value__value-description').text('Target: ' + formatter(this._phases[phase].value_target));
                 } else {
                     $phase.find('.feature-value__value-description').text('');
                 }
@@ -113,7 +113,7 @@ export class VizPhased {
                 } else {
                     new VizProgress(
                         $progressContainer[0], 
-                        this._phases[phase - 1].value / this._phases[phase - 1].value_target,
+                        this._phases[phase].value / this._phases[phase].value_target,
                         phase
                     );
                 }

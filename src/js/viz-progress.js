@@ -23,6 +23,9 @@ export class VizProgress {
   }
 
   render() {
+
+    console.log('phase: ' + this._phase);
+
     const size = 56;
     const margin = 7;
     const radius = size / 2;
@@ -93,7 +96,7 @@ export class VizProgress {
       .attr('d', d3.arc()
         .innerRadius((d) => radius - (margin * (d.data.key === 'exceeded' ? 1.5 : 1)))
         .outerRadius((d) => radius - (d.data.key === 'exceeded' ? margin + 1 : 0)))
-      .attr('fill', (d) => (this._phase == undefined || this._phase == 1) ? COLORS[0][d.data.key] : COLORS[this._phase - 1][d.data.key])
+      .attr('fill', (d) =>  COLORS[this._phase][d.data.key] )
       .style('stroke-width', 0);
   }
 }

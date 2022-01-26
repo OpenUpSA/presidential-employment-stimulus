@@ -92,8 +92,6 @@ Promise.all([
 
     }
 
-    console.log(filteredBeneficiaries);
-
     if(filteredBeneficiaries.length > 0) {
 
       new BeneficiaryStories(tab.$container, filteredBeneficiaries);
@@ -167,6 +165,7 @@ Promise.all([
                 subSectionData.value_target,
                 sectionType == 'targets' ? true : false,
                 sectionType == 'targets' ? false : true,
+                phase
               );
 
             }

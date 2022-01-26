@@ -7,7 +7,7 @@ const ICONS_SELECTOR = '.icons';
 const $iconsTemplate = $(ICONS_SELECTOR).first().clone(true, true);
 
 export class VizHeader {
-  constructor(lookups, $parent, section_type, metric_type, title, value, target_value, show_progress, hide_values) {
+  constructor(lookups, $parent, section_type, metric_type, title, value, target_value, show_progress, hide_values, phase) {
     this._lookups = lookups;
     this._$parent = $parent;
     this._section_type = section_type;
@@ -17,6 +17,7 @@ export class VizHeader {
     this._target_value = target_value;
     this._show_progress = show_progress;
     this._hide_values = hide_values;
+    this._phase = phase;
 
     this.render();
 
@@ -24,9 +25,6 @@ export class VizHeader {
 
     render() {
 
-        // HEADING OF METRIC BOX
-
-        // ENTIRE CHARTS BLOCK
 
         let $featureBlock = $('.feature-value').first().clone(true, true);
         let $featureValue = $featureBlock.find('.feature-value__header').not('.feature-value__header.is--phased');
@@ -81,7 +79,9 @@ export class VizHeader {
                 $progressContainer.remove();
             } else {
                 new VizProgress(
-                $progressContainer[0], this._value / this._target_value
+                    $progressContainer[0],
+                    this._value / this._target_value,
+                    this._phase
                 );
             } 
         } else {
