@@ -10,7 +10,8 @@ const $contentGridTemplate = $(CONTENT_GRID_SELECTOR).first().clone(true, true);
 const $overviewHeaderTemplate = $('.header.is--legend').first().clone(true,true);
 
 export class Section {
-  constructor($parent, title, lead, paragraph, section_type, phase_legend, tabData) {
+  constructor(lookups, $parent, title, lead, paragraph, section_type, phase_legend, tabData) {
+    this._lookups = lookups;
     this._$parent = $parent;
     this._title = title;
     this._lead = lead;
@@ -32,8 +33,8 @@ export class Section {
 
     if(this._phase_legend) {
       $header = $overviewHeaderTemplate.clone(true,true);
-      $header.find('.phase-legend__date').text(this._tab_data.phase_dates[1].date);
-      $header.find('.phase-legend__date').first().text(this._tab_data.phase_dates[0].date);
+      $header.find('.phase-legend__date').text(this._lookups.time[this._tab_data.phase_dates[1].start] + ' - Present');
+      $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0].start] + ' - ' + this._lookups.time[this._tab_data.phase_dates[0].end]);
       $header.css('margin-top', 0);
     }
 

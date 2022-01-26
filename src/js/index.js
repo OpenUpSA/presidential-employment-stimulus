@@ -126,9 +126,9 @@ Promise.all([
           let section;
 
           if(tabData.name == 'Programme overview') {
-            section = new Section(tab.$container, sectionData.name, '', '', sectionData.section_type, true, tabData);
+            section = new Section(lookups, tab.$container, sectionData.name, '', '', sectionData.section_type, true, tabData);
           } else {
-            section = new Section($phaseContent, sectionData.name, '', '', sectionData.section_type);
+            section = new Section(null, $phaseContent, sectionData.name, '', '', sectionData.section_type);
           }
 
           const sectionType = sectionData.section_type;
@@ -292,7 +292,7 @@ Promise.all([
 
       if (typeof phasesArr[phase].implementation_details !== 'undefined' && phasesArr[phase].implementation_details.length > 0) {
         
-        new Section($phaseContent, 'Implementation status reports', '', '', '');
+        new Section(null, $phaseContent, 'Implementation status reports', '', '', '');
         
         phasesArr[phase].implementation_details.forEach((implData) => {
         

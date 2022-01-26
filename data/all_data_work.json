@@ -8,10 +8,12 @@
     "footer_paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "phase_dates": [
       {
-        "date": "Jan '21 - Dec '21"
+        "start": "202101",
+        "end": "202112"
       },
       {
-        "date": "Jan '22 - Present"
+        "start": "202201",
+        "end": null
       }
     ],
     "sections": [
