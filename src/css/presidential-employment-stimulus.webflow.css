@@ -508,14 +508,14 @@ p {
 .icon.icon--jobs-created {
   background-image: url('../images/job-opportunities-icon.svg');
   background-position: 50% 50%;
-  background-size: auto;
+  background-size: 56px 56px;
   background-repeat: repeat;
 }
 
 .icon.icon--jobs-retained {
   background-image: url('../images/Jobs-retained.svg');
   background-position: 50% 50%;
-  background-size: auto;
+  background-size: 56px 56px;
   background-repeat: repeat;
 }
 
@@ -570,7 +570,7 @@ p {
 
 .icon.icon--performance-2 {
   background-image: url('../images/phase-2-achievements.svg');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: 56px 56px;
   background-repeat: no-repeat;
 }
