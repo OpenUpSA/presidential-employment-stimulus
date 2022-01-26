@@ -8,9 +8,9 @@ const COLORS = [
     exceeded: 'rgb(37, 120, 75)',
   },
   {
-    done: '#f5821f',
+    done: 'rgb(245, 130, 31)',
     notdone: 'rgb(220,220,220)',
-    exceeded: 'rgb(37, 120, 75)',
+    exceeded: 'rgb(255, 189, 82)',
   }
 ];
 
