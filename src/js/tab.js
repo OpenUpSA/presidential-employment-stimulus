@@ -57,7 +57,9 @@ export class Tab {
     else {
       this._$menuItem = $departmentMenuItemTemplate.clone(true, true);
       if(this.maxPhase < 2) {
-        this._$menuItem.find('.phase-marker').addClass('is--inactive')
+        this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-1')
+      } else {
+        this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-2')
       }
     }
     this._$menuItem.find('.tab__text').text(this._title);
