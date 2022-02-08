@@ -42,7 +42,7 @@ $(CONTENT_GRID_SELECTOR).empty();
 
 
 Promise.all([
-  d3.json('data/all_data_work.json'),
+  d3.json('data/all_data_new.json'),
   d3.json('data/beneficiaries.json'),
   d3.json('data/lookups.json'),
   d3.json('data/metric_titles.json'),
@@ -246,7 +246,9 @@ Promise.all([
 
             });
 
+
             if (subSectionData.implementation_detail) {
+
               const implData = subSectionData.implementation_detail;
               new ImplementationDetail(
                   subSection.$container,
@@ -292,6 +294,7 @@ Promise.all([
       
       });
 
+
       if (typeof phasesArr[phase].implementation_details !== 'undefined' && phasesArr[phase].implementation_details.length > 0) {
         
         new Section(null, $phaseContent, 'Implementation status reports', '', '', '');
@@ -303,13 +306,18 @@ Promise.all([
           $implGrid.find('.loading').hide();
           $phaseContent.append($implGrid);
   
-          new ImplementationDetail(
-              $implGrid,
-              implData.programme_name,
-              implData.status,
-              implData.detail,
-              true
-          );
+          if(implData) {
+
+            new ImplementationDetail(
+                $implGrid,
+                implData.programme_name,
+                implData.status,
+                implData.detail,
+                true
+            );
+
+          }
+
         });
       }
 
