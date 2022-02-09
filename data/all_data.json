@@ -9690,7 +9690,7 @@
               "section_type": "livelihoods",
               "metrics": [
                 {
-                  "name": "ECD Employment Stimulus",
+                  "name": "ECD Employment Stimulus: Complete payments overdue from Phase 1",
                   "metric_type": "count",
                   "value": 0,
                   "dimensions": [
@@ -9724,7 +9724,11 @@
                     }
                   ],
                   "value_target": 42718.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "ECD Employment Stimulus: Complete payments overdue from Phase 1",
+                    "status": "CriticalChallenges",
+                    "detail": "The programme experienced significant challenges in Phase 1. A different service provider is currently being appointed to assist with implementation. Verification led to slow payments by provinces, help desks have been set up to mitigate this. Provinces are also assisting applicants to open bank accounts. While the rollout of payments has increased, these are still reported as part of Phase 1 because they are paid from rollover funds."
+                  }
                 }
               ],
               "value": null,
