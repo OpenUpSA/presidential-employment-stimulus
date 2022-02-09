@@ -1,3 +1,4 @@
+import { thresholdScott } from 'd3-array';
 import $ from 'jquery';
 import { FORMATTERS } from './utils';
 import { VizProgress } from './viz-progress';
@@ -23,21 +24,29 @@ const $phase2SplitTemplate = $(PHASE2_SPLIT_SELECTOR).first().clone(true, true);
 
 
 export class VizPhased {
-  constructor(lookups, $parent, section_type, viz_type, metric_type, title, value, value_target) {
+  constructor(lookups, $parent, section_type, viz, metric_type, title, value, value_target, total_value) {
     this._lookups = lookups;
     this._$parent = $parent;
     this._section_type = section_type;
-    this._viz_type = viz_type;
+    this._viz = viz;
     this._metric_type = metric_type;
     this._title = title;
     this._value = value;
     this._value_target = value_target;
+    this._total_value = total_value;
 
     this.render();
 
     }
 
     render() {
+
+        // if(this._metric_type == 1) {
+        //     this._metric_type = 'currency'
+        // } else if(this._metric_type == 1) {
+        //     this._metric_type = 'percentile'
+        // }
+
 
         let formatter = FORMATTERS[this._metric_type];
 
@@ -48,7 +57,7 @@ export class VizPhased {
         
         let $phasedHeader = $phasedHeaderTemplate.clone(true, true);
         $phasedHeader.find('.phased-header__title').text(this._title);
-        $phasedHeader.find('.phased-header__value').text(this._value ? formatter(this._value) : '');    
+        $phasedHeader.find('.phased-header__value').text(this._total_value ? formatter(this._total_value) : '');    
 
         let $icons = $iconsTemplate.clone(true, true);
         $phasedHeader.find('.phased-header__icon').empty();
@@ -60,16 +69,38 @@ export class VizPhased {
         
         
 
-        if(this._viz_type == 'percentile') {
+        if(this._viz == 'compact') {
+
+         
 
             let $splitContainer = $phasedSplitTemplate.clone(true, true);
             $splitContainer.empty();
 
-            for (let phase = 0; phase < this._phases.length; phase++) {
+            // for (let phase = 0; phase < this._phases.length; phase++) {
+
+            //     let $phase = $phase1SplitTemplate.clone(true, true);
+    
+            //     if(phase == 1) {
+            //         $phase = $phase2SplitTemplate.clone(true, true);
+            //     }
+
+            //     let $progressContainer = $phase.find('.feature-value__phase_chart-wrapper');
+            //     $progressContainer.empty();
+                
+            //     // new VizProgress(
+            //     //     $progressContainer[0], 
+            //     //     this._phases[phase].value / this._phases[phase].value_target,
+            //     //     phase
+            //     // );
+    
+            //     $splitContainer.append($phase);
+            // }
+
+            for (const key in this._value) {
 
                 let $phase = $phase1SplitTemplate.clone(true, true);
     
-                if(phase == 1) {
+                if(key == "2") {
                     $phase = $phase2SplitTemplate.clone(true, true);
                 }
 
@@ -78,11 +109,13 @@ export class VizPhased {
                 
                 new VizProgress(
                     $progressContainer[0], 
-                    this._phases[phase].value / this._phases[phase].value_target,
-                    phase
+                    this._value[key],
+                    key
                 );
     
                 $splitContainer.append($phase);
+            
+
             }
 
             $featureBlock.append($splitContainer);
@@ -101,10 +134,14 @@ export class VizPhased {
 
                 $phase.find('.feature-value__amount').text(formatter(this._value[key]));
 
-                if(this._value_target[key] != undefined) {
-                    $phase.find('.feature-value__value-description').text('Target: ' + formatter(this._value_target[key]));
-                } else {
-                    $phase.find('.feature-value__value-description').text('');
+                if(this._value_target != null) {
+
+                    if(this._value_target[key] != undefined) {
+                        $phase.find('.feature-value__value-description').text('Target: ' + formatter(this._value_target[key]));
+                    } else {
+                        $phase.find('.feature-value__value-description').text('');
+                    }
+
                 }
 
                 let $progressContainer = $phase.find('.feature-value__header_chart-wrapper');
@@ -113,11 +150,17 @@ export class VizPhased {
                 if (this._metric_type == 'currency') {
                     $progressContainer.remove();
                 } else {
-                    new VizProgress(
-                        $progressContainer[0], 
-                        this._value[key] / this._value_target[key],
-                        key
-                    );
+
+                    if(this._value_target != null && !isNaN(this._value[key] / this._value_target[key])) {
+
+                        new VizProgress(
+                            $progressContainer[0], 
+                            this._value[key] / this._value_target[key],
+                            key
+                        );
+
+                    }
+                   
                 }
     
                 $featureBlock.append($phase);

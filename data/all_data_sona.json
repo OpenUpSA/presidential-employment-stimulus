@@ -2,7 +2,7 @@
   "overview": {
     "month": "202201",
     "name": "Programme overview",
-    "lead": "Building a society that works: Continuty and change",
+    "lead": "Building a society that works: Continuity and change",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impact of the coronavirus pandemic. Its aim is to create jobs and strengthen livelihoods, supporting meaningful work while the labour market recovers. It also recognises that this is a moment of opportunity for change \u2013 for new ways of working, and new forms of innovation, in response to a crisis of unemployment that pre-dates the pandemic. In Phase One it was able to deliver over 500,000 jobs and opportunties in just five months, with implementation of many of these programmes still continuing. Phase Two builds on this, with both continuity and change, through the introduction of a range of new programmes, all with the same aim: to build back better. \nThis dashboard tracks the performance of all programmes contributing to the Presidential Employment Stimulus. It reflects work in progress, with the data updated regularly. ",
     "phase_dates": [
       [
@@ -18,17 +18,17 @@
     "footer_paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "sections": [
       {
-        "name": "Overall Achievements",
+        "name": "Programme achievements",
         "section_type": "overview",
         "metrics": [
           {
             "name": "Total female beneficiaries",
             "metric_type": "targets_count",
             "value": {
-              "0": 0.5969867985452425,
-              "1": 0.5907665113012825
+              "1": 0.6630636649763194,
+              "2": 0.5907665113012825
             },
-            "total_value": 0.5938766549232626,
+            "total_value": 0.626915088138801,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -39,8 +39,8 @@
             "name": "Total youth beneficiaries",
             "metric_type": "targets_count",
             "value": {
-              "0": 0.796870572499581,
-              "1": 0.897110685787854
+              "1": 0.796870572499581,
+              "2": 0.897110685787854
             },
             "total_value": 0.8469906291437175,
             "viz": "compact",
@@ -51,12 +51,12 @@
           }
         ],
         "value": {
-          "0": 563108,
-          "1": 294725
+          "1": 563108,
+          "2": 294725
         },
         "value_target": {
-          "0": 694152.0,
-          "1": 521890.0
+          "1": 694152.0,
+          "2": 556890.0
         }
       },
       {
@@ -67,8 +67,8 @@
             "name": "Jobs created",
             "metric_type": "job_opportunities",
             "value": {
-              "0": 380044,
-              "1": 293470
+              "1": 380044,
+              "2": 293470
             },
             "total_value": 673514,
             "viz": "full",
@@ -81,172 +81,172 @@
                   {
                     "key": "DBE",
                     "value": {
-                      "0": 319482,
-                      "1": 276627
+                      "1": 319482,
+                      "2": 276627
                     },
                     "value_target": {
-                      "0": 300000.0,
-                      "1": 287000.0
+                      "1": 300000.0,
+                      "2": 287000.0
                     }
                   },
                   {
                     "key": "DFFE",
                     "value": {
-                      "0": 23943,
-                      "1": 4549
+                      "1": 23943,
+                      "2": 4549
                     },
                     "value_target": {
-                      "0": 50311.0,
-                      "1": 8150.0
+                      "1": 50311.0,
+                      "2": 8150.0
                     }
                   },
                   {
                     "key": "DCOGTA",
                     "value": {
-                      "0": 5560,
-                      "1": 7304
+                      "1": 5560,
+                      "2": 7304
                     },
                     "value_target": {
-                      "0": 25000.0,
-                      "1": 11818.0
+                      "1": 25000.0,
+                      "2": 11818.0
                     }
                   },
                   {
                     "key": "DTIC",
                     "value": {
-                      "0": 10499,
-                      "1": 0
+                      "1": 10499,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 8000.0,
-                      "1": 50000.0
+                      "1": 8000.0,
+                      "2": 50000.0
                     }
                   },
                   {
                     "key": "DoT",
                     "value": {
-                      "0": 10245
+                      "1": 10245
                     },
                     "value_target": {
-                      "0": 37079.0
+                      "1": 37079.0
                     }
                   },
                   {
                     "key": "DoH",
                     "value": {
-                      "0": 4758,
-                      "1": 0
+                      "1": 4758,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 5531.0,
-                      "1": 2568.0
+                      "1": 5531.0,
+                      "2": 2568.0
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
-                      "0": 0,
-                      "1": 3099
+                      "1": 0,
+                      "2": 3099
                     },
                     "value_target": {
-                      "0": 500.0,
-                      "1": 3880.0
+                      "1": 500.0,
+                      "2": 3880.0
                     }
                   },
                   {
                     "key": "DPWI",
                     "value": {
-                      "0": 1881
+                      "1": 1881
                     },
                     "value_target": {
-                      "0": 1560
+                      "1": 1560
                     }
                   },
                   {
                     "key": "DSI",
                     "value": {
-                      "0": 751,
-                      "1": 1120
+                      "1": 751,
+                      "2": 1120
                     },
                     "value_target": {
-                      "0": 1900.0,
-                      "1": 1650.0
+                      "1": 1900.0,
+                      "2": 1650.0
                     }
                   },
                   {
                     "key": "DALRRD",
                     "value": {
-                      "0": 1464,
-                      "1": 0
+                      "1": 1464,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
-                      "0": 1461,
-                      "1": 0
+                      "1": 1461,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 4356.0,
-                      "1": 914.0
+                      "1": 4356.0,
+                      "2": 914.0
                     }
                   },
                   {
                     "key": "Tourism",
                     "value": {
-                      "1": 771
+                      "2": 771
                     },
                     "value_target": {
-                      "1": 1064.0
+                      "2": 1064.0
                     }
                   },
                   {
                     "key": "DCDT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DWYPD",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 35000.0
                     }
                   },
                   {
                     "key": "DEL",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 250.0
+                      "2": 250.0
                     }
                   },
                   {
                     "key": "DHET",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 7500.0
+                      "2": 7500.0
                     }
                   },
                   {
                     "key": "NT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 35000.0
+                      "2": 35000.0
                     }
                   }
                 ],
@@ -334,7 +334,7 @@
                   },
                   {
                     "key": "202201",
-                    "value": 293470,
+                    "value": 661388,
                     "value_target": null
                   }
                 ],
@@ -342,18 +342,18 @@
               }
             ],
             "value_target": {
-              "0": 434237.0,
-              "1": 409794.0
+              "1": 434237.0,
+              "2": 444794.0
             },
-            "total_value_target": 844031.0,
+            "total_value_target": 879031.0,
             "implementation_detail": null
           },
           {
             "name": "Livelihoods supported",
             "metric_type": "livelihoods",
             "value": {
-              "0": 142665,
-              "1": 1255
+              "1": 142665,
+              "2": 1255
             },
             "total_value": 143920,
             "viz": "full",
@@ -366,172 +366,172 @@
                   {
                     "key": "DALRRD",
                     "value": {
-                      "0": 56149,
-                      "1": 0
+                      "1": 56149,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 74626,
-                      "1": 67378
+                      "1": 74626,
+                      "2": 67378
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
-                      "0": 54371,
-                      "1": 0
+                      "1": 54371,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 108833.0,
-                      "1": 42718.0
+                      "1": 108833.0,
+                      "2": 42718.0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
-                      "0": 32145,
-                      "1": 0
+                      "1": 32145,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 15714.0,
-                      "1": 0
+                      "1": 15714.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DWYPD",
                     "value": {
-                      "1": 1255
+                      "2": 1255
                     },
                     "value_target": {
-                      "1": 2000.0
+                      "2": 2000.0
                     }
                   },
                   {
                     "key": "DBE",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DCOGTA",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DFFE",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DoH",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DPWI",
                     "value": {
-                      "0": 0
+                      "1": 0
                     },
                     "value_target": {
-                      "0": 0
+                      "1": 0
                     }
                   },
                   {
                     "key": "DSI",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DTIC",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DoT",
                     "value": {
-                      "0": 0
+                      "1": 0
                     },
                     "value_target": {
-                      "0": 0
+                      "1": 0
                     }
                   },
                   {
                     "key": "DCDT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DEL",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DHET",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "NT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "Tourism",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   }
                 ],
@@ -619,7 +619,7 @@
                   },
                   {
                     "key": "202201",
-                    "value": 1255,
+                    "value": 143920,
                     "value_target": null
                   }
                 ],
@@ -627,8 +627,8 @@
               }
             ],
             "value_target": {
-              "0": 199173.0,
-              "1": 112096.0
+              "1": 199173.0,
+              "2": 112096.0
             },
             "total_value_target": 311269.0,
             "implementation_detail": null
@@ -637,8 +637,8 @@
             "name": "Jobs retained",
             "metric_type": "jobs_retain",
             "value": {
-              "0": 40399,
-              "1": 0
+              "1": 40399,
+              "2": 0
             },
             "total_value": 40399,
             "viz": "full",
@@ -651,172 +651,172 @@
                   {
                     "key": "DBE",
                     "value": {
-                      "0": 31114,
-                      "1": 0
+                      "1": 31114,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 44933.0,
-                      "1": 0
+                      "1": 44933.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
-                      "0": 8209,
-                      "1": 0
+                      "1": 8209,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 14000.0,
-                      "1": 0
+                      "1": 14000.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
-                      "0": 1076,
-                      "1": 0
+                      "1": 1076,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 1809.0,
-                      "1": 0
+                      "1": 1809.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DALRRD",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DCOGTA",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DFFE",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DoH",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DPWI",
                     "value": {
-                      "0": 0
+                      "1": 0
                     },
                     "value_target": {
-                      "0": 0
+                      "1": 0
                     }
                   },
                   {
                     "key": "DSI",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DTIC",
                     "value": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
-                      "0": 0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DoT",
                     "value": {
-                      "0": 0
+                      "1": 0
                     },
                     "value_target": {
-                      "0": 0
+                      "1": 0
                     }
                   },
                   {
                     "key": "DCDT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DWYPD",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DEL",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "DHET",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "NT",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   },
                   {
                     "key": "Tourism",
                     "value": {
-                      "1": 0
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 0
+                      "2": 0
                     }
                   }
                 ],
@@ -904,7 +904,7 @@
                   },
                   {
                     "key": "202201",
-                    "value": 0,
+                    "value": 40399,
                     "value_target": null
                   }
                 ],
@@ -912,8 +912,8 @@
               }
             ],
             "value_target": {
-              "0": 60742.0,
-              "1": 0
+              "1": 60742.0,
+              "2": 0
             },
             "total_value_target": 60742.0,
             "implementation_detail": null
@@ -1300,12 +1300,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.1,
+                          "value": 0.23,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.31,
+                          "value": 0.77,
                           "value_target": null
                         }
                       ],
@@ -1476,12 +1476,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.033,
+                          "value": 0.22,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.09,
+                          "value": 0.78,
                           "value_target": null
                         }
                       ],
@@ -1652,12 +1652,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.08,
+                          "value": 0.26,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.19,
+                          "value": 0.74,
                           "value_target": null
                         }
                       ],
@@ -1828,12 +1828,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.06,
+                          "value": 0.38,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.08,
+                          "value": 0.62,
                           "value_target": null
                         }
                       ],
@@ -2004,12 +2004,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.03,
+                          "value": 0.42,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.04,
+                          "value": 0.58,
                           "value_target": null
                         }
                       ],
@@ -2048,7 +2048,7 @@
             {
               "programme_name": "Subsistence producer relief fund",
               "status": "OnTrack",
-              "detail": "The department continues to verify the 131 000 pre-approved applicants on site to validate the farmer activity reported. The process of issuing vouchers to approved and verified applicants is underway. The department is also addressing challenges with certain suppliers that are charging more than the pre-agreed prices for inputs, taking a cut of the vouchers or disbursing cash instead of inputs for production. Although this is a small percentage of the total, DALRRD is following up on complaints and a number of suppliers have been blacklisted."
+              "detail": "The department received rollovers for unspent funds and has issued second vouchers to voucher recipients from Phase One that qualified. They continue to verify applicants, which requires validating the farmer activity reported. The department faced challenges with certain suppliers that were charging more than the pre-agreed prices for inputs, taking a cut of the vouchers or disbursing cash instead of inputs for production and has suspended and blacklisted a number of suppliers on this basis."
             }
           ],
           "beneficiaries": []
@@ -2129,11 +2129,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Vegetables and Fruits",
-                    "status": "CriticalChallenges",
-                    "detail": "51,559 voucher beneficiaries from Phase 1 have been issued second vouchers by DALRRD in Phase 2. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. 133,000 new applications have also been received and are being processed. DALRRD has however faced implementation challenges. Firstly, the USSD system for applications for vouchers was completely oversubscribed the day it was launched. This reflects the scale of need. The second major challenge was abuse of the voucher scheme by private sector suppliers, with many taking a cut of the voucher value. In response to complaints, the department suspended the scheme and is putting systems in place to prevent this problem. To expedite verification of applicants, a partnership is in final approval stages with the Solidarity Fund, to allow sharing of information."
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Maize/soya/sugar/other production",
@@ -2170,11 +2166,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Maize/soya/sugar/other production",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Poultry: Layers and Boilers",
@@ -2211,11 +2203,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Poultry: Layers and Boilers",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Small livestock",
@@ -2252,11 +2240,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Small livestock",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Large livestock",
@@ -2293,11 +2277,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Large livestock",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 }
               ],
               "value": null,
@@ -2312,7 +2292,11 @@
             }
           ],
           "implementation_details": [
-            null
+            {
+              "programme_name": "Subsistence producer relief fund",
+              "status": "CriticalChallenges",
+              "detail": "51,559 voucher beneficiaries from Phase 1 have been issued second vouchers by DALRRD in Phase 2. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. 133,000 new applications have also been received and are being processed. DALRRD has however faced implementation challenges. Firstly, the USSD system for applications for vouchers was completely oversubscribed the day it was launched. This reflects the scale of need. The second major challenge was abuse of the voucher scheme by private sector suppliers, with many taking a cut of the voucher value. In response to complaints, the department suspended the scheme and is putting systems in place to prevent this problem. To expedite verification of applicants, a partnership is in final approval stages with the Solidarity Fund, to allow sharing of information."
+            }
           ],
           "beneficiaries": []
         }
@@ -2535,7 +2519,7 @@
                   "implementation_detail": {
                     "programme_name": "Education Assistants",
                     "status": "OnTrack",
-                    "detail": "The department has placed close to 200 000 education assistants in schools across the country. These young people provided crucial support to teachers in the classroom and perform administrative tasks. Although due to conclude at the end of March, the value added by the assistants prompted all nine provincial departments to extend the education assistants contracts for another month to align with the end of the school term in April. The programme has concluded and the department is compiling a comprehensive review, commissioning an evaluation to draw key lessons for future iterations."
+                    "detail": "The department placed education assistants in schools across the country. These young people provided crucial support to teachers in the classroom and performed administrative tasks. Although due to conclude at the end of March, most provincial departments were able to extend the education assistants contracts for another month to align with the end of the school term in April. The programme has concluded this Phase. The department has compiled a comprehensive review, that has informed improvements  in Phase Two."
                   }
                 },
                 {
@@ -2715,7 +2699,7 @@
                   "implementation_detail": {
                     "programme_name": "General Assistants",
                     "status": "OnTrack",
-                    "detail": "The department has placed more than the anticipated 100 000 general assistants in all schools across the country. The general assistants are supported maintenance and security at schools and other basic needs. Similar to the education assistants, provincial departments took a decision to extend contracts until end of April. The programme has concluded and the department is compiling a comprehensive review, commissioning an evaluation to draw key lessons for future iterations."
+                    "detail": "The department exceeded its target for placement of general assistants in all schools across the country. The general assistants supported maintenance and security at schools and other basic needs. Similar to the education assistants, most provincial departments took a decision to extend contracts until end of April."
                   }
                 }
               ],
@@ -3026,7 +3010,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.32,
+                          "value": 0.38,
                           "value_target": null
                         },
                         {
@@ -3146,7 +3130,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.41,
+                          "value": 0.47,
                           "value_target": null
                         },
                         {
@@ -3241,7 +3225,49 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [],
+              "metrics": [
+                {
+                  "name": "Broadband Access Fund ",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": {
+                    "programme_name": "Broadband Access Fund ",
+                    "status": "CriticalChallenges",
+                    "detail": "Detailed technical design work is underway to prepare for pilot implementation of the Broadband Access Fund."
+                  }
+                }
+              ],
               "value": null,
               "value_target": null
             },
@@ -3465,7 +3491,7 @@
                   "implementation_detail": {
                     "programme_name": "Mainstream labour intensive construction methods",
                     "status": "OnTrack",
-                    "detail": "The Municipal Infrastructure Support Agency (MISA)'s  appointed a service provider has begun work to deliver the capacity development in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery."
+                    "detail": "The Municipal Infrastructure Support Agency (MISA) appointed a service provider to deliver capacity development for the use of labour intensive construction methods in 15 municipalities. This includes improvements to reporting within EPWP and assisting in project design for the next financial year to incorporate labour intensive methods in infrastructure delivery. This always meant that results would only start to be evident in the new financial year - and we are seeing them now. Capacity support continues and additional municipalities have asked to come on board."
                   }
                 }
               ],
@@ -3748,6 +3774,47 @@
                     "status": "OnTrack",
                     "detail": "The recruitment of interns is underway. They will support counseling services at Department of Labour Centres, including on-line counseling that will be enabled by the new Employment Services website due to launch in April."
                   }
+                },
+                {
+                  "name": "PYEI/Pathway Management Network",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": {
+                    "programme_name": "PYEI/Pathway Management Network",
+                    "status": "OnTrack",
+                    "detail": "The appointment of an eco-system facilitator for the Pathway Management Network is in process. The Jobs Fund call for proposals for the Innovation Fund of the National Pathway Management Network closed on 1 November and successful applicants will be announced shortly."
+                  }
                 }
               ],
               "value": null,
@@ -3851,7 +3918,7 @@
                   "implementation_detail": {
                     "programme_name": "Cleaning and greening - war on waste with municipalities",
                     "status": "CriticalChallenges",
-                    "detail": "The programme plans cleaning activities and indigenous tree planting. After procurement delays, appointment of service providers is underway, with recruitment processes in place in all municipalities."
+                    "detail": "The programme planned to undertake cleaning activities and indigenous tree planting. Performance has been negatively affected by procurement delays."
                   }
                 },
                 {
@@ -3892,7 +3959,7 @@
                   "implementation_detail": {
                     "programme_name": "Department of Fisheries: War on Waste at Harbours and landing sites",
                     "status": "CriticalChallenges",
-                    "detail": "Project not started."
+                    "detail": "Performance was negatively affected by procurement delays."
                   }
                 },
                 {
@@ -3933,7 +4000,7 @@
                   "implementation_detail": {
                     "programme_name": "Oceans and Coast: Source to Sea",
                     "status": "CriticalChallenges",
-                    "detail": "Project has not started. It will be in 16 districts in the country, river embankments and waterways will be cleaned to prevent litter entering the ocean."
+                    "detail": "Project faced procurement challenges."
                   }
                 },
                 {
@@ -4113,7 +4180,7 @@
                   "implementation_detail": {
                     "programme_name": "Groen Sebenzas, weather service - graduate programme",
                     "status": "OnTrack",
-                    "detail": "Graduate interns are being mentored in natural resource project management and some are doing fieldwork towards further qualifications in restoration ecology."
+                    "detail": "Graduate interns were mentored in natural resource project management and some did fieldwork towards further qualifications in restoration ecology."
                   }
                 },
                 {
@@ -4293,7 +4360,7 @@
                   "implementation_detail": {
                     "programme_name": "SANBI Infrastructure maintenance, biosecurity",
                     "status": "OnTrack",
-                    "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens is being maintained."
+                    "detail": "The infrastructure in 11 national botanical gardens and 2 zoological gardens was maintained."
                   }
                 },
                 {
@@ -4473,7 +4540,7 @@
                   "implementation_detail": {
                     "programme_name": "iSimangaliso: conservation management infrastructure",
                     "status": "OnTrack",
-                    "detail": "7 facilities in iSimangaliso have been maintained and upgraded, 36 kms of fencing has been maintained, with roads maintenance undertaken also."
+                    "detail": "7 facilities in iSimangaliso were maintained and upgraded, 36 kms of fencing was maintained, with roads maintenance undertaken also."
                   }
                 },
                 {
@@ -4653,7 +4720,7 @@
                   "implementation_detail": {
                     "programme_name": "SANPARKS upgrade and green energy",
                     "status": "OnTrack",
-                    "detail": "Solar water heaters have been installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs have been supported to undertake the work, which includes 100 small renovations."
+                    "detail": "Solar water heaterswere installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs were supported to undertake the work, which included 100 small renovations."
                   }
                 },
                 {
@@ -4833,7 +4900,7 @@
                   "implementation_detail": {
                     "programme_name": "Catchment management and strategic water sources",
                     "status": "OnTrack",
-                    "detail": "The programme is focused on the rehabilitation of catchment areas and strategic water resources in protected areas. This involves clearing alien invasive species (which reduce water availability and biodiversity) and limiting bush encroachment (which can reduce grazing capacity by up to 80%). The PES enabled clearing of alien invasive species from 29,414 hectares with follow up cleaning on 141 123 hectares."
+                    "detail": "The programme focused on the rehabilitation of catchment areas and strategic water resources in protected areas. This involved clearing alien invasive species (which reduce water availability and biodiversity) and limiting bush encroachment (which can reduce grazing capacity by up to 80%). The PES enabled clearing of alien invasive species from 29,414 hectares with follow up cleaning on 141 123 hectares."
                   }
                 },
                 {
@@ -4874,7 +4941,7 @@
                   "implementation_detail": {
                     "programme_name": "Bio-diversity economy",
                     "status": "CriticalChallenges",
-                    "detail": "Support to 19 traditional authorities on biodiversity, conservation and land rehabilitation is envisaged but has faced implementation challenges."
+                    "detail": "Support to 19 traditional authorities on biodiversity, conservation and land rehabilitation was envisaged but faced implementation challenges."
                   }
                 },
                 {
@@ -5054,7 +5121,7 @@
                   "implementation_detail": {
                     "programme_name": "Climate Adaptation: Forestry support",
                     "status": "OnTrack",
-                    "detail": "This programme is focussed on improving the sustainability of  plantations and indigenous forests and the development of forestry enterprises and also on support to disaster risk reduction in relation to veld and forest fires."
+                    "detail": "This programme focussed on improving the sustainability of  plantations and indigenous forests and the development of forestry enterprises and also on support to disaster risk reduction in relation to veld and forest fires."
                   }
                 }
               ],
@@ -5558,7 +5625,7 @@
         }
       ],
       "sheet_name": "DFFE",
-      "lead": " ",
+      "lead": "Action for the environment",
       "paragraph": "The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet. In phase two a major part of the programme focuses on work with SANBI. "
     },
     {
@@ -6999,7 +7066,7 @@
             {
               "programme_name": "Graduate programmes (Property Management Trading Entity)",
               "status": "OnTrack",
-              "detail": "The programmes commenced with recruitment immediately after the funding was approved which has resulted in early placement of graduates into different facilities management and infrastructure management programmes. The department has confirmed extension of contracts for all graduates for an additional five months."
+              "detail": "This programme was quick of the mark and placemed graduates into different facilities management and infrastructure management programmes. Exceeding its targets. The department was able to extend contracts for all graduates for an additional five months after the envisaged end in March 2021."
             }
           ],
           "beneficiaries": []
@@ -7160,7 +7227,7 @@
                   "implementation_detail": {
                     "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
                     "status": "MinorChallenges",
-                    "detail": "The lockdown restrictions and the fact that most facilities have been closed has led to low demand from National Federations and thus the set target will not be reached. The programme concluded at the end of March with 613 jobs created in the sector."
+                    "detail": "The lockdown restrictions and the fact that most facilities were closed led to low demand from National Federations. However, this programme has continued to implement as regulations allow increased sporting activity."
                   }
                 },
                 {
@@ -7340,7 +7407,7 @@
                   "implementation_detail": {
                     "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
                     "status": "OnTrack",
-                    "detail": "The programme is concluded at the end of March and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
+                    "detail": "The programme has concluded and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
                   }
                 },
                 {
@@ -7381,7 +7448,7 @@
                   "implementation_detail": {
                     "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
                     "status": "CriticalChallenges",
-                    "detail": "Following delays in obtaining approval, the National Treasury has granted the department permission to use South African Cultural Observatory (SACO) as an implementing agent for the programme. The department has issued a call to provinces to identify artists to be trained by appointed graduates. Although delayed, implementation is now in process."
+                    "detail": "This project has been implemented by the South African Cultural Observatory (SACO), with Harambee as a partner. Artists have been trained on management and marketing skills by graduates, with both learning vlauable lessons from the interaction."
                   }
                 },
                 {
@@ -7544,7 +7611,7 @@
                   "implementation_detail": {
                     "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
                     "status": "CriticalChallenges",
-                    "detail": "Several provinces have begun implementation following significant delays in signing the Memorandum of Agreement with implementing agents. The programme is implementing strategies to fast track implementation to meet outstanding milestones  before conclusion in March."
+                    "detail": "This programme face implementation challenges."
                   }
                 },
                 {
@@ -7724,7 +7791,7 @@
                   "implementation_detail": {
                     "programme_name": "Audit of national museums - South African Heritage Resources Agency",
                     "status": "OnTrack",
-                    "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country. It is progressing well and approximately 1600 memorials, monuments and statues have been recorded across the country. The programme extended participants for an additional month until end of April to complete fieldwork."
+                    "detail": "The programme appointed young people to conduct audits of memorials, monuments and statues around the country.  Approximately 1600 memorials, monuments and statues were recorded across the country. The programme extended participants for an additional month until end of April to complete fieldwork."
                   }
                 },
                 {
@@ -7841,7 +7908,7 @@
                   "implementation_detail": {
                     "programme_name": "Digitisation of records - National Library of South Africa",
                     "status": "CriticalChallenges",
-                    "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme has extended the contracts of appointed participants until June to allow for completion of the work."
+                    "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme extended the contracts of appointed participants until June 2021 to allow for completion of the work."
                   }
                 },
                 {
@@ -7958,7 +8025,7 @@
                   "implementation_detail": {
                     "programme_name": "Digitisation of records -National Archives",
                     "status": "CriticalChallenges",
-                    "detail": "The programme will be extended until June to account for significant delays in procurement of equipment and finalisation of the MoA. It has been crucial in enabling the NARSSA to build capacity on digitisation and seeks to digitise one million records."
+                    "detail": "The programme was extended until June 2021 and has been crucial in enabling the NARSSA to build capacity on digitisation and seeks to digitise one million records."
                   }
                 }
               ],
@@ -8122,7 +8189,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.43,
+                          "value": 0.44,
                           "value_target": null
                         }
                       ],
@@ -8146,7 +8213,7 @@
                   "implementation_detail": {
                     "programme_name": "Support to art and culture practitioners - National Arts Council",
                     "status": "CriticalChallenges",
-                    "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards. The re-allocated funds are still being disbursed and will continue to be disbursed until the last beneficiary receives their funding. The NAC has instituted an investigation into the PESP management process, and that process is underway and will cover the entire scope of the project."
+                    "detail": "The National Arts Council's (NAC) allocated awards that exceeded the total available funds for the programme. In an attempt to remedy this, awards already made were withdrawn and grant amounts revised downwards, creating much unhappiness for those negatively affected. The NAC instituted an investigation into the PESP management process, which has reported. Meanwhile, implementation has continued with the scale of awards made exceeding the NAC's target. Implementation of diverse creative and cultural activities will continue until the end of the March 2022."
                   }
                 },
                 {
@@ -8326,7 +8393,7 @@
                   "implementation_detail": {
                     "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                     "status": "OnTrack",
-                    "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received with an excess of 48\u00a0000 job proposals. Four streams were adjudicated by Panel of experienced industry specialists, and each stream Chaired by members of the NFVF Council. Panels submitted their recommendations to the NFVF council which made the final approval creating in excess of 8000 jobs."
+                    "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received that could have created in excess of  48\u00a0000 jobs. Over 200 wards have been made, supporting a wide range of forms of local content creation in the audio-visual sector. Many of these are still in production, with completion scheduled for the end of March 2022."
                   }
                 }
               ],
@@ -8670,7 +8737,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.333,
+                          "value": 0.36,
                           "value_target": null
                         }
                       ],
@@ -8811,7 +8878,7 @@
                   "implementation_detail": {
                     "programme_name": "Job retention in sport sector - Sport Trust",
                     "status": "MinorChallenges",
-                    "detail": "The programme was oversubscribed and 65 organisations are received support to retain jobs in the sector. The largest component is support to the golf sector to retain and create jobs for caddies. The Sports Trust has requested an extension in order to ensure that all the beneficiaries receive the funds approved."
+                    "detail": "The programme was oversubscribed and 65 organisations received support to retain jobs in the sector. The largest component was support to the golf sector to retain and create jobs for caddies."
                   }
                 }
               ],
@@ -9081,7 +9148,7 @@
                   "implementation_detail": {
                     "programme_name": "Registration support officers",
                     "status": "CriticalChallenges",
-                    "detail": "The programme faced significant delays and challenges in the planning phase and will not be implemented."
+                    "detail": "The programme faced significant delays and challenges and was not implemented."
                   }
                 }
               ],
@@ -9206,7 +9273,7 @@
                   "implementation_detail": {
                     "programme_name": "ECD income and compliance support",
                     "status": "CriticalChallenges",
-                    "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) has been verifying and approving applicants since the end of February. Provincial departments were required to pause payments to beneficiaries at the end March as relief funds were only available for the 2020/21 financial year. Due to delays in the approval of applications and transfer of funds to beneficiaries, only 10% had received payments by the end of March. All provinces have submitted applications to National Treasury to rollover the funds which have been provisionally approved. Provincial treasuries have received allocation letters and payments to ECD programmes should soon resume."
+                    "detail": "The ECD Employment Stimulus Relief Fund (ECD \u2013ESRF) has been verifying and approving applicants since the end of February 2021. Provincial departments were required to pause payments to beneficiaries at the end March as relief funds were only available for the 2020/21 financial year. Due to delays in the approval of applications and transfer of funds to beneficiaries, only 10% had received payments by the end of March 2021. Payments resumed in October 2021, after rollovers were approved. The process is continuing and progress has been made."
                   }
                 }
               ],
@@ -9394,7 +9461,7 @@
                   "implementation_detail": {
                     "programme_name": "Retention of social workers",
                     "status": "OnTrack",
-                    "detail": "Appointments and re-appointments have been finalised in several participating programmes and social workers have provided essential social services during the pandemic. The programme concludes at the end of March and some provinces have managed to absorb social workers into permanent positions."
+                    "detail": "Social workers appointed through the programme provided essential social services during the pandemic. When the programme concluded at the end of March 2021, some provinces managed to absorb social workers into permanent positions."
                   }
                 }
               ],
@@ -9862,7 +9929,7 @@
                   "implementation_detail": {
                     "programme_name": "HSRC - Health Promotion Agents",
                     "status": "MinorChallenges",
-                    "detail": "Following delays, the programme has appointed 42 candidates to begin 1 April. The programme participants will be responsible for building social compacts to initiate behaviour change interventions at community level during the early stages of the Covid-19 pandemic. A dedicated project website has also been developed."
+                    "detail": "Programme participants were responsible for building social compacts to initiate behaviour change interventions at community level during the Covid-19 pandemic. The programme has concluded."
                   }
                 },
                 {
@@ -10042,7 +10109,7 @@
                   "implementation_detail": {
                     "programme_name": "DUCT - Enviro-champs",
                     "status": "OnTrack",
-                    "detail": "The programme has exceeded the planned numbers due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates is focussing on making sense of the river health data, and gathering stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water."
+                    "detail": "The programme exceeded the planned target due to the addition of a food garden project that required additional labour. Overall, 20 project sites were implemented with teams working across the catchment area on different environmental work in different parts of the river. A team of young graduates focussed on making sense of the river health data, and gathered stories from communities to compile into a State of the Rivers report, in partnership with Umgeni Water. This has now been completed."
                   }
                 },
                 {
@@ -10222,7 +10289,7 @@
                   "implementation_detail": {
                     "programme_name": "CSIR - Experiential Training Programme",
                     "status": "MinorChallenges",
-                    "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process however,  the remaining students is currently being placed and the programme is optimistic that the placement target of 189 students will be met."
+                    "detail": "Placement of graduates was affected by university system closures which meant students could not register and provide proof as part of the application process within initial timeframes but these challenges were overcome."
                   }
                 },
                 {
@@ -10339,7 +10406,7 @@
                   "implementation_detail": {
                     "programme_name": "WRC - Water Graduate Employment Programme",
                     "status": "MinorChallenges",
-                    "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. To date, the WRC has finalised appointments for phase 1 of the recruitment and these graduates are placed with various hosts. Phase 2 graduates have been inducted and will also commence their workplace experience soon."
+                    "detail": "The programme experienced several challenges with securing hosts for the graduates which led to delays in the two-phased recruitment process. However, the WRC was able to place graduates with various hosts. Phase 2 graduates have been inducted and will also commence their workplace experience soon."
                   }
                 }
               ],
@@ -10606,7 +10673,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.21,
+                          "value": 0.54,
                           "value_target": null
                         },
                         {
@@ -10999,7 +11066,7 @@
                   "implementation_detail": {
                     "programme_name": "Services sector development incentives",
                     "status": "OnTrack",
-                    "detail": "The department has exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March. Most the employed participants are youth and they are engaged in non-complex jobs and complex jobs with the global business services sector."
+                    "detail": "The department exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March. Most the employed participants were  youth engaged in complex and non-complex jobs within the global business services sector."
                   }
                 }
               ],
@@ -11162,7 +11229,45 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [],
+              "metrics": [
+                {
+                  "name": "PYEI/ National Youth Service",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 35000.0,
+                  "implementation_detail": null
+                }
+              ],
               "value": null,
               "value_target": null
             },
@@ -11258,7 +11363,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.52,
+                          "value": 0.54,
                           "value_target": null
                         },
                         {
@@ -11381,7 +11486,7 @@
                   "implementation_detail": {
                     "programme_name": "Community Health Workers",
                     "status": "CriticalChallenges",
-                    "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+                    "detail": "The department faced severe constraints related to rollout in the timeframes."
                   }
                 },
                 {
@@ -11422,7 +11527,7 @@
                   "implementation_detail": {
                     "programme_name": "Outreach Team Leaders",
                     "status": "CriticalChallenges",
-                    "detail": "The department faced severe constraints related to rollout in the timeframes and the programme will not be implemented."
+                    "detail": "The department faced severe constraints related to rollout in the timeframes."
                   }
                 },
                 {
@@ -11602,7 +11707,7 @@
                   "implementation_detail": {
                     "programme_name": "Enrolled nurses",
                     "status": "OnTrack",
-                    "detail": "The programme concludes at the end of March and has exceeded its target for job creation for nurses. The appointed nurses have provided a range of primary health care services in public facilities. Several provinces intend to continue fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
+                    "detail": "The programme concluded at the end of March andexceeded its target for job creation for nurses. The appointed nursesprovided a range of primary health care services in public facilities. Several provinces planned to continue to fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
                   }
                 },
                 {
@@ -11782,7 +11887,7 @@
                   "implementation_detail": {
                     "programme_name": "Auxiliary nurses",
                     "status": "OnTrack",
-                    "detail": "The department concludes this programme at the end of March with an exceeded target for appointed auxiliary nurses. These nurses have supporting various services in public health facilities as part of the response to COVID-19."
+                    "detail": "The exceeded its target for appointed auxiliary nurses. These nurses supported various services in public health facilities as part of the response to COVID-19. The programme concluded in March 2021."
                   }
                 }
               ],
@@ -12131,7 +12236,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.49,
+                          "value": 0.66,
                           "value_target": null
                         },
                         {
@@ -12160,7 +12265,7 @@
                   "implementation_detail": {
                     "programme_name": "Rural roads maintenance",
                     "status": "OnTrack",
-                    "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects are in implementation and appointed participants are contributing to the maintenance of rural roads. To date, 4334 km of roads have maintained."
+                    "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects were implemented and appointed participants contributed to the maintenance of 4334 kms of rural roads."
                   }
                 }
               ],
@@ -12420,7 +12525,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.48,
+                          "value": 0.58,
                           "value_target": null
                         },
                         {
