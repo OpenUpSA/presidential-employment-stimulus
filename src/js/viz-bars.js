@@ -1,5 +1,7 @@
 import $ from 'jquery';
 import { FORMATTERS } from './utils';
+import { isObject } from './utils';
+
 
 const CONTAINER_SELECTOR = '.components .feature-value__bar-chart';
 const ROW_SELECTOR_NO_TARGET = '.components .bar-chart__row:not(.bar-chart__row--with-target)';
@@ -47,13 +49,17 @@ export class VizBars {
 
     this._rows.forEach((row) => {
 
-      if(row.values) {
+      if(isObject(row.value)) {
 
         let valueSum = 0;
 
-        row.values.forEach((point) => {
-          valueSum = valueSum + point.value;
-        })
+        for (const key in row.value) {
+
+          console.log(row.key, key, row.value[key])
+          
+            valueSum = valueSum + row.value[key];
+         
+        }
 
         allValues.push(valueSum);
 
@@ -69,16 +75,24 @@ export class VizBars {
         let width = [];
         let valueText = 0;
         
-        if(row.values) {
+        if(isObject(row.value)) {
+
+          
 
           let maxValue = allValues
             .map((row) => row)
             .reduce((max, curr) => Math.max(max, curr), 0);
 
-          row.values.forEach((point) => {
-            width.push(Math.round((point.value / maxValue) * 100));
-            valueText = valueText + point.value;
-          })
+
+            for (const key in row.value) {
+              width.push(Math.round((row.value[key] / maxValue) * 100));
+              valueText = valueText + row.value[key];
+            }  
+
+          // row.values.forEach((point) => {
+          //   width.push(Math.round((point.value / maxValue) * 100));
+          //   valueText = valueText + point.value;
+          // })
 
         } else {
 
@@ -89,7 +103,7 @@ export class VizBars {
         
         const $row = $rowTemplateNoTarget.clone(true, true);
         
-        if(row.values) {
+        if(isObject(row.value)) {
 
           $row.find(BAR_SELECTOR).width(`${width[0]}%`);
           

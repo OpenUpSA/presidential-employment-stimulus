@@ -122,225 +122,232 @@ Promise.all([
       )
     }
 
-    for (let phase = 0; phase < phasesArr.length; phase++) {
+    if(tabData.name != 'Programme overview') {
 
-      let $phaseContent = $('<div></div>');
+      for (let phase = 0; phase < phasesArr.length; phase++) {
 
-      const sectionDataArr = phasesArr[phase].sections || [];
-      sectionDataArr.forEach((sectionData, sectionIndex) => {
+        let $phaseContent = $('<div></div>');
 
-        if (sectionData.metrics.length !== 0) {
-          
-          let section;
+        const sectionDataArr = phasesArr[phase].sections || [];
+        sectionDataArr.forEach((sectionData, sectionIndex) => {
 
-          if(tabData.name == 'Programme overview') {
-            section = new Section(lookups, tab.$container, sectionData.name, '', '', sectionData.section_type, true, tabData);
-          } else {
-            section = new Section(null, $phaseContent, sectionData.name, '', '', sectionData.section_type);
-          }
-
-          const sectionType = sectionData.section_type;
-
-          const subSectionDataArr = organizeByZero(sectionData.metrics || []);
-
-          subSectionDataArr.forEach((subSectionData) => {
-
-            const subSection = new SubSection(section.$container);
+          if (sectionData.metrics.length !== 0) {
+            
+            let section;
 
             if(tabData.name == 'Programme overview') {
-
-              new VizPhased(
-                lookups,
-                subSection.$container,
-                sectionType,
-                subSectionData.viz_type,
-                subSectionData.metric_type,
-                subSectionData.name,
-                subSectionData.value,
-                subSectionData.value_target,
-                subSectionData.phases
-              );
-
+              section = new Section(lookups, tab.$container, sectionData.name, '', '', sectionData.section_type, true, tabData);
             } else {
-
-              new VizHeader(
-                lookups,
-                subSection.$container,
-                sectionType,
-                subSectionData.metric_type,
-                subSectionData.name,
-                subSectionData.value,
-                subSectionData.value_target,
-                sectionType == 'targets' ? true : false,
-                sectionType == 'targets' ? false : true,
-                phase
-              );
-
+              section = new Section(null, $phaseContent, sectionData.name, '', '', sectionData.section_type);
             }
 
-            new Metric(
-                subSection.$container,
-                subSectionData.name,
-                sectionType,
-                subSectionData.metric_type,
-                subSectionData.value,
-                subSectionData.value_target, tabData.sheet_name
-            );
+            const sectionType = sectionData.section_type;
 
-            const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
+            const subSectionDataArr = organizeByZero(sectionData.metrics || []);
 
-            const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
-            dimensions.forEach((dimension) => {
+            subSectionDataArr.forEach((subSectionData) => {
 
-              if (dimension.data_missing) {
-                
-                new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
-                
+              const subSection = new SubSection(section.$container);
+
+              if(tabData.name == 'Programme overview') {
+
+                new VizPhased(
+                  lookups,
+                  subSection.$container,
+                  sectionType,
+                  subSectionData.viz_type,
+                  subSectionData.metric_type,
+                  subSectionData.name,
+                  subSectionData.value,
+                  subSectionData.value_target
+                );
+
               } else {
 
-                const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
-                
-                new VizHeading(subSection.$container, dimension.name, hideHeading);
-                
-                if (dimension.viz === 'line') {
-                  
-                  new VizLine(
-                    subSection.$container,
-                    dimension.values,
-                    lookups[dimension.lookup],
-                    phase
-                  );
+                new VizHeader(
+                  lookups,
+                  subSection.$container,
+                  sectionType,
+                  subSectionData.metric_type,
+                  subSectionData.name,
+                  subSectionData.value,
+                  subSectionData.value_target,
+                  sectionType == 'targets' ? true : false,
+                  sectionType == 'targets' ? false : true,
+                  phase
+                );
 
-                }
-                
-                if (dimension.viz === 'two_value') {
+              }
 
-                  const valueOne = dimension.values[0];
-                  const valueTwo = dimension.values[1];
+              new Metric(
+                  subSection.$container,
+                  subSectionData.name,
+                  sectionType,
+                  subSectionData.metric_type,
+                  subSectionData.value,
+                  subSectionData.value_target, tabData.sheet_name
+              );
+
+              const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
+
+              const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+              dimensions.forEach((dimension) => {
+
+                if (dimension.data_missing) {
                   
-                  new VizSplit(
-                      subSection.$container,
-                      'percentage',
-                      valueOne.key, valueOne.value,
-                      valueTwo.key, valueTwo.value,
-                  );
-                }
-                
-                if (dimension.viz === 'percentile' || dimension.viz === 'count') {
+                  new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
                   
-                  const {value} = dimension.values[0];
+                } else {
+
+                  const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
                   
-                  new VizValue(
-                      subSection.$container,
-                      dimension.viz,
-                      value,
-                  );
-                }
-                
-                if (dimension.viz === 'bar') {
+                  new VizHeading(subSection.$container, dimension.name, hideHeading);
                   
-                  const hideZeros = sectionType === 'overview';
-                  
-                  new VizBars(
+                  if (dimension.viz === 'line') {
+                    
+                    new VizLine(
                       subSection.$container,
                       dimension.values,
                       lookups[dimension.lookup],
-                      hideZeros,
                       phase
-                  );
+                    );
+
+                  }
+                  
+                  if (dimension.viz === 'two_value') {
+
+                    const valueOne = dimension.values[0];
+                    const valueTwo = dimension.values[1];
+                    
+                    new VizSplit(
+                        subSection.$container,
+                        'percentage',
+                        valueOne.key, valueOne.value,
+                        valueTwo.key, valueTwo.value,
+                    );
+                  }
+                  
+                  if (dimension.viz === 'percentile' || dimension.viz === 'count') {
+                    
+                    const {value} = dimension.values[0];
+                    
+                    new VizValue(
+                        subSection.$container,
+                        dimension.viz,
+                        value,
+                    );
+                  }
+                  
+                  if (dimension.viz === 'bar') {
+                    
+                    const hideZeros = sectionType === 'overview';
+                    
+                    new VizBars(
+                        subSection.$container,
+                        dimension.values,
+                        lookups[dimension.lookup],
+                        hideZeros,
+                        phase
+                    );
+                  }
+                
                 }
-              
+
+              });
+
+
+              if (subSectionData.implementation_detail) {
+
+                const implData = subSectionData.implementation_detail;
+                new ImplementationDetail(
+                    subSection.$container,
+                    implData.programme_name,
+                    implData.status,
+                    implData.detail,
+                    false,
+                );
               }
 
             });
 
+          }
 
-            if (subSectionData.implementation_detail) {
+          if(phasesArr.length > 1 && sectionIndex == 0) {
 
-              const implData = subSectionData.implementation_detail;
+            let otherPhase = phase == 0 ? 1 : 0;
+
+            let formatter = FORMATTERS[phasesArr[otherPhase].sections[0].metrics[1].metric_type];
+
+            let $performanceCta = $performanceCtaTemplate.clone(true,true);
+            $performanceCta.find('img').remove();
+
+            let $icons = $iconsTemplate.clone(true, true);
+
+            if(otherPhase == 0) {
+              $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
+              $performanceCta.find('.performance-cta__heading').text('This department participated in phase 1 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+              $performanceCta.find('.performance-cta__text').text('Explore phase 1 performance');
+              $performanceCta.find('.performance-cta__button-text').text('Explore Phase 1');
+              $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 1');
+            } else {
+              $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
+              $performanceCta.find('.performance-cta__heading').text('This department is participating in phase 2 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+              $performanceCta.find('.performance-cta__text').text('Explore phase 2 performance');
+              $performanceCta.find('.performance-cta__button-text').text('Explore Phase 2');
+              $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2');
+            }
+
+            $phaseContent.append($performanceCta);
+
+          }
+        
+        });
+
+
+        if (typeof phasesArr[phase].implementation_details !== 'undefined' && phasesArr[phase].implementation_details.length > 0) {
+          
+          new Section(null, $phaseContent, 'Implementation status reports', '', '', '');
+          
+          phasesArr[phase].implementation_details.forEach((implData) => {
+          
+            const $implGrid = $thirdsGrid.clone(true, true);
+
+            $implGrid.find('.loading').hide();
+            $phaseContent.append($implGrid);
+    
+            if(implData) {
+
               new ImplementationDetail(
-                  subSection.$container,
+                  $implGrid,
                   implData.programme_name,
                   implData.status,
                   implData.detail,
-                  false,
+                  true
               );
+
             }
 
           });
-
         }
 
-        if(phasesArr.length > 1 && sectionIndex == 0) {
-
-          let otherPhase = phase == 0 ? 1 : 0;
-
-          let formatter = FORMATTERS[phasesArr[otherPhase].sections[0].metrics[1].metric_type];
-
-          let $performanceCta = $performanceCtaTemplate.clone(true,true);
-          $performanceCta.find('img').remove();
-
-          let $icons = $iconsTemplate.clone(true, true);
-
-          if(otherPhase == 0) {
-            $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department participated in phase 1 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore phase 1 performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore Phase 1');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 1');
-          } else {
-            $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department is participating in phase 2 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore phase 2 performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore Phase 2');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2');
-          }
-
-          $phaseContent.append($performanceCta);
-
+        if(tabData.name != 'Programme overview') {
+          phases.add(phasesArr.length, phase, $phaseContent);
+        } else {
+          $phaseContent.addClass('progamme-achievements')
+          tab.$container.append($phaseContent);
         }
-      
-      });
 
-
-      if (typeof phasesArr[phase].implementation_details !== 'undefined' && phasesArr[phase].implementation_details.length > 0) {
-        
-        new Section(null, $phaseContent, 'Implementation status reports', '', '', '');
-        
-        phasesArr[phase].implementation_details.forEach((implData) => {
-        
-          const $implGrid = $thirdsGrid.clone(true, true);
-
-          $implGrid.find('.loading').hide();
-          $phaseContent.append($implGrid);
-  
-          if(implData) {
-
-            new ImplementationDetail(
-                $implGrid,
-                implData.programme_name,
-                implData.status,
-                implData.detail,
-                true
-            );
-
-          }
-
-        });
-      }
-
-      if(tabData.name != 'Programme overview') {
-        phases.add(phasesArr.length, phase, $phaseContent);
-      } else {
-        $phaseContent.addClass('progamme-achievements')
-        tab.$container.append($phaseContent);
       }
 
     }
+
+   
 
     if (typeof tabData.footer_header !== 'undefined' && tabData.footer_header) {
       new Footer(tab.$container, '', tabData.footer_header, tabData.footer_paragraph);
     }
+
+    
 
   });
 
