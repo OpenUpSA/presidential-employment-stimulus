@@ -18,20 +18,19 @@ const marginPercent = (MARGIN / HEIGHT) * 100;
 const maxPercent = 100 - marginPercent;
 
 export class VizLine {
-  constructor($parent, values, lookup, phase) {
+  constructor($parent, values, lookup, phase, overview) {
     this._$parent = $parent;
     this._values = values;
     this._lookup = lookup;
     this._phase = phase;
+    this._overview = overview;
     
     this.render();
   }
 
   render() {
 
-   
-
-    let theme = ["#124069", "#f5821f"];
+    let theme = ["#124069", "#f5821f", "#333333"];
 
     const max = this._values.reduce((res, record) => Math.max(res, record.value), 0);
     const min = this._values.reduce((res, record) => Math.min(res, record.value), 0);
@@ -58,8 +57,12 @@ export class VizLine {
       visibleData = data;
     }
 
+    
+
 
     visibleData.forEach((record, i) => {
+
+      
 
       const $period = $periodTemplate.clone(true, true);
 
@@ -87,10 +90,13 @@ export class VizLine {
         });
       }
 
-      if(record.phase != undefined) {
+      if(this._overview) {
+        $period.find(MARKER_SELECTOR).css('background-color', theme[2]);
+      }
+      else if(record.phase != undefined) {
         $period.find(MARKER_SELECTOR).css('background-color', theme[record.phase - 1]);
-      } else if(this._phase) {
-        $period.find(MARKER_SELECTOR).css('background-color', theme[this._phase]);
+      } else {
+          $period.find(MARKER_SELECTOR).css('background-color', theme[this._phase]);
       }
 
       $graph.append($period);

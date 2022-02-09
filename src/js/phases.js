@@ -50,10 +50,6 @@ export class Phases {
 
         this._$phasesContentPane.removeClass(SELECTED_PHASE_PANE_CLASS);
 
-        
-
-
-
         if(phaseIndex == phasesLength - 1 || phasesLength == 1) {
             this._$phasesContentPane.addClass(SELECTED_PHASE_PANE_CLASS);
         }

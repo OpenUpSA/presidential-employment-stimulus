@@ -55,9 +55,9 @@ export class VizBars {
 
         for (const key in row.value) {
 
-          console.log(row.key, key, row.value[key])
+          // console.log(row.key, key, row.value[key])
           
-            valueSum = valueSum + row.value[key];
+          valueSum = valueSum + row.value[key];
          
         }
 
