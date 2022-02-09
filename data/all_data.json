@@ -23,7 +23,7 @@
         "metrics": [
           {
             "name": "Total budget allocated",
-            "metric_type": 1,
+            "metric_type": "currency",
             "value": [
               12634178,
               10954000
@@ -37,7 +37,7 @@
           },
           {
             "name": "Total beneficiaries assisted",
-            "metric_type": 2,
+            "metric_type": "count",
             "value": [
               563108,
               294725
