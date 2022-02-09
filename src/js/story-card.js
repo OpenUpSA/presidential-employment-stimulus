@@ -10,13 +10,14 @@ const $cardTemplate = $(CARD_SELECTOR).first().clone(true, true);
 const $quoteCardTemplate = $(QUOTE_CARD_SELECTOR).first().clone(true, true);
 
 export class StoryCard {
-    constructor($parent, name, department, blurb, paragraph, picture_url) {
+    constructor($parent, name, department, blurb, paragraph, picture_url, label) {
         this.$parent = $parent;
         this.name = name;
         this.department = department;
         this.blurb = blurb;
         this.paragraph = paragraph;
         this.picture_url = picture_url;
+        this.label = label;
         this.modalVisible = false;
         this.render();
     }
@@ -40,9 +41,10 @@ export class StoryCard {
             $el = $cardTemplate.clone(true, true);
             $el.find('.story-title').text(this.blurb);
             $el.find('.story-department').text(this.department);
-            $el.find('.story-image').attr('srcset', this.picture_url);
-            $el.find('.story-description').text(truncate(this.paragraph,40,'...'));
+            $el.find('.story-image').attr('srcset', 'img/' + this.picture_url);
+            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph,40,'...') : '');
             $el.find('.story-description.is--modal').text(this.paragraph);
+            $el.find('.story-image.is--modal').css('height','25em');
         
         } else {
 
@@ -52,6 +54,10 @@ export class StoryCard {
             if(this.name != null) {
                 $el.find('.quotation-credit').text('- ' + this.name);
             }
+        }
+
+        if(this.label == false) {
+            $el.find('.story-department').remove();
         }
         
 

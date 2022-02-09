@@ -79,8 +79,16 @@ Promise.all([
 
     if(tabData.name != 'Programme overview') {
 
+      let department_abbr = ''
+
+      for (const key in lookups["department"]) {
+        if(lookups["department"][key] == tabData.name) {
+          department_abbr = key;
+        }
+      }
+
       filteredBeneficiaries = beneficiaries.filter(function (story) {
-        return story.department === tabData.name
+        return story.department === department_abbr
       });
 
     } else {
@@ -94,7 +102,7 @@ Promise.all([
 
     if(filteredBeneficiaries.length > 0) {
 
-      new BeneficiaryStories(tab.$container, filteredBeneficiaries);
+      new BeneficiaryStories(tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false);
 
     }
     

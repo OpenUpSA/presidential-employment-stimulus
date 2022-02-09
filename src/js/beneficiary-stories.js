@@ -7,9 +7,10 @@ const TG_SELECTOR = ".thirds-grid";
 
 const storiesTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
 export class BeneficiaryStories {
-    constructor($parent, beneficiaries) {
+    constructor($parent, beneficiaries, label) {
         this.$parent = $parent;
         this.beneficiaries = beneficiaries;
+        this._label = label;
         this.render();
     }
 
@@ -24,7 +25,8 @@ export class BeneficiaryStories {
                beneficiary.department,
                beneficiary.blurb,
                beneficiary.paragraph,
-               beneficiary.picture_url)
+               beneficiary.picture_url,
+               this._label)
         });
         this.$parent.append($el);
     }
