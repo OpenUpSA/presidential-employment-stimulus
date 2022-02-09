@@ -133,6 +133,8 @@ Promise.all([
 
     if(tabData.name != 'Programme overview') {
 
+      
+
       for (let phase = 0; phase < phasesArr.length; phase++) {
 
         let $phaseContent = $('<div></div>');
@@ -159,6 +161,8 @@ Promise.all([
               const subSection = new SubSection(section.$container);
 
               if(tabData.name == 'Programme overview') {
+
+                
 
                 new VizPhased(
                   lookups,
@@ -204,7 +208,7 @@ Promise.all([
 
                 if (dimension.data_missing) {
                   
-                  new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
+                  // new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
                   
                 } else {
 
@@ -218,7 +222,7 @@ Promise.all([
                       subSection.$container,
                       dimension.values,
                       lookups[dimension.lookup],
-                      phase
+                      tabData.phases[phase].phase_num
                     );
 
                   }
@@ -256,7 +260,7 @@ Promise.all([
                         dimension.values,
                         lookups[dimension.lookup],
                         hideZeros,
-                        phase
+                        tabData.phases[phase].phase_num
                     );
                   }
                 

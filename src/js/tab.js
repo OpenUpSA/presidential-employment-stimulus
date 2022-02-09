@@ -62,7 +62,7 @@ export class Tab {
 
       this._$menuItem = $departmentMenuItemTemplate.clone(true, true);
 
-      if(this.maxPhase == 1) {
+      if(this.maxPhase == 2 || this.startPhase == 1) {
         this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-2')
       } else {
         this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-1')

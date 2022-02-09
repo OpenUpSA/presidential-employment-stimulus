@@ -23,10 +23,13 @@ export class VizLine {
     this._values = values;
     this._lookup = lookup;
     this._phase = phase;
+    
     this.render();
   }
 
   render() {
+
+   
 
     let theme = ["#124069", "#f5821f"];
 
