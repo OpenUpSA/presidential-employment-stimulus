@@ -104,3 +104,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore IDE state
+.idea
+.vscode
+
+python-src/__pycache__/
+python-src/.ipynb_checkpoints/
