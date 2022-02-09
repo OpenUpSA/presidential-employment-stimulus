@@ -15,13 +15,14 @@ const $contentPaneTemplate = $(CONTENT_PANE_SELECTOR).first().clone(true, true);
 $contentPaneTemplate.removeAttr('data-w-tab');
 
 export class Tab {
-  constructor(menuSelector, contentSelector, title, selectCallback, tabType, maxPhase) {
+  constructor(menuSelector, contentSelector, title, selectCallback, tabType, maxPhase, startPhase) {
     this._menuSelector = menuSelector;
     this._contentSelector = contentSelector;
     this._title = title;
     this.selectCallback = selectCallback;
     this.tabType = tabType;
     this.maxPhase = maxPhase;
+    this.startPhase = startPhase;
     this.render();
   }
 
@@ -50,20 +51,28 @@ export class Tab {
   }
 
   render() {
+
+
+
     if (this.tabType === "overview") {
       this._$menuItem = $overviewMenuItemTemplate.clone(true, true);
       this._$menuItem.find('.phase-marker').remove();
     } 
     else {
+
       this._$menuItem = $departmentMenuItemTemplate.clone(true, true);
-      if(this.maxPhase < 2) {
-        this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-1')
-      } else {
+
+      if(this.maxPhase == 1) {
         this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-2')
+      } else {
+        this._$menuItem.find('.phase-marker').removeClass('is--active').removeClass('is--inactive').addClass('is--phase-1')
       }
+
+
+      
     }
     this._$menuItem.find('.tab__text').text(this._title);
-    // console.log(this._$menuItem);
+    
     $(this._menuSelector).append(
       this._$menuItem,
     );

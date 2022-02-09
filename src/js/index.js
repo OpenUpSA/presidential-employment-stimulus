@@ -59,14 +59,23 @@ Promise.all([
  
   merged.forEach((tabData, i) => {
 
+    let startPhase = 0;
+
+    if(tabData.name != 'Programme overview') {
+
+      startPhase = tabData.phases.map((phase) => phase.phase_num)
+      .reduce((max, curr) => Math.max(max, curr), 0);
+
+    }
+
     const tab = new Tab(
       TAB_MENU_SELECTOR,
       TAB_CONTENT_SELECTOR,
       tabData.name,
       () => tabs.select(i),
       tabData.name == 'Programme overview' ? 'overview' : 'department',
-      tabData.name == 'Programme overview' ? 0 : tabData.phases.length
-
+      tabData.name == 'Programme overview' ? 0 : tabData.phases.length,
+      startPhase
     );
 
     tabs.add(tab);
@@ -331,7 +340,8 @@ Promise.all([
         }
 
         if(tabData.name != 'Programme overview') {
-          phases.add(phasesArr.length, phase, $phaseContent);
+
+          phases.add(phasesArr.length, tabData.phases[phase].phase_num, $phaseContent);
         } else {
           $phaseContent.addClass('progamme-achievements')
           tab.$container.append($phaseContent);
