@@ -10,13 +10,15 @@ const $cardTemplate = $(CARD_SELECTOR).first().clone(true, true);
 const $quoteCardTemplate = $(QUOTE_CARD_SELECTOR).first().clone(true, true);
 
 export class StoryCard {
-    constructor($parent, name, department, blurb, paragraph, picture_url) {
+    constructor(lookups, $parent, name, department, blurb, paragraph, picture_url, label) {
+        this._lookups = lookups;
         this.$parent = $parent;
         this.name = name;
         this.department = department;
         this.blurb = blurb;
         this.paragraph = paragraph;
         this.picture_url = picture_url;
+        this.label = label;
         this.modalVisible = false;
         this.render();
     }
@@ -39,10 +41,11 @@ export class StoryCard {
             
             $el = $cardTemplate.clone(true, true);
             $el.find('.story-title').text(this.blurb);
-            $el.find('.story-department').text(this.department);
-            $el.find('.story-image').attr('srcset', this.picture_url);
-            $el.find('.story-description').text(truncate(this.paragraph,40,'...'));
+            $el.find('.story-department').text(this._lookups["department"][this.department]);
+            $el.find('.story-image').attr('srcset', 'img/' + this.picture_url);
+            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph,40,'...') : '');
             $el.find('.story-description.is--modal').text(this.paragraph);
+            $el.find('.story-image.is--modal').css('height','25em');
         
         } else {
 
@@ -53,12 +56,25 @@ export class StoryCard {
                 $el.find('.quotation-credit').text('- ' + this.name);
             }
         }
+
+        if(this.label == false) {
+            $el.find('.story-department').remove();
+        }
         
 
         const $modal = $el.find('.story-modal');
         
         $el.on("click", () => {
             this.select(true, $modal);
+        })
+
+        $el.find('.story-department').on("click", (e) => {
+            e.stopPropagation();
+            let department = $el.find('.story-department').text();
+
+            $('.tab.is--department div:contains("' + department + '")').trigger('click');
+
+
         })
 
         this.$parent.append($el);

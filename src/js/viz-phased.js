@@ -23,7 +23,7 @@ const $phase2SplitTemplate = $(PHASE2_SPLIT_SELECTOR).first().clone(true, true);
 
 
 export class VizPhased {
-  constructor(lookups, $parent, section_type, viz_type, metric_type, title, value, value_target, phases) {
+  constructor(lookups, $parent, section_type, viz_type, metric_type, title, value, value_target) {
     this._lookups = lookups;
     this._$parent = $parent;
     this._section_type = section_type;
@@ -32,7 +32,6 @@ export class VizPhased {
     this._title = title;
     this._value = value;
     this._value_target = value_target;
-    this._phases = phases;
 
     this.render();
 
@@ -59,6 +58,8 @@ export class VizPhased {
 
         // PHASES
         
+        
+
         if(this._viz_type == 'percentile') {
 
             let $splitContainer = $phasedSplitTemplate.clone(true, true);
@@ -89,18 +90,19 @@ export class VizPhased {
 
         } else {
 
-            for (let phase = 0; phase < this._phases.length; phase++) {
+            
+            for (const key in this._value) {
 
                 let $phase = $phase1Template.clone(true, true);
     
-                if(phase == 1) {
+                if(key == "1") {
                     $phase = $phase2Template.clone(true, true);
                 }
 
-                $phase.find('.feature-value__amount').text(formatter(this._phases[phase].value));
+                $phase.find('.feature-value__amount').text(formatter(this._value[key]));
 
-                if(this._phases[phase].value_target != undefined) {
-                    $phase.find('.feature-value__value-description').text('Target: ' + formatter(this._phases[phase].value_target));
+                if(this._value_target[key] != undefined) {
+                    $phase.find('.feature-value__value-description').text('Target: ' + formatter(this._value_target[key]));
                 } else {
                     $phase.find('.feature-value__value-description').text('');
                 }
@@ -113,13 +115,15 @@ export class VizPhased {
                 } else {
                     new VizProgress(
                         $progressContainer[0], 
-                        this._phases[phase].value / this._phases[phase].value_target,
-                        phase
+                        this._value[key] / this._value_target[key],
+                        key
                     );
                 }
     
                 $featureBlock.append($phase);
+
             }
+            
         }
 
         this._$parent.append($featureBlock);

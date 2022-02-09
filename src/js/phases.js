@@ -35,7 +35,8 @@ export class Phases {
 
         $phaseMenuItem.removeClass(SELECTED_PHASE_MENU_ITEM_CLASS);
 
-        if(phaseIndex == phasesLength - 1) {
+
+        if(phaseIndex == phasesLength - 1 || phasesLength == 1) {
             $phaseMenuItem.addClass(SELECTED_PHASE_MENU_ITEM_CLASS);
         }
 
@@ -49,7 +50,11 @@ export class Phases {
 
         this._$phasesContentPane.removeClass(SELECTED_PHASE_PANE_CLASS);
 
-        if(phaseIndex == phasesLength - 1) {
+        
+
+
+
+        if(phaseIndex == phasesLength - 1 || phasesLength == 1) {
             this._$phasesContentPane.addClass(SELECTED_PHASE_PANE_CLASS);
         }
 

@@ -88,4 +88,8 @@ export function truncate(text, limit, after) {
 	content = content.join(' ') + (after ? after : '');
   return content;
 
+}
+
+export function isObject(obj) {
+  return Object.prototype.toString.call(obj) === '[object Object]';
 };

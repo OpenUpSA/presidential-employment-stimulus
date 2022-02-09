@@ -31,12 +31,12 @@ export class Section {
     let $header = $headerTemplate.clone(true, true);
     const $subHeader = $subHeaderTemplate.clone(true, true);
 
-    if(this._phase_legend) {
-      $header = $overviewHeaderTemplate.clone(true,true);
-      $header.find('.phase-legend__date').text(this._lookups.time[this._tab_data.phase_dates[1].start] + ' - Present');
-      $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0].start] + ' - ' + this._lookups.time[this._tab_data.phase_dates[0].end]);
-      $header.css('margin-top', 0);
-    }
+    // if(this._phase_legend) {
+    //   $header = $overviewHeaderTemplate.clone(true,true);
+    //   $header.find('.phase-legend__date').text(this._lookups.time[this._tab_data.phase_dates[1].start] + ' - Present');
+    //   $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0].start] + ' - ' + this._lookups.time[this._tab_data.phase_dates[0].end]);
+    //   $header.css('margin-top', 0);
+    // }
 
     $header.find('.header__label').text(''); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")
     $header.find('h3').text(this._title);
