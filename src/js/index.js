@@ -102,7 +102,7 @@ Promise.all([
 
     if(filteredBeneficiaries.length > 0) {
 
-      new BeneficiaryStories(tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false);
+      new BeneficiaryStories(lookups, tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false);
 
     }
     

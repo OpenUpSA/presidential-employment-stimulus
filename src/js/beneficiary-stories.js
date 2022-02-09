@@ -7,7 +7,8 @@ const TG_SELECTOR = ".thirds-grid";
 
 const storiesTemplate = $(CONTAINER_SELECTOR).first().clone(true, true);
 export class BeneficiaryStories {
-    constructor($parent, beneficiaries, label) {
+    constructor(lookups, $parent, beneficiaries, label) {
+        this._lookups = lookups;
         this.$parent = $parent;
         this.beneficiaries = beneficiaries;
         this._label = label;
@@ -20,13 +21,15 @@ export class BeneficiaryStories {
         const $thirds_grid = $el.find(TG_SELECTOR);
         $thirds_grid.empty()
         this.beneficiaries.forEach(beneficiary => {
-           const $card = new StoryCard($thirds_grid,
-               beneficiary.name,
-               beneficiary.department,
-               beneficiary.blurb,
-               beneficiary.paragraph,
-               beneficiary.picture_url,
-               this._label)
+           const $card = new StoryCard(
+                this._lookups,
+                $thirds_grid,
+                beneficiary.name,
+                beneficiary.department,
+                beneficiary.blurb,
+                beneficiary.paragraph,
+                beneficiary.picture_url,
+                this._label)
         });
         this.$parent.append($el);
     }
