@@ -2,7 +2,7 @@
   "overview": {
     "month": "202201",
     "name": "Programme overview",
-    "lead": "Building a society that works: Continuty and change",
+    "lead": "Building a society that works: Continuity and change",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impact of the coronavirus pandemic. Its aim is to create jobs and strengthen livelihoods, supporting meaningful work while the labour market recovers. It also recognises that this is a moment of opportunity for change \u2013 for new ways of working, and new forms of innovation, in response to a crisis of unemployment that pre-dates the pandemic. In Phase One it was able to deliver over 500,000 jobs and opportunties in just five months, with implementation of many of these programmes still continuing. Phase Two builds on this, with both continuity and change, through the introduction of a range of new programmes, all with the same aim: to build back better. \nThis dashboard tracks the performance of all programmes contributing to the Presidential Employment Stimulus. It reflects work in progress, with the data updated regularly. ",
     "phase_dates": [
       [
@@ -47,19 +47,19 @@
             "dimensions": [],
             "value_target": [
               694152.0,
-              521890.0
+              556890.0
             ],
-            "total_value_target": 1216042.0,
+            "total_value_target": 1251042.0,
             "implementation_detail": null
           },
           {
             "name": "Total female beneficiaries",
             "metric_type": "targets_count",
             "value": {
-              "1": 0.5969867985452425,
+              "1": 0.6630636649763194,
               "2": 0.5907665113012825
             },
-            "total_value": 0.5938766549232626,
+            "total_value": 0.626915088138801,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -87,7 +87,7 @@
         },
         "value_target": {
           "1": 694152.0,
-          "2": 521890.0
+          "2": 556890.0
         }
       },
       {
@@ -250,7 +250,7 @@
                       "2": 0
                     },
                     "value_target": {
-                      "2": 0
+                      "2": 35000.0
                     }
                   },
                   {
@@ -374,9 +374,9 @@
             ],
             "value_target": {
               "1": 434237.0,
-              "2": 409794.0
+              "2": 444794.0
             },
-            "total_value_target": 844031.0,
+            "total_value_target": 879031.0,
             "implementation_detail": null
           },
           {
@@ -969,7 +969,7 @@
           "phase_num": 0,
           "month": "202201",
           "target_lines": [],
-          "achievement_lines": [],"
+          "achievement_lines": [],
           "sections": [
             {
               "name": "Programme targets for this department",
@@ -1331,12 +1331,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.1,
+                          "value": 0.23,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.31,
+                          "value": 0.77,
                           "value_target": null
                         }
                       ],
@@ -1507,12 +1507,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.033,
+                          "value": 0.22,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.09,
+                          "value": 0.78,
                           "value_target": null
                         }
                       ],
@@ -1683,12 +1683,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.08,
+                          "value": 0.26,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.19,
+                          "value": 0.74,
                           "value_target": null
                         }
                       ],
@@ -1859,12 +1859,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.06,
+                          "value": 0.38,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.08,
+                          "value": 0.62,
                           "value_target": null
                         }
                       ],
@@ -2035,12 +2035,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.03,
+                          "value": 0.42,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.04,
+                          "value": 0.58,
                           "value_target": null
                         }
                       ],
@@ -2160,11 +2160,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Vegetables and Fruits",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Maize/soya/sugar/other production",
@@ -2201,11 +2197,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Maize/soya/sugar/other production",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Poultry: Layers and Boilers",
@@ -2242,11 +2234,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Poultry: Layers and Boilers",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Small livestock",
@@ -2283,11 +2271,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Small livestock",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 },
                 {
                   "name": "Large livestock",
@@ -2324,11 +2308,7 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Large livestock",
-                    "status": "CriticalChallenges",
-                    "detail": ""
-                  }
+                  "implementation_detail": null
                 }
               ],
               "value": null,
@@ -3061,7 +3041,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.32,
+                          "value": 0.38,
                           "value_target": null
                         },
                         {
@@ -3181,7 +3161,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.41,
+                          "value": 0.47,
                           "value_target": null
                         },
                         {
@@ -3276,7 +3256,49 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [],
+              "metrics": [
+                {
+                  "name": "Broadband Access Fund ",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": {
+                    "programme_name": "Broadband Access Fund ",
+                    "status": "CriticalChallenges",
+                    "detail": "Detailed technical design work is underway to prepare for pilot implementation of the Broadband Access Fund."
+                  }
+                }
+              ],
               "value": null,
               "value_target": null
             },
@@ -3782,6 +3804,47 @@
                     "programme_name": "Employment counseling to facilitate placement of workseekers",
                     "status": "OnTrack",
                     "detail": "The recruitment of interns is underway. They will support counseling services at Department of Labour Centres, including on-line counseling that will be enabled by the new Employment Services website due to launch in April."
+                  }
+                },
+                {
+                  "name": "PYEI/Pathway Management Network",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": {
+                    "programme_name": "PYEI/Pathway Management Network",
+                    "status": "OnTrack",
+                    "detail": "The appointment of an eco-system facilitator for the Pathway Management Network is in process. The Jobs Fund call for proposals for the Innovation Fund of the National Pathway Management Network closed on 1 November and successful applicants will be announced shortly."
                   }
                 }
               ],
@@ -5593,7 +5656,7 @@
         }
       ],
       "sheet_name": "DFFE",
-      "lead": " ",
+      "lead": "Action for the environment",
       "paragraph": "The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet. In phase two a major part of the programme focuses on work with SANBI. "
     },
     {
@@ -8157,7 +8220,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.43,
+                          "value": 0.44,
                           "value_target": null
                         }
                       ],
@@ -8705,7 +8768,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.333,
+                          "value": 0.36,
                           "value_target": null
                         }
                       ],
@@ -10641,7 +10704,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.21,
+                          "value": 0.54,
                           "value_target": null
                         },
                         {
@@ -11197,7 +11260,45 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [],
+              "metrics": [
+                {
+                  "name": "PYEI/ National Youth Service",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 35000.0,
+                  "implementation_detail": null
+                }
+              ],
               "value": null,
               "value_target": null
             },
@@ -11293,7 +11394,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.52,
+                          "value": 0.54,
                           "value_target": null
                         },
                         {
@@ -12166,7 +12267,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.49,
+                          "value": 0.66,
                           "value_target": null
                         },
                         {
@@ -12455,7 +12556,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.48,
+                          "value": 0.58,
                           "value_target": null
                         },
                         {
