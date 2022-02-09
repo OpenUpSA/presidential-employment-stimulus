@@ -59,14 +59,23 @@ Promise.all([
  
   merged.forEach((tabData, i) => {
 
+    let startPhase = 0;
+
+    if(tabData.name != 'Programme overview') {
+
+      startPhase = tabData.phases.map((phase) => phase.phase_num)
+      .reduce((max, curr) => Math.max(max, curr), 0);
+
+    }
+
     const tab = new Tab(
       TAB_MENU_SELECTOR,
       TAB_CONTENT_SELECTOR,
       tabData.name,
       () => tabs.select(i),
       tabData.name == 'Programme overview' ? 'overview' : 'department',
-      tabData.name == 'Programme overview' ? 0 : tabData.phases.length
-
+      tabData.name == 'Programme overview' ? 0 : tabData.phases.length,
+      startPhase
     );
 
     tabs.add(tab);
@@ -124,6 +133,8 @@ Promise.all([
 
     if(tabData.name != 'Programme overview') {
 
+      
+
       for (let phase = 0; phase < phasesArr.length; phase++) {
 
         let $phaseContent = $('<div></div>');
@@ -150,6 +161,8 @@ Promise.all([
               const subSection = new SubSection(section.$container);
 
               if(tabData.name == 'Programme overview') {
+
+                
 
                 new VizPhased(
                   lookups,
@@ -195,7 +208,7 @@ Promise.all([
 
                 if (dimension.data_missing) {
                   
-                  new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
+                  // new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
                   
                 } else {
 
@@ -209,7 +222,7 @@ Promise.all([
                       subSection.$container,
                       dimension.values,
                       lookups[dimension.lookup],
-                      phase
+                      tabData.phases[phase].phase_num
                     );
 
                   }
@@ -247,7 +260,7 @@ Promise.all([
                         dimension.values,
                         lookups[dimension.lookup],
                         hideZeros,
-                        phase
+                        tabData.phases[phase].phase_num
                     );
                   }
                 
@@ -331,7 +344,8 @@ Promise.all([
         }
 
         if(tabData.name != 'Programme overview') {
-          phases.add(phasesArr.length, phase, $phaseContent);
+
+          phases.add(phasesArr.length, tabData.phases[phase].phase_num, $phaseContent);
         } else {
           $phaseContent.addClass('progamme-achievements')
           tab.$container.append($phaseContent);
