@@ -18,17 +18,17 @@
     "footer_paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "sections": [
       {
-        "name": "Overall Achievements",
+        "name": "Programme Achievements",
         "section_type": "overview",
         "metrics": [
           {
             "name": "Total budget allocated",
             "metric_type": "currency",
             "value": [
-              12634178,
-              10954000
+              12634178000,
+              10954000000
             ],
-            "total_value": 23588178,
+            "total_value": 23588178000,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -2934,7 +2934,7 @@
       ],
       "sheet_name": "DBE",
       "lead": "The Basic Education Employment Initiative (BEEI)",
-      "paragraph": "The Basic Education Employment Intervention (BEEI) placed 319,482 young people as assistants in schools across the country in Phase One. Phase Two builds on this success, with a target of 287,000 school assistants in two categories. Education Assistants are supporting teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants are assisting with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. In Phase One, 94,6% of 60,000 teachers and principals surveyed believed it added value to curriculum outcomes and wanted it to continue. It also has the advantage of a highly equitable spatial footprint that reaches even the most remote and marginalised communities - because every community has schools."
+      "paragraph": "The Basic Education Employment Intervention (BEEI) placed over 300,000 young people as assistants in schools across the country in Phase One. Phase Two builds on this success, with a target of 287,000 school assistants in two categories. Education Assistants are supporting teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants are assisting with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. In Phase One, 94,6% of 60,000 teachers and principals surveyed believed it added value to curriculum outcomes and wanted it to continue. It also has the advantage of a highly equitable spatial footprint that reaches even the most remote and marginalised communities - because every community has schools."
     },
     {
       "name": "Communications and Digital Technologies",
@@ -3660,7 +3660,7 @@
       ],
       "sheet_name": "DWYPD",
       "lead": "Presidential Youth Employment Intervention",
-      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Enterprise Youth Fund. The National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
+      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Youth Enterprise Fund. The revitalised National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
     },
     {
       "name": "Employment and Labour",
@@ -3778,7 +3778,7 @@
                   "implementation_detail": {
                     "programme_name": "PYEI/Pathway Management Network",
                     "status": "OnTrack",
-                    "detail": "The appointment of an eco-system facilitator for the Pathway Management Network is in process. The Jobs Fund call for proposals for the Innovation Fund of the National Pathway Management Network closed on 1 November and successful applicants will be announced shortly."
+                    "detail": "The appointment of an eco-system manager for the national Pathway Management Network is in process. The Jobs Fund call for proposals for the Innovation Fund of the national Pathway Management Network closed on 1 November and successful applicants will be announced shortly."
                   }
                 }
               ],
@@ -3806,7 +3806,7 @@
       ],
       "sheet_name": "DEL",
       "lead": "Pathway Management Network (PYEI)",
-      "paragraph": "The Pathway Management Network is a flagship programme of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the national Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the PMN is being appointed and an Innovation Fund for the PMN is being supported, through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary."
+      "paragraph": "The national Pathway Management Network is a flagship programme of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the national Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the PMN is being appointed and an Innovation Fund for the PMN is being supported, through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary."
     },
     {
       "name": "Forestry, Fisheries and Environment",
@@ -4685,7 +4685,7 @@
                   "implementation_detail": {
                     "programme_name": "SANPARKS upgrade and green energy",
                     "status": "OnTrack",
-                    "detail": "Solar water heaterswere installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs were supported to undertake the work, which included 100 small renovations."
+                    "detail": "Solar water heaters were installed in Addo, Augrabies and Golden Gate, with solar plants in Tankwa in process. 33 SMEs were supported to undertake the work, which included 100 small renovations."
                   }
                 },
                 {
@@ -5889,7 +5889,7 @@
                   "implementation_detail": {
                     "programme_name": "Enrolled nurses",
                     "status": "OnTrack",
-                    "detail": "The programme concluded at the end of March andexceeded its target for job creation for nurses. The appointed nursesprovided a range of primary health care services in public facilities. Several provinces planned to continue to fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
+                    "detail": "The programme concluded at the end of March 2021 and exceeded its target for job creation for nurses. The appointed nurses provided a range of primary health care services in public facilities. Several provinces planned to continue to fund further recruitments to support the roll-out of the COVID-19 vaccination programme."
                   }
                 },
                 {
@@ -7776,7 +7776,7 @@
             {
               "programme_name": "Graduate programmes (Property Management Trading Entity)",
               "status": "OnTrack",
-              "detail": "This programme was quick of the mark and placemed graduates into different facilities management and infrastructure management programmes. Exceeding its targets. The department was able to extend contracts for all graduates for an additional five months after the envisaged end in March 2021."
+              "detail": "This programme was quick of the mark and placed graduates into different facilities management and infrastructure management programmes,  exceeding its targets. The department was able to extend contracts for all graduates for an additional five months after the envisaged end in March 2021."
             }
           ],
           "beneficiaries": []
@@ -9720,7 +9720,7 @@
                   "implementation_detail": {
                     "programme_name": "Covid-19 Return-To-Play - National Sport Federations",
                     "status": "MinorChallenges",
-                    "detail": "The lockdown restrictions and the fact that most facilities were closed led to low demand from National Federations. However, this programme has continued to implement as regulations allow increased sporting activity."
+                    "detail": "The lockdown restrictions and the fact that most facilities were closed led to low demand from National Federations. However, this programme has been able to start implementing as regulations allow increased sporting activity."
                   }
                 },
                 {
@@ -9900,7 +9900,7 @@
                   "implementation_detail": {
                     "programme_name": "Banking with art, connecting Lives - National Museum Bloemfontein",
                     "status": "OnTrack",
-                    "detail": "The programme has concluded and was able to meet its targets. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
+                    "detail": "The programme has concluded. The approved visual artists created artworks for consideration by the Art Bank of South Africa as part of economic recovery."
                   }
                 },
                 {
@@ -9941,7 +9941,7 @@
                   "implementation_detail": {
                     "programme_name": "Assistance with business growth strategies and marketing plans - South African Cultural Observatory",
                     "status": "CriticalChallenges",
-                    "detail": "This project has been implemented by the South African Cultural Observatory (SACO), with Harambee as a partner. Artists have been trained on management and marketing skills by graduates, with both learning vlauable lessons from the interaction."
+                    "detail": "This project has been implemented by the South African Cultural Observatory (SACO), with Harambee as a partner. Artists have been trained on management and marketing skills by graduates, with both learning valuable lessons from the interaction."
                   }
                 },
                 {
@@ -10104,7 +10104,7 @@
                   "implementation_detail": {
                     "programme_name": "Public Art, towards a people's culture - Community Arts Centres",
                     "status": "CriticalChallenges",
-                    "detail": "This programme face implementation challenges."
+                    "detail": "This programme faced implementation challenges."
                   }
                 },
                 {
@@ -10401,7 +10401,7 @@
                   "implementation_detail": {
                     "programme_name": "Digitisation of records - National Library of South Africa",
                     "status": "CriticalChallenges",
-                    "detail": "The delays in the finalisation of the MoA with the department delayed the project, especially procurement of key equipment and services. The programme extended the contracts of appointed participants until June 2021 to allow for completion of the work."
+                    "detail": "The programme extended the contracts of appointed participants until June 2021 to allow for completion of the work."
                   }
                 },
                 {
@@ -10886,7 +10886,7 @@
                   "implementation_detail": {
                     "programme_name": "Support to art and culture practitioners - National Film and Video Foundation",
                     "status": "OnTrack",
-                    "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received that could have created in excess of  48\u00a0000 jobs. Over 200 wards have been made, supporting a wide range of forms of local content creation in the audio-visual sector. Many of these are still in production, with completion scheduled for the end of March 2022."
+                    "detail": "The NFVF call for proposals was oversubscribed with a total of 891 applications received that could have created in excess of  48\u00a0000 jobs. Over 200 awards have been made, supporting a wide range of forms of local content creation in the audio-visual sector. Many of these are still in production, with completion scheduled for the end of March 2022."
                   }
                 }
               ],
@@ -11563,8 +11563,8 @@
         }
       ],
       "sheet_name": "DSAC",
-      "lead": "Preserving our heritage-support to the District 6, Hip-Hop and Phanzi Museum",
-      "paragraph": "In Phase One, the focus of the programme was on supporting the cultural, creative and sports sectors throughout the COVID-19 pandemic. Support was provided through  grants to the National Arts Council and the National Film and Video Foundation. In Phase Two, the programme is focused on support to the District Six, Hip Hop and Phansi Museums.  "
+      "lead": "Preserving our heritage-support to the District 6, Hip-Hop and Phanzi Museums",
+      "paragraph": "In Phase One, the focus of the programme was on supporting the cultural, creative and sports sectors throughout the COVID-19 pandemic. Support was provided through grants to the National Arts Council and the National Film and Video Foundation, along with support to a range of public employment programmes supported by the department. In Phase Two, the programme is focused on support to the District Six, Hip Hop and Phansi Museums.  "
     },
     {
       "name": "Tourism",
@@ -12084,7 +12084,7 @@
                   "implementation_detail": {
                     "programme_name": "Services sector development incentives",
                     "status": "OnTrack",
-                    "detail": "The department exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March. Most the employed participants were  youth engaged in complex and non-complex jobs within the global business services sector."
+                    "detail": "The department exceeded its target for job creation, facilitated by commitment of additional funds internally to the programme. The support from the employment stimulus concluded at the end of March 2021. Most the employed participants were  youth engaged in complex and non-complex jobs within the global business services sector."
                   }
                 }
               ],
@@ -12425,7 +12425,7 @@
                   "implementation_detail": {
                     "programme_name": "Rural roads maintenance",
                     "status": "OnTrack",
-                    "detail": "Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects were implemented and appointed participants contributed to the maintenance of 4334 kms of rural roads."
+                    "detail": "Despite numerous challenges faced by provincial departments in the planning phase, projects were implemented and participants contributed to the maintenance of 4,334 kms of rural roads."
                   }
                 }
               ],
