@@ -70,7 +70,9 @@ export class VizHeader {
 
         // DONUT ?
 
-        if(this._show_progress) {
+        
+
+        if(this._show_progress && !isNaN(this._value / this._target_value)) {
         
             let $progressContainer = $featureValue.find('.feature-value__header_chart-wrapper');
             $progressContainer.empty();
@@ -78,11 +80,16 @@ export class VizHeader {
             if (this._metric_type == 'currency') {
                 $progressContainer.remove();
             } else {
+
+                
+
                 new VizProgress(
                     $progressContainer[0],
                     this._value / this._target_value,
                     this._phase
                 );
+
+                
             } 
         } else {
             $featureValue.find('.feature-value__header_chart-wrapper').hide();
