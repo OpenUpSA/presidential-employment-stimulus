@@ -1,7 +1,7 @@
 {
   "province": {
     "EC": "Eastern Cape",
-    "FS": "Freestate",
+    "FS": "Free State",
     "GP": "Gauteng",
     "KZN": "Kwazulu Natal",
     "LP": "Limpopo",
@@ -11,17 +11,23 @@
     "WC": "Western Cape"
   },
   "department": {
-    "DTIC": "Trade, Industry and Competition",
-    "DBE": "Basic Education",
-    "DSD": "Social Development",
-    "DoH": "Health",
     "DALRRD": "Agriculture, Land Reform and Rural Development",
-    "DSI": "Science and Innovation",
-    "DSAC": "Sports, Arts and Culture",
-    "DoT": "Transport",
-    "DPWI": "Public Works and Infrastructure",
+    "DBE": "Basic Education",
+    "DCDT": "Communications and Digital Technologies",
+    "DCOGTA": "Cooperative Governance",
+    "DWYPD": "Department of Women, Youth and Persons with Disabilities",
+    "DEL": "Employment and Labour",
     "DFFE": "Forestry, Fisheries and Environment",
-    "DCOGTA": "Co-operative governance"
+    "DoH": "Health",
+    "DHET": "Higher Education",
+    "NT": "National Treasury",
+    "DPWI": "Public Works and Infrastructure",
+    "DSI": "Science and Innovation",
+    "DSD": "Social Development",
+    "DSAC": "Sports, Arts and Culture",
+    "Tourism": "Tourism",
+    "DTIC": "Trade, Industry and Competition",
+    "DoT": "Transport"
   },
   "time": {
     "202010": "Oct '20",

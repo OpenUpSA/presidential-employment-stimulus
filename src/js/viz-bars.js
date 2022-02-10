@@ -105,13 +105,13 @@ export class VizBars {
         
         if(isObject(row.value)) {
 
-          $row.find(BAR_SELECTOR).width(`${width[0]}%`);
+          $row.find(BAR_SELECTOR).width(`${width[0]}%`).css('background-color','#666').css('border-radius',0);
           
           let $phase2Bar = $row.find(BAR_SELECTOR_PHASED).clone(true,true);
           
-          $phase2Bar.width(`${width[1]}%`).css('left','-10px');
+          $phase2Bar.width(`${width[1]}%`).css('left','-3px').css('background-color','#666').css('border-radius',0);
           
-          $row.find(BAR_SELECTOR_PHASED).remove();
+          $row.find(BAR_SELECTOR_PHASED).width('100%');
 
           $phase2Bar.insertBefore($row.find(BAR_VAL_LABEL_SELECTOR));
 
