@@ -41,12 +41,6 @@ export class VizPhased {
 
     render() {
 
-        // if(this._metric_type == 1) {
-        //     this._metric_type = 'currency'
-        // } else if(this._metric_type == 1) {
-        //     this._metric_type = 'percentile'
-        // }
-
 
         let formatter = FORMATTERS[this._metric_type];
 
@@ -76,26 +70,6 @@ export class VizPhased {
             let $splitContainer = $phasedSplitTemplate.clone(true, true);
             $splitContainer.empty();
 
-            // for (let phase = 0; phase < this._phases.length; phase++) {
-
-            //     let $phase = $phase1SplitTemplate.clone(true, true);
-    
-            //     if(phase == 1) {
-            //         $phase = $phase2SplitTemplate.clone(true, true);
-            //     }
-
-            //     let $progressContainer = $phase.find('.feature-value__phase_chart-wrapper');
-            //     $progressContainer.empty();
-                
-            //     // new VizProgress(
-            //     //     $progressContainer[0], 
-            //     //     this._phases[phase].value / this._phases[phase].value_target,
-            //     //     phase
-            //     // );
-    
-            //     $splitContainer.append($phase);
-            // }
-
             for (const key in this._value) {
 
                 let $phase = $phase1SplitTemplate.clone(true, true);
@@ -124,6 +98,8 @@ export class VizPhased {
         } else {
 
             
+
+
             for (const key in this._value) {
 
                 let $phase = $phase1Template.clone(true, true);
