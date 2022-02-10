@@ -30,16 +30,19 @@ export class Section {
 
     let $header = $headerTemplate.clone(true, true);
     const $subHeader = $subHeaderTemplate.clone(true, true);
+    
 
     if(this._phase_legend) {
       $header = $overviewHeaderTemplate.clone(true,true);
       $header.find('.phase-legend__date').text(this._lookups.time[this._tab_data.phase_dates[1][0]] + ' - Present');
-      $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0][0]] + ' - ' + this._lookups.time[this._tab_data.phase_dates[0][1]]);
+      $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0][0]] + ' - Present');
       $header.css('margin-top', 0);
     }
 
     $header.find('.header__label').text(''); // TODO Put this back if needed (e.g. "Dec '20 - Jan '21")
+    
     $header.find('h3').text(this._title);
+
     if (this._lead) {
       $header.find('h4').text(this._lead);
     }
@@ -49,14 +52,17 @@ export class Section {
 
     if(this._type == 'targets') {
       $subHeader.find('.tab-h4').text('Overall Achievements');
-    } else if(this._name == 'Overall Achievements') {
-      
+    } else if(this._title == 'Programme Achievements') {
+      $subHeader.find('.tab-h4').text('Overall Achievements');
     } else {
       $header.hide();
       $subHeader.find('.tab-h4').text(this._title);
     }
+
     this._$container = $contentGridTemplate.clone(true, true);
+    
     const $el = $('<div></div>');
+    
     $el.append(
       $header,
       $subHeader,
