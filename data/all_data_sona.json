@@ -18,9 +18,43 @@
     "footer_paragraph": "The Presidential Employment Stimulus data is subject to ongoing verification and audit. The numbers reported may change based on final verification and audit outcomes.\u00a0",
     "sections": [
       {
-        "name": "Programme achievements",
+        "name": "Overall Achievements",
         "section_type": "overview",
         "metrics": [
+          {
+            "name": "Total budget allocated",
+            "metric_type": "currency",
+            "value": [
+              12634178,
+              10954000
+            ],
+            "total_value": 23588178,
+            "viz": "full",
+            "dimensions": [],
+            "value_target": [
+              null,
+              null
+            ],
+            "total_value_target": null,
+            "implementation_detail": null
+          },
+          {
+            "name": "Total beneficiaries assisted",
+            "metric_type": "count",
+            "value": [
+              563108,
+              294725
+            ],
+            "total_value": 857833,
+            "viz": "full",
+            "dimensions": [],
+            "value_target": [
+              694152.0,
+              556890.0
+            ],
+            "total_value_target": 1251042.0,
+            "implementation_detail": null
+          },
           {
             "name": "Total female beneficiaries",
             "metric_type": "targets_count",
@@ -9659,7 +9693,7 @@
               "section_type": "livelihoods",
               "metrics": [
                 {
-                  "name": "ECD Employment Stimulus",
+                  "name": "ECD Employment Stimulus: Complete payments overdue from Phase 1",
                   "metric_type": "count",
                   "value": 0,
                   "dimensions": [
@@ -9693,7 +9727,11 @@
                     }
                   ],
                   "value_target": 42718.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "ECD Employment Stimulus: Complete payments overdue from Phase 1",
+                    "status": "CriticalChallenges",
+                    "detail": "The programme experienced significant challenges in Phase 1. A different service provider is currently being appointed to assist with implementation. Verification led to slow payments by provinces, help desks have been set up to mitigate this. Provinces are also assisting applicants to open bank accounts. While the rollout of payments has increased, these are still reported as part of Phase 1 because they are paid from rollover funds."
+                  }
                 }
               ],
               "value": null,
