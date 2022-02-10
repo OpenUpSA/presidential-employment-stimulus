@@ -31,7 +31,10 @@
             "total_value": 23588178,
             "viz": "full",
             "dimensions": [],
-            "value_target": null,
+            "value_target": [
+              null,
+              null
+            ],
             "total_value_target": null,
             "implementation_detail": null
           },
@@ -205,17 +208,6 @@
                     }
                   },
                   {
-                    "key": "DALRRD",
-                    "value": {
-                      "1": 1464,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
                     "key": "DSAC",
                     "value": {
                       "1": 1461,
@@ -233,15 +225,6 @@
                     },
                     "value_target": {
                       "2": 1064.0
-                    }
-                  },
-                  {
-                    "key": "DCDT",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
                     }
                   },
                   {
@@ -435,135 +418,6 @@
                     "value_target": {
                       "2": 2000.0
                     }
-                  },
-                  {
-                    "key": "DBE",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DCOGTA",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DFFE",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DoH",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DPWI",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 0
-                    }
-                  },
-                  {
-                    "key": "DSI",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DTIC",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DoT",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 0
-                    }
-                  },
-                  {
-                    "key": "DCDT",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DEL",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DHET",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "NT",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "Tourism",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
                   }
                 ],
                 "data_missing": false
@@ -709,144 +563,6 @@
                     },
                     "value_target": {
                       "1": 1809.0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DALRRD",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DCOGTA",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DFFE",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DoH",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DPWI",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 0
-                    }
-                  },
-                  {
-                    "key": "DSI",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DTIC",
-                    "value": {
-                      "1": 0,
-                      "2": 0
-                    },
-                    "value_target": {
-                      "1": 0,
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DoT",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 0
-                    }
-                  },
-                  {
-                    "key": "DCDT",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DWYPD",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DEL",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "DHET",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "NT",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
-                      "2": 0
-                    }
-                  },
-                  {
-                    "key": "Tourism",
-                    "value": {
-                      "2": 0
-                    },
-                    "value_target": {
                       "2": 0
                     }
                   }
