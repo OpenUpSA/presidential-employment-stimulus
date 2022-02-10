@@ -49,6 +49,8 @@ export class Section {
 
     if(this._type == 'targets') {
       $subHeader.find('.tab-h4').text('Overall Achievements');
+    } else if(this._name == 'Overall Achievements') {
+      
     } else {
       $header.hide();
       $subHeader.find('.tab-h4').text(this._title);
