@@ -74,7 +74,7 @@ export class VizPhased {
 
                 let $phase = $phase1SplitTemplate.clone(true, true);
     
-                if(key == "2") {
+                if(key == "1") {
                     $phase = $phase2SplitTemplate.clone(true, true);
                 }
 
