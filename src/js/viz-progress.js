@@ -97,7 +97,7 @@ export class VizProgress {
       .attr('d', d3.arc()
         .innerRadius((d) => radius - (margin * (d.data.key === 'exceeded' ? 1.5 : 1)))
         .outerRadius((d) => radius - (d.data.key === 'exceeded' ? margin + 1 : 0)))
-      .attr('fill', (d) =>  this._phase > 0 ? COLORS[parseInt(this._phase) - 1][d.data.key] : COLORS[parseInt(this._phase)][d.data.key] )
+      .attr('fill', (d) =>  COLORS[parseInt(this._phase)][d.data.key] )
       .style('stroke-width', 0);
   }
 }
