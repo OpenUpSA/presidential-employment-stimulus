@@ -34,8 +34,8 @@ export class Header {
     $el.find(TITLE_SELECTOR).text(this._title);
     $el.find('h3').text(this._lead);
     $el.find('p.header-description').text(this._paragraph);
-    
-    $el.find('.button-wrap a[href="#"]').attr('href','/img/PES Implementation Update January 2022.pdf').removeClass('button--secondary');
+    $el.find('.button-wrap a:first-child').attr('href','/img/Presidential Employment Stimulus Review and Introduction to Phase 2.pdf');
+    $el.find('.button-wrap a[href="#"]').attr('href','/img/PES Implementation Update January 2022 final.pdf').removeClass('button--secondary');
     
     this._$parent.append($el);
   }
