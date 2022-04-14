@@ -7,7 +7,8 @@
     "count_time": "Employed over time",
     "count_gender": "Opportunities by Gender",
     "count_province": "Opportunities in post by Province",
-    "count_age": "Opportunities going to 18-35 year olds"
+    "count_age": "Opportunities going to 18-35 year olds",
+    "count_disabled": "Opportunities going to disabled persons"
   },
   "jobs_retain": {
     "count_time": "Jobs saved over time",

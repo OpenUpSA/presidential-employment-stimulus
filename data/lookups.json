@@ -1,7 +1,7 @@
 {
   "province": {
     "EC": "Eastern Cape",
-    "FS": "Freestate",
+    "FS": "Free State",
     "GP": "Gauteng",
     "KZN": "Kwazulu Natal",
     "LP": "Limpopo",
@@ -11,17 +11,23 @@
     "WC": "Western Cape"
   },
   "department": {
-    "DTIC": "Trade, Industry and Competition",
-    "DBE": "Basic Education",
-    "DSD": "Social Development",
-    "DoH": "Health",
     "DALRRD": "Agriculture, Land Reform and Rural Development",
-    "DSI": "Science and Innovation",
-    "DSAC": "Sports, Arts and Culture",
-    "DoT": "Transport",
+    "DBE": "Basic Education",
+    "DCDT": "Communications and Digital Technologies",
+    "DCOGTA": "Cooperative Governance",
+    "DWYPD": "Department of Women, Youth and Persons with Disabilities",
+    "DEL": "Employment and Labour",
+    "DFFE": "Forestry, Fisheries and Environment",
+    "DoH": "Health",
+    "DHET": "Higher Education",
+    "NT": "National Treasury",
     "DPWI": "Public Works and Infrastructure",
-    "DEFF": "Environment, Forestry and Fisheries",
-    "DCOGTA": "Co-operative governance"
+    "DSI": "Science and Innovation",
+    "DSD": "Social Development",
+    "DSAC": "Sports, Arts and Culture",
+    "Tourism": "Tourism",
+    "DTIC": "Trade, Industry and Competition",
+    "DoT": "Transport"
   },
   "time": {
     "202010": "Oct '20",
@@ -35,6 +41,29 @@
     "202106": "Jun '21",
     "202107": "Jul '21",
     "202108": "Aug '21",
-    "202109": "Sep '21"
+    "202109": "Sep '21",
+    "202110": "Oct '21",
+    "202111": "Nov '21",
+    "202112": "Dec '21",
+    "202201": "Jan '22",
+    "202202": "Feb '22",
+    "202203": "Mar '22"
+  },
+  "icon": {
+    "Budget": "budget",
+    "Total budget allocated": "budget",
+    "Beneficiaries": "beneficiaries",
+    "Total beneficiaries assisted": "beneficiaries",
+    "Beneficiaries by province": "beneficiaries",
+    "Female beneficiaries": "female",
+    "Total female beneficiaries": "female",
+    "Total youth beneficiaries": "youth",
+    "Youth beneficiaries": "youth",
+    "job_opportunities": "jobs-created",
+    "Jobs created": "jobs-created",
+    "livelihoods": "support",
+    "Livelihoods supported": "jobs-retained",
+    "Jobs retained": "jobs-retained",
+    "jobs_retain": "jobs-retained"
   }
 }

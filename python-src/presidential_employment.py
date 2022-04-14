@@ -1,6 +1,7 @@
+from cmath import phase
 from enum import Enum
 from dataclasses import dataclass
-from typing import Counter, List, Union
+from typing import Counter, List, Union, Mapping
 
 from dataclasses_json import dataclass_json
 
@@ -14,7 +15,7 @@ ProvinceEnum = Enum("Province", "EC FS GP KZN LP MP NC NW WC")
 
 ImplementationStatusEnum = Enum('ImplementationStatus', 'OnTrack MinorChallenges CriticalChallenges')
 
-VizTypeEnum = Enum('VizType', 'bar line two_value percentile count')
+VizTypeEnum = Enum('VizType', 'bar line two_value percentile count full compact')
 
 LookupTypeEnum = Enum('LookupType', 'department province time age gender vets disabled')
 
@@ -68,29 +69,52 @@ department_name_to_abbreviation = {
  'Trade, Industry and Competition': 'DTIC',
  'Health': 'DoH',
  'Science and Innovation': 'DSI',
- 'Public Works and Infrastructure': 'DPWI'
+ 'Public Works and Infrastructure': 'DPWI',
+ 'National Treasury': 'NT',
+ 'Higher Education': 'DHET',
+ 'Tourism': 'Tourism',
+ 'Employment and Labour': 'DEL',
+ 'Communications and Digital Technologies': 'DCDT',
+ 'Department of Women, Youth and Persons with Disabilities': 'DWYPD',
 }
 
-department_budget_targets = {
- 'Basic Education': 7_000_000 * 1000,
- 'Social Development': 7_000_000 * 1000,
- 'Agriculture, Land Reform and Rural Development': 1_000_000_000,
- 'Forestry, Fisheries and Environment': 1_983_000 * 1000,
- 'Transport': 630_000_000,
- 'Sports, Arts and Culture': 665_000_000,
- 'Cooperative Governance': 50_000_000,
- 'Trade, Industry and Competition': 120_000 * 1000,
- 'Health': 180_000_000,
- 'Science and Innovation': 45_000_000,
- 'Public Works and Infrastructure': 159_000_000
+department_budget_targets = [{
+    'Basic Education': 7_000_000 * 1000,
+    'Social Development': 7_000_000 * 1000,
+    'Agriculture, Land Reform and Rural Development': 1_000_000_000,
+    'Forestry, Fisheries and Environment': 1_983_000 * 1000,
+    'Transport': 630_000_000,
+    'Sports, Arts and Culture': 665_000_000,
+    'Cooperative Governance': 50_000_000,
+    'Trade, Industry and Competition': 120_000 * 1000,
+    'Health': 180_000_000,
+    'Science and Innovation': 45_000_000,
+    'Public Works and Infrastructure': 159_000_000
+}, {
+    'Basic Education': 6_000_000 * 1000, # CRE
+    'National Treasury': 841_000 * 1000, # CRE
+    'Trade, Industry and Competition': 800_000 * 1000, # CRE
+    'Health': 365_000 * 1000, # CRE
+    'Forestry, Fisheries and Environment': 318_000 * 1000, # CRE
+    'Higher Education': (100_000 * 1000) + (90_000) * 1000, # CRE
+    'Sports, Arts and Culture': 15_000 * 1000, # CRE
+    'Cooperative Governance': 284_000 * 1000, # CRE 
+    'Science and Innovation': 67_000 * 1000, # CRE
+    'Tourism': 108_000 * 1000, # CRE
+    'Employment and Labour': (20_000 * 1000) + (238_000 * 1000), # CRE and CAT
+    'Communications and Digital Technologies': 200_000 * 1000, # CAT
+    'Department of Women, Youth and Persons with Disabilities': 30_000 * 1000, # CRE
+    'Social Development': 178_000 * 1000, # LIV
+    'Agriculture, Land Reform and Rural Development': 750_000 * 1000, # LIV
 }
+]
 
 section_titles = {
     SectionEnum.targets.name: "Programme targets for this department",
     SectionEnum.job_opportunities.name: "Jobs created",
     SectionEnum.jobs_retain.name: "Jobs retained",
     SectionEnum.livelihoods.name: "Livelihoods supported",
-    SectionEnum.targets.name + "_overview": "Programme targets",
+    SectionEnum.targets.name + "_overview": "Programme achievements",
     SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
     SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
     SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
@@ -107,6 +131,7 @@ metric_titles = {
         MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
         MetricTypeEnum.count.name + '_province': "Opportunities in post by Province",
         MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
+        MetricTypeEnum.count.name + "_disabled": "Opportunities going to disabled persons",
     },
     SectionEnum.jobs_retain.name: {
         MetricTypeEnum.count.name + "_time": "Jobs saved over time",
@@ -148,11 +173,27 @@ class MetricValue:
 
 @dataclass_json
 @dataclass
+class MultiMetricValue:
+    key: str
+    value: Mapping[int, Union[float, int]]
+    value_target: Mapping[int, Union[float, int]] = None
+
+
+@dataclass
+class PhasedMetricValue:
+    key: str
+    phase: int
+    value: Union[float, int]
+    value_target: Union[float, int] = None
+
+
+@dataclass_json
+@dataclass
 class Dimension:
     name: str
     viz: str  # enum of VizType "bar" "line" "two_value" "percentile" "count"
     lookup: str  # enum of LookupType "department", "province", "gender", "age", "disability", "military_veteran"
-    values: List[MetricValue]
+    values: List[Union[MetricValue, PhasedMetricValue, MultiMetricValue]]
     data_missing: bool = False
 
 @dataclass_json
@@ -161,8 +202,23 @@ class Metric:
     name: str
     metric_type: str  # enum of 'currency', 'count'
     value: int
-    dimensions: Dimension
+    dimensions: List[Dimension] = None
     value_target: int = -1
+    implementation_detail: ImplementationDetail = None
+
+
+@dataclass_json
+@dataclass
+class PhasedMetric:
+    name: str
+    metric_type: str  # enum of 'currency', 'count'
+    value: List[int]
+    total_value: int
+    # phases: List[MetricValue]
+    viz: str # enum of "full" and "compact"
+    dimensions: List[Dimension] = None
+    value_target: List[int] = None
+    total_value_target: int = None
     implementation_detail: ImplementationDetail = None
 
 
@@ -179,16 +235,52 @@ class Section:
 
 @dataclass_json
 @dataclass
-class Department:
-    month: int  # the month of latest data
+class OverviewSection:
     name: str
-    sheet_name: str
-    lead: str
+    section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
+    metrics: List[PhasedMetric]
+    metric_type = str = None # enum of MetricTypeEnum
+    value: int = None
+    value_target: int = None
+
+
+@dataclass_json
+@dataclass
+class Beneficiary:
+    name: str
+    department_name: str
+    blurb: str
     paragraph: str
+    picture_url: str
+    featured: bool
+
+    
+@dataclass_json
+@dataclass
+class Phase:
+    phase_num: int  # the phase number, starting at 0
+    month: int  # the month of latest data
     target_lines: List[int]
     achievement_lines: List[int]
     sections: List[Section]
     implementation_details: List[ImplementationDetail]
+    beneficiaries: List[Beneficiary]
+
+@dataclass_json
+@dataclass
+class Department:
+    name: str
+    phases: List[Phase]
+    sheet_name: str
+    lead: str
+    paragraph: str
+
+
+@dataclass_json
+@dataclass
+class PhaseDates:
+    start: str
+    end: str
 
 
 @dataclass_json
@@ -198,6 +290,7 @@ class Overview:
     name: str  # Would normally be "Programme Overview"
     lead: str
     paragraph: str
+    phase_dates: List[PhaseDates]
     footer_header: str
     footer_paragraph: str
     sections: List[Section]
@@ -247,12 +340,16 @@ implementation_status_to_enum = {
 
 # NOTE: UPDATE THESE ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
 months = ['202010', '202011', '202012', 
-          '202101', '202102', '202103', '202104', '202105', '202106', '202107', '202108', '202109']
+          '202101', '202102', '202103', '202104', '202105', '202106', '202107', '202108', '202109', '202110', '202111', '202112',
+          '202201', '202202']
 month_names = ["Oct '20", "Nov '20", "Dec '20", 
-               "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21", "Jul '21", "Aug '21", "Sep '21"]
-total_achievement_column = 13
-achievement_columns = slice(2, 11)
-month_lookup = {  # these match column names of the Dashboard spreadsheet's Trends sheet
+               "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21", "Jul '21", "Aug '21", "Sep '21", "Oct '21", "Nov '21", "Dec '21",
+               "Jan '22", "Feb '22"]
+# the last column index of the achievements (i.e. Trends) sheets (one number per phase)
+total_achievement_column = [16,6]
+
+# achievement_columns = [slice(2, 11), slice(2,6)]
+month_lookup = [{  # these match column names of the Dashboard spreadsheet's Trends sheet
     'oct': '202010',
     'nov': '202011',
     'dec': '202012',
@@ -263,32 +360,57 @@ month_lookup = {  # these match column names of the Dashboard spreadsheet's Tren
     'may': '202105',
     'june': '202106',
     'july': '202107',
-    'august': '202108',
-    'september': '202109'
-}
+    'aug': '202108',
+    'sept': '202109',
+    'oct.1': '202110',
+    'nov.1': '202111',
+    'dec.1': '202112'
+},
+{
+    'oct': '202110',
+    'nov': '202111',
+    'dec': '202112',
+    'jan': '202201',
+    'feb': '202202'
+}]
 
-target_to_imp_programme_mapping = {
-    "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
-    "CSIR - Experiential Training Programme": "CSIR - Experiential Training Programme ",
-    "Community Health Workers": "Community health workers",
-    "Covid-19 Return-To-Play - National Sport Federations": "Covid-19 Return-To-Play - National Sport Federations                                                                                                                                    ",
-    "Digitisation of records - National Library of South Africa": "Digitisation of records - National Library of South Africa ",
-    "Facilities Management": "Facilities Management (PMTE) Employment: ",
-    "In-House Construction projects": "In-House Construction projects ",
-    "Job retention at fee paying schools": "Retain vulnerable teaching posts",
-    "Municipal infrastructure": "Mainstream labour intensive construction methods",
-    "Outreach Team Leaders": "Outreach team leaders",
-    "Oceans and Coast: Source to Sea": "Oceans and Coast: Source to Sea ",
-    "Provincial Roads Maintenance": "Rural roads maintenance",
-    "Real Estate": "Real Estate  (PMTE)",
-    "Services sector development incentives": "Global Business Services Sector",
-    "Subsistence relief fund": "Subsistence producer relief fund",
-    "Retention of social workers": "Social workers",
-    "Vegetables and Fruits": "Vegetables and Fruits ",
-    "WRC - Water Graduate Employment Programme": " WRC - Water Graduate Employment Programme ",
-    "Water and Energy Efficiency": "Water and Energy Efficiency (Green Economy)",
-    "Water and Sanitation Facilities Management": "Water and Sanitation Facilities Management (PMTE)",
-    "Welisizwe Rural Bridges Programme": "Welisizwe Rural Bridges Programme (PMTE) ",
-}
+number_of_phases = 2
+phase_dates = [
+    ['202010', '202112'],
+    ['202110', '202202']
+]
+
+
+def in_phase(phase_num, month):
+    if phase_num >= 0 and phase_num < len(phase_dates):
+        (start_str, end_str) = phase_dates[phase_num]
+        if int(start_str) <= int(month) and int(month) <= int(end_str):
+            return True
+    return False
+
+
+# target_to_imp_programme_mapping = {
+#     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
+#     "CSIR - Experiential Training Programme": "CSIR - Experiential Training Programme ",
+#     "Community Health Workers": "Community health workers",
+#     "Covid-19 Return-To-Play - National Sport Federations": "Covid-19 Return-To-Play - National Sport Federations                                                                                                                                    ",
+#     "Digitisation of records - National Library of South Africa": "Digitisation of records - National Library of South Africa ",
+#     "Facilities Management": "Facilities Management (PMTE) Employment: ",
+#     "In-House Construction projects": "In-House Construction projects ",
+#     "Job retention at fee paying schools": "Retain vulnerable teaching posts",
+#     "Municipal infrastructure": "Mainstream labour intensive construction methods",
+#     "Outreach Team Leaders": "Outreach team leaders",
+#     "Oceans and Coast: Source to Sea": "Oceans and Coast: Source to Sea ",
+#     "Provincial Roads Maintenance": "Rural roads maintenance",
+#     "Real Estate": "Real Estate  (PMTE)",
+#     "Services sector development incentives": "Global Business Services Sector",
+#     "Subsistence relief fund": "Subsistence producer relief fund",
+#     "Retention of social workers": "Social workers",
+#     "Vegetables and Fruits": "Vegetables and Fruits ",
+#     "WRC - Water Graduate Employment Programme": " WRC - Water Graduate Employment Programme ",
+#     "Water and Energy Efficiency": "Water and Energy Efficiency (Green Economy)",
+#     "Water and Sanitation Facilities Management": "Water and Sanitation Facilities Management (PMTE)",
+#     "Welisizwe Rural Bridges Programme": "Welisizwe Rural Bridges Programme (PMTE) ",
+# }
 
 strip_ws = lambda iterable: [pn.strip() for pn in iterable]
