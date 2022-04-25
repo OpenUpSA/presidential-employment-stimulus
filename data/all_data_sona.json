@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202201",
+    "month": "202202",
     "name": "Programme overview",
     "lead": "Building a society that works: Continuity and change",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impact of the coronavirus pandemic. Its aim is to create jobs and strengthen livelihoods, supporting meaningful work while the labour market recovers. It also recognises that this is a moment of opportunity for change \u2013 for new ways of working, and new forms of innovation, in response to a crisis of unemployment that pre-dates the pandemic. In Phase One it was able to deliver over 500,000 jobs and opportunties in just five months, with implementation of many of these programmes still continuing. Phase Two builds on this, with both continuity and change, through the introduction of a range of new programmes, all with the same aim: to build back better. \nThis dashboard tracks the performance of all programmes contributing to the Presidential Employment Stimulus. It reflects work in progress, with the data updated regularly. ",
@@ -11,7 +11,7 @@
       ],
       [
         "202110",
-        "202201"
+        "202202"
       ]
     ],
     "footer_header": "Disclaimer",
@@ -43,9 +43,9 @@
             "metric_type": "count",
             "value": [
               563108,
-              294725
+              296146
             ],
-            "total_value": 857833,
+            "total_value": 859254,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6630636649763194,
-              "1": 0.5907665113012825
+              "1": 0.5890527851904124
             },
-            "total_value": 0.626915088138801,
+            "total_value": 0.626058225083366,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -74,9 +74,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.796870572499581,
-              "1": 0.897110685787854
+              "1": 0.8951550943926226
             },
-            "total_value": 0.8469906291437175,
+            "total_value": 0.8460128334461019,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -86,7 +86,7 @@
         ],
         "value": {
           "0": 563108,
-          "1": 294725
+          "1": 296146
         },
         "value_target": {
           "0": 694152.0,
@@ -102,9 +102,9 @@
             "metric_type": "job_opportunities",
             "value": {
               "0": 380044,
-              "1": 293470
+              "1": 294537
             },
-            "total_value": 673514,
+            "total_value": 674581,
             "viz": "full",
             "dimensions": [
               {
@@ -138,7 +138,7 @@
                     "key": "DCOGTA",
                     "value": {
                       "0": 5560,
-                      "1": 7304
+                      "1": 7607
                     },
                     "value_target": {
                       "0": 25000.0,
@@ -188,6 +188,17 @@
                     }
                   },
                   {
+                    "key": "DSI",
+                    "value": {
+                      "0": 751,
+                      "1": 1427
+                    },
+                    "value_target": {
+                      "0": 1900.0,
+                      "1": 1650.0
+                    }
+                  },
+                  {
                     "key": "DPWI",
                     "value": {
                       "0": 1881
@@ -197,21 +208,10 @@
                     }
                   },
                   {
-                    "key": "DSI",
-                    "value": {
-                      "0": 751,
-                      "1": 1120
-                    },
-                    "value_target": {
-                      "0": 1900.0,
-                      "1": 1650.0
-                    }
-                  },
-                  {
                     "key": "DSAC",
                     "value": {
                       "0": 1461,
-                      "1": 0
+                      "1": 310
                     },
                     "value_target": {
                       "0": 4356.0,
@@ -221,7 +221,7 @@
                   {
                     "key": "Tourism",
                     "value": {
-                      "1": 771
+                      "1": 918
                     },
                     "value_target": {
                       "1": 1064.0
@@ -343,12 +343,17 @@
                   },
                   {
                     "key": "202112",
-                    "value": 662970,
+                    "value": 663326,
                     "value_target": null
                   },
                   {
                     "key": "202201",
                     "value": 661388,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202202",
+                    "value": 662455,
                     "value_target": null
                   }
                 ],
@@ -367,9 +372,9 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 142665,
-              "1": 1255
+              "1": 1609
             },
-            "total_value": 143920,
+            "total_value": 144274,
             "viz": "full",
             "dimensions": [
               {
@@ -413,7 +418,7 @@
                   {
                     "key": "DWYPD",
                     "value": {
-                      "1": 1255
+                      "1": 1609
                     },
                     "value_target": {
                       "1": 2000.0
@@ -505,6 +510,11 @@
                   {
                     "key": "202201",
                     "value": 143920,
+                    "value_target": null
+                  },
+                  {
+                    "key": "202202",
+                    "value": 144274,
                     "value_target": null
                   }
                 ],
@@ -653,6 +663,11 @@
                     "key": "202201",
                     "value": 40399,
                     "value_target": null
+                  },
+                  {
+                    "key": "202202",
+                    "value": 40399,
+                    "value_target": null
                   }
                 ],
                 "data_missing": false
@@ -683,7 +698,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -1802,7 +1817,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -1821,7 +1836,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 67378.0,
                   "implementation_detail": null
@@ -2042,7 +2057,7 @@
             {
               "programme_name": "Subsistence producer relief fund",
               "status": "CriticalChallenges",
-              "detail": "51,559 voucher beneficiaries from Phase 1 have been issued second vouchers by DALRRD in Phase 2. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. 133,000 new applications have also been received and are being processed. DALRRD has however faced implementation challenges. Firstly, the USSD system for applications for vouchers was completely oversubscribed the day it was launched. This reflects the scale of need. The second major challenge was abuse of the voucher scheme by private sector suppliers, with many taking a cut of the voucher value. In response to complaints, the department suspended the scheme and is putting systems in place to prevent this problem. To expedite verification of applicants, a partnership is in final approval stages with the Solidarity Fund, to allow sharing of information."
+              "detail": "51,559 voucher beneficiaries from Phase 1 have been issued second vouchers by DALRRD in Phase 2. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. 133,000 new applications have also been received and are being processed. DALRRD has however faced implementation challenges. Firstly, the USSD system for applications for vouchers was completely oversubscribed the day it was launched. This reflects the scale of need. The second major challenge was abuse of the voucher scheme by private sector suppliers, with many taking a cut of the voucher value. In response to complaints, the department suspended the scheme to put in place systems to prevent this problem. The scheme was re-instated from 15 February 2022 and the voucher validity period was extended. To expedite verification of applicants, a partnership has been entered into with the Solidarity Fund, to allow sharing of information."
             }
           ],
           "beneficiaries": []
@@ -2057,7 +2072,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2637,7 +2652,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2656,7 +2671,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 276627.0,
+                  "value": 276627,
                   "dimensions": [],
                   "value_target": 287000.0,
                   "implementation_detail": null
@@ -2744,6 +2759,11 @@
                         },
                         {
                           "key": "202201",
+                          "value": 183533,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
                           "value": 183533,
                           "value_target": null
                         }
@@ -2866,6 +2886,11 @@
                           "key": "202201",
                           "value": 93094,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 93094,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -2934,14 +2959,14 @@
       ],
       "sheet_name": "DBE",
       "lead": "The Basic Education Employment Initiative (BEEI)",
-      "paragraph": "The Basic Education Employment Intervention (BEEI) placed over 300,000 young people as assistants in schools across the country in Phase One. Phase Two builds on this success, with a target of 287,000 school assistants in two categories. Education Assistants are supporting teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants are assisting with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. In Phase One, 94,6% of 60,000 teachers and principals surveyed believed it added value to curriculum outcomes and wanted it to continue. It also has the advantage of a highly equitable spatial footprint that reaches even the most remote and marginalised communities - because every community has schools."
+      "paragraph": "The Basic Education Employment Intervention (BEEI) placed 319,482 young people as assistants in schools across the country in Phase One. Phase Two builds on this success, with a target of 287,000 school assistants in two categories. Education Assistants are supporting teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants are assisting with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. In Phase One, 94,6% of 60,000 teachers and principals surveyed believed it added value to curriculum outcomes and wanted it to continue. It also has the advantage of a highly equitable spatial footprint that reaches even the most remote and marginalised communities - because every community has schools."
     },
     {
       "name": "Communications and Digital Technologies",
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2960,7 +2985,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 0.0,
                   "implementation_detail": null
@@ -3011,7 +3036,7 @@
                   "implementation_detail": {
                     "programme_name": "Broadband Access Fund ",
                     "status": "CriticalChallenges",
-                    "detail": "Detailed technical design work is underway to prepare for pilot implementation of the Broadband Access Fund."
+                    "detail": "Detailed technical design work is underway to prepare for pilot implementation of the Broadband Access Fund, which will be implemented within Broadband Infraco, a state-owned entity."
                   }
                 }
               ],
@@ -3046,7 +3071,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3265,7 +3290,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3284,7 +3309,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7304.0,
+                  "value": 7607,
                   "dimensions": [],
                   "value_target": 11818.0,
                   "implementation_detail": null
@@ -3300,7 +3325,7 @@
                 {
                   "name": "MISA: Innovation in seperation at source and treatment solutions ",
                   "metric_type": "count",
-                  "value": 7304,
+                  "value": 7607,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -3309,7 +3334,7 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 3200,
+                          "value": 3047,
                           "value_target": null
                         },
                         {
@@ -3324,7 +3349,7 @@
                         },
                         {
                           "key": "KZN",
-                          "value": 4104,
+                          "value": 4560,
                           "value_target": null
                         },
                         {
@@ -3374,6 +3399,11 @@
                           "key": "202201",
                           "value": 7304,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 7607,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -3385,12 +3415,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.31,
+                          "value": 0.35,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.69,
+                          "value": 0.65,
                           "value_target": null
                         }
                       ],
@@ -3403,7 +3433,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.94,
+                          "value": 0.88,
                           "value_target": null
                         }
                       ],
@@ -3414,7 +3444,7 @@
                   "implementation_detail": {
                     "programme_name": "MISA: Innovation in seperation at source and treatment solutions ",
                     "status": "OnTrack",
-                    "detail": "The programme is supporting two cohorts of municipalities.  Programme implementation for the first cohort has begun, with municipalities advancing PPE and other working materials to allow a rapid start. MISA has decided to expand the rollout from the initial target of 25 municipalities to 45 municipalities. On-boarding of the second cohort of municipalities is in process."
+                    "detail": "The programme is supporting two cohorts of municipalities.  Programme implementation for the first cohort has begun, with municipalities advancing PPE and other working materials to allow a rapid start. Contracting challenges in Mthatha that led to delays in payments of participants have been resolved."
                   }
                 }
               ],
@@ -3449,7 +3479,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3468,7 +3498,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1255.0,
+                  "value": 1609,
                   "dimensions": [],
                   "value_target": 37000.0,
                   "implementation_detail": null
@@ -3529,7 +3559,7 @@
                 {
                   "name": "PYEI/ Youth Enterprise Support Fund ",
                   "metric_type": "count",
-                  "value": 1255,
+                  "value": 1609,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -3538,47 +3568,47 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 176,
+                          "value": 212,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 72,
+                          "value": 81,
                           "value_target": null
                         },
                         {
                           "key": "GP",
-                          "value": 214,
+                          "value": 327,
                           "value_target": null
                         },
                         {
                           "key": "KZN",
-                          "value": 216,
+                          "value": 332,
                           "value_target": null
                         },
                         {
                           "key": "LP",
-                          "value": 138,
+                          "value": 184,
                           "value_target": null
                         },
                         {
                           "key": "MP",
-                          "value": 213,
+                          "value": 243,
                           "value_target": null
                         },
                         {
                           "key": "NW",
-                          "value": 50,
+                          "value": 32,
                           "value_target": null
                         },
                         {
                           "key": "NC",
-                          "value": 75,
+                          "value": 85,
                           "value_target": null
                         },
                         {
                           "key": "WC",
-                          "value": 101,
+                          "value": 113,
                           "value_target": null
                         }
                       ],
@@ -3602,6 +3632,11 @@
                         {
                           "key": "202201",
                           "value": 1255,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 1609,
                           "value_target": null
                         }
                       ],
@@ -3660,14 +3695,14 @@
       ],
       "sheet_name": "DWYPD",
       "lead": "Presidential Youth Employment Intervention",
-      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Youth Enterprise Fund. The revitalised National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
+      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Enterprise Youth Fund. The National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
     },
     {
       "name": "Employment and Labour",
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3686,7 +3721,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 250.0,
                   "implementation_detail": null
@@ -3736,8 +3771,8 @@
                   "value_target": 250.0,
                   "implementation_detail": {
                     "programme_name": "Employment counseling to facilitate placement of workseekers",
-                    "status": "OnTrack",
-                    "detail": "The recruitment of interns is underway. They will support counseling services at Department of Labour Centres, including on-line counseling that will be enabled by the new Employment Services website due to launch in April."
+                    "status": "CriticalChallenges",
+                    "detail": "With counsellors not yet in post by February, time has run out for implementation of this project within the financial year as required."
                   }
                 },
                 {
@@ -3777,8 +3812,8 @@
                   "value_target": 0.0,
                   "implementation_detail": {
                     "programme_name": "PYEI/Pathway Management Network",
-                    "status": "OnTrack",
-                    "detail": "The appointment of an eco-system manager for the national Pathway Management Network is in process. The Jobs Fund call for proposals for the Innovation Fund of the national Pathway Management Network closed on 1 November and successful applicants will be announced shortly."
+                    "status": "CriticalChallenges",
+                    "detail": "Delays in finalisation of institutional arrangements for the transfer of funds to the Jobs Fund for this programme are causing delays in implementation."
                   }
                 }
               ],
@@ -3806,14 +3841,14 @@
       ],
       "sheet_name": "DEL",
       "lead": "Pathway Management Network (PYEI)",
-      "paragraph": "The national Pathway Management Network is a flagship programme of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the national Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the PMN is being appointed and an Innovation Fund for the PMN is being supported, through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary."
+      "paragraph": "The Pathway Management Network is a flagship programme of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the national Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the PMN is being appointed and an Innovation Fund for the PMN is being supported, through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary."
     },
     {
       "name": "Forestry, Fisheries and Environment",
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5113,7 +5148,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5132,7 +5167,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 4549.0,
+                  "value": 4549,
                   "dimensions": [],
                   "value_target": 8150.0,
                   "implementation_detail": null
@@ -5220,6 +5255,11 @@
                         },
                         {
                           "key": "202201",
+                          "value": 1609,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
                           "value": 1609,
                           "value_target": null
                         }
@@ -5338,6 +5378,11 @@
                           "key": "202201",
                           "value": 1812,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 1812,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -5377,8 +5422,8 @@
                   "value_target": 1849.0,
                   "implementation_detail": {
                     "programme_name": "People and Parks Youth Champions",
-                    "status": "MinorChallenges",
-                    "detail": "Youth living adjacent to protected areas are involved in facilities maintenance."
+                    "status": "OnTrack",
+                    "detail": "Youth living adjacent to protected areas have been involved in facilities maintenance. The project was completed on 31 January."
                   }
                 },
                 {
@@ -5419,7 +5464,7 @@
                   "implementation_detail": {
                     "programme_name": "Biodiversity economy",
                     "status": "CriticalChallenges",
-                    "detail": "This programme is supporting sustainable harvesting of indigenous plants and supporting planting for sustainable supply. The revised TORs for a project management are being advertised."
+                    "detail": "This programme has been unable to proceed due to procurement challenges."
                   }
                 },
                 {
@@ -5540,6 +5585,11 @@
                           "key": "202201",
                           "value": 1128,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 1128,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -5562,8 +5612,8 @@
                   "value_target": 130.0,
                   "implementation_detail": {
                     "programme_name": "Isimangaliso",
-                    "status": "MinorChallenges",
-                    "detail": "Facilities and infrastructure maintenance will be undertaken. Contract preparation is still in process."
+                    "status": "OnTrack",
+                    "detail": "Work is in progress with the identified beneficiaries"
                   }
                 }
               ],
@@ -5598,7 +5648,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6096,7 +6146,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6115,7 +6165,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 2568.0,
                   "implementation_detail": null
@@ -6238,7 +6288,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6257,7 +6307,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 7500.0,
                   "implementation_detail": null
@@ -6307,8 +6357,8 @@
                   "value_target": 4500.0,
                   "implementation_detail": {
                     "programme_name": "PYEI/National Skills Fund: Pay for Performance model for digital skills",
-                    "status": "OnTrack",
-                    "detail": "The Request for Proposals for ecosystem facilitators has been issued  and is under adjudication in the National Skills Fund."
+                    "status": "CriticalChallenges",
+                    "detail": "The Request for Proposals for ecosystem facilitators is still under adjudication in the National Skills Fund."
                   }
                 },
                 {
@@ -6348,8 +6398,8 @@
                   "value_target": 3000.0,
                   "implementation_detail": {
                     "programme_name": "Universities: Graduate Assistants",
-                    "status": "CriticalChallenges",
-                    "detail": "Universities South Africa (USAf) is the implementation partner, with the terms of the programme currently being finalised."
+                    "status": "OnTrack",
+                    "detail": "Through UCAF all 26 universities have come on board and the rollout of posts and appointments is underway."
                   }
                 }
               ],
@@ -6384,7 +6434,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6403,7 +6453,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 35000.0,
                   "implementation_detail": null
@@ -6454,7 +6504,7 @@
                   "implementation_detail": {
                     "programme_name": "Neighbourhood Development Partnership: PEPS for Metros Programme",
                     "status": "OnTrack",
-                    "detail": "Eight metros submited proposals and the adjudication process is complete. Implementation has been dependent on the Adjustment Budget of the Division of Revenue Act being signed - now that this has happened, implementation is starting and will continue to June/July."
+                    "detail": "Proposals were approved for eight metros and implementation is underway and will continue to the end of June 2022."
                   }
                 }
               ],
@@ -6489,7 +6539,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202105",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -7791,7 +7841,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8504,7 +8554,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8523,7 +8573,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1120.0,
+                  "value": 1427,
                   "dimensions": [],
                   "value_target": 1650.0,
                   "implementation_detail": null
@@ -8539,7 +8589,7 @@
                 {
                   "name": "Enviro-Champs DUCT",
                   "metric_type": "count",
-                  "value": 356,
+                  "value": 618,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -8563,7 +8613,7 @@
                         },
                         {
                           "key": "KZN",
-                          "value": 356,
+                          "value": 618,
                           "value_target": null
                         },
                         {
@@ -8606,12 +8656,17 @@
                         },
                         {
                           "key": "202112",
-                          "value": 0,
+                          "value": 356,
                           "value_target": null
                         },
                         {
                           "key": "202201",
                           "value": 356,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 618,
                           "value_target": null
                         }
                       ],
@@ -8624,12 +8679,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.35,
+                          "value": 0.49,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.65,
+                          "value": 0.51,
                           "value_target": null
                         }
                       ],
@@ -8642,7 +8697,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.63,
+                          "value": 0.87,
                           "value_target": null
                         }
                       ],
@@ -8653,7 +8708,7 @@
                   "implementation_detail": {
                     "programme_name": "Enviro-Champs DUCT",
                     "status": "OnTrack",
-                    "detail": "The Enviro-Champs programme is continuing from Phase 1 and is currently ramping up recruitment, in partnership with 14 organisations. Training of participants has begun. They are using an app to track river health."
+                    "detail": "The Enviro-Champs programme is continuing from Phase 1 and is currently ramping up recruitment, in partnership with 14 organisations. Training of participants has been undertaken. They are using an app to track river health."
                   }
                 },
                 {
@@ -8733,6 +8788,11 @@
                           "key": "202201",
                           "value": 611,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 611,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -8779,7 +8839,7 @@
                 {
                   "name": "Experiential Training Programme",
                   "metric_type": "count",
-                  "value": 153,
+                  "value": 198,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -8788,27 +8848,27 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 21,
+                          "value": 48,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 50,
+                          "value": 49,
                           "value_target": null
                         },
                         {
                           "key": "GP",
-                          "value": 57,
+                          "value": 65,
                           "value_target": null
                         },
                         {
                           "key": "KZN",
-                          "value": 22,
+                          "value": 32,
                           "value_target": null
                         },
                         {
                           "key": "LP",
-                          "value": 3,
+                          "value": 4,
                           "value_target": null
                         },
                         {
@@ -8853,6 +8913,11 @@
                           "key": "202201",
                           "value": 153,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 198,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -8864,12 +8929,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.63,
+                          "value": 0.43,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.37,
+                          "value": 0.57,
                           "value_target": null
                         }
                       ],
@@ -8928,7 +8993,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9324,7 +9389,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9343,7 +9408,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 3099.0,
+                  "value": 3099,
                   "dimensions": [],
                   "value_target": 46598.0,
                   "implementation_detail": null
@@ -9433,6 +9498,11 @@
                           "key": "202201",
                           "value": 3099,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 3099,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -9456,7 +9526,7 @@
                   "implementation_detail": {
                     "programme_name": "Appointment of social workers to assist SASSA with backlogs",
                     "status": "OnTrack",
-                    "detail": "The programme has to date exceeded its target has employed 3099 social workers."
+                    "detail": "The programme exceeded its target and has employed 3,099 social workers."
                   }
                 },
                 {
@@ -9497,7 +9567,7 @@
                   "implementation_detail": {
                     "programme_name": "NDA Volunteer Programme",
                     "status": "MinorChallenges",
-                    "detail": "The NDA will partner with 100 Civil Society Oraganizations for the programme supporting community service activities."
+                    "detail": "The NDA aims to partner with 100 Civil Society Oraganizations for the programme, supporting community service activities. It has experienced procurement delays."
                   }
                 }
               ],
@@ -9574,7 +9644,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -11384,7 +11454,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -11403,7 +11473,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 310,
                   "dimensions": [],
                   "value_target": 914.0,
                   "implementation_detail": null
@@ -11419,35 +11489,119 @@
                 {
                   "name": "District Six museum",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 15,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 15,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 15,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.2,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.8,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.12,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 35.0,
@@ -11460,35 +11614,119 @@
                 {
                   "name": "Hip Hop Museum",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 265,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 265,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 265,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.97,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.03,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.13,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 858.0,
@@ -11501,35 +11739,119 @@
                 {
                   "name": "Phanzi Museum Trust",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 30,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 30,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.57,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.43,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.43,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 21.0,
@@ -11563,15 +11885,15 @@
         }
       ],
       "sheet_name": "DSAC",
-      "lead": "Preserving our heritage-support to the District 6, Hip-Hop and Phanzi Museums",
-      "paragraph": "In Phase One, the focus of the programme was on supporting the cultural, creative and sports sectors throughout the COVID-19 pandemic. Support was provided through grants to the National Arts Council and the National Film and Video Foundation, along with support to a range of public employment programmes supported by the department. In Phase Two, the programme is focused on support to the District Six, Hip Hop and Phansi Museums.  "
+      "lead": "Preserving our heritage-support to the District 6, Hip-Hop and Phanzi Museum",
+      "paragraph": "In Phase One, the focus of the programme was on supporting the cultural, creative and sports sectors throughout the COVID-19 pandemic. Support was provided through  grants to the National Arts Council and the National Film and Video Foundation. In Phase Two, the programme is focused on support to the District Six, Hip Hop and Phansi Museums.  "
     },
     {
       "name": "Tourism",
       "phases": [
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -11590,7 +11912,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 771.0,
+                  "value": 918,
                   "dimensions": [],
                   "value_target": 1064.0,
                   "implementation_detail": null
@@ -11606,7 +11928,7 @@
                 {
                   "name": "Support to 40 provincial state-owned tourism attractions",
                   "metric_type": "count",
-                  "value": 469,
+                  "value": 616,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -11615,12 +11937,12 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 155,
+                          "value": 170,
                           "value_target": null
                         },
                         {
                           "key": "FS",
-                          "value": 30,
+                          "value": 93,
                           "value_target": null
                         },
                         {
@@ -11635,7 +11957,7 @@
                         },
                         {
                           "key": "LP",
-                          "value": 44,
+                          "value": 73,
                           "value_target": null
                         },
                         {
@@ -11650,12 +11972,12 @@
                         },
                         {
                           "key": "NC",
-                          "value": 99,
+                          "value": 111,
                           "value_target": null
                         },
                         {
                           "key": "WC",
-                          "value": 141,
+                          "value": 169,
                           "value_target": null
                         }
                       ],
@@ -11680,6 +12002,11 @@
                           "key": "202201",
                           "value": 469,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 616,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -11691,12 +12018,12 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.58,
+                          "value": 0.56,
                           "value_target": null
                         },
                         {
                           "key": "Female",
-                          "value": 0.42,
+                          "value": 0.48,
                           "value_target": null
                         }
                       ],
@@ -11709,7 +12036,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.59,
+                          "value": 0.64,
                           "value_target": null
                         }
                       ],
@@ -11800,6 +12127,11 @@
                           "key": "202201",
                           "value": 302,
                           "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 302,
+                          "value_target": null
                         }
                       ],
                       "data_missing": false
@@ -11840,7 +12172,7 @@
                   "implementation_detail": {
                     "programme_name": "Tourism Safety Monitors",
                     "status": "MinorChallenges",
-                    "detail": "Implementation of the programme has begun and participants are on site."
+                    "detail": "Implementation of the programme is underway."
                   }
                 }
               ],
@@ -11875,7 +12207,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12111,7 +12443,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202201",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12130,7 +12462,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 50000.0,
                   "implementation_detail": null
@@ -12181,7 +12513,7 @@
                   "implementation_detail": {
                     "programme_name": "Social Employment Fund",
                     "status": "OnTrack",
-                    "detail": "The Industrial Development Corporation has completed the request for proposals for Strategic Implementing Partners. The first five SIPs have been appointed, as part of a process that expedited applicants 'at an advanced stage of readiness' who were able to submit applications by an earlier deadline. They are now collaborating with the IDC in the design and development of the central payments and reporting system, while the adjudication of the balance of applications is finalised."
+                    "detail": "The Industrial Development Corporation has completed the request for proposals for Strategic Implementing Partners. 28 partners have been appointed, with good sectoral and provincial coverage. For further details see www.idc.co.za/sef where details will be posted."
                   }
                 }
               ],
@@ -12216,7 +12548,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202105",
+          "month": "202202",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
