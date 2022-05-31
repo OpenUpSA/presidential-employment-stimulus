@@ -29,6 +29,6 @@ Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. 
 
 ## Adding months
 
-The list of valid months and corresponding columns in the Trends sheet is in `python-src/presidential_employment.py` lines 249-268.
+The list of valid months and corresponding columns in the Trends sheet is in `python-src/presidential_employment.py` lines 342-383.
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
