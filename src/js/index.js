@@ -42,7 +42,7 @@ $(CONTENT_GRID_SELECTOR).empty();
 
 
 Promise.all([
-  d3.json('data/all_data_sona.json'),
+  d3.json('data/all_data.json'),
   d3.json('data/beneficiaries.json'),
   d3.json('data/lookups.json'),
   d3.json('data/metric_titles.json'),
@@ -56,7 +56,7 @@ Promise.all([
   const merged = [data.overview, ...data.departments];
 
   const tabs = new Tabs();
- 
+
   merged.forEach((tabData, i) => {
 
     let startPhase = 0;
@@ -79,11 +79,11 @@ Promise.all([
     );
 
     tabs.add(tab);
-    
+
     const months_text = lookups["time"][tabData.month];
-    
+
     new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, tabData.phases == undefined ? 0 : tabData.phases.length);
-    
+
     let filteredBeneficiaries = [];
 
     if(tabData.name != 'Programme overview') {
@@ -114,7 +114,7 @@ Promise.all([
       new BeneficiaryStories(lookups, tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false);
 
     }
-    
+
     let phases;
 
     if(tabData.name != 'Programme overview') {
@@ -122,7 +122,7 @@ Promise.all([
     }
 
     const phasesArr = tabData.phases || [];
-    
+
     if(tabData.name == 'Programme overview') {
       phasesArr.push(
         {
@@ -140,7 +140,7 @@ Promise.all([
       sectionDataArr.forEach((sectionData, sectionIndex) => {
 
         if (sectionData.metrics.length !== 0) {
-          
+
           let section;
 
           if(tabData.name == 'Programme overview') {
@@ -203,16 +203,16 @@ Promise.all([
             dimensions.forEach((dimension) => {
 
               if (dimension.data_missing) {
-                
+
                 // new VizHeading(subSection.$container, metric_titles[sectionType][subSectionData.metric_type + '_' + dimension.lookup] + ' : NO DATA AVAILABLE');
-                
+
               } else {
 
                 const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
-                
+
                 new VizHeading(subSection.$container, dimension.name, hideHeading);
-                
-                
+
+
 
                 if (dimension.viz === 'line') {
                   new VizLine(
@@ -224,12 +224,12 @@ Promise.all([
                   );
 
                 }
-                
+
                 if (dimension.viz === 'two_value') {
 
                   const valueOne = dimension.values[0];
                   const valueTwo = dimension.values[1];
-                  
+
                   new VizSplit(
                       subSection.$container,
                       'percentage',
@@ -237,22 +237,22 @@ Promise.all([
                       valueTwo.key, valueTwo.value,
                   );
                 }
-                
+
                 if (dimension.viz === 'percentile' || dimension.viz === 'count') {
-                  
+
                   const {value} = dimension.values[0];
-                  
+
                   new VizValue(
                       subSection.$container,
                       dimension.viz,
                       value,
                   );
                 }
-                
+
                 if (dimension.viz === 'bar') {
-                  
+
                   const hideZeros = sectionType === 'overview';
-                  
+
                   new VizBars(
                       subSection.$container,
                       dimension.values,
@@ -261,7 +261,7 @@ Promise.all([
                       tabData.name == 'Programme overview' ? 0 : tabData.phases[phase].phase_num
                   );
                 }
-              
+
               }
 
             });
@@ -311,21 +311,21 @@ Promise.all([
           $phaseContent.append($performanceCta);
 
         }
-      
+
       });
 
 
       if (typeof phasesArr[phase].implementation_details !== 'undefined' && phasesArr[phase].implementation_details.length > 0) {
-        
+
         new Section(null, $phaseContent, 'Implementation status reports', '', '', '');
-        
+
         phasesArr[phase].implementation_details.forEach((implData) => {
-        
+
           const $implGrid = $thirdsGrid.clone(true, true);
 
           $implGrid.find('.loading').hide();
           $phaseContent.append($implGrid);
-  
+
           if(implData) {
 
             new ImplementationDetail(
@@ -351,15 +351,15 @@ Promise.all([
 
     }
 
-    
 
-   
+
+
 
     if (typeof tabData.footer_header !== 'undefined' && tabData.footer_header) {
       new Footer(tab.$container, '', tabData.footer_header, tabData.footer_paragraph);
     }
 
-    
+
 
   });
 
