@@ -26,9 +26,9 @@
             "metric_type": "currency",
             "value": [
               12634178000,
-              10954000000
+              10954000000.0
             ],
-            "total_value": 23588178000,
+            "total_value": 23588178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -1866,7 +1866,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7948,
+                  "value": 7948.0,
                   "dimensions": [],
                   "value_target": 67378.0,
                   "implementation_detail": null
@@ -3171,7 +3171,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 276627,
+                  "value": 276627.0,
                   "dimensions": [],
                   "value_target": 287000.0,
                   "implementation_detail": null
@@ -3505,7 +3505,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 0.0,
                   "implementation_detail": null
@@ -3829,7 +3829,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7607,
+                  "value": 7607.0,
                   "dimensions": [],
                   "value_target": 11818.0,
                   "implementation_detail": null
@@ -4028,7 +4028,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1609,
+                  "value": 1609.0,
                   "dimensions": [],
                   "value_target": 37000.0,
                   "implementation_detail": null
@@ -4261,7 +4261,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 250.0,
                   "implementation_detail": null
@@ -5707,7 +5707,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 5145,
+                  "value": 5145.0,
                   "dimensions": [],
                   "value_target": 8150.0,
                   "implementation_detail": null
@@ -6752,7 +6752,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 2568.0,
                   "implementation_detail": null
@@ -6894,7 +6894,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 2666,
+                  "value": 2666.0,
                   "dimensions": [],
                   "value_target": 7500.0,
                   "implementation_detail": null
@@ -6949,7 +6949,7 @@
                   }
                 },
                 {
-                  "name": "Universities: Graduate Assistants",
+                  "name": "Universities: Graduate Placements",
                   "metric_type": "count",
                   "value": 2666,
                   "dimensions": [
@@ -7015,7 +7015,7 @@
                   ],
                   "value_target": 3000.0,
                   "implementation_detail": {
-                    "programme_name": "Universities: Graduate Assistants",
+                    "programme_name": "Universities: Graduate Placements",
                     "status": "OnTrack",
                     "detail": "Through UCAF all 26 universities have come on board and the rollout of posts and appointments is underway."
                   }
@@ -7071,7 +7071,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 6234,
+                  "value": 6234.0,
                   "dimensions": [],
                   "value_target": 35000.0,
                   "implementation_detail": null
@@ -9268,7 +9268,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1486,
+                  "value": 1486.0,
                   "dimensions": [],
                   "value_target": 1650.0,
                   "implementation_detail": null
@@ -10133,7 +10133,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 5399,
+                  "value": 5399.0,
                   "dimensions": [],
                   "value_target": 46598.0,
                   "implementation_detail": null
@@ -12285,7 +12285,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 310,
+                  "value": 310.0,
                   "dimensions": [],
                   "value_target": 914.0,
                   "implementation_detail": null
@@ -12754,7 +12754,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 941,
+                  "value": 941.0,
                   "dimensions": [],
                   "value_target": 1064.0,
                   "implementation_detail": null
@@ -13324,7 +13324,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 50000.0,
                   "implementation_detail": null
