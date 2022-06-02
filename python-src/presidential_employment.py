@@ -341,12 +341,12 @@ implementation_status_to_enum = {
 # NOTE: UPDATE THESE ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
 months = ['202010', '202011', '202012', 
           '202101', '202102', '202103', '202104', '202105', '202106', '202107', '202108', '202109', '202110', '202111', '202112',
-          '202201', '202202']
+          '202201', '202202', '202203', '202204']
 month_names = ["Oct '20", "Nov '20", "Dec '20", 
                "Jan '21", "Feb '21", "Mar '21", "Apr '21", "May '21", "Jun '21", "Jul '21", "Aug '21", "Sep '21", "Oct '21", "Nov '21", "Dec '21",
-               "Jan '22", "Feb '22"]
+               "Jan '22", "Feb '22", "Mar '22", "Apr '22"]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [16,6]
+total_achievement_column = [16,8]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [{  # these match column names of the Dashboard spreadsheet's Trends sheet
@@ -371,13 +371,15 @@ month_lookup = [{  # these match column names of the Dashboard spreadsheet's Tre
     'nov': '202111',
     'dec': '202112',
     'jan': '202201',
-    'feb': '202202'
+    'feb': '202202',
+    'mar': '202203',
+    'apr': '202204'
 }]
 
 number_of_phases = 2
 phase_dates = [
     ['202010', '202112'],
-    ['202110', '202202']
+    ['202110', '202204']
 ]
 
 
