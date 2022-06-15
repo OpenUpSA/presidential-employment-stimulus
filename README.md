@@ -1,6 +1,6 @@
 # Presidential employment stimulus
 
-This repo provides a webpage that is embedded in [stateofthenation.gov.za](https://www.stateofthenation.gov.za/). This webpage is published at [pres-employment.openup.org.za](https://pres-employment.openup.org.za). An embedded preview is available at [sona-shell.netlify.app](https://sona-shell.netlify.app).
+This repo provides a webpage that is embedded in [stateofthenation.gov.za](https://www.stateofthenation.gov.za/). This webpage is published at [pres-employment.openup.org.za](https://pres-employment.openup.org.za). An embedded preview is available at [sona-shell.netlify.app](https://sona-shell.netlify.app). 
 
 
 ## Development
