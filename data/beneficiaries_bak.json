@@ -20,6 +20,13 @@
         "picture_url": "All-Mshengus.jpg"
     },
     {
+        "department": "DSAC",
+        "name": "Phakamani Zikhalala",
+        "blurb": "Phakamani Zikhalala's workshop helped actors to ''shake off the rust'' gathered during Covid-19, through the support of the National Arts Council.",
+        "paragraph": "The Shake Off That Rust workshop ensures that participants get the best knowledge from experienced practitioners, which moulds them for the high demands of the industry - whilst simulataneously creating job opportunities for practitioners. Despite a limited budget, a little under 200 participants were workshopped and we look forward to securing more opportunities that will ensure a lasting legacy in the culture of theatre and and its functionality in the region and society at large''",
+        "picture_url": ""
+    },
+    {
         "department": "DSI",
         "name": "Wandile Buthelezi",
         "blurb": "Unable to find a job after completing his studies in Public Management two years ago, 25-year-old Wandile Buthelezi took pride in calling himself an Enviro Champ.",
@@ -111,6 +118,27 @@
         "picture_url": "Nomusa-Khanyile.jpg"
     },
     {
+        "department": "COGTA",
+        "name": "Thandeka Krawe",
+        "blurb": "Thandeka Krawe's entrepreneurial mind and passion for a clean environment made her a fitting candidate for tackling the challenge of solid waste management, through the Municipal Infrastructure Support Agency.",
+        "paragraph": "“It is a great initiative for people like me who love a clean environment and who want to become entrepreneurs. Aside from instilling a sense of pride in one’s surroundings, this project inspires hopes and dreams. Many of the people working in this project are energetic young people who were previously sitting idle at home with nothing to do.”",
+        "picture_url": ""
+    },
+    {
+        "department": "COGTA",
+        "name": "Baxolele Nondywana",
+        "blurb": "After 11 years of unemployment father of two, Baxolele Nondywana, found work with the Municipal Infrastructure Support Programme and aims to continue making a meaningful contribution to waste management, beyond the Programme.",
+        "paragraph": "“I want to gain more experience in innovative waste management. It would be tough to find myself on the streets again looking for odd jobs, when there is so much I can contribute to and learn in working on similar projects. And I want to make sure my sons have a better chance of getting to university than I did.”",
+        "picture_url": ""
+    },
+    {
+        "department": "COGTA",
+        "name": "Malakhiwe Zide",
+        "blurb": "Malakhiwe drives Mthata and surrounding Eastern Cape areas into a cleaner environment, through the Municipal Infrastructure Support Agency's waste management project.",
+        "paragraph": "“I could not believe it when I was called to come and sign a contract but it’s not just about being employed. This is a huge opportunity to learn about solid waste management, the business opportunities that will arise and how I can become part of it all.”",
+        "picture_url": ""
+    },
+    {
         "department": "DFFE",
         "name": "Sisipho Mpotulo",
         "blurb": "Sisipho Mpotulo from Mthatha, Eastern Cape, participated in the SANBI Sustainable Wildlife Economies project.",
@@ -137,5 +165,12 @@
         "blurb": "Ntokozo Mathe served as an administrator in the Ekurhuleni Public Employment Programme. She found the experience fruitful, through the programme she gained knowledge in primary health care and nursing services.",
         "paragraph": "My role and responsibilities in my team include making sure that everyone experiences the programme to its full potential. I am the middle man between them and the organisers. I have gained a lot of knowledge and there is still room for me to grow. I am excited about my future in the health and development sector\".",
         "picture_url": "Ntokozo-Mathe.jpg"
+    },
+    {
+        "department": "NT",
+        "name": "Elvis Mthombeni",
+        "blurb": "Mthombeni joined the PEP programme as a fieldworker under Benoni Business Licensing. Participating in the programme helped him gain a number of skills",
+        "paragraph": "During this programme I acquired the following skills: Communication Skills, Customer Relation Skills, Negotiation Skills, Leadership Skills, Multi-tasking Skills and advanced Computer Skills. The income I have gained has helped me to able to meet my family's  financial needs. As an ambitious and career orientated person I would like to complete my studies. Since I'm new to this industry, I hope to gain valuable insight and experience that will help me in future.",
+        "picture_url": ""
     }
 ]

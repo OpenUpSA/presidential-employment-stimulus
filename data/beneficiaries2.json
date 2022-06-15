@@ -1,0 +1,154 @@
+[
+  {
+    "department":"DSAC",
+    "name":"Wandile Molebatsi",
+    "blurb":"Wandile Molebatsi from Johannesburg is the co-founder and Executive Producer at Coal Stove Pictures. ",
+    "paragraph":"\u201cCOVID-19 was devastating for us! My company shut down during the first national lockdown. And as the main breadwinner for my family, it has been a very difficult time. But once lockdown levels were reduced and the PES was announced, the team was able to get back to work.\u201d",
+    "picture_url":"Wandile-Molebatsi.jpg",
+    "featured":true
+  },
+  {
+    "department":"DSAC",
+    "name":"Tshepiso Tjeeko",
+    "blurb":"Tshepiso Tjeeko, a 32-year-old from Qwa Qwa, Free State, says that the employment stimulus saved his business - and the jobs of his core team -  continues to open doors for him. ",
+    "paragraph":"\u201cTshwantshiso Film Productions is an independent film production company based in QwaQwa. Our main objectives is to tell stories from people who do not realize that their narratives are worth telling. Our operations had to stop during level 5 of the COVID-19 lockdown last year.\u201d",
+    "picture_url":"Tshepiso-Tjeeko.jpg",
+    "featured":null
+  },
+  {
+    "department":"DSAC",
+    "name":"Nanda Soobben",
+    "blurb":"Nanda Soobben is series director for Noble Pictures, which was supported by the National Film and Video Foundation.",
+    "paragraph":null,
+    "picture_url":"Nanda-Soobben.jpg",
+    "featured":null
+  },
+  {
+    "department":"DSI",
+    "name":"Bonolo Phete",
+    "blurb":"The Water Research Council placed Bonolo Phete in a research and development company specialising in water efficiency, through grey water operating systems which save water, simplify toilet use and encourage hygiene in the community.",
+    "paragraph":"\u201cI particularly enjoy my job because it is multifaceted. I have been involved in the project planning phase including site surveys, compiling bills of materials and bills of quantities, sourcing and acquiring material, and improving project reporting. I feel like I am putting my academic knowledge to use as well as improving my work experience. This is a positive thing because I am growing and improving my skills and industry knowledge. I hope to open my own company soon.\u201d",
+    "picture_url":"Bonolo-Phete.jpg",
+    "featured":true
+  },
+  {
+    "department":"DSI",
+    "name":"Sanelisizwe Nzimande",
+    "blurb":"25-year old Sanelisizwe Nzimande is a qualified civil engineer who has become passionate about water quality since joining Amanzi Ethu Nobuntu (our water, our humanity). Here, she is using a turbidity tube to measure water quality. ",
+    "paragraph":"Sanelisiwe Nzimande: \u201cEvery time I put on my gloves, boots and hat I feel very proud of what I am going to do for my environment. It makes me feel very confident because I feel that it benefits everyone in my community.\u201d",
+    "picture_url":"Sanelisizwe-Nzimande.jpg",
+    "featured":null
+  },
+  {
+    "department":"DSI",
+    "name":"Nonkuleleko Ngcobo",
+    "blurb":"Nonkuleleko Ngcobo is one of 300 young Enviro Champs trained through the\u00a0Amanzi Ethu Nobuntu programme\u00a0to recognise and remove trees like the Cassia that are infesting riverine bush and draining precious water from the rivers feeding the Mngeni River. ",
+    "paragraph":"\u201cWe clear alien plants because they are found to be sucking all the water. Wherever you find alien plants, the river will be narrow.\u201d",
+    "picture_url":"Nonkuleleko-Ngcobo.jpg",
+    "featured":null
+  },
+  {
+    "department":"DBE",
+    "name":"Wade Janniker",
+    "blurb":"As an Education Assistant, 20-year-old Wade Janniker gave a helping hand in computer labs at Range Primary School in Elsies River.",
+    "paragraph":"\u201cI learned how much my help was valued. It was such a privilege to have that experience. In our neighbourhood, other people stand on corners and ask for R2.\u00a0 I don\u2019t want to be like them.\u00a0My duties included assisting the deputy principal\u00a0and teachers with admin work, but mostly I was in the computer lab. That\u2019s where I discovered how much I love computer work.\u00a0It was very rewarding to see children wanting to learn.\u201d",
+    "picture_url":"Wade-Janniker.jpg",
+    "featured":true
+  },
+  {
+    "department":"DBE",
+    "name":"Rochelle Wagner",
+    "blurb":"Rochelle Wagner was appointed as an education assistant at Range Primary School in Elsies River in the Western CapHer experience has inspired her to train in performing arts and as a foundation phase teacher. ",
+    "paragraph":"\u201cAfter the program ended at school, I did some voluntary work at the same school and am now part of the Mathmoms program.\u201d",
+    "picture_url":"Rochelle-Wagner.jpg",
+    "featured":true
+  },
+  {
+    "department":"DBE",
+    "name":"Candice Dolphin",
+    "blurb":"For Candice Dolphin, her appointment as an education assistant at Range Primary in Elsies Rive, Wester Cape, was her first proper job.",
+    "paragraph":"\u201cMost of my adult life I have been unemployed, and only got short contracts at councils like sweeping and at Hungry Lion. Growing up here in Elsies River was tough. It\u2019s all about shootings, robbery and gangsters. I stayed inside most of the time, but I do have good memories of charity fund raisers and food parcels we would get. Right now, I just really hope I can get back into the programme because I really loved it there and have not found any other work since. I am sending my CV everywhere. The grant is really missed. I wish it comes back.\u201d",
+    "picture_url":"Candice-Dolphin.jpg",
+    "featured":null
+  },
+  {
+    "department":"DFFE",
+    "name":null,
+    "blurb":"A team gears up to remove alien invasive specieis in Limpopo.",
+    "paragraph":null,
+    "picture_url":"Removing-invasive-alien-species.jpg",
+    "featured":null
+  },
+  {
+    "department":"DFFE",
+    "name":null,
+    "blurb":"Clearing alien vegetation in the Berg-end Breede in Limpopo.",
+    "paragraph":null,
+    "picture_url":"Clearing-vegetation.jpg",
+    "featured":null
+  },
+  {
+    "department":"DFFE",
+    "name":"Yenziwe Mbuyisa",
+    "blurb":"Yneziwe Mbuyisa,  from Ladysmith in KZN, was unemployed for a year before joining the SANBI programme. ",
+    "paragraph":"\u201cI learned about the wildlife industry and its value. Not only did this project offer me a chance to be employed and gain experience but it also gave me a chance to explore the value of my degree. It became very discouraging when the pandemic hit and jobs became scarce, to find value in a natural science degree. This project motivated me to believe in the importance of this field of study and the value it has in our society.\u201d",
+    "picture_url":"Yenziwe-Mbuyisa.jpg",
+    "featured":true
+  },
+  {
+    "department":"DoT",
+    "name":"Nelly Boshielo",
+    "blurb":"Nelly Boshielo is a 33-year-old from Marapyane, Limpopo. She was employed as a General Worker through the Presidential Employment Stimulus, helping to construct roads for the Department of Transport.",
+    "paragraph":"\u201cI have a Grade 11 qualification and used to work as a security guard. However, my contract was cancelled, and I was left unemployed for two and a half years. I\u2019m a single mother with four children. As such, it was very difficult. All I could depend on was the social grant I had qualified for.\u201d",
+    "picture_url":"Nelly-Boshielo.jpg",
+    "featured":null
+  },
+  {
+    "department":"DoT",
+    "name":"Michael Maziya ",
+    "blurb":"Michael Maziya is a 54-year-old who lives in Thambokulu, Limpopo who was employed as a General Worker helping to construct roads for the Department of Transport. ",
+    "paragraph":"\u201cAfter leaving school at Grade 6, I worked at a few mines. However, 15 years ago, the mine I worked at shut down and I was then without work. I have a wife and six children so being unemployed for so long was difficult. To make some money to feed my family I took piece jobs, ploughing on farms. It was not easy but there was no other way, I had to provide for my family.I really appreciated this opportunity in the PES because I have been able to gain new skills and make some money. I now own a fridge as a result. The project was also great for my community since we now have a new road.\u201d",
+    "picture_url":"Michael-Maziya.jpg",
+    "featured":true
+  },
+  {
+    "department":"DoT",
+    "name":null,
+    "blurb":"Road work in Marapyane, Limpopo.",
+    "paragraph":null,
+    "picture_url":"Limpopo-Roadworks.jpg",
+    "featured":null
+  },
+  {
+    "department":"DPWI",
+    "name":"Samukelisiwe Linda",
+    "blurb":"Samukelisiwe Linda worked on the Welisizwe Rural Bridges programme of the Department of Public Works and Infrastructure.",
+    "paragraph":"\u201cI had a great career as a Civil Engineer within the private sector. But due to the impact of COVID-19 on my industry, I was retrenched in June last year. This really created a lot of anxiety and fear in my life about the possibility of never finding a job and being broke,\u201d she explains. Now, her skills are being put to good use. \u201cWe go out to areas where there are no bridges at all and build new ones or we fix bridges that are falling apart. This helps families who need to travel to school or work but because of poor terrain, are doing so with great difficulty.\u201d",
+    "picture_url":"Samukeliswa-Linda.jpg",
+    "featured":null
+  },
+  {
+    "department":"DALRRD",
+    "name":"Nosipho Cekwana",
+    "blurb":"Nosipho Cekwana from Impendle received a R5,300 voucher as part of support to subsistence farmers provided by the Department of Agriculture, Land Reform and Rural Development, as part of the Presidential Employment Stimulus.",
+    "paragraph":null,
+    "picture_url":"Nosipho-Cekwana.jpg",
+    "featured":null
+  },
+  {
+    "department":"DALRRD",
+    "name":"Phindile Ngcoya",
+    "blurb":"Phindile Ngcoya is from a family co-operative in Phatheni, Kwazulu-Natal.",
+    "paragraph":null,
+    "picture_url":"Phindile-Ngcoya.jpg",
+    "featured":null
+  },
+  {
+    "department":"DALRRD",
+    "name":"Nomusa Khanyile",
+    "blurb":"Nomusa Khanyile farms pigs in Mpolweni, Kwazulu-Natal",
+    "paragraph":null,
+    "picture_url":"Nomusa-Khanyile.jpg",
+    "featured":null
+  }
+]
