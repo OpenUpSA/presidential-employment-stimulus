@@ -75,7 +75,7 @@ department_name_to_abbreviation = {
  'Tourism': 'Tourism',
  'Employment and Labour': 'DEL',
  'Communications and Digital Technologies': 'DCDT',
- 'Department of Women, Youth and Persons with Disabilities': 'DWYPD',
+ 'Women, Youth and Persons with Disabilities': 'DWYPD',
 }
 
 department_budget_targets = [{
@@ -103,7 +103,7 @@ department_budget_targets = [{
     'Tourism': 108_000 * 1000, # CRE
     'Employment and Labour': (20_000 * 1000) + (238_000 * 1000), # CRE and CAT
     'Communications and Digital Technologies': 200_000 * 1000, # CAT
-    'Department of Women, Youth and Persons with Disabilities': 30_000 * 1000, # CRE
+    'Women, Youth and Persons with Disabilities': 30_000 * 1000, # CRE
     'Social Development': 178_000 * 1000, # LIV
     'Agriculture, Land Reform and Rural Development': 750_000 * 1000, # LIV
 }
