@@ -26,9 +26,9 @@
             "metric_type": "currency",
             "value": [
               12634178000,
-              10954000000.0
+              10954000000
             ],
-            "total_value": 23588178000.0,
+            "total_value": 23588178000,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6630636649763194,
-              "1": 0.5785263182319929
+              "1": 0.5791618787991895
             },
-            "total_value": 0.6207949916041562,
+            "total_value": 0.6211127718877545,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -74,9 +74,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.796870572499581,
-              "1": 0.8740708846996584
+              "1": 0.8734492508264905
             },
-            "total_value": 0.8354707285996197,
+            "total_value": 0.8351599116630357,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -246,21 +246,21 @@
                     }
                   },
                   {
-                    "key": "DWYPD",
-                    "value": {
-                      "1": 0
-                    },
-                    "value_target": {
-                      "1": 35000.0
-                    }
-                  },
-                  {
                     "key": "DEL",
                     "value": {
                       "1": 0
                     },
                     "value_target": {
                       "1": 250.0
+                    }
+                  },
+                  {
+                    "key": "DWYPD",
+                    "value": {
+                      "1": 0
+                    },
+                    "value_target": {
+                      "1": 35000.0
                     }
                   }
                 ],
@@ -1866,7 +1866,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7948.0,
+                  "value": 7948,
                   "dimensions": [],
                   "value_target": 67378.0,
                   "implementation_detail": null
@@ -3171,7 +3171,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 276627.0,
+                  "value": 276627,
                   "dimensions": [],
                   "value_target": 287000.0,
                   "implementation_detail": null
@@ -3505,7 +3505,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 0.0,
                   "implementation_detail": null
@@ -3829,7 +3829,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 7607.0,
+                  "value": 7607,
                   "dimensions": [],
                   "value_target": 11818.0,
                   "implementation_detail": null
@@ -4005,239 +4005,6 @@
       "paragraph": "Through the Municipal Infrastructure Support Agency, COGTA is experimenting with new ways to tackle the challenge of solid waste in 25 municipalities, targeting 85% rural municipalities. These approaches will identify collection, sorting and recycling options and explore revenue generation opportunities for community enterprises, by  looking at the entire waste value chain, with a focus on community awareness. The programme aims not only to create jobs but also to support 100 small enterprises. MISA also continues to support the application of labour-intensive methods in infrastructure in 15 municipalities, that formed part of Phase One, with changes to contracting starting to deliver stronger employment outcomes."
     },
     {
-      "name": "Department of Women, Youth and Persons with Disabilities",
-      "phases": [
-        {
-          "phase_num": 1,
-          "month": "202204",
-          "target_lines": [],
-          "achievement_lines": [],
-          "sections": [
-            {
-              "name": "Programme targets for this department",
-              "section_type": "targets",
-              "metrics": [
-                {
-                  "name": "Budget",
-                  "metric_type": "currency",
-                  "value": -1,
-                  "dimensions": [],
-                  "value_target": 30000000,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Beneficiaries",
-                  "metric_type": "count",
-                  "value": 1609.0,
-                  "dimensions": [],
-                  "value_target": 37000.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs created",
-              "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "PYEI/ National Youth Service",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 35000.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Livelihoods supported",
-              "section_type": "livelihoods",
-              "metrics": [
-                {
-                  "name": "PYEI/ Youth Enterprise Support Fund ",
-                  "metric_type": "count",
-                  "value": 1609,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 212,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 81,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 327,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 332,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 184,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 243,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 32,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 85,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 113,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 1255,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 1255,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 1609,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 1609,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 1609,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.54,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.46,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.99,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    }
-                  ],
-                  "value_target": 2000.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs retained",
-              "section_type": "jobs_retain",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            }
-          ],
-          "implementation_details": [],
-          "beneficiaries": []
-        }
-      ],
-      "sheet_name": "DWYPD",
-      "lead": "Presidential Youth Employment Intervention",
-      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Enterprise Youth Fund. The National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
-    },
-    {
       "name": "Employment and Labour",
       "phases": [
         {
@@ -4261,7 +4028,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 250.0,
                   "implementation_detail": null
@@ -5707,7 +5474,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 5145.0,
+                  "value": 5145,
                   "dimensions": [],
                   "value_target": 8150.0,
                   "implementation_detail": null
@@ -6752,7 +6519,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 2568.0,
                   "implementation_detail": null
@@ -6894,7 +6661,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 2666.0,
+                  "value": 2666,
                   "dimensions": [],
                   "value_target": 7500.0,
                   "implementation_detail": null
@@ -7071,7 +6838,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 6234.0,
+                  "value": 6234,
                   "dimensions": [],
                   "value_target": 35000.0,
                   "implementation_detail": null
@@ -9268,7 +9035,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1486.0,
+                  "value": 1486,
                   "dimensions": [],
                   "value_target": 1650.0,
                   "implementation_detail": null
@@ -10133,7 +9900,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 5399.0,
+                  "value": 5399,
                   "dimensions": [],
                   "value_target": 46598.0,
                   "implementation_detail": null
@@ -12285,7 +12052,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 310.0,
+                  "value": 310,
                   "dimensions": [],
                   "value_target": 914.0,
                   "implementation_detail": null
@@ -12754,7 +12521,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 941.0,
+                  "value": 941,
                   "dimensions": [],
                   "value_target": 1064.0,
                   "implementation_detail": null
@@ -13324,7 +13091,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 0.0,
+                  "value": 0,
                   "dimensions": [],
                   "value_target": 50000.0,
                   "implementation_detail": null
@@ -13648,6 +13415,176 @@
       "sheet_name": "DoT",
       "lead": "Rural Roads Maintenance",
       "paragraph": " In Phase One, rural roads programmes were rolled out in most Provinces. Despite numerous challenges faced by provincial departments in the planning phase and implementation, projects are in implementation and appointed participants are contributing to the maintenance of rural roads. To date, 4334 km of roads have maintained. The programme did not receive funds in Phase Two.  \n"
+    },
+    {
+      "name": "Women, Youth and Persons with Disabilities",
+      "phases": [
+        {
+          "phase_num": 1,
+          "month": "202204",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 30000000,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 1609,
+                  "dimensions": [],
+                  "value_target": 37000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [
+                {
+                  "name": "PYEI/ National Youth Service",
+                  "metric_type": "count",
+                  "value": 0,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 35000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [
+                {
+                  "name": "PYEI/ Youth Enterprise Support Fund ",
+                  "metric_type": "count",
+                  "value": 1609,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202112",
+                          "value": 1255,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202201",
+                          "value": 1255,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202202",
+                          "value": 1609,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202203",
+                          "value": 1609,
+                          "value_target": null
+                        },
+                        {
+                          "key": "202204",
+                          "value": 1609,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 2000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        }
+      ],
+      "sheet_name": "DWYPD",
+      "lead": "Presidential Youth Employment Intervention",
+      "paragraph": "The department is supporting two programmes under the Presidential Youth Employment Intervention, namely the National Youth Service and the Enterprise Youth Fund. The National Youth Service will create opportunities for young people to contribute meaningfully to their communities, develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. The Youth Enterprise Fund will be implemented by the National Youth Development Agency and will  build on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the agency."
     }
   ]
 }
