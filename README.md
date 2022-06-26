@@ -6,9 +6,11 @@ This repo provides a webpage that is embedded in [stateofthenation.gov.za](https
 
 Data processing is done using Python, website UX design in Webflow, and website dynamics using jQuery and D3.js.
 
-### Generate data from spreadsheet files
+### Structure of the spreadsheet file
 
-This is done using the `notebooks/p-e_to_json.ipynb`. The basic structure of the spreadsheet is as follows:
+**NOTE:** Read this is you are updating the spreadsheet used as input for the website.
+
+The basic structure of the spreadsheet is as follows:
 
 1. Targets - a sheet listing all programmes and their target number of beneficiaries.
    This stays the same for a phase, as targets are set once.
@@ -23,19 +25,19 @@ This is done using the `notebooks/p-e_to_json.ipynb`. The basic structure of the
 
 6. Department Descriptions - the descriptions and blurbs ("lead" and "paragraph") for each department
 
-### Import Webflow export
+General rules for the spreadsheet:
 
-To update the website with a Webflow export, save the Webflow export to `/webflow-export.zip`, then run:
+1. Keep it rectangular: the code expects a grid of rows and columns, so there must not be any merged cells, etc.
 
-```bash
-npm run webflow-import
-```
+2. Pay attention to naming: the programme names need to be exactly the same throughout the spreadsheet
 
-## Deployment
+3. Whitespace matters: "Educational Assistants" is different to "Educational  Assistants" and "Educational Assistants "
 
-Commits to `main` are deployed to [presidency-employment-stimulus.netlify.app](https://presidency-employment-stimulus.netlify.app) by [Netlify](https://app.netlify.com/sites/presidency-employment-stimulus). The site [pres-employment.openup.org.za](http://pres-employment.openup.org.za) points at this site.
+4. Each change needs a new version: To make it clear which version of which, make sure that each time you change the spreadsheet you give the file a new name and store it in the appropriate place on Google Drive.
 
 ## Updating data
+
+**NOTE:** Read this if you are running the data update code.
 
 Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. A cell near the top of the notebook refers to the files that are processed.
 
@@ -49,7 +51,19 @@ The list of valid months and corresponding columns in the Trends sheet is in `py
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
-## Data structure and dependencies:
+### Import Webflow export
+
+To update the website with a Webflow export, save the Webflow export to `/webflow-export.zip`, then run:
+
+```bash
+npm run webflow-import
+```
+
+## Deployment
+
+Commits to `main` are deployed to [presidency-employment-stimulus.netlify.app](https://presidency-employment-stimulus.netlify.app) by [Netlify](https://app.netlify.com/sites/presidency-employment-stimulus). The site [pres-employment.openup.org.za](http://pres-employment.openup.org.za) points at this site.
+
+## Data structure and dependencies
 
 Dependencies:
 
