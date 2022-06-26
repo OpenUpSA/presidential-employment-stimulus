@@ -49,7 +49,16 @@ The list of valid months and corresponding columns in the Trends sheet is in `py
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
-## Data structure
+## Data structure and dependencies:
+
+Dependencies:
+
+```yaml
+python>=3.9
+dataclasses-json>=0.5.6
+pandas>=1.4.1
+numpy>=1.21.5
+```
 
 The data structures in use are:
 
