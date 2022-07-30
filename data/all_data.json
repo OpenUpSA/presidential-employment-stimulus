@@ -1952,6 +1952,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2086,6 +2093,13 @@
                       "name": "Livelihoods supported by city",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -2228,6 +2242,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2366,6 +2387,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2500,6 +2528,13 @@
                       "name": "Livelihoods supported by city",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -3285,6 +3320,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -3423,6 +3465,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -3583,6 +3632,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -3964,6 +4020,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4124,6 +4187,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4168,6 +4238,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -5630,6 +5707,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5768,6 +5852,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5864,6 +5955,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5908,6 +6006,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -6002,6 +6107,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -6664,6 +6776,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6708,6 +6827,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -6820,6 +6946,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6866,6 +6999,59 @@
                       "lookup": "city",
                       "values": [],
                       "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [
+                        {
+                          "key": "UL",
+                          "value": 1234,
+                          "value_target": null
+                        },
+                        {
+                          "key": "UP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NWU",
+                          "value": 456,
+                          "value_target": null
+                        },
+                        {
+                          "key": "UKZN",
+                          "value": 789,
+                          "value_target": null
+                        },
+                        {
+                          "key": "SMU",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "UWC",
+                          "value": 1234,
+                          "value_target": null
+                        },
+                        {
+                          "key": "CPUT",
+                          "value": 456,
+                          "value_target": null
+                        },
+                        {
+                          "key": "UCT",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "UNISA",
+                          "value": 789,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Employed over time",
@@ -7101,6 +7287,13 @@
                         }
                       ],
                       "data_missing": false
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Employed over time",
@@ -9307,6 +9500,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9449,6 +9649,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9587,6 +9794,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -10193,6 +10407,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10318,6 +10539,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10401,6 +10629,13 @@
                       "name": "Livelihoods supported by city",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -12366,6 +12601,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12508,6 +12750,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12646,6 +12895,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -12856,6 +13112,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12994,6 +13257,13 @@
                       "name": "Opportunities in post by City",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
@@ -13394,6 +13664,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -13750,6 +14027,13 @@
                       "data_missing": true
                     },
                     {
+                      "name": "Opportunities in post by University",
+                      "viz": "bar",
+                      "lookup": "university",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -13798,6 +14082,13 @@
                       "name": "Livelihoods supported by city",
                       "viz": "bar",
                       "lookup": "city",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported by university",
+                      "viz": "bar",
+                      "lookup": "university",
                       "values": [],
                       "data_missing": true
                     },
