@@ -2015,6 +2015,24 @@
                       "data_missing": false
                     },
                     {
+                      "name": "Livelhoods supported going to repeat TODO",
+                      "viz": "two_value",
+                      "lookup": "repeat",
+                      "values": [
+                        {
+                          "key": "Repeat",
+                          "value": 0.05,
+                          "value_target": null
+                        },
+                        {
+                          "key": "New",
+                          "value": 0.95,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2154,6 +2172,24 @@
                         {
                           "key": "Female",
                           "value": 0.104,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to repeat TODO",
+                      "viz": "two_value",
+                      "lookup": "repeat",
+                      "values": [
+                        {
+                          "key": "Repeat",
+                          "value": 0.2,
+                          "value_target": null
+                        },
+                        {
+                          "key": "New",
+                          "value": 0.8,
                           "value_target": null
                         }
                       ],
@@ -2305,6 +2341,24 @@
                       "data_missing": false
                     },
                     {
+                      "name": "Livelhoods supported going to repeat TODO",
+                      "viz": "two_value",
+                      "lookup": "repeat",
+                      "values": [
+                        {
+                          "key": "Repeat",
+                          "value": 0.7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "New",
+                          "value": 0.3,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2450,6 +2504,24 @@
                       "data_missing": false
                     },
                     {
+                      "name": "Livelhoods supported going to repeat TODO",
+                      "viz": "two_value",
+                      "lookup": "repeat",
+                      "values": [
+                        {
+                          "key": "Repeat",
+                          "value": 0.5,
+                          "value_target": null
+                        },
+                        {
+                          "key": "New",
+                          "value": 0.5,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2589,6 +2661,24 @@
                         {
                           "key": "Female",
                           "value": 0.043,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelhoods supported going to repeat TODO",
+                      "viz": "two_value",
+                      "lookup": "repeat",
+                      "values": [
+                        {
+                          "key": "Repeat",
+                          "value": 0.12,
+                          "value_target": null
+                        },
+                        {
+                          "key": "New",
+                          "value": 0.9,
                           "value_target": null
                         }
                       ],

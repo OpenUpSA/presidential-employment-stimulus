@@ -1,3 +1,4 @@
+from calendar import day_abbr
 from enum import Enum
 from dataclasses import dataclass
 from pprint import PrettyPrinter
@@ -22,10 +23,12 @@ ImplementationStatusEnum = Enum(
 VizTypeEnum = Enum("VizType", "bar line two_value percentile count full compact")
 
 LookupTypeEnum = Enum(
-    "LookupType", "department city province university time age gender vets disabled"
+    "LookupType", "department city province university time age gender vets disabled repeat"
 )
 
 GenderEnum = Enum("Gender", "Male Female")
+
+RepeatEnum = Enum("Repeat", "Repeat New")
 
 provinces = [
     "Eastern Cape",
@@ -193,6 +196,9 @@ metric_titles = {
         MetricTypeEnum.count.name + "_age": "Opportunities going to 18-35 year olds",
         MetricTypeEnum.count.name
         + "_disabled": "Opportunities going to disabled persons",
+        MetricTypeEnum.count.name
+        + "_repeat": "Opportunities going to repeat TODO",
+
     },
     SectionEnum.jobs_retain.name: {
         MetricTypeEnum.count.name + "_time": "Jobs saved over time",
@@ -201,6 +207,8 @@ metric_titles = {
         MetricTypeEnum.count.name + "_city": "Jobs saved by city",
         MetricTypeEnum.count.name + "_university": "Jobs saved by university",
         MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
+        MetricTypeEnum.count.name
+        + "_repeat": "Jobs saved going to repeat TODO",
     },
     SectionEnum.livelihoods.name: {
         MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
@@ -215,6 +223,9 @@ metric_titles = {
         + "_vets": "Livelhoods supported going to military veterans",
         MetricTypeEnum.count.name
         + "_disabled": "Livelhoods supported going to disabled persons",
+        MetricTypeEnum.count.name
+        + "_repeat": "Livelhoods supported going to repeat TODO",
+
     },
 }
 
@@ -541,7 +552,7 @@ def load_sheets(phase1_excel, phase2_excel):
     * provincial_df - provincial breakdowns
     * cities_df - cities breakdown
     * universities_df - universities breakdown
-    * demographic_df -
+    * demographic_df - demographic breakdown by gender, youth, etc
     """
     opportunity_targets_df = [
         pd.read_excel(phase1_excel, sheet_name="Targets", header=None).fillna(0)
@@ -755,7 +766,7 @@ def load_sheets(phase1_excel, phase2_excel):
             phase2_excel,
             sheet_name="Demographic data",
             skiprows=9,
-            usecols=list(range(9)),
+            usecols=list(range(11)),
         )
     )
 
@@ -765,7 +776,7 @@ def load_sheets(phase1_excel, phase2_excel):
             for c in demographic_df[i].columns
         ]
         demographic_df[i].department = demographic_df[i].department.fillna(method="pad")
-    # demographic_df = demographic_df.fillna(0)
+        demographic_df[i] = demographic_df[i].fillna(0)
 
     achievement_totals_df = [
         pd.read_excel(
@@ -1112,6 +1123,40 @@ def compute_all_data_departments(
                                 data_missing=data_missing,
                             )
                             dimensions.append(gender_dim)
+
+                            data_missing=True
+                            values=[]
+                            if len(demographic_row) != 0 and "perc_repeat" in demographic_row:
+                                repeat_perc = demographic_row.loc[:, "perc_repeat"].iloc[0]
+                                new_perc = demographic_row.loc[:, "perc_new"].iloc[0]
+                                if (repeat_perc + new_perc) != 0:
+
+                                    values = [
+                                        MetricValue(
+                                            key=RepeatEnum.Repeat.name,
+                                            value=repeat_perc,
+                                        ),
+                                        MetricValue(
+                                            key=RepeatEnum.New.name,
+                                            value=new_perc
+                                        )
+                                    ]
+                                    data_missing=False
+
+                                    # TODO: figure out when this should be added. Should it be in:
+                                    #       1. all of phase 2
+                                    #       2. only programmes from DALLRD where this is relevant
+                                    # current option is (2)
+                                    repeat_dim = Dimension(
+                                        name=metric_titles[section_abbrev_to_name[section]][
+                                            MetricTypeEnum.count.name + '_repeat'
+                                        ],
+                                        lookup=LookupTypeEnum.repeat.name,
+                                        viz=VizTypeEnum.two_value.name,
+                                        values=values,
+                                        data_missing=data_missing
+                                    )
+                                    dimensions.append(repeat_dim)
 
                             values = []
                             if len(demographic_row) == 0:

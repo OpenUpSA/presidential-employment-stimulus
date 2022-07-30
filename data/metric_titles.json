@@ -10,7 +10,8 @@
     "count_city": "Opportunities in post by City",
     "count_university": "Opportunities in post by University",
     "count_age": "Opportunities going to 18-35 year olds",
-    "count_disabled": "Opportunities going to disabled persons"
+    "count_disabled": "Opportunities going to disabled persons",
+    "count_repeat": "Opportunities going to repeat TODO"
   },
   "jobs_retain": {
     "count_time": "Jobs saved over time",
@@ -18,7 +19,8 @@
     "count_province": "Jobs saved by province",
     "count_city": "Jobs saved by city",
     "count_university": "Jobs saved by university",
-    "count_age": "Jobs saved going to 18-35 year olds"
+    "count_age": "Jobs saved going to 18-35 year olds",
+    "count_repeat": "Jobs saved going to repeat TODO"
   },
   "livelihoods": {
     "count_time": "Livelihoods supported over time",
@@ -28,6 +30,7 @@
     "count_university": "Livelihoods supported by university",
     "count_age": "Livelihoods supported going to 18-35 year olds",
     "count_vets": "Livelhoods supported going to military veterans",
-    "count_disabled": "Livelhoods supported going to disabled persons"
+    "count_disabled": "Livelhoods supported going to disabled persons",
+    "count_repeat": "Livelhoods supported going to repeat TODO"
   }
 }
