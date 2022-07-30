@@ -10,6 +10,17 @@
     "NC": "Northern Cape",
     "WC": "Western Cape"
   },
+  "city": {
+    "CPT": "Cape Town",
+    "JHB": "Johannesburg",
+    "DBN": "Durban",
+    "PTA": "Pretoria",
+    "GB": "Gqerberha",
+    "BFN": "Bloemfontein",
+    "EL": "East London",
+    "PMB": "Pietermaritzburg",
+    "POL": "Polokwane"
+  },
   "department": {
     "DALRRD": "Agriculture, Land Reform and Rural Development",
     "DBE": "Basic Education",

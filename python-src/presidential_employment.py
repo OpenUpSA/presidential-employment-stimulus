@@ -1,7 +1,7 @@
 from enum import Enum
 from dataclasses import dataclass
 from pprint import PrettyPrinter
-from typing import List, Union, Mapping
+from typing import Callable, List, Union, Mapping
 
 from dataclasses_json import dataclass_json
 import pandas as pd
@@ -18,7 +18,7 @@ ImplementationStatusEnum = Enum('ImplementationStatus', 'OnTrack MinorChallenges
 
 VizTypeEnum = Enum('VizType', 'bar line two_value percentile count full compact')
 
-LookupTypeEnum = Enum('LookupType', 'department province time age gender vets disabled')
+LookupTypeEnum = Enum('LookupType', 'department city province time age gender vets disabled')
 
 GenderEnum = Enum("Gender", "Male Female")
 
@@ -33,6 +33,7 @@ provinces = [
     "Northern Cape",
     "Western Cape",
 ]
+
 province_abbreviations = ["EC", "FS", "GP", "KZN", "LP", "NW", "NC", "WC", "MP"]
 
 province_to_abbrev = {
@@ -57,6 +58,30 @@ province_header_to_abbrev = {
     "northern_cape": "NC",
     "western_cape": "WC",
     "eastern_cape": "EC",
+}
+
+cities = [
+    "Cape Town",
+    "Johannesburg",
+    "Durban",
+    "Pretoria",
+    "Gqerberha",
+    "Bloemfontein",
+    "East London",
+    "Pietermaritzburg",
+    "Polokwane",
+]
+
+city_header_to_abbrev = {
+    "cape_town": "CPT",
+    "johannesburg": "JHB",
+    "durban": "DBN",
+    "pretoria": "PTA",
+    "gqerberha": "GB",
+    "bloemfontein": "BFN",
+    "east_london": "EL",
+    "pietermaritzburg": "PMB",
+    "polokwane": "POL"
 }
 
 department_name_to_abbreviation = {
@@ -131,6 +156,7 @@ metric_titles = {
         MetricTypeEnum.count.name + '_time': "Employed over time",
         MetricTypeEnum.count.name + '_gender': "Opportunities by Gender",
         MetricTypeEnum.count.name + '_province': "Opportunities in post by Province",
+        MetricTypeEnum.count.name + '_city': "Opportunities in post by City",
         MetricTypeEnum.count.name + '_age': "Opportunities going to 18-35 year olds",
         MetricTypeEnum.count.name + "_disabled": "Opportunities going to disabled persons",
     },
@@ -138,12 +164,14 @@ metric_titles = {
         MetricTypeEnum.count.name + "_time": "Jobs saved over time",
         MetricTypeEnum.count.name + "_gender": "Jobs saved by gender",
         MetricTypeEnum.count.name + "_province": "Jobs saved by province",
+        MetricTypeEnum.count.name + "_city": "Jobs saved by city",
         MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
     },
     SectionEnum.livelihoods.name: {
         MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
         MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
         MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
+        MetricTypeEnum.count.name + "_city": "Livelihoods supported by city",
         MetricTypeEnum.count.name + "_age": "Livelihoods supported going to 18-35 year olds",
         MetricTypeEnum.count.name + '_vets': "Livelhoods supported going to military veterans",
         MetricTypeEnum.count.name + '_disabled': "Livelhoods supported going to disabled persons",
@@ -550,6 +578,19 @@ def load_sheets(phase1_excel, phase2_excel):
         usecols=list(range(12)),
     ))
 
+    cities_df = [None, pd.read_excel(
+        phase2_excel,
+        sheet_name="Cities (beneficiaries)",
+        skiprows=4,
+        usecols=list(range(12))  # adjust if number of cities changes
+    )]
+    for i in range(len(cities_df)):
+        if cities_df[i] is None:
+            continue
+        cities_df[i].columns = [ c.lower().replace(" ", "_") for c in cities_df[i].columns ]
+        cities_df[i].department = cities_df[i].department.fillna(method="pad")
+        cities_df[i] = cities_df[i].fillna(0)
+
     for i in range(len(provincial_df)):
         provincial_df[i].columns = [
             c.lower().replace(" ", "_").replace("-", "_") for c in provincial_df[i].columns
@@ -592,12 +633,27 @@ def load_sheets(phase1_excel, phase2_excel):
             targets_df,
             trends_df,
             provincial_df,
+            cities_df,
             demographic_df,
             achievement_totals_df)
 
 
-def make_dim(dim_type, lookup_type, df, col_start, col_end, key_lookup,
-             department_name, programme_name, section):
+def make_dim(lookup_type: str, viz_type: str, df: pd.DataFrame, col_start: int, col_end: int,
+             key_lookup: Callable[[str], str],
+             department_name: str, programme_name: str, section: str) -> Dimension:
+    """Make a Dimension from a dataframe where the dataframe has programmes as rows and dimension as columns.
+    
+        lookup_type: Lookup type (reference to lookups.json) to lookup abbreviation to full name
+        viz_type: Visualisation type (line, bar, etc)
+        df: pandas dataframe to be processed
+        col_start: starting column of the data
+        col_end: ending column of the data
+        key_lookup: function to look up Metric key from column names
+        department_name: department name
+        programme_name: programme name within department
+        section: section abbreviation (CRE, LIV, RET)
+        returns a Dimension
+    """
     row = df.loc[(df.department == department_name) & (df.programme == programme_name)]
     values = []
     if len(df.loc[(df.department == department_name) & (df.programme == programme_name)]) == 0:
@@ -617,10 +673,10 @@ def make_dim(dim_type, lookup_type, df, col_start, col_end, key_lookup,
 
     dim = Dimension(
         name=metric_titles[section_abbrev_to_name[section]][
-            MetricTypeEnum.count.name + "_" + dim_type
+            MetricTypeEnum.count.name + "_" + lookup_type
         ],
-        lookup=dim_type,
-        viz=lookup_type,
+        lookup=lookup_type,
+        viz=viz_type,
         values=values,
         data_missing=data_missing,
     )
@@ -630,7 +686,7 @@ def make_dim(dim_type, lookup_type, df, col_start, col_end, key_lookup,
 def compute_all_data_departments(phase1_departments, phase2_departments, 
                                  implementation_status_df, demographic_df, description_df,
                                  targets_df, trends_df, department_names, provincial_df,
-                                 leads, paragraphs):
+                                 cities_df, leads, paragraphs):
     """Compute all_data_departments, which summarises programmes for all departments
        (what will become the department tabs)"""
     all_data_departments = []
@@ -726,6 +782,12 @@ def compute_all_data_departments(phase1_departments, phase2_departments,
                                                        VizTypeEnum.bar.name,
                                                        provincial_df[phase_num], 2, -1, lambda key: province_header_to_abbrev[key],
                                                        department_name, programme_name, section))
+                            if cities_df[phase_num] is not None:
+                                cities_dim = make_dim(LookupTypeEnum.city.name,
+                                                      VizTypeEnum.bar.name,
+                                                      cities_df[phase_num], 2, -1, lambda key: city_header_to_abbrev[key],
+                                                      department_name, programme_name, section)
+                                dimensions.append(cities_dim)
                             dimensions.append(make_dim(LookupTypeEnum.time.name,
                                                        VizTypeEnum.line.name, trends_df[phase_num], 2, None, lambda key: month_lookup[phase_num][key],
                                                        department_name, programme_name, section))

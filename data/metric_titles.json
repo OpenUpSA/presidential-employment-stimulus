@@ -7,6 +7,7 @@
     "count_time": "Employed over time",
     "count_gender": "Opportunities by Gender",
     "count_province": "Opportunities in post by Province",
+    "count_city": "Opportunities in post by City",
     "count_age": "Opportunities going to 18-35 year olds",
     "count_disabled": "Opportunities going to disabled persons"
   },
@@ -14,12 +15,14 @@
     "count_time": "Jobs saved over time",
     "count_gender": "Jobs saved by gender",
     "count_province": "Jobs saved by province",
+    "count_city": "Jobs saved by city",
     "count_age": "Jobs saved going to 18-35 year olds"
   },
   "livelihoods": {
     "count_time": "Livelihoods supported over time",
     "count_gender": "Livelihoods supported by gender",
     "count_province": "Livelihoods supported by province",
+    "count_city": "Livelihoods supported by city",
     "count_age": "Livelihoods supported going to 18-35 year olds",
     "count_vets": "Livelhoods supported going to military veterans",
     "count_disabled": "Livelhoods supported going to disabled persons"
