@@ -105,7 +105,6 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: auto;
   width: 18%;
   max-height: 90vh;
   padding-right: 1em;
