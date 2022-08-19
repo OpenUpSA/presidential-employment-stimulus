@@ -30,18 +30,18 @@ export class VizHeader {
 
         let $featureValue = $featureBlock.find('.feature-value__header').not('.feature-value__header.is--phased');
 
-        if(this._metric_type == 'count') {
-            $featureValue = $featureBlock.find('.feature-value__header.is--phased .phased-header');
-        }
+        // if(this._metric_type == 'count') {
+        //     $featureValue = $featureBlock.find('.feature-value__header.is--phased .phased-header');
+        // }
 
         $featureBlock.empty();
 
         $featureValue.find('.feature-value__label').text(this._title);
 
         // TOTAL FOR SUB-PROGRAMME
-        if(this._metric_type == 'count') {
-            $featureValue.find('.phased-header__title').text(this._title);
-        }
+        // if(this._metric_type == 'count') {
+        //     $featureValue.find('.phased-header__title').text(this._title);
+        // }
 
         if(!this._hide_values) {
         
@@ -56,16 +56,27 @@ export class VizHeader {
             }
 
         } else {
-            $featureValue.find('.feature-value__amount').hide();
-            $featureValue.find('.feature-value__value-description').hide();
+            
+            // TOTAL FOR SUB-PROGRAMME
+            if(this._metric_type == 'count') {
+                let formatter = FORMATTERS[this._metric_type];
+                $featureValue.find('.feature-value__amount').text(formatter(this._value));
+                if(this._target_value != -1 && this._target_value != 0) {
+                    $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value));
+                }
+            } else {
+                $featureValue.find('.feature-value__amount').hide();
+                $featureValue.find('.feature-value__value-description').hide();
+            }
+            
             
         }
 
         // TOTAL FOR SUB-PROGRAMME
-        if(this._metric_type == 'count') {
-            let formatter = FORMATTERS[this._metric_type];
-            $featureValue.find('.phased-header__value').text(formatter(this._value));
-        }
+        // if(this._metric_type == 'count') {
+        //     let formatter = FORMATTERS[this._metric_type];
+        //     $featureValue.find('.phased-header__value').text(formatter(this._value));
+        // }
 
         
 
@@ -75,9 +86,9 @@ export class VizHeader {
 
         let $iconWrapper = $featureValue.find('.feature-value__header_icon-wrapper');
 
-        if(this._metric_type == 'count') {
-            $iconWrapper = $featureValue.find('.phased-header__icon');
-        }
+        // if(this._metric_type == 'count') {
+        //     $iconWrapper = $featureValue.find('.phased-header__icon');
+        // }
         
         $iconWrapper.empty();
 
