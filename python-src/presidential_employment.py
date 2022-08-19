@@ -1304,7 +1304,7 @@ def compute_all_data_departments(
     return all_data_departments
 
 
-def compute_breakdowns(all_data_departments):
+def compute_breakdowns(all_data_departments: list[Department]):
     """Compute breakdowns by the different demographic dimensions"""
     total_male = [0] * number_of_phases
     total_female = [0] * number_of_phases
@@ -1313,12 +1313,12 @@ def compute_breakdowns(all_data_departments):
     total_youth = [0] * number_of_phases
     total_unknown_youth = [0] * number_of_phases
     total_provincial = {}
+    for abbreviation in province_abbreviations:
+        total_provincial[abbreviation] = [0] * number_of_phases
     total_unknown_province = [0] * number_of_phases
 
     for department in all_data_departments:
 
-        for abbreviation in province_abbreviations:
-            total_provincial[abbreviation] = [0] * number_of_phases
         for phase in department.phases:
             phase_num = phase.phase_num
             department_male = department_female = department_beneficiaries = 0
@@ -1382,7 +1382,7 @@ def compute_breakdowns(all_data_departments):
 
 
 def compute_programmes_by_type(
-    all_data_departments, opportunity_achievements_df, opportunity_targets_df
+    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df
 ):
     """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
     # what we need
@@ -1450,6 +1450,12 @@ def compute_programmes_by_type(
                                 phase_num
                             ] += dimension.values[-1].value
 
+    provincial_breakdown = {}
+    for section_name in (SectionEnum.job_opportunities.name, SectionEnum.livelihoods.name, SectionEnum.jobs_retain.name):
+        provincial_breakdown[section_name] = {}
+        for abbrev in province_abbreviations:
+            provincial_breakdown[section_name][abbrev] = [0, 0]
+    
     for department in all_data_departments:
         for phase in department.phases:
             achievements_df = (
@@ -1464,6 +1470,10 @@ def compute_programmes_by_type(
                 total_value = 0
                 total_target_value = 0
                 for metric in section.metrics:
+                    for dimension in metric.dimensions:
+                        if dimension.lookup == LookupTypeEnum.province.name:
+                            for value in dimension.values:
+                                provincial_breakdown[section.section_type][value.key][phase.phase_num] += value.value
                     #             if (
                     #                 department.sheet_name == "DALRRD"
                     #                 and metric.name == "Graduate Employment"
@@ -1581,6 +1591,7 @@ def compute_programmes_by_type(
         programmes_by_type,
         programmes_by_type_summarised,
         achievements_by_type_by_month,
+        provincial_breakdown
     )
 
 
@@ -1595,7 +1606,7 @@ def sort_dept_metric(element):
 
 
 def compute_overview_breakdown(
-    programmes_by_type_summarised, achievements_by_type_by_month
+    programmes_by_type_summarised, achievements_by_type_by_month, provincial_breakdown: dict[str, dict[str, list[int]]]
 ):
     breakdown_metrics = [
         PhasedMetric(
@@ -1651,6 +1662,17 @@ def compute_overview_breakdown(
                         ].items()
                     ],
                 ),
+                Dimension(
+                    name="by province",
+                    viz=VizTypeEnum.bar.name,
+                    lookup=LookupTypeEnum.province.name,
+                    values=[
+                        MultiMetricValue(
+                            key=province_abbrev,
+                            value=provincial_breakdown[section_name][province_abbrev]
+                        ) for province_abbrev in sorted(provincial_breakdown[section_name].keys())
+                    ]
+                )
             ],
         )
         for section_name, department_info in programmes_by_type_summarised.items()
@@ -1794,6 +1816,7 @@ def compute_overview_metrics(
         dimensions=[],
     )
     overview_metrics.append(youth_breakdown)
+
     return overview_metrics
 
 

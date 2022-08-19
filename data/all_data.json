@@ -368,6 +368,86 @@
                   }
                 ],
                 "data_missing": false
+              },
+              {
+                "name": "by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": [
+                      63406,
+                      45594
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": [
+                      22258,
+                      17467
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": [
+                      52669,
+                      55169
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": [
+                      87614,
+                      72609
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": [
+                      55263,
+                      39786
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": [
+                      30043,
+                      24855
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": [
+                      9820,
+                      6790
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": [
+                      28702,
+                      19485
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": [
+                      27609,
+                      21994
+                    ],
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
               }
             ],
             "value_target": {
@@ -539,6 +619,86 @@
                   }
                 ],
                 "data_missing": false
+              },
+              {
+                "name": "by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": [
+                      25080,
+                      710
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": [
+                      7377,
+                      1
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": [
+                      21609,
+                      748
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": [
+                      44694,
+                      4464
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": [
+                      21957,
+                      867
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": [
+                      18731,
+                      628
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": [
+                      5284,
+                      508
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": [
+                      13953,
+                      19
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": [
+                      6255,
+                      3
+                    ],
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
               }
             ],
             "value_target": {
@@ -697,6 +857,86 @@
                   {
                     "key": "202204",
                     "value": 40399,
+                    "value_target": null
+                  }
+                ],
+                "data_missing": false
+              },
+              {
+                "name": "by province",
+                "viz": "bar",
+                "lookup": "province",
+                "values": [
+                  {
+                    "key": "EC",
+                    "value": [
+                      5504,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "FS",
+                    "value": [
+                      1680,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "GP",
+                    "value": [
+                      6477,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "KZN",
+                    "value": [
+                      4292,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "LP",
+                    "value": [
+                      2120,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "MP",
+                    "value": [
+                      1106,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NC",
+                    "value": [
+                      4359,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "NW",
+                    "value": [
+                      2461,
+                      0
+                    ],
+                    "value_target": null
+                  },
+                  {
+                    "key": "WC",
+                    "value": [
+                      7310,
+                      0
+                    ],
                     "value_target": null
                   }
                 ],
