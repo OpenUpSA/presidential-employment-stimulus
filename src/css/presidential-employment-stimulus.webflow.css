@@ -1707,9 +1707,9 @@ p {
   margin-bottom: 1.5em;
 }
 
-.story-image.is--hidden {
+/* .story-image.is--hidden {
   display: none;
-}
+} */
 
 .story__inner {
   display: -webkit-box;
