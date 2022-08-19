@@ -419,6 +419,8 @@ p {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  max-height: none;
+  height: 100%;
 }
 
 .block.is--story:hover {
@@ -3199,10 +3201,6 @@ p {
   .thirds-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-  }
-
-  .block.is--story {
-    max-height: none;
   }
 
   .header {

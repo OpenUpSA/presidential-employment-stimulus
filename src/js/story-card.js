@@ -46,7 +46,7 @@ export class StoryCard {
             $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph,40,'...') : '');
             $el.find('.story-description.is--modal').text(this.paragraph);
             $el.find('.story-image.is--modal').css('height','25em');
-        
+            $el.find('.story-image__loading').remove(); // Doesn't this undo lazyload?
         } else {
 
             $el = $quoteCardTemplate.clone(true, true);
