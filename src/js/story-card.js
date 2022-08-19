@@ -27,7 +27,7 @@ export class StoryCard {
         $('.story-modal:first').remove();
         $('body').append($modal);
         $(".story-modal").css('display', on ? "block" : "none").css('opacity', on ? 1 : 0);
-        $('.story-modal .block.is--story-modal').css('top','50%').css('left','50%').css('transform','translate(-50%,-50%)');
+        $('.story-modal .block.is--story-modal').css('top', window.innerHeight/2).css('left','50%').css('transform','translate(-50%,-50%)');
         $('.story-modal .story-modal__close').on("click", () => {
             this.select(false, $modal);
         })
