@@ -24,9 +24,11 @@ export class Header {
     const $el = $template.clone(true, true);
     const month_text = (this._months_text) ? "Data captured up until " + this._months_text : '';
 
+    $el.find('.phase-status').remove();
+    
     if (this._active > 1) {
       $phaseStatus.find('.phase-marker').addClass('is--phase-2');
-      $phaseStatus.find('.phase-status__text').text('Participating in Phase 2');
+      $phaseStatus.find('.phase-status__text').text('Currently Participating');
       $el.find('.tab-title__wrapper').append($phaseStatus);
     }
     
