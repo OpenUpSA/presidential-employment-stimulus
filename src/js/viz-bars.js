@@ -63,6 +63,10 @@ export class VizBars {
 
         allValues.push(valueSum);
 
+      } else {
+        if(Array.isArray(row.value)) {
+          allValues.push(row.value[0]);
+        }
       }
 
     })
@@ -70,14 +74,14 @@ export class VizBars {
 
     this._rows.forEach((row) => {
 
+      
+
       if (!this._hideZeros || (this._hideZeros && row.value_target !== 0 )) {
 
         let width = [];
         let valueText = 0;
         
         if(isObject(row.value)) {
-
-          
 
           let maxValue = allValues
             .map((row) => row)
@@ -95,9 +99,24 @@ export class VizBars {
           // })
 
         } else {
+          
+          if(Array.isArray(row.value)) {
 
-          width.push(Math.round((row.value / this._max) * 100));
-          valueText = row.value;
+            let maxValue = allValues
+            .reduce((max, curr) => Math.max(max, curr), 0);
+
+
+            for (let index = 0; index < row.value.length; index++) {
+              width.push(Math.round((row.value[index] / maxValue) * 100));
+              valueText = valueText + row.value[index];
+            }
+
+            console.log(width);
+
+          } else {
+            width.push(Math.round((row.value / this._max) * 100));
+            valueText = row.value;
+          }
           
         }
         
@@ -118,6 +137,8 @@ export class VizBars {
 
         } else {
 
+          
+
             if(this._phase == 1) {
 
               $row.find(BAR_SELECTOR).not(BAR_SELECTOR_PHASED).css('background-color','transparent');
@@ -130,9 +151,7 @@ export class VizBars {
               $row.find(BAR_SELECTOR).width(`${width[0]}%`);
             
             } else {
-                
               $row.find(BAR_SELECTOR).width(`${width[0]}%`);
-              
             }
 
         }
