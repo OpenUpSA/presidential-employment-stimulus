@@ -97,8 +97,8 @@ p {
 }
 
 .tab-menu {
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky; */
+  /* position: sticky; */
   top: 1em;
   z-index: 100;
   display: -webkit-box;
