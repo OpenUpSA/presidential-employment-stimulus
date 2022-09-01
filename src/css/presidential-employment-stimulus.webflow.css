@@ -444,6 +444,23 @@ p {
   min-height: 100% !important;
 }
 
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  margin-top: -160px !important;
+  padding: 10px;
+  background: rgb(111, 197, 160, 1) !important;
+  border-radius: 5px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 12px !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+
 .block.is--performance-cta {
   display: -webkit-box;
   display: -webkit-flex;

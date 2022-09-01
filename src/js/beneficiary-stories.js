@@ -20,7 +20,7 @@ export class BeneficiaryStories {
 
     render() {
         const $el = storiesTemplate.clone(true, true);
-        $el.append('<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div><div class="swiper-pagination"></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>');
+        $el.append('<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>');
         
         $el.find('.header .tab-h4').first().text('Beneficiary impact');
         const $thirds_grid = $el.find(TG_SELECTOR);
@@ -48,10 +48,7 @@ export class BeneficiaryStories {
             slidesPerView: 3,
             spaceBetween: 10,
             
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true
-            },
+            
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
