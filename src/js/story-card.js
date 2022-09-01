@@ -40,6 +40,7 @@ export class StoryCard {
         if(this.picture_url != null) {
             
             $el = $cardTemplate.clone(true, true);
+            $el.addClass('swiper-slide');
             $el.find('.story-title').text(this.blurb);
             $el.find('.story-department').text(this._lookups["department"][this.department]);
             $el.find('.story-image').attr('srcset', 'img/' + this.picture_url);

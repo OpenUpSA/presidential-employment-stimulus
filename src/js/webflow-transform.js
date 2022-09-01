@@ -10,7 +10,7 @@ function transformDOM(window) {
     gtag("js", new Date());\
     gtag("config", "G-45HV67WN3P");');
 }
-  
+
 
 function addScriptToBody(window, attrs, text) {
   // Adding a script tag to body via jQuery seems to add it to head as well

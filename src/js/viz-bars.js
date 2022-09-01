@@ -55,7 +55,7 @@ export class VizBars {
 
         for (const key in row.value) {
 
-          // console.log(row.key, key, row.value[key])
+          
           
           valueSum = valueSum + row.value[key];
          
@@ -111,7 +111,7 @@ export class VizBars {
               valueText = valueText + row.value[index];
             }
 
-            console.log(width);
+            
 
           } else {
             width.push(Math.round((row.value / this._max) * 100));

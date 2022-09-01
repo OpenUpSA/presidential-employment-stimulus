@@ -439,6 +439,11 @@ p {
   justify-content: center;
 }
 
+.swiper-slide {
+  height: unset !important;
+  min-height: 100% !important;
+}
+
 .block.is--performance-cta {
   display: -webkit-box;
   display: -webkit-flex;
