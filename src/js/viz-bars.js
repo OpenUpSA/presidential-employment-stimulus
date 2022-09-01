@@ -66,7 +66,6 @@ export class VizBars {
 
       } else {
         if(Array.isArray(row.value)) {
-          console.log(row.value);
           allValues.push(row.value[0] + row.value[1]);
           // allValues.push(row.value[1]);
         }
@@ -108,10 +107,8 @@ export class VizBars {
             let maxValue = allValues
             .reduce((max, curr) => Math.max(max, curr), 0);
 
-            console.log(row, maxValue);
 
             for (let index = 0; index < row.value.length; index++) {
-              console.log(row.value, row.value[index]);
               width.push(Math.round((row.value[index] / maxValue) * 100));
               valueText = valueText + row.value[index];
             }
@@ -164,17 +161,20 @@ export class VizBars {
         const $label = $row.find(BAR_CAT_LABEL_SELECTOR).text(row.key.toUpperCase());
         const $tooltip = $row.find(BAR_TOOLTIP_SELECTOR).text(this._lookup[row.key]);
         const $bartooltip = $row.find(BAR_VALUE_TOOLTIP);
-        $bartooltip.find('.bar-value').text(row.value);
+
+        if(Array.isArray(row.value)) {
+          $bartooltip.find('.bar-value').text(FORMATTERS.count(row.value[0]) + ' | ' + FORMATTERS.count(row.value[1]));
+        }
 
         $label
           .on('mouseover', () => $tooltip.show())
           .on('mouseout', () => $tooltip.hide());
 
-
-        $row
-          .on('mouseover', () => $bartooltip.css('display','flex').css('opacity','1'))
-          .on('mouseout', () => $bartooltip.hide().css('opacity','0'));
-
+        if(Array.isArray(row.value)) {
+          $row
+            .on('mouseover', () => $bartooltip.css('display','flex').css('opacity','1'))
+            .on('mouseout', () => $bartooltip.hide().css('opacity','0'));
+        }
 
         $row.find(BAR_VAL_LABEL_SELECTOR).text(FORMATTERS.count(valueText));
 

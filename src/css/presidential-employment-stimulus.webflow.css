@@ -2689,6 +2689,10 @@ p {
   transform: rotate(45deg);
 }
 
+.bar-value__wrapper {
+  transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) !important;
+}
+
 .feature-value__phase-value {
   margin-top: 0px;
   padding-top: 0px;
