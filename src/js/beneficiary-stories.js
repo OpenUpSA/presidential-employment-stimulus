@@ -20,7 +20,18 @@ export class BeneficiaryStories {
 
     render() {
         const $el = storiesTemplate.clone(true, true);
-        $el.append('<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>');
+
+        var swiper_markup = '<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div>';
+        
+        if(this.beneficiaries.length > 3) {
+
+            swiper_markup += '<div class="swiper-button-prev"></div><div class="swiper-button-next"></div>';
+
+        }
+        
+            swiper_markup += '</div>'
+
+        $el.append(swiper_markup);
         
         $el.find('.header .tab-h4').first().text('Beneficiary impact');
         const $thirds_grid = $el.find(TG_SELECTOR);
