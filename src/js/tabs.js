@@ -24,25 +24,25 @@ export class Tabs {
     });
     this._tabs[i].select(true);
 
-    if($(this._tabs[i]._$container[0]).find('.swiper-container').length > 0) {
+    // if($(this._tabs[i]._$container[0]).find('.swiper-container').length > 0) {
       
-      let swiperClass = $(this._tabs[i]._$container[0]).find('.swiper-container')[0].classList[1];
+    //   let swiperClass = $(this._tabs[i]._$container[0]).find('.swiper-container')[0].classList[1];
 
-      new Swiper('.' + swiperClass, {
-        slidesPerView: 3,
-        spaceBetween: 10,
+    //   new Swiper('.' + swiperClass, {
+    //     slidesPerView: 3,
+    //     spaceBetween: 10,
         
         
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        effect: 'card',
-        loop: false,
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    //     effect: 'card',
+    //     loop: false,
         
-    });
+    //   });
       
-    }
+    // }
 
   }
 }

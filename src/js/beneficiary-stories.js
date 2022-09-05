@@ -21,53 +21,61 @@ export class BeneficiaryStories {
     render() {
         const $el = storiesTemplate.clone(true, true);
 
-        var swiper_markup = '<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div>';
+        // var swiper_markup = '<div class="swiper-container ' + this._identifier + '"><div class="swiper-wrapper"></div>';
         
-        if(this.beneficiaries.length > 3) {
+        // if(this.beneficiaries.length > 3) {
 
-            swiper_markup += '<div class="swiper-button-prev"></div><div class="swiper-button-next"></div>';
+        //     swiper_markup += '<div class="swiper-button-prev"></div><div class="swiper-button-next"></div>';
 
-        }
+        // }
         
-            swiper_markup += '</div>'
+        // swiper_markup += '</div>'
 
-        $el.append(swiper_markup);
+        // $el.append(swiper_markup);
         
         $el.find('.header .tab-h4').first().text('Beneficiary impact');
         const $thirds_grid = $el.find(TG_SELECTOR);
         $thirds_grid.empty()
 
-        var $swiper_wrapper = $el.find('.' + this._identifier + ' .swiper-wrapper');
-        
+        // var $swiper_wrapper = $el.find('.' + this._identifier + ' .swiper-wrapper');
 
         this.beneficiaries.forEach(beneficiary => {
-           const $card = new StoryCard(
-                this._lookups,
-                $swiper_wrapper,
-                beneficiary.name,
-                beneficiary.department,
-                beneficiary.blurb,
-                beneficiary.paragraph,
-                beneficiary.picture_url,
-                this._label)
-        });
+            const $card = new StoryCard(
+                 this._lookups,
+                 $thirds_grid,
+                 beneficiary.name,
+                 beneficiary.department,
+                 beneficiary.blurb,
+                 beneficiary.paragraph,
+                 beneficiary.picture_url,
+                 this._label)
+         });
 
+        // this.beneficiaries.forEach(beneficiary => {
+        //    const $card = new StoryCard(
+        //         this._lookups,
+        //         $swiper_wrapper,
+        //         beneficiary.name,
+        //         beneficiary.department,
+        //         beneficiary.blurb,
+        //         beneficiary.paragraph,
+        //         beneficiary.picture_url,
+        //         this._label)
+        // });
+
+        
         this.$parent.append($el);
         
       
-        new Swiper('.' + this._identifier, {
-            slidesPerView: 3,
-            spaceBetween: 10,
-            
-            
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            effect: 'card',
-            loop: false,
-            
-        });
+        // new Swiper('.' + this._identifier, {
+        //     spaceBetween: 10,
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        //     effect: 'card',
+        //     loop: false
+        // });
         
         
 

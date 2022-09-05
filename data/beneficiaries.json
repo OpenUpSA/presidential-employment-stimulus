@@ -5,7 +5,7 @@
     "blurb":"Producer Bongiwe Selane's Happiness Ever After film has captured a worldwide audience, thanks to the National Film and Video Foundation.",
     "paragraph":"\u201cThe PESP came at the absolute right time and enabled me to go forth and make the sequel Happiness Ever After - now streaming on Netflix in 190 countries to over 200 million subscribers. Making this film also meant I was able to create employment for so many of my peers in the industry, and mine was just one such project. Whilst our industry is still reeling from the effects of Covid-19 and still struggling to get back on its feet, it is efforts like these that give us hope.\u201d",
     "picture_url":"Bongiwe-Selane.jpg",
-    "featured":true
+    "featured":null
   },
   {
     "department":"DSAC",
@@ -113,6 +113,14 @@
   },
   {
     "department":"DBE",
+    "name":"Candice Dolphin",
+    "blurb":"For Candice Dolphin, her appointment as an education assistant at Range Primary in Elsies Rive, Wester Cape, was her first proper job.",
+    "paragraph":"\u201cMost of my adult life I have been unemployed, and only got short contracts at councils like sweeping and at Hungry Lion. Growing up here in Elsies River was tough. It\u2019s all about shootings, robbery and gangsters. I stayed inside most of the time, but I do have good memories of charity fund raisers and food parcels we would get. Right now, I just really hope I can get back into the programme because I really loved it there and have not found any other work since. I am sending my CV everywhere. The grant is really missed. I wish it comes back.\u201d",
+    "picture_url":"Candice-Dolphin.jpg",
+    "featured":true
+  },
+  {
+    "department":"DBE",
     "name":"Reading Champions",
     "blurb":"The reading corner at Clarendon Primary School, Nelson Mandela Bay.",
     "paragraph":"Over 44,000 education assistants have been trained as Reading Champions to date, with training also provided on ICT, financial literacy, digital literacy and on the curriculum.",
@@ -152,14 +160,6 @@
     "featured":null
   },
   {
-    "department":"DBE",
-    "name":"Candice Dolphin",
-    "blurb":"For Candice Dolphin, her appointment as an education assistant at Range Primary in Elsies Rive, Wester Cape, was her first proper job.",
-    "paragraph":"\u201cMost of my adult life I have been unemployed, and only got short contracts at councils like sweeping and at Hungry Lion. Growing up here in Elsies River was tough. It\u2019s all about shootings, robbery and gangsters. I stayed inside most of the time, but I do have good memories of charity fund raisers and food parcels we would get. Right now, I just really hope I can get back into the programme because I really loved it there and have not found any other work since. I am sending my CV everywhere. The grant is really missed. I wish it comes back.\u201d",
-    "picture_url":"Candice-Dolphin.jpg",
-    "featured":true
-  },
-  {
     "department":"DFFE",
     "name":"Sisipho Mpotulo",
     "blurb":"Sisipho Mpotulo from Mthatha, Eastern Cape, participated in the SANBI Sustainable Wildlife Economies project.",
@@ -172,7 +172,7 @@
     "name":"Zama Mnisi",
     "blurb":"For Zama Mnisi from Mpumalanga, SANBI's Wildlife Economies Project was her first job.",
     "paragraph":"\u201cThe experience gave me the opportunity to meet farm owners and managers and learn the challenges they face. Most importantly I learned that there is a huge difference between knowing how to work the land and how to manage the farm as a business. The discussions about land degradation and the economic opportunities from wildlife also gave the farmers new ideas on how to grow their businesses and create more jobs in the community.\u201d",
-    "picture_url":"Clearing-vegetation.jpg",
+    "picture_url":"Zama-Mnisi.jpg",
     "featured":true
   },  
   {

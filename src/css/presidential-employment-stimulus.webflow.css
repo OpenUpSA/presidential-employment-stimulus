@@ -439,12 +439,14 @@ p {
   justify-content: center;
 }
 
+.swiper-container {
+  display: none;
+}
+
 .swiper-slide {
   height: unset !important;
   min-height: 100% !important;
 }
-
-
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -2835,6 +2837,7 @@ p {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    overflow: auto;
   }
 
   .tab-menu.is--v2 {
@@ -3029,6 +3032,10 @@ p {
   .phased-header__value {
     margin-top: 0.3em;
   }
+
+  .swiper-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3175,6 +3182,11 @@ p {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
+  .swiper-container {
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 479px) {
