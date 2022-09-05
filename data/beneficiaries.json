@@ -1,18 +1,18 @@
 [
   {
-    "department":"DSI",
-    "name":"Bongeka Sithole",
-    "blurb":"Bongeka Sithole's placement in the Water Graduate Employment Programme has given her an appreciation of the importance of installing more community boreholes to address widespread health problems in poor areas. ",
-    "paragraph":"\u201cAt KwaHlabisa we installed two boreholes. People were so, so excited. I now want to be part of a programme that brings boreholes to people in communities throughout South Africa. I also want to introduce environmental education in my own community to help ensure that our local river remains a clean water source for future generations.\u201d",
-    "picture_url":"Bongeka-Sithole.jpg",
-    "featured":true
-  },
-  {
     "department":"DBE",
     "name":"Candice Dolphin",
     "blurb":"For Candice Dolphin, her appointment as an education assistant at Range Primary in Elsies Rive, Wester Cape, was her first proper job.",
     "paragraph":"\u201cMost of my adult life I have been unemployed, and only got short contracts at councils like sweeping and at Hungry Lion. Growing up here in Elsies River was tough. It\u2019s all about shootings, robbery and gangsters. I stayed inside most of the time, but I do have good memories of charity fund raisers and food parcels we would get. Right now, I just really hope I can get back into the programme because I really loved it there and have not found any other work since. I am sending my CV everywhere. The grant is really missed. I wish it comes back.\u201d",
     "picture_url":"Candice-Dolphin.jpg",
+    "featured":true
+  },
+  {
+    "department":"DSI",
+    "name":"Bongeka Sithole",
+    "blurb":"Bongeka Sithole's placement in the Water Graduate Employment Programme has given her an appreciation of the importance of installing more community boreholes to address widespread health problems in poor areas. ",
+    "paragraph":"\u201cAt KwaHlabisa we installed two boreholes. People were so, so excited. I now want to be part of a programme that brings boreholes to people in communities throughout South Africa. I also want to introduce environmental education in my own community to help ensure that our local river remains a clean water source for future generations.\u201d",
+    "picture_url":"Bongeka-Sithole.jpg",
     "featured":true
   },
   {
@@ -45,6 +45,14 @@
     "blurb":"Rochelle Wagner was appointed as an education assistant at Range Primary School in Elsies River in the Western CapHer experience has inspired her to train in performing arts and as a foundation phase teacher. ",
     "paragraph":"\u201cAfter the program ended at school, I did some voluntary work at the same school and am now part of the Mathmoms program.\u201d",
     "picture_url":"Rochelle-Wagner.jpg",
+    "featured":true
+  },
+  {
+    "department":"DSAC",
+    "name":"All Mshengus",
+    "blurb":"This ground-breaking project, Crew On Tour by All Mshengus, involved school students in making movies - securing our next generation of film-makers.",
+    "paragraph":"\u201cA total of seven mental health themed films were produced and screened on Mental Health Day. The films were created, scripted, produced and cast by grade ten students from selected areas where young people do not have access to movie theatres. The project didn't just turn out to be a career guidance initiative but it also made the team realise that more should be done in raising mental health awareness among kids.\u201d",
+    "picture_url":"All-Mshengus.jpg",
     "featured":true
   },
   {
@@ -154,13 +162,6 @@
   },
   {
     "department":"DBE",
-    "name":"Reading Champions",
-    "blurb":"The reading corner at Clarendon Primary School, Nelson Mandela Bay.",
-    "paragraph":"Over 44,000 education assistants have been trained as Reading Champions to date, with training also provided on ICT, financial literacy, digital literacy and on the curriculum.",
-    "picture_url":"Reading-Champions.jpg"
-  },
-  {
-    "department":"DBE",
     "name":"Khutustelo Maguvhe",
     "blurb":"31-year-old Khutustelo Maguvhe was appointed as an Education Assistant at Laerskool Welgedag Primary in Springs, Johannesburg.",
     "paragraph":"\u201cI used to work at a corporate accounting company. When my contract came to an end I struggled finding alternative employment and was then unemployed for six months. This period of my life was extremely tough. I struggled financially and this took a toll on my family, especially my children. I really felt hopeless. I enjoy my job because I am good at it. I am also a great addition to the team. I hope to become an educational facilitator with an up stream towards upper management.\u201d",
@@ -193,6 +194,13 @@
     "blurb":"Sisipho Mpotulo from Mthatha, Eastern Cape, participated in the SANBI Sustainable Wildlife Economies project.",
     "paragraph":"\u201cI feel proud to be part of a team that provides solutions on how to eradicate poverty. I feel proud to help in bridging the gap between the rich and the poor, and to raise awareness on sustainable land management. I look forward to seeing how small balck-owned farms grow as a result of the information and tools provided to them by this project.\u201d",
     "picture_url":"Sisipho-Mpotulo.jpg"
+  },
+  {
+    "department":"DFFE",
+    "name":null,
+    "blurb":"A team gears up to remove alien invasive specieis in Limpopo.",
+    "paragraph":null,
+    "picture_url":"removing-invasive-alien-species.jpg"
   },
   {
     "department":"DFFE",
@@ -266,13 +274,6 @@
   },
   {
     "department":"DCOGTA",
-    "name":"Thandeka Krawe",
-    "blurb":"Thandeka Krawe's entrepreneurial mind and passion for a clean environment made her a great candidate for tackling the challenge of solid waste management, through the Municipal Infrastructure Support Agency programme in Mthata.",
-    "paragraph":"\u201cIt is a great initiative for people like me who love a clean environment and who want to become entrepreneurs. Aside from instilling a sense of pride in one's surroundings, this project inspires hopes and dreams. Many of the people working in this project are energetic young people who were previously sitting idle at home with nothing to do.\u201d",
-    "picture_url":"Thandeka-Krawe.jpg"
-  },
-  {
-    "department":"DCOGTA",
     "name":"Baxolele Nondywana",
     "blurb":"After 11 years of unemployment, father of two, Baxolele Nondywana, found work with the Municipal Infrastructure Support Programme and aims to continue making a meaningful contribution to waste management, beyond the programme.",
     "paragraph":"\u201cI want to gain more experience in innovative waste management. It would be tough to find myself on the streets again looking for odd jobs, when there is so much I can contribute to and learn in working on similar projects. And I want to make sure my sons have a better chance of getting to university than I did.\u201d",
@@ -280,10 +281,10 @@
   },
   {
     "department":"DCOGTA",
-    "name":"Malakhiwe Zide",
-    "blurb":"Malakhiwe is helping deliver a cleaner environment in Mthata and surrounding Eastern Cape areas, through the Municipal Infrastructure Support Agency's waste management project.",
-    "paragraph":"\u201cI could not believe it when I was called to come and sign a contract but it's not just about being employed. This is a huge opportunity to learn about solid waste management, the business opportunities that will arise and how I can become part of it all.\u201d",
-    "picture_url":"Malakhiwe-Zide.jpg"
+    "name":"Thandeka Krawe",
+    "blurb":"Thandeka Krawe's entrepreneurial mind and passion for a clean environment made her a great candidate for tackling the challenge of solid waste management, through the Municipal Infrastructure Support Agency programme in Mthata.",
+    "paragraph":"\u201cIt is a great initiative for people like me who love a clean environment and who want to become entrepreneurs. Aside from instilling a sense of pride in one's surroundings, this project inspires hopes and dreams. Many of the people working in this project are energetic young people who were previously sitting idle at home with nothing to do.\u201d",
+    "picture_url":"Thandeka-Krawe.jpg"
   },
   {
     "department":"Tourism",
