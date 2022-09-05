@@ -97,7 +97,7 @@ Promise.all([
       }
 
       filteredBeneficiaries = beneficiaries.filter(function (story) {
-        return story.department === department_abbr
+        return story.department === department_abbr && story.featured != true;
       });
 
     } else {
