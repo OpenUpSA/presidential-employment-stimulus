@@ -200,7 +200,9 @@ Promise.all([
 
             const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
 
-            const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+            
+
+            const dimensions = ((sectionType === "targets" || sectionType === "overview" || sectionType === "job_opportunities") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
             dimensions.forEach((dimension) => {
 
               if (dimension.data_missing) {
@@ -304,9 +306,9 @@ Promise.all([
           } else {
             $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
             $performanceCta.find('.performance-cta__heading').text('This department is currently participating with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore current performance');
+            $performanceCta.find('.performance-cta__text').text('Explore Phase 2 and Current performance');
             $performanceCta.find('.performance-cta__button-text').text('Explore');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Current');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2 and Current');
           }
 
           $phaseContent.append($performanceCta);

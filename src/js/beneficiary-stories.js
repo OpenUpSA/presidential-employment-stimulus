@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import {StoryCard} from "./story-card";
-import Swiper from 'swiper/bundle';
-import 'swiper/swiper-bundle.css';
+// import Swiper from 'swiper/bundle';
+// import 'swiper/swiper-bundle.css';
 
 const CONTAINER_SELECTOR = ".beneficiary-stories";
 const TG_SELECTOR = ".thirds-grid";
