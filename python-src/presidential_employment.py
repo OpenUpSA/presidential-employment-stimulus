@@ -1876,7 +1876,8 @@ def compute_overview(
     breakdown_metrics,
 ):
 
-    month_info = description_df.loc["Overview", "Data captured until"]
+    overview_name = "Overview"
+    month_info = description_df.loc[overview_name, "Data captured until"]
     try:
         month = month_info.strftime("%Y%m")
     except AttributeError as e:
@@ -1885,9 +1886,9 @@ def compute_overview(
     overview = Overview(
         month=month,
         name="Programme overview",
-        lead=leads["Overview"],
+        lead=leads[overview_name],
         phase_dates=phase_dates,
-        paragraph=paragraphs["Overview"],
+        paragraph=paragraphs[overview_name],
         footer_header=leads["Disclaimer"],
         footer_paragraph=paragraphs["Disclaimer"],
         sections=[
