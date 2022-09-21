@@ -93,28 +93,62 @@ city_header_to_abbrev = {
 }
 
 universities = [
-    "University of Limpopo",
-    "University of Pretoria",
-    "North West University",
-    "University of Kwa-Zulu Natal",
-    "Sefako Makgatho Health Sciences University",
-    "University of the Western Cape",
     "Cape Peninsula University of Technology",
+    "Central University of Technology",
+    "Durban University of Technology",
+    "Mangosuthu  University of Technology",
+    "Nelson Mandela University",
+    "Rhodes University",
+    "Sefako Makgatho Health Science University",
+    "Sol Plaaitje University",
+    "Stellenbosch University",
+    "North West University",
+    "Tshwane University of Technology",
     "University of Cape Town",
+    "University of Fort Hare",
+    "University of Johannesburg",
+    "University of KwaZulu Natal",
+    "University of Limpopo",
+    "University of Mpumalanga",
+    "University of Pretoria",
     "University of South Africa",
+    "University of the Free State",
+    "University of the Western Cape",
+    "University of the Witswatersrand",
+    "University of Venda",
+    "University of Zululand",
+    "Walter Sisulu University",
+    "Vaal University of Technology"
 ]
 
 university_header_to_abbrev = {
-    "university_of_limpopo": "UL",
-    "university_of_pretoria": "UP",
-    "north_west_university": "NWU",
-    "university_of_kwa_zulu_natal": "UKZN",
-    "sefako_makgatho_health_sciences_university": "SMU",
-    "university_of_the_western_cape": "UWC",
-    "cape_peninsula_university_of_technology": "CPUT",
-    "university_of_cape_town": "UCT",
-    "university_of_south_africa": "UNISA",
-}
+    'cape_peninsula_university_of_technology': 'CPUT',
+    'central_university_of_technology': 'CUT',
+    'durban_university_of_technology': 'DUT',
+    'mangosuthu__university_of_technology': 'MUT',
+    'nelson_mandela_university': 'NMU',
+    'north_west_university': 'NWU',
+    'rhodes_university': 'RU',
+    'sefako_makgatho_health_science_university': 'SMU',
+    'sol_plaaitje_university': 'SPU',
+    'stellenbosch_university': 'SU',
+    'tshwane_university_of_technology': 'TUT',
+    'university_of_cape_town': 'UCT',
+    'university_of_fort_hare': 'UFH',
+    'university_of_johannesburg': 'UJ',
+    'university_of_kwazulu_natal': 'UKZN',
+    'university_of_limpopo': 'UL',
+    'university_of_mpumalanga': 'UM',
+    'university_of_pretoria': 'UP',
+    'university_of_south_africa': 'UNISA',
+    'university_of_the_free_state': 'UFS',
+    'university_of_the_western_cape': 'UWC',
+    'university_of_the_witswatersrand': 'WITS',
+    'university_of_venda': 'UNIVEN',
+    'university_of_zululand': 'UZ',
+    'vaal_university_of_technology': 'VUT',
+    'walter_sisulu_university': 'WSU'
+    }
 
 department_name_to_abbreviation = {
     "Basic Education": "DBE",
@@ -443,6 +477,10 @@ months = [
     "202202",
     "202203",
     "202204",
+    "202205",
+    "202206",
+    "202207",
+    "202208"
 ]
 month_names = [
     "Oct '20",
@@ -464,9 +502,13 @@ month_names = [
     "Feb '22",
     "Mar '22",
     "Apr '22",
+    "May '22",
+    "Jun '22",
+    "Jul '22",
+    "Aug '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [16, 8]
+total_achievement_column = [16, 12]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -495,11 +537,15 @@ month_lookup = [
         "feb": "202202",
         "mar": "202203",
         "apr": "202204",
+        "may": "202205",
+        "jun": "202206",
+        "jul": "202207",
+        "aug": "202208"
     },
 ]
 
 number_of_phases = 2
-phase_dates = [["202010", "202112"], ["202110", "202204"]]
+phase_dates = [["202010", "202112"], ["202110", "202208"]]
 
 
 def in_phase(phase_num, month):
@@ -737,7 +783,7 @@ def load_sheets(phase1_excel, phase2_excel):
             phase2_excel,
             sheet_name="Universities (beneficiaries)",
             skiprows=4,
-            usecols=list(range(12)),  # adjust if number of universities changes
+            usecols=list(range(26)),  # adjust if number of universities changes - this is number of unis + 2
         ),
     ]
     for i in range(len(universities_df)):
@@ -1830,7 +1876,7 @@ def compute_overview(
     breakdown_metrics,
 ):
 
-    month_info = description_df.loc["overview", "Data captured until"]
+    month_info = description_df.loc["Overview", "Data captured until"]
     try:
         month = month_info.strftime("%Y%m")
     except AttributeError as e:
@@ -1839,9 +1885,9 @@ def compute_overview(
     overview = Overview(
         month=month,
         name="Programme overview",
-        lead=leads["overview"],
+        lead=leads["Overview"],
         phase_dates=phase_dates,
-        paragraph=paragraphs["overview"],
+        paragraph=paragraphs["Overview"],
         footer_header=leads["Disclaimer"],
         footer_paragraph=paragraphs["Disclaimer"],
         sections=[
