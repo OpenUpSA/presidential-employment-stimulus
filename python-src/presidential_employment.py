@@ -1114,7 +1114,6 @@ def compute_all_data_departments(
                                     section,
                                 )
                             )
-
                             demographic_row = demographic_df[phase_num].loc[
                                 (
                                     demographic_df[phase_num].department
@@ -1297,7 +1296,7 @@ def compute_all_data_departments(
                             metrics.append(programme_metric)
                         except IndexError as e:
                             print(
-                                "IndexError on",
+                                "IndexError (likely typo) on",
                                 section,
                                 department_name,
                                 programme_name,
