@@ -43,9 +43,9 @@
             "metric_type": "count",
             "value": [
               563108,
-              481785
+              498441
             ],
-            "total_value": 1044893,
+            "total_value": 1061549,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6630636649763194,
-              "1": 0.6014685137714103
+              "1": 0.5815477831756147
             },
-            "total_value": 0.6322660893738649,
+            "total_value": 0.6223057240759671,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -86,7 +86,7 @@
         ],
         "value": {
           "0": 563108,
-          "1": 481785
+          "1": 498441
         },
         "value_target": {
           "0": 694152.0,
@@ -482,9 +482,9 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 142665,
-              "1": 90255
+              "1": 106911
             },
-            "total_value": 232920,
+            "total_value": 249576,
             "viz": "full",
             "dimensions": [
               {
@@ -496,7 +496,7 @@
                     "key": "DALRRD",
                     "value": {
                       "0": 56149,
-                      "1": 88250
+                      "1": 104906
                     },
                     "value_target": {
                       "0": 74626,
@@ -654,7 +654,7 @@
                   },
                   {
                     "key": "202208",
-                    "value": 232920,
+                    "value": 249576,
                     "value_target": null
                   }
                 ],
@@ -669,7 +669,7 @@
                     "key": "EC",
                     "value": [
                       25080,
-                      0
+                      22386
                     ],
                     "value_target": null
                   },
@@ -677,7 +677,7 @@
                     "key": "FS",
                     "value": [
                       7377,
-                      0
+                      3584
                     ],
                     "value_target": null
                   },
@@ -685,7 +685,7 @@
                     "key": "GP",
                     "value": [
                       21609,
-                      0
+                      3838
                     ],
                     "value_target": null
                   },
@@ -693,7 +693,7 @@
                     "key": "KZN",
                     "value": [
                       44694,
-                      0
+                      31530
                     ],
                     "value_target": null
                   },
@@ -701,7 +701,7 @@
                     "key": "LP",
                     "value": [
                       21957,
-                      0
+                      17283
                     ],
                     "value_target": null
                   },
@@ -709,7 +709,7 @@
                     "key": "MP",
                     "value": [
                       18731,
-                      0
+                      12551
                     ],
                     "value_target": null
                   },
@@ -717,7 +717,7 @@
                     "key": "NC",
                     "value": [
                       5284,
-                      0
+                      2626
                     ],
                     "value_target": null
                   },
@@ -725,7 +725,7 @@
                     "key": "NW",
                     "value": [
                       13953,
-                      0
+                      9551
                     ],
                     "value_target": null
                   },
@@ -733,7 +733,7 @@
                     "key": "WC",
                     "value": [
                       6255,
-                      0
+                      1557
                     ],
                     "value_target": null
                   }
@@ -2166,7 +2166,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 88250.0,
+                  "value": 104906.0,
                   "dimensions": [],
                   "value_target": 67378.0,
                   "implementation_detail": null
@@ -2189,14 +2189,60 @@
                 {
                   "name": "Vegetables and Fruits",
                   "metric_type": "count",
-                  "value": 88250,
+                  "value": 61027,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 13140,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1951,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2711,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 19894,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 10910,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 6374,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 4112,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1088,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 847,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by city",
@@ -2264,7 +2310,7 @@
                         },
                         {
                           "key": "202208",
-                          "value": 88250,
+                          "value": 61027,
                           "value_target": null
                         }
                       ],
@@ -2309,14 +2355,60 @@
                 {
                   "name": "Maize/soya/sugar/other production",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 12388,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2029,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 140,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 264,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4218,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2126,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 3230,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 308,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 64,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 9,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by city",
@@ -2384,7 +2476,7 @@
                         },
                         {
                           "key": "202208",
-                          "value": 0,
+                          "value": 12388,
                           "value_target": null
                         }
                       ],
@@ -2429,14 +2521,60 @@
                 {
                   "name": "Poultry: Layers and Boilers",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 15910,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 4046,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 517,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 601,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4618,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2546,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1535,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1662,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 264,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 121,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by city",
@@ -2504,7 +2642,7 @@
                         },
                         {
                           "key": "202208",
-                          "value": 0,
+                          "value": 15910,
                           "value_target": null
                         }
                       ],
@@ -2560,14 +2698,60 @@
                 {
                   "name": "Small livestock",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 10602,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2599,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 422,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 161,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1804,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1196,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 772,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 2269,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 881,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 498,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by city",
@@ -2635,7 +2819,7 @@
                         },
                         {
                           "key": "202208",
-                          "value": 0,
+                          "value": 10602,
                           "value_target": null
                         }
                       ],
@@ -2680,14 +2864,60 @@
                 {
                   "name": "Large livestock",
                   "metric_type": "count",
-                  "value": 0,
+                  "value": 4979,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 572,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 554,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 101,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 996,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 505,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 640,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 329,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 82,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported by city",
@@ -2755,7 +2985,7 @@
                         },
                         {
                           "key": "202208",
-                          "value": 0,
+                          "value": 4979,
                           "value_target": null
                         }
                       ],
@@ -2810,7 +3040,11 @@
             }
           ],
           "implementation_details": [
-            null
+            {
+              "programme_name": "Subsistence producer relief fund",
+              "status": "OnTrack",
+              "detail": "51,559 beneficiaries of production input vouchers from Phase 1 have now been issued second vouchers by DALRRD. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. The figures reflected here are new beneficiaries, with further applications still being processed. DALRRD has overcome a range of challenges in the programme. At one stage, the programme was suspended because of abuse of the voucher scheme by certain private sector suppliers, who were taking a cut of the voucher value. The scheme was re-instated from 15 February 2022 and the voucher validity period was extended. To expedite verification of applicants, a partnership was entered into with the Solidarity Fund, to allow sharing of information. The volume demand for input supplies generated by the scheme is also supporting an expanded supply response in under-serviced areas."
+            }
           ],
           "beneficiaries": []
         }
@@ -4339,7 +4573,11 @@
                     }
                   ],
                   "value_target": 11818.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "MISA: Innovation in seperation at source and treatment solutions ",
+                    "status": "OnTrack",
+                    "detail": "The programme ran in 16 municipalities in Eastern Cape and KZN, supporting 60 SMMEs and 7,623 work opportunities, to March 2022. It then continued in Mpumalanga, Limpopo and Gauteng, in 7 municipalities, supporting 31 SMEs. MISA has since initiated work in all provinces, in an additional 22 municipalities, supporting a further 24 SMEs. Its impacts on diversion of waste from landfill and on community engagement in recycling has led to increasing demand for participation from municipalities, leading COGTA to augment the programme from its core budgets."
+                  }
                 }
               ],
               "value": null,
@@ -4606,7 +4844,11 @@
                     }
                   ],
                   "value_target": 0.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "PYEI/Pathway Management Network",
+                    "status": "OnTrack",
+                    "detail": "The eco-system manager for the National Pathway Management Network has been appointed. The Innovation Fund has approved the first cohort of Implementing Partners and implementation has begun. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
+                  }
                 }
               ],
               "value": null,
@@ -6135,7 +6377,11 @@
                     }
                   ],
                   "value_target": 2580.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "SANBI",
+                    "status": "OnTrack",
+                    "detail": "Maintenance work in national botanical and zoological gardens has been undertaken, as well as 12 projects on biodiversity science  and ecological infrastructure. A programme to catalyse climate smart career paths has been implemented."
+                  }
                 },
                 {
                   "name": "People and Parks Youth Champions",
@@ -7254,7 +7500,7 @@
                   }
                 },
                 {
-                  "name": "Support Port Health Services with  Covid screening",
+                  "name": "Support Port Health Services with Covid-19 screening",
                   "metric_type": "count",
                   "value": 0,
                   "dimensions": [
@@ -7302,7 +7548,11 @@
                     }
                   ],
                   "value_target": 365.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "Support Port Health Services with Covid-19 screening",
+                    "status": "CriticalChallenges",
+                    "detail": "This programme was not undertaken."
+                  }
                 }
               ],
               "value": null,
@@ -7696,7 +7946,11 @@
                     }
                   ],
                   "value_target": 3000.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "Universities: Graduate Placements",
+                    "status": "OnTrack",
+                    "detail": "26 universities have come on board and the rollout of posts and appointments is underway across a wide range of departments and disciplines."
+                  }
                 }
               ],
               "value": null,
@@ -11275,7 +11529,11 @@
                     }
                   ],
                   "value_target": 42718.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "ECD Employment Stimulus: Complete payments overdue from Phase 1",
+                    "status": "CriticalChallenges",
+                    "detail": "Additional payments made since October 2021 were from rollover funds from Phase 1 and so are reported as part of Phase 1. The scale of payments achieved did not require utilisation of Phase 2 funds, with continued challenges in the vetting and verification of informal ECD providers limiting the scale achieved."
+                  }
                 }
               ],
               "value": null,
