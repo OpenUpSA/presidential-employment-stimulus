@@ -202,7 +202,7 @@ Promise.all([
 
             
 
-            const dimensions = ((sectionType === "targets" || sectionType === "overview" || sectionType === "job_opportunities") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+            const dimensions = ((sectionType === "targets" || sectionType === "overview" || sectionType === "job_opportunities" || sectionType === "livelihoods") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
             dimensions.forEach((dimension) => {
 
               if (dimension.data_missing) {
