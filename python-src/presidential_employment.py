@@ -545,8 +545,9 @@ month_lookup = [
 ]
 
 number_of_phases = 2
-phase_dates = [["202010", "202112"], ["202110", "202208"]]
-
+phase_dates = [["202010", "202203"], ["202104", "202208"]]
+# Completed: October 20202 - March 2022
+# Current: April 2021 - Current
 
 def in_phase(phase_num, month):
     if phase_num >= 0 and phase_num < len(phase_dates):

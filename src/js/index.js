@@ -19,7 +19,7 @@ import { NoData } from "./nodata";
 import { ImplementationDetail } from './implementation-detail';
 import { organizeByZero, fillInMissingSections } from './utils';
 import { BeneficiaryStories} from "./beneficiary-stories";
-import { FORMATTERS } from './utils';
+import { FORMATTERS, hasPhase } from './utils';
 import { Phases } from './phases';
 import { filter } from 'd3-array';
 
@@ -82,7 +82,7 @@ Promise.all([
 
     const months_text = lookups["time"][tabData.month];
 
-    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, tabData.phases == undefined ? 0 : tabData.phases.length);
+    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, hasPhase(1, tabData));
 
     let filteredBeneficiaries = [];
 
@@ -200,7 +200,7 @@ Promise.all([
 
             const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
 
-            
+
 
             const dimensions = ((sectionType === "targets" || sectionType === "overview" || sectionType === "job_opportunities" || sectionType === "livelihoods") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
             dimensions.forEach((dimension) => {
@@ -306,9 +306,9 @@ Promise.all([
           } else {
             $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
             $performanceCta.find('.performance-cta__heading').text('This department is currently participating with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore Phase 2 and Current performance');
+            $performanceCta.find('.performance-cta__text').text('Explore Current performance');
             $performanceCta.find('.performance-cta__button-text').text('Explore');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2 and Current');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Current');
           }
 
           $phaseContent.append($performanceCta);
