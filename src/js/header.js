@@ -25,20 +25,20 @@ export class Header {
     const month_text = (this._months_text) ? "Data captured up until " + this._months_text : '';
 
     $el.find('.phase-status').remove();
-    
-    if (this._active > 1) {
+
+    if (this._active) {
       $phaseStatus.find('.phase-marker').addClass('is--phase-2');
       $phaseStatus.find('.phase-status__text').text('Currently Participating');
       $el.find('.tab-title__wrapper').append($phaseStatus);
     }
-    
+
     $el.find('.header__label').text(month_text);
     $el.find(TITLE_SELECTOR).text(this._title);
     $el.find('h3').text(this._lead);
     $el.find('p.header-description').text(this._paragraph);
     $el.find('.button-wrap a:first-child').attr('href','/img/Presidential Employment Stimulus Review and Introduction to Phase 2.pdf');
     $el.find('.button-wrap a[href="#"]').attr('href','/img/PES Implementation Update January 2022 final.pdf').removeClass('button--secondary');
-    
+
     this._$parent.append($el);
   }
 }
