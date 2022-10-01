@@ -1728,9 +1728,15 @@ p {
 }
 
 .story-image.is--modal {
-  height: 15em;
+  height: unset;
   max-height: 50vh;
   margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 991px) {
+  .story-title.is--modal {
+    font-size: 1.2em !important;
+  }
 }
 
 /* .story-image.is--hidden {

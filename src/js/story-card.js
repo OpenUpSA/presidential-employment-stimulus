@@ -41,12 +41,11 @@ export class StoryCard {
             
             $el = $cardTemplate.clone(true, true);
             $el.addClass('swiper-slide');
-            $el.find('.story-title').text(this.blurb);
+            $el.find('.story-title').text(this.blurb.replaceAll('&quot;','"'));
             $el.find('.story-department').text(this._lookups["department"][this.department]);
             $el.find('.story-image').attr('srcset', 'img/' + this.picture_url);
-            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph,40,'...') : '');
-            $el.find('.story-description.is--modal').text(this.paragraph);
-            $el.find('.story-image.is--modal').css('height','25em');
+            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph.replaceAll('&quot;','"'),40,'...') : '');
+            $el.find('.story-description.is--modal').text(this.paragraph.replaceAll('&quot;','"'));
             $el.find('.story-image__loading').remove(); // Doesn't this undo lazyload?
         } else {
 
