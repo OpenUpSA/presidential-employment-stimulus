@@ -3210,7 +3210,7 @@ p {
   }
 
   .tab-menu {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 12px;
