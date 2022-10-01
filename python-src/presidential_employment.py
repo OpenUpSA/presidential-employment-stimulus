@@ -1036,6 +1036,7 @@ def compute_all_data_departments(
                         imp_status_row.status.iloc[0]
                     ):
                         imp_detail = None
+                        print("Implementation status missing for: ", phase_num, ":", department_name, ":", programme_name)
                     else:
                         imp_detail = ImplementationDetail(
                             programme_name=programme_name,

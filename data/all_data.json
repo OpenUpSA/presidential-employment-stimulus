@@ -15018,7 +15018,11 @@
                     }
                   ],
                   "value_target": 35000.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "PYEI/ National Youth Service",
+                    "status": "OnTrack",
+                    "detail": "13 NYS Implementing Partners have been appointed and implementation is in full swing. The Jobs Fund is the fund manager for the programme."
+                  }
                 }
               ],
               "value": null,
@@ -15128,7 +15132,11 @@
                     }
                   ],
                   "value_target": 2000.0,
-                  "implementation_detail": null
+                  "implementation_detail": {
+                    "programme_name": "PYEI/ Youth Enterprise Support Fund ",
+                    "status": "OnTrack",
+                    "detail": "2,005 youth-owned enterprises have been supported, in turn creating and/or sustaining 7,652 jobs."
+                  }
                 }
               ],
               "value": null,
