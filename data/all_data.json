@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6630636649763194,
-              "1": 0.5815477831756147
+              "1": 0.6000872368960934
             },
-            "total_value": 0.6223057240759671,
+            "total_value": 0.6315754509362064,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -74,9 +74,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.796870572499581,
-              "1": 0.8705797244565738
+              "1": 0.8700241011324148
             },
-            "total_value": 0.8337251484780774,
+            "total_value": 0.8334473368159979,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -398,7 +398,7 @@
                     "key": "EC",
                     "value": [
                       63406,
-                      53779
+                      50746
                     ],
                     "value_target": null
                   },
@@ -414,7 +414,7 @@
                     "key": "GP",
                     "value": [
                       52669,
-                      57391
+                      56315
                     ],
                     "value_target": null
                   },
@@ -422,7 +422,7 @@
                     "key": "KZN",
                     "value": [
                       87614,
-                      78317
+                      73727
                     ],
                     "value_target": null
                   },
@@ -430,7 +430,7 @@
                     "key": "LP",
                     "value": [
                       55263,
-                      45750
+                      45339
                     ],
                     "value_target": null
                   },
@@ -438,7 +438,7 @@
                     "key": "MP",
                     "value": [
                       30043,
-                      27975
+                      27790
                     ],
                     "value_target": null
                   },
@@ -2324,24 +2324,6 @@
                       "data_missing": true
                     },
                     {
-                      "name": "Livelhoods supported going to repeat TODO",
-                      "viz": "two_value",
-                      "lookup": "repeat",
-                      "values": [
-                        {
-                          "key": "Repeat",
-                          "value": 0.05,
-                          "value_target": null
-                        },
-                        {
-                          "key": "New",
-                          "value": 0.95,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2490,24 +2472,6 @@
                       "data_missing": true
                     },
                     {
-                      "name": "Livelhoods supported going to repeat TODO",
-                      "viz": "two_value",
-                      "lookup": "repeat",
-                      "values": [
-                        {
-                          "key": "Repeat",
-                          "value": 0.2,
-                          "value_target": null
-                        },
-                        {
-                          "key": "New",
-                          "value": 0.8,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2652,37 +2616,8 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.161,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelhoods supported going to repeat TODO",
-                      "viz": "two_value",
-                      "lookup": "repeat",
-                      "values": [
-                        {
-                          "key": "Repeat",
-                          "value": 0.7,
-                          "value_target": null
-                        },
-                        {
-                          "key": "New",
-                          "value": 0.3,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
@@ -2833,24 +2768,6 @@
                       "data_missing": true
                     },
                     {
-                      "name": "Livelhoods supported going to repeat TODO",
-                      "viz": "two_value",
-                      "lookup": "repeat",
-                      "values": [
-                        {
-                          "key": "Repeat",
-                          "value": 0.5,
-                          "value_target": null
-                        },
-                        {
-                          "key": "New",
-                          "value": 0.5,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -2999,24 +2916,6 @@
                       "data_missing": true
                     },
                     {
-                      "name": "Livelhoods supported going to repeat TODO",
-                      "viz": "two_value",
-                      "lookup": "repeat",
-                      "values": [
-                        {
-                          "key": "Repeat",
-                          "value": 0.12,
-                          "value_target": null
-                        },
-                        {
-                          "key": "New",
-                          "value": 0.9,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
@@ -3039,13 +2938,7 @@
               "value_target": null
             }
           ],
-          "implementation_details": [
-            {
-              "programme_name": "Subsistence producer relief fund",
-              "status": "OnTrack",
-              "detail": "51,559 beneficiaries of production input vouchers from Phase 1 have now been issued second vouchers by DALRRD. These figures are not reflected here because these are not new beneficiaries - but certainly, this is augmenting the impact of the support. The figures reflected here are new beneficiaries, with further applications still being processed. DALRRD has overcome a range of challenges in the programme. At one stage, the programme was suspended because of abuse of the voucher scheme by certain private sector suppliers, who were taking a cut of the voucher value. The scheme was re-instated from 15 February 2022 and the voucher validity period was extended. To expedite verification of applicants, a partnership was entered into with the Solidarity Fund, to allow sharing of information. The volume demand for input supplies generated by the scheme is also supporting an expanded supply response in under-serviced areas."
-            }
-          ],
+          "implementation_details": [],
           "beneficiaries": []
         }
       ],
@@ -4152,7 +4045,7 @@
       ],
       "sheet_name": "DCDT",
       "lead": "A Broadband Access Fund",
-      "paragraph": "The Presidential Employment Stimulus will harness the job-creating potential of digital connectivity by supporting the pilot phase of a Broadband Access Fund as part of Phase 2 of SA Connect. This Fund is developing a well-governed set of technology-agnostic and performance-based capex incentives to extend direct household and public broadband access to low income households. This will leverage private sector capacity to enable last-mile access to affordable, high-quality broadband in areas where providers currently do not have a sufficient incentive to expand coverage. The Broadband Access Fund will provide a \u201cconnection subsidy\u201d with conditions related to the quality of connection as well as affordability."
+      "paragraph": "The Presidential Employment Stimulus will harness the job-creating potential of digital connectivity by supporting the pilot phase of a Broadband Access Fund as part of Phase 2 of SA Connect. This Fund is developing a well-governed set of technology-agnostic and performance-based capex incentives to extend direct household and public broadband access to low income households. This will leverage private sector capacity to enable last-mile access to affordable, high-quality broadband in areas where providers currently do not have a sufficient incentive to expand coverage. The Broadband Access Fund will provide a \u201cconnection subsidy\u201d with conditions related to the quality of connection as well as affordability. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
     },
     {
       "name": "Cooperative Governance",
@@ -4411,7 +4304,7 @@
               "section_type": "job_opportunities",
               "metrics": [
                 {
-                  "name": "MISA: Innovation in seperation at source and treatment solutions ",
+                  "name": "MISA: Innovation in seperation at source and treatment solutions",
                   "metric_type": "count",
                   "value": 9295,
                   "dimensions": [
@@ -4419,54 +4312,8 @@
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 3033,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 1076,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 4590,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 411,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 185,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Opportunities in post by City",
@@ -4544,37 +4391,20 @@
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.35,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.65,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.89,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 11818.0,
                   "implementation_detail": {
-                    "programme_name": "MISA: Innovation in seperation at source and treatment solutions ",
+                    "programme_name": "MISA: Innovation in seperation at source and treatment solutions",
                     "status": "OnTrack",
                     "detail": "The programme ran in 16 municipalities in Eastern Cape and KZN, supporting 60 SMMEs and 7,623 work opportunities, to March 2022. It then continued in Mpumalanga, Limpopo and Gauteng, in 7 municipalities, supporting 31 SMEs. MISA has since initiated work in all provinces, in an additional 22 municipalities, supporting a further 24 SMEs. Its impacts on diversion of waste from landfill and on community engagement in recycling has led to increasing demand for participation from municipalities, leading COGTA to augment the programme from its core budgets."
                   }
@@ -4875,7 +4705,7 @@
       ],
       "sheet_name": "DEL",
       "lead": "The National Pathway Management Network (PYEI)",
-      "paragraph": "The National Pathway Management Network is an initiative of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the National Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the NPMN has been appointed and an associated Innovation Fund has been set up, both through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary."
+      "paragraph": "The National Pathway Management Network is an initiative of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the National Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the NPMN has been appointed and an associated Innovation Fund has been set up, both through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
     },
     {
       "name": "Forestry, Fisheries and Environment",
@@ -8118,8 +7948,8 @@
                   "value_target": 35000.0,
                   "implementation_detail": {
                     "programme_name": "Neighbourhood Development Partnership: PEPS for Metros Programme",
-                    "status": "OnTrack",
-                    "detail": "Implementation is underway in the metros and meanwhile, proposals for the next cycle of support are under adjudication."
+                    "status": "CriticalChallenges",
+                    "detail": "While good progress has been made in some metros, others are critically behind in implementation."
                   }
                 }
               ],
