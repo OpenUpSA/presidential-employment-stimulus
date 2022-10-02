@@ -2,6 +2,7 @@ import $ from 'jquery';
 
 const SELECTOR = '.tab-pane .tab-header';
 const TITLE_SELECTOR = '.tab-title';
+const OTHER_TITLE = '.tab-title__wrapper';
 
 const $template = $(SELECTOR).first().clone(true, true);
 
@@ -16,6 +17,7 @@ export class Footer {
 
     render() {
         const $el = $template.clone(true, true);
+        $el.find(OTHER_TITLE).empty(); /* delete bullet and other paragraph - this stops the disclaimed showing up twice */
         $el.find('.header__label').text('');
         $el.find(TITLE_SELECTOR).text(this._title);
         $el.find('h3').text(this._lead);

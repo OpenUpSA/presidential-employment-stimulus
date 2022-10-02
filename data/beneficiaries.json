@@ -1,154 +1,394 @@
 [
   {
-    "department":"DSAC",
-    "name":"Wandile Molebatsi",
-    "blurb":"Wandile Molebatsi from Johannesburg is the co-founder and Executive Producer at Coal Stove Pictures. ",
-    "paragraph":"\u201cCOVID-19 was devastating for us! My company shut down during the first national lockdown. And as the main breadwinner for my family, it has been a very difficult time. But once lockdown levels were reduced and the PES was announced, the team was able to get back to work.\u201d",
-    "picture_url":"Wandile-Molebatsi.jpg",
-    "featured":true
+    "department": "DBE",
+    "name": "Rochelle Wagner",
+    "blurb": "Rochelle Wagner was appointed as an education assistant at Range Primary School in Elsie's River in the Western Cape.",
+    "paragraph": "&quot;After the program ended at school, I did some voluntary work at the same school and am now part of the Mathmoms program.&quot; Her experience also inspired her to train in performing arts and as a foundation phase teacher.",
+    "picture_url": "Rochelle-Wagner.jpg",
+    "featured": true
   },
   {
-    "department":"DSAC",
-    "name":"Tshepiso Tjeeko",
-    "blurb":"Tshepiso Tjeeko, a 32-year-old from Qwa Qwa, Free State, says that the employment stimulus saved his business - and the jobs of his core team -  continues to open doors for him. ",
-    "paragraph":"\u201cTshwantshiso Film Productions is an independent film production company based in QwaQwa. Our main objectives is to tell stories from people who do not realize that their narratives are worth telling. Our operations had to stop during level 5 of the COVID-19 lockdown last year.\u201d",
-    "picture_url":"Tshepiso-Tjeeko.jpg",
-    "featured":null
+    "department": "DALRRD",
+    "name": "Nomusa Khanyile",
+    "blurb": "&quot;How on earth did they know we needed such help? It has lifted me up and made me the happiest woman!&quot; Nomusa Khanyile from Mpolweni, Kwazulu-Natal was one of over 100,000 subsistence farmers to receive a production input voucher - on her phone.",
+    "paragraph": "During the pandemic, with prices rising, Khanyile was running out of feed for her 107 pigs. &quot;When I had only one sack of pig food left, I asked: 'What am I going to do?'&quot; That's when she heard about DALRRD's Production Input Vouchers for subsistence farmers. The process was simple, she says - and it provided much-needed relief.",
+    "picture_url": "Nomusa-Khanyile2.jpg",
+    "featured": true
   },
   {
-    "department":"DSAC",
-    "name":"Nanda Soobben",
-    "blurb":"Nanda Soobben is series director for Noble Pictures, which was supported by the National Film and Video Foundation.",
-    "paragraph":null,
-    "picture_url":"Nanda-Soobben.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "Bongeka Sithole",
+    "blurb": "Bongeka Sithole's placement as part of the Water Graduate Employment Programme of the Water Research Commission exposed her to the importance of installing community boreholes to address widespread health problems in poor areas.",
+    "paragraph": "&quot;At KwaHlabisa we installed two boreholes. People were so, so excited. I now want to be part of a programme that brings boreholes to people in communities throughout South Africa. I also want to introduce environmental education in my own community to help ensure that our local river remains a clean water source for future generations.&quot;",
+    "picture_url": "Bongeka-Sithole.jpg",
+    "featured": true
   },
   {
-    "department":"DSI",
-    "name":"Bonolo Phete",
-    "blurb":"The Water Research Council placed Bonolo Phete in a research and development company specialising in water efficiency, through grey water operating systems which save water, simplify toilet use and encourage hygiene in the community.",
-    "paragraph":"\u201cI particularly enjoy my job because it is multifaceted. I have been involved in the project planning phase including site surveys, compiling bills of materials and bills of quantities, sourcing and acquiring material, and improving project reporting. I feel like I am putting my academic knowledge to use as well as improving my work experience. This is a positive thing because I am growing and improving my skills and industry knowledge. I hope to open my own company soon.\u201d",
-    "picture_url":"Bonolo-Phete.jpg",
-    "featured":true
+    "department": "DCOGTA",
+    "name": "Malakhiwe Zide",
+    "blurb": "Malakhiwe Zide has helped to deliver a cleaner environment in Mthata and surrounding Eastern Cape areas, through the Municipal Infrastructure Support Agency's waste management project.",
+    "paragraph": "&quot;I could not believe it when I was called to come and sign a contract but it's not just about being employed. This is a huge opportunity to learn about solid waste management, the business opportunities that will arise and how I can become part of it all.&quot;",
+    "picture_url": "Malakhiwe-Zide2.jpg",
+    "featured": true
   },
   {
-    "department":"DSI",
-    "name":"Sanelisizwe Nzimande",
-    "blurb":"25-year old Sanelisizwe Nzimande is a qualified civil engineer who has become passionate about water quality since joining Amanzi Ethu Nobuntu (our water, our humanity). Here, she is using a turbidity tube to measure water quality. ",
-    "paragraph":"Sanelisiwe Nzimande: \u201cEvery time I put on my gloves, boots and hat I feel very proud of what I am going to do for my environment. It makes me feel very confident because I feel that it benefits everyone in my community.\u201d",
-    "picture_url":"Sanelisizwe-Nzimande.jpg",
-    "featured":null
+    "department": "DTIC",
+    "name": "Vrygrond Community Library",
+    "blurb": "One children's book was all it took for Litha Sam-Sam from Vrygrond in Cape Town to start a children's reading and literacy initiative at the height of the Covid-19 pandemic - now supported through the Social Employment Fund.",
+    "paragraph": "During lockdown, Sam-Sam, aged 20, noticed that children were roaming the streets with nothing to do. He started reading to them. The idea caught on; others volunteered to do the same. Now, children in Vrygrond and adjacent townships wait with excitement for the yellow bicycles of the Loxion Mobile Library to arrive, with books in a basket. It's story time! Through the Social Employment Fund, this local initiative is now expanding.",
+    "picture_url": "Vrygrond.jpg",
+    "featured": true
   },
   {
-    "department":"DSI",
-    "name":"Nonkuleleko Ngcobo",
-    "blurb":"Nonkuleleko Ngcobo is one of 300 young Enviro Champs trained through the\u00a0Amanzi Ethu Nobuntu programme\u00a0to recognise and remove trees like the Cassia that are infesting riverine bush and draining precious water from the rivers feeding the Mngeni River. ",
-    "paragraph":"\u201cWe clear alien plants because they are found to be sucking all the water. Wherever you find alien plants, the river will be narrow.\u201d",
-    "picture_url":"Nonkuleleko-Ngcobo.jpg",
-    "featured":null
+    "department": "DSAC",
+    "name": "Bongiwe Selane",
+    "blurb": "Producer Bongiwe Selane's 'Happiness Ever After' film has captured a worldwide audience, thanks to support from the National Film and Video Foundation.",
+    "paragraph": "&quot;The PES came at the absolute right time and enabled me to go forth and make the sequel Happiness Ever After - now streaming on Netflix in 190 countries to over 200 million subscribers. Making this film also meant I was able to create employment for so many of my peers in the industry, and mine was just one such project. Whilst our industry is still reeling from the effects of Covid-19 and still struggling to get back on its feet, it is efforts like these that give us hope.&quot;",
+    "picture_url": "Bongiwe-Selane.jpg",
+    "featured": true
   },
   {
-    "department":"DBE",
-    "name":"Wade Janniker",
-    "blurb":"As an Education Assistant, 20-year-old Wade Janniker gave a helping hand in computer labs at Range Primary School in Elsies River.",
-    "paragraph":"\u201cI learned how much my help was valued. It was such a privilege to have that experience. In our neighbourhood, other people stand on corners and ask for R2.\u00a0 I don\u2019t want to be like them.\u00a0My duties included assisting the deputy principal\u00a0and teachers with admin work, but mostly I was in the computer lab. That\u2019s where I discovered how much I love computer work.\u00a0It was very rewarding to see children wanting to learn.\u201d",
-    "picture_url":"Wade-Janniker.jpg",
-    "featured":true
+    "department": "DSAC",
+    "name": "Sinomtha Nduna",
+    "blurb": "Sinomtha Nduna was supported to address the all important issue of mental health in the short film, 'Eruption'.",
+    "paragraph": "&quot;The purpose of the screening was to help develop an audience, while also celebrating the work put in by our youth-only cast and crew. We can proudly say that the film was well received by our target audience of youth and women.&quot;",
+    "picture_url": "Sinomtha-Nduna.jpg",
+    "featured": ""
   },
   {
-    "department":"DBE",
-    "name":"Rochelle Wagner",
-    "blurb":"Rochelle Wagner was appointed as an education assistant at Range Primary School in Elsies River in the Western CapHer experience has inspired her to train in performing arts and as a foundation phase teacher. ",
-    "paragraph":"\u201cAfter the program ended at school, I did some voluntary work at the same school and am now part of the Mathmoms program.\u201d",
-    "picture_url":"Rochelle-Wagner.jpg",
-    "featured":true
+    "department": "DSAC",
+    "name": "Mural",
+    "blurb": "Public Art was rolled out across the country and included visual art, drama, poetry, dance and music.",
+    "paragraph": "In the Free State, for example, 93 artists were contracted to paint 21 murals, reaching not only Mangaung but places like Koffiefontein, Phudatishaba and Soutpan too. This image is part of a mural on the wall of a clinic in the township lkgomotseng in Lejweleputswa District Municipality in the Free State. The mural depicts the prevalence of the Covid-19 virus and the risks of not wearing a mask.",
+    "picture_url": "mural.jpg",
+    "featured": ""
   },
   {
-    "department":"DBE",
-    "name":"Candice Dolphin",
-    "blurb":"For Candice Dolphin, her appointment as an education assistant at Range Primary in Elsies Rive, Wester Cape, was her first proper job.",
-    "paragraph":"\u201cMost of my adult life I have been unemployed, and only got short contracts at councils like sweeping and at Hungry Lion. Growing up here in Elsies River was tough. It\u2019s all about shootings, robbery and gangsters. I stayed inside most of the time, but I do have good memories of charity fund raisers and food parcels we would get. Right now, I just really hope I can get back into the programme because I really loved it there and have not found any other work since. I am sending my CV everywhere. The grant is really missed. I wish it comes back.\u201d",
-    "picture_url":"Candice-Dolphin.jpg",
-    "featured":null
+    "department": "DSAC",
+    "name": "Puku Children's Literacy Foundation",
+    "blurb": "Preserving and promoting indigenous languages, with the Puku Foundation - supported by the National Arts Council.",
+    "paragraph": "Puku spearheaded the publication of the first-ever book in the N/uu language - a severely endangered language according to the UNESCO degree of endangerment. They also made substantive progress in putting together the first of a series of catalogues of indigenous language books for early childhood and Foundation phase and created an online video course on reviewing books in an indigenous languages. Their work in preserving indigenous laguages earned them the prestigous 2021 UNESCO King Sejong Literary Prize.",
+    "picture_url": "Puku-Childrens-Literacy-Foundation.jpg",
+    "featured": ""
   },
   {
-    "department":"DFFE",
-    "name":null,
-    "blurb":"A team gears up to remove alien invasive specieis in Limpopo.",
-    "paragraph":null,
-    "picture_url":"Removing-invasive-alien-species.jpg",
-    "featured":null
+    "department": "DSAC",
+    "name": "Zingce Arts Festival",
+    "blurb": "Zingce, isiXhosa for 'take pride in who you are' celebrates heritage and culture through the Arts.",
+    "paragraph": "Zingce Arts Festival is a fusion of Visual, Performing, Literary and Applied Arts created as a platform for encouraging and promoting the development of creative, business and entrepreneurial skills in the arts  industry, for the citizens of the Eastern Cape. The activities were inspired by the theme of heritage and and culture and exposed community members to other South African cultures, thereby allowing for the promotion of social cohesion. The Festival was supported by stimulus programme in the National Arts Council.",
+    "picture_url": "Zingce-Arts-Festival.jpg",
+    "featured": ""
   },
   {
-    "department":"DFFE",
-    "name":null,
-    "blurb":"Clearing alien vegetation in the Berg-end Breede in Limpopo.",
-    "paragraph":null,
-    "picture_url":"Clearing-vegetation.jpg",
-    "featured":null
+    "department": "DSAC",
+    "name": "Wandile Molebatsi",
+    "blurb": "Wandile Molebatsi from Johannesburg is the co-founder and Executive Producer at Coal Stove Pictures.",
+    "paragraph": "&quot;COVID-19 was devastating for us! My company shut down during the first national lockdown. And as the main breadwinner for my family, it has been a very difficult time. But once lockdown levels were reduced and the PES was announced, the team was able to get back to work.",
+    "picture_url": "Wandile-Molebatsi.jpg",
+    "featured": ""
   },
   {
-    "department":"DFFE",
-    "name":"Yenziwe Mbuyisa",
-    "blurb":"Yneziwe Mbuyisa,  from Ladysmith in KZN, was unemployed for a year before joining the SANBI programme. ",
-    "paragraph":"\u201cI learned about the wildlife industry and its value. Not only did this project offer me a chance to be employed and gain experience but it also gave me a chance to explore the value of my degree. It became very discouraging when the pandemic hit and jobs became scarce, to find value in a natural science degree. This project motivated me to believe in the importance of this field of study and the value it has in our society.\u201d",
-    "picture_url":"Yenziwe-Mbuyisa.jpg",
-    "featured":true
+    "department": "DSAC",
+    "name": "Bongiwe Selane",
+    "blurb": "Producer Bongiwe Selane's 'Happiness Ever After' film has captured a worldwide audience, thanks to support from the National Film and Video Foundation.",
+    "paragraph": "&quot;The PES came at the absolute right time and enabled me to go forth and make the sequel Happiness Ever After - now streaming on Netflix in 190 countries to over 200 million subscribers. Making this film also meant I was able to create employment for so many of my peers in the industry, and mine was just one such project. Whilst our industry is still reeling from the effects of Covid-19 and still struggling to get back on its feet, it is efforts like these that give us hope.&quot;",
+    "picture_url": "Bongiwe-Selane.jpg",
+    "featured": ""
   },
   {
-    "department":"DoT",
-    "name":"Nelly Boshielo",
-    "blurb":"Nelly Boshielo is a 33-year-old from Marapyane, Limpopo. She was employed as a General Worker through the Presidential Employment Stimulus, helping to construct roads for the Department of Transport.",
-    "paragraph":"\u201cI have a Grade 11 qualification and used to work as a security guard. However, my contract was cancelled, and I was left unemployed for two and a half years. I\u2019m a single mother with four children. As such, it was very difficult. All I could depend on was the social grant I had qualified for.\u201d",
-    "picture_url":"Nelly-Boshielo.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "Philani Sibiya",
+    "blurb": "Philani Sibiya has a passion for biodiversity conservation. As part of the Water Graduate Employment Programme, he has undertaken GIS mapping for a massive invasive alien plant clearing project of the Ezemvelo KwaZulu-Natal Wildlife Water Care Unit.",
+    "paragraph": "&quot;We remove invasive alien plant species which suck up water resources in protected areas and nature reserves. I'm responsible for the GIS part of it all, mapping out these sites. As a result of this experience, I hope one day to invent new technology that will help to conserve water in catchment areas.&quot;",
+    "picture_url": "Philani-Sibiya.jpg",
+    "featured": ""
   },
   {
-    "department":"DoT",
-    "name":"Michael Maziya ",
-    "blurb":"Michael Maziya is a 54-year-old who lives in Thambokulu, Limpopo who was employed as a General Worker helping to construct roads for the Department of Transport. ",
-    "paragraph":"\u201cAfter leaving school at Grade 6, I worked at a few mines. However, 15 years ago, the mine I worked at shut down and I was then without work. I have a wife and six children so being unemployed for so long was difficult. To make some money to feed my family I took piece jobs, ploughing on farms. It was not easy but there was no other way, I had to provide for my family.I really appreciated this opportunity in the PES because I have been able to gain new skills and make some money. I now own a fridge as a result. The project was also great for my community since we now have a new road.\u201d",
-    "picture_url":"Michael-Maziya.jpg",
-    "featured":true
+    "department": "DSI",
+    "name": "Canoe River Cleaning",
+    "blurb": "Little do the competitors in the Duzi Canoe Marathon realise what a difference the Employment Stimulus is making to the health of the river.",
+    "paragraph": "Here, participants in the Enviro-Champs programme of the Duzi-uMngeni Conservation Trust and their partners take to canoes to tackle pollution in the river.",
+    "picture_url": "Canoe-River-Cleaning.jpg",
+    "featured": ""
   },
   {
-    "department":"DoT",
-    "name":null,
-    "blurb":"Road work in Marapyane, Limpopo.",
-    "paragraph":null,
-    "picture_url":"Limpopo-Roadworks.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "Rita Mofokeng",
+    "blurb": "Rita Mofokeng, a Biotechnology student from Vaal University of Technology, was hosted at the Limpopo Agro-food Technology Station as part of the CSIR's Experiential Training Programme.",
+    "paragraph": "&quot;The programme has helped me immensely by equipping me with the necessary knowledge and experience that is required by employers. I have received industrial exposure, an opportunity to work with high technology equipment and I learnt how to write scientific reports. The exposure has heightened my love for science and innovation.&quot;",
+    "picture_url": "Rita-Mofokeng.jpg",
+    "featured": ""
   },
   {
-    "department":"DPWI",
-    "name":"Samukelisiwe Linda",
-    "blurb":"Samukelisiwe Linda worked on the Welisizwe Rural Bridges programme of the Department of Public Works and Infrastructure.",
-    "paragraph":"\u201cI had a great career as a Civil Engineer within the private sector. But due to the impact of COVID-19 on my industry, I was retrenched in June last year. This really created a lot of anxiety and fear in my life about the possibility of never finding a job and being broke,\u201d she explains. Now, her skills are being put to good use. \u201cWe go out to areas where there are no bridges at all and build new ones or we fix bridges that are falling apart. This helps families who need to travel to school or work but because of poor terrain, are doing so with great difficulty.\u201d",
-    "picture_url":"Samukeliswa-Linda.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "Wandile Buthelezi",
+    "blurb": "Unable to find a job after completing his studies in Public Management two years ago, 25-year-old Wandile Buthelezi took pride in calling himself an Enviro Champ.",
+    "paragraph": "Before he joined the Duzi-uMngeni Conservation Trust programme, Buthelezi was at home ' unemployed and uninterested in helping to clean up his community or its rivers. Now he is passionate about doing so.",
+    "picture_url": "Wandile-Buthelezi.jpg",
+    "featured": ""
   },
   {
-    "department":"DALRRD",
-    "name":"Nosipho Cekwana",
-    "blurb":"Nosipho Cekwana from Impendle received a R5,300 voucher as part of support to subsistence farmers provided by the Department of Agriculture, Land Reform and Rural Development, as part of the Presidential Employment Stimulus.",
-    "paragraph":null,
-    "picture_url":"Nosipho-Cekwana.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "DUCT SASS Test",
+    "blurb": "Enviro Champs participating in the DUCT programme gather round to see what bugs are to be found in the water.",
+    "paragraph": "Some bugs are a sign of a healthy river - others of an unhealthy one. The DUCT programme, with its partners, gets communities involved in monitoring river health, as a basis for taking action.",
+    "picture_url": "DUCT-SASS-Test.jpg",
+    "featured": ""
   },
   {
-    "department":"DALRRD",
-    "name":"Phindile Ngcoya",
-    "blurb":"Phindile Ngcoya is from a family co-operative in Phatheni, Kwazulu-Natal.",
-    "paragraph":null,
-    "picture_url":"Phindile-Ngcoya.jpg",
-    "featured":null
+    "department": "DSI",
+    "name": "Bongeka Sithole",
+    "blurb": "Through her placement in the Water Graduate Employment Programme, Bongeka Sithole now has an appreciation of the importance of installing more community boreholes to address widespread health problems in poor areas.",
+    "paragraph": "&quot;At KwaHlabisa we installed two boreholes. People were so, so excited. I now want to be part of a programme that brings boreholes to people in communities throughout South Africa. I also want to introduce environmental education in my own community to help ensure that our local river remains a clean water source for future generations.&quot;",
+    "picture_url": "Bongeka-Sithole.jpg",
+    "featured": ""
   },
   {
-    "department":"DALRRD",
-    "name":"Nomusa Khanyile",
-    "blurb":"Nomusa Khanyile farms pigs in Mpolweni, Kwazulu-Natal",
-    "paragraph":null,
-    "picture_url":"Nomusa-Khanyile.jpg",
-    "featured":null
+    "department": "DBE",
+    "name": "Wade Janniker",
+    "blurb": "As an Education Assistant, 20-year-old Wade Janniker gave a helping hand in computer labs at Range Primary School in Elsie's River.",
+    "paragraph": "&quot;I learned how much my help was valued. It was such a privilege to have that experience. In our neighbourhood, other people stand on corners and ask for R2.00. I don't want to be like them. My duties included assisting the deputy principal and teachers with admin work, but mostly I was in the computer lab. That's where I discovered how much I love computer work. It was very rewarding to see children wanting to learn.&quot;  After exiting the programme, Janniker was able to find permanent employment.",
+    "picture_url": "Wade-Janniker.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DBE",
+    "name": "Sports",
+    "blurb": "School assistants run after-school activities - including organising sporting activities at many schools that have never had these in a structured way before.",
+    "paragraph": "Sports and Enrichment Assistants are now recruited as a particular category within the programme, open to young people who do not have a matric. Sport can play a vital role in school life, with DBE highlighting its importance in providing 'challenges and adventures' for young people and building both teamwork and competition.  A training programme for the SEAs has been developed, to support quality outcomes, with this an important area for General Assistants to contribute within the programme.",
+    "picture_url": "sports.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DBE",
+    "name": "Heart",
+    "blurb": "'At Sizwile School for Deaf Children, in Dobsonville, Johannesburg, the message from school assistants to learners is clear.",
+    "paragraph": "Schools for children with disabilities have welcomed the school assistants with open arms. Emily Xoliswa Didi, the Principal at Phololo Special School in Mangaung, sings their praises. &quot;The learners here have special needs, but the group of school assistants we had were so eager to learn. After just a month, it was as if they were professionals, they were part of us.&quot;",
+    "picture_url": "Heart-Painter.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DBE",
+    "name": "Lehlohonolo Kgatlane",
+    "blurb": "Lehlohonolo Kgatlane was an Education Assistant at Phoholo Special School in the Free State.",
+    "paragraph": "Kgatlane says working with children is quite challenging as you need to get them to consistently follow the rules. However, he finds the work very fulfilling as he is giving back to his community and giving learners skills that will help them in the future.",
+    "picture_url": "Lehlohonolo-Kgatlane.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DBE",
+    "name": "Reading champions",
+    "blurb": "Over 20,000 young people have been trained as Reading Champions.In this Eastern Cape school, the Education Assistant runs a regular reading corner for learners.",
+    "paragraph": "The National Education Collaboration Trust (NECT) credits the Reading Champions with strengthening the culture of reading in schools, by running reading groups, setting up library corners, reading stories and giving one-on-one support to struggling learners.",
+    "picture_url": "Reading-Champions.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DBE",
+    "name": "Sharon Tembe",
+    "blurb": "As an Education Assistant, Sharon Tembe developed confidence in her abilities and learned vital skills.",
+    "paragraph": "&quot;Being unemployed was extremely difficult.&quot; This opportunity allowed her to assist her family financially - but it was not only a financial relief, but also an opportunity to learn and get exposure to the world of work.",
+    "picture_url": "Sharon-Tembe.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DFFE",
+    "name": "Sisipho Mpotulo",
+    "blurb": "Sisipho Mpotulo from Mthatha, Eastern Cape, participated in the SANBI Sustainable Wildlife Economies project.",
+    "paragraph": "&quot;I feel proud to be part of a team that provides solutions on how to eradicate poverty. I feel proud to help in bridging the gap between the rich and the poor, and to raise awareness on sustainable land management. I look forward to seeing how small black-owned farms grow as a result of the information and tools provided to them by this project.&quot;",
+    "picture_url": "Sisipho-Mpotulo.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DFFE",
+    "name": "Zama Mnisi",
+    "blurb": "For Zama Mnisi from Mpumalanga, SANBI's Wildlife Economies Project was her first job - and an eye-opener.",
+    "paragraph": "&quot;The experience gave me the opportunity to meet farm owners and managers and learn the challenges they face. Most importantly I learned that there is a huge difference between knowing how to work the land and how to manage the farm as a business. The discussions about land degradation and the economic opportunities from wildlife also gave the farmers new ideas on how to grow their businesses and create more jobs in the community.&quot;",
+    "picture_url": "Zama-Mnisi2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DFFE",
+    "name": "Yenziwe Mbuyisa",
+    "blurb": "Yenziwe Mbuyisa grew up in Ladysmith. She was unemployed for a year before joining SANBI as part of the PES.",
+    "paragraph": "&quot;Not only did the project offer me a chance to be employed and gain experience but it also gave me a chance to explore the value of my degree. It became very discouraging, when the pandemic hit and jobs became scarce, to find value in a natural science degree. This project motivated me to believe in the importance of this field of study and the value it has in our society.&quot;",
+    "picture_url": "Yenziwe-Mbuyisa2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DoT",
+    "name": "Nelly Boshielo",
+    "blurb": "Nelly Boshielo is a 33-year-old from Marapyane, Limpopo. She was employed as a General Worker through the Presidential Employment Stimulus, helping to construct roads for the Department of Transport.",
+    "paragraph": "&quot;I have a Grade 11 qualification and used to work as a security guard. However, my contract was cancelled, and I was left unemployed for two and a half years. I'm a single mother with four children. As such, it was very difficult. All I could depend on was the social grant I had qualified for.&quot;",
+    "picture_url": "Nelly-Boshielo.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DoT",
+    "name": "Michael Maziya",
+    "blurb": "Michael Maziya is a 54-year-old who lives in Thambokulu, Limpopo who was employed as a General Worker helping to construct roads for the Department of Transport.",
+    "paragraph": "&quot;After leaving school at Grade 6, I worked at a few mines. However, 15 years ago, the mine I worked at shut down and I was then without work. I have a wife and six children so being unemployed for so long was difficult. To make some money to feed my family I took piece jobs, ploughing on farms. It was not easy but there was no other way, I had to provide for my family.I really appreciated this opportunity in the PES because I have been able to gain new skills and make some money. I now own a fridge as a result. The project was also great for my community since we now have a new road.&quot;",
+    "picture_url": "Michael-Maziya.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DoT",
+    "name": "Road work",
+    "blurb": "Road work in Marapyane, Limpopo.",
+    "paragraph": "Rural roads play a vital role in connecting rural communities to services such as health and education, as well as providing access to markets and economic opportunities.",
+    "picture_url": "Limpopo-Roadworks.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DPWI",
+    "name": "Samukelisiwe Linda",
+    "blurb": "Samukelisiwe Linda worked on the Welisizwe Rural Bridges programme of the Department of Public Works and Infrastructure.",
+    "paragraph": "&quot;I had a great career as a Civil Engineer within the private sector. But due to the impact of COVID-19 on my industry, I was retrenched in June last year. This really created a lot of anxiety and fear in my life about the possibility of never finding a job and being broke,&quot; she explains. Now, her skills are being put to good use. &quot;We go out to areas where there are no bridges at all and build new ones or we fix bridges that are falling apart. This helps families who need to travel to school or work but because of poor terrain, are doing so with great difficulty.&quot;",
+    "picture_url": "Samukeliswa-Linda.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Nozipho Cekwana",
+    "blurb": "Nozipho Cekwana from Impendle received a R5,300 voucher as part of support to subsistence farmers provided by the Department of Agriculture, Land Reform and Rural Development, as part of the Presidential Employment Stimulus.",
+    "paragraph": "&quot;You know how it is. The community always keeps us informed. So I kept hearing about this PES programme. After doing some research, I applied on my phone. It wasn't difficult.&quot; The voucher allowed Cekwana to buy maize seeds, manure and food supplements for her livestock. &quot;Every cent really helped,&quot; she told agricultural officials on a recent site visit.",
+    "picture_url": "Nozipho-Cekwana2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Phindile Ngcoya",
+    "blurb": "&quot;The PES allows young farmers like ourselves to dream beyond small-time farming. Our belief is that if we put in hard work, we will be rewarded for it,&quot; says Phindile Ngcoya.",
+    "paragraph": "Ngcoya is one of ten members of a family farming cooperative in Phatheni, Richmond, KZN. Every day, the 36-year-old mother-of-one walks with her nine siblings from the family homestead to work in their one-hectare field of vegetables. Standing amid the vegetables soon to be reaped, Ngcoya said: &quot;All of this was made possible by a PES voucher. We could buy seeds and seedlings. The planting continued and now we are selling lots of produce.&quot;",
+    "picture_url": "Phindile-Ngcoya.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Nomusa Khanyile",
+    "blurb": "&quot;How on earth did they know we needed such help? It has lifted me up and made me the happiest woman!&quot; Nomusa Khanyile from Mpolweni, Kwazulu-Natal was one of over 100,000 subsistence farmers to receive a production input voucher - on her phone.",
+    "paragraph": "During the pandemic, with prices rising, Khanyile was running out of feed for her 107 pigs. &quot;When I had only one sack of pig food left, I asked: 'What am I going to do?'&quot; That's when she heard about DALRRD's Production Input Vouchers for subsistence farmers. The process was simple, she says - and it provided much-needed relief.",
+    "picture_url": "Nomusa-Khanyile2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Molemo Mabitle",
+    "blurb": "Molemo Mabitle runs Mabitle piggery project at Reddersburg in Xhariep District Municipality in the Free State. Mabitle piggery project is Molemo's successful side-hustle.",
+    "paragraph": "Mabitle established a poultry project in 2002 which in 2019 he converted to pig production due to consistent electricity cuts, which had a great negative impact on production and finances. Mabitle piggery project has 33 pigs including piglets which are sold in his community. Molemo slaughters between 4-5 pigs in a month and sell them as fresh meat. Molemo works in a commercial farm and attends to his business before and after work. He receives assistance from family members and advice from his employer.",
+    "picture_url": "Molemo-Mabitle.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Tshinakaho Tshivhakhadi",
+    "blurb": "Tshinakaho Tshivhakhadi produces crops and vegetables on her 2-hectare farm, 20km outside of Makhado in Vhembe District, Limpopo. Tshivhakhadi received two vouchers, which she used to purchase fertilizers, maize seeds, and pesticides.",
+    "paragraph": "Tshivhakhadi's project focuses mainly on crop and vegetable production on dry land as well as vegetable on drip irrigation, with water from the borehole. Tshivhakhadi sells to the local community but she shares most of the produce with her family. With PES funding Tshivhakhadi bought fertilizers, maize seeds, and pesticides. Due to input of fertilizer, she has realis her highest yield ever, from 1 - 2 tons per hectare. She is an example of how sustained support over two phases has helped enhance outputs.",
+    "picture_url": "Tshinakaho-Tshivhakhadi.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DALRRD",
+    "name": "Nomthandazo Shezi",
+    "blurb": "Nomthandazo Shezi from Peacevale in KZN, received a Production Input Voucher to support her newly formed poultry farm.",
+    "paragraph": "Shezi started her poultry business with her little savings just before lockdown in 2020. She now has 20 chickens that are breeding fast and laying plenty of eggs. She sells eggs to her community.",
+    "picture_url": "Nomthandazo-Shezi.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DCOGTA",
+    "name": "Malakhiwe Zide",
+    "blurb": "Malakhiwe Zide is helping deliver a cleaner environment in Mthata and surrounding Eastern Cape areas, through the Municipal Infrastructure Support Agency's waste management project.",
+    "paragraph": "&quot;I could not believe it when I was called to come and sign a contract but it's not just about being employed. This is a huge opportunity to learn about solid waste management, the business opportunities that will arise and how I can become part of it all.&quot;",
+    "picture_url": "Malakhiwe-Zide2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DCOGTA",
+    "name": "Xolani Sicetsha",
+    "blurb": "Xolani Sicetsha found work with the Municipal Infrastructure Support Programme and aims to continue making a meaningful contribution to waste management, beyond the programme.",
+    "paragraph": "Sicetsha wants to gain more experience in innovative waste management. Sicetsha sees this as a great opportunity, doors have been opened where he can contribute and learn in similar projects. He wants a better life for his family.",
+    "picture_url": "Xolani-Sicetsha.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DCOGTA",
+    "name": "MISA",
+    "blurb": "The Municipal Infrastructure Support Agency programme has exposed communities to business opportunities. Those with an entrepreneurial mind and passion for a clean environment have grabbed this opportunity to tackling the challenge of solid waste management.",
+    "paragraph": "This is a great initiative for people who love a clean environment and who want to become entrepreneurs. Aside from instilling a sense of pride in one's surroundings, this project inspires hopes and dreams. Many of the people working in this project are energetic young people who were previously sitting idle at home with nothing to do.",
+    "picture_url": "MISA-Worker.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DWYPD",
+    "name": "Kealeboga Victoria Tshikovhi",
+    "blurb": "Kealeboga Victoria Tshikovhi saw an opportunity in the renewable energy sector but did not have adequate machinery to help grow her business - until support from NYDA.",
+    "paragraph": "Tshikovhi runs Lamo Fuel based in Dikgweng Village in Kuruman, Northern Cape. Her objective is to accelerate the use of sustainable energy sources including supply of biodiesel in the Northern Cape region. She received funding from NYDA to purchase equipment for her company, Tehilla Legacy (Pty) Ltd, trading as Lamo Fuel. Tshikovi has been able to create employment opportunities for two other young people.",
+    "picture_url": "Kealeboga-Victoria-Tshikovhi2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DWYPD",
+    "name": "Thozama Gomba and Lwazi Lyutya",
+    "blurb": "Female-headed business 'Zamava Construction and Projects' is owned by Thozama Gomba and Lwazi Lyutya and provides plumbing services to the community of the West Rand.",
+    "paragraph": "Following a plumbing apprenticeship in 2018, these young women applied for a beneficiary grant from the NYDA to start their own enterprise. This bold move into an industry that is largely male-dominated resulted in Thozama and Lwazi getting the funds needed to buy the necessary property, plant and equipment (PPE)  and tools for delivering their services. Today, Zamava Construction and Projects is also an employment creator, having created eight work opportunities to date.",
+    "picture_url": "Thozama-Gomba-Lwazi-Lyutya2.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DWYPD",
+    "name": "Kesaoboka Khabane",
+    "blurb": "Kesaoboka Khabae from Batlharos Village in the Northern Cape has demonstrated that success does exist for the youth in the agricultural sector. She received funding from the NYDA.",
+    "paragraph": "Khabae is running Tshenolo Ipeleng Ponelopele (Pty) Ltd - a farming enterprise specialising in turkey, broiler chicken, duck and egg production. Her aim is to supply homes, bakeries, butcheries, hotels, restaurants and hospitals within and outside of Northern Cape.",
+    "picture_url": "Kesaoboka-Khabane.jpg",
+    "featured": ""
+  },
+  {
+    "department": "NT",
+    "name": "Ethekwini Cities Enviro Champs",
+    "blurb": "In Ethekwini Municipality, the Transformative Riverine Management Programme (TRMP) has been launched in 19 Wards starting from mid-July 2022.",
+    "paragraph": "Twelve teams of Enviro Champs are working in their own neighbourhoods. They learn to identify environmental challenges that impact on their community and to develop Change Projects to address these. The programme is supported by graduates from the Duzi-uMmgeni Conservation Trust (DUCT) programme - a PES programme under DSI - in a great example of collaboration. They engage in income-generating recycling activities also. The teams use Field Survey, a mobile app, to collect data on solid waste, alien vegetation and water and sewer leaks. These are geo-located which helps the municipality to plan action.",
+    "picture_url": "Cities-EnviroChamps.jpg",
+    "featured": ""
+  },
+  {
+    "department": "NT",
+    "name": "Streetscapes",
+    "blurb": "The City of Cape Town is working with Streetscapes to support homeless people to rebuild their lives. Renita is one of the beneficiaries who is building a better future for her family",
+    "paragraph": "Streetscapes addresses the needs of the homeless, providing employment, psychosocial support and a 'housing first' type of accommodation. Renita is a beneficiary of the programme. 'What I'm learning from Streetscapes is not just for my future, but for my son and for a better life for my mother.' In the programme she spends her days tending to a food garden where she loves watching the spinach grow and learning how to imbue the soil with nutrients to make the seedlings in her care grow abundantly.",
+    "picture_url": "homeless.jpg",
+    "featured": ""
+  },
+  {
+    "department": "NT",
+    "name": "Ekurhuleni",
+    "blurb": "Pothole repairs matter for motorists - and the City of Ekurhuleni Metropolitan Municipality is creating work from getting it done in the Springs area.",
+    "paragraph": "Participants from Ekurhuleni Public Employment Programme working under the Roads and Stormwater Department had various responsibilities including tar patching and repairing potholes.",
+    "picture_url": "Roadworks.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DTIC",
+    "name": "Vrygrond Community library",
+    "blurb": "One children's book was all it took for Litha Sam-Sam from Vrygrond in Cape Town to start a children's reading and literacy initiative at the height of the Covid-19 pandemic - now supported through the Social Employment Fund.",
+    "paragraph": "During lockdown, Sam-Sam, aged 20, noticed that children were roaming the streets with nothing to do. He started reading to them. The idea caught on; others volunteered to do the same. Now, children in Vrygrond and adjacent townships wait with excitement for the yellow bicycles of the Loxion Mobile Library to arrive, with books in a basket. It's story time! Through the Social Employment Fund, this local initiative is now expanding. It is just one local programme of Assitej SA, which is working with 132 grassroots organisations across SA to support the participation of children in arts and culture.",
+    "picture_url": "Vrygrond.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DTIC",
+    "name": "SEF Lima",
+    "blurb": "This ECD Centre in Jolivet forms part of an integrated approach to supporting mothers and their children - starting while mothers are still pregnant.",
+    "paragraph": "The Social Support Programme of the Lima Rural Development Centre is creating work in local communities, by providing pre-natal and ante-natal care, along with nutrition, education and income-generating activity.",
+    "picture_url": "SEF-Lima.jpg",
+    "featured": ""
+  },
+  {
+    "department": "DTIC",
+    "name": "SEF Siyavuna",
+    "blurb": "In Ugu and Umdoni in KZN, Siyavuna Development Trust is supporting the transfer of indigenous agricultural knowledge from older farmers to 992 young people - creating inter-generational engagement in the process.",
+    "paragraph": "This Social Employment project links indigenous and organic agricultural practices, with participants getting SETA-accredited organic food-production skills. The project also links them into agricultural value chains and markets, so that they are able to transition out of the programme into economic opportunities.",
+    "picture_url": "SEF-Siyavuna.jpg",
+    "featured": ""
   }
 ]

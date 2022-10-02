@@ -10,12 +10,34 @@
     "NC": "Northern Cape",
     "WC": "Western Cape"
   },
+  "city": {
+    "CPT": "Cape Town",
+    "JHB": "Johannesburg",
+    "DBN": "Durban",
+    "PTA": "Pretoria",
+    "GB": "Gqerberha",
+    "BFN": "Bloemfontein",
+    "EL": "East London",
+    "PMB": "Pietermaritzburg",
+    "POL": "Polokwane"
+  },
+  "university": {
+    "UL": "university_of_limpopo",
+    "UP": "university_of_pretoria",
+    "NWU": "north_west_university",
+    "UKZN": "university_of_kwa_zulu_natal",
+    "SMU": "sefako_makgatho_health_sciences_university",
+    "UWC": "university_of_the_western_cape",
+    "CPUT": "cape_peninsula_university_of_technology",
+    "UCT": "university_of_cape_town",
+    "UNISA": "university_of_south_africa"
+  },
   "department": {
     "DALRRD": "Agriculture, Land Reform and Rural Development",
     "DBE": "Basic Education",
     "DCDT": "Communications and Digital Technologies",
     "DCOGTA": "Cooperative Governance",
-    "DWYPD": "Department of Women, Youth and Persons with Disabilities",
+    "DWYPD": "Women, Youth and Persons with Disabilities",
     "DEL": "Employment and Labour",
     "DFFE": "Forestry, Fisheries and Environment",
     "DoH": "Health",
@@ -48,7 +70,13 @@
     "202201": "Jan '22",
     "202202": "Feb '22",
     "202203": "Mar '22",
-    "202204": "Apr '22"
+    "202204": "Apr '22",
+    "202205": "May '22",
+    "202206": "Jun' 22",
+    "202207": "Jul' 22",
+    "202208": "Aug '22",
+    "202209": "Sep '22"
+
   },
   "icon": {
     "Budget": "budget",
