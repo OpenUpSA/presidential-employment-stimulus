@@ -1052,8 +1052,10 @@ def compute_all_data_departments(
                     ) or (
                         department_name
                         == "Agriculture, Land Reform and Rural Development"
-                        and programme_name == "Subsistence producer relief fund"
+                        and (programme_name == "Subsistence producer relief fund" or
+                        programme_name == 'Subsistence Producer Relief Fund')
                     ):
+                        print("GOT HERE", programme_name)
                         department_implementation_details.append(imp_detail)
                         continue  # these programmes have no detailed metrics
                     else:
