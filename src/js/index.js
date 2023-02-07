@@ -19,7 +19,7 @@ import { NoData } from "./nodata";
 import { ImplementationDetail } from './implementation-detail';
 import { organizeByZero, fillInMissingSections } from './utils';
 import { BeneficiaryStories} from "./beneficiary-stories";
-import { FORMATTERS } from './utils';
+import { FORMATTERS, hasPhase } from './utils';
 import { Phases } from './phases';
 import { filter } from 'd3-array';
 
@@ -82,7 +82,7 @@ Promise.all([
 
     const months_text = lookups["time"][tabData.month];
 
-    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, tabData.phases == undefined ? 0 : tabData.phases.length);
+    new Header(tab.$container, tabData.name, tabData.lead, tabData.paragraph, months_text, hasPhase(1, tabData));
 
     let filteredBeneficiaries = [];
 
@@ -97,7 +97,7 @@ Promise.all([
       }
 
       filteredBeneficiaries = beneficiaries.filter(function (story) {
-        return story.department === department_abbr
+        return story.department === department_abbr && story.featured != true;
       });
 
     } else {
@@ -111,7 +111,7 @@ Promise.all([
 
     if(filteredBeneficiaries.length > 0) {
 
-      new BeneficiaryStories(lookups, tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false);
+      new BeneficiaryStories(lookups, tab.$container, filteredBeneficiaries, tabData.name == 'Programme overview' ? true : false, tabData.name);
 
     }
 
@@ -188,6 +188,7 @@ Promise.all([
 
             }
 
+
             new Metric(
                 subSection.$container,
                 subSectionData.name,
@@ -199,7 +200,9 @@ Promise.all([
 
             const has_vets = tabData.sheet_name === "DALRRD" && sectionType === "livelihoods";
 
-            const dimensions = ((sectionType === "targets" || sectionType === "overview") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
+
+
+            const dimensions = ((sectionType === "targets" || sectionType === "overview" || sectionType === "job_opportunities" || sectionType === "livelihoods") ? subSectionData.dimensions : fillInMissingSections(subSectionData.dimensions, has_vets));
             dimensions.forEach((dimension) => {
 
               if (dimension.data_missing) {
@@ -296,16 +299,16 @@ Promise.all([
 
           if(otherPhase == 0) {
             $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department participated in phase 1 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore phase 1 performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore Phase 1');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 1');
+            $performanceCta.find('.performance-cta__heading').text('This department participated previously with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+            $performanceCta.find('.performance-cta__text').text('Explore previous performance');
+            $performanceCta.find('.performance-cta__button-text').text('Explore');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Completed');
           } else {
             $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department is participating in phase 2 with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore phase 2 performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore Phase 2');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Phase 2');
+            $performanceCta.find('.performance-cta__heading').text('This department is currently participating with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+            $performanceCta.find('.performance-cta__text').text('Explore Current performance');
+            $performanceCta.find('.performance-cta__button-text').text('Explore');
+            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Current');
           }
 
           $phaseContent.append($performanceCta);

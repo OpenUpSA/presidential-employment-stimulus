@@ -93,3 +93,12 @@ export function truncate(text, limit, after) {
 export function isObject(obj) {
   return Object.prototype.toString.call(obj) === '[object Object]';
 };
+
+export function hasPhase(phase_num, tabData) {
+  if (tabData.phases === undefined) {
+    return false;
+  } else {
+    const phase_nums = tabData.phases.map( phase => { return phase === undefined ? undefined : phase.phase_num } );
+    return phase_nums.includes(phase_num)
+  }
+}

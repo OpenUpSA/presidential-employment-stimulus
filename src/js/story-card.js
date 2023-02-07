@@ -27,7 +27,7 @@ export class StoryCard {
         $('.story-modal:first').remove();
         $('body').append($modal);
         $(".story-modal").css('display', on ? "block" : "none").css('opacity', on ? 1 : 0);
-        $('.story-modal .block.is--story-modal').css('top','50%').css('left','50%').css('transform','translate(-50%,-50%)');
+        $('.story-modal .block.is--story-modal').css('top', window.innerHeight/2).css('left','50%').css('transform','translate(-50%,-50%)');
         $('.story-modal .story-modal__close').on("click", () => {
             this.select(false, $modal);
         })
@@ -40,13 +40,13 @@ export class StoryCard {
         if(this.picture_url != null) {
             
             $el = $cardTemplate.clone(true, true);
-            $el.find('.story-title').text(this.blurb);
+            $el.addClass('swiper-slide');
+            $el.find('.story-title').text(this.blurb.replaceAll('&quot;','"'));
             $el.find('.story-department').text(this._lookups["department"][this.department]);
             $el.find('.story-image').attr('srcset', 'img/' + this.picture_url);
-            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph,40,'...') : '');
-            $el.find('.story-description.is--modal').text(this.paragraph);
-            $el.find('.story-image.is--modal').css('height','25em');
-        
+            $el.find('.story-description').text(this.paragraph != null ? truncate(this.paragraph.replaceAll('&quot;','"'),40,'...') : '');
+            $el.find('.story-description.is--modal').text(this.paragraph.replaceAll('&quot;','"'));
+            $el.find('.story-image__loading').remove(); // Doesn't this undo lazyload?
         } else {
 
             $el = $quoteCardTemplate.clone(true, true);

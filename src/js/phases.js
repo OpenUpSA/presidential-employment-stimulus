@@ -26,12 +26,12 @@ export class Phases {
     }
 
     add(phasesLength, phaseIndex, phaseContent) {
-            
+
         let $phaseMenuItem = $phaseMenuItemTemplate.clone(true, true);
 
         $phaseMenuItem.attr('data-w-tab','Phase ' + (phaseIndex + 1));
 
-        $phaseMenuItem.find('.phase-tab__text').text('Phase ' + (phaseIndex + 1));
+        $phaseMenuItem.find('.phase-tab__text').text(phaseIndex == 0 ? 'Completed' : 'Current');
 
         $phaseMenuItem.removeClass(SELECTED_PHASE_MENU_ITEM_CLASS);
 
@@ -71,14 +71,14 @@ export class Phases {
 
         this._$phasesTabs.append(this._$phasesMenu);
         this._$phasesTabs.append(this._$phasesContent);
-        
+
         this._$parent.append(this._$phasesTabs);
-       
+
 
         // PHASE TABS SELECT
 
         $(PHASE_MENU_ITEM_SELECTOR).on('click', function() {
-            
+
             let tab = $(this).attr('data-w-tab');
             let tabs_menu = $(this).parent();
             let tabs_content = $(this).parent().parent();
@@ -90,7 +90,7 @@ export class Phases {
 
         })
 
-        
+
 
 
 
