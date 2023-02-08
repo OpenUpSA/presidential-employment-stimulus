@@ -481,7 +481,10 @@ months = [
     "202206",
     "202207",
     "202208",
-    "202209"
+    "202209",
+    "202210",
+    "202211",
+    "202212"
 ]
 month_names = [
     "Oct '20",
@@ -507,10 +510,13 @@ month_names = [
     "Jun '22",
     "Jul '22",
     "Aug '22",
-    "Sep '22"
+    "Sep '22",
+    "Oct '22",
+    "Nov '22",
+    "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [16, 12]
+total_achievement_column = [19, 16]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -530,6 +536,9 @@ month_lookup = [
         "oct.1": "202110",
         "nov.1": "202111",
         "dec.1": "202112",
+        "jan.1": "202201",
+        "feb.1": "202202",
+        "march": "202203",
     },
     {
         "oct": "202110",
@@ -544,11 +553,14 @@ month_lookup = [
         "jul": "202207",
         "aug": "202208",
         "sep": "202209",
+        "oct.1": "202210",
+        "nov.1": "202211",
+        "dec.1": "202212",
     },
 ]
 
 number_of_phases = 2
-phase_dates = [["202010", "202203"], ["202104", "202209"]]
+phase_dates = [["202010", "202203"], ["202104", "202212"]]
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
 

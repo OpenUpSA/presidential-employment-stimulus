@@ -51,7 +51,14 @@ export class VizPhased {
         
         let $phasedHeader = $phasedHeaderTemplate.clone(true, true);
         $phasedHeader.find('.phased-header__title').text(this._title);
-        $phasedHeader.find('.phased-header__value').text(this._total_value ? formatter(this._total_value) : '');    
+        $phasedHeader.find('.phased-header__value').text(this._total_value ? formatter(this._total_value) : '');   
+        
+
+        // Hack for SONA 2023 - Remove ASAP
+
+        if(this._total_value == 23588178000) {
+            $phasedHeader.find('.phased-header__value').text('R32.6 billion'); 
+        }
 
         let $icons = $iconsTemplate.clone(true, true);
         $phasedHeader.find('.phased-header__icon').empty();
@@ -109,6 +116,12 @@ export class VizPhased {
                 }
 
                 $phase.find('.feature-value__amount').text(formatter(this._value[key]));
+
+                // Hack for SONA 2023 - Remove ASAP
+
+                if(this._value[key] == 10954000000) {
+                    $phase.find('.feature-value__amount').text('R11 billion and R9 billion'); 
+                }
 
                 if(this._value_target != null) {
 
