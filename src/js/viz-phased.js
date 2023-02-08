@@ -110,6 +110,12 @@ export class VizPhased {
 
                 $phase.find('.feature-value__amount').text(formatter(this._value[key]));
 
+                // Hack for SONA 2023 - Remove ASAP
+
+                if(this._value[key] == 10954000000) {
+                    $phase.find('.feature-value__amount').text('R11 billion and R9 billion'); 
+                }
+
                 if(this._value_target != null) {
 
                     if(this._value_target[key] != undefined) {
