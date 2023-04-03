@@ -48,8 +48,10 @@ export class Header {
     this._$parent.append($el);
 
     $('.button-wrap select').on('change', function () {
-      window.open($(this).val(), '_blank');
-      $(this).val('');
+      if($(this).val() != null) {
+        window.open($(this).val(), '_blank');
+        $(this).val('');
+      };
     });
   }
 }
