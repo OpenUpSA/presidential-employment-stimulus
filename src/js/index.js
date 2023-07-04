@@ -213,19 +213,8 @@ Promise.all([
 
                 const hideHeading = sectionType === 'overview' & subSectionData.metric_type === 'targets_count';
 
-                new VizHeading(subSection.$container, dimension.name, hideHeading);
-
-
-
-                if (dimension.viz === 'line') {
-                  new VizLine(
-                    subSection.$container,
-                    dimension.values,
-                    lookups[dimension.lookup],
-                    tabData.name == 'Programme overview' ? 0 : tabData.phases[phase].phase_num,
-                    tabData.name == 'Programme overview' ? true : false
-                  );
-
+                if (dimension.viz != 'line') {
+                  new VizHeading(subSection.$container, dimension.name, hideHeading);
                 }
 
                 if (dimension.viz === 'two_value') {

@@ -37,7 +37,7 @@ export class Header {
     $el.find('h3').text(this._lead);
     $el.find('p.header-description').text(this._paragraph);
     
-    $el.find('.button-wrap').html('<select><option value="" disabled selected hidden>More about the programme</option><option value="img/Presidential Employment Stimulus Launch October 2020.pdf">Launch October 2020</option><option value="img/Phase 2 Launch 2021.pdf">Phase 2 Launch 2021</option></select>');
+    $el.find('.button-wrap').html('<select><option value="" disabled selected hidden>More about the programme</option><option value="img/Presidential Employment Stimulus Launch October 2020.pdf">Launch October 2020</option><option value="img/Phase 2 Launch 2021.pdf">Phase 2 Launch 2021</option><option value="img/Presidential Employment Stimulus Update February 2023.pdf">February 2023 Update</option></select>');
 
 
 
@@ -48,8 +48,10 @@ export class Header {
     this._$parent.append($el);
 
     $('.button-wrap select').on('change', function () {
-      window.open($(this).val(), '_blank');
-      $(this).val('');
+      if($(this).val() != null) {
+        window.open($(this).val(), '_blank');
+        $(this).val('');
+      };
     });
   }
 }
