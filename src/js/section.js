@@ -34,8 +34,8 @@ export class Section {
 
     if(this._phase_legend) {
       $header = $overviewHeaderTemplate.clone(true,true);
-      $header.find('.phase-legend__date').text(this._lookups.time[this._tab_data.phase_dates[1][0]] + ' - Present');
-      $header.find('.phase-legend__date').first().text(this._lookups.time[this._tab_data.phase_dates[0][0]] + ' - ' + this._lookups.time[this._tab_data.phase_dates[0][1]]);
+      $header.find('.phase-legend__date').text("Apr '22 - Mar '23");
+      $header.find('.phase-legend__date').first().text("Oct '20 - Mar '22");
       $header.css('margin-top', 0);
     }
 
