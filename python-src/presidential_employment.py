@@ -183,6 +183,9 @@ department_budget_targets = [
         "Health": 180_000_000,
         "Science and Innovation": 45_000_000,
         "Public Works and Infrastructure": 159_000_000,
+        "Tourism": 1 * 1000, # ??
+        "Women, Youth and Persons with Disabilities": 1 * 1000, # ???
+        "Communications and Digital Technologies": 1 * 1000, # ???
     },
     {
         "Basic Education": 6_000_000 * 1000,  # CRE
@@ -480,7 +483,11 @@ months = [
     "202205",
     "202206",
     "202207",
-    "202208"
+    "202208",
+    "202209",
+    "202210",
+    "202211",
+    "202212"
 ]
 month_names = [
     "Oct '20",
@@ -505,10 +512,14 @@ month_names = [
     "May '22",
     "Jun '22",
     "Jul '22",
-    "Aug '22"
+    "Aug '22",
+    "Sep '22",
+    "Oct '22",
+    "Nov '22",
+    "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [16, 12]
+total_achievement_column = [20, 16]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -528,6 +539,10 @@ month_lookup = [
         "oct.1": "202110",
         "nov.1": "202111",
         "dec.1": "202112",
+        "jan.1": "202201",
+        "feb.1": "202202",
+        "march": "202203",
+        "march.1": "202203"
     },
     {
         "oct": "202110",
@@ -540,12 +555,16 @@ month_lookup = [
         "may": "202205",
         "jun": "202206",
         "jul": "202207",
-        "aug": "202208"
+        "aug": "202208",
+        "sep": "202209",
+        "oct.1": "202210",
+        "nov.1": "202211",
+        "dec.1": "202212",
     },
 ]
 
 number_of_phases = 2
-phase_dates = [["202010", "202203"], ["202104", "202208"]]
+phase_dates = [["202010", "202203"], ["202104", "202212"]]
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
 
@@ -1055,7 +1074,6 @@ def compute_all_data_departments(
                         and (programme_name == "Subsistence producer relief fund" or
                         programme_name == 'Subsistence Producer Relief Fund')
                     ):
-                        print("GOT HERE", programme_name)
                         department_implementation_details.append(imp_detail)
                         continue  # these programmes have no detailed metrics
                     else:
@@ -1289,6 +1307,8 @@ def compute_all_data_departments(
                                 target = -1
                             else:
                                 target = target_row.iloc[0]
+                            if section == 'RET' and phase_num == 0:
+                                print("ACHIEVED:", programme_name, total_value, target)
                             programme_metric = Metric(
                                 name=programme_name,
                                 metric_type=MetricTypeEnum.count.name,
@@ -1431,7 +1451,8 @@ def compute_breakdowns(all_data_departments: list[Department]):
 
 
 def compute_programmes_by_type(
-    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df
+    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df,
+    dpwi_target_row=52
 ):
     """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
     # what we need
@@ -1452,6 +1473,10 @@ def compute_programmes_by_type(
     # for Overview we want top level info (and OverviewSection) with a total value per phase per section
     #
     # and then for departments we want a dictionary of department_name to MultiMetricValue (2 values, 1 per phase)
+    #
+    # SPECIAL CASE CODE:
+    # Department of Public Works and Infrastructure has a programme in phase 1 that has only got an overall target.
+    # The row that this is found on is dpwi_target_row (row 51 in Excel, 50 in pandas)
     programmes_by_type = {
         SectionEnum.job_opportunities.name: dict(
             [(i, {}) for i in range(number_of_phases)]
@@ -1552,14 +1577,15 @@ def compute_programmes_by_type(
                     department.name == "Agriculture, Land Reform and Rural Development"
                     and section.section_type == SectionEnum.livelihoods.name
                 ):
+                    # SPECIAL CASE CODE
                     # this programme from DALRRD only has an overall target,
                     # not one target per sub-programme
                     if phase.phase_num == 0:
-                        row = 8
+                        dallrd_target_row = 8
                     elif phase.phase_num == 1:
-                        row = 7
+                        dallrd_target_row = 7
                     total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[row, 2]
+                        opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
                     )
                 elif (
                     department.name == "Public Works and Infrastructure"
@@ -1567,9 +1593,8 @@ def compute_programmes_by_type(
                 ):
                     # this is a phase 1 programme that just has an overall target
                     total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[47, 2]
+                        opportunity_targets_df[phase.phase_num].iloc[dpwi_target_row, 2]
                     )
-                #         print(department.name, section.name, total_value, total_target_value)
                 programmes_by_type[section.section_type][phase.phase_num][
                     department.sheet_name
                 ] = {
@@ -1592,6 +1617,8 @@ def compute_programmes_by_type(
                 ] += total_target_value
                 section_value += total_value
                 section_target_value += total_target_value
+            if phase.phase_num == 0 and section.section_type == SectionEnum.job_opportunities.name:
+                print("computed total", count)
 
     for section_type in achievements_by_type_by_month:
         if section_type == "overview" or section_type == "in_process":
