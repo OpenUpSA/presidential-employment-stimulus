@@ -25,10 +25,10 @@
             "name": "Total budget allocated",
             "metric_type": "currency",
             "value": [
-              23588178,
-              9000000.0
+              23588178000,
+              9000000000.0
             ],
-            "total_value": 32588178.0,
+            "total_value": 32588178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
