@@ -1422,10 +1422,10 @@ def compute_overview_metrics(
 
     overview_metrics = []
 
-    phase_1_budget = sum(department_budget_targets[0].values())
-    phase_2_budget = sum(department_budget_targets[1].values())
+    phase_1_budget = sum(department_budget_targets[0].values()) * 1000
+    phase_2_budget = sum(department_budget_targets[1].values()) * 1000
     
-    assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
+    assert total_budgets[0] * 1000 == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0] * 1000} vs {phase_1_budget}"
 
     total_budget = PhasedMetric(
         name="Total budget allocated",
