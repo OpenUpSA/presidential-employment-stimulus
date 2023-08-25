@@ -567,7 +567,6 @@ def compute_all_data_departments(
     leads,
     paragraphs,
     department_budget_targets,
-    total_budgets,
     disable_time_dimension=True
 ):
     """Compute all_data_departments, which summarises programmes for all departments
@@ -1404,7 +1403,8 @@ def compute_overview_metrics(
     programmes_by_type,
     total_youth,
     total_unknown_youth,
-    department_budget_targets
+    department_budget_targets,
+    total_budgets
 ):
     # metrics breakdown
 
@@ -1424,6 +1424,8 @@ def compute_overview_metrics(
 
     phase_1_budget = sum(department_budget_targets[0].values())
     phase_2_budget = sum(department_budget_targets[1].values())
+    
+    assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
 
     total_budget = PhasedMetric(
         name="Total budget allocated",

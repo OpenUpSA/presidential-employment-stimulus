@@ -156,7 +156,8 @@ if __name__ == '__main__':
     overview_metrics = compute_overview_metrics(total_female, total_beneficiaries, total_unknown_gender,
                                 opportunity_targets_df, programmes_by_type,
                                 total_youth, total_unknown_youth,
-                                department_budget_targets)
+                                department_budget_targets,
+                                total_budgets)
 
     ## Assemble overview and put together final combined data
     overview = compute_overview(description_df, leads, paragraphs, overview_metrics,
