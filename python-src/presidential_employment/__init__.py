@@ -1,460 +1,14 @@
 from calendar import day_abbr
-from enum import Enum
-from dataclasses import dataclass
 from pprint import PrettyPrinter
-from typing import Callable, List, Union, Mapping
+from typing import Callable
 
-from dataclasses_json import dataclass_json
 import pandas as pd
 
-SectionEnum = Enum(
-    "Section",
-    "targets overview budget_allocated job_opportunities jobs_retain livelihoods in_process",
-)
-
-MetricTypeEnum = Enum("MetricType", "currency count")
-
-ProvinceEnum = Enum("Province", "EC FS GP KZN LP MP NC NW WC")
-
-ImplementationStatusEnum = Enum(
-    "ImplementationStatus", "OnTrack MinorChallenges CriticalChallenges"
-)
-
-VizTypeEnum = Enum("VizType", "bar line two_value percentile count full compact")
-
-LookupTypeEnum = Enum(
-    "LookupType", "department city province university time age gender vets disabled repeat"
-)
-
-GenderEnum = Enum("Gender", "Male Female")
-
-RepeatEnum = Enum("Repeat", "Repeat New")
-
-provinces = [
-    "Eastern Cape",
-    "Free State",
-    "Gauteng",
-    "KwaZulu-Natal",
-    "Limpopo",
-    "Mpumalanga",
-    "North West",
-    "Northern Cape",
-    "Western Cape",
-]
-
-province_abbreviations = ["EC", "FS", "GP", "KZN", "LP", "NW", "NC", "WC", "MP"]
-
-province_to_abbrev = {
-    "Free State": "FS",
-    "Gauteng": "GP",
-    "KwaZulu-Natal": "KZN",
-    "Limpopo": "LP",
-    "Mpumalanga": "MP",
-    "North West": "NW",
-    "Northern Cape": "NC",
-    "Western Cape": "WC",
-    "Eastern Cape": "EC",
-}
-
-province_header_to_abbrev = {
-    "free_state": "FS",
-    "gauteng": "GP",
-    "kwazulu_natal": "KZN",
-    "limpopo": "LP",
-    "mpumalanga": "MP",
-    "north_west": "NW",
-    "northern_cape": "NC",
-    "western_cape": "WC",
-    "eastern_cape": "EC",
-}
-
-cities = [
-    "Cape Town",
-    "Johannesburg",
-    "Durban",
-    "Pretoria",
-    "Gqerberha",
-    "Bloemfontein",
-    "East London",
-    "Pietermaritzburg",
-    "Polokwane",
-]
-
-city_header_to_abbrev = {
-    "cape_town": "CPT",
-    "johannesburg": "JHB",
-    "durban": "DBN",
-    "pretoria": "PTA",
-    "gqerberha": "GB",
-    "bloemfontein": "BFN",
-    "east_london": "EL",
-    "pietermaritzburg": "PMB",
-    "polokwane": "POL",
-}
-
-universities = [
-    "Cape Peninsula University of Technology",
-    "Central University of Technology",
-    "Durban University of Technology",
-    "Mangosuthu  University of Technology",
-    "Nelson Mandela University",
-    "Rhodes University",
-    "Sefako Makgatho Health Science University",
-    "Sol Plaaitje University",
-    "Stellenbosch University",
-    "North West University",
-    "Tshwane University of Technology",
-    "University of Cape Town",
-    "University of Fort Hare",
-    "University of Johannesburg",
-    "University of KwaZulu Natal",
-    "University of Limpopo",
-    "University of Mpumalanga",
-    "University of Pretoria",
-    "University of South Africa",
-    "University of the Free State",
-    "University of the Western Cape",
-    "University of the Witswatersrand",
-    "University of Venda",
-    "University of Zululand",
-    "Walter Sisulu University",
-    "Vaal University of Technology"
-]
-
-university_header_to_abbrev = {
-    'cape_peninsula_university_of_technology': 'CPUT',
-    'central_university_of_technology': 'CUT',
-    'durban_university_of_technology': 'DUT',
-    'mangosuthu__university_of_technology': 'MUT',
-    'nelson_mandela_university': 'NMU',
-    'north_west_university': 'NWU',
-    'rhodes_university': 'RU',
-    'sefako_makgatho_health_science_university': 'SMU',
-    'sol_plaaitje_university': 'SPU',
-    'stellenbosch_university': 'SU',
-    'tshwane_university_of_technology': 'TUT',
-    'university_of_cape_town': 'UCT',
-    'university_of_fort_hare': 'UFH',
-    'university_of_johannesburg': 'UJ',
-    'university_of_kwazulu_natal': 'UKZN',
-    'university_of_limpopo': 'UL',
-    'university_of_mpumalanga': 'UM',
-    'university_of_pretoria': 'UP',
-    'university_of_south_africa': 'UNISA',
-    'university_of_the_free_state': 'UFS',
-    'university_of_the_western_cape': 'UWC',
-    'university_of_the_witswatersrand': 'WITS',
-    'university_of_venda': 'UNIVEN',
-    'university_of_zululand': 'UZ',
-    'vaal_university_of_technology': 'VUT',
-    'walter_sisulu_university': 'WSU'
-    }
-
-department_name_to_abbreviation = {
-    "Basic Education": "DBE",
-    "Social Development": "DSD",
-    "Agriculture, Land Reform and Rural Development": "DALRRD",
-    "Forestry, Fisheries and Environment": "DFFE",
-    "Transport": "DoT",
-    "Sports, Arts and Culture": "DSAC",
-    "Cooperative Governance": "DCOGTA",
-    "Trade, Industry and Competition": "DTIC",
-    "Health": "DoH",
-    "Science and Innovation": "DSI",
-    "Public Works and Infrastructure": "DPWI",
-    "National Treasury": "NT",
-    "Higher Education": "DHET",
-    "Tourism": "Tourism",
-    "Employment and Labour": "DEL",
-    "Communications and Digital Technologies": "DCDT",
-    "Women, Youth and Persons with Disabilities": "DWYPD",
-}
-
-department_budget_targets = [
-    {
-        "Basic Education": 7_000_000 * 1000,
-        "Social Development": 7_000_000 * 1000,
-        "Agriculture, Land Reform and Rural Development": 1_000_000_000,
-        "Forestry, Fisheries and Environment": 1_983_000 * 1000,
-        "Transport": 630_000_000,
-        "Sports, Arts and Culture": 665_000_000,
-        "Cooperative Governance": 50_000_000,
-        "Trade, Industry and Competition": 120_000 * 1000,
-        "Health": 180_000_000,
-        "Science and Innovation": 45_000_000,
-        "Public Works and Infrastructure": 159_000_000,
-    },
-    {
-        "Basic Education": 6_000_000 * 1000,  # CRE
-        "National Treasury": 841_000 * 1000,  # CRE
-        "Trade, Industry and Competition": 800_000 * 1000,  # CRE
-        "Health": 365_000 * 1000,  # CRE
-        "Forestry, Fisheries and Environment": 318_000 * 1000,  # CRE
-        "Higher Education": (100_000 * 1000) + (90_000) * 1000,  # CRE
-        "Sports, Arts and Culture": 15_000 * 1000,  # CRE
-        "Cooperative Governance": 284_000 * 1000,  # CRE
-        "Science and Innovation": 67_000 * 1000,  # CRE
-        "Tourism": 108_000 * 1000,  # CRE
-        "Employment and Labour": (20_000 * 1000) + (238_000 * 1000),  # CRE and CAT
-        "Communications and Digital Technologies": 200_000 * 1000,  # CAT
-        "Women, Youth and Persons with Disabilities": 30_000 * 1000,  # CRE
-        "Social Development": 178_000 * 1000,  # LIV
-        "Agriculture, Land Reform and Rural Development": 750_000 * 1000,  # LIV
-    },
-]
-
-section_titles = {
-    SectionEnum.targets.name: "Programme targets for this department",
-    SectionEnum.job_opportunities.name: "Jobs created",
-    SectionEnum.jobs_retain.name: "Jobs retained",
-    SectionEnum.livelihoods.name: "Livelihoods supported",
-    SectionEnum.targets.name + "_overview": "Programme achievements",
-    SectionEnum.job_opportunities.name + "_overview": "Job opportunities",
-    SectionEnum.jobs_retain.name + "_overview": "Jobs retained",
-    SectionEnum.livelihoods.name + "_overview": "Livelihoods supported",
-    SectionEnum.in_process.name: "Opportunities in process",
-}
-
-metric_titles = {
-    SectionEnum.targets.name: {
-        MetricTypeEnum.currency.name: "Budget",
-        MetricTypeEnum.count.name: "Beneficiaries",
-    },
-    SectionEnum.job_opportunities.name: {
-        MetricTypeEnum.count.name + "_time": "Employed over time",
-        MetricTypeEnum.count.name + "_gender": "Opportunities by Gender",
-        MetricTypeEnum.count.name + "_province": "Opportunities in post by Province",
-        MetricTypeEnum.count.name + "_city": "Opportunities in post by City",
-        MetricTypeEnum.count.name
-        + "_university": "Opportunities in post by University",
-        MetricTypeEnum.count.name + "_age": "Opportunities going to 18-35 year olds",
-        MetricTypeEnum.count.name
-        + "_disabled": "Opportunities going to disabled persons",
-        MetricTypeEnum.count.name
-        + "_repeat": "Opportunities going to repeat TODO",
-
-    },
-    SectionEnum.jobs_retain.name: {
-        MetricTypeEnum.count.name + "_time": "Jobs saved over time",
-        MetricTypeEnum.count.name + "_gender": "Jobs saved by gender",
-        MetricTypeEnum.count.name + "_province": "Jobs saved by province",
-        MetricTypeEnum.count.name + "_city": "Jobs saved by city",
-        MetricTypeEnum.count.name + "_university": "Jobs saved by university",
-        MetricTypeEnum.count.name + "_age": "Jobs saved going to 18-35 year olds",
-        MetricTypeEnum.count.name
-        + "_repeat": "Jobs saved going to repeat TODO",
-    },
-    SectionEnum.livelihoods.name: {
-        MetricTypeEnum.count.name + "_time": "Livelihoods supported over time",
-        MetricTypeEnum.count.name + "_gender": "Livelihoods supported by gender",
-        MetricTypeEnum.count.name + "_province": "Livelihoods supported by province",
-        MetricTypeEnum.count.name + "_city": "Livelihoods supported by city",
-        MetricTypeEnum.count.name
-        + "_university": "Livelihoods supported by university",
-        MetricTypeEnum.count.name
-        + "_age": "Livelihoods supported going to 18-35 year olds",
-        MetricTypeEnum.count.name
-        + "_vets": "Livelhoods supported going to military veterans",
-        MetricTypeEnum.count.name
-        + "_disabled": "Livelhoods supported going to disabled persons",
-        MetricTypeEnum.count.name
-        + "_repeat": "Livelhoods supported going to repeat TODO",
-
-    },
-}
-
-section_abbrev_to_name = {
-    "CRE": SectionEnum.job_opportunities.name,
-    "LIV": SectionEnum.livelihoods.name,
-    "RET": SectionEnum.jobs_retain.name,
-}
+from .enums import *
+from .constants import *
+from .data_structures import *
 
 
-@dataclass_json
-@dataclass
-class ImplementationDetail:
-    programme_name: str
-    status: str = None  # enum of OnTrack MinorChallenges CriticalChallenges
-    detail: str = None
-
-
-@dataclass_json
-@dataclass
-class MetricValue:
-    key: str
-    value: Union[float, int]
-    value_target: Union[float, int] = None
-
-
-@dataclass_json
-@dataclass
-class MultiMetricValue:
-    key: str
-    value: Mapping[int, Union[float, int]]
-    value_target: Mapping[int, Union[float, int]] = None
-
-
-@dataclass
-class PhasedMetricValue:
-    key: str
-    phase: int
-    value: Union[float, int]
-    value_target: Union[float, int] = None
-
-
-@dataclass_json
-@dataclass
-class Dimension:
-    name: str
-    viz: str  # enum of VizType "bar" "line" "two_value" "percentile" "count"
-    lookup: str  # enum of LookupType "department", "province", "gender", "age", "disability", "military_veteran"
-    values: List[Union[MetricValue, PhasedMetricValue, MultiMetricValue]]
-    data_missing: bool = False
-
-
-@dataclass_json
-@dataclass
-class Metric:
-    name: str
-    metric_type: str  # enum of 'currency', 'count'
-    value: int
-    dimensions: List[Dimension] = None
-    value_target: int = -1
-    implementation_detail: ImplementationDetail = None
-
-
-@dataclass_json
-@dataclass
-class PhasedMetric:
-    name: str
-    metric_type: str  # enum of 'currency', 'count'
-    value: List[int]
-    total_value: int
-    # phases: List[MetricValue]
-    viz: str  # enum of "full" and "compact"
-    dimensions: List[Dimension] = None
-    value_target: List[int] = None
-    total_value_target: int = None
-    implementation_detail: ImplementationDetail = None
-
-
-@dataclass_json
-@dataclass
-class Section:
-    name: str
-    section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
-    metrics: List[Union[Metric, PhasedMetric]]
-    metric_type = str = None  # enum of MetricTypeEnum
-    value: int = None
-    value_target: int = None
-
-
-# @dataclass_json
-# @dataclass
-# class OverviewSection:
-#     name: str
-#     section_type: str  # enum of 'targets', 'budget_allocated', 'job_opportunities', 'jobs_retain', 'livelihoods'
-#     metrics: List[PhasedMetric]
-#     metric_type = str = None # enum of MetricTypeEnum
-#     value: int = None
-#     value_target: int = None
-
-
-@dataclass_json
-@dataclass
-class Beneficiary:
-    name: str
-    department_name: str
-    blurb: str
-    paragraph: str
-    picture_url: str
-    featured: bool
-
-
-@dataclass_json
-@dataclass
-class Phase:
-    phase_num: int  # the phase number, starting at 0
-    month: int  # the month of latest data
-    target_lines: List[int]
-    achievement_lines: List[int]
-    sections: List[Section]
-    implementation_details: List[ImplementationDetail]
-    beneficiaries: List[Beneficiary]
-
-
-@dataclass_json
-@dataclass
-class Department:
-    name: str
-    phases: List[Phase]
-    sheet_name: str
-    lead: str
-    paragraph: str
-
-
-@dataclass_json
-@dataclass
-class PhaseDates:
-    start: str
-    end: str
-
-
-@dataclass_json
-@dataclass
-class Overview:
-    month: int
-    name: str  # Would normally be "Programme Overview"
-    lead: str
-    paragraph: str
-    phase_dates: List[PhaseDates]
-    footer_header: str
-    footer_paragraph: str
-    sections: List[Section]
-
-
-@dataclass_json
-@dataclass
-class Everything:
-    overview: Overview
-    departments: List[Department]
-
-
-implementation_status_to_enum = {
-    "On track": ImplementationStatusEnum.OnTrack.name,
-    "Minor challenges": ImplementationStatusEnum.MinorChallenges.name,
-    "Critical challenges": ImplementationStatusEnum.CriticalChallenges.name,
-}
-
-# leads = dict(
-#     overview="Building a society that works",
-#     DTIC="Piloting new models for re-shoring and expanding global business services",
-#     DBE="Teachers assistants and other support for schools",
-#     DSD="Income support to practitioners and to the implementation of Covid compliance measures",
-#     DOH="Primary Health Care is at the frontline of the battle against Covid-19",
-#     DALRRD="Expanding support to farmers and protecting food value chains",
-#     DSI="Supporting new graduates entering a hostile labour market",
-#     DSAC="To get artists, cultural workers and the sporting sector on the road to recovery",
-#     DoT="Improving access to services and opportunities for people in rural areas",
-#     DPWI="Graduate placements in the professional services",
-#     DEFF="Investing in the environment we live in",
-#     DCOGTA="Mainstreaming and improving labour-intensity in infrastructure delivery",
-# )
-
-# paragraphs = dict(
-#     overview="The COVID-19 pandemic has had a devastating economic impact, threatening the jobs and livelihoods of many South Africans – especially the most vulnerable. The pandemic has exacerbated South Africa’s pre-existing crises of poverty and unemployment.The Presidential Employment Stimulus seeks to confront this impact directly, as part of government’s broader economic recovery agenda. Its aim is to use direct public investment to support employment opportunities – starting right now.",
-#     DTIC="The Global Business Services Sector has an impressive track record. Established in 2006/7 to provide offshore customer service delivery, the sector has built from a low base to achieve an average year-on-year export revenue growth of at least 20% since 2014.",
-#     DBE="A key priority identified in the National Development Plan is the improvement of quality education, skills development, and innovation. One intervention that has seen some experimentation in South Africa, with significant potential to scale nationally, is the use of school assistants to strengthen the learning environment. An important rationale for school assistants is the need to support teachers in the classroom, freeing up time for teaching and providing additional support to learners to improve education outcomes.",
-#     DSD="Livelihoods from the provision of Early Childhood Development services were severely disrupted by the pandemic, with providers facing challenges with re-opening. There are costs associated with doing so safely, and some parents can no longer afford to pay fees as a result of job losses.",
-#     DOH="As the world responds to the COVID-19 pandemic, the critical role that community health workers play to enhance the resilience of the national health care system has been foregrounded. They have been on the frontline of active case-finding through screening and contact tracing.",
-#     DALRRD="The pandemic has illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. ",
-#     DSI="Given a constrained labour market, fewer opportunities will be available to graduates leaving institutions of higher learning in 2021.\n\nThe Department of Science and Innovation will deliver four programmes through its entities designed to minimise this impact, which will together offer 1,900 unemployed graduates an opportunity to earn an income while gaining meaningful work experience.",
-#     DSAC="Under lockdown, there has been no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets – and no victory laps for our sports people. No segment of the creative, cultural and sporting sectors have been untouched",
-#     DoT="Rural roads play a vital role in connecting rural communities to services such as health and education, as well as providing access to markets and economic opportunities. However, rural roads infrastructure remains poor in many areas of South Africa",
-#     DPWI="In addition to structural skills shortages that were experienced prior to the pandemic, the management of facilities and completion of infrastructure projects has been further impacted by restrictions on the movement of people and limitations placed on completing infrastructure projects during the lockdown. As the economy re-opens, additional capacity is required to address the backlog so that service provision can be restored",
-#     DEFF="The work undertaken in environmental, forestry and fishery programmes will touch the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  – and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet.",
-#     DCOGTA="Prioritising infrastructure maintenance Mainstreaming and improving labour-intensity in infrastructure deliveryCommunity access to water and sanitation is all the more important in the context of the crisisTOTAL BUDGETR50MJOB OPPORTUNITIES25,000 Before the crisis, many municipalities were already facing critical funding shortfalls and challenges in the sustainable delivery of basic services and the maintenance of infrastructure. The pandemic has compounded these problems by cancelling or stalling implementation of all non-critical infrastructure projects",
-# )
 
 # NOTE: UPDATE THESE ROWS EACH TIME A NEW MONTH'S DATA IS ADDED
 months = [
@@ -484,7 +38,8 @@ months = [
     "202209",
     "202210",
     "202211",
-    "202212"
+    "202212",
+    "202303"
 ]
 month_names = [
     "Oct '20",
@@ -516,7 +71,7 @@ month_names = [
     "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [19, 16]
+total_achievement_column = [20, 17]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -539,6 +94,7 @@ month_lookup = [
         "jan.1": "202201",
         "feb.1": "202202",
         "march": "202203",
+        "march.1": "202203"
     },
     {
         "oct": "202110",
@@ -556,11 +112,13 @@ month_lookup = [
         "oct.1": "202210",
         "nov.1": "202211",
         "dec.1": "202212",
+        "march": "202303",
     },
 ]
 
 number_of_phases = 2
 phase_dates = [["202010", "202203"], ["202104", "202212"]]
+
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
 
@@ -600,7 +158,6 @@ strip_ws = lambda iterable: [pn.strip() for pn in iterable]
 
 # code imported from notebook
 
-
 def load_sheets(phase1_excel, phase2_excel):
     """Reads in the phase1 and phase2 Excel files and extracts:
     * opportunity_targets_df - complete Targets sheet
@@ -620,9 +177,21 @@ def load_sheets(phase1_excel, phase2_excel):
         pd.read_excel(phase1_excel, sheet_name="Targets", header=None).fillna(0)
     ]
 
+    row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Graduate programmes (Property Management Trading Entity)']
+    assert len(row_nums) == 1, "Error: 'Graduate programmes (Property Management Trading Entity)' is not uniquely identified in Phase 1 Targets"
+    dpwi_target_row = row_nums[0]
+
+    row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Subsistence producer relief fund']
+    assert len(row_nums) == 1, "Error 'Subsistence producer relief fund' is not uniquely identifed in Phase 1 Targets"
+    sprf_phase1_row = row_nums[0]
+
     opportunity_targets_df.append(
         pd.read_excel(phase2_excel, sheet_name="Targets", header=None).fillna(0)
     )
+
+    row_nums = opportunity_targets_df[1].index[opportunity_targets_df[1].iloc[:, 1] == 'Subsistence Producer Relief Fund']
+    assert len(row_nums) == 1, "Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets"
+    sprf_phase2_row = row_nums[0]
 
     opportunity_achievements_df = [
         pd.read_excel(phase1_excel, sheet_name="Trends", header=None).fillna(0)
@@ -668,6 +237,36 @@ def load_sheets(phase1_excel, phase2_excel):
         index_col=0,
     ).dropna()
 
+    department_budget_targets = []
+    total_budgets = []
+    
+    budget_targets = pd.read_excel(
+        phase1_excel,
+        sheet_name="Department Descriptions",
+        usecols=[0,7],
+        skiprows=1,
+        nrows=18,
+        names=["abbrev", "budget"],
+        index_col=0
+    ).fillna(0)
+
+    total_budgets.append(budget_targets.budget.loc["Total"])
+    department_budget_targets.append(budget_targets.drop('Total').to_dict()['budget'])
+
+    budget_targets = pd.read_excel(
+        phase2_excel,
+        sheet_name="Department Descriptions",
+        usecols=[0,4],
+        skiprows=1,
+        nrows=17,
+        names=["abbrev", "budget"],
+        index_col=0
+    ).fillna(0)
+
+    department_budget_targets.append(budget_targets.to_dict()['budget'])
+    # total_budgets.append(budget_targets.budget.loc["Total"])
+    # department_budget_targets.append(budget_targets)
+
     # opportunity_type_df = pd.concat(
     #     [opportunity_targets_df.iloc[2:56, 1], opportunity_targets_df.iloc[2:56, 4]], axis=1
     # ).set_index(1)
@@ -692,16 +291,16 @@ def load_sheets(phase1_excel, phase2_excel):
             sheet_name="Targets",
             skiprows=1,
             usecols=list(range(6)),
-            names=[
+            names = [
                 "department",
                 "programme",
                 "target",
                 "unk",
                 "section",
                 "display_name",
-            ],
-        ).drop("unk", axis=1)
+            ]).drop("unk", axis=1)
     ]
+    assert targets_df[0].section[0] in ["CRE", "LIV", "RET"], "Error: unexpected section name in Phase1 Targets"
 
     targets_df.append(
         pd.read_excel(
@@ -719,6 +318,7 @@ def load_sheets(phase1_excel, phase2_excel):
             ],
         )
     )
+    assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase2"
 
     for i in range(len(targets_df)):
         targets_df[i].department = targets_df[i].department.fillna(method="pad")
@@ -733,6 +333,7 @@ def load_sheets(phase1_excel, phase2_excel):
         )
     ]
 
+
     trends_df.append(
         pd.read_excel(
             phase2_excel,
@@ -746,9 +347,10 @@ def load_sheets(phase1_excel, phase2_excel):
         trends_df[i].columns = [c.lower() for c in trends_df[i].columns]
         trends_df[i].department = trends_df[i].department.fillna(method="pad")
         trends_df[i] = trends_df[i].fillna(0)
-        if i == 1:
-            # TODO: document why we drop the october column from phase2 trends
-            trends_df[i] = trends_df[i].drop("oct", axis=1)
+        # if i == 1:
+        #     # TODO: document why we drop the october column from phase2 trends
+        #     # NOTE: 24 August 2023 - this has become unnecessary because of the new phase2 format
+        #     trends_df[i] = trends_df[i].drop("oct", axis=1)
 
     provincial_df = [
         pd.read_excel(
@@ -775,44 +377,47 @@ def load_sheets(phase1_excel, phase2_excel):
         provincial_df[i].department = provincial_df[i].department.fillna(method="pad")
         provincial_df[i] = provincial_df[i].fillna(0)
 
-    cities_df = [
-        None,
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Cities (beneficiaries)",
-            skiprows=4,
-            usecols=list(range(12)),  # adjust if number of cities changes
-        ),
-    ]
-    for i in range(len(cities_df)):
-        if cities_df[i] is None:
-            continue
-        cities_df[i].columns = [
-            c.lower().replace(" ", "_") for c in cities_df[i].columns
-        ]
-        cities_df[i].department = cities_df[i].department.fillna(method="pad")
-        cities_df[i] = cities_df[i].fillna(0)
+    # cities and universities dimensions have been deprecated - August 2023
+    cities_df = [None] * number_of_phases
+    universities_df = [None] * number_of_phases
+    # cities_df = [
+    #     None,
+    #     pd.read_excel(
+    #         phase2_excel,
+    #         sheet_name="Cities (beneficiaries)",
+    #         skiprows=4,
+    #         usecols=list(range(12)),  # adjust if number of cities changes
+    #     ),
+    # ]
+    # for i in range(len(cities_df)):
+    #     if cities_df[i] is None:
+    #         continue
+    #     cities_df[i].columns = [
+    #         c.lower().replace(" ", "_") for c in cities_df[i].columns
+    #     ]
+    #     cities_df[i].department = cities_df[i].department.fillna(method="pad")
+    #     cities_df[i] = cities_df[i].fillna(0)
 
-    universities_df = [
-        None,
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Universities (beneficiaries)",
-            skiprows=4,
-            usecols=list(range(26)),  # adjust if number of universities changes - this is number of unis + 2
-        ),
-    ]
-    for i in range(len(universities_df)):
-        if universities_df[i] is None:
-            continue
-        universities_df[i].columns = [
-            c.lower().replace(" ", "_").replace("-", "_")
-            for c in universities_df[i].columns
-        ]
-        universities_df[i].department = universities_df[i].department.fillna(
-            method="pad"
-        )
-        universities_df[i] = universities_df[i].fillna(0)
+    # universities_df = [
+    #     None,
+    #     pd.read_excel(
+    #         phase2_excel,
+    #         sheet_name="Universities (beneficiaries)",
+    #         skiprows=4,
+    #         usecols=list(range(26)),  # adjust if number of universities changes - this is number of unis + 2
+    #     ),
+    # ]
+    # for i in range(len(universities_df)):
+    #     if universities_df[i] is None:
+    #         continue
+    #     universities_df[i].columns = [
+    #         c.lower().replace(" ", "_").replace("-", "_")
+    #         for c in universities_df[i].columns
+    #     ]
+    #     universities_df[i].department = universities_df[i].department.fillna(
+    #         method="pad"
+    #     )
+    #     universities_df[i] = universities_df[i].fillna(0)
 
     demographic_df = [
         pd.read_excel(
@@ -863,6 +468,8 @@ def load_sheets(phase1_excel, phase2_excel):
         )
     )
 
+
+
     return (
         opportunity_targets_df,
         opportunity_achievements_df,
@@ -877,6 +484,11 @@ def load_sheets(phase1_excel, phase2_excel):
         universities_df,
         demographic_df,
         achievement_totals_df,
+        dpwi_target_row,
+        sprf_phase1_row,
+        sprf_phase2_row,
+        department_budget_targets,
+        total_budgets
     )
 
 
@@ -954,17 +566,19 @@ def compute_all_data_departments(
     universities_df,
     leads,
     paragraphs,
+    department_budget_targets,
+    disable_time_dimension=True
 ):
     """Compute all_data_departments, which summarises programmes for all departments
     (what will become the department tabs)"""
     all_data_departments = []
 
-    desc_abbrevs = {
-        "DoH": "DoH",
-        "Tourism": "Tourism ",
-        "DPWI": "DPWI ",
-        "DCOGTA": "COGTA",
-    }  # deal with special cases in description lookup
+    # desc_abbrevs = {
+    #     "DoH": "DoH",
+    #     "Tourism": "Tourism ",
+    #     "DPWI": "DPWI ",
+    #     "DCOGTA": "COGTA",
+    # }  # deal with special cases in description lookup
     departments = {}
     for department_name in department_names:
         phases = []
@@ -984,7 +598,7 @@ def compute_all_data_departments(
                         ],
                         metric_type=MetricTypeEnum.currency.name,
                         value_target=department_budget_targets[phase_num][
-                            department_name
+                            department_name_to_abbreviation[department_name]
                         ],
                         value=-1,
                         dimensions=[],
@@ -1070,7 +684,6 @@ def compute_all_data_departments(
                         and (programme_name == "Subsistence producer relief fund" or
                         programme_name == 'Subsistence Producer Relief Fund')
                     ):
-                        print("GOT HERE", programme_name)
                         department_implementation_details.append(imp_detail)
                         continue  # these programmes have no detailed metrics
                     else:
@@ -1081,19 +694,20 @@ def compute_all_data_departments(
                                 (trends_df[phase_num].department == department_name)
                                 & (trends_df[phase_num].programme == programme_name)
                             ]
-                            dimensions.append(
-                                make_dim(
-                                    LookupTypeEnum.province.name,
-                                    VizTypeEnum.bar.name,
-                                    provincial_df[phase_num],
-                                    2,  # skip first two columns
-                                    -1,  # skip last column
-                                    lambda key: province_header_to_abbrev[key],
-                                    department_name,
-                                    programme_name,
-                                    section,
+                            if not disable_time_dimension:
+                                dimensions.append(
+                                    make_dim(
+                                        LookupTypeEnum.province.name,
+                                        VizTypeEnum.bar.name,
+                                        provincial_df[phase_num],
+                                        2,  # skip first two columns
+                                        -1,  # skip last column
+                                        lambda key: province_header_to_abbrev[key],
+                                        department_name,
+                                        programme_name,
+                                        section,
+                                    )
                                 )
-                            )
                             if cities_df[phase_num] is not None:
                                 cities_dim = make_dim(
                                     LookupTypeEnum.city.name,
@@ -1283,7 +897,6 @@ def compute_all_data_departments(
                             #                                 dimensions.append(disabled_dim)
 
                             total_value = int(time_dimension_row.iloc[:, -1].iloc[0])
-
                             target_row = (
                                 targets_df[phase_num]
                                 .fillna(0)
@@ -1332,7 +945,7 @@ def compute_all_data_departments(
             abbrev = department_name_to_abbreviation[department_name]
 
             month_info = description_df.loc[
-                desc_abbrevs.get(abbrev, abbrev), "Data captured until"
+                abbrev, "Data captured until"
             ]
             try:
                 month = month_info.strftime("%Y%m")
@@ -1352,8 +965,8 @@ def compute_all_data_departments(
         departments[department_name] = Department(
             name=department_name,
             sheet_name=abbrev,
-            lead=leads[desc_abbrevs.get(abbrev, abbrev)],
-            paragraph=paragraphs[desc_abbrevs.get(abbrev, abbrev)],
+            lead=leads[abbrev],
+            paragraph=paragraphs[abbrev],
             phases=phases,
         )
 
@@ -1446,7 +1059,8 @@ def compute_breakdowns(all_data_departments: list[Department]):
 
 
 def compute_programmes_by_type(
-    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df
+    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df,
+    dpwi_target_row, sprf_phase1_row, sprf_phase2_row
 ):
     """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
     # what we need
@@ -1467,6 +1081,10 @@ def compute_programmes_by_type(
     # for Overview we want top level info (and OverviewSection) with a total value per phase per section
     #
     # and then for departments we want a dictionary of department_name to MultiMetricValue (2 values, 1 per phase)
+    #
+    # SPECIAL CASE CODE:
+    # Department of Public Works and Infrastructure has a programme in phase 1 that has only got an overall target.
+    # The row that this is found on is dpwi_target_row
     programmes_by_type = {
         SectionEnum.job_opportunities.name: dict(
             [(i, {}) for i in range(number_of_phases)]
@@ -1567,14 +1185,15 @@ def compute_programmes_by_type(
                     department.name == "Agriculture, Land Reform and Rural Development"
                     and section.section_type == SectionEnum.livelihoods.name
                 ):
+                    # SPECIAL CASE CODE
                     # this programme from DALRRD only has an overall target,
                     # not one target per sub-programme
                     if phase.phase_num == 0:
-                        row = 8
+                        dallrd_target_row = sprf_phase1_row
                     elif phase.phase_num == 1:
-                        row = 7
+                        dallrd_target_row = sprf_phase2_row
                     total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[row, 2]
+                        opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
                     )
                 elif (
                     department.name == "Public Works and Infrastructure"
@@ -1582,9 +1201,8 @@ def compute_programmes_by_type(
                 ):
                     # this is a phase 1 programme that just has an overall target
                     total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[47, 2]
+                        opportunity_targets_df[phase.phase_num].iloc[dpwi_target_row, 2]
                     )
-                #         print(department.name, section.name, total_value, total_target_value)
                 programmes_by_type[section.section_type][phase.phase_num][
                     department.sheet_name
                 ] = {
@@ -1649,7 +1267,7 @@ def compute_programmes_by_type(
                 ]
 
     # pp.pprint(programmes_by_type_summarised)
-    pp = PrettyPrinter(indent=2)
+    # pp = PrettyPrinter(indent=2)
     # pp.pprint(programmes_by_type)
     return (
         programmes_by_type,
@@ -1785,6 +1403,8 @@ def compute_overview_metrics(
     programmes_by_type,
     total_youth,
     total_unknown_youth,
+    department_budget_targets,
+    total_budgets
 ):
     # metrics breakdown
 
@@ -1802,8 +1422,10 @@ def compute_overview_metrics(
 
     overview_metrics = []
 
-    phase_1_budget = opportunity_targets_df[0].iloc[2, 6] * 1000
-    phase_2_budget = opportunity_targets_df[1].iloc[2, 6] * 1000
+    phase_1_budget = sum(department_budget_targets[0].values())
+    phase_2_budget = sum(department_budget_targets[1].values())
+    
+    assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
 
     total_budget = PhasedMetric(
         name="Total budget allocated",

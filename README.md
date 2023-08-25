@@ -39,15 +39,27 @@ General rules for the spreadsheet:
 
 **NOTE:** Read this if you are running the data update code.
 
-Data is processed by the Jupyter Lab notebook in `notebooks/p-e_to_json.ipynb`. A cell near the top of the notebook refers to the files that are processed.
+Data is processed by the python script in `python-src/update_all_data.py`. The previously used Jupyter Notebook is deprecated. The Python script has these
+parameters:
 
-As new files are released they are downloaded from Google Drive and put in the `notebooks` folder, the cell with input data names is updated and the whole notebook is re-run. This updates the `data/all_data.json` file. When the update is done, and everything is commited to git and pushed it updates the website. For new months, edit the rows starting with `months` in [python-src/presidential\_employment.py].
+```bash
+usage: update_all_data.py [-h] [--phase1_excel PHASE1_EXCEL] [--phase2_excel PHASE2_EXCEL] [--output_dir OUTPUT_DIR] [--output_filename OUTPUT_FILENAME]
 
-Commits made to the `data-updates` branch are visible at <https://data-updates--presidency-employment-stimulus.netlify.app/>.
+options:
+  -h, --help            show this help message and exit
+  --phase1_excel PHASE1_EXCEL
+  --phase2_excel PHASE2_EXCEL
+  --output_dir OUTPUT_DIR
+  --output_filename OUTPUT_FILENAME
+```
+
+The default output filename is `data/all_data.json` file. 
+
+Commits made to the `data-updates` branch are visible at <https://data-updates--presidency-employment-stimulus.netlify.app/> and the `staging` branch updates to <https://staging--presidency-employment-stimulus.netlify.app/>.
 
 ## Adding months
 
-The list of valid months and corresponding columns in the Trends sheet is in `python-src/presidential_employment.py` lines 342-383.
+The list of valid months and corresponding columns in the Trends sheet is in `python-src/presidential\_employment/__init__.py` lines 14-117.
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
