@@ -24,7 +24,7 @@ def add_or_replace(departments, department):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--phase1_excel', default="notebooks/Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
-    parser.add_argument('--phase2_excel', default='notebooks/Spreadsheet 2 - To March 2023 2 (1).xlsx')
+    parser.add_argument('--phase2_excel', default='notebooks/Spreadsheet 2 - To March 2023 2.xlsx')
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -167,8 +167,6 @@ if __name__ == '__main__':
         departments=all_data_departments
     )
 
-    pp = PrettyPrinter(indent=2)
-    pp.pprint(programmes_by_type_summarised)
     # Save final data
 
     # to work around the fact that data from pandas sometimes appears as numpy types, this uses a
