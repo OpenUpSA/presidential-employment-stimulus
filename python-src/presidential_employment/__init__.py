@@ -258,12 +258,13 @@ def load_sheets(phase1_excel, phase2_excel):
         sheet_name="Department Descriptions",
         usecols=[0,4],
         skiprows=1,
-        nrows=17,
+        nrows=19,
         names=["abbrev", "budget"],
         index_col=0
     ).fillna(0)
 
-    department_budget_targets.append(budget_targets.to_dict()['budget'])
+    total_budgets.append(budget_targets.budget.loc["Total"])
+    department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
     # total_budgets.append(budget_targets.budget.loc["Total"])
     # department_budget_targets.append(budget_targets)
 
@@ -1426,6 +1427,7 @@ def compute_overview_metrics(
     phase_2_budget = sum(department_budget_targets[1].values()) * 1000
     
     assert total_budgets[0] * 1000 == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0] * 1000} vs {phase_1_budget}"
+    assert total_budgets[1] * 1000 == phase_2_budget, f"Budget in Phase 2 spreadsheet is not the same as computed budget: {total_budgets[1] * 1000} vs {phase_2_budget}"
 
     total_budget = PhasedMetric(
         name="Total budget allocated",
