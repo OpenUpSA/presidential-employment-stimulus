@@ -58,20 +58,12 @@ if __name__ == '__main__':
     leads = description_df.lead.to_dict()
     paragraphs = description_df.paragraph.to_dict()
 
-    # At this point the notebook prints the targets_df
-    pd.set_option('display.max_rows', None)
-    targets_df[0]
-
-    targets_df[0][targets_df[0].section == 'CRE'].target.sum()
-
-    print(trends_df[1])
-
     ## Compute per department data structures
     all_data_departments = compute_all_data_departments(phase1_departments, phase2_departments, 
                                                     implementation_status_df, demographic_df, description_df,
                                                     targets_df, trends_df, department_names, provincial_df,
                                                     cities_df, universities_df, leads, paragraphs,
-                                                    department_budget_targets, total_budgets)
+                                                    department_budget_targets)
 
     ## Compute breakdown of all programmes by demographic dimensions   
     (total_male, 

@@ -422,72 +422,72 @@
                   {
                     "key": "EC",
                     "value": [
-                      0,
-                      0
+                      108308,
+                      64680
                     ],
                     "value_target": null
                   },
                   {
                     "key": "FS",
                     "value": [
-                      0,
-                      0
+                      37717,
+                      28594
                     ],
                     "value_target": null
                   },
                   {
                     "key": "GP",
                     "value": [
-                      0,
-                      0
+                      102633,
+                      77954
                     ],
                     "value_target": null
                   },
                   {
                     "key": "KZN",
                     "value": [
-                      0,
-                      0
+                      155886,
+                      123957
                     ],
                     "value_target": null
                   },
                   {
                     "key": "LP",
                     "value": [
-                      0,
-                      0
+                      93029,
+                      68554
                     ],
                     "value_target": null
                   },
                   {
                     "key": "MP",
                     "value": [
-                      0,
-                      0
+                      53559,
+                      32955
                     ],
                     "value_target": null
                   },
                   {
                     "key": "NC",
                     "value": [
-                      0,
-                      0
+                      16493,
+                      14839
                     ],
                     "value_target": null
                   },
                   {
                     "key": "NW",
                     "value": [
-                      0,
-                      0
+                      47938,
+                      26533
                     ],
                     "value_target": null
                   },
                   {
                     "key": "WC",
                     "value": [
-                      0,
-                      0
+                      47766,
+                      54774
                     ],
                     "value_target": null
                   }
@@ -720,72 +720,72 @@
                   {
                     "key": "EC",
                     "value": [
-                      0,
-                      0
+                      30819,
+                      25099
                     ],
                     "value_target": null
                   },
                   {
                     "key": "FS",
                     "value": [
-                      0,
-                      0
+                      13395,
+                      6078
                     ],
                     "value_target": null
                   },
                   {
                     "key": "GP",
                     "value": [
-                      0,
-                      0
+                      31923,
+                      15184
                     ],
                     "value_target": null
                   },
                   {
                     "key": "KZN",
                     "value": [
-                      0,
-                      0
+                      56493,
+                      36481
                     ],
                     "value_target": null
                   },
                   {
                     "key": "LP",
                     "value": [
-                      0,
-                      0
+                      31698,
+                      21781
                     ],
                     "value_target": null
                   },
                   {
                     "key": "MP",
                     "value": [
-                      0,
-                      0
+                      23881,
+                      15059
                     ],
                     "value_target": null
                   },
                   {
                     "key": "NC",
                     "value": [
-                      0,
-                      0
+                      6826,
+                      3824
                     ],
                     "value_target": null
                   },
                   {
                     "key": "NW",
                     "value": [
-                      0,
-                      0
+                      16694,
+                      12181
                     ],
                     "value_target": null
                   },
                   {
                     "key": "WC",
                     "value": [
-                      0,
-                      0
+                      12288,
+                      4773
                     ],
                     "value_target": null
                   }
@@ -1007,7 +1007,7 @@
                   {
                     "key": "EC",
                     "value": [
-                      0,
+                      5504,
                       0
                     ],
                     "value_target": null
@@ -1015,7 +1015,7 @@
                   {
                     "key": "FS",
                     "value": [
-                      0,
+                      1680,
                       0
                     ],
                     "value_target": null
@@ -1023,7 +1023,7 @@
                   {
                     "key": "GP",
                     "value": [
-                      0,
+                      6477,
                       0
                     ],
                     "value_target": null
@@ -1031,7 +1031,7 @@
                   {
                     "key": "KZN",
                     "value": [
-                      0,
+                      4292,
                       0
                     ],
                     "value_target": null
@@ -1039,7 +1039,7 @@
                   {
                     "key": "LP",
                     "value": [
-                      0,
+                      2120,
                       0
                     ],
                     "value_target": null
@@ -1047,7 +1047,7 @@
                   {
                     "key": "MP",
                     "value": [
-                      0,
+                      1106,
                       0
                     ],
                     "value_target": null
@@ -1055,7 +1055,7 @@
                   {
                     "key": "NC",
                     "value": [
-                      0,
+                      4359,
                       0
                     ],
                     "value_target": null
@@ -1063,7 +1063,7 @@
                   {
                     "key": "NW",
                     "value": [
-                      0,
+                      2461,
                       0
                     ],
                     "value_target": null
@@ -1071,7 +1071,7 @@
                   {
                     "key": "WC",
                     "value": [
-                      0,
+                      7310,
                       0
                     ],
                     "value_target": null
@@ -1142,6 +1142,59 @@
                   "metric_type": "count",
                   "value": 1464,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 155,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 69,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 140,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 261,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 162,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 112,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 113,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 24,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 20,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -1294,6 +1347,59 @@
                   "value": 19877,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 7369,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 2274,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 4925,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 18474,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 7471,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 8036,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3206,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1280,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1274,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -1436,6 +1542,59 @@
                   "metric_type": "count",
                   "value": 11071,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2347,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 370,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 828,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 5934,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2621,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 2621,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 673,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 222,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 222,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -1580,6 +1739,59 @@
                   "value": 12835,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 6924,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1307,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2429,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 10941,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 5702,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 4089,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3076,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 642,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 427,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -1723,6 +1935,59 @@
                   "value": 8493,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 3234,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 997,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 732,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 3699,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2031,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1584,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3360,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1367,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 721,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -1865,6 +2130,59 @@
                   "metric_type": "count",
                   "value": 3873,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 1296,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 662,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 503,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 2242,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 989,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1128,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1571,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 694,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 301,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -2071,6 +2389,59 @@
                   "value": 61027,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 13140,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1951,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2711,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 19894,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 10910,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 6374,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 4112,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1088,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 847,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2198,6 +2569,59 @@
                   "metric_type": "count",
                   "value": 12388,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2029,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 140,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 264,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4218,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2126,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 3230,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 308,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 64,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 9,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -2327,6 +2751,59 @@
                   "value": 15910,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 4046,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 517,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 601,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4618,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2546,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1535,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1662,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 264,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 121,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2455,6 +2932,59 @@
                   "value": 10602,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2599,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 422,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 161,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1804,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1196,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 772,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 2269,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 881,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 498,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2582,6 +3112,59 @@
                   "metric_type": "count",
                   "value": 4979,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 572,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 554,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 101,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 996,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 505,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 640,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 329,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 82,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -2774,6 +3357,59 @@
                   "value": 318496,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 57324,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 19047,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 45696,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 73953,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 49592,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 26109,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 21836,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 7690,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 18235,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -2920,6 +3556,59 @@
                   "metric_type": "count",
                   "value": 273571,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 40316,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 15135,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 49663,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 64117,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 38429,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 23946,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 19123,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 6403,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 19495,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -3082,6 +3771,59 @@
                   "metric_type": "count",
                   "value": 31114,
                   "dimensions": [
+                    {
+                      "name": "Jobs saved by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 5118,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1482,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 5059,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 3567,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1919,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 926,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 2322,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 4307,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 6414,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Jobs saved over time",
                       "viz": "line",
@@ -3255,6 +3997,59 @@
                   "value": 248722,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 36023,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 14839,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 39964,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 57205,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 37051,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 21577,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 16732,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 6200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 19131,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -3386,6 +4181,59 @@
                   "metric_type": "count",
                   "value": 137575,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 14238,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 6053,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 22849,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 47004,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 17500,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 6479,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3670,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 3122,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 16660,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -3583,6 +4431,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -3672,6 +4527,13 @@
                   "metric_type": "count",
                   "value": 0,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -3770,6 +4632,13 @@
                   "metric_type": "count",
                   "value": 5560,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -3900,6 +4769,59 @@
                   "metric_type": "count",
                   "value": 7572,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 3200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4372,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -4104,6 +5026,59 @@
                   "value": 5974,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1533,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 1200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1198,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1200,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 843,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4283,6 +5258,13 @@
                   "value": 215,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4398,6 +5380,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4496,6 +5485,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4529,6 +5525,13 @@
                   "metric_type": "count",
                   "value": 0,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -4564,6 +5567,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4597,6 +5607,59 @@
                   "metric_type": "count",
                   "value": 252,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 32,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 183,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 29,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -4745,6 +5808,59 @@
                   "value": 3073,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 969,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 29,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 469,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 173,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 134,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 225,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 31,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1043,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -4891,6 +6007,59 @@
                   "metric_type": "count",
                   "value": 1230,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 102,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1128,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -5039,6 +6208,59 @@
                   "value": 4555,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 638,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 100,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 345,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 167,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 834,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 637,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 434,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1400,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5185,6 +6407,59 @@
                   "metric_type": "count",
                   "value": 11373,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2903,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 702,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 734,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 2503,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1169,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 703,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 230,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 745,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1684,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -5333,6 +6608,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5366,6 +6648,59 @@
                   "metric_type": "count",
                   "value": 6793,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 886,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 937,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 252,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1546,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 712,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 637,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 50,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 349,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1424,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -5514,6 +6849,59 @@
                   "value": 1812,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 323,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 245,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 187,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 165,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 279,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 221,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 180,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 167,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 45,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5661,6 +7049,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5759,6 +7154,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5793,6 +7195,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -5826,6 +7235,59 @@
                   "metric_type": "count",
                   "value": 3266,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 407,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 97,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 561,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1029,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 346,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 403,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 185,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 3,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 235,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -5974,6 +7436,59 @@
                   "value": 2559,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 418,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 17,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 470,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 905,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 76,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 108,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 217,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 12,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 336,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6121,6 +7636,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6219,6 +7741,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6252,6 +7781,59 @@
                   "metric_type": "count",
                   "value": 1052,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 272,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 45,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 277,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 211,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 9,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -6449,6 +8031,59 @@
                   "value": 5170,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 1337,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1500,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 2333,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6628,6 +8263,59 @@
                   "value": 176,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 3,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 173,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -6770,6 +8458,59 @@
                   "metric_type": "count",
                   "value": 161,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 20,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 12,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 45,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 8,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 46,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -6914,6 +8655,59 @@
                   "value": 515,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 165,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 102,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 48,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 47,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 99,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 16,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 18,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 20,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -7056,6 +8850,59 @@
                   "metric_type": "count",
                   "value": 358,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 47,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 54,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 72,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 14,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 38,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 45,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 16,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 9,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 59,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -7200,6 +9047,59 @@
                   "value": 109,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 18,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 44,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 9,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 10,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 2,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 12,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -7343,6 +9243,59 @@
                   "value": 136,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 71,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 43,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 13,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -7485,6 +9438,59 @@
                   "metric_type": "count",
                   "value": 426,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 55,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 359,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 9,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -7699,6 +9705,59 @@
                   "value": 934,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 7,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 6,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 54,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 15,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 5,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 3,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 6,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 13,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -7845,6 +9904,59 @@
                   "metric_type": "count",
                   "value": 310,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 310,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -7993,6 +10105,59 @@
                   "value": 191,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 20,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 86,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 39,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 10,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -8139,6 +10304,13 @@
                   "metric_type": "count",
                   "value": 141,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -8326,6 +10498,59 @@
                   "value": 622,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 622,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -8458,6 +10683,59 @@
                   "value": 944,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 89,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 22,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 359,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 201,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 138,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 40,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 25,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 69,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -8589,6 +10867,59 @@
                   "metric_type": "count",
                   "value": 267,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 68,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 62,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 86,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 43,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 2,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 2,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -8786,6 +11117,13 @@
                   "value": 0,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -8827,6 +11165,59 @@
                   "metric_type": "count",
                   "value": 59077,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 5739,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 6018,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 10314,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 11799,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 9741,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 5150,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 2741,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1542,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 6033,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -8976,6 +11367,59 @@
                   "metric_type": "count",
                   "value": 3099,
                   "dimensions": [
+                    {
+                      "name": "Jobs saved by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 271,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 316,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 233,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 98,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 112,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 40,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 6,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Jobs saved over time",
                       "viz": "line",
@@ -9166,6 +11610,59 @@
                   "value": 2300,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 356,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 129,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 355,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 510,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 329,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 194,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 160,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 62,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 205,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9345,6 +11842,13 @@
                   "value": 1467,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9474,6 +11978,59 @@
                   "metric_type": "count",
                   "value": 152,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 18,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 31,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 23,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 19,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 10,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 5,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 14,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 10,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 21,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -9622,6 +12179,13 @@
                   "value": 899,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9752,6 +12316,59 @@
                   "value": 599,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 100,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 30,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 17,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -9881,6 +12498,59 @@
                   "metric_type": "count",
                   "value": 265,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 27,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 23,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 26,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 27,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 22,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 27,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 26,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 27,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 55,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -10029,6 +12699,13 @@
                   "value": 456,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10159,6 +12836,13 @@
                   "value": 146,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10288,6 +12972,59 @@
                   "metric_type": "count",
                   "value": 153,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 153,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -10444,6 +13181,59 @@
                   "value": 19122,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2277,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1575,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 9414,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 2369,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2413,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1019,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1866,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 866,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 2190,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10590,6 +13380,59 @@
                   "metric_type": "count",
                   "value": 8156,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 1633,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 192,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2778,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1035,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 730,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 254,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 201,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 213,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1120,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -10746,6 +13589,59 @@
                   "value": 2428,
                   "dimensions": [
                     {
+                      "name": "Jobs saved by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 115,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 187,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 796,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 253,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 103,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 68,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 99,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 46,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 777,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Jobs saved over time",
                       "viz": "line",
                       "lookup": "time",
@@ -10893,6 +13789,59 @@
                   "value": 675,
                   "dimensions": [
                     {
+                      "name": "Jobs saved by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 11,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 306,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 239,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 119,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Jobs saved over time",
                       "viz": "line",
                       "lookup": "time",
@@ -11039,6 +13988,13 @@
                   "metric_type": "count",
                   "value": 5236,
                   "dimensions": [
+                    {
+                      "name": "Jobs saved by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Jobs saved over time",
                       "viz": "line",
@@ -11212,6 +14168,59 @@
                   "value": 54,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 54,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -11343,6 +14352,59 @@
                   "metric_type": "count",
                   "value": 811,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 811,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 0,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -11484,6 +14546,59 @@
                   "value": 21988,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 1486,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1741,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 6640,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 2799,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 2420,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1903,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 2403,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 950,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1646,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -11615,6 +14730,59 @@
                   "metric_type": "count",
                   "value": 9798,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 733,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 636,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 3152,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 1506,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 1641,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 513,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 75,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 178,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 1364,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -11748,6 +14916,59 @@
                   "value": 1347,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 122,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 12,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 1019,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 98,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 5,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 26,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 64,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -11880,6 +15101,59 @@
                   "value": 494,
                   "dimensions": [
                     {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 57,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 50,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 125,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 85,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 33,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 22,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 60,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 17,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 45,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12011,6 +15285,59 @@
                   "metric_type": "count",
                   "value": 1927,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 315,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 55,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 410,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 463,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 399,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 44,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 92,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 52,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 97,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -12201,6 +15528,59 @@
                   "value": 639,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 160,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 97,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 78,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 115,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 189,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12347,6 +15727,59 @@
                   "metric_type": "count",
                   "value": 302,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 2,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 40,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 235,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 6,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 11,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -12551,6 +15984,59 @@
                   "value": 222,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 26,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 11,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 45,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 28,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 23,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 18,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 11,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 4,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 11,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -12729,6 +16215,59 @@
                   "metric_type": "count",
                   "value": 10499,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2737,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 4640,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 3122,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -12933,6 +16472,59 @@
                   "value": 65033,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 8487,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 4224,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 2982,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 6417,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 6805,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 1786,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3061,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 2906,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 7568,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -13128,6 +16720,59 @@
                   "metric_type": "count",
                   "value": 10245,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 169,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 883,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 430,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 0,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 630,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 303,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 5480,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 897,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 261,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",
@@ -13340,6 +16985,13 @@
                   "value": 7652,
                   "dimensions": [
                     {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
                       "name": "Employed over time",
                       "viz": "line",
                       "lookup": "time",
@@ -13477,6 +17129,13 @@
                   "metric_type": "count",
                   "value": 2005,
                   "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [],
+                      "data_missing": true
+                    },
                     {
                       "name": "Livelihoods supported over time",
                       "viz": "line",
@@ -13656,6 +17315,59 @@
                   "metric_type": "count",
                   "value": 47234,
                   "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 5121,
+                          "value_target": null
+                        },
+                        {
+                          "key": "FS",
+                          "value": 1676,
+                          "value_target": null
+                        },
+                        {
+                          "key": "GP",
+                          "value": 7689,
+                          "value_target": null
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 10216,
+                          "value_target": null
+                        },
+                        {
+                          "key": "LP",
+                          "value": 6704,
+                          "value_target": null
+                        },
+                        {
+                          "key": "MP",
+                          "value": 2859,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NW",
+                          "value": 1669,
+                          "value_target": null
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1344,
+                          "value_target": null
+                        },
+                        {
+                          "key": "WC",
+                          "value": 7889,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
+                    },
                     {
                       "name": "Employed over time",
                       "viz": "line",

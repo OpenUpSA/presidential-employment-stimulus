@@ -567,8 +567,7 @@ def compute_all_data_departments(
     universities_df,
     leads,
     paragraphs,
-    department_budget_targets,
-    disable_time_dimension=True
+    department_budget_targets
 ):
     """Compute all_data_departments, which summarises programmes for all departments
     (what will become the department tabs)"""
@@ -695,20 +694,19 @@ def compute_all_data_departments(
                                 (trends_df[phase_num].department == department_name)
                                 & (trends_df[phase_num].programme == programme_name)
                             ]
-                            if not disable_time_dimension:
-                                dimensions.append(
-                                    make_dim(
-                                        LookupTypeEnum.province.name,
-                                        VizTypeEnum.bar.name,
-                                        provincial_df[phase_num],
-                                        2,  # skip first two columns
-                                        -1,  # skip last column
-                                        lambda key: province_header_to_abbrev[key],
-                                        department_name,
-                                        programme_name,
-                                        section,
-                                    )
+                            dimensions.append(
+                                make_dim(
+                                    LookupTypeEnum.province.name,
+                                    VizTypeEnum.bar.name,
+                                    provincial_df[phase_num],
+                                    2,  # skip first two columns
+                                    -1,  # skip last column
+                                    lambda key: province_header_to_abbrev[key],
+                                    department_name,
+                                    programme_name,
+                                    section,
                                 )
+                            )
                             if cities_df[phase_num] is not None:
                                 cities_dim = make_dim(
                                     LookupTypeEnum.city.name,
