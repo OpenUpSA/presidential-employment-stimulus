@@ -50,13 +50,13 @@ export class VizHeader {
             if(this._value == -1) {
                 $featureValue.find('.feature-value__amount').text(formatter(this._target_value));
                 if(this._target_value == 0) {
-                    $featureValue.find('.feature-value__value-description').text('Carried from prior year');
+                    $featureValue.find('.feature-value__value-description').text('Carried over from prior year');
                 }
             } else {
                 $featureValue.find('.feature-value__amount').text(formatter(this._value));
 
                 if(this._target_value == 0) {
-                    $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value) + ' (Carried from prior year)');
+                    $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value) + ' (Carried over from prior year)');
                 } else if(this._target_value != -1) {
                     $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value));
                 }
