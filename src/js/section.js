@@ -34,8 +34,8 @@ export class Section {
 
     if(this._phase_legend) {
       $header = $overviewHeaderTemplate.clone(true,true);
-      $header.find('.phase-legend__date').text("Up to Mar '23");
-      $header.find('.phase-legend__date').first().text("Up to Mar '22");
+      // $header.find('.phase-legend__date').text("Up to Mar '23");
+      // $header.find('.phase-legend__date').first().text("Up to Mar '22");
       $header.css('margin-top', 0);
     }
 

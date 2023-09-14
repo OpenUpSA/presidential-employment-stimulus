@@ -39,7 +39,7 @@
             "implementation_detail": null
           },
           {
-            "name": "Total beneficiaries assisted",
+            "name": "Total opportunities",
             "metric_type": "count",
             "value": [
               865568,
