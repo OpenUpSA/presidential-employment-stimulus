@@ -98,7 +98,7 @@
         "section_type": "overview",
         "metrics": [
           {
-            "name": "Jobs created",
+            "name": "Job opportunities created",
             "metric_type": "job_opportunities",
             "value": {
               "0": 678507,

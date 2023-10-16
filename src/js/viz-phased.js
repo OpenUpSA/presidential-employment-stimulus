@@ -51,7 +51,12 @@ export class VizPhased {
         
         let $phasedHeader = $phasedHeaderTemplate.clone(true, true);
         $phasedHeader.find('.phased-header__title').text(this._title);
-        $phasedHeader.find('.phased-header__value').text(this._total_value ? formatter(this._total_value) : '');   
+        $phasedHeader.find('.phased-header__value').text(this._total_value ? formatter(this._total_value) : '');
+
+        if($phasedHeader.find('.phased-header__title').text() == 'Total opportunities') {
+            $phasedHeader.find('.phased-header__content').attr('style', 'flex-wrap: wrap;');
+            $phasedHeader.find('.phased-header__content').append('<div style="flex: 2, order: 3; font-size: 0.9em; color: #666; margin-top: 5px;">1.27m direct beneficiaries - because some worked across both periods</div>');
+        } 
         
 
         // Hack for SONA 2023 - Remove ASAP
