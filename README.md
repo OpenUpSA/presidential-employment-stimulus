@@ -99,7 +99,7 @@ Dependencies:
 
 ```yaml
 python>=3.9
-dataclasses-json>=0.5.6
+dataclasses-json>=0.5.7
 pandas>=1.4.1
 numpy>=1.21.5
 ```
