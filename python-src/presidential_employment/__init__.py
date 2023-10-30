@@ -588,6 +588,7 @@ def compute_all_data_departments(
             elif phase_num == 1 and (not department_name in phase2_departments):
                 continue
             department_implementation_details = []
+            # print("PHASE", phase_num, trends_df[phase_num].loc[trends_df[phase_num].department == department_name].iloc[:, -1])
             target_section = Section(
                 name=section_titles[SectionEnum.targets.name],
                 section_type=SectionEnum.targets.name,
