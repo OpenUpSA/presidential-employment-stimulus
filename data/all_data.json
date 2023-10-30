@@ -1,9 +1,9 @@
 {
   "overview": {
-    "month": "202303",
+    "month": "202208",
     "name": "Programme overview",
     "lead": "Building a society that works",
-    "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, creatives in the gig economy and youth enterprises. At present, funding for the Presidential Employment Stimulus is confirmed to March 2024.",
+    "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, the creative sector and youth enterprises. At present, funding for the Presidential Employment Stimulus is confirmed to March 2024.",
     "phase_dates": [
       [
         "202010",
@@ -15,7 +15,7 @@
       ]
     ],
     "footer_header": "Disclaimer",
-    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0",
+    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting', this is corrected in the cumulative number of opportunities reported. ",
     "sections": [
       {
         "name": "Programme Achievements",
@@ -25,7 +25,7 @@
             "name": "Total budget allocated",
             "metric_type": "currency",
             "value": [
-              23588178000,
+              23588178000.0,
               9000000000.0
             ],
             "total_value": 32588178000.0,
@@ -60,9 +60,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6543511519906997,
-              "1": 0.6557206658171655
+              "1": 0.655720665817164
             },
-            "total_value": 0.6550359089039326,
+            "total_value": 0.6550359089039319,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -74,9 +74,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8390331276224151,
-              "1": 0.8215926512865128
+              "1": 0.8215926512865359
             },
-            "total_value": 0.830312889454464,
+            "total_value": 0.8303128894544756,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -1118,7 +1118,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 920000000,
+                  "value_target": 1750000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -3304,7 +3304,7 @@
             {
               "programme_name": "Subsistence Producer Relief Fund",
               "status": "OnTrack",
-              "detail": "The beneficiaries under Phase II include 51,559 farmers who received repeat vouchers in this phase. DALRRD has overcome a range of challenges in the programme. At one stage, the programme was suspended because of abuse of the voucher scheme by certain private sector suppliers, who were taking a cut of the voucher value. The scheme was re-instated from 15 February 2022 and the voucher validity period was extended. To expedite verification of applicants, a partnership was entered into with the Solidarity Fund, to allow sharing of information. The volume demand for input supplies generated by the scheme is also supporting an expanded supply response in under-serviced areas."
+              "detail": "DALRRD has overcome a range of challenges in the programme. At one stage, the programme was suspended because of abuse of the voucher scheme by certain private sector suppliers, who were taking a cut of the voucher value. The scheme was re-instated from 15 February 2022 and the voucher validity period was extended. To expedite verification of applicants, a partnership was entered into with the Solidarity Fund, to allow sharing of information. The volume demand for input supplies generated by the scheme is also supporting an expanded supply response in under-serviced areas."
             }
           ],
           "beneficiaries": []
@@ -3332,7 +3332,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 430000000,
+                  "value_target": 13000000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -3724,7 +3724,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.5900000000000001,
+                          "value": 0.59,
                           "value_target": null
                         }
                       ],
@@ -4406,7 +4406,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 108000000,
+                  "value_target": 200000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -4521,49 +4521,7 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "Broadband Access Fund ",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Broadband Access Fund ",
-                    "status": "CriticalChallenges",
-                    "detail": "Although running well behind schedule, the detailed technical design work for pilot implementation of the Broadband Access Fund has been completed and it will be implemented within Broadband Infraco during FY 2024."
-                  }
-                }
-              ],
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -4608,7 +4566,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 758571000,
+                  "value_target": 334000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -5185,7 +5143,7 @@
                   "implementation_detail": {
                     "programme_name": "MISA: Innovation in Waste Management",
                     "status": "OnTrack",
-                    "detail": "The programme ran in 16 municipalities in Eastern Cape and KZN, supporting 60 SMMEs and 7,623 work opportunities, to March 2022. It then continued in Mpumalanga, Limpopo and Gauteng, in 7 municipalities, supporting 31 SMEs. MISA has since initiated work in all provinces, in an additional 22 municipalities, supporting a further 24 SMEs. Its impacts on diversion of waste from landfill and on community engagement in recycling has led to increasing demand for participation from municipalities, leading COGTA to augment the programme from its core budgets."
+                    "detail": "The programme started in 16 municipalities in Eastern Cape and KZN, supporting 60 SMMEs and 7,623 work opportunities, to March 2022. It then continued in Mpumalanga, Limpopo and Gauteng, in 7 municipalities, supporting 31 SMEs. MISA has since initiated work in all provinces, in an additional 22 municipalities, supporting a further 24 SMEs. Its impacts on diversion of waste from landfill and on community engagement in recycling has led to increasing demand for participation from municipalities, leading COGTA to augment the programme from its core budgets."
                   }
                 }
               ],
@@ -5213,7 +5171,7 @@
       ],
       "sheet_name": "DCOGTA",
       "lead": "New approaches to solid waste management",
-      "paragraph": "Through the Municipal Infrastructure Support Agency (MISA), COGTA has used the PES to experiment with new ways to tackle the challenge of solid waste. This started with a target of 25 municipalities, 85% of which are rural. But demand from municiplaities has seen outreach expand to over 44. The programme supports municipalities to identify collection, sorting and recycling options that divert waste from landfill and explore revenue generation opportunities for community enterprises, by looking at the entire waste value chain, with a focus on community awareness and the circular economy. The programme has also provided support to small enterprises. MISA also continues to support the application of labour-intensive methods in infrastructure in 15 municipalities. Performance in this ifnancial year was from rollover budgets from the prior year."
+      "paragraph": "Through the Municipal Infrastructure Support Agency (MISA), COGTA has used the PES to experiment with new ways to tackle the challenge of solid waste. This started with a target of 25 municipalities, 85% of which are rural. But demand from municiplaities has seen outreach expand to over 44. The programme supports municipalities to identify collection, sorting and recycling options that divert waste from landfill and explore revenue generation opportunities for community enterprises, by looking at the entire waste value chain, with a focus on community awareness and the circular economy. The programme has also provided support to small enterprises. MISA also continues to support the application of labour-intensive methods in infrastructure in 15 municipalities. Performance in this financial year was from rollover budgets from the prior year."
     },
     {
       "name": "Employment and Labour",
@@ -5373,47 +5331,6 @@
                     "status": "OnTrack",
                     "detail": "DEL recruited counselors to support workseekers at its Labour Centres, augmenting its support capacity with strong outcomes."
                   }
-                },
-                {
-                  "name": "PYEI/Pathway Management Network",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "PYEI/Pathway Management Network",
-                    "status": "OnTrack",
-                    "detail": "Harambee has been appointed as the eco-system manager for the National Pathway Management Network. The Innovation Fund has approved Implementing Partners and implementation is in process. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention. As this is a catalytic programme, it does not report on direct job creation targets."
-                  }
                 }
               ],
               "value": null,
@@ -5460,7 +5377,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 13000000000,
+                  "value_target": 2301000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -7129,7 +7046,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 111999000,
+                  "value_target": 758571000.0,
                   "implementation_detail": null
                 },
                 {
@@ -7985,7 +7902,7 @@
         }
       ],
       "sheet_name": "DHET",
-      "lead": "A 'pay for performance' model for digital skills - and graduate placements in Universities",
+      "lead": "Graduate placements in Universities and a 'pay for performance' model for digital skills. ",
       "paragraph": "DHET is supporting a graduate placement programme in 21 universities - because even for graduates, lack of work experience creates barriers to labour market entry. These placements are for work that allows graduates to apply their skills in relation to their field of study, in order to directly enhance relevant work experience. University departments have been invited to create meaningful opportunities for graduates and in so doing increase their research and academic support capacity.  In addition, in support of the Presidential Youth Employment Intervention (PYEI), and in partnership with the National Skills Fund, DHET is testing a 'pay for performance' model for digital skills training, in which placement in jobs at the end of the training is a critical performance factor. "
     },
     {
@@ -8238,7 +8155,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 190000000,
+                  "value_target": 158880000.0,
                   "implementation_detail": null
                 },
                 {
@@ -9680,7 +9597,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 680000000,
+                  "value_target": 111999000.0,
                   "implementation_detail": null
                 },
                 {
@@ -11072,7 +10989,7 @@
       ],
       "sheet_name": "DSI",
       "lead": "Science skills support communities",
-      "paragraph": "Through DSI, a range of innovative citizen science programmes have been supported. In the Duzi-uMgeni River Catchment, Enviro-Champs have been empowering communities to monitor \u2013 and improve - water quality, building extensive stakeholder partnerships in the process. The Water Research Commission has placed graduates in public and private water entities and has supported 'Manzipreneurs' to start enterprises. The CSIR has placed science graduates in experiential training with the aim of improving the graduation rate for science, technoogy and engineering students and the HSRC supported Health Promotion Agents in communities, in the context of the pandemic. Budgets from the last financial year were rolled over in this one."
+      "paragraph": "Through DSI, a range of innovative citizen science programmes have been supported. In the Duzi-uMgeni River Catchment, Enviro-Champs have been empowering communities to monitor \u2013 and improve - water quality, building extensive stakeholder partnerships in the process. The Water Research Commission has placed graduates in public and private water entities and has supported 'Manzipreneurs' to start enterprises. The CSIR has placed science graduates in experiential training with the aim of improving the graduation rate for science, technoogy and engineering students and the HSRC supported Health Promotion Agents in communities, in the context of the pandemic. Budgets from the initial allocation were rolled over to the following financial year."
     },
     {
       "name": "Social Development",
@@ -11092,7 +11009,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 258000000,
+                  "value_target": 916728000.0,
                   "implementation_detail": null
                 },
                 {
@@ -11817,7 +11734,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 916728000,
+                  "value_target": 680000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -14320,7 +14237,7 @@
                         },
                         {
                           "key": "Female",
-                          "value": 0.8113207547169812,
+                          "value": 0.8113207547,
                           "value_target": null
                         }
                       ],
@@ -14333,7 +14250,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.20754716981132076,
+                          "value": 0.2075471698,
                           "value_target": null
                         }
                       ],
@@ -14500,7 +14417,7 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.8853267570900123,
+                          "value": 0.8853267571,
                           "value_target": null
                         },
                         {
@@ -14518,7 +14435,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.12946979038224415,
+                          "value": 0.1294697904,
                           "value_target": null
                         }
                       ],
@@ -14529,7 +14446,7 @@
                   "implementation_detail": {
                     "programme_name": "Hip Hop Museum",
                     "status": "OnTrack",
-                    "detail": "The Hip Hop Museum in Johannesburg is hot and happening after its relaunch in February 2022 - with job creation for researchers, construction workers and designers supported through the PES."
+                    "detail": "The Hip Hop Museum in Johannesburg was relaunched in February 2022 - with job creation for researchers, construction workers and designers supported through the PES."
                   }
                 }
               ],
@@ -15503,7 +15420,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 2301000000,
+                  "value_target": 108000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -16191,7 +16108,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 1750000000,
+                  "value_target": 920000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -16648,7 +16565,7 @@
                   "implementation_detail": {
                     "programme_name": "Social Employment Fund",
                     "status": "OnTrack",
-                    "detail": "The Industrial Development Corporation has appointed 28 Strategic Implementing Partners (SIPs), with good sectoral and provincial coverage. Work has ramped up."
+                    "detail": "The Industrial Development Corporation appointed 28 Strategic Implementing Partners (SIPs) in this period, with good sectoral and provincial coverage."
                   }
                 }
               ],
@@ -16676,7 +16593,7 @@
       ],
       "sheet_name": "DTIC",
       "lead": "Social Employment - work for the common good",
-      "paragraph": "President Cyril Ramaphosa has explained the rationale for the Social Employment strategy of the PES: \u2018We are working on the premise that there is no shortage of work to be done to address the many social problems in our society. The aim is to support the considerable creativity, initiative and institutional capabilities that exist in the wider society to engage people in work that serves the common good.\u2019 The social employment strategy supports civil society organisations to create employment by building on the work they already do, to enable community-driven solutions to local problems, through supporting 16 hours of work per week. This includes a wide array of activities, including care, Early Childhood Development,combating gender-based violence, community safety, placemaking, river cleaning, support to creative initiatives and much more. This strategy forms part of the dtic's support to the Social and Solidarity Economy. The Industrial Development Corporation is the fund manager. \nIn Phase One, the dtic also created opportunities in the call centre industry through its Global Business Services (GBS) incentive programme, and exceeded its target. "
+      "paragraph": "President Cyril Ramaphosa has explained the rationale for the Social Employment strategy of the PES: \n\u2018We are working on the premise that there is no shortage of work to be done to address the many social problems in our society. The aim is to support the considerable creativity, initiative and institutional capabilities that exist in the wider society to engage people in work that serves the common good.\u2019 \nThe social employment strategy supports civil society organisations to create employment by building on the work they already do, to enable community-driven solutions to local problems, through supporting 16 hours of work per week. This includes a wide array of activities, including care, Early Childhood Development,combating gender-based violence, community safety, placemaking, river cleaning, support to creative initiatives and much more. This strategy forms part of the dtic's support to the Social and Solidarity Economy. The Industrial Development Corporation is the fund manager. \nIn Phase One, the dtic also created opportunities in the call centre industry through its Global Business Services (GBS) incentive programme, and exceeded its target. "
     },
     {
       "name": "Transport",
@@ -16696,7 +16613,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 841000000,
+                  "value_target": 630000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -16960,7 +16877,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 200000000,
+                  "value_target": 430000000.0,
                   "implementation_detail": null
                 },
                 {
