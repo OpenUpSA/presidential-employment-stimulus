@@ -31,7 +31,7 @@ export class Phases {
 
         $phaseMenuItem.attr('data-w-tab','Phase ' + (phaseIndex + 1));
 
-        $phaseMenuItem.find('.phase-tab__text').text(phaseIndex == 0 ? 'Completed' : 'Current');
+        $phaseMenuItem.find('.phase-tab__text').text(phaseIndex == 0 ? 'October 2020 - March 2022' : 'April 2022 - March 2023');
 
         $phaseMenuItem.removeClass(SELECTED_PHASE_MENU_ITEM_CLASS);
 

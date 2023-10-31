@@ -46,13 +46,20 @@ export class VizHeader {
         if(!this._hide_values) {
         
             let formatter = FORMATTERS[this._metric_type];
-            
 
             if(this._value == -1) {
                 $featureValue.find('.feature-value__amount').text(formatter(this._target_value));
+                if(this._target_value == 0) {
+                    $featureValue.find('.feature-value__value-description').text('Carried over from prior year');
+                }
             } else {
                 $featureValue.find('.feature-value__amount').text(formatter(this._value));
-                $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value));
+
+                if(this._target_value == 0) {
+                    $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value) + ' (Carried over from prior year)');
+                } else if(this._target_value != -1) {
+                    $featureValue.find('.feature-value__value-description').text('TARGET: ' + formatter(this._target_value));
+                }
             }
 
         } else {
@@ -104,24 +111,25 @@ export class VizHeader {
         
 
         if(this._show_progress && !isNaN(this._value / this._target_value)) {
-        
-            let $progressContainer = $featureValue.find('.feature-value__header_chart-wrapper');
-            $progressContainer.empty();
 
-            if (this._metric_type == 'currency') {
-                $progressContainer.remove();
+            if(this._target_value == 0) {
+                $featureValue.find('.feature-value__header_chart-wrapper').hide();
             } else {
+                let $progressContainer = $featureValue.find('.feature-value__header_chart-wrapper');
+                $progressContainer.empty();
 
-                
+                if (this._metric_type == 'currency') {
+                    $progressContainer.remove();
+                } else {
 
-                new VizProgress(
-                    $progressContainer[0],
-                    this._value / this._target_value,
-                    this._phase
-                );
-
-                
-            } 
+                    new VizProgress(
+                        $progressContainer[0],
+                        this._value / this._target_value,
+                        this._phase
+                    );
+                    
+                } 
+            }
         } else {
             $featureValue.find('.feature-value__header_chart-wrapper').hide();
         }

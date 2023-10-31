@@ -78,7 +78,10 @@
     "202209": "Sep '22",
     "202210": "Oct '22",
     "202211": "Nov '22",
-    "202212": "Dec '22"
+    "202212": "Dec '22",
+    "202301": "Jan '23",
+    "202302": "Feb '23",
+    "202303": "Mar '23"
 
   },
   "icon": {
@@ -86,6 +89,7 @@
     "Total budget allocated": "budget",
     "Beneficiaries": "beneficiaries",
     "Total beneficiaries assisted": "beneficiaries",
+    "Total opportunities": "jobs-created",
     "Beneficiaries by province": "beneficiaries",
     "Female beneficiaries": "female",
     "Total female beneficiaries": "female",
@@ -93,6 +97,7 @@
     "Youth beneficiaries": "youth",
     "job_opportunities": "jobs-created",
     "Jobs created": "jobs-created",
+    "Job opportunities created": "jobs-created",
     "livelihoods": "support",
     "Livelihoods supported": "jobs-retained",
     "Jobs retained": "jobs-retained",
