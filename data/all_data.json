@@ -12,6 +12,10 @@
       [
         "202104",
         "202212"
+      ],
+      [
+        "202301",
+        "202312"
       ]
     ],
     "footer_header": "Disclaimer",
@@ -33,13 +37,14 @@
             "dimensions": [],
             "value_target": [
               null,
+              null,
               null
             ],
             "total_value_target": null,
             "implementation_detail": null
           },
           {
-            "name": "Total opportunities",
+            "name": "Total beneficiaries assisted",
             "metric_type": "count",
             "value": [
               865568,
@@ -60,7 +65,8 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6543511519906997,
-              "1": 0.655720665817164
+              "1": 0.655720665817164,
+              "2": 0.0
             },
             "total_value": 0.6550359089039319,
             "viz": "compact",
@@ -74,7 +80,8 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8390331276224151,
-              "1": 0.8215926512865359
+              "1": 0.8215926512865359,
+              "2": 0.0
             },
             "total_value": 0.8303128894544756,
             "viz": "compact",
@@ -86,11 +93,13 @@
         ],
         "value": {
           "0": 865568,
-          "1": 656655
+          "1": 656655,
+          "2": 0
         },
         "value_target": {
           "0": 1051491.0,
-          "1": 624959.0
+          "1": 624959.0,
+          "2": 0
         }
       },
       {
@@ -98,11 +107,12 @@
         "section_type": "overview",
         "metrics": [
           {
-            "name": "Job opportunities created",
+            "name": "Jobs created",
             "metric_type": "job_opportunities",
             "value": {
               "0": 678507,
-              "1": 516195
+              "1": 516195,
+              "2": 0
             },
             "total_value": 1194702,
             "viz": "full",
@@ -116,33 +126,39 @@
                     "key": "DBE",
                     "value": {
                       "0": 592067,
-                      "1": 386297
+                      "1": 386297,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 587000.0,
-                      "1": 405000.0
+                      "1": 405000.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DTIC",
                     "value": {
                       "0": 10499,
-                      "1": 65033
+                      "1": 65033,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 8000.0,
-                      "1": 50000.0
+                      "1": 50000.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DWYPD",
                     "value": {
                       "0": 7652,
-                      "1": 47234
+                      "1": 47234,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 0,
-                      "1": 35000.0
+                      "1": 35000.0,
+                      "2": 0
                     }
                   },
                   {
@@ -158,11 +174,13 @@
                     "key": "DCOGTA",
                     "value": {
                       "0": 13132,
-                      "1": 5974
+                      "1": 5974,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 36818.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
@@ -186,43 +204,51 @@
                   {
                     "key": "NT",
                     "value": {
-                      "1": 5170
+                      "1": 5170,
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 35000.0
+                      "1": 35000.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
                       "0": 4137,
-                      "1": 865
+                      "1": 865,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 4377.0,
-                      "1": 893.0
+                      "1": 893.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSI",
                     "value": {
                       "0": 1576,
-                      "1": 1833
+                      "1": 1833,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 1900.0,
-                      "1": 1650.0
+                      "1": 1650.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
                       "0": 0,
-                      "1": 2300
+                      "1": 2300,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 500.0,
-                      "1": 1880.0
+                      "1": 1880.0,
+                      "2": 0
                     }
                   },
                   {
@@ -238,29 +264,35 @@
                     "key": "Tourism",
                     "value": {
                       "0": 941,
-                      "1": 222
+                      "1": 222,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 1064.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DHET",
                     "value": {
-                      "1": 1052
+                      "1": 1052,
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 7000.0
+                      "1": 7000.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DEL",
                     "value": {
-                      "1": 215
+                      "1": 215,
+                      "2": 0
                     },
                     "value_target": {
-                      "1": 250.0
+                      "1": 250.0,
+                      "2": 0
                     }
                   }
                 ],
@@ -363,52 +395,52 @@
                   },
                   {
                     "key": "202204",
-                    "value": 913223,
+                    "value": 919660,
                     "value_target": null
                   },
                   {
                     "key": "202205",
-                    "value": 940869,
+                    "value": 947306,
                     "value_target": null
                   },
                   {
                     "key": "202206",
-                    "value": 947280,
+                    "value": 953717,
                     "value_target": null
                   },
                   {
                     "key": "202207",
-                    "value": 972549,
+                    "value": 978986,
                     "value_target": null
                   },
                   {
                     "key": "202208",
-                    "value": 1001668,
+                    "value": 1008105,
                     "value_target": null
                   },
                   {
                     "key": "202209",
-                    "value": 1001668,
+                    "value": 1008105,
                     "value_target": null
                   },
                   {
                     "key": "202210",
-                    "value": 1001668,
+                    "value": 1008105,
                     "value_target": null
                   },
                   {
                     "key": "202211",
-                    "value": 1010963,
+                    "value": 1017400,
                     "value_target": null
                   },
                   {
                     "key": "202212",
-                    "value": 1031774,
+                    "value": 1038211,
                     "value_target": null
                   },
                   {
                     "key": "202303",
-                    "value": 516195,
+                    "value": 1025953,
                     "value_target": null
                   }
                 ],
@@ -497,7 +529,8 @@
             ],
             "value_target": {
               "0": 744858.0,
-              "1": 536673.0
+              "1": 536673.0,
+              "2": 0
             },
             "total_value_target": 1281531.0,
             "implementation_detail": null
@@ -507,7 +540,8 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 144509,
-              "1": 140460
+              "1": 140460,
+              "2": 0
             },
             "total_value": 284969,
             "viz": "full",
@@ -521,44 +555,52 @@
                     "key": "DALRRD",
                     "value": {
                       "0": 56149,
-                      "1": 104906
+                      "1": 104906,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 74626,
-                      "1": 67378
+                      "1": 67378,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
                       "0": 27278,
-                      "1": 35554
+                      "1": 35554,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 15714.0,
-                      "1": 20908.0
+                      "1": 20908.0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
                       "0": 59077,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 151551.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DWYPD",
                     "value": {
                       "0": 2005,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 2000.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   }
                 ],
@@ -706,7 +748,7 @@
                   },
                   {
                     "key": "202303",
-                    "value": 140460,
+                    "value": 280920,
                     "value_target": null
                   }
                 ],
@@ -795,7 +837,8 @@
             ],
             "value_target": {
               "0": 243891.0,
-              "1": 88286.0
+              "1": 88286.0,
+              "2": 0
             },
             "total_value_target": 332177.0,
             "implementation_detail": null
@@ -805,7 +848,8 @@
             "metric_type": "jobs_retain",
             "value": {
               "0": 42552,
-              "1": 0
+              "1": 0,
+              "2": 0
             },
             "total_value": 42552,
             "viz": "full",
@@ -819,33 +863,39 @@
                     "key": "DBE",
                     "value": {
                       "0": 31114,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 44933.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSAC",
                     "value": {
                       "0": 8339,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 14000.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   },
                   {
                     "key": "DSD",
                     "value": {
                       "0": 3099,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     },
                     "value_target": {
                       "0": 3809.0,
-                      "1": 0
+                      "1": 0,
+                      "2": 0
                     }
                   }
                 ],
@@ -1082,7 +1132,8 @@
             ],
             "value_target": {
               "0": 62742.0,
-              "1": 0
+              "1": 0,
+              "2": 0
             },
             "total_value_target": 62742.0,
             "implementation_detail": null
@@ -3308,6 +3359,67 @@
             }
           ],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 26395.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [
+            {
+              "programme_name": "Subsistence Producer Relief Fund",
+              "status": "OnTrack",
+              "detail": "DALRRD has continued to use roll-over funds to issue vouchers. They are also working with provincial departments and community-based organisation to provide a range of forms of complementary support to farmers, with area-based support groups."
+            }
+          ],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DALRRD",
@@ -4382,6 +4494,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 6199000000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 245489.0,
+                  "dimensions": [],
+                  "value_target": 250000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DBE",
@@ -4490,6 +4657,61 @@
         },
         {
           "phase_num": 1,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 0.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
           "month": "202303",
           "target_lines": [],
           "achievement_lines": [],
@@ -5167,6 +5389,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 0.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DCOGTA",
@@ -5333,6 +5610,61 @@
                   }
                 }
               ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 304934000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 0.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -7899,6 +8231,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 194500000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 1790.0,
+                  "dimensions": [],
+                  "value_target": 7000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DHET",
@@ -8111,6 +8498,61 @@
                   }
                 }
               ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 800000000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 20592.0,
+                  "dimensions": [],
+                  "value_target": 33000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -10985,6 +11427,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 0.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DSI",
@@ -11690,6 +12187,61 @@
                   }
                 }
               ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 2300.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -15396,6 +15948,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 440000000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 39571.0,
+                  "dimensions": [],
+                  "value_target": 37800.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DSAC",
@@ -16084,6 +16691,61 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 0.0,
+                  "dimensions": [],
+                  "value_target": 0.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "Tourism",
@@ -16569,6 +17231,61 @@
                   }
                 }
               ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 861566000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 90834.0,
+                  "dimensions": [],
+                  "value_target": 35000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -17396,6 +18113,61 @@
                   }
                 }
               ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202303",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 200000000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 13656.0,
+                  "dimensions": [],
+                  "value_target": 20000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [],
               "value": null,
               "value_target": null
             },
