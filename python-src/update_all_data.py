@@ -116,20 +116,12 @@ if __name__ == '__main__':
         programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value_target"]
         == opportunity_targets_df[1].iloc[6, 7]
     ), f'{SectionEnum.livelihoods.name} total mismatch: phase 2 target {programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value_target"]} vs {opportunity_targets_df[1].iloc[6, 7]}'
-    # debug
-    pd.set_option('display.max_rows', None)
-    pd.set_option('display.max_columns', None)
-    pp = PrettyPrinter(indent=4)
-    print("______a______")
-    pp.pprint(programmes_by_type[SectionEnum.livelihoods.name][0])
-    pp.pprint(achievement_totals_df[0].loc["Livelihoods supported","total"])
+
     # check achievements for phase 1 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value"] == achievement_totals_df[0].loc["Livelihoods supported","total"]
     ), f'{SectionEnum.job_opportunities.name} total mismatch - phase 1 {programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value"]} vs {achievement_totals_df[0].loc["Livelihoods supported"]}'
-    print("______b______")
-    pp.pprint(programmes_by_type[SectionEnum.livelihoods.name][1]) # not picking up row for Subsistence Producer Relief Fund
-    #pp.pprint(programmes_by_type)
+
     # check achievements for phase 2 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value"] == achievement_totals_df[1].loc["Livelihoods supported","total"]

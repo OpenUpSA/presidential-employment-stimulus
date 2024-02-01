@@ -179,7 +179,6 @@ def load_sheets(phase1_excel, phase2_excel):
         pd.read_excel(phase1_excel, sheet_name="Targets", header=None).fillna(0)
     ]
 
-    # debug: check these rows
     row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Subsistence Producer Relief Fund']
     assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
     sprf_phase1_row = row_nums[0]
@@ -346,6 +345,7 @@ def load_sheets(phase1_excel, phase2_excel):
         trends_df[i].columns = [c.lower() for c in trends_df[i].columns]
         trends_df[i].department = trends_df[i].department.ffill()
         trends_df[i] = trends_df[i].fillna(0)
+
         # if i == 1:
         #     # TODO: document why we drop the october column from phase2 trends
         #     # NOTE: 24 August 2023 - this has become unnecessary because of the new phase2 format
@@ -670,265 +670,253 @@ def compute_all_data_departments(
                             ],
                             detail=imp_status_row.detail.iloc[0].strip(),
                         )
-                    if (
-                        department_name == "Public Works and Infrastructure"
-                        and programme_name
-                        == "Graduate programmes (Property Management Trading Entity)"
-                    ) or (
-                        department_name
-                        == "Agriculture, Land Reform and Rural Development"
-                        and (programme_name == "Subsistence Producer Relief Fund" or
-                        programme_name == 'Subsistence Producer Relief Fund')
-                    ):
-                        department_implementation_details.append(imp_detail)
-                        continue  # these programmes have no detailed metrics
-                    else:
-                        try:
-                            # collect detailed metrics for programme
-                            dimensions = []
-                            time_dimension_row = trends_df[phase_num].loc[
-                                (trends_df[phase_num].department == department_name)
-                                & (trends_df[phase_num].programme == programme_name)
-                            ]
-                            dimensions.append(
-                                make_dim(
-                                    LookupTypeEnum.province.name,
-                                    VizTypeEnum.bar.name,
-                                    provincial_df[phase_num],
-                                    2,  # skip first two columns
-                                    -1,  # skip last column
-                                    lambda key: province_header_to_abbrev[key],
-                                    department_name,
-                                    programme_name,
-                                    section,
-                                )
+
+                    try:
+                        # collect detailed metrics for programme
+                        dimensions = []
+                        time_dimension_row = trends_df[phase_num].loc[
+                            (trends_df[phase_num].department == department_name)
+                            & (trends_df[phase_num].programme == programme_name)
+                        ]
+                        dimensions.append(
+                            make_dim(
+                                LookupTypeEnum.province.name,
+                                VizTypeEnum.bar.name,
+                                provincial_df[phase_num],
+                                2,  # skip first two columns
+                                -1,  # skip last column
+                                lambda key: province_header_to_abbrev[key],
+                                department_name,
+                                programme_name,
+                                section,
                             )
-                            if cities_df[phase_num] is not None:
-                                cities_dim = make_dim(
-                                    LookupTypeEnum.city.name,
-                                    VizTypeEnum.bar.name,
-                                    cities_df[phase_num],
-                                    2,
-                                    -1,
-                                    lambda key: city_header_to_abbrev[key],
-                                    department_name,
-                                    programme_name,
-                                    section,
-                                )
-                                dimensions.append(cities_dim)
-                            if universities_df[phase_num] is not None:
-                                universities_dim = make_dim(
-                                    LookupTypeEnum.university.name,
-                                    VizTypeEnum.bar.name,
-                                    universities_df[phase_num],
-                                    2,
-                                    -1,
-                                    lambda key: university_header_to_abbrev[key],
-                                    department_name,
-                                    programme_name,
-                                    section,
-                                )
-                                dimensions.append(universities_dim)
-                            dimensions.append(
-                                make_dim(
-                                    LookupTypeEnum.time.name,
-                                    VizTypeEnum.line.name,
-                                    trends_df[phase_num],
-                                    2,
-                                    None,
-                                    lambda key: month_lookup[phase_num][key],
-                                    department_name,
-                                    programme_name,
-                                    section,
-                                )
+                        )
+                        if cities_df[phase_num] is not None:
+                            cities_dim = make_dim(
+                                LookupTypeEnum.city.name,
+                                VizTypeEnum.bar.name,
+                                cities_df[phase_num],
+                                2,
+                                -1,
+                                lambda key: city_header_to_abbrev[key],
+                                department_name,
+                                programme_name,
+                                section,
                             )
-                            demographic_row = demographic_df[phase_num].loc[
+                            dimensions.append(cities_dim)
+                        if universities_df[phase_num] is not None:
+                            universities_dim = make_dim(
+                                LookupTypeEnum.university.name,
+                                VizTypeEnum.bar.name,
+                                universities_df[phase_num],
+                                2,
+                                -1,
+                                lambda key: university_header_to_abbrev[key],
+                                department_name,
+                                programme_name,
+                                section,
+                            )
+                            dimensions.append(universities_dim)
+                        dimensions.append(
+                            make_dim(
+                                LookupTypeEnum.time.name,
+                                VizTypeEnum.line.name,
+                                trends_df[phase_num],
+                                2,
+                                None,
+                                lambda key: month_lookup[phase_num][key],
+                                department_name,
+                                programme_name,
+                                section,
+                            )
+                        )
+                        demographic_row = demographic_df[phase_num].loc[
+                            (
+                                demographic_df[phase_num].department
+                                == department_name
+                            )
+                            & (
+                                demographic_df[phase_num].programme
+                                == programme_name
+                            )
+                        ]
+
+                        values = []
+                        if len(demographic_row) == 0:
+                            data_missing = True
+                        else:
+                            male_perc = demographic_row.loc[:, "perc_male"].iloc[0]
+                            female_perc = demographic_row.loc[
+                                :, "perc_female"
+                            ].iloc[0]
+                            if male_perc + female_perc == 0:
+                                data_missing = True
+                            else:
+                                values = [
+                                    MetricValue(
+                                        key=GenderEnum.Male.name,
+                                        value=male_perc,
+                                    ),
+                                    MetricValue(
+                                        key=GenderEnum.Female.name,
+                                        value=female_perc,
+                                    ),
+                                ]
+                                if male_perc + female_perc != 1.0:
+                                    print(
+                                        "M/F PERC PROBLEM:",
+                                        department_name,
+                                        programme_name,
+                                        phase_num,
+                                        male_perc,
+                                        female_perc,
+                                        male_perc + female_perc,
+                                    )
+                                data_missing = False
+
+                        gender_dim = Dimension(
+                            name=metric_titles[section_abbrev_to_name[section]][
+                                MetricTypeEnum.count.name + "_gender"
+                            ],
+                            lookup=LookupTypeEnum.gender.name,
+                            viz=VizTypeEnum.two_value.name,
+                            values=values,
+                            data_missing=data_missing,
+                        )
+                        dimensions.append(gender_dim)
+
+                        data_missing=True
+                        values=[]
+                        if len(demographic_row) != 0 and "perc_repeat" in demographic_row:
+                            repeat_perc = demographic_row.loc[:, "perc_repeat"].iloc[0]
+                            new_perc = demographic_row.loc[:, "perc_new"].iloc[0]
+                            if (repeat_perc + new_perc) != 0:
+
+                                values = [
+                                    MetricValue(
+                                        key=RepeatEnum.Repeat.name,
+                                        value=repeat_perc,
+                                    ),
+                                    MetricValue(
+                                        key=RepeatEnum.New.name,
+                                        value=new_perc
+                                    )
+                                ]
+                                data_missing=False
+
+                                # TODO: figure out when this should be added. Should it be in:
+                                #       1. all of phase 2
+                                #       2. only programmes from DALLRD where this is relevant
+                                # current option is (2)
+                                repeat_dim = Dimension(
+                                    name=metric_titles[section_abbrev_to_name[section]][
+                                        MetricTypeEnum.count.name + '_repeat'
+                                    ],
+                                    lookup=LookupTypeEnum.repeat.name,
+                                    viz=VizTypeEnum.two_value.name,
+                                    values=values,
+                                    data_missing=data_missing
+                                )
+                                dimensions.append(repeat_dim)
+
+                        values = []
+                        if len(demographic_row) == 0:
+                            data_missing = True
+                        else:
+                            age_perc = demographic_row.loc[:, "perc_youth"].iloc[0]
+                            if age_perc == 0:
+                                data_missing = True
+                                values = []
+                            else:
+                                values = [
+                                    MetricValue(
+                                        key="18-35",
+                                        value=age_perc,
+                                    )
+                                ]
+                                data_missing = False
+                        youth_dim = Dimension(
+                            name=metric_titles[section_abbrev_to_name[section]][
+                                MetricTypeEnum.count.name + "_age"
+                            ],
+                            lookup=LookupTypeEnum.age.name,
+                            viz=VizTypeEnum.percentile.name,
+                            values=values,
+                            data_missing=data_missing,
+                        )
+                        dimensions.append(youth_dim)
+
+                        #                         # TODO: Rationalise this - disabled and military vets share a lot of code
+                        #                         if phase_num == 0:
+                        #                             disabled = demographic_row.no_disability.iloc[0]
+                        #                             if disabled > 0:
+                        #                                 disabled_dim = Dimension(
+                        #                                     name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_disabled'],
+                        #                                     lookup=LookupTypeEnum.disabled.name,
+                        #                                     viz=VizTypeEnum.count.name,
+                        #                                     values=[MetricValue(key='disabled', value=disabled)]
+                        #                                 )
+                        #                                 dimensions.append(disabled_dim)
+
+                        #                             # military_vets = demographic_row.no_military_veterans.iloc[0]
+                        #                             # if military_vets > 0:
+                        #                             #     mv_dim = Dimension(
+                        #                             #         name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_vets'],
+                        #                             #         lookup=LookupTypeEnum.vets.name,
+                        #                             #         viz=VizTypeEnum.count.name,
+                        #                             #         values=[MetricValue(key='vets', value=military_vets)]
+                        #                             #     )
+                        #                             #     dimensions.append(mv_dim)
+                        #                         elif phase_num == 1:
+                        #                             perc_disabled = demographic_row.perc_disability.iloc[0]
+                        #                             perc_not_disabled = 1 - perc_disabled
+                        #                             if perc_disabled > 0:
+                        #                                 disabled_dim = Dimension(
+                        #                                     name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_disabled'],
+                        #                                     lookup=LookupTypeEnum.disabled.name,
+                        #                                     viz=VizTypeEnum.two_value.name,
+                        #                                     values=[MetricValue(key='disabled', value=perc_disabled), MetricValue(key='not disabled', value=perc_not_disabled)]
+                        #                                 )
+                        #                                 dimensions.append(disabled_dim)
+
+                        total_value = int(time_dimension_row.iloc[:, -1].iloc[0])
+                        target_row = (
+                            targets_df[phase_num]
+                            .fillna(0)
+                            .loc[
                                 (
-                                    demographic_df[phase_num].department
+                                    targets_df[phase_num].department
                                     == department_name
                                 )
                                 & (
-                                    demographic_df[phase_num].programme
+                                    targets_df[phase_num].programme
                                     == programme_name
                                 )
                             ]
-
-                            values = []
-                            if len(demographic_row) == 0:
-                                data_missing = True
-                            else:
-                                male_perc = demographic_row.loc[:, "perc_male"].iloc[0]
-                                female_perc = demographic_row.loc[
-                                    :, "perc_female"
-                                ].iloc[0]
-                                if male_perc + female_perc == 0:
-                                    data_missing = True
-                                else:
-                                    values = [
-                                        MetricValue(
-                                            key=GenderEnum.Male.name,
-                                            value=male_perc,
-                                        ),
-                                        MetricValue(
-                                            key=GenderEnum.Female.name,
-                                            value=female_perc,
-                                        ),
-                                    ]
-                                    if male_perc + female_perc != 1.0:
-                                        print(
-                                            "M/F PERC PROBLEM:",
-                                            department_name,
-                                            programme_name,
-                                            phase_num,
-                                            male_perc,
-                                            female_perc,
-                                            male_perc + female_perc,
-                                        )
-                                    data_missing = False
-
-                            gender_dim = Dimension(
-                                name=metric_titles[section_abbrev_to_name[section]][
-                                    MetricTypeEnum.count.name + "_gender"
-                                ],
-                                lookup=LookupTypeEnum.gender.name,
-                                viz=VizTypeEnum.two_value.name,
-                                values=values,
-                                data_missing=data_missing,
-                            )
-                            dimensions.append(gender_dim)
-
-                            data_missing=True
-                            values=[]
-                            if len(demographic_row) != 0 and "perc_repeat" in demographic_row:
-                                repeat_perc = demographic_row.loc[:, "perc_repeat"].iloc[0]
-                                new_perc = demographic_row.loc[:, "perc_new"].iloc[0]
-                                if (repeat_perc + new_perc) != 0:
-
-                                    values = [
-                                        MetricValue(
-                                            key=RepeatEnum.Repeat.name,
-                                            value=repeat_perc,
-                                        ),
-                                        MetricValue(
-                                            key=RepeatEnum.New.name,
-                                            value=new_perc
-                                        )
-                                    ]
-                                    data_missing=False
-
-                                    # TODO: figure out when this should be added. Should it be in:
-                                    #       1. all of phase 2
-                                    #       2. only programmes from DALLRD where this is relevant
-                                    # current option is (2)
-                                    repeat_dim = Dimension(
-                                        name=metric_titles[section_abbrev_to_name[section]][
-                                            MetricTypeEnum.count.name + '_repeat'
-                                        ],
-                                        lookup=LookupTypeEnum.repeat.name,
-                                        viz=VizTypeEnum.two_value.name,
-                                        values=values,
-                                        data_missing=data_missing
-                                    )
-                                    dimensions.append(repeat_dim)
-
-                            values = []
-                            if len(demographic_row) == 0:
-                                data_missing = True
-                            else:
-                                age_perc = demographic_row.loc[:, "perc_youth"].iloc[0]
-                                if age_perc == 0:
-                                    data_missing = True
-                                    values = []
-                                else:
-                                    values = [
-                                        MetricValue(
-                                            key="18-35",
-                                            value=age_perc,
-                                        )
-                                    ]
-                                    data_missing = False
-                            youth_dim = Dimension(
-                                name=metric_titles[section_abbrev_to_name[section]][
-                                    MetricTypeEnum.count.name + "_age"
-                                ],
-                                lookup=LookupTypeEnum.age.name,
-                                viz=VizTypeEnum.percentile.name,
-                                values=values,
-                                data_missing=data_missing,
-                            )
-                            dimensions.append(youth_dim)
-
-                            #                         # TODO: Rationalise this - disabled and military vets share a lot of code
-                            #                         if phase_num == 0:
-                            #                             disabled = demographic_row.no_disability.iloc[0]
-                            #                             if disabled > 0:
-                            #                                 disabled_dim = Dimension(
-                            #                                     name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_disabled'],
-                            #                                     lookup=LookupTypeEnum.disabled.name,
-                            #                                     viz=VizTypeEnum.count.name,
-                            #                                     values=[MetricValue(key='disabled', value=disabled)]
-                            #                                 )
-                            #                                 dimensions.append(disabled_dim)
-
-                            #                             # military_vets = demographic_row.no_military_veterans.iloc[0]
-                            #                             # if military_vets > 0:
-                            #                             #     mv_dim = Dimension(
-                            #                             #         name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_vets'],
-                            #                             #         lookup=LookupTypeEnum.vets.name,
-                            #                             #         viz=VizTypeEnum.count.name,
-                            #                             #         values=[MetricValue(key='vets', value=military_vets)]
-                            #                             #     )
-                            #                             #     dimensions.append(mv_dim)
-                            #                         elif phase_num == 1:
-                            #                             perc_disabled = demographic_row.perc_disability.iloc[0]
-                            #                             perc_not_disabled = 1 - perc_disabled
-                            #                             if perc_disabled > 0:
-                            #                                 disabled_dim = Dimension(
-                            #                                     name=metric_titles[section_abbrev_to_name[section]][MetricTypeEnum.count.name + '_disabled'],
-                            #                                     lookup=LookupTypeEnum.disabled.name,
-                            #                                     viz=VizTypeEnum.two_value.name,
-                            #                                     values=[MetricValue(key='disabled', value=perc_disabled), MetricValue(key='not disabled', value=perc_not_disabled)]
-                            #                                 )
-                            #                                 dimensions.append(disabled_dim)
-
-                            total_value = int(time_dimension_row.iloc[:, -1].iloc[0])
-                            target_row = (
-                                targets_df[phase_num]
-                                .fillna(0)
-                                .loc[
-                                    (
-                                        targets_df[phase_num].department
-                                        == department_name
-                                    )
-                                    & (
-                                        targets_df[phase_num].programme
-                                        == programme_name
-                                    )
-                                ]
-                                .target
-                            )
-                            if len(target_row) == 0:
-                                # e.g. Graduate verifiers programme doesn't have a target
-                                target = -1
-                            else:
-                                target = target_row.iloc[0]
-                            programme_metric = Metric(
-                                name=programme_name,
-                                metric_type=MetricTypeEnum.count.name,
-                                value=total_value,
-                                value_target=target,
-                                dimensions=dimensions,
-                                implementation_detail=imp_detail,
-                            )
-                            metrics.append(programme_metric)
-                        except IndexError as e:
-                            print(
-                                "IndexError (likely typo) on",
-                                section,
-                                department_name,
-                                programme_name,
-                                str(e),
-                            )
+                            .target
+                        )
+                        if len(target_row) == 0:
+                            # e.g. Graduate verifiers programme doesn't have a target
+                            target = -1
+                        else:
+                            target = target_row.iloc[0]
+                        programme_metric = Metric(
+                            name=programme_name,
+                            metric_type=MetricTypeEnum.count.name,
+                            value=total_value,
+                            value_target=target,
+                            dimensions=dimensions,
+                            implementation_detail=imp_detail,
+                        )
+                        metrics.append(programme_metric)
+                    except IndexError as e:
+                        print(
+                            "IndexError (likely typo) on",
+                            section,
+                            department_name,
+                            programme_name,
+                            str(e),
+                        )
 
                 sections.append(
                     Section(
@@ -972,11 +960,6 @@ def compute_all_data_departments(
     for dept in all_data_departments:
         abbrev = department_name_to_abbreviation[dept.name]
         abbrev_to_name[abbrev] = dept.name
-
-    # debug
-    # pp = PrettyPrinter(indent=2)
-    # print("______z______")
-    # pp.pprint(all_data_departments)
 
     return all_data_departments
 
@@ -1259,9 +1242,6 @@ def compute_programmes_by_type(
                     "value_target"
                 ]
 
-    # pp.pprint(programmes_by_type_summarised)
-    # pp = PrettyPrinter(indent=2)
-    # pp.pprint(programmes_by_type)
     return (
         programmes_by_type,
         programmes_by_type_summarised,
