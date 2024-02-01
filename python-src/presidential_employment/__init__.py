@@ -39,7 +39,8 @@ months = [
     "202210",
     "202211",
     "202212",
-    "202303"
+    "202303",
+    "202312"
 ]
 month_names = [
     "Oct '20",
@@ -71,7 +72,7 @@ month_names = [
     "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [20, 17]
+total_achievement_column = [17, 17]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -84,10 +85,10 @@ month_lookup = [
         "mar": "202103",
         "apr": "202104",
         "may": "202105",
-        "june": "202106",
-        "july": "202107",
+        "jun": "202106",
+        "jul": "202107",
         "aug": "202108",
-        "sept": "202109",
+        "sep": "202109",
         "oct.1": "202110",
         "nov.1": "202111",
         "dec.1": "202112",
@@ -113,6 +114,7 @@ month_lookup = [
         "nov.1": "202211",
         "dec.1": "202212",
         "march": "202303",
+        "dec.2": "202312",
     },
 ]
 
@@ -177,12 +179,9 @@ def load_sheets(phase1_excel, phase2_excel):
         pd.read_excel(phase1_excel, sheet_name="Targets", header=None).fillna(0)
     ]
 
-    row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Graduate programmes (Property Management Trading Entity)']
-    assert len(row_nums) == 1, f"Error: 'Graduate programmes (Property Management Trading Entity)' is not uniquely identified in Phase 1 Targets: {len(row_nums)}"
-    dpwi_target_row = row_nums[0]
-
-    row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Subsistence producer relief fund']
-    assert len(row_nums) == 1, f"Error 'Subsistence producer relief fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
+    # debug: check these rows
+    row_nums = opportunity_targets_df[0].index[opportunity_targets_df[0].iloc[:, 1] == 'Subsistence Producer Relief Fund']
+    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
     sprf_phase1_row = row_nums[0]
 
     opportunity_targets_df.append(
@@ -243,7 +242,7 @@ def load_sheets(phase1_excel, phase2_excel):
     budget_targets = pd.read_excel(
         phase1_excel,
         sheet_name="Department Descriptions",
-        usecols=[0,7],
+        usecols=[0,4],
         skiprows=1,
         nrows=19,
         names=["abbrev", "budget"],
@@ -329,18 +328,17 @@ def load_sheets(phase1_excel, phase2_excel):
         pd.read_excel(
             phase1_excel,
             sheet_name="Trends",
-            skiprows=5,
-            usecols=list(range(total_achievement_column[0] + 1)),
+            skiprows=4,
+            usecols=list(range(total_achievement_column[1] + 1)),
         )
     ]
-
 
     trends_df.append(
         pd.read_excel(
             phase2_excel,
             sheet_name="Trends",
             skiprows=4,
-            usecols=list(range(total_achievement_column[1] + 1)),
+            usecols=list(range(total_achievement_column[1] + 2)),
         )
     )
 
@@ -424,8 +422,8 @@ def load_sheets(phase1_excel, phase2_excel):
         pd.read_excel(
             phase1_excel,
             sheet_name="Demographic data",
-            skiprows=8,
-            usecols=list(range(9)),
+            skiprows=9,
+            usecols=list(range(11)),
         )
     ]
 
@@ -469,8 +467,6 @@ def load_sheets(phase1_excel, phase2_excel):
         )
     )
 
-
-
     return (
         opportunity_targets_df,
         opportunity_achievements_df,
@@ -485,7 +481,6 @@ def load_sheets(phase1_excel, phase2_excel):
         universities_df,
         demographic_df,
         achievement_totals_df,
-        dpwi_target_row,
         sprf_phase1_row,
         sprf_phase2_row,
         department_budget_targets,
@@ -682,7 +677,7 @@ def compute_all_data_departments(
                     ) or (
                         department_name
                         == "Agriculture, Land Reform and Rural Development"
-                        and (programme_name == "Subsistence producer relief fund" or
+                        and (programme_name == "Subsistence Producer Relief Fund" or
                         programme_name == 'Subsistence Producer Relief Fund')
                     ):
                         department_implementation_details.append(imp_detail)
@@ -978,6 +973,11 @@ def compute_all_data_departments(
         abbrev = department_name_to_abbreviation[dept.name]
         abbrev_to_name[abbrev] = dept.name
 
+    # debug
+    # pp = PrettyPrinter(indent=2)
+    # print("______z______")
+    # pp.pprint(all_data_departments)
+
     return all_data_departments
 
 
@@ -1060,7 +1060,7 @@ def compute_breakdowns(all_data_departments: list[Department]):
 
 def compute_programmes_by_type(
     all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df,
-    dpwi_target_row, sprf_phase1_row, sprf_phase2_row
+    sprf_phase1_row, sprf_phase2_row
 ):
     """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
     # what we need
@@ -1195,14 +1195,7 @@ def compute_programmes_by_type(
                     total_target_value = int(
                         opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
                     )
-                elif (
-                    department.name == "Public Works and Infrastructure"
-                    and section.section_type == SectionEnum.job_opportunities.name
-                ):
-                    # this is a phase 1 programme that just has an overall target
-                    total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[dpwi_target_row, 2]
-                    )
+
                 programmes_by_type[section.section_type][phase.phase_num][
                     department.sheet_name
                 ] = {

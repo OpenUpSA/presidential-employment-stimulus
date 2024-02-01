@@ -47,7 +47,6 @@ if __name__ == '__main__':
     universities_df,
     demographic_df,
     achievement_totals_df,
-    dpwi_target_row,
     sprf_phase1_row,
     sprf_phase2_row,
     department_budget_targets,
@@ -80,14 +79,14 @@ if __name__ == '__main__':
     programmes_by_type_summarised,
     achievements_by_type_by_month,
     provincial_breakdown) = compute_programmes_by_type(all_data_departments, opportunity_achievements_df, opportunity_targets_df,
-                                                       dpwi_target_row, sprf_phase1_row, sprf_phase2_row)
+                                                       sprf_phase1_row, sprf_phase2_row)
 
     ### Check that total add up to totals listed in the spreadsheet
     # check targets for phase 1 - job opportunities
     assert (
         programmes_by_type[SectionEnum.job_opportunities.name][0]["Total"]["value_target"]
-        == opportunity_targets_df[0].iloc[6, 7]
-    ), f'{SectionEnum.job_opportunities.name} total mismatch: {programmes_by_type[SectionEnum.job_opportunities.name][0]["Total"]["value_target"]} vs {opportunity_targets_df[0].iloc[6, 7]}'
+        == opportunity_targets_df[0].iloc[5, 7]
+    ), f'{SectionEnum.job_opportunities.name} total mismatch: {programmes_by_type[SectionEnum.job_opportunities.name][0]["Total"]["value_target"]} vs {opportunity_targets_df[0].iloc[5, 7]}'
 
     # check targets for phase 2 - job opportunities
     assert (
@@ -101,7 +100,7 @@ if __name__ == '__main__':
         programmes_by_type[SectionEnum.job_opportunities.name][0]["Total"]["value"] == achievement_totals_df[0].loc["Jobs created","total"]
     ), f'Phase 1: {SectionEnum.job_opportunities.name} total mismatch computed {programmes_by_type[SectionEnum.job_opportunities.name][0]["Total"]["value"]} vs sheet {achievement_totals_df[0].loc["Jobs created"]}'
 
-    # check achiements for phase 2 - job opportunities
+    # check achievements for phase 2 - job opportunities
     assert (
         programmes_by_type[SectionEnum.job_opportunities.name][1]["Total"]["value"] == achievement_totals_df[1].loc["Jobs created","total"]
     ), f'Phase 2: {SectionEnum.job_opportunities.name} total mismatch {programmes_by_type[SectionEnum.job_opportunities.name][1]["Total"]["value"]} vs {achievement_totals_df[1].loc["Jobs created"]}'
@@ -109,21 +108,28 @@ if __name__ == '__main__':
     # check targets for phase 1 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value_target"]
-        == opportunity_targets_df[0].iloc[7, 7]
-    ), f'{SectionEnum.livelihoods.name} total mismatch: phase 1 target {programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value_target"]} vs {opportunity_targets_df[0].iloc[7, 7]}'
+        == opportunity_targets_df[0].iloc[6, 7]
+    ), f'{SectionEnum.livelihoods.name} total mismatch: phase 1 target {programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value_target"]} vs {opportunity_targets_df[0].iloc[6, 7]}'
 
     # check targets for phase 2 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value_target"]
         == opportunity_targets_df[1].iloc[6, 7]
     ), f'{SectionEnum.livelihoods.name} total mismatch: phase 2 target {programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value_target"]} vs {opportunity_targets_df[1].iloc[6, 7]}'
-
-
+    # debug
+    pd.set_option('display.max_rows', None)
+    pd.set_option('display.max_columns', None)
+    pp = PrettyPrinter(indent=4)
+    print("______a______")
+    pp.pprint(programmes_by_type[SectionEnum.livelihoods.name][0])
+    pp.pprint(achievement_totals_df[0].loc["Livelihoods supported","total"])
     # check achievements for phase 1 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value"] == achievement_totals_df[0].loc["Livelihoods supported","total"]
     ), f'{SectionEnum.job_opportunities.name} total mismatch - phase 1 {programmes_by_type[SectionEnum.livelihoods.name][0]["Total"]["value"]} vs {achievement_totals_df[0].loc["Livelihoods supported"]}'
-
+    print("______b______")
+    pp.pprint(programmes_by_type[SectionEnum.livelihoods.name][1]) # not picking up row for Subsistence Producer Relief Fund
+    #pp.pprint(programmes_by_type)
     # check achievements for phase 2 - livelihoods support
     assert (
         programmes_by_type[SectionEnum.livelihoods.name][1]["Total"]["value"] == achievement_totals_df[1].loc["Livelihoods supported","total"]
