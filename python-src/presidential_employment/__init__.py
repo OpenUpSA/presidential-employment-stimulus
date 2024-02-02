@@ -71,7 +71,7 @@ month_names = [
     "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [20, 17]
+total_achievement_column = [20, 17, 17]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -117,7 +117,7 @@ month_lookup = [
 ]
 
 number_of_phases = 3
-phase_dates = [["202010", "202203"], ["202104", "202212"]]
+phase_dates = [["202010", "202203"], ["202104", "202212"], ["202204", "202312"]]
 
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
@@ -416,7 +416,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
             phase3_excel,
             sheet_name="Trends",
             skiprows=4,
-            usecols=list(range(total_achievement_column[1] + 1)),
+            usecols=list(range(total_achievement_column[2] + 1)),
         )
     )
 
