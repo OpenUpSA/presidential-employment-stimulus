@@ -25,6 +25,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--phase1_excel', default="notebooks/Copy of Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
     parser.add_argument('--phase2_excel', default='notebooks/Copy of Spreadsheet 2 - To March 2023 2.xlsx')
+    parser.add_argument('--phase3_excel', default="")
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -40,6 +41,7 @@ if __name__ == '__main__':
     description_df,
     phase1_departments,
     phase2_departments,
+    phase3_departments,
     targets_df,
     trends_df,
     provincial_df,
@@ -50,8 +52,9 @@ if __name__ == '__main__':
     dpwi_target_row,
     sprf_phase1_row,
     sprf_phase2_row,
+    sprf_phase3_row,
     department_budget_targets,
-    total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel)
+    total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel)
 
     department_names = list(set(phase1_departments).union(phase2_departments))
 
@@ -59,7 +62,7 @@ if __name__ == '__main__':
     paragraphs = description_df.paragraph.to_dict()
 
     ## Compute per department data structures
-    all_data_departments = compute_all_data_departments(phase1_departments, phase2_departments, 
+    all_data_departments = compute_all_data_departments(phase1_departments, phase2_departments, phase3_departments,
                                                     implementation_status_df, demographic_df, description_df,
                                                     targets_df, trends_df, department_names, provincial_df,
                                                     cities_df, universities_df, leads, paragraphs,
@@ -80,7 +83,7 @@ if __name__ == '__main__':
     programmes_by_type_summarised,
     achievements_by_type_by_month,
     provincial_breakdown) = compute_programmes_by_type(all_data_departments, opportunity_achievements_df, opportunity_targets_df,
-                                                       dpwi_target_row, sprf_phase1_row, sprf_phase2_row)
+                                                       dpwi_target_row, sprf_phase1_row, sprf_phase2_row, sprf_phase3_row)
 
     ### Check that total add up to totals listed in the spreadsheet
     # check targets for phase 1 - job opportunities

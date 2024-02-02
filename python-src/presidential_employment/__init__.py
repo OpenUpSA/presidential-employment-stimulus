@@ -116,7 +116,7 @@ month_lookup = [
     },
 ]
 
-number_of_phases = 2
+number_of_phases = 3
 phase_dates = [["202010", "202203"], ["202104", "202212"]]
 
 # Completed: October 20202 - March 2022
@@ -158,14 +158,15 @@ strip_ws = lambda iterable: [pn.strip() for pn in iterable]
 
 # code imported from notebook
 
-def load_sheets(phase1_excel, phase2_excel):
-    """Reads in the phase1 and phase2 Excel files and extracts:
+def load_sheets(phase1_excel, phase2_excel, phase3_excel):
+    """Reads in the phase1, phase2 and phase3 Excel files and extracts:
     * opportunity_targets_df - complete Targets sheet
     * opportunity_achievements_df - complete Trends sheet
     * implementation_status_df - Implementation Status
     * description_df - Department Descriptions
     * phase1_departments - department names that are in phase 1
     * phase2_departments - department names that are in phase 2
+    * phase3_departments - department names that are in phase 3
     * targets_df - just the per department Targets
     * trends_df - the per department Trends
     * provincial_df - provincial breakdowns
@@ -190,8 +191,16 @@ def load_sheets(phase1_excel, phase2_excel):
     )
 
     row_nums = opportunity_targets_df[1].index[opportunity_targets_df[1].iloc[:, 1] == 'Subsistence Producer Relief Fund']
-    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 1 Targets {len(row_nums)}"
+    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 2 Targets {len(row_nums)}"
     sprf_phase2_row = row_nums[0]
+
+    opportunity_targets_df.append(
+        pd.read_excel(phase3_excel, sheet_name="Targets", header=None).fillna(0)
+    )
+
+    row_nums = opportunity_targets_df[2].index[opportunity_targets_df[2].iloc[:, 1] == 'Subsistence Producer Relief Fund']
+    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 3 Targets {len(row_nums)}"
+    sprf_phase3_row = row_nums[0]
 
     opportunity_achievements_df = [
         pd.read_excel(phase1_excel, sheet_name="Trends", header=None).fillna(0)
@@ -199,6 +208,10 @@ def load_sheets(phase1_excel, phase2_excel):
 
     opportunity_achievements_df.append(
         pd.read_excel(phase2_excel, sheet_name="Trends", header=None).fillna(0)
+    )
+    
+    opportunity_achievements_df.append(
+        pd.read_excel(phase3_excel, sheet_name="Trends", header=None).fillna(0)
     )
 
     implementation_status_df = [
@@ -220,6 +233,16 @@ def load_sheets(phase1_excel, phase2_excel):
             names=["department", "programme", "status", "detail"],
         )
     )
+    
+    implementation_status_df.append(
+        pd.read_excel(
+            phase3_excel,
+            sheet_name="Implementation status",
+            skiprows=2,
+            usecols=range(4),
+            names=["department", "programme", "status", "detail"],
+        )
+    )
 
     for i in range(len(implementation_status_df)):
         implementation_status_df[i].department = implementation_status_df[
@@ -231,6 +254,13 @@ def load_sheets(phase1_excel, phase2_excel):
 
     description_df = pd.read_excel(
         phase2_excel,
+        sheet_name="Department Descriptions",
+        names=["key", "lead", "paragraph", "Data captured until"],
+        usecols=range(4),
+        index_col=0,
+    ).dropna()
+    description_df = pd.read_excel(
+        phase3_excel,
         sheet_name="Department Descriptions",
         names=["key", "lead", "paragraph", "Data captured until"],
         usecols=range(4),
@@ -265,6 +295,19 @@ def load_sheets(phase1_excel, phase2_excel):
 
     total_budgets.append(budget_targets.budget.loc["Total"])
     department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
+
+    budget_targets = pd.read_excel(
+        phase3_excel,
+        sheet_name="Department Descriptions",
+        usecols=[0,4],
+        skiprows=1,
+        nrows=19,
+        names=["abbrev", "budget"],
+        index_col=0
+    ).fillna(0) * 1000
+
+    total_budgets.append(budget_targets.budget.loc["Total"])
+    department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
     # total_budgets.append(budget_targets.budget.loc["Total"])
     # department_budget_targets.append(budget_targets)
 
@@ -281,6 +324,13 @@ def load_sheets(phase1_excel, phase2_excel):
 
     phase2_departments = set(
         pd.read_excel(phase2_excel, sheet_name="Targets", skiprows=1)
+        .loc[:, "Department"]
+        .dropna()
+        .iloc[:-1]
+    )
+
+    phase3_departments = set(
+        pd.read_excel(phase3_excel, sheet_name="Targets", skiprows=1)
         .loc[:, "Department"]
         .dropna()
         .iloc[:-1]
@@ -321,6 +371,24 @@ def load_sheets(phase1_excel, phase2_excel):
     )
     assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase2"
 
+    targets_df.append(
+        pd.read_excel(
+            phase3_excel,
+            sheet_name="Targets",
+            skiprows=1,
+            usecols=list(range(6)),
+            names=[
+                "department",
+                "programme",
+                "target",
+                "unk",
+                "section",
+                "display_name",
+            ],
+        )
+    )
+    assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase3"
+
     for i in range(len(targets_df)):
         targets_df[i].department = targets_df[i].department.ffill()
         targets_df[i].section = targets_df[i].section.ffill()
@@ -334,10 +402,18 @@ def load_sheets(phase1_excel, phase2_excel):
         )
     ]
 
-
     trends_df.append(
         pd.read_excel(
             phase2_excel,
+            sheet_name="Trends",
+            skiprows=4,
+            usecols=list(range(total_achievement_column[1] + 1)),
+        )
+    )
+
+    trends_df.append(
+        pd.read_excel(
+            phase3_excel,
             sheet_name="Trends",
             skiprows=4,
             usecols=list(range(total_achievement_column[1] + 1)),
@@ -364,6 +440,14 @@ def load_sheets(phase1_excel, phase2_excel):
     provincial_df.append(
         pd.read_excel(
             phase2_excel,
+            sheet_name="Provincial (beneficiaries)",
+            skiprows=4,
+            usecols=list(range(12)),
+        )
+    )
+    provincial_df.append(
+        pd.read_excel(
+            phase3_excel,
             sheet_name="Provincial (beneficiaries)",
             skiprows=4,
             usecols=list(range(12)),
@@ -438,6 +522,15 @@ def load_sheets(phase1_excel, phase2_excel):
         )
     )
 
+    demographic_df.append(
+        pd.read_excel(
+            phase3_excel,
+            sheet_name="Demographic data",
+            skiprows=9,
+            usecols=list(range(11)),
+        )
+    )
+
     for i in range(len(demographic_df)):
         demographic_df[i].columns = [
             c.lower().replace(" ", "_").replace("%", "perc").replace("no.", "no")
@@ -468,8 +561,17 @@ def load_sheets(phase1_excel, phase2_excel):
             index_col=0,
         )
     )
-
-
+    achievement_totals_df.append(
+        pd.read_excel(
+            phase3_excel,
+            sheet_name="Demographic data",
+            skiprows=2,
+            usecols=range(2),
+            nrows=3,
+            names=["section", "total"],
+            index_col=0,
+        )
+    )
 
     return (
         opportunity_targets_df,
@@ -478,6 +580,7 @@ def load_sheets(phase1_excel, phase2_excel):
         description_df,
         phase1_departments,
         phase2_departments,
+        phase3_departments,
         targets_df,
         trends_df,
         provincial_df,
@@ -488,6 +591,7 @@ def load_sheets(phase1_excel, phase2_excel):
         dpwi_target_row,
         sprf_phase1_row,
         sprf_phase2_row,
+        sprf_phase3_row,
         department_budget_targets,
         total_budgets
     )
@@ -556,6 +660,7 @@ def make_dim(
 def compute_all_data_departments(
     phase1_departments,
     phase2_departments,
+    phase3_departments,
     implementation_status_df,
     demographic_df,
     description_df,
@@ -586,6 +691,8 @@ def compute_all_data_departments(
             if phase_num == 0 and (not department_name in phase1_departments):
                 continue
             elif phase_num == 1 and (not department_name in phase2_departments):
+                continue
+            elif phase_num == 2 and (not department_name in phase3_departments):
                 continue
             department_implementation_details = []
             # print("PHASE", phase_num, trends_df[phase_num].loc[trends_df[phase_num].department == department_name].iloc[:, -1])
@@ -1060,7 +1167,7 @@ def compute_breakdowns(all_data_departments: list[Department]):
 
 def compute_programmes_by_type(
     all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df,
-    dpwi_target_row, sprf_phase1_row, sprf_phase2_row
+    dpwi_target_row, sprf_phase1_row, sprf_phase2_row, sprf_phase3_row
 ):
     """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
     # what we need
@@ -1192,6 +1299,8 @@ def compute_programmes_by_type(
                         dallrd_target_row = sprf_phase1_row
                     elif phase.phase_num == 1:
                         dallrd_target_row = sprf_phase2_row
+                    elif phase.phase_num == 1:
+                        dallrd_target_row = sprf_phase3_row
                     total_target_value = int(
                         opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
                     )
@@ -1424,16 +1533,19 @@ def compute_overview_metrics(
 
     phase_1_budget = sum(department_budget_targets[0].values())
     phase_2_budget = sum(department_budget_targets[1].values())
+    phase_3_budget = sum(department_budget_targets[2].values())
     
     assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
     assert total_budgets[1] == phase_2_budget, f"Budget in Phase 2 spreadsheet is not the same as computed budget: {total_budgets[1]} vs {phase_2_budget}"
+    assert total_budgets[2] == phase_3_budget, f"Budget in Phase 3 spreadsheet is not the same as computed budget: {total_budgets[2]} vs {phase_3_budget}"
+
 
     total_budget = PhasedMetric(
         name="Total budget allocated",
         metric_type=MetricTypeEnum.currency.name,
         viz=VizTypeEnum.full.name,
-        total_value=phase_1_budget + phase_2_budget,
-        value=[phase_1_budget, phase_2_budget],
+        total_value=phase_1_budget + phase_2_budget + phase_3_budget,
+        value=[phase_1_budget, phase_2_budget, phase_3_budget],
         value_target=[None] * number_of_phases,
         dimensions=[],
     )
