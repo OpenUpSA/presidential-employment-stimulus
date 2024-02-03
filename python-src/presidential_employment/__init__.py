@@ -118,7 +118,7 @@ month_lookup = [
 ]
 
 number_of_phases = 3
-phase_dates = [["202010", "202203"], ["202104", "202212"], ["202301", "202312"]]
+phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202403"]]
 
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
