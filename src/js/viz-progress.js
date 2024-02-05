@@ -11,6 +11,11 @@ const COLORS = [
     done: 'rgb(245, 130, 31)',
     notdone: 'rgb(220,220,220)',
     exceeded: 'rgb(255, 189, 82)',
+  },
+  {
+    done: 'rgb(37, 120, 75)',
+    notdone: 'rgb(37,120,75)',
+    exceeded: 'rgb(37, 120, 75)',
   }
 ];
 
