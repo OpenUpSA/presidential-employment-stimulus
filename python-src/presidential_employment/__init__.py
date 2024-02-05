@@ -39,8 +39,20 @@ months = [
     "202210",
     "202211",
     "202212",
-    "202303"
+    "202301",
+    "202302",
+    "202303",
+    "202304",
+    "202305",
+    "202306",
+    "202307",
+    "202308",
+    "202309",
+    "202310",
+    "202311",
+    "202312"
 ]
+
 month_names = [
     "Oct '20",
     "Nov '20",
@@ -68,10 +80,21 @@ month_names = [
     "Sep '22",
     "Oct '22",
     "Nov '22",
-    "Dec '22"
+    "Dec '22",
+    "Jan '23",
+    "Feb '23",
+    "Mar '23",
+    "Apr '23",
+    "May '23",
+    "Jun '23",
+    "Jul '23",
+    "Aug '23",
+    "Sep '23",
+    "Oct '23",
+    "Nov '23",
+    "Dec '23"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-# TODO: fill in the correct column for the phase 3 excel when we know it
 total_achievement_column = [20, 17, 18]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
@@ -115,6 +138,25 @@ month_lookup = [
         "dec.1": "202212",
         "march": "202303",
     },
+    {   # this is not really used anymore since we don't report time series data - included for completeness 
+        "oct": "202110",
+        "nov": "202111",
+        "dec": "202112",
+        "jan": "202201",
+        "feb": "202202",
+        "mar": "202203",
+        "apr": "202204",
+        "may": "202205",
+        "jun": "202206",
+        "jul": "202207",
+        "aug": "202208",
+        "sep": "202209",
+        "oct.1": "202210",
+        "nov.1": "202211",
+        "dec.1": "202212",
+        "march": "202303",
+        "dec.2": "202312",
+    },    
 ]
 
 number_of_phases = 3
@@ -1110,7 +1152,7 @@ def compute_programmes_by_type(
     for section_name in (SectionEnum.job_opportunities.name, SectionEnum.livelihoods.name, SectionEnum.jobs_retain.name):
         provincial_breakdown[section_name] = {}
         for abbrev in province_abbreviations:
-            provincial_breakdown[section_name][abbrev] = [0, 0]
+            provincial_breakdown[section_name][abbrev] = [0] * number_of_phases
     
     for department in all_data_departments:
         for phase in department.phases:
