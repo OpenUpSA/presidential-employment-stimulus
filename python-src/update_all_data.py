@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--phase1_excel', default="notebooks/Copy of Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
     parser.add_argument('--phase2_excel', default='notebooks/Copy of Spreadsheet 2 - To March 2023 2.xlsx')
-    parser.add_argument('--phase3_excel', default="")
+    parser.add_argument('--phase3_excel', default="notebooks/Worksheet 3 April - Dec 2023.xlsx")
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     department_budget_targets,
     total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel)
 
-    department_names = list(set(phase1_departments).union(phase2_departments))
+    department_names = list(set(phase1_departments).union(phase2_departments).union(phase3_departments))
 
     leads = description_df.lead.to_dict()
     paragraphs = description_df.paragraph.to_dict()
