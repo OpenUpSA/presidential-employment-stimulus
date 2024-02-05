@@ -30,10 +30,9 @@
             "metric_type": "currency",
             "value": [
               23588178000.0,
-              9000000000.0,
               9000000000.0
             ],
-            "total_value": 41588178000.0,
+            "total_value": 32588178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
