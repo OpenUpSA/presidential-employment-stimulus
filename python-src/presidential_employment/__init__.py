@@ -71,7 +71,7 @@ month_names = [
     "Dec '22"
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [20, 17, 17]
+total_achievement_column = [20, 17, 18]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -117,7 +117,7 @@ month_lookup = [
 ]
 
 number_of_phases = 3
-phase_dates = [["202010", "202203"], ["202104", "202212"], ["202204", "202312"]]
+phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202403"]]
 
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
@@ -174,6 +174,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     * universities_df - universities breakdown
     * demographic_df - demographic breakdown by gender, youth, etc
     """
+    # Opportunity Targets: the "Targets" tab
     opportunity_targets_df = [
         pd.read_excel(phase1_excel, sheet_name="Targets", header=None).fillna(0)
     ]
@@ -202,47 +203,25 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 3 Targets {len(row_nums)}"
     sprf_phase3_row = row_nums[0]
 
-    opportunity_achievements_df = [
-        pd.read_excel(phase1_excel, sheet_name="Trends", header=None).fillna(0)
-    ]
-
-    opportunity_achievements_df.append(
-        pd.read_excel(phase2_excel, sheet_name="Trends", header=None).fillna(0)
-    )
-    
-    opportunity_achievements_df.append(
-        pd.read_excel(phase3_excel, sheet_name="Trends", header=None).fillna(0)
-    )
-
-    implementation_status_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Implementation status",
-            skiprows=2,
-            usecols=range(4),
-            names=["department", "programme", "status", "detail"],
+    # Opportunity Achievements: the "Trends" tab
+    opportunity_achievements_df = []
+    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+        opportunity_achievements_df.append(
+            pd.read_excel(sheet, sheet_name="Trends", header=None).fillna(0)
         )
-    ]
 
-    implementation_status_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Implementation status",
-            skiprows=2,
-            usecols=range(4),
-            names=["department", "programme", "status", "detail"],
+    # Implementation Status: the "Implementation status" tab
+    implementation_status_df = []
+    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+        implementation_status_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Implementation status",
+                skiprows=2,
+                usecols=range(4),
+                names=["department", "programme", "status", "detail"],
+            )
         )
-    )
-    
-    implementation_status_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Implementation status",
-            skiprows=2,
-            usecols=range(4),
-            names=["department", "programme", "status", "detail"],
-        )
-    )
 
     for i in range(len(implementation_status_df)):
         implementation_status_df[i].department = implementation_status_df[
@@ -252,6 +231,8 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
             ""
         )
 
+    # description_df: the "Department Descriptions" tab
+    # TODO: figure out why we use phase2_excel for this - is it a superset of phase 1's department? In any case, the departments in phase 3 match those in phase 2
     description_df = pd.read_excel(
         phase2_excel,
         sheet_name="Department Descriptions",
@@ -267,47 +248,24 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         index_col=0,
     ).dropna()
 
+    # department budgets taken from the "Department Description" tab
     department_budget_targets = []
     total_budgets = []
     
-    budget_targets = pd.read_excel(
-        phase1_excel,
-        sheet_name="Department Descriptions",
-        usecols=[0,7],
-        skiprows=1,
-        nrows=19,
-        names=["abbrev", "budget"],
-        index_col=0
-    ).fillna(0) * 1000
+    for (sheet, budget_col) in ((phase1_excel, 7), (phase2_excel, 4), (phase3_excel, 4)):
+        budget_targets = pd.read_excel(
+            sheet,
+            sheet_name="Department Descriptions",
+            usecols=[0,budget_col],
+            skiprows=1,
+            nrows=19,
+            names=["abbrev", "budget"],
+            index_col=0
+        ).fillna(0) * 1000
 
-    total_budgets.append(budget_targets.budget.loc["Total"])
-    department_budget_targets.append(budget_targets.drop('Total').to_dict()['budget'])
+        total_budgets.append(budget_targets.budget.loc["Total"])
+        department_budget_targets.append(budget_targets.drop('Total').to_dict()['budget'])
 
-    budget_targets = pd.read_excel(
-        phase2_excel,
-        sheet_name="Department Descriptions",
-        usecols=[0,4],
-        skiprows=1,
-        nrows=19,
-        names=["abbrev", "budget"],
-        index_col=0
-    ).fillna(0) * 1000
-
-    total_budgets.append(budget_targets.budget.loc["Total"])
-    department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
-
-    budget_targets = pd.read_excel(
-        phase3_excel,
-        sheet_name="Department Descriptions",
-        usecols=[0,4],
-        skiprows=1,
-        nrows=19,
-        names=["abbrev", "budget"],
-        index_col=0
-    ).fillna(0) * 1000
-
-    total_budgets.append(budget_targets.budget.loc["Total"])
-    department_budget_targets.append(budget_targets.drop(['Disclaimer', 'Total']).to_dict()['budget'])
     # total_budgets.append(budget_targets.budget.loc["Total"])
     # department_budget_targets.append(budget_targets)
 
@@ -315,6 +273,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     #     [opportunity_targets_df.iloc[2:56, 1], opportunity_targets_df.iloc[2:56, 4]], axis=1
     # ).set_index(1)
 
+    # Find the list of departments for the different phases
     phase1_departments = set(
         pd.read_excel(phase1_excel, sheet_name="Targets", skiprows=1)
         .loc[:, "Department"]
@@ -336,89 +295,46 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         .iloc[:-1]
     )
 
-    targets_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Targets",
-            skiprows=1,
-            usecols=list(range(6)),
-            names = [
-                "department",
-                "programme",
-                "target",
-                "unk",
-                "section",
-                "display_name",
-            ]).drop("unk", axis=1)
-    ]
-    assert targets_df[0].section[0] in ["CRE", "LIV", "RET"], "Error: unexpected section name in Phase1 Targets"
-
-    targets_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Targets",
-            skiprows=1,
-            usecols=list(range(6)),
-            names=[
-                "department",
-                "programme",
-                "target",
-                "unk",
-                "section",
-                "display_name",
-            ],
+    # targets df: the "Targets" tab (again)
+    # TODO: figure out why both targets_df and opportunity_targets_df are needed
+    targets_df = []
+    phase_num = 1
+    for (sheet, sections) in ((phase1_excel, ["CRE", "LIV", "RET"]), (phase2_excel, ["CRE", "LIV"]), (phase3_excel, ["CRE", "LIV"])):
+        targets_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Targets",
+                skiprows=1,
+                usecols=list(range(6)),
+                names = [
+                    "department",
+                    "programme",
+                    "target",
+                    "unk",
+                    "section",
+                    "display_name",
+                ]).drop("unk", axis=1)
         )
-    )
-    assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase2"
-
-    targets_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Targets",
-            skiprows=1,
-            usecols=list(range(6)),
-            names=[
-                "department",
-                "programme",
-                "target",
-                "unk",
-                "section",
-                "display_name",
-            ],
-        )
-    )
-    assert targets_df[1].section[0] in ["CRE", "LIV"], "Error: unexpected section name in Target of Phase3"
+        assert targets_df[-1].section[0] in sections, f"Error: unexpected section name in Phase{phase_num} Targets"
+        phase_num += 1
 
     for i in range(len(targets_df)):
         targets_df[i].department = targets_df[i].department.ffill()
         targets_df[i].section = targets_df[i].section.ffill()
 
-    trends_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Trends",
-            skiprows=5,
-            usecols=list(range(total_achievement_column[0] + 1)),
+    # trends_df: the longitudinal data in the "Trends" tab
+    trends_df = []
+    phase_index = 0
+    for (sheet, skiprows) in ((phase1_excel, 5), (phase2_excel, 4), (phase3_excel, 4)):
+        trends_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Trends",
+                skiprows=skiprows,
+                usecols=list(range(total_achievement_column[phase_index] + 1)),
+            )
         )
-    ]
-
-    trends_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Trends",
-            skiprows=4,
-            usecols=list(range(total_achievement_column[1] + 1)),
-        )
-    )
-
-    trends_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Trends",
-            skiprows=4,
-            usecols=list(range(total_achievement_column[2] + 1)),
-        )
-    )
+        phase_index += 1
 
     for i in range(len(trends_df)):
         trends_df[i].columns = [c.lower() for c in trends_df[i].columns]
@@ -429,30 +345,17 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         #     # NOTE: 24 August 2023 - this has become unnecessary because of the new phase2 format
         #     trends_df[i] = trends_df[i].drop("oct", axis=1)
 
-    provincial_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Provincial (beneficiaries)",
-            skiprows=4,
-            usecols=list(range(12)),
+    # provincial_df: the provincial breakdowns in the "Provincial (beneficiaries)" tab
+    provincial_df = []
+    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+        provincial_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Provincial (beneficiaries)",
+                skiprows=4,
+                usecols=list(range(12)),
+            )
         )
-    ]
-    provincial_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Provincial (beneficiaries)",
-            skiprows=4,
-            usecols=list(range(12)),
-        )
-    )
-    provincial_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Provincial (beneficiaries)",
-            skiprows=4,
-            usecols=list(range(12)),
-        )
-    )
 
     for i in range(len(provincial_df)):
         provincial_df[i].columns = [
@@ -504,32 +407,17 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     #     )
     #     universities_df[i] = universities_df[i].fillna(0)
 
-    demographic_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Demographic data",
-            skiprows=8,
-            usecols=list(range(9)),
+    # demographic_df: the demographic breakdowns in the "Demographic data" tab
+    demographic_df = []
+    for (sheet, skiprows, usecols) in ((phase1_excel, 8, 9), (phase2_excel, 9, 11), (phase3_excel, 9, 11)):    
+        demographic_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Demographic data",
+                skiprows=skiprows,
+                usecols=list(range(usecols)),
+            )
         )
-    ]
-
-    demographic_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Demographic data",
-            skiprows=9,
-            usecols=list(range(11)),
-        )
-    )
-
-    demographic_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Demographic data",
-            skiprows=9,
-            usecols=list(range(11)),
-        )
-    )
 
     for i in range(len(demographic_df)):
         demographic_df[i].columns = [
@@ -539,39 +427,20 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         demographic_df[i].department = demographic_df[i].department.ffill()
         demographic_df[i] = demographic_df[i].fillna(0)
 
-    achievement_totals_df = [
-        pd.read_excel(
-            phase1_excel,
-            sheet_name="Demographic data",
-            skiprows=2,
-            usecols=range(2),
-            nrows=3,
-            names=["section", "total"],
-            index_col=0,
+    # achievement_totals_df: the totals in the "Demographic data" tab
+    achievement_totals_df = []
+    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+        achievement_totals_df.append(
+            pd.read_excel(
+                sheet,
+                sheet_name="Demographic data",
+                skiprows=2,
+                usecols=range(2),
+                nrows=3,
+                names=["section", "total"],
+                index_col=0,
+            )
         )
-    ]
-    achievement_totals_df.append(
-        pd.read_excel(
-            phase2_excel,
-            sheet_name="Demographic data",
-            skiprows=2,
-            usecols=range(2),
-            nrows=3,
-            names=["section", "total"],
-            index_col=0,
-        )
-    )
-    achievement_totals_df.append(
-        pd.read_excel(
-            phase3_excel,
-            sheet_name="Demographic data",
-            skiprows=2,
-            usecols=range(2),
-            nrows=3,
-            names=["section", "total"],
-            index_col=0,
-        )
-    )
 
     return (
         opportunity_targets_df,
@@ -688,6 +557,7 @@ def compute_all_data_departments(
     for department_name in department_names:
         phases = []
         for phase_num in range(number_of_phases):
+            # TODO: rationalist this so that we don't have to repeat the code for each phase
             if phase_num == 0 and (not department_name in phase1_departments):
                 continue
             elif phase_num == 1 and (not department_name in phase2_departments):
@@ -1299,7 +1169,7 @@ def compute_programmes_by_type(
                         dallrd_target_row = sprf_phase1_row
                     elif phase.phase_num == 1:
                         dallrd_target_row = sprf_phase2_row
-                    elif phase.phase_num == 1:
+                    elif phase.phase_num == 2:
                         dallrd_target_row = sprf_phase3_row
                     total_target_value = int(
                         opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
