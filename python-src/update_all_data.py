@@ -52,7 +52,6 @@ if __name__ == '__main__':
     dpwi_target_row,
     sprf_phase1_row,
     sprf_phase2_row,
-    sprf_phase3_row,
     department_budget_targets,
     total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel)
 
@@ -83,7 +82,7 @@ if __name__ == '__main__':
     programmes_by_type_summarised,
     achievements_by_type_by_month,
     provincial_breakdown) = compute_programmes_by_type(all_data_departments, opportunity_achievements_df, opportunity_targets_df,
-                                                       dpwi_target_row, sprf_phase1_row, sprf_phase2_row, sprf_phase3_row)
+                                                       dpwi_target_row, sprf_phase1_row, sprf_phase2_row)
 
     ### Check that total add up to totals listed in the spreadsheet
     # check targets for phase 1 - job opportunities
