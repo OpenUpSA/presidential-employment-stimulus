@@ -36,8 +36,8 @@ export class Header {
     $el.find(TITLE_SELECTOR).text(this._title);
     $el.find('h3').text(this._lead);
     $el.find('p.header-description').text(this._paragraph);
-    
-    $el.find('.button-wrap').html('<select><option value="" disabled selected hidden>More about the programme</option><option value="img/Presidential Employment Stimulus Launch October 2020.pdf">Launch October 2020</option><option value="img/Phase 2 Launch 2021.pdf">Phase 2 Launch 2021</option><option value="img/Presidential Employment Stimulus Update February 2023.pdf">February 2023 Update</option></select>');
+
+    $el.find('.button-wrap').html('<select><option value="" disabled selected hidden>More about the programme</option><option value="img/Presidential Employment Stimulus Launch October 2020.pdf">Launch October 2020</option><option value="img/Phase 2 Launch 2021.pdf">Phase 2 Launch 2021</option><option value="img/Presidential Employment Stimulus Update February 2023.pdf">February 2023 Update</option><option value="img/February_2024_Update.pdf">February 2024 Update</option></select>');
 
 
 
