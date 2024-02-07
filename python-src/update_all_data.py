@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--phase1_excel', default="notebooks/Copy of Completed Dashboard March 2022 Peter's version   KP2 with budgets.xlsx")
     parser.add_argument('--phase2_excel', default='notebooks/Copy of Spreadsheet 2 - To March 2023 2.xlsx')
-    parser.add_argument('--phase3_excel', default='notebooks/Worksheet 3 April - Dec 2023.xlsx')
+    parser.add_argument('--phase3_excel', default="notebooks/Worksheet 3 April - Dec 2023.xlsx")
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -52,7 +52,6 @@ if __name__ == '__main__':
     dpwi_target_row,
     sprf_phase1_row,
     sprf_phase2_row,
-    sprf_phase3_row,
     department_budget_targets,
     total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel)
 

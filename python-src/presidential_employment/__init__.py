@@ -156,7 +156,7 @@ month_lookup = [
         "dec.1": "202212",
         "march": "202303",
         "dec.2": "202312",
-    },    
+    },  
 ]
 
 number_of_phases = 3
@@ -202,13 +202,14 @@ strip_ws = lambda iterable: [pn.strip() for pn in iterable]
 # code imported from notebook
 
 def load_sheets(phase1_excel, phase2_excel, phase3_excel):
-    """Reads in the phase1 and phase2 Excel files and extracts:
+    """Reads in the phase1, phase2 and phase3 Excel files and extracts:
     * opportunity_targets_df - complete Targets sheet
     * opportunity_achievements_df - complete Trends sheet
     * implementation_status_df - Implementation Status
     * description_df - Department Descriptions
     * phase1_departments - department names that are in phase 1
     * phase2_departments - department names that are in phase 2
+    * phase3_departments - department names that are in phase 3
     * targets_df - just the per department Targets
     * trends_df - the per department Trends
     * provincial_df - provincial breakdowns
@@ -241,11 +242,6 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         pd.read_excel(phase3_excel, sheet_name="Targets", header=None).fillna(0)
     )
 
-    row_nums = opportunity_targets_df[2].index[opportunity_targets_df[2].iloc[:, 1] == 'Subsistence Producer Relief Fund']
-    assert len(row_nums) == 1, f"Error 'Subsistence Producer Relief Fund' is not uniquely identifed in Phase 3 Targets {len(row_nums)}"
-    sprf_phase3_row = row_nums[0]
-
-
     # Opportunity Achievements: the "Trends" tab
     opportunity_achievements_df = []
     for sheet in (phase1_excel, phase2_excel, phase3_excel):
@@ -275,7 +271,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         )
 
     # description_df: the "Department Descriptions" tab
-    # TODO: figure out why we use phase2_excel for this - is it a superset of phase 1's department? In any case, the departments in phase 3 match those in phase 2     
+    # TODO: figure out why we use phase2_excel for this - is it a superset of phase 1's department? In any case, the departments in phase 3 match those in phase 2
     description_df = pd.read_excel(
         phase2_excel,
         sheet_name="Department Descriptions",
@@ -285,12 +281,10 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     ).dropna()
 
     # department budgets taken from the "Department Description" tab
-
     department_budget_targets = []
     total_budgets = []
-
+    
     for (sheet, budget_col) in ((phase1_excel, 7), (phase2_excel, 4), (phase3_excel, 4)):
-
         budget_targets = pd.read_excel(
             sheet,
             sheet_name="Department Descriptions",
@@ -335,7 +329,6 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
 
     # targets df: the "Targets" tab (again)
     # TODO: figure out why both targets_df and opportunity_targets_df are needed
-
     targets_df = []
     phase_num = 1
     for (sheet, sections) in ((phase1_excel, ["CRE", "LIV", "RET"]), (phase2_excel, ["CRE", "LIV"]), (phase3_excel, ["CRE", "LIV"])):
@@ -499,7 +492,6 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         dpwi_target_row,
         sprf_phase1_row,
         sprf_phase2_row,
-        sprf_phase3_row,
         department_budget_targets,
         total_budgets
     )
@@ -1440,16 +1432,19 @@ def compute_overview_metrics(
 
     phase_1_budget = sum(department_budget_targets[0].values())
     phase_2_budget = sum(department_budget_targets[1].values())
+    phase_3_budget = sum(department_budget_targets[2].values())
     
     assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
     assert total_budgets[1] == phase_2_budget, f"Budget in Phase 2 spreadsheet is not the same as computed budget: {total_budgets[1]} vs {phase_2_budget}"
+    assert total_budgets[2] == phase_3_budget, f"Budget in Phase 3 spreadsheet is not the same as computed budget: {total_budgets[2]} vs {phase_3_budget}"
+
 
     total_budget = PhasedMetric(
         name="Total budget allocated",
         metric_type=MetricTypeEnum.currency.name,
         viz=VizTypeEnum.full.name,
-        total_value=phase_1_budget + phase_2_budget,
-        value=[phase_1_budget, phase_2_budget],
+        total_value=phase_1_budget + phase_2_budget + phase_3_budget,
+        value=[phase_1_budget, phase_2_budget, phase_3_budget],
         value_target=[None] * number_of_phases,
         dimensions=[],
     )
