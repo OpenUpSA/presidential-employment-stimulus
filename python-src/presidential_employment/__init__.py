@@ -1,3 +1,4 @@
+import copy
 from calendar import day_abbr
 from pprint import PrettyPrinter
 from typing import Callable
@@ -988,6 +989,111 @@ def compute_all_data_departments(
 
     return all_data_departments
 
+def filter_departments_by_max_phase(all_data_departments: list[Department], phase: int) -> list[Department]:
+    """Filter out departments that don't have a phase <= phase"""
+    return [department for department in all_data_departments if department.phases[-1].phase_num <= phase]
+
+
+def find_section(sections: list[Section], section_name: str):
+    for section in sections:
+        if section.section_type == section_name:
+            return section
+    else:
+        return None
+
+
+def find_dimension(dimensions: list[Dimension], dimension_lookup: str):
+    for dimension in dimensions:
+        if dimension.lookup == dimension_lookup:
+            return dimension
+    else:
+        return None
+
+
+def merge_phases(all_data_departments: list[Department], last_phase: int) -> list[Department]:
+    max_phase_num = last_phase - 1
+    # create synthetic metrics that contain all of the programmes in a section, summed across phases
+    new_all_data_departments: list[Department] = []
+    for department in all_data_departments:
+        new_department = Department(name=department.name, sheet_name=department.sheet_name, lead=department.lead, paragraph=department.paragraph, phases=[])
+        new_phase = Phase(phase_num= 0, month=department.phases[0].month, sections=[], target_lines=[], achievement_lines=[], implementation_details=[], beneficiaries=[])
+        new_department.phases.append(new_phase)
+        new_all_data_departments.append(new_department)
+        for phase in department.phases:
+            if phase.phase_num > max_phase_num:
+                new_department.phases.append(phase)
+            else:
+                new_phase.month = phase.month
+                # each department has a "targets" Section with budget and opportunities targets
+                # and then optionally a section for each of the CRE, LIV, RET sections
+                for section in phase.sections:
+                    if section.section_type == SectionEnum.targets.name:
+                        if (new_section := find_section(new_phase.sections, SectionEnum.targets.name)) is None:
+                            new_section = Section(name=section.name, section_type=section.section_type, metrics=[])
+                            new_phase.sections.append(new_section)
+                        # metrics_by_name: dict[str, Metric] = {}
+                        # for metric in section.metrics:
+                        #     metrics_by_name[metric.name] = metric
+                        new_metrics_by_name: dict[str, Metric] = {}
+                        for metric in new_section.metrics:
+                            new_metrics_by_name[metric.name] = metric
+                        for metric in section.metrics:
+                            if metric.name not in new_metrics_by_name:
+                                new_metric = copy.copy(metric)  # this does a shallow copy, which is fine because this section doesn't have Dimensions
+                                new_metrics_by_name[metric.name] = new_metric
+                                new_section.metrics.append(new_metric)
+                            else:
+                                new_metric = new_metrics_by_name[metric.name]
+                                new_metric.value += metric.value
+                                if metric.value_target != -1:
+                                    new_metric.value_target += metric.value_target
+                    else:
+                        new_section = find_section(new_phase.sections, section.section_type)
+                        # all other sections have metrics with Dimensions - the aim is to gather these into a single "metric" for the section
+                        if (new_section := find_section(new_phase.sections, section.section_type)) is None:
+                            new_section = Section(name=section.name, section_type=section.section_type, 
+                                                  metrics=[Metric(name="Consolidated", metric_type=MetricTypeEnum.count.name, value=0, dimensions=[])])
+                            new_phase.sections.append(new_section)
+                        new_metric = new_section.metrics[0]
+                        for metric in section.metrics:
+                            new_metric.value += metric.value
+                            if metric.value_target != -1:
+                                new_metric.value_target += metric.value_target
+                            for dimension in metric.dimensions:
+                               if dimension.lookup in (LookupTypeEnum.age.name, LookupTypeEnum.province.name, LookupTypeEnum.gender.name):
+                                      if (new_dimension := find_dimension(new_metric.dimensions, dimension.lookup)) is None:
+                                        new_dimension = Dimension(name=dimension.name, lookup=dimension.lookup, viz=dimension.viz, values=[], data_missing=dimension.data_missing)
+                                        new_metric.dimensions.append(new_dimension)
+                                      new_values_by_key = {}
+                                      for value in new_dimension.values:
+                                        new_values_by_key[value.key] = value
+                                      for value in dimension.values:
+                                        if value.key not in new_values_by_key:
+                                             new_value = copy.copy(value)
+                                             new_dimension.values.append(new_value)
+                                        else:
+                                            new_value = new_values_by_key[value.key]
+                                            new_value.value += value.value
+                                            if new_dimension.lookup in (LookupTypeEnum.age.name, LookupTypeEnum.gender.name):
+                                                new_value.multiplicity += 1
+        
+    # adjust percentage dimensions by dividing by multiplicity
+    for department in new_all_data_departments:
+        for phase in department.phases:
+            if phase.phase_num == 0:
+                for section in phase.sections:
+                    if section.section_type == SectionEnum.targets.name:
+                        continue
+                    for metric in section.metrics:
+                        for dimension in metric.dimensions:
+                            if dimension.lookup in (LookupTypeEnum.age.name, LookupTypeEnum.gender.name):
+                                for value in dimension.values:
+                                    if value.multiplicity > 0:
+                                        value.value /= value.multiplicity
+                                        value.multiplicity = 1
+                                            
+    return new_all_data_departments
+
 
 def compute_breakdowns(all_data_departments: list[Department]):
     """Compute breakdowns by the different demographic dimensions"""
@@ -1002,6 +1108,11 @@ def compute_breakdowns(all_data_departments: list[Department]):
         total_provincial[abbreviation] = [0] * number_of_phases
     total_unknown_province = [0] * number_of_phases
 
+    merged_departments = merge_phases(all_data_departments, number_of_phases-1)
+    # print(merged_departments[0].to_json(indent=2))
+    import pprint
+    pprint.pprint(merged_departments)
+    print("FINISHED MERGING")
     for department in all_data_departments:
 
         for phase in department.phases:
