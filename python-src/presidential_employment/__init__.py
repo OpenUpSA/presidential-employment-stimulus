@@ -1051,6 +1051,7 @@ def merge_phases(all_data_departments: list[Department], sprf_target: int, dwpi_
         new_all_data_departments.append(new_department)
         for phase in department.phases:
             if phase.phase_num > max_phase_num:
+                phase = copy.deepcopy(phase)
                 phase.phase_num = 1
                 new_department.phases.append(phase)
             else:
