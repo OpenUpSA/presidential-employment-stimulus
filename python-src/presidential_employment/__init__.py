@@ -1,6 +1,6 @@
 import copy
+import pprint  # we used this for debugging, so the module is not always used by production code
 from calendar import day_abbr
-from pprint import PrettyPrinter
 from typing import Callable
 
 import pandas as pd
@@ -573,7 +573,10 @@ def compute_all_data_departments(
     universities_df,
     leads,
     paragraphs,
-    department_budget_targets
+    department_budget_targets,
+    opportunity_targets_df: list[pd.DataFrame],
+    dpwi_target_row: int,
+    sprf_row: list[int],
 ):
     """Compute all_data_departments, which summarises programmes for all departments
     (what will become the department tabs)"""
@@ -987,7 +990,34 @@ def compute_all_data_departments(
         abbrev = department_name_to_abbreviation[dept.name]
         abbrev_to_name[abbrev] = dept.name
 
-    return all_data_departments
+
+    sprf_targets = []
+    dpwi_target = 0
+    for department in all_data_departments:
+        # SPECIAL CASE CODE
+        if department.name == "Agriculture, Land Reform and Rural Development":
+            # DALLRD has a single programme in phases 1 and 2 but it is represented using multiple metrics
+            # - the total target has its own special row in the targets sheet
+            for phase in department.phases:
+                if phase.phase_num == 0 or phase.phase_num == 1:
+                    sprf_target = int(opportunity_targets_df[phase.phase_num].iloc[sprf_row[phase.phase_num], 2])
+                    sprf_targets.append(sprf_target)
+                    section = find_section(phase.sections, SectionEnum.targets.name)
+                    section.value_target = sprf_target
+        elif department.name == "Public Works and Infrastructure":
+            # DPWI has two programmes in phase 1: the "Graduate programmes (Property Management Trading Entity)"
+            # and "Project Administrators". The first of these is represented through multiple metrics
+            # and the second one did not have a target. So the total target is represented in the targets sheet
+            # by the entry for the "Graduate programmes (Property Management Trading Entity)"
+            for phase in department.phases:
+                if phase.phase_num == 0:
+                    section = find_section(phase.sections, SectionEnum.targets.name)
+                    dpwi_target = opportunity_targets_df[phase.phase_num].iloc[dpwi_target_row, 2]
+                    section.value_target = dpwi_target
+                    
+
+    return (all_data_departments, sprf_targets, dpwi_target)
+
 
 def filter_departments_by_max_phase(all_data_departments: list[Department], phase: int) -> list[Department]:
     """Filter out departments that don't have a phase <= phase"""
@@ -1010,7 +1040,7 @@ def find_dimension(dimensions: list[Dimension], dimension_lookup: str):
         return None
 
 
-def merge_phases(all_data_departments: list[Department], last_phase: int) -> list[Department]:
+def merge_phases(all_data_departments: list[Department], sprf_target: int, dwpi_target: int, last_phase: int) -> list[Department]:
     max_phase_num = last_phase - 1
     # create synthetic metrics that contain all of the programmes in a section, summed across phases
     new_all_data_departments: list[Department] = []
@@ -1021,6 +1051,7 @@ def merge_phases(all_data_departments: list[Department], last_phase: int) -> lis
         new_all_data_departments.append(new_department)
         for phase in department.phases:
             if phase.phase_num > max_phase_num:
+                phase.phase_num = 1
                 new_department.phases.append(phase)
             else:
                 new_phase.month = phase.month
@@ -1044,7 +1075,8 @@ def merge_phases(all_data_departments: list[Department], last_phase: int) -> lis
                                 new_section.metrics.append(new_metric)
                             else:
                                 new_metric = new_metrics_by_name[metric.name]
-                                new_metric.value += metric.value
+                                if metric.value != -1:
+                                    new_metric.value += metric.value
                                 if metric.value_target != -1:
                                     new_metric.value_target += metric.value_target
                     else:
@@ -1059,6 +1091,13 @@ def merge_phases(all_data_departments: list[Department], last_phase: int) -> lis
                             new_metric.value += metric.value
                             if metric.value_target != -1:
                                 new_metric.value_target += metric.value_target
+                            # SPECIAL CASE code: The DALLRD and DWPI metrics for phases 1 and 2 don't have target values, so they need to be inserted
+                            # this code gets run once per metric but doesn't need to add up a total - there is one target for the consolidated
+                            # section total
+                            if department.name == "Agriculture, Land Reform and Rural Development" and section.section_type == SectionEnum.livelihoods.name:
+                                new_metric.value_target = sprf_target
+                            elif department.name == "Public Works and Infrastructure" and section.section_type == SectionEnum.job_opportunities.name:
+                                new_metric.value_target = dwpi_target
                             for dimension in metric.dimensions:
                                if dimension.lookup in (LookupTypeEnum.age.name, LookupTypeEnum.province.name, LookupTypeEnum.gender.name):
                                       if (new_dimension := find_dimension(new_metric.dimensions, dimension.lookup)) is None:
@@ -1108,11 +1147,6 @@ def compute_breakdowns(all_data_departments: list[Department]):
         total_provincial[abbreviation] = [0] * number_of_phases
     total_unknown_province = [0] * number_of_phases
 
-    merged_departments = merge_phases(all_data_departments, number_of_phases-1)
-    # print(merged_departments[0].to_json(indent=2))
-    import pprint
-    pprint.pprint(merged_departments)
-    print("FINISHED MERGING")
     for department in all_data_departments:
 
         for phase in department.phases:
@@ -1177,11 +1211,9 @@ def compute_breakdowns(all_data_departments: list[Department]):
     )
 
 
-def compute_programmes_by_type(
-    all_data_departments: list[Department], opportunity_achievements_df, opportunity_targets_df,
-    dpwi_target_row, sprf_phase1_row, sprf_phase2_row
-):
-    """Compute programmes_by_type, which is an overview of programmes by the opportunity type"""
+def compute_programmes_by_type(all_data_departments: list[Department]):
+    """Compute programmes_by_type, which is an overview of programmes by the opportunity type
+    """
     # what we need
     # - Total budget
     # - Total beneficiaries
@@ -1200,10 +1232,8 @@ def compute_programmes_by_type(
     # for Overview we want top level info (and OverviewSection) with a total value per phase per section
     #
     # and then for departments we want a dictionary of department_name to MultiMetricValue (2 values, 1 per phase)
-    #
-    # SPECIAL CASE CODE:
-    # Department of Public Works and Infrastructure has a programme in phase 1 that has only got an overall target.
-    # The row that this is found on is dpwi_target_row
+    
+    # NOTE: for the purposes of this function we're just computing across the phases in the "merged" all_data_departments
     programmes_by_type = {
         SectionEnum.job_opportunities.name: dict(
             [(i, {}) for i in range(number_of_phases)]
@@ -1259,9 +1289,9 @@ def compute_programmes_by_type(
     
     for department in all_data_departments:
         for phase in department.phases:
-            achievements_df = (
-                opportunity_achievements_df[phase.phase_num].iloc[3:, 1:].set_index(1)
-            )
+            # achievements_df = (
+            #     opportunity_achievements_df[phase.phase_num].iloc[3:, 1:].set_index(1)
+            # )
             section_value = 0
             section_target_value = 0
             for section in phase.sections:
@@ -1282,12 +1312,13 @@ def compute_programmes_by_type(
                     #                 continue
                     # if phase.phase_num == 1 and section.section_type == SectionEnum.job_opportunities.name:
                     #     print(department.sheet_name, metric.value_target, metric.value)
-                    if metric.name not in achievements_df.index:
-                        print(
-                            "Metric not found in achievements_df",
-                            department.name,
-                            metric.name,
-                        )
+                    # NOTE: this disabled because we now merge the phases - PvH 2024-02-11
+                    # if metric.name not in achievements_df.index:
+                    #     print(
+                    #         "Metric not found in achievements_df",
+                    #         department.name,
+                    #         metric.name,
+                    #     )
                     total_value += metric.value
                     if metric.value_target > 0:
                         total_target_value += metric.value_target
@@ -1300,28 +1331,8 @@ def compute_programmes_by_type(
                                     month
                                 ] += value
 
-                if (
-                    department.name == "Agriculture, Land Reform and Rural Development"
-                    and section.section_type == SectionEnum.livelihoods.name
-                ):
-                    # SPECIAL CASE CODE
-                    # this programme from DALRRD only has an overall target,
-                    # not one target per sub-programme
-                    if phase.phase_num == 0:
-                        dallrd_target_row = sprf_phase1_row
-                    elif phase.phase_num == 1:
-                        dallrd_target_row = sprf_phase2_row
-                    total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[dallrd_target_row, 2]
-                    )
-                elif (
-                    department.name == "Public Works and Infrastructure"
-                    and section.section_type == SectionEnum.job_opportunities.name
-                ):
-                    # this is a phase 1 programme that just has an overall target
-                    total_target_value = int(
-                        opportunity_targets_df[phase.phase_num].iloc[dpwi_target_row, 2]
-                    )
+                # SPECIAL CASE code removed here because we now look up the target values
+                # when we compute all_data_departments
                 programmes_by_type[section.section_type][phase.phase_num][
                     department.sheet_name
                 ] = {
@@ -1407,8 +1418,9 @@ def sort_dept_metric(element):
 
 
 def compute_overview_breakdown(
-    programmes_by_type_summarised, achievements_by_type_by_month, provincial_breakdown: dict[str, dict[str, list[int]]]
+    programmes_by_type_summarised, achievements_by_type_by_month, provincial_breakdown: dict[str, dict[str, list[int]]], number_of_phases: int
 ):
+    
     breakdown_metrics = [
         PhasedMetric(
             name=section_titles[section_name],
@@ -1518,44 +1530,31 @@ def compute_overview_metrics(
     total_female,
     total_beneficiaries,
     total_unknown_gender,
-    opportunity_targets_df,
     programmes_by_type,
     total_youth,
     total_unknown_youth,
     department_budget_targets,
-    total_budgets
+    total_budgets,
+    number_of_phases: int
 ):
     # metrics breakdown
-
-    female_by_phases = dict(
-        [
-            (
-                phase_num,
-                total_female[phase_num]
-                / (total_beneficiaries[phase_num] - total_unknown_gender[phase_num]),
-            )
-            for phase_num in range(number_of_phases)
-        ]
-    )
-    overall_female_perc = sum(female_by_phases.values()) / 2
+    female_by_phases = {}
+    phase_total_budgets = []
+    for i, phase_num in enumerate(range(number_of_phases)):
+        female_by_phases[phase_num] = total_female[phase_num] / (total_beneficiaries[phase_num] - total_unknown_gender[phase_num])
+        phase_total_budgets.append(sum(department_budget_targets[i].values()))
+        assert total_budgets[i] == phase_total_budgets[i], f"Budget in Phase {phase_num} spreadsheet is not the same as computed budget: {total_budgets[i]} vs {phase_total_budgets[i]}" 
+    
+    overall_female_perc = sum(female_by_phases.values()) / number_of_phases
 
     overview_metrics = []
-
-    phase_1_budget = sum(department_budget_targets[0].values())
-    phase_2_budget = sum(department_budget_targets[1].values())
-    phase_3_budget = sum(department_budget_targets[2].values())
-    
-    assert total_budgets[0] == phase_1_budget, f"Budget in Phase 1 spreadsheet is not the same as computed budget: {total_budgets[0]} vs {phase_1_budget}"
-    assert total_budgets[1] == phase_2_budget, f"Budget in Phase 2 spreadsheet is not the same as computed budget: {total_budgets[1]} vs {phase_2_budget}"
-    assert total_budgets[2] == phase_3_budget, f"Budget in Phase 3 spreadsheet is not the same as computed budget: {total_budgets[2]} vs {phase_3_budget}"
-
 
     total_budget = PhasedMetric(
         name="Total budget allocated",
         metric_type=MetricTypeEnum.currency.name,
         viz=VizTypeEnum.full.name,
-        total_value=phase_1_budget + phase_2_budget + phase_3_budget,
-        value=[phase_1_budget, phase_2_budget, phase_3_budget],
+        total_value=sum(phase_total_budgets),
+        value=phase_total_budgets,
         value_target=[None] * number_of_phases,
         dimensions=[],
     )
@@ -1583,12 +1582,9 @@ def compute_overview_metrics(
         metric_type=MetricTypeEnum.count.name,
         viz=VizTypeEnum.full.name,
         total_value=sum(achievements_by_phase_value.values()),
-        value=[achievements_by_phase_value[0], achievements_by_phase_value[1]],
+        value=achievements_by_phase_value,
         total_value_target=sum(achievements_by_phase_value_target.values()),
-        value_target=[
-            achievements_by_phase_value_target[0],
-            achievements_by_phase_value_target[1],
-        ],
+        value_target=achievements_by_phase_value_target,
         dimensions=[],
     )
     overview_metrics.append(achievements)
@@ -1604,7 +1600,7 @@ def compute_overview_metrics(
     )
     overview_metrics.append(gender_breakdown)
 
-    youth_by_phases = value = dict(
+    youth_by_phases = dict(
         [
             (
                 phase_num,
@@ -1614,7 +1610,7 @@ def compute_overview_metrics(
             for phase_num in range(number_of_phases)
         ]
     )
-    overall_youth_perc = sum(youth_by_phases.values()) / 2
+    overall_youth_perc = sum(youth_by_phases.values()) / number_of_phases
     youth_breakdown = PhasedMetric(
         name="Total youth beneficiaries",
         metric_type="targets_count",
