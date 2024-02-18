@@ -19,6 +19,7 @@ class MetricValue:
     key: str
     value: Union[float, int]
     value_target: Union[float, int] = None
+    multiplicity: int = 1  # Used when merging percentages
 
 
 @dataclass_json
@@ -111,7 +112,7 @@ class Beneficiary:
 class Phase:
     phase_num: int  # the phase number, starting at 0
     month: int  # the month of latest data
-    target_lines: List[int]
+    target_lines: List[int]  # TODO: document what these attributes are used for
     achievement_lines: List[int]
     sections: List[Section]
     implementation_details: List[ImplementationDetail]
