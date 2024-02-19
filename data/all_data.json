@@ -31,9 +31,9 @@
             "value": [
               23588178000.0,
               9000000000.0,
-              9000000000.0
+              9400000000.0
             ],
-            "total_value": 41588178000.0,
+            "total_value": 41988178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -51,14 +51,14 @@
               865568,
               656655
             ],
-            "total_value": 1936455,
+            "total_value": 1845621,
             "viz": "full",
             "dimensions": [],
             "value_target": [
               1051491.0,
               624959.0
             ],
-            "total_value_target": 2059250.0,
+            "total_value_target": 2046250.0,
             "implementation_detail": null
           },
           {
@@ -67,9 +67,9 @@
             "value": {
               "0": 0.6543511519906997,
               "1": 0.655720665817164,
-              "2": 0.6077303606792082
+              "2": 0.6100839947937391
             },
-            "total_value": 0.958901089243536,
+            "total_value": 0.9600779063008015,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -82,9 +82,9 @@
             "value": {
               "0": 0.8390331276224151,
               "1": 0.8215926512865359,
-              "2": 0.8615447252108104
+              "2": 0.8638960298887937
             },
-            "total_value": 1.2610852520598808,
+            "total_value": 1.2622609043988724,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -95,12 +95,12 @@
         "value": {
           "0": 865568,
           "1": 656655,
-          "2": 414232
+          "2": 323398
         },
         "value_target": {
           "0": 1051491.0,
           "1": 624959.0,
-          "2": 382800.0
+          "2": 369800.0
         }
       },
       {
@@ -113,9 +113,9 @@
             "value": {
               "0": 678507,
               "1": 516195,
-              "2": 374661
+              "2": 283827
             },
-            "total_value": 1569363,
+            "total_value": 1478529,
             "viz": "full",
             "dimensions": [
               {
@@ -140,13 +140,11 @@
                     "key": "DTIC",
                     "value": {
                       "0": 10499,
-                      "1": 65033,
-                      "2": 90834
+                      "1": 65033
                     },
                     "value_target": {
                       "0": 8000.0,
-                      "1": 50000.0,
-                      "2": 35000.0
+                      "1": 50000.0
                     }
                   },
                   {
@@ -186,13 +184,11 @@
                     "key": "DCOGTA",
                     "value": {
                       "0": 13132,
-                      "1": 5974,
-                      "2": 0
+                      "1": 5974
                     },
                     "value_target": {
                       "0": 36818.0,
-                      "1": 0,
-                      "2": 0
+                      "1": 0
                     }
                   },
                   {
@@ -243,13 +239,11 @@
                     "key": "DSI",
                     "value": {
                       "0": 1576,
-                      "1": 1833,
-                      "2": 0
+                      "1": 1833
                     },
                     "value_target": {
                       "0": 1900.0,
-                      "1": 1650.0,
-                      "2": 0
+                      "1": 1650.0
                     }
                   },
                   {
@@ -276,13 +270,11 @@
                     "key": "Tourism",
                     "value": {
                       "0": 941,
-                      "1": 222,
-                      "2": 0
+                      "1": 222
                     },
                     "value_target": {
                       "0": 1064.0,
-                      "1": 0,
-                      "2": 0
+                      "1": 0
                     }
                   },
                   {
@@ -376,67 +368,67 @@
                   },
                   {
                     "key": "202112",
-                    "value": 832080,
+                    "value": 831113,
                     "value_target": null
                   },
                   {
                     "key": "202201",
-                    "value": 843330,
+                    "value": 842210,
                     "value_target": null
                   },
                   {
                     "key": "202202",
-                    "value": 844544,
+                    "value": 842817,
                     "value_target": null
                   },
                   {
                     "key": "202203",
-                    "value": 1528703,
+                    "value": 1526917,
                     "value_target": null
                   },
                   {
                     "key": "202204",
-                    "value": 1108321,
+                    "value": 1106535,
                     "value_target": null
                   },
                   {
                     "key": "202205",
-                    "value": 1163613,
+                    "value": 1161827,
                     "value_target": null
                   },
                   {
                     "key": "202206",
-                    "value": 1176435,
+                    "value": 1174472,
                     "value_target": null
                   },
                   {
                     "key": "202207",
-                    "value": 1226973,
+                    "value": 1199741,
                     "value_target": null
                   },
                   {
                     "key": "202208",
-                    "value": 1285211,
+                    "value": 1243019,
                     "value_target": null
                   },
                   {
                     "key": "202209",
-                    "value": 1285211,
+                    "value": 1243019,
                     "value_target": null
                   },
                   {
                     "key": "202210",
-                    "value": 1285211,
+                    "value": 1243019,
                     "value_target": null
                   },
                   {
                     "key": "202211",
-                    "value": 1303801,
+                    "value": 1252314,
                     "value_target": null
                   },
                   {
                     "key": "202212",
-                    "value": 1345423,
+                    "value": 1286139,
                     "value_target": null
                   },
                   {
@@ -451,52 +443,52 @@
                   },
                   {
                     "key": "202303",
-                    "value": 1532720,
+                    "value": 1458578,
                     "value_target": null
                   },
                   {
                     "key": "202304",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202305",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202306",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202307",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202308",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202309",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202310",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202311",
-                    "value": 509758,
+                    "value": 436696,
                     "value_target": null
                   },
                   {
                     "key": "202312",
-                    "value": 884419,
+                    "value": 720523,
                     "value_target": null
                   }
                 ],
@@ -512,7 +504,7 @@
                     "value": [
                       108308,
                       64680,
-                      50464
+                      38621
                     ],
                     "value_target": null
                   },
@@ -521,7 +513,7 @@
                     "value": [
                       37717,
                       28594,
-                      22579
+                      16440
                     ],
                     "value_target": null
                   },
@@ -530,7 +522,7 @@
                     "value": [
                       102633,
                       77954,
-                      64180
+                      52958
                     ],
                     "value_target": null
                   },
@@ -539,7 +531,7 @@
                     "value": [
                       155886,
                       123957,
-                      72093
+                      64197
                     ],
                     "value_target": null
                   },
@@ -548,7 +540,7 @@
                     "value": [
                       93029,
                       68554,
-                      43730
+                      34519
                     ],
                     "value_target": null
                   },
@@ -557,7 +549,7 @@
                     "value": [
                       53559,
                       32955,
-                      24375
+                      21743
                     ],
                     "value_target": null
                   },
@@ -566,7 +558,7 @@
                     "value": [
                       16493,
                       14839,
-                      13154
+                      7348
                     ],
                     "value_target": null
                   },
@@ -575,7 +567,7 @@
                     "value": [
                       47938,
                       26533,
-                      22124
+                      16320
                     ],
                     "value_target": null
                   },
@@ -584,7 +576,7 @@
                     "value": [
                       47766,
                       54774,
-                      43763
+                      31681
                     ],
                     "value_target": null
                   }
@@ -595,9 +587,9 @@
             "value_target": {
               "0": 744858.0,
               "1": 536673.0,
-              "2": 345000.0
+              "2": 310000.0
             },
-            "total_value_target": 1626531.0,
+            "total_value_target": 1591531.0,
             "implementation_detail": null
           },
           {
@@ -626,7 +618,7 @@
                     "value_target": {
                       "0": 74626,
                       "1": 67378,
-                      "2": 0
+                      "2": 22000
                     }
                   },
                   {
@@ -763,52 +755,52 @@
                   },
                   {
                     "key": "202203",
-                    "value": 302909,
+                    "value": 294961,
                     "value_target": null
                   },
                   {
                     "key": "202204",
-                    "value": 160405,
+                    "value": 152457,
                     "value_target": null
                   },
                   {
                     "key": "202205",
-                    "value": 160405,
+                    "value": 152457,
                     "value_target": null
                   },
                   {
                     "key": "202206",
-                    "value": 160405,
+                    "value": 152457,
                     "value_target": null
                   },
                   {
                     "key": "202207",
-                    "value": 160405,
+                    "value": 152457,
                     "value_target": null
                   },
                   {
                     "key": "202208",
-                    "value": 354321,
+                    "value": 249415,
                     "value_target": null
                   },
                   {
                     "key": "202209",
-                    "value": 354321,
+                    "value": 249415,
                     "value_target": null
                   },
                   {
                     "key": "202210",
-                    "value": 354321,
+                    "value": 249415,
                     "value_target": null
                   },
                   {
                     "key": "202211",
-                    "value": 354321,
+                    "value": 249415,
                     "value_target": null
                   },
                   {
                     "key": "202212",
-                    "value": 354321,
+                    "value": 249415,
                     "value_target": null
                   },
                   {
@@ -823,7 +815,7 @@
                   },
                   {
                     "key": "202303",
-                    "value": 425429,
+                    "value": 320523,
                     "value_target": null
                   },
                   {
@@ -967,9 +959,9 @@
             "value_target": {
               "0": 243891.0,
               "1": 88286.0,
-              "2": 37800.0
+              "2": 59800.0
             },
-            "total_value_target": 369977.0,
+            "total_value_target": 391977.0,
             "implementation_detail": null
           },
           {
@@ -3593,623 +3585,7 @@
             {
               "name": "Livelihoods supported",
               "section_type": "livelihoods",
-              "metrics": [
-                {
-                  "name": "Vegetables and Fruits",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 3497,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 3497,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 3497,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 3497,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 3497,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 61027,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Maize/soya/sugar/other production",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 1069,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 1069,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 1069,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 1069,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 1069,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 12388,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Poultry: Layers and Boilers",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 1746,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 1746,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 1746,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 1746,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 1746,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 15910,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Small livestock",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 1030,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 1030,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 1030,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 1030,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 1030,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 10602,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Large livestock",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Livelihoods supported by province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 4979,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Livelihoods supported by gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Livelihoods supported going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                }
-              ],
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -5319,7 +4695,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 6199000000.0,
+                  "value_target": 6463000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -6389,235 +5765,6 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
-        },
-        {
-          "phase_num": 2,
-          "month": "202303",
-          "target_lines": [],
-          "achievement_lines": [],
-          "sections": [
-            {
-              "name": "Programme targets for this department",
-              "section_type": "targets",
-              "metrics": [
-                {
-                  "name": "Budget",
-                  "metric_type": "currency",
-                  "value": -1,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Beneficiaries",
-                  "metric_type": "count",
-                  "value": 0.0,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs created",
-              "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "MISA: Innovation in Waste Management",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 1533,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 1200,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 1198,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 1200,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 843,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 9295,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 9295,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 5974,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "MISA: Innovation in Waste Management",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Livelihoods supported",
-              "section_type": "livelihoods",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs retained",
-              "section_type": "jobs_retain",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            }
-          ],
-          "implementation_details": [],
-          "beneficiaries": []
         }
       ],
       "sheet_name": "DCOGTA",
@@ -6820,7 +5967,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 304934000.0,
+                  "value_target": 372234000.0,
                   "implementation_detail": null
                 },
                 {
@@ -6838,135 +5985,7 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "Employment counseling to facilitate placement of workseekers",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 177,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 213,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 215,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Employment counseling to facilitate placement of workseekers",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                }
-              ],
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -9549,7 +8568,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 194500000.0,
+                  "value_target": 209225000.0,
                   "implementation_detail": null
                 },
                 {
@@ -10068,7 +9087,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 800000000.0,
+                  "value_target": 855600000.0,
                   "implementation_detail": null
                 },
                 {
@@ -13152,443 +12171,6 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
-        },
-        {
-          "phase_num": 2,
-          "month": "202303",
-          "target_lines": [],
-          "achievement_lines": [],
-          "sections": [
-            {
-              "name": "Programme targets for this department",
-              "section_type": "targets",
-              "metrics": [
-                {
-                  "name": "Budget",
-                  "metric_type": "currency",
-                  "value": -1,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Beneficiaries",
-                  "metric_type": "count",
-                  "value": 0.0,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs created",
-              "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "Enviro-Champs DUCT",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 356,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 356,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 618,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 622,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Enviro-Champs DUCT",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                },
-                {
-                  "name": "Water Graduate Programme",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 611,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 944,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Water Graduate Programme",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                },
-                {
-                  "name": "Experiential Training Programme",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 153,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 198,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 257,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 267,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Experiential Training Programme",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Livelihoods supported",
-              "section_type": "livelihoods",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs retained",
-              "section_type": "jobs_retain",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            }
-          ],
-          "implementation_details": [],
-          "beneficiaries": []
         }
       ],
       "sheet_name": "DSI",
@@ -14504,15 +13086,32 @@
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.32,
+                          "value_target": null
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.68,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.56,
+                          "value_target": null
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -18245,7 +16844,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 440000000.0,
+                  "value_target": 462000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -18263,354 +16862,7 @@
             {
               "name": "Jobs created",
               "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "District Six museum",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 54,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 71,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 54,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "District Six museum",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                },
-                {
-                  "name": "Hip Hop Museum",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 811,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 811,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 811,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Hip Hop Museum",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                }
-              ],
+              "metrics": [],
               "value": null,
               "value_target": null
             },
@@ -18773,32 +17025,15 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.52,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.47,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.62,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 22000.0,
@@ -18963,32 +17198,15 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.49,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.5,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.98,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 11000.0,
@@ -19153,32 +17371,15 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.23,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.76,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.56,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 3000.0,
@@ -19343,32 +17544,15 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.46,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.53,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.99,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 500.0,
@@ -19533,32 +17717,15 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.36,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.64,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.67,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 1300.0,
@@ -20270,189 +18437,6 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
-        },
-        {
-          "phase_num": 2,
-          "month": "202303",
-          "target_lines": [],
-          "achievement_lines": [],
-          "sections": [
-            {
-              "name": "Programme targets for this department",
-              "section_type": "targets",
-              "metrics": [
-                {
-                  "name": "Budget",
-                  "metric_type": "currency",
-                  "value": -1,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Beneficiaries",
-                  "metric_type": "count",
-                  "value": 0.0,
-                  "dimensions": [],
-                  "value_target": 0.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs created",
-              "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "Support to 40 provincial state-owned tourism attractions",
-                  "metric_type": "count",
-                  "value": 0,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 222,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 0,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [],
-                      "data_missing": true
-                    }
-                  ],
-                  "value_target": 0.0,
-                  "implementation_detail": {
-                    "programme_name": "Support to 40 provincial state-owned tourism attractions",
-                    "status": "OnTrack",
-                    "detail": ""
-                  }
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Livelihoods supported",
-              "section_type": "livelihoods",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs retained",
-              "section_type": "jobs_retain",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            }
-          ],
-          "implementation_details": [],
-          "beneficiaries": []
         }
       ],
       "sheet_name": "Tourism",
@@ -20935,252 +18919,6 @@
                     "programme_name": "Social Employment Fund",
                     "status": "OnTrack",
                     "detail": "The Industrial Development Corporation appointed 28 Strategic Implementing Partners (SIPs) in this period, with good sectoral and provincial coverage."
-                  }
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Livelihoods supported",
-              "section_type": "livelihoods",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs retained",
-              "section_type": "jobs_retain",
-              "metrics": [],
-              "value": null,
-              "value_target": null
-            }
-          ],
-          "implementation_details": [],
-          "beneficiaries": []
-        },
-        {
-          "phase_num": 2,
-          "month": "202303",
-          "target_lines": [],
-          "achievement_lines": [],
-          "sections": [
-            {
-              "name": "Programme targets for this department",
-              "section_type": "targets",
-              "metrics": [
-                {
-                  "name": "Budget",
-                  "metric_type": "currency",
-                  "value": -1,
-                  "dimensions": [],
-                  "value_target": 861566000.0,
-                  "implementation_detail": null
-                },
-                {
-                  "name": "Beneficiaries",
-                  "metric_type": "count",
-                  "value": 90834.0,
-                  "dimensions": [],
-                  "value_target": 35000.0,
-                  "implementation_detail": null
-                }
-              ],
-              "value": null,
-              "value_target": null
-            },
-            {
-              "name": "Jobs created",
-              "section_type": "job_opportunities",
-              "metrics": [
-                {
-                  "name": "Social Employment Fund",
-                  "metric_type": "count",
-                  "value": 90834,
-                  "dimensions": [
-                    {
-                      "name": "Opportunities in post by Province",
-                      "viz": "bar",
-                      "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 11843,
-                          "value_target": null
-                        },
-                        {
-                          "key": "FS",
-                          "value": 4606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "GP",
-                          "value": 9211,
-                          "value_target": null
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 7896,
-                          "value_target": null
-                        },
-                        {
-                          "key": "LP",
-                          "value": 9211,
-                          "value_target": null
-                        },
-                        {
-                          "key": "MP",
-                          "value": 2632,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NW",
-                          "value": 4606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "NC",
-                          "value": 4606,
-                          "value_target": null
-                        },
-                        {
-                          "key": "WC",
-                          "value": 11185,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Employed over time",
-                      "viz": "line",
-                      "lookup": "time",
-                      "values": [
-                        {
-                          "key": "202110",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202111",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202112",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202201",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202202",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202203",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202204",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202205",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202206",
-                          "value": 0,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202207",
-                          "value": 25269,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202208",
-                          "value": 40229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202209",
-                          "value": 40229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202210",
-                          "value": 40229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202211",
-                          "value": 40229,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202212",
-                          "value": 47408,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202303",
-                          "value": 65033,
-                          "value_target": null
-                        },
-                        {
-                          "key": "202312",
-                          "value": 90834,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities by Gender",
-                      "viz": "two_value",
-                      "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.35,
-                          "value_target": null
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.65,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    },
-                    {
-                      "name": "Opportunities going to 18-35 year olds",
-                      "viz": "percentile",
-                      "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.89,
-                          "value_target": null
-                        }
-                      ],
-                      "data_missing": false
-                    }
-                  ],
-                  "value_target": 35000.0,
-                  "implementation_detail": {
-                    "programme_name": "Social Employment Fund",
-                    "status": "OnTrack",
-                    "detail": "The Industrial Development Corporation now has 37 Strategic Implementing Partners (SIPs) in turn supporting over 1,000 community based organisations, with good sectoral and spatial coverage."
                   }
                 }
               ],
@@ -22047,7 +19785,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 200000000.0,
+                  "value_target": 250000000.0,
                   "implementation_detail": null
                 },
                 {
