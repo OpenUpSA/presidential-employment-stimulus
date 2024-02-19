@@ -17,8 +17,9 @@ const $phaseContentPaneTemplate = $(PHASE_CONTENT_PANE_SELECTOR).first().clone(t
 
 
 export class Phases {
-    constructor($parent) {
+    constructor($parent, $phaseDates) {
         this._$parent = $parent;
+        this._$phaseDates = $phaseDates;
         this._$phasesMenu = null;
         this._$phasesContent = null;
         this._$phasesContentPane = null;
@@ -31,7 +32,7 @@ export class Phases {
 
         $phaseMenuItem.attr('data-w-tab','Phase ' + (phaseIndex + 1));
 
-        $phaseMenuItem.find('.phase-tab__text').text(phaseIndex == 0 ? 'October 2020 - March 2022' : 'April 2022 - March 2023');
+        $phaseMenuItem.find('.phase-tab__text').text(this._$phaseDates[phaseIndex][0] + ' - ' + this._$phaseDates[phaseIndex][1]);
 
         $phaseMenuItem.removeClass(SELECTED_PHASE_MENU_ITEM_CLASS);
 

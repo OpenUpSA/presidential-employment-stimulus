@@ -181,4 +181,6 @@ if __name__ == '__main__':
     # all_data.departments.sort(key=operator.attrgetter("sheet_name"))
     open(output_filename, "w").write(all_data.to_json(indent=2))
     # print(all_data.to_json(indent=2))
+    phase_dates_file = args.output_dir + "/" + "phase_dates.json"
+    open(phase_dates_file, "w").write(json.dumps(phase_dates, indent=2))
     print("DONE")    

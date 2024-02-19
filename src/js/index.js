@@ -46,11 +46,13 @@ Promise.all([
   d3.json('data/beneficiaries.json'),
   d3.json('data/lookups.json'),
   d3.json('data/metric_titles.json'),
+  d3.json('data/phase_dates.json'),
 ]).then(([
   data,
   beneficiaries,
   lookups,
   metric_titles,
+  phaseDates,
 ]) => {
 
   const merged = [data.overview, ...data.departments];
@@ -118,7 +120,10 @@ Promise.all([
     let phases;
 
     if(tabData.name != 'Programme overview') {
-      phases = new Phases(tab.$container);
+      const phaseDateStrings = phaseDates.map((datePair) => datePair.map(
+          (date) => lookups.time[parseInt(date, 10)]
+      ));
+      phases = new Phases(tab.$container, phaseDateStrings);
     }
 
     const phasesArr = tabData.phases || [];
