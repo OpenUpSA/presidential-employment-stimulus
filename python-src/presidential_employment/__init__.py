@@ -536,7 +536,7 @@ def make_dim(
     else:
         nonzero = False
         for key in list(row)[col_start:col_end]:
-            value = int(row.loc[:, key])
+            value = int(row.loc[:, key].iloc[0])
             if value > 0:
                 nonzero = True
             values.append(MetricValue(key=key_lookup(key), value=value))
