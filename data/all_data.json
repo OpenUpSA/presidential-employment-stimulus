@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202303",
+    "month": "202312",
     "name": "Programme overview",
     "lead": "Building a society that works",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, the creative sector and youth enterprises. At present, funding for the Presidential Employment Stimulus is confirmed to March 2024.",
@@ -19,7 +19,7 @@
       ]
     ],
     "footer_header": "Disclaimer",
-    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting', this is corrected in the cumulative number of opportunities reported. ",
+    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting', this is corrected in the cumulative number of opportunities reported.",
     "sections": [
       {
         "name": "Programme Achievements",
@@ -29,10 +29,10 @@
             "name": "Total budget allocated",
             "metric_type": "currency",
             "value": [
-              23588178000.0,
-              9000000000.0
+              32588178000.0,
+              9400000000.0
             ],
-            "total_value": 32588178000.0,
+            "total_value": 41988178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -1416,7 +1416,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2841,7 +2841,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3948,7 +3948,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -4017,7 +4017,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "203312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -4747,7 +4747,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "203312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5229,7 +5229,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "203312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5512,7 +5512,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5609,7 +5609,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5664,7 +5664,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5727,7 +5727,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6170,7 +6170,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6427,7 +6427,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6621,7 +6621,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6684,7 +6684,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8570,7 +8570,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9219,7 +9219,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9529,7 +9529,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9853,7 +9853,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -10102,7 +10102,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -10385,7 +10385,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12044,7 +12044,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12949,7 +12949,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -13652,7 +13652,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14206,7 +14206,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14455,7 +14455,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14738,7 +14738,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -17404,7 +17404,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -18952,7 +18952,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -20011,7 +20011,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -20529,7 +20529,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -20786,7 +20786,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21073,7 +21073,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21350,7 +21350,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21645,7 +21645,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22014,7 +22014,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22263,7 +22263,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202303",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [

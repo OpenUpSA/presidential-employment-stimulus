@@ -272,9 +272,9 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         )
 
     # description_df: the "Department Descriptions" tab
-    # TODO: figure out why we use phase2_excel for this - is it a superset of phase 1's department? In any case, the departments in phase 3 match those in phase 2
+    # TODO: figure out why we use phase3_excel for this - is it a superset of phase 1's department? In any case, the departments in phase 3 match those in phase 2
     description_df = pd.read_excel(
-        phase2_excel,
+        phase3_excel,
         sheet_name="Department Descriptions",
         names=["key", "lead", "paragraph", "Data captured until"],
         usecols=range(4),
@@ -1040,7 +1040,8 @@ def find_dimension(dimensions: list[Dimension], dimension_lookup: str):
         return None
 
 
-def merge_phases(all_data_departments: list[Department], sprf_target: int, dwpi_target: int, last_phase: int) -> list[Department]:
+def merge_phases(all_data_departments: list[Department], sprf_target: int, dwpi_target: int, last_phase: int,
+                 department_budget_targets: list[dict[str, float]], total_budgets: list[float]) -> list[Department]:
     max_phase_num = last_phase - 1
     # create synthetic metrics that contain all of the programmes in a section, summed across phases
     new_all_data_departments: list[Department] = []
@@ -1131,8 +1132,21 @@ def merge_phases(all_data_departments: list[Department], sprf_target: int, dwpi_
                                     if value.multiplicity > 0:
                                         value.value /= value.multiplicity
                                         value.multiplicity = 1
-                                            
-    return new_all_data_departments
+
+    combined_department_budget_targets = {}                                          
+    for phase in range(last_phase):
+        # combine department budget targets for all phases but the last one
+        for department in department_budget_targets[phase]:
+            if department in combined_department_budget_targets:
+                combined_department_budget_targets[department] += department_budget_targets[phase][department]
+            else:
+                combined_department_budget_targets[department] = department_budget_targets[phase][department]
+    new_department_budget_targets = [combined_department_budget_targets, department_budget_targets[-1]] # the last phase's budget targets are unchanged
+    new_total_budgets = [0, total_budgets[-1]   ] # the last phase's total budget is unchanged
+    for phase in range(last_phase):
+        new_total_budgets[0] += total_budgets[phase]
+
+    return new_all_data_departments, new_department_budget_targets, new_total_budgets
 
 
 def compute_breakdowns(all_data_departments: list[Department]):
