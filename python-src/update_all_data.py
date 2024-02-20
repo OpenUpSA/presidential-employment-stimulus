@@ -70,7 +70,9 @@ if __name__ == '__main__':
 
     sprf_target = sum(sprf_targets)  # for the merged data, we just need the total target of phases 1 and 2
     # number_of_phases is defined in presidential_employment/__init__.py
-    merged_departments = merge_phases(all_data_departments, sprf_target, dpwi_target, number_of_phases-1)
+    merged_departments, merged_budget_targets, merged_total_budgets = merge_phases(all_data_departments, sprf_target, dpwi_target, 
+                                      number_of_phases-1,
+                                      department_budget_targets, total_budgets)
 
     # updates number of phases to match those in merged_departments
     number_of_phases = 0
@@ -161,8 +163,8 @@ if __name__ == '__main__':
     overview_metrics = compute_overview_metrics(total_female, total_beneficiaries, total_unknown_gender,
                                 programmes_by_type,
                                 total_youth, total_unknown_youth,
-                                department_budget_targets,
-                                total_budgets, number_of_phases)
+                                merged_budget_targets, merged_total_budgets,
+                                number_of_phases)
 
     ## Assemble overview and put together final combined data
     overview = compute_overview(description_df, leads, paragraphs, overview_metrics,
