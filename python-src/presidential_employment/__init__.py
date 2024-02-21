@@ -940,7 +940,7 @@ def compute_all_data_departments(
                                 value_target=target,
                                 dimensions=dimensions,
                                 implementation_detail=imp_detail,
-                            )
+                            ) 
                             metrics.append(programme_metric)
                         except IndexError as e:
                             print(
