@@ -15,7 +15,7 @@
       ],
       [
         "202304",
-        "202403"
+        "202312"
       ]
     ],
     "footer_header": "*Disclaimer",
@@ -47,9 +47,9 @@
             "metric_type": "count",
             "value": {
               "0": 1522223,
-              "1": 414232
+              "1": 440627
             },
-            "total_value": 1936455,
+            "total_value": 1962850,
             "viz": "full",
             "dimensions": [],
             "value_target": {
@@ -64,9 +64,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6558833294825769,
-              "1": 0.6194431337119257
+              "1": 0.6647339233528622
             },
-            "total_value": 0.6376632315972512,
+            "total_value": 0.6603086264177196,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -78,9 +78,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8321510950283343,
-              "1": 0.8700166494579245
+              "1": 0.9336282045955041
             },
-            "total_value": 0.8510838722431293,
+            "total_value": 0.8828896498119192,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -90,7 +90,7 @@
         ],
         "value": {
           "0": 1522223,
-          "1": 414232
+          "1": 440627
         },
         "value_target": {
           "0": 1676430.0,
@@ -614,9 +614,9 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 284969,
-              "1": 39571
+              "1": 65966
             },
-            "total_value": 324540,
+            "total_value": 350935,
             "viz": "full",
             "dimensions": [
               {
@@ -628,7 +628,7 @@
                     "key": "DALRRD",
                     "value": {
                       "0": 161055,
-                      "1": 0
+                      "1": 26395
                     },
                     "value_target": {
                       "0": 142004,
@@ -906,7 +906,7 @@
                   },
                   {
                     "key": "202312",
-                    "value": 39571,
+                    "value": 65966,
                     "value_target": null,
                     "multiplicity": 1
                   }
@@ -922,7 +922,7 @@
                     "key": "EC",
                     "value": [
                       55918,
-                      2978,
+                      7159,
                       0
                     ],
                     "value_target": null
@@ -931,7 +931,7 @@
                     "key": "FS",
                     "value": [
                       19473,
-                      2677,
+                      5260,
                       0
                     ],
                     "value_target": null
@@ -940,7 +940,7 @@
                     "key": "GP",
                     "value": [
                       47107,
-                      12010,
+                      12148,
                       0
                     ],
                     "value_target": null
@@ -949,7 +949,7 @@
                     "key": "KZN",
                     "value": [
                       92974,
-                      5225,
+                      11504,
                       0
                     ],
                     "value_target": null
@@ -958,7 +958,7 @@
                     "key": "LP",
                     "value": [
                       53479,
-                      5077,
+                      9036,
                       0
                     ],
                     "value_target": null
@@ -967,7 +967,7 @@
                     "key": "MP",
                     "value": [
                       38940,
-                      2757,
+                      4982,
                       0
                     ],
                     "value_target": null
@@ -976,7 +976,7 @@
                     "key": "NC",
                     "value": [
                       10650,
-                      1343,
+                      3288,
                       0
                     ],
                     "value_target": null
@@ -985,7 +985,7 @@
                     "key": "NW",
                     "value": [
                       28875,
-                      2571,
+                      5639,
                       0
                     ],
                     "value_target": null
@@ -994,7 +994,7 @@
                     "key": "WC",
                     "value": [
                       17061,
-                      4933,
+                      6950,
                       0
                     ],
                     "value_target": null
@@ -3988,7 +3988,207 @@
             {
               "name": "Livelihoods supported",
               "section_type": "livelihoods",
-              "metrics": [],
+              "metrics": [
+                {
+                  "name": "Subsistence Producer Relief Fund",
+                  "metric_type": "count",
+                  "value": 26395,
+                  "dimensions": [
+                    {
+                      "name": "Livelihoods supported by province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 4181,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "FS",
+                          "value": 2583,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "GP",
+                          "value": 138,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 6279,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "LP",
+                          "value": 3959,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "MP",
+                          "value": 2225,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "NW",
+                          "value": 3068,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "NC",
+                          "value": 1945,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "WC",
+                          "value": 2017,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202110",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202203",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202204",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202205",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202206",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202207",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202208",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202209",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202210",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202211",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202212",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202303",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202312",
+                          "value": 26395,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Livelihoods supported by gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [],
+                      "data_missing": true
+                    },
+                    {
+                      "name": "Livelihoods supported going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [],
+                      "data_missing": true
+                    }
+                  ],
+                  "value_target": 0.0,
+                  "implementation_detail": {
+                    "programme_name": "Subsistence Producer Relief Fund",
+                    "status": "OnTrack",
+                    "detail": "DALRRD has continued to use roll-over funds to issue vouchers. They are also working with provincial departments and community-based organisation to provide a range of forms of complementary support to farmers, with area-based support groups."
+                  }
+                }
+              ],
               "value": null,
               "value_target": null
             },
@@ -4000,13 +4200,7 @@
               "value_target": null
             }
           ],
-          "implementation_details": [
-            {
-              "programme_name": "Subsistence Producer Relief Fund",
-              "status": "OnTrack",
-              "detail": "DALRRD has continued to use roll-over funds to issue vouchers. They are also working with provincial departments and community-based organisation to provide a range of forms of complementary support to farmers, with area-based support groups."
-            }
-          ],
+          "implementation_details": [],
           "beneficiaries": []
         }
       ],

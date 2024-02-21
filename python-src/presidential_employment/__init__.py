@@ -658,6 +658,7 @@ def compute_all_data_departments(
                 metrics = []
 
                 for programme_name in programme_names:
+                    # SPECIAL CASE code
                     if (
                         department_name == "Public Works and Infrastructure"
                         and programme_name == "Project Administrators"
@@ -687,6 +688,8 @@ def compute_all_data_departments(
                             ],
                             detail=imp_status_row.detail.iloc[0].strip(),
                         )
+                    # SPECIAL CASES: These two programmes have sub-programmes that are not in the Targets sheet
+                    # and the implementation datail is not listed for the sub-programmes
                     if (
                         department_name == "Public Works and Infrastructure"
                         and programme_name
@@ -694,6 +697,7 @@ def compute_all_data_departments(
                     ) or (
                         department_name
                         == "Agriculture, Land Reform and Rural Development"
+                        and phase_num != 2  # in phase 3 this is a normal programme
                         and (programme_name == "Subsistence producer relief fund" or
                         programme_name == 'Subsistence Producer Relief Fund')
                     ):
