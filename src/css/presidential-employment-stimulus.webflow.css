@@ -704,14 +704,14 @@ p {
   width: 100%;
   height: 10px;
   border-radius: 4px;
-  background-color: #004069;
+  background-color: #f5821f;
 }
 
 .bar-chart__row_bar.no-data--bar {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.bar-chart__row_bar.is--phase-2 {
+.bar-chart__row_bar.is--phase-1 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -722,7 +722,7 @@ p {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-color: #f5821f;
+  background-color: #004069;
 }
 
 .bar-chart__row_bar.is--dummy-1 {
