@@ -161,7 +161,7 @@ month_lookup = [
 ]
 
 number_of_phases = 3
-phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202403"]]
+phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202312"]]
 
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
@@ -1593,7 +1593,7 @@ def compute_overview_metrics(
             ][phase_num]["Total"]["value_target"]
 
     achievements = PhasedMetric(
-        name="Total beneficiaries assisted",
+        name="Total opportunities",
         metric_type=MetricTypeEnum.count.name,
         viz=VizTypeEnum.full.name,
         total_value=sum(achievements_by_phase_value.values()),

@@ -3,7 +3,7 @@
     "month": "202312",
     "name": "Programme overview",
     "lead": "Building a society that works",
-    "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, the creative sector and youth enterprises. At present, funding for the Presidential Employment Stimulus is confirmed to March 2024.",
+    "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, the creative sector and youth enterprises. At present, funding for key programmes in the Presidential Employment Stimulus is confirmed to March 2025.",
     "phase_dates": [
       [
         "202010",
@@ -18,8 +18,8 @@
         "202403"
       ]
     ],
-    "footer_header": "Disclaimer",
-    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting', this is corrected in the cumulative number of opportunities reported.",
+    "footer_header": "*Disclaimer",
+    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting' of participants, this is corrected under 'total opportunities' reported.",
     "sections": [
       {
         "name": "Programme Achievements",
@@ -43,20 +43,20 @@
             "implementation_detail": null
           },
           {
-            "name": "Total beneficiaries assisted",
+            "name": "Total opportunities",
             "metric_type": "count",
             "value": {
               "0": 1522223,
-              "1": 323398
+              "1": 414232
             },
-            "total_value": 1845621,
+            "total_value": 1936455,
             "viz": "full",
             "dimensions": [],
             "value_target": {
               "0": 1676430.0,
-              "1": 347800.0
+              "1": 382800.0
             },
-            "total_value_target": 2024230.0,
+            "total_value_target": 2059230.0,
             "implementation_detail": null
           },
           {
@@ -64,9 +64,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6558833294825769,
-              "1": 0.6100839947937391
+              "1": 0.6194431337119257
             },
-            "total_value": 0.6329836621381579,
+            "total_value": 0.6376632315972512,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -78,9 +78,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8321510950283343,
-              "1": 0.8638960298887937
+              "1": 0.8700166494579245
             },
-            "total_value": 0.8480235624585639,
+            "total_value": 0.8510838722431293,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -90,11 +90,11 @@
         ],
         "value": {
           "0": 1522223,
-          "1": 323398
+          "1": 414232
         },
         "value_target": {
           "0": 1676430.0,
-          "1": 347800.0
+          "1": 382800.0
         }
       },
       {
@@ -106,9 +106,9 @@
             "metric_type": "job_opportunities",
             "value": {
               "0": 1194702,
-              "1": 283827
+              "1": 374661
             },
-            "total_value": 1478529,
+            "total_value": 1569363,
             "viz": "full",
             "dimensions": [
               {
@@ -130,10 +130,12 @@
                   {
                     "key": "DTIC",
                     "value": {
-                      "0": 75532
+                      "0": 75532,
+                      "1": 90834
                     },
                     "value_target": {
-                      "0": 57999.0
+                      "0": 57999.0,
+                      "1": 35000.0
                     }
                   },
                   {
@@ -401,37 +403,37 @@
                   },
                   {
                     "key": "202207",
-                    "value": 220755,
+                    "value": 246024,
                     "value_target": null,
                     "multiplicity": 1
                   },
                   {
                     "key": "202208",
-                    "value": 234914,
+                    "value": 275143,
                     "value_target": null,
                     "multiplicity": 1
                   },
                   {
                     "key": "202209",
-                    "value": 234914,
+                    "value": 275143,
                     "value_target": null,
                     "multiplicity": 1
                   },
                   {
                     "key": "202210",
-                    "value": 234914,
+                    "value": 275143,
                     "value_target": null,
                     "multiplicity": 1
                   },
                   {
                     "key": "202211",
-                    "value": 234914,
+                    "value": 275143,
                     "value_target": null,
                     "multiplicity": 1
                   },
                   {
                     "key": "202212",
-                    "value": 247928,
+                    "value": 295336,
                     "value_target": null,
                     "multiplicity": 1
                   },
@@ -449,7 +451,7 @@
                   },
                   {
                     "key": "202303",
-                    "value": 304478,
+                    "value": 369511,
                     "value_target": null,
                     "multiplicity": 1
                   },
@@ -503,7 +505,7 @@
                   },
                   {
                     "key": "202312",
-                    "value": 283827,
+                    "value": 374661,
                     "value_target": null,
                     "multiplicity": 1
                   }
@@ -519,7 +521,7 @@
                     "key": "EC",
                     "value": [
                       172988,
-                      38621,
+                      50464,
                       0
                     ],
                     "value_target": null
@@ -528,7 +530,7 @@
                     "key": "FS",
                     "value": [
                       66311,
-                      16440,
+                      21046,
                       0
                     ],
                     "value_target": null
@@ -537,7 +539,7 @@
                     "key": "GP",
                     "value": [
                       180587,
-                      52958,
+                      62169,
                       0
                     ],
                     "value_target": null
@@ -546,7 +548,7 @@
                     "key": "KZN",
                     "value": [
                       279843,
-                      64197,
+                      72093,
                       0
                     ],
                     "value_target": null
@@ -555,7 +557,7 @@
                     "key": "LP",
                     "value": [
                       161583,
-                      34519,
+                      43730,
                       0
                     ],
                     "value_target": null
@@ -564,7 +566,7 @@
                     "key": "MP",
                     "value": [
                       86514,
-                      21743,
+                      24375,
                       0
                     ],
                     "value_target": null
@@ -573,7 +575,7 @@
                     "key": "NC",
                     "value": [
                       31332,
-                      7348,
+                      11954,
                       0
                     ],
                     "value_target": null
@@ -582,7 +584,7 @@
                     "key": "NW",
                     "value": [
                       74471,
-                      16320,
+                      20926,
                       0
                     ],
                     "value_target": null
@@ -591,7 +593,7 @@
                     "key": "WC",
                     "value": [
                       102540,
-                      31681,
+                      42866,
                       0
                     ],
                     "value_target": null
@@ -602,9 +604,9 @@
             ],
             "value_target": {
               "0": 1281517.0,
-              "1": 310000.0
+              "1": 345000.0
             },
-            "total_value_target": 1591517.0,
+            "total_value_target": 1626517.0,
             "implementation_detail": null
           },
           {
@@ -4010,14 +4012,14 @@
       ],
       "sheet_name": "DALRRD",
       "lead": "Expanding support to farmers and protecting food value chains",
-      "paragraph": "The pandemic illustrated the vulnerability of our food production and distribution systems. Although exempt from the strictest lockdown regulations, the sector faced severe challenges with disruptions to production and marketing experienced by many small-scale farmers. The Presidential Employment Stimulus has provided production input vouchers to subsistence farmers, to assist them back into production. Applications were made on a USSD platform and came from every corner of the country. This has also provided DALRRD with a geo-spatially referenced data-base of subsistence farmers for the first time. Agricultural graduates were used to do on-site verification of applicants, collecting additional data that provides a basis for future support also. DALRRD is building on this to create pathways out of poverty for subsistence farmers. This has included follow-up vouchers to beneficiaries from Phase One, further roll-out to new farmers as well as other forms of support. Allocations in this financial year were from rollovers from the prior year."
+      "paragraph": "The Presidential Employment Stimulus has provided production input vouchers to subsistence farmers. Initially, this was to assist them back into production after the disruptions of Covid. Now, it forms part of ongoing support to expand production activity and returns in this sector.  For the first time, DALRRD used a digital platofrm for the application and allocation of vouchers. This reached every corner of the country, and proved to be both accessible and efficient. Now, DALRRD works with the Provincial departments and NGO's to provide ongoing support to voucher recipients, organised at local level."
     },
     {
       "name": "Basic Education",
       "phases": [
         {
           "phase_num": 0,
-          "month": "203312",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -4747,7 +4749,7 @@
         },
         {
           "phase_num": 1,
-          "month": "203312",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5229,7 +5231,7 @@
         },
         {
           "phase_num": 2,
-          "month": "203312",
+          "month": "202312",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5477,7 +5479,7 @@
                   "implementation_detail": {
                     "programme_name": "Basic Education Employment Initiative Phase IV",
                     "status": "OnTrack",
-                    "detail": "Recruitment for Phase IV started from 26 September 2022 on SAYouth.mobi, for placements starting on 1 February 2023, to align with the school year. Over 1,5 million young people applied for the posts on the SAYouth.mobi app with this programme having a significant impact in activating young people into the labour market. This phase of the programme mainly ended in Septemebr 2023, but a number of provinces used their own resources to extend it."
+                    "detail": "Recruitment for Phase IV started from 26 September 2022 on SAYouth.mobi, for placements starting on 1 February 2023, to align with the school year. Over 1,5 million young people applied for the posts on the SAYouth.mobi app with this programme having a significant impact in activating young people into the labour market. This phase of the programme mainly ended in September 2023, but a number of provinces used their own resources to extend it."
                   }
                 }
               ],
@@ -5505,7 +5507,7 @@
       ],
       "sheet_name": "DBE",
       "lead": "The Basic Education Employment Initiative (BEEI)",
-      "paragraph": "The Basic Education Employment Initiative (BEEI - also known as PYEI-DBE) has at this stage placed over 850,000 young people as assistants in schools across the country, becoming the largest youth employment programme in South Africa's history. It is now in its fourth phase. There are two categories of school assistants. Education Assistants (EAs) support teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants (GAs) assist with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. Surveys illustrate that levels of support from teachers and principals have consistently remained above 93%, with many believing it is strengthening the learning environment at schools. As the programme matures, the scope for it to move the dial on learning outcomes is growing. It has a highly equitable spatial footprint, creating jobs in even the most remote and marginalised communities - because every community has schools."
+      "paragraph": "The Basic Education Employment Initiative (BEEI - also known as PYEI-DBE) has at this stage created over 1 million opportunities for young people to be placed as assistants in schools across the country, becoming the largest youth employment programme in South Africa's history. In 2023, it completed its fourth phase.  There are two categories of school assistants. Education Assistants (EAs) support teachers in the classroom. These posts require a matric, with graduates prioritised. General Assistants (GAs) assist with tasks such as school maintenance, security, food gardens and after-school care. The BEEI has provided a new example of how public employment programmes can go rapidly to scale, creating meaningful work at decent standards for young people, while delivering real public value. Surveys illustrate that levels of support from teachers and principals have consistently remained above 93%, with many believing it is strengthening the learning environment at schools. As the programme matures, the scope for it to move the dial on learning outcomes is growing. It has a highly equitable spatial footprint, creating jobs in even the most remote and marginalised communities - because every community has schools."
     },
     {
       "name": "Communications and Digital Technologies",
@@ -6420,7 +6422,7 @@
       ],
       "sheet_name": "DCOGTA",
       "lead": "New approaches to solid waste management",
-      "paragraph": "Through the Municipal Infrastructure Support Agency (MISA), COGTA has used the PES to experiment with new ways to tackle the challenge of solid waste. This started with a target of 25 municipalities, 85% of which are rural. But demand from municiplaities has seen outreach expand to over 44. The programme supports municipalities to identify collection, sorting and recycling options that divert waste from landfill and explore revenue generation opportunities for community enterprises, by looking at the entire waste value chain, with a focus on community awareness and the circular economy. The programme has also provided support to small enterprises. MISA also continues to support the application of labour-intensive methods in infrastructure in 15 municipalities. Performance in this financial year was from rollover budgets from the prior year."
+      "paragraph": "Through the Municipal Infrastructure Support Agency (MISA), COGTA used the PES to experiment with new ways to tackle the challenge of solid waste. This started with a target of 25 municipalities, 85% of which were rural. But demand from municipalities has seen outreach expand to over 44. The programme supports municipalities to identify collection, sorting and recycling options that divert waste from landfill and explore revenue generation opportunities for community enterprises, by looking at the entire waste value chain, with a focus on community awareness and the circular economy. The programme has also provided support to small enterprises. MISA also continues to support the application of labour-intensive methods in infrastructure in 15 municipalities. "
     },
     {
       "name": "Employment and Labour",
@@ -6677,7 +6679,7 @@
       ],
       "sheet_name": "DEL",
       "lead": "The National Pathway Management Network (PYEI)",
-      "paragraph": "The National Pathway Management Network is an initiative of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the National Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the NPMN has been appointed and an associated Innovation Fund has been set up, both through the Jobs Fund. The Department of Labour is also supporting  250 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
+      "paragraph": "The National Pathway Management Network is an initiative of the Presidential Youth Employment Intervention (PYEI). It brings together many partners in a coordinated system that enables young people to find pathways and successfully transition from learning to earning at scale.  Led by the Department of Employment and Labour, the National Pathway Management Network links young people to opportunities and support, identifies and addresses barriers, and supports the creation of opportunities also. With support from the stimulus, an eco-system manager for the NPMN has been appointed and an associated Innovation Fund has been set up, both through the Jobs Fund. The Department of Labour also supported 215 labour counsellors across various labour centres in the country, to assist employers to clearly specify their job requirements and to build competency profiles that will enable effective placement of work seekers as well as support to upskilling of candidates where necessary. For more information on NPMN, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
     },
     {
       "name": "Forestry, Fisheries and Environment",
@@ -8563,7 +8565,7 @@
       ],
       "sheet_name": "DFFE",
       "lead": "Action for the environment",
-      "paragraph": "The work undertaken in environmental, forestry and fishery programmes has touched the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet. "
+      "paragraph": "The work undertaken in environmental, forestry and fishery programmes touched the length and breadth of the country, from coast to coast, including bushveld, grassland, fynbos, wetlands, mountains, water bodies, catchment areas  \u2013 and urban areas, too. The work undertaken affects the air we breathe, the water we drink, the energy we use and the food we eat, supporting a wealth of biodiversity resources and ecological systems essential to life on earth and to the future of the planet. "
     },
     {
       "name": "Health",
@@ -9846,7 +9848,7 @@
       ],
       "sheet_name": "DHET",
       "lead": "Graduate placements in Universities and a 'pay for performance' model for digital skills. ",
-      "paragraph": "DHET is supporting a graduate placement programme in 21 universities - because even for graduates, lack of work experience creates barriers to labour market entry. These placements are for work that allows graduates to apply their skills in relation to their field of study, in order to directly enhance relevant work experience. University departments have been invited to create meaningful opportunities for graduates and in so doing increase their research and academic support capacity.  In addition, in support of the Presidential Youth Employment Intervention (PYEI), and in partnership with the National Skills Fund, DHET is testing a 'pay for performance' model for digital skills training, in which placement in jobs at the end of the training is a critical performance factor. "
+      "paragraph": "DHET is supporting a graduate placement programme in universities - because even for graduates, lack of work experience creates barriers to labour market entry. These placements are for work that allows graduates to apply their skills in relation to their field of study, in order to directly enhance relevant work experience. University departments have been invited to create meaningful opportunities for graduates and in so doing increase their research and academic support capacity.  In addition, in support of the Presidential Youth Employment Intervention (PYEI), and in partnership with the National Skills Fund, DHET is testing a 'pay for performance' model for digital skills training, in which placement in jobs at the end of the training is a critical performance factor. "
     },
     {
       "name": "National Treasury",
@@ -10378,7 +10380,7 @@
       ],
       "sheet_name": "NT",
       "lead": "Innovation in Public Employment Programmes in the Metro's",
-      "paragraph": "National Treasury\u2019s Neighbourhood Development Partnership Programme has opened a grant window for Public Employment Programmes (PEPs) in the metros. This emphasises the creation of meaningful forms of work that respond to community priorities, encouraging partnerships with non-state actors and co-funding from the private sector. Metros have been encouraged to innovate in the forms of work undertaken, to maximise the benefit for participants as well as the social, environmental and/or economic impact. Proposals from eight metros are being supported, with the work undertaken including urban agriculture, placemaking, support to homeless people, waste management solutions, catchment management and more."
+      "paragraph": "National Treasury\u2019s Neighbourhood Development Partnership Programme opened a grant window for Public Employment Programmes (PEPs) in the metros. This emphasises the creation of meaningful forms of work that respond to community priorities, encouraging partnerships with non-state actors and co-funding from the private sector. Metros have been encouraged to innovate in the forms of work undertaken, to maximise the benefit for participants as well as the social, environmental and/or economic impact. Proposals from eight metros are being supported, with the work undertaken including urban agriculture, placemaking, support to homeless people, waste management solutions, catchment management and more."
     },
     {
       "name": "Public Works and Infrastructure",
@@ -20004,7 +20006,7 @@
       ],
       "sheet_name": "DSAC",
       "lead": "Support to the soul of the nation",
-      "paragraph": "Under lockdown, there was no loud applause in jazz venues, no curtain calls for the dancers, no tourists in craft markets \u2013 and no victory laps for our sports people. No segment of the creative, cultural or sporting sectors was untouched. In Phase One, the PES provided a significant scale of stimulus to the creative and cultural sector. Striking murals were painted in small towns, as part of support to public art; records were digitised in the National Library and National Archives; artists received marketing support; museums and work in the heritage sector have been supported. Through the PES, the National Arts Council and National Film and Video Foundation were able to support many creatives to create jobs not only for themselves but for others too - while producing art, music, drama, craft, poetry, animations, movies and much more. All of this helped to put food on the table at a time of need in the sector - while also contributing to feeding the soul of the nation. PES support to the sector has seen a series of calls for proposals from a range of DSAC entities, supporting creative work at an unprecedented scale. "
+      "paragraph": "Through the PES - known as PESP in the sector - a significant scale of stimulus has been provided to the creative and cultural sector. Striking murals have been painted in small towns, records have been digitised in the National Library and National Archives; artists received marketing support; museums and work in the heritage sector have been supported. Now in its fourth phase, the National Arts Council, the National Film and Video Foundation, Business Arts South Africa,  the National Museum and the National Heritage COuncil are supporting a wide range of initiatives, that are supporting many in the sector to create jobs not only for themselves but for others too - while producing art, music, drama, craft, poetry, animations, movies and much more. All of this is supporting creative work at an unprecedented scale, feeding the soul of the nation - with research showing real multiplier effects for jobs and gorwth in the sector, too."
     },
     {
       "name": "Tourism",
@@ -21339,6 +21341,281 @@
           ],
           "implementation_details": [],
           "beneficiaries": []
+        },
+        {
+          "phase_num": 2,
+          "month": "202312",
+          "target_lines": [],
+          "achievement_lines": [],
+          "sections": [
+            {
+              "name": "Programme targets for this department",
+              "section_type": "targets",
+              "metrics": [
+                {
+                  "name": "Budget",
+                  "metric_type": "currency",
+                  "value": -1,
+                  "dimensions": [],
+                  "value_target": 787941000.0,
+                  "implementation_detail": null
+                },
+                {
+                  "name": "Beneficiaries",
+                  "metric_type": "count",
+                  "value": 90834.0,
+                  "dimensions": [],
+                  "value_target": 35000.0,
+                  "implementation_detail": null
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs created",
+              "section_type": "job_opportunities",
+              "metrics": [
+                {
+                  "name": "Social Employment Fund",
+                  "metric_type": "count",
+                  "value": 90834,
+                  "dimensions": [
+                    {
+                      "name": "Opportunities in post by Province",
+                      "viz": "bar",
+                      "lookup": "province",
+                      "values": [
+                        {
+                          "key": "EC",
+                          "value": 11843,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "FS",
+                          "value": 4606,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "GP",
+                          "value": 9211,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "KZN",
+                          "value": 7896,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "LP",
+                          "value": 9211,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "MP",
+                          "value": 2632,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "NW",
+                          "value": 4606,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "NC",
+                          "value": 4606,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "WC",
+                          "value": 11185,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Employed over time",
+                      "viz": "line",
+                      "lookup": "time",
+                      "values": [
+                        {
+                          "key": "202110",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202111",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202112",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202201",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202202",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202203",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202204",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202205",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202206",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202207",
+                          "value": 25269,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202208",
+                          "value": 40229,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202209",
+                          "value": 40229,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202210",
+                          "value": 40229,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202211",
+                          "value": 40229,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202212",
+                          "value": 47408,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202303",
+                          "value": 65033,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "202312",
+                          "value": 90834,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Opportunities by Gender",
+                      "viz": "two_value",
+                      "lookup": "gender",
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.35,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.65,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    },
+                    {
+                      "name": "Opportunities going to 18-35 year olds",
+                      "viz": "percentile",
+                      "lookup": "age",
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.89,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
+                    }
+                  ],
+                  "value_target": 35000.0,
+                  "implementation_detail": {
+                    "programme_name": "Social Employment Fund",
+                    "status": "OnTrack",
+                    "detail": "The Industrial Development Corporation now has 37 Strategic Implementing Partners (SIPs) in turn supporting over 1,000 community based organisations, with good sectoral and spatial coverage."
+                  }
+                }
+              ],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Livelihoods supported",
+              "section_type": "livelihoods",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            },
+            {
+              "name": "Jobs retained",
+              "section_type": "jobs_retain",
+              "metrics": [],
+              "value": null,
+              "value_target": null
+            }
+          ],
+          "implementation_details": [],
+          "beneficiaries": []
         }
       ],
       "sheet_name": "DTIC",
@@ -22519,7 +22796,7 @@
       ],
       "sheet_name": "DWYPD",
       "lead": "Presidential Youth Employment Intervention",
-      "paragraph": "As part of support to the Presidential Youth Employment Intervention, the PES has supported the National Youth Service and the Enterprise Youth Fund. The National Youth Service creates opportunities for young people to contribute meaningfully to their communities and to develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. It has completed its first round of service opportunities; a further call for proposals will take place during 2023. The Youth Enterprise Fund built on the \u20181,000 SME\u2019s in 100 days\u2019 programme of the National Youth Development Agency and exceeded its targets. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
+      "paragraph": "As part of support to the Presidential Youth Employment Intervention, the PES has supported the National Youth Service and the Enterprise Youth Fund. The National Youth Service creates opportunities for young people to contribute meaningfully to their communities and to develop critical skills required to participate effectively in the economy, build confidence and expand their networks and social capital. The Presidential Youth Service program is structured to support service work for 16-hours a week and will channel young people\u2019s energy into advancing social cohesion, nation building and development. It has a strong focus on supporting complementary income-earning opportunities. For more information, see https://www.stateofthenation.gov.za/presidential-youth-employment-intervention."
     }
   ]
 }
