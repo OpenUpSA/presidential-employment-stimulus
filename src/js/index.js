@@ -280,34 +280,35 @@ Promise.all([
 
         }
 
-        if(phasesArr.length > 1 && sectionIndex == 0) {
-
-          let otherPhase = phase == 0 ? 1 : 0;
-
-          let formatter = FORMATTERS[phasesArr[otherPhase].sections[0].metrics[1].metric_type];
-
-          let $performanceCta = $performanceCtaTemplate.clone(true,true);
-          $performanceCta.find('img').remove();
-
-          let $icons = $iconsTemplate.clone(true, true);
-
-          if(otherPhase == 0) {
-            $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department participated previously with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore previous performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Completed');
-          } else {
-            $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
-            $performanceCta.find('.performance-cta__heading').text('This department is currently participating with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
-            $performanceCta.find('.performance-cta__text').text('Explore Current performance');
-            $performanceCta.find('.performance-cta__button-text').text('Explore');
-            $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Current');
-          }
-
-          $phaseContent.append($performanceCta);
-
-        }
+        // Disabled in February 2024 because this needs a rethink for more than 2 phases
+        // if(phasesArr.length > 1 && sectionIndex == 0) {
+        //
+        //   let otherPhase = phase == 0 ? 1 : 0;
+        //
+        //   let formatter = FORMATTERS[phasesArr[otherPhase].sections[0].metrics[1].metric_type];
+        //
+        //   let $performanceCta = $performanceCtaTemplate.clone(true,true);
+        //   $performanceCta.find('img').remove();
+        //
+        //   let $icons = $iconsTemplate.clone(true, true);
+        //
+        //   if(otherPhase == 0) {
+        //     $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
+        //     $performanceCta.find('.performance-cta__heading').text('This department participated previously with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+        //     $performanceCta.find('.performance-cta__text').text('Explore previous performance');
+        //     $performanceCta.find('.performance-cta__button-text').text('Explore');
+        //     $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Completed');
+        //   } else {
+        //     $performanceCta.prepend($icons.find('.icon--performance-' + (otherPhase + 1) ));
+        //     $performanceCta.find('.performance-cta__heading').text('This department is currently participating with ' + formatter(phasesArr[otherPhase].sections[0].metrics[1].value) + ' beneficiaries')
+        //     $performanceCta.find('.performance-cta__text').text('Explore Current performance');
+        //     $performanceCta.find('.performance-cta__button-text').text('Explore');
+        //     $performanceCta.find('.button.is--performance-cta').attr('data-w-tab','Current');
+        //   }
+        //
+        //   $phaseContent.append($performanceCta);
+        //
+        // }
 
       });
 
