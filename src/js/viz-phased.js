@@ -59,10 +59,10 @@ export class VizPhased {
         } 
         
 
-        // Hack for SONA 2023 - Remove ASAP
+        // Hack for SONA 2024 - Remove ASAP
 
-        if(this._total_value == 23588178000) {
-            $phasedHeader.find('.phased-header__value').text('R32.6 billion'); 
+        if(this._total_value == 1962850) {
+            $phasedHeader.find('.phased-header__value').text('R1.9 million');
         }
 
         let $icons = $iconsTemplate.clone(true, true);
