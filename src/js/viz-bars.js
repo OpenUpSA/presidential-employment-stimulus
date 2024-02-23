@@ -84,10 +84,10 @@ export class VizBars {
         $el.find('.bar-chart__row_value.small').text(FORMATTERS.count(this._rows[row].value));
         $el.find('.bar-chart__row_bar').width((this._rows[row].value / maxValue) * 100 + '%');
         if(this._phase == 0) {
-          $el.find('.bar-chart__row_bar.is--phase-2').css('background-color','transparent'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar.is--phase-1').css('background-color','transparent'); // Hide Phase 2 bar
         } else {
-          $el.find('.bar-chart__row_bar.is--phase-2').width('100%'); // Hide Phase 2 bar
-          $el.find('.bar-chart__row_bar').not('.bar-chart__row_bar.is--phase-2').css('background-color','transparent'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar.is--phase-1').width('100%'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar').not('.bar-chart__row_bar.is--phase-1').css('background-color','transparent'); // Hide Phase 2 bar
         }
 
       } else {
