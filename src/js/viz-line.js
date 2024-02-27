@@ -96,7 +96,7 @@ export class VizLine {
       else if(record.phase != undefined) {
         $period.find(MARKER_SELECTOR).css('background-color', theme[record.phase - 1]);
       } else {
-          $period.find(MARKER_SELECTOR).css('background-color', theme[this._phase]);
+        $period.find(MARKER_SELECTOR).css('background-color', theme[this._phase]);
       }
 
       $graph.append($period);

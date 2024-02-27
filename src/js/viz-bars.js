@@ -84,25 +84,25 @@ export class VizBars {
         $el.find('.bar-chart__row_value.small').text(FORMATTERS.count(this._rows[row].value));
         $el.find('.bar-chart__row_bar').width((this._rows[row].value / maxValue) * 100 + '%');
         if(this._phase == 0) {
-          $el.find('.bar-chart__row_bar.is--phase-2').css('background-color','transparent'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar.is--phase-1').css('background-color','transparent'); // Hide Phase 2 bar
         } else {
-          $el.find('.bar-chart__row_bar.is--phase-2').width('100%'); // Hide Phase 2 bar
-          $el.find('.bar-chart__row_bar').not('.bar-chart__row_bar.is--phase-2').css('background-color','transparent'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar.is--phase-1').width('100%'); // Hide Phase 2 bar
+          $el.find('.bar-chart__row_bar').not('.bar-chart__row_bar.is--phase-1').css('background-color','transparent'); // Hide Phase 2 bar
         }
 
       } else {
 
         // This is for provinces
 
-        let value0 = this._rows[row].value[0] ? this._rows[row].value[0] : 0;
-        let value1 = this._rows[row].value[1] ? this._rows[row].value[1] : 0;
+        let value1 = this._rows[row].value[0] ? this._rows[row].value[0] : 0;
+        let value0 = this._rows[row].value[1] ? this._rows[row].value[1] : 0;
 
         $el.find('.bar-chart__row_label').text(this._rows[row].key).css('text-transform', 'uppercase');
 
         $el.find('.bar-chart__row_value.small').text(FORMATTERS.count(value0 + value1));
 
         $el.find('.bar-chart__row_bar').width(((value0 + value1) / maxValue) * 100 + '%');
-        $el.find('.bar-chart__row_bar.is--phase-2').width((value1 / (value0 + value1)) * 100 + '%');
+        $el.find('.bar-chart__row_bar.is--phase-1').width((value1 / (value0 + value1)) * 100 + '%');
 
       }
 
