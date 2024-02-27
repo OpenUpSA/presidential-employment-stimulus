@@ -54,9 +54,9 @@
             "dimensions": [],
             "value_target": {
               "0": 1676430.0,
-              "1": 382800.0
+              "1": 397800.0
             },
-            "total_value_target": 2059230.0,
+            "total_value_target": 2074230.0,
             "implementation_detail": null
           },
           {
@@ -64,9 +64,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6558833294825769,
-              "1": 0.6647339233528622
+              "1": 0.6492389289094034
             },
-            "total_value": 0.6603086264177196,
+            "total_value": 0.6525611291959901,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -78,9 +78,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8321510950283343,
-              "1": 0.9336282045955041
+              "1": 0.9190031190250876
             },
-            "total_value": 0.8828896498119192,
+            "total_value": 0.8755771070267109,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -94,7 +94,7 @@
         },
         "value_target": {
           "0": 1676430.0,
-          "1": 382800.0
+          "1": 397800.0
         }
       },
       {
@@ -135,7 +135,7 @@
                     },
                     "value_target": {
                       "0": 57999.0,
-                      "1": 35000.0
+                      "1": 50000.0
                     }
                   },
                   {
@@ -604,9 +604,9 @@
             ],
             "value_target": {
               "0": 1281517.0,
-              "1": 345000.0
+              "1": 360000.0
             },
-            "total_value_target": 1626517.0,
+            "total_value_target": 1641517.0,
             "implementation_detail": null
           },
           {
@@ -19368,15 +19368,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.52,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.47,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.62,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 22000.0,
@@ -19567,15 +19587,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.49,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.5,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.98,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 11000.0,
@@ -19766,15 +19806,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.23,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.76,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.56,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 3000.0,
@@ -19965,15 +20025,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.46,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.53,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.99,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 500.0,
@@ -20164,15 +20244,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.36,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.64,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.67,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 1300.0,
@@ -21559,7 +21659,7 @@
                   "metric_type": "count",
                   "value": 90834.0,
                   "dimensions": [],
-                  "value_target": 35000.0,
+                  "value_target": 50000.0,
                   "implementation_detail": null
                 }
               ],
@@ -21782,7 +21882,7 @@
                       "data_missing": false
                     }
                   ],
-                  "value_target": 35000.0,
+                  "value_target": 50000.0,
                   "implementation_detail": {
                     "programme_name": "Social Employment Fund",
                     "status": "OnTrack",
@@ -22947,15 +23047,35 @@
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.32,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.68,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.99,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 20000.0,
