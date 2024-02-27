@@ -1619,16 +1619,17 @@ def compute_overview_metrics(
     )
     overview_metrics.append(gender_breakdown)
 
-    youth_by_phases = dict(
-        [
-            (
-                phase_num,
-                total_youth[phase_num]
-                / (total_beneficiaries[phase_num] - total_unknown_youth[phase_num]),
-            )
-            for phase_num in range(number_of_phases)
-        ]
-    )
+    youth_by_phases = {}
+    for phase_num in range(number_of_phases):
+        # SPECIAL CASE CODE: This is here because for the current (2024) data Kate wants
+        # the youth percentage to be calculated as a percentage of the total beneficiaries,
+        # including the unknowns. This is different from the previous years
+        if phase_num == 1:
+            total = total_beneficiaries[phase_num]
+        else:
+            total = (total_beneficiaries[phase_num] - total_unknown_youth[phase_num])
+        youth_by_phases[phase_num] = total_youth[phase_num] / total
+
     overall_youth_perc = sum(youth_by_phases.values()) / number_of_phases
     youth_breakdown = PhasedMetric(
         name="Total youth beneficiaries",
