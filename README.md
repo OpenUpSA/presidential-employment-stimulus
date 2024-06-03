@@ -63,6 +63,8 @@ The list of valid months and corresponding columns in the Trends sheet is in `py
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
+Update the end date of phases in `src/index.html`. There are in `class="feature-value__phase-label"` and `class="phase-legend__text"` on lines 269 and 202.
+ 
 ### Phases, Sections, Metrics, Dimensions: how the data breakdown works
 
 The data from the spreadsheet is read into an Overview and a list of Departments. Within each of these, there are
