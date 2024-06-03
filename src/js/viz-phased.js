@@ -55,7 +55,7 @@ export class VizPhased {
 
         if($phasedHeader.find('.phased-header__title').text() == 'Total opportunities') {
             $phasedHeader.find('.phased-header__content').attr('style', 'flex-wrap: wrap;');
-            $phasedHeader.find('.phased-header__content').append('<div style="flex: 2, order: 3; font-size: 0.9em; color: #666; margin-top: 5px;">1.76m direct participants - because some worked across both periods *</div>');
+            $phasedHeader.find('.phased-header__content').append('<div style="flex: 2, order: 3; font-size: 0.9em; color: #666; margin-top: 5px;">1.7m direct participants - because some worked across both periods *</div>');
         } 
         
 
