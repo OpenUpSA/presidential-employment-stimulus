@@ -1,6 +1,6 @@
 {
   "overview": {
-    "month": "202312",
+    "month": "202403",
     "name": "Programme overview",
     "lead": "Building a society that works",
     "paragraph": "The Presidential Employment Stimulus was established in response to the devastating economic impacts of the coronavirus pandemic - but the crisis of unemployment did not start with the pandemic and is not over now. Since its launch in October 2020, the Employment Stimulus has taken public employment programmes (PEPs) and livelihood support interventions to new levels of scale. Its largest programme is the Basic Education Employment Initiative, which places young people as school assistants in over 23,000 schools. It has become South Africa's largest youth employment programme. The contribution of the Presidential Employment Stimulus is not, however, just about the numbers. It's also about the quality of outcomes. Its PEPs are delivering meaningful work experiences - often for participants who have never worked before. For young people in particular, this helps overcome a key barrier to labour market entry. The work undertaken is also delivering real social value. The Employment Stimulus has also provided support to people engaged in livelihood activity and forms of self-employment - including subsistence farmers, Early Childhood Development practitioners, the creative sector and youth enterprises. At present, funding for key programmes in the Presidential Employment Stimulus is confirmed to March 2025.",
@@ -15,11 +15,11 @@
       ],
       [
         "202304",
-        "202312"
+        "202403"
       ]
     ],
     "footer_header": "*Disclaimer",
-    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting' of participants, this is corrected under 'total opportunities' reported.",
+    "footer_paragraph": "The Presidential Employment Stimulus consolidates data reported by participating departments. This data is subject to ongoing verification and audit by departments. The numbers reported may change based on final verification and audit outcomes.\u00a0Where work opportunities straddle financial years, the audit process requires that they are reported in both years. For example, Teachers Assistants who start work in February and continue into the next financial year. To avoid 'double counting' of participants, this is corrected under 'total opportunities' reported. Note however that under the performance breakdown, the cumulative annual figures are presented.",
     "sections": [
       {
         "name": "Programme Achievements",
@@ -47,9 +47,9 @@
             "metric_type": "count",
             "value": {
               "0": 1522223,
-              "1": 440627
+              "1": 456897
             },
-            "total_value": 1962850,
+            "total_value": 1979120,
             "viz": "full",
             "dimensions": [],
             "value_target": {
@@ -64,9 +64,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6558833294825769,
-              "1": 0.6492389289094034
+              "1": 0.6629507088030783
             },
-            "total_value": 0.6525611291959901,
+            "total_value": 0.6594170191428276,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -78,9 +78,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8321510950283343,
-              "1": 0.8639518231973984
+              "1": 0.8450442922584304
             },
-            "total_value": 0.8480514591128663,
+            "total_value": 0.8385976936433823,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -90,7 +90,7 @@
         ],
         "value": {
           "0": 1522223,
-          "1": 440627
+          "1": 456897
         },
         "value_target": {
           "0": 1676430.0,
@@ -106,9 +106,9 @@
             "metric_type": "job_opportunities",
             "value": {
               "0": 1194702,
-              "1": 374661
+              "1": 399407
             },
-            "total_value": 1569363,
+            "total_value": 1594109,
             "viz": "full",
             "dimensions": [
               {
@@ -120,7 +120,7 @@
                     "key": "DBE",
                     "value": {
                       "0": 978364,
-                      "1": 245489
+                      "1": 240342
                     },
                     "value_target": {
                       "0": 991999.0,
@@ -131,7 +131,7 @@
                     "key": "DTIC",
                     "value": {
                       "0": 75532,
-                      "1": 90834
+                      "1": 102189
                     },
                     "value_target": {
                       "0": 57999.0,
@@ -142,11 +142,22 @@
                     "key": "DWYPD",
                     "value": {
                       "0": 54886,
-                      "1": 13656
+                      "1": 22364
                     },
                     "value_target": {
                       "0": 34999.0,
                       "1": 20000.0
+                    }
+                  },
+                  {
+                    "key": "NT",
+                    "value": {
+                      "0": 5170,
+                      "1": 32467
+                    },
+                    "value_target": {
+                      "0": 34999.0,
+                      "1": 33000.0
                     }
                   },
                   {
@@ -156,17 +167,6 @@
                     },
                     "value_target": {
                       "0": 58460.0
-                    }
-                  },
-                  {
-                    "key": "NT",
-                    "value": {
-                      "0": 5170,
-                      "1": 20592
-                    },
-                    "value_target": {
-                      "0": 34999.0,
-                      "1": 33000.0
                     }
                   },
                   {
@@ -208,17 +208,6 @@
                     }
                   },
                   {
-                    "key": "DSD",
-                    "value": {
-                      "0": 2300,
-                      "1": 2300
-                    },
-                    "value_target": {
-                      "0": 2379.0,
-                      "1": 0
-                    }
-                  },
-                  {
                     "key": "DSI",
                     "value": {
                       "0": 3409
@@ -231,11 +220,22 @@
                     "key": "DHET",
                     "value": {
                       "0": 1052,
-                      "1": 1790
+                      "1": 2045
                     },
                     "value_target": {
                       "0": 6999.0,
                       "1": 7000.0
+                    }
+                  },
+                  {
+                    "key": "DSD",
+                    "value": {
+                      "0": 2300,
+                      "1": 0
+                    },
+                    "value_target": {
+                      "0": 2379.0,
+                      "1": 0
                     }
                   },
                   {
@@ -508,6 +508,24 @@
                     "value": 374661,
                     "value_target": null,
                     "multiplicity": 1
+                  },
+                  {
+                    "key": "202401",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202402",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202403",
+                    "value": 399407,
+                    "value_target": null,
+                    "multiplicity": 1
                   }
                 ],
                 "data_missing": false
@@ -521,7 +539,7 @@
                     "key": "EC",
                     "value": [
                       172988,
-                      50464,
+                      56522,
                       0
                     ],
                     "value_target": null
@@ -530,7 +548,7 @@
                     "key": "FS",
                     "value": [
                       66311,
-                      21046,
+                      22849,
                       0
                     ],
                     "value_target": null
@@ -539,7 +557,7 @@
                     "key": "GP",
                     "value": [
                       180587,
-                      62169,
+                      76636,
                       0
                     ],
                     "value_target": null
@@ -548,7 +566,7 @@
                     "key": "KZN",
                     "value": [
                       279843,
-                      72093,
+                      76407,
                       0
                     ],
                     "value_target": null
@@ -557,7 +575,7 @@
                     "key": "LP",
                     "value": [
                       161583,
-                      43730,
+                      45681,
                       0
                     ],
                     "value_target": null
@@ -566,7 +584,7 @@
                     "key": "MP",
                     "value": [
                       86514,
-                      24375,
+                      25699,
                       0
                     ],
                     "value_target": null
@@ -575,7 +593,7 @@
                     "key": "NC",
                     "value": [
                       31332,
-                      11954,
+                      14089,
                       0
                     ],
                     "value_target": null
@@ -584,7 +602,7 @@
                     "key": "NW",
                     "value": [
                       74471,
-                      20926,
+                      21282,
                       0
                     ],
                     "value_target": null
@@ -593,7 +611,7 @@
                     "key": "WC",
                     "value": [
                       102540,
-                      42866,
+                      51148,
                       0
                     ],
                     "value_target": null
@@ -614,9 +632,9 @@
             "metric_type": "livelihoods",
             "value": {
               "0": 284969,
-              "1": 65966
+              "1": 57490
             },
-            "total_value": 350935,
+            "total_value": 342459,
             "viz": "full",
             "dimensions": [
               {
@@ -639,7 +657,7 @@
                     "key": "DSAC",
                     "value": {
                       "0": 62832,
-                      "1": 39571
+                      "1": 31095
                     },
                     "value_target": {
                       "0": 36621.0,
@@ -907,6 +925,24 @@
                   {
                     "key": "202312",
                     "value": 65966,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202401",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202402",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202403",
+                    "value": 57490,
                     "value_target": null,
                     "multiplicity": 1
                   }
@@ -1299,6 +1335,24 @@
                     "value": 0,
                     "value_target": null,
                     "multiplicity": 1
+                  },
+                  {
+                    "key": "202401",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202402",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
+                  },
+                  {
+                    "key": "202403",
+                    "value": 0,
+                    "value_target": null,
+                    "multiplicity": 1
                   }
                 ],
                 "data_missing": false
@@ -1418,7 +1472,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -2843,7 +2897,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -3950,7 +4004,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -4162,6 +4216,12 @@
                           "value": 26395,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 26395,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -4170,15 +4230,35 @@
                       "name": "Livelihoods supported by gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "Male",
+                          "value": 0.3,
+                          "value_target": null,
+                          "multiplicity": 1
+                        },
+                        {
+                          "key": "Female",
+                          "value": 0.7,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     },
                     {
                       "name": "Livelihoods supported going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [],
-                      "data_missing": true
+                      "values": [
+                        {
+                          "key": "18-35",
+                          "value": 0.65,
+                          "value_target": null,
+                          "multiplicity": 1
+                        }
+                      ],
+                      "data_missing": false
                     }
                   ],
                   "value_target": 0.0,
@@ -4213,7 +4293,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -4943,7 +5023,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5398,7 +5478,7 @@
                   "implementation_detail": {
                     "programme_name": "Basic Education Employment Initiative Phase IV (a)",
                     "status": "OnTrack",
-                    "detail": "Recruitment for Phase IV started from 26 September 2022 on SAYouth.mobi, for placements starting on 1 February 2023, to align with the school year. Over 1,5 million young people applied for the posts on the SAYouth.mobi app with this programme having a siginficant impact in activating young people into the labour market."
+                    "detail": "Recruitment for Phase IV started from 26 September 2022 on SAYouth.mobi, for placements starting on 1 February 2023, to align with the school year. Over 1,5 million young people applied for the posts on the SAYouth.mobi app with this programme having a significant impact in activating young people into the labour market."
                   }
                 }
               ],
@@ -5425,7 +5505,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5444,7 +5524,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 245489.0,
+                  "value": 240342.0,
                   "dimensions": [],
                   "value_target": 250000.0,
                   "implementation_detail": null
@@ -5460,7 +5540,7 @@
                 {
                   "name": "Basic Education Employment Initiative Phase IV",
                   "metric_type": "count",
-                  "value": 245489,
+                  "value": 240342,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -5469,7 +5549,7 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 36450,
+                          "value": 34741,
                           "value_target": null,
                           "multiplicity": 1
                         },
@@ -5481,13 +5561,13 @@
                         },
                         {
                           "key": "GP",
-                          "value": 37109,
+                          "value": 36600,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "KZN",
-                          "value": 60295,
+                          "value": 57687,
                           "value_target": null,
                           "multiplicity": 1
                         },
@@ -5511,7 +5591,7 @@
                         },
                         {
                           "key": "NC",
-                          "value": 6815,
+                          "value": 6494,
                           "value_target": null,
                           "multiplicity": 1
                         },
@@ -5630,6 +5710,12 @@
                           "value": 245489,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 240342,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -5661,7 +5747,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.99,
+                          "value": 0.996,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -5708,7 +5794,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5805,7 +5891,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5860,7 +5946,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -5923,7 +6009,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6366,7 +6452,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6623,7 +6709,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6817,7 +6903,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -6880,7 +6966,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -8766,7 +8852,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9415,7 +9501,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9725,7 +9811,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -9744,7 +9830,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 1790.0,
+                  "value": 2045.0,
                   "dimensions": [],
                   "value_target": 7000.0,
                   "implementation_detail": null
@@ -9801,7 +9887,7 @@
                 {
                   "name": "Universities: Graduate Placements",
                   "metric_type": "count",
-                  "value": 1790,
+                  "value": 2045,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -9971,6 +10057,12 @@
                           "value": 1790,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 2045,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -10049,7 +10141,7 @@
       "phases": [
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -10298,7 +10390,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -10317,7 +10409,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 20592.0,
+                  "value": 32467.0,
                   "dimensions": [],
                   "value_target": 33000.0,
                   "implementation_detail": null
@@ -10333,7 +10425,7 @@
                 {
                   "name": "Neighbourhood Development Partnership: PEPS for Metros Programme",
                   "metric_type": "count",
-                  "value": 20592,
+                  "value": 32467,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -10342,25 +10434,25 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 466,
+                          "value": 1239,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "FS",
-                          "value": 403,
+                          "value": 751,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "GP",
-                          "value": 11421,
+                          "value": 17940,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "KZN",
-                          "value": 2312,
+                          "value": 4572,
                           "value_target": null,
                           "multiplicity": 1
                         },
@@ -10390,7 +10482,7 @@
                         },
                         {
                           "key": "WC",
-                          "value": 5990,
+                          "value": 7949,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -10503,6 +10595,12 @@
                           "value": 20592,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 32467,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -10514,13 +10612,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.33,
+                          "value": 0.34,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.67,
+                          "value": 0.66,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -10534,7 +10632,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.49,
+                          "value": 0.51,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -10545,7 +10643,7 @@
                   "value_target": 33000.0,
                   "implementation_detail": {
                     "programme_name": "Neighbourhood Development Partnership: PEPS for Metros Programme",
-                    "status": "MinorChallenges",
+                    "status": "OnTrack",
                     "detail": "This programme has overcome a range of challenges to significantly improve performance, with some interesting and innovative programmes in waste, public art, support to homeless people and more."
                   }
                 }
@@ -10581,7 +10679,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -12240,7 +12338,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -13145,7 +13243,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -13848,7 +13946,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14402,7 +14500,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14651,7 +14749,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -14670,7 +14768,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 2300.0,
+                  "value": 0.0,
                   "dimensions": [],
                   "value_target": 0.0,
                   "implementation_detail": null
@@ -14686,69 +14784,14 @@
                 {
                   "name": "NDA Volunteer Programme",
                   "metric_type": "count",
-                  "value": 2300,
+                  "value": 0,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
                       "viz": "bar",
                       "lookup": "province",
-                      "values": [
-                        {
-                          "key": "EC",
-                          "value": 356,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "FS",
-                          "value": 129,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "GP",
-                          "value": 355,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "KZN",
-                          "value": 510,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "LP",
-                          "value": 329,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "MP",
-                          "value": 194,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "NW",
-                          "value": 160,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "NC",
-                          "value": 62,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "WC",
-                          "value": 205,
-                          "value_target": null,
-                          "multiplicity": 1
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Employed over time",
@@ -14856,6 +14899,12 @@
                           "value": 2300,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 0,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -14864,42 +14913,22 @@
                       "name": "Opportunities by Gender",
                       "viz": "two_value",
                       "lookup": "gender",
-                      "values": [
-                        {
-                          "key": "Male",
-                          "value": 0.32,
-                          "value_target": null,
-                          "multiplicity": 1
-                        },
-                        {
-                          "key": "Female",
-                          "value": 0.68,
-                          "value_target": null,
-                          "multiplicity": 1
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     },
                     {
                       "name": "Opportunities going to 18-35 year olds",
                       "viz": "percentile",
                       "lookup": "age",
-                      "values": [
-                        {
-                          "key": "18-35",
-                          "value": 0.56,
-                          "value_target": null,
-                          "multiplicity": 1
-                        }
-                      ],
-                      "data_missing": false
+                      "values": [],
+                      "data_missing": true
                     }
                   ],
                   "value_target": 0.0,
                   "implementation_detail": {
                     "programme_name": "NDA Volunteer Programme",
                     "status": "OnTrack",
-                    "detail": "The NDA has used roll-over funds to complete implementation, partnering with Civil Society Organisations for the programme, which supports community service activities."
+                    "detail": "The NDA used roll-over funds to complete implementation, partnering with Civil Society Organisations for the programme, which supports community service activities."
                   }
                 }
               ],
@@ -14934,7 +14963,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -17600,7 +17629,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -19148,7 +19177,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -19167,7 +19196,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 39571.0,
+                  "value": 31095.0,
                   "dimensions": [],
                   "value_target": 37800.0,
                   "implementation_detail": null
@@ -19190,7 +19219,7 @@
                 {
                   "name": "National Arts Council",
                   "metric_type": "count",
-                  "value": 21167,
+                  "value": 19022,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -19360,6 +19389,12 @@
                           "value": 21167,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 19022,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -19391,7 +19426,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.62,
+                          "value": 0.64,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -19403,13 +19438,13 @@
                   "implementation_detail": {
                     "programme_name": "National Arts Council",
                     "status": "OnTrack",
-                    "detail": "In its 4th round of PESP funding, the NAC has supported 637 projects supporting creatives in all the sectors it supports - enabling a proliferation of new creative work in dance, theatre, music, literature and much more"
+                    "detail": "In its 4th round of PESP funding, the NAC supported 637 projects supporting creatives in all the sectors it supports - enabling a proliferation of new creative work in dance, theatre, music, literature and much more"
                   }
                 },
                 {
                   "name": "National Film and Video Foundation",
                   "metric_type": "count",
-                  "value": 15133,
+                  "value": 6696,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -19579,6 +19614,12 @@
                           "value": 15133,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 6696,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -19590,13 +19631,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.49,
+                          "value": 0.46,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.5,
+                          "value": 0.52,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -19610,7 +19651,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.98,
+                          "value": 0.94,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -19622,13 +19663,13 @@
                   "implementation_detail": {
                     "programme_name": "National Film and Video Foundation",
                     "status": "OnTrack",
-                    "detail": "In its 4th round of PESP funding, the NFVF has supported a wide variety of projects, including animation, drone photography, documentaries, drama and much, contributing to new levels of local content."
+                    "detail": "In its 4th round of PESP funding, the NFVF supported a wide variety of projects, including animation, drone photography, documentaries, drama and much, contributing to new levels of local content."
                   }
                 },
                 {
                   "name": "Business Arts SA",
                   "metric_type": "count",
-                  "value": 716,
+                  "value": 517,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -19798,6 +19839,12 @@
                           "value": 716,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 517,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -19809,13 +19856,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.23,
+                          "value": 0.38,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.76,
+                          "value": 0.62,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -19829,7 +19876,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.56,
+                          "value": 0.6,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -19847,7 +19894,7 @@
                 {
                   "name": "National Museum",
                   "metric_type": "count",
-                  "value": 156,
+                  "value": 756,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -20017,6 +20064,12 @@
                           "value": 156,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 756,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -20028,13 +20081,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.46,
+                          "value": 0.54,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.53,
+                          "value": 0.46,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -20048,7 +20101,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.99,
+                          "value": 0.85,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -20060,13 +20113,13 @@
                   "implementation_detail": {
                     "programme_name": "National Museum",
                     "status": "OnTrack",
-                    "detail": "This programme appoints  visual artists to create high-quality art works for the National Museum in Bloemfontein, and also supports proposals for public art installations. The calls for proposals closed in August 2023 - implementation will roll out from early 2024."
+                    "detail": "This programme appoints  visual artists to create high-quality art works for the National Museum in Bloemfontein, and also supports proposals for public art installations. The calls for proposals closed in August 2023 - implementation rolled out from early 2024."
                   }
                 },
                 {
                   "name": "National Heritage Council",
                   "metric_type": "count",
-                  "value": 2399,
+                  "value": 4104,
                   "dimensions": [
                     {
                       "name": "Livelihoods supported by province",
@@ -20236,6 +20289,12 @@
                           "value": 2399,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 4104,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -20247,13 +20306,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.36,
+                          "value": 0.34,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.64,
+                          "value": 0.66,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -20307,7 +20366,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -20825,7 +20884,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21082,7 +21141,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21369,7 +21428,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21638,7 +21697,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -21657,7 +21716,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 90834.0,
+                  "value": 102189.0,
                   "dimensions": [],
                   "value_target": 50000.0,
                   "implementation_detail": null
@@ -21673,7 +21732,7 @@
                 {
                   "name": "Social Employment Fund",
                   "metric_type": "count",
-                  "value": 90834,
+                  "value": 102189,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -21682,55 +21741,55 @@
                       "values": [
                         {
                           "key": "EC",
-                          "value": 11843,
+                          "value": 19193,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "FS",
-                          "value": 4606,
+                          "value": 6190,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "GP",
-                          "value": 9211,
+                          "value": 18023,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "KZN",
-                          "value": 7896,
+                          "value": 13068,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "LP",
-                          "value": 9211,
+                          "value": 11491,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "MP",
-                          "value": 2632,
+                          "value": 4150,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "NW",
-                          "value": 4606,
+                          "value": 5122,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "NC",
-                          "value": 4606,
+                          "value": 7124,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "WC",
-                          "value": 11185,
+                          "value": 17713,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -21843,6 +21902,12 @@
                           "value": 90834,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 102189,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -21854,13 +21919,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.35,
+                          "value": 0.32,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.65,
+                          "value": 0.68,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -21874,7 +21939,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.89,
+                          "value": 0.65,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -21921,7 +21986,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22216,7 +22281,7 @@
       "phases": [
         {
           "phase_num": 0,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22585,7 +22650,7 @@
         },
         {
           "phase_num": 1,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22834,7 +22899,7 @@
         },
         {
           "phase_num": 2,
-          "month": "202312",
+          "month": "202403",
           "target_lines": [],
           "achievement_lines": [],
           "sections": [
@@ -22853,7 +22918,7 @@
                 {
                   "name": "Beneficiaries",
                   "metric_type": "count",
-                  "value": 13656.0,
+                  "value": 22364.0,
                   "dimensions": [],
                   "value_target": 20000.0,
                   "implementation_detail": null
@@ -22869,7 +22934,7 @@
                 {
                   "name": "PYEI/ National Youth Service",
                   "metric_type": "count",
-                  "value": 13656,
+                  "value": 22364,
                   "dimensions": [
                     {
                       "name": "Opportunities in post by Province",
@@ -23039,6 +23104,12 @@
                           "value": 13656,
                           "value_target": null,
                           "multiplicity": 1
+                        },
+                        {
+                          "key": "202403",
+                          "value": 22364,
+                          "value_target": null,
+                          "multiplicity": 1
                         }
                       ],
                       "data_missing": false
@@ -23050,13 +23121,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.32,
+                          "value": 0.3097,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 0.68,
+                          "value": 0.69,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -23070,7 +23141,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 0.99,
+                          "value": 1.0,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -23082,7 +23153,7 @@
                   "implementation_detail": {
                     "programme_name": "PYEI/ National Youth Service",
                     "status": "OnTrack",
-                    "detail": "The revitalised Youth Service is now in its second phase, now being implemented by the NYDA. Over 14,000 participants from the first phase have transitioned into employment, self-employment and/or education activities."
+                    "detail": "The revitalised Youth Service is completing its second phase,  implemented by the NYDA. Over 14,000 participants from the first phase have transitioned into employment, self-employment and/or education activities."
                   }
                 }
               ],
