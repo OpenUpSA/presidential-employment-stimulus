@@ -76,7 +76,7 @@ The list of valid months and corresponding columns in the Trends sheet is in `py
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
-Update the end date of phases in `src/index.html`. There are in `class="feature-value__phase-label"` and `class="phase-legend__text"` on lines 269 and 202.
+Update the end date of phases in `src/index.html`. They are in `class="feature-value__phase-label"` and `class="phase-legend__text"` on lines 269 and 202.
 
 If the "number of direct participants" needs to be changed, this is in `src/js/viz-phased.js` (line 58).
 

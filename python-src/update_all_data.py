@@ -26,6 +26,7 @@ if __name__ == '__main__':
     parser.add_argument('--phase1_excel', default="input/sheet1.xlsx")
     parser.add_argument('--phase2_excel', default='input/sheet2.xlsx')
     parser.add_argument('--phase3_excel', default="input/sheet3.xlsx")
+    parser.add_argument('--phase4_excel', default="input/sheet4.xlsx")
     parser.add_argument('--output_dir', default='data')
     parser.add_argument('--output_filename', default='all_data.json')
     args = parser.parse_args()
@@ -42,6 +43,7 @@ if __name__ == '__main__':
     phase1_departments,
     phase2_departments,
     phase3_departments,
+    phase4_departments,
     targets_df,
     trends_df,
     provincial_df,
@@ -53,15 +55,15 @@ if __name__ == '__main__':
     sprf_phase1_row,
     sprf_phase2_row,
     department_budget_targets,
-    total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel)
+    total_budgets) = load_sheets(args.phase1_excel, args.phase2_excel, args.phase3_excel, args.phase4_excel)
 
-    department_names = list(set(phase1_departments).union(phase2_departments).union(phase3_departments))
+    department_names = list(set(phase1_departments).union(phase2_departments).union(phase3_departments).union(phase4_departments))
 
     leads = description_df.lead.to_dict()
     paragraphs = description_df.paragraph.to_dict()
 
     ## Compute per department data structures
-    (all_data_departments, sprf_targets, dpwi_target) = compute_all_data_departments(phase1_departments, phase2_departments, phase3_departments,
+    (all_data_departments, sprf_targets, dpwi_target) = compute_all_data_departments(phase1_departments, phase2_departments, phase3_departments, phase4_departments,
                                                     implementation_status_df, demographic_df, description_df,
                                                     targets_df, trends_df, department_names, provincial_df,
                                                     cities_df, universities_df, leads, paragraphs,
@@ -122,7 +124,7 @@ if __name__ == '__main__':
     # version of dataclasses-json core.py (https://github.com/pvanheus/dataclasses-json/blob/master/dataclasses_json/core.py)
     # see this PR: https://github.com/lidatong/dataclasses-json/pull/352
     output_filename = args.output_dir + "/" + args.output_filename
-    open(output_filename, "w").write(all_data.to_json(indent=2))
+    open(output_filename, "w").write(all_data.to_json(indent=2, default=str))
     phase_dates_file = args.output_dir + "/" + "phase_dates.json"
-    open(phase_dates_file, "w").write(json.dumps(phase_dates, indent=2))
+    open(phase_dates_file, "w").write(json.dumps(phase_dates, indent=2, default=str))
     print("DONE")    

@@ -54,7 +54,14 @@ months = [
     "202312",
     "202401",
     "202402",
-    "202403"
+    "202403",
+
+    "202404",
+    "202405",
+    "202406",
+    "202407",
+    "202408",
+    "202409"
 ]
 
 month_names = [
@@ -99,10 +106,17 @@ month_names = [
     "Dec '23",
     "Jan '24",
     "Feb '24",
-    "Mar '24"
+    "Mar '24",
+
+    "Apr '24",
+    "May '24",
+    "Jun '24",
+    "Jul '24",
+    "Aug '24",
+    "Sep '24",
 ]
 # the last column index of the achievements (i.e. Trends) sheets (one number per phase)
-total_achievement_column = [20, 17, 19]
+total_achievement_column = [20, 17, 19, 2]
 
 # achievement_columns = [slice(2, 11), slice(2,6)]
 month_lookup = [
@@ -164,11 +178,19 @@ month_lookup = [
         "march": "202303",
         "dec.2": "202312",
         "march.1": "202403"
+    },
+    {   # this is not really used anymore since we don't report time series data - included for completeness 
+        "april": "202404",
+        "may": "202405",
+        "june": "202406",
+        "july": "202407",
+        "august": "202408",
+        "september": "202409"
     },  
 ]
 
-number_of_phases = 3
-phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202403"]]
+number_of_phases = 4
+phase_dates = [["202010", "202203"], ["202204", "202303"], ["202304", "202403"], ["202404", "202409"]]
 
 # Completed: October 20202 - March 2022
 # Current: April 2021 - Current
@@ -180,37 +202,12 @@ def in_phase(phase_num, month):
             return True
     return False
 
-
-# target_to_imp_programme_mapping = {
-#     "Banking with art, connecting Lives - National Museum Bloemfontein": " Banking with art, connecting Lives - National Museum Bloemfontein",
-#     "CSIR - Experiential Training Programme": "CSIR - Experiential Training Programme ",
-#     "Community Health Workers": "Community health workers",
-#     "Covid-19 Return-To-Play - National Sport Federations": "Covid-19 Return-To-Play - National Sport Federations                                                                                                                                    ",
-#     "Digitisation of records - National Library of South Africa": "Digitisation of records - National Library of South Africa ",
-#     "Facilities Management": "Facilities Management (PMTE) Employment: ",
-#     "In-House Construction projects": "In-House Construction projects ",
-#     "Job retention at fee paying schools": "Retain vulnerable teaching posts",
-#     "Municipal infrastructure": "Mainstream labour intensive construction methods",
-#     "Outreach Team Leaders": "Outreach team leaders",
-#     "Oceans and Coast: Source to Sea": "Oceans and Coast: Source to Sea ",
-#     "Provincial Roads Maintenance": "Rural roads maintenance",
-#     "Real Estate": "Real Estate  (PMTE)",
-#     "Services sector development incentives": "Global Business Services Sector",
-#     "Subsistence relief fund": "Subsistence producer relief fund",
-#     "Retention of social workers": "Social workers",
-#     "Vegetables and Fruits": "Vegetables and Fruits ",
-#     "WRC - Water Graduate Employment Programme": " WRC - Water Graduate Employment Programme ",
-#     "Water and Energy Efficiency": "Water and Energy Efficiency (Green Economy)",
-#     "Water and Sanitation Facilities Management": "Water and Sanitation Facilities Management (PMTE)",
-#     "Welisizwe Rural Bridges Programme": "Welisizwe Rural Bridges Programme (PMTE) ",
-# }
-
 strip_ws = lambda iterable: [pn.strip() for pn in iterable]
 
 # code imported from notebook
 
-def load_sheets(phase1_excel, phase2_excel, phase3_excel):
-    """Reads in the phase1, phase2 and phase3 Excel files and extracts:
+def load_sheets(phase1_excel, phase2_excel, phase3_excel, phase4_excel):
+    """Reads in the phase1, phase2, phase3, and phase4 Excel files and extracts:
     * opportunity_targets_df - complete Targets sheet
     * opportunity_achievements_df - complete Trends sheet
     * implementation_status_df - Implementation Status
@@ -218,6 +215,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     * phase1_departments - department names that are in phase 1
     * phase2_departments - department names that are in phase 2
     * phase3_departments - department names that are in phase 3
+    * phase4_departments - department names that are in phase 4
     * targets_df - just the per department Targets
     * trends_df - the per department Trends
     * provincial_df - provincial breakdowns
@@ -250,16 +248,20 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         pd.read_excel(phase3_excel, sheet_name="Targets", header=None).fillna(0)
     )
 
+    opportunity_targets_df.append(
+        pd.read_excel(phase4_excel, sheet_name="Targets", header=None).fillna(0)
+    )
+
     # Opportunity Achievements: the "Trends" tab
     opportunity_achievements_df = []
-    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+    for sheet in (phase1_excel, phase2_excel, phase3_excel, phase4_excel):
         opportunity_achievements_df.append(
             pd.read_excel(sheet, sheet_name="Trends", header=None).fillna(0)
         )
 
     # Implementation Status: the "Implementation status" tab
     implementation_status_df = []
-    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+    for sheet in (phase1_excel, phase2_excel, phase3_excel, phase4_excel):
         implementation_status_df.append(
             pd.read_excel(
                 sheet,
@@ -288,11 +290,19 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         index_col=0,
     ).dropna()
 
+    description_df = pd.read_excel(
+        phase4_excel,
+        sheet_name="Department Descriptions",
+        names=["key", "lead", "paragraph", "Data captured until"],
+        usecols=range(4),
+        index_col=0,
+    ).dropna()
+
     # department budgets taken from the "Department Description" tab
     department_budget_targets = []
     total_budgets = []
     
-    for (sheet, budget_col) in ((phase1_excel, 7), (phase2_excel, 4), (phase3_excel, 4)):
+    for (sheet, budget_col) in ((phase1_excel, 7), (phase2_excel, 4), (phase3_excel, 4), (phase4_excel, 4)):
         budget_targets = pd.read_excel(
             sheet,
             sheet_name="Department Descriptions",
@@ -335,11 +345,18 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         .iloc[:-1]
     )
 
+    phase4_departments = set(
+        pd.read_excel(phase4_excel, sheet_name="Targets", skiprows=1)
+        .loc[:, "Department"]
+        .dropna()
+        .iloc[:-1]
+    )
+
     # targets df: the "Targets" tab (again)
     # TODO: figure out why both targets_df and opportunity_targets_df are needed
     targets_df = []
     phase_num = 1
-    for (sheet, sections) in ((phase1_excel, ["CRE", "LIV", "RET"]), (phase2_excel, ["CRE", "LIV"]), (phase3_excel, ["CRE", "LIV"])):
+    for (sheet, sections) in ((phase1_excel, ["CRE", "LIV", "RET"]), (phase2_excel, ["CRE", "LIV"]), (phase3_excel, ["CRE", "LIV"]), (phase4_excel, ["CRE", "LIV"])):
         targets_df.append(
             pd.read_excel(
                 sheet,
@@ -365,7 +382,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     # trends_df: the longitudinal data in the "Trends" tab
     trends_df = []
     phase_index = 0
-    for (sheet, skiprows) in ((phase1_excel, 5), (phase2_excel, 4), (phase3_excel, 4)):
+    for (sheet, skiprows) in ((phase1_excel, 5), (phase2_excel, 4), (phase3_excel, 4), (phase4_excel, 4)):
         trends_df.append(
             pd.read_excel(
                 sheet,
@@ -380,14 +397,10 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         trends_df[i].columns = [c.lower() for c in trends_df[i].columns]
         trends_df[i].department = trends_df[i].department.ffill()
         trends_df[i] = trends_df[i].fillna(0)
-        # if i == 1:
-        #     # TODO: document why we drop the october column from phase2 trends
-        #     # NOTE: 24 August 2023 - this has become unnecessary because of the new phase2 format
-        #     trends_df[i] = trends_df[i].drop("oct", axis=1)
 
     # provincial_df: the provincial breakdowns in the "Provincial (beneficiaries)" tab
     provincial_df = []
-    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+    for sheet in (phase1_excel, phase2_excel, phase3_excel, phase4_excel):
         provincial_df.append(
             pd.read_excel(
                 sheet,
@@ -408,48 +421,10 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
     # cities and universities dimensions have been deprecated - August 2023
     cities_df = [None] * number_of_phases
     universities_df = [None] * number_of_phases
-    # cities_df = [
-    #     None,
-    #     pd.read_excel(
-    #         phase2_excel,
-    #         sheet_name="Cities (beneficiaries)",
-    #         skiprows=4,
-    #         usecols=list(range(12)),  # adjust if number of cities changes
-    #     ),
-    # ]
-    # for i in range(len(cities_df)):
-    #     if cities_df[i] is None:
-    #         continue
-    #     cities_df[i].columns = [
-    #         c.lower().replace(" ", "_") for c in cities_df[i].columns
-    #     ]
-    #     cities_df[i].department = cities_df[i].department.fillna(method="pad")
-    #     cities_df[i] = cities_df[i].fillna(0)
-
-    # universities_df = [
-    #     None,
-    #     pd.read_excel(
-    #         phase2_excel,
-    #         sheet_name="Universities (beneficiaries)",
-    #         skiprows=4,
-    #         usecols=list(range(26)),  # adjust if number of universities changes - this is number of unis + 2
-    #     ),
-    # ]
-    # for i in range(len(universities_df)):
-    #     if universities_df[i] is None:
-    #         continue
-    #     universities_df[i].columns = [
-    #         c.lower().replace(" ", "_").replace("-", "_")
-    #         for c in universities_df[i].columns
-    #     ]
-    #     universities_df[i].department = universities_df[i].department.fillna(
-    #         method="pad"
-    #     )
-    #     universities_df[i] = universities_df[i].fillna(0)
 
     # demographic_df: the demographic breakdowns in the "Demographic data" tab
     demographic_df = []
-    for (sheet, skiprows, usecols) in ((phase1_excel, 8, 9), (phase2_excel, 9, 11), (phase3_excel, 9, 11)):    
+    for (sheet, skiprows, usecols) in ((phase1_excel, 8, 9), (phase2_excel, 9, 11), (phase3_excel, 9, 11), (phase4_excel, 9, 11)):    
         demographic_df.append(
             pd.read_excel(
                 sheet,
@@ -469,7 +444,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
 
     # achievement_totals_df: the totals in the "Demographic data" tab
     achievement_totals_df = []
-    for sheet in (phase1_excel, phase2_excel, phase3_excel):
+    for sheet in (phase1_excel, phase2_excel, phase3_excel, phase4_excel):
         achievement_totals_df.append(
             pd.read_excel(
                 sheet,
@@ -490,6 +465,7 @@ def load_sheets(phase1_excel, phase2_excel, phase3_excel):
         phase1_departments,
         phase2_departments,
         phase3_departments,
+        phase4_departments,
         targets_df,
         trends_df,
         provincial_df,
@@ -569,6 +545,7 @@ def compute_all_data_departments(
     phase1_departments,
     phase2_departments,
     phase3_departments,
+    phase4_departments,
     implementation_status_df,
     demographic_df,
     description_df,
@@ -606,8 +583,9 @@ def compute_all_data_departments(
                 continue
             elif phase_num == 2 and (not department_name in phase3_departments):
                 continue
+            elif phase_num == 3 and (not department_name in phase4_departments):
+                continue
             department_implementation_details = []
-            # print("PHASE", phase_num, trends_df[phase_num].loc[trends_df[phase_num].department == department_name].iloc[:, -1])
             target_section = Section(
                 name=section_titles[SectionEnum.targets.name],
                 section_type=SectionEnum.targets.name,
@@ -1695,43 +1673,4 @@ def compute_overview(
         ],
     )
 
-    # overview.sections.insert(
-    #     0,
-    #     Section(
-    #         name=section_titles[SectionEnum.targets.name + "_overview"],
-    #         section_type=SectionEnum.targets.name,
-    #         metrics=[
-    #             Metric(
-    #                 name=metric_titles[SectionEnum.targets.name][
-    #                     MetricTypeEnum.currency.name
-    #                 ],
-    #                 metric_type=MetricTypeEnum.currency.name,
-    #                 dimensions=[],
-    #                 # value=int(opportunity_targets_df.iloc[2, 7] * 1000),
-    #                 value=0,
-    #                 value_target=(opportunity_targets_df.iloc[2, 6] * 1000),
-    #             ),
-    #             Metric(
-    #                 name=metric_titles[SectionEnum.targets.name][MetricTypeEnum.count.name],
-    #                 metric_type=MetricTypeEnum.count.name,
-    #                 dimensions=[],
-    #                 value=int(
-    #                     opportunity_achievements_df.iloc[59, total_achievement_column]
-    #                 ),
-    #                 value_target=int(opportunity_targets_df.iloc[56, 2]),
-    #             ),
-    #             Metric(
-    #                 name="Opportunities in process",
-    #                 metric_type=MetricTypeEnum.count.name,
-    #                 dimensions=[],
-    #                 value_target=int(opportunity_achievements_df.iloc[2, 1]),
-    #                 value=0,
-    #             ),
-    #         ],
-    #         value=None,
-    #         value_target=None,
-    #     ),
-    # )
-
-    # # print(overview.to_json(indent=2))
     return overview
