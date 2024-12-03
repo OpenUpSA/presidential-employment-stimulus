@@ -6,6 +6,19 @@ This repo provides a webpage that is embedded in [stateofthenation.gov.za](https
 
 Data processing is done using Python, website UX design in Webflow, and website dynamics using jQuery and D3.js.
 
+### Requirements
+
+- miniconda3
+- yarn
+
+Then:
+```
+conda env create -f environment.yml
+conda activate pes
+yarn
+yarn dev
+```
+
 ### Structure of the spreadsheet file
 
 **NOTE:** Read this is you are updating the spreadsheet used as input for the website.
