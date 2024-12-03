@@ -114,3 +114,4 @@ python-src/__pycache__/
 python-src/.ipynb_checkpoints/
 
 .DS_Store
+input/*.xlsx
