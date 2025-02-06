@@ -82,9 +82,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8423715775733598,
-              "1": 0.4397110804487372
+              "1": 0.65
             },
-            "total_value": 0.6410413290110485,
+            "total_value": 0.72,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
