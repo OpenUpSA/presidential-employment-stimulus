@@ -34,9 +34,9 @@
             "metric_type": "currency",
             "value": [
               41988178000.0,
-              3381000000000.0
+              2252130000000.0
             ],
-            "total_value": 3422988178000.0,
+            "total_value": 2294118178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -68,9 +68,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.6573794475082682,
-              "1": 67.81424619273636
+              "1": 0.6781424619273637
             },
-            "total_value": 34.23581282012231,
+            "total_value": 0.6677609547178159,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -82,9 +82,9 @@
             "metric_type": "targets_count",
             "value": {
               "0": 0.8423715775733598,
-              "1": 43.971108044873716
+              "1": 0.4397110804487372
             },
-            "total_value": 22.406739811223538,
+            "total_value": 0.6410413290110485,
             "viz": "compact",
             "dimensions": [],
             "value_target": -1,
@@ -11281,13 +11281,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.0,
+                          "value": 0.34,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 66.0,
+                          "value": 0.66,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -11301,7 +11301,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 52.0,
+                          "value": 0.52,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -22894,7 +22894,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 1130000000000.0,
+                  "value_target": 1130000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -23001,13 +23001,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.0,
+                          "value": 0.31,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 69.0,
+                          "value": 0.69,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -23021,7 +23021,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 62.0,
+                          "value": 0.62,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -24382,13 +24382,13 @@
                       "values": [
                         {
                           "key": "Male",
-                          "value": 0.0,
+                          "value": 0.33,
                           "value_target": null,
                           "multiplicity": 1
                         },
                         {
                           "key": "Female",
-                          "value": 67.0,
+                          "value": 0.67,
                           "value_target": null,
                           "multiplicity": 1
                         }
@@ -24402,7 +24402,7 @@
                       "values": [
                         {
                           "key": "18-35",
-                          "value": 100.0,
+                          "value": 1.0,
                           "value_target": null,
                           "multiplicity": 1
                         }
