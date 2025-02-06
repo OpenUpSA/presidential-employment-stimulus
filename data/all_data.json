@@ -34,9 +34,9 @@
             "metric_type": "currency",
             "value": [
               41988178000.0,
-              2252130000000.0
+              3381000000.0
             ],
-            "total_value": 2294118178000.0,
+            "total_value": 45369178000.0,
             "viz": "full",
             "dimensions": [],
             "value_target": [
@@ -4483,7 +4483,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 750000000000.0,
+                  "value_target": 750000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -11174,7 +11174,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 650000000000.0,
+                  "value_target": 650000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -21040,7 +21040,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 351000000000.0,
+                  "value_target": 351000000.0,
                   "implementation_detail": null
                 },
                 {
@@ -24275,7 +24275,7 @@
                   "metric_type": "currency",
                   "value": -1,
                   "dimensions": [],
-                  "value_target": 250000000000.0,
+                  "value_target": 250000000.0,
                   "implementation_detail": null
                 },
                 {
