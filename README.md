@@ -6,6 +6,19 @@ This repo provides a webpage that is embedded in [stateofthenation.gov.za](https
 
 Data processing is done using Python, website UX design in Webflow, and website dynamics using jQuery and D3.js.
 
+### Requirements
+
+- miniconda3
+- yarn
+
+Then:
+```
+conda env create -f environment.yml
+conda activate pes
+yarn
+yarn dev
+```
+
 ### Structure of the spreadsheet file
 
 **NOTE:** Read this is you are updating the spreadsheet used as input for the website.
@@ -63,7 +76,7 @@ The list of valid months and corresponding columns in the Trends sheet is in `py
 The months should correspond to the number of columns in the Trends sheet - no more, no less. For lookup on the web interface,
 the `data/lookups.json` should be updated.
 
-Update the end date of phases in `src/index.html`. There are in `class="feature-value__phase-label"` and `class="phase-legend__text"` on lines 269 and 202.
+Update the end date of phases in `src/index.html`. They are in `class="feature-value__phase-label"` and `class="phase-legend__text"` on lines 269 and 202.
 
 If the "number of direct participants" needs to be changed, this is in `src/js/viz-phased.js` (line 58).
 

@@ -9,10 +9,8 @@ export class DepartmentTabs {
         console.assert(this.menuElement.length === 1);
 
         let navTabElement = this.element.find(".tab-link");
-        console.log(this.element.find(".tab-link"));
         this.navTabTemplate = navTabElement.first().clone();
         navTabElement.first().remove();
-        console.log(this.element.find(".tab-link"));
 
         this.tabListElement = this.element.find('.tab-content');
 
@@ -31,7 +29,6 @@ export class DepartmentTabs {
            tabContentElement.attr('data-w-tab', department.abbrev);
            tabContentElement.text('FOO');
            this.tabListElement.append(tabContentElement);
-           console.log("got here", department);
         });
     }
 }

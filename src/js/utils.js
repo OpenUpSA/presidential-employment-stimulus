@@ -2,14 +2,15 @@ export function formatCount(valueIn, short) {
   const value = Number(valueIn);
   let valueOut;
   if (value > 999999) {
-    const minDigits =  (Math.floor(value) === value) ? 0 : 1;
+    const minDigits =  (Math.ceil(value) === value) ? 0 : 1;
+    const roundedValue = Math.ceil(value / 100000) * 100000;
     const display = short ? 'short' : 'long';
     valueOut = new Intl.NumberFormat('en', {
       minimumFractionDigits: minDigits,
       maximumFractionDigits: 1,
       notation: 'compact',
       compactDisplay: display,
-    }).format(value);
+    }).format(roundedValue);
   } else {
     valueOut = value.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
   }
