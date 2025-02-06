@@ -22,7 +22,7 @@ export class Header {
   render() {
     const $phaseStatus = $phaseStatusTemplate.clone(true, true);
     const $el = $template.clone(true, true);
-    const month_text = (this._months_text) ? "Data captured up until " + this._months_text : '';
+    const month_text = (this._months_text) ? "Data captured up until December 2024" : '';
 
     $el.find('.phase-status').remove();
 
